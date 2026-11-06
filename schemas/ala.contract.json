@@ -533,6 +533,60 @@
       },
       "references": []
     },
+    "Figure": {
+      "attributes": {
+        "alternate_names": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "details": {},
+        "first_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "last_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "name": {
+          "type": "string"
+        },
+        "name_segments": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "nicknames": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "short_name": {
+          "type": "string"
+        },
+        "sort_name": {
+          "type": "string"
+        },
+        "source": {}
+      },
+      "references": []
+    },
     "Game": {
       "attributes": {
         "begin_date": {
@@ -895,18 +949,6 @@
         "team"
       ]
     },
-    "Person": {
-      "attributes": {
-        "details": {},
-        "name": {
-          "type": "string"
-        },
-        "source": {}
-      },
-      "references": [
-        "player"
-      ]
-    },
     "Player": {
       "attributes": {
         "active": {
@@ -994,17 +1036,10 @@
           ]
         },
         "nicknames": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "type": "string"
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
         },
         "photo_urls": {
           "anyOf": [
@@ -1023,6 +1058,7 @@
       "references": [
         "birth_city",
         "birth_country",
+        "figure",
         "sport",
         "team"
       ]
@@ -1344,8 +1380,8 @@
         }
       },
       "references": [
+        "figure",
         "organization",
-        "person",
         "team"
       ]
     },

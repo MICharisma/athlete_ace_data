@@ -74,7 +74,11 @@ class Sports2026Builder
   def bind_alias(type, canonical, alias_code)
     return if @known[alias_code] == canonical
     raise "Conflicting identity alias #{alias_code}" if @known.key?(alias_code)
-    row = @records[canonical] ||= { "type" => type, "code" => canonical, "attributes" => {}, "references" => {} }
+    row = @records[canonical] ||= begin
+      existing = @existing.find { |record| record.code == canonical }
+      { "type" => type, "code" => canonical, "attributes" => existing.attributes,
+        "references" => existing.scope.slice("sport", "figure").merge(existing.references), "source" => existing.source }
+    end
     row["aliases"] ||= []
     row["aliases"] |= [ alias_code ]
     @known[alias_code] = canonical

@@ -26,3 +26,9 @@ Passing these checks verifies document structure, catalog field names/types, and
 Use `PlayerGroup` for a named list and `PlayerGroupMembership` for each explicit player. See [the Brunson/Hart example](yaml/player_groups/knicks_names.yaml). References use `player_group` and `player` codes. Members can be inactive or belong to different teams or sports. Groups do not evaluate queries or infer starter status.
 
 Import replay preserves edited group fields, adds missing memberships, and does not remove memberships omitted from a manifest. Removing a seeded member requires both a manifest edit and an explicit removal from the application.
+
+## Figure identities
+
+Use `Figure` for a shared identity and its names. Player and StaffTenure records refer to it through `references.figure` or inherited `scope.figure`. See [Steve Kerr's athletic and staff history](yaml/figures/steve_kerr.yaml).
+
+Use `FIGURE-` for provisional Figure codes. Do not use `Person`, `person` references, or reverse Figure-to-Player references. Player records can still supply name attributes when they do not need an explicitly shared Figure.

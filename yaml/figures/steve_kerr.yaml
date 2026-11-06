@@ -5,17 +5,16 @@ records:
   - type: Player
     code: PLAYER-KERR_STEVE
     attributes:
-      first_name: Steve
-      last_name: Kerr
       active: false
     references:
       sport: SPORT-BKT
-  - type: Person
-    code: PERSON-KERR_STEVE
+      figure: FIGURE-KERR_STEVE
+  - type: Figure
+    code: FIGURE-KERR_STEVE
     attributes:
       name: Steve Kerr
-    references:
-      player: PLAYER-KERR_STEVE
+      first_name: Steve
+      last_name: Kerr
   - type: Organization
     code: ORGANIZATION-TNT
     attributes:
@@ -35,7 +34,7 @@ records:
         coverage: NBA
         note: The source dates his initial broadcasting role to 2003. It does not date its end or distinguish later return tenures.
     references:
-      person: PERSON-KERR_STEVE
+      figure: FIGURE-KERR_STEVE
       organization: ORGANIZATION-TNT
   - type: StaffTenure
     code: APPOINTMENT-KERR_STEVE-GSW-2014_05_19
@@ -49,6 +48,6 @@ records:
         title: Steve Kerr biography, NBA Coaches Association
         captured_on: '2026-10-25'
     references:
-      person: PERSON-KERR_STEVE
+      figure: FIGURE-KERR_STEVE
       organization: BKT-NBA-ORG-GSW
       team: BKT-NBA-TEAM-GSW

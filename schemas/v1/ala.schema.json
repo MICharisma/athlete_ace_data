@@ -956,6 +956,75 @@
         {
           "properties": {
             "type": {
+              "const": "Figure"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "alternate_names": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "details": {},
+                "first_name": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "last_name": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "name": {
+                  "type": "string"
+                },
+                "name_segments": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "nicknames": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "short_name": {
+                  "type": "string"
+                },
+                "sort_name": {
+                  "type": "string"
+                },
+                "source": {}
+              },
+              "required": [],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {},
+              "required": [],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
               "const": "Game"
             },
             "attributes": {
@@ -1265,6 +1334,65 @@
         {
           "properties": {
             "type": {
+              "const": "Membership"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "active": {
+                  "anyOf": [
+                    {
+                      "type": "boolean"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "end_date": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "format": "date"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "start_date": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "format": "date"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {
+                "division": {
+                  "$ref": "#/$defs/reference"
+                },
+                "team": {
+                  "$ref": "#/$defs/reference"
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
               "const": "Organization"
             },
             "attributes": {
@@ -1388,35 +1516,6 @@
         {
           "properties": {
             "type": {
-              "const": "Person"
-            },
-            "attributes": {
-              "type": "object",
-              "properties": {
-                "details": {},
-                "name": {
-                  "type": "string"
-                },
-                "source": {}
-              },
-              "required": [],
-              "additionalProperties": false
-            },
-            "references": {
-              "type": "object",
-              "properties": {
-                "player": {
-                  "$ref": "#/$defs/reference"
-                }
-              },
-              "required": [],
-              "additionalProperties": false
-            }
-          }
-        },
-        {
-          "properties": {
-            "type": {
               "const": "Player"
             },
             "attributes": {
@@ -1507,17 +1606,10 @@
                   ]
                 },
                 "nicknames": {
-                  "anyOf": [
-                    {
-                      "type": "array",
-                      "items": {
-                        "type": "string"
-                      }
-                    },
-                    {
-                      "type": "null"
-                    }
-                  ]
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
                 },
                 "photo_urls": {
                   "anyOf": [
@@ -1543,6 +1635,9 @@
                   "$ref": "#/$defs/reference"
                 },
                 "birth_country": {
+                  "$ref": "#/$defs/reference"
+                },
+                "figure": {
                   "$ref": "#/$defs/reference"
                 },
                 "sport": {
@@ -2012,10 +2107,10 @@
             "references": {
               "type": "object",
               "properties": {
-                "organization": {
+                "figure": {
                   "$ref": "#/$defs/reference"
                 },
-                "person": {
+                "organization": {
                   "$ref": "#/$defs/reference"
                 },
                 "team": {
