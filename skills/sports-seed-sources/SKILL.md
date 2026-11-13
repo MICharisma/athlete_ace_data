@@ -17,7 +17,7 @@ Load only the reference for the provider you need:
 | --- | --- | --- |
 | NHL web API | NHL season rosters, full schedules | `references/nhl.md` |
 | MLB Stats API | MLB teams, full-season inventories, venues | `references/mlb.md` |
-| ESPN site API | NBA, NFL, MLS, EPL, UCL rosters; season schedules; logos | `references/espn.md` |
+| ESPN site API | NBA, NFL, MLS, EPL, UCL, NCAA basketball rosters; season schedules; logos | `references/espn.md` |
 | Basketball Reference | Historical NBA appearance unions | `references/basketball-reference.md` |
 | Official club pages | Logos, kits, uniforms, announcements | `references/club-pages.md` |
 

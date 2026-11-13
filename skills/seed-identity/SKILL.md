@@ -50,6 +50,12 @@ Generators keep a bindings record mapping `(provider, source_id) → code` with 
 
 Name matching happens only in generators, and only when unambiguous. The database importer never matches by name or abbreviation. Ambiguous matches fail generation and need a human decision recorded in the registry.
 
+## Levels and genders
+
+- Men's and women's competitions are separate Leagues with separate Teams (NBA/WNBA; `BKT-LEAGUE-NCAA_D1_MEN`/`_WOMEN`). One school's two programs are two Teams.
+- Don't match college players to professional players by name. Link them only through a shared provider ID. ESPN athlete IDs carry over to the pros, so `BKT-ESPN-PLAYER_{id}` aliases make that link.
+- In a league with conferences but no divisions (most of NCAA), the Membership references `league` and `conference` only.
+
 ## Homonyms and collisions
 
 - Two different people with one name keep distinct codes, disambiguated by provider ID: `HCK-NHL-PLAYER-PETTERSSON_ELIAS_SOURCE_8480012` and `…_SOURCE_8483678`.

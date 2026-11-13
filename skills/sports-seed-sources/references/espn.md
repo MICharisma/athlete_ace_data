@@ -33,3 +33,12 @@ NBA and NHL use the **ending** year (2026/27 → `2027`). NFL uses the calendar 
 - `team.franchise.venue` is stale (Warriors → Oracle Arena, Clippers → Crypto.com Arena, Nets → Newark, Winnipeg → Atlanta). Use season schedules for venues; never fall back to the franchise field.
 
 For historical NBA participation use Basketball Reference instead.
+
+## College basketball
+
+- Sports paths are `basketball/mens-college-basketball` and `basketball/womens-college-basketball`. Team IDs are shared across the two (Harvard is `108` in both).
+- Seasons use the **ending** year (2026-27 → `2027`).
+- Select a conference with `/groups`: find `NCAA Division I`, then the conference child, and read its `teams`. The Ivy League's group ID is `12`.
+- **The `teams?groups=…` filter is ignored**: it returned 100 unrelated teams, and Brown and Penn were missing. Never build a conference list from that endpoint.
+- `shortDisplayName` gives the name schools use ("Penn"); `location` can give the formal name ("Pennsylvania").
+- Check each roster against the school's official page. See `club-pages.md` and the worked example in `sources/ncaa_ivy_2026/README.md`.

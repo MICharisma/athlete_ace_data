@@ -20,6 +20,17 @@ Club news pages establish an event and its publication date — the Blues' March
 - The Premier League stadium guide corroborates grounds and localities (City Ground → West Bridgford).
 - Club media guides (e.g. Buffalo's 2024 NFL media guide) can establish venue moves.
 
+## College athletics sites (Sidearm)
+
+Most schools' roster pages live at `/sports/{mens,womens}-basketball/roster/{YYYY-YY}`. Two templates exist:
+
+- **Classic**: embeds the roster as schema.org `Person` items in `application/ld+json`. This allows a check in both directions: ESPN-only players and official-only players.
+- **Newer**: a Nuxt page without structured roster data. Confirm that each provider name appears in the page text, and record that extra official names can't be detected.
+
+Check the page `<title>` says it's a basketball roster before trusting it. A provider-listed player who is missing from the official page is a discrepancy: keep the observation, but withhold the Activation and number.
+
 ## Unavailable
+
+Harvard's `gocrimson.com` returned an Incapsula bot-protection page (a tiny HTML body with `_Incapsula_Resource`). Record it as unavailable.
 
 NBA Store product pages and the LockerVision uniform API blocked or refused capture. Record them as unavailable; do not work around them.

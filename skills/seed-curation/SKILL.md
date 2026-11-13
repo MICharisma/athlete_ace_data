@@ -49,6 +49,9 @@ The data repository (`athlete_ace_data`) is mounted at `db/seeds/athlete_ace_dat
 Add to this list when a batch reveals a cross-cutting trap; source-specific traps go in the relevant skill.
 
 - Treating a season-shaped URL or echoed year as proof of historical data. Always check a known historical player or transfer.
+- Trusting a provider's filter parameter (ESPN `teams?groups=`) without counting the result against the known membership.
+- Forgetting that `CurrentTeamImporter` assigns a current team from roster entries as well as activations. A RosterEntry kept for an unconfirmed player still gives that player a current team.
+- Reading captures without `encoding: "UTF-8"`. The default can be US-ASCII, which fails on accented names.
 - Expecting `db:seed` to apply refreshed values. Preservation keeps old values; explicit tasks (e.g. `seeds:refresh_nhl_schedule`) or reconciliation are required.
 
 ## References
