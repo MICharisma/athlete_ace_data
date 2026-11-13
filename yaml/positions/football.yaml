@@ -1,0 +1,174 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+source:
+  note: Football position vocabulary. Abbreviations match the ESPN NFL roster positions
+    in sources/coverage_2026/nfl.json; Offense, Defense and Special Teams, OL and
+    DB group them.
+records:
+- type: Position
+  code: FTB-POSITION-OFF
+  attributes:
+    name: Offense
+    abbreviation: 'OFF'
+  references:
+    sport: SPORT-FTB
+- type: Position
+  code: FTB-POSITION-DEF
+  attributes:
+    name: Defense
+    abbreviation: DEF
+  references:
+    sport: SPORT-FTB
+- type: Position
+  code: FTB-POSITION-ST
+  attributes:
+    name: Special Teams
+    abbreviation: ST
+  references:
+    sport: SPORT-FTB
+- type: Position
+  code: FTB-POSITION-OL
+  attributes:
+    name: Offensive Lineman
+    abbreviation: OL
+  references:
+    sport: SPORT-FTB
+    parent: FTB-POSITION-OFF
+- type: Position
+  code: FTB-POSITION-DB
+  attributes:
+    name: Defensive Back
+    abbreviation: DB
+  references:
+    sport: SPORT-FTB
+    parent: FTB-POSITION-DEF
+- type: Position
+  code: FTB-POSITION-QB
+  attributes:
+    name: Quarterback
+    abbreviation: QB
+  references:
+    sport: SPORT-FTB
+    parent: FTB-POSITION-OFF
+- type: Position
+  code: FTB-POSITION-RB
+  attributes:
+    name: Running Back
+    abbreviation: RB
+  references:
+    sport: SPORT-FTB
+    parent: FTB-POSITION-OFF
+- type: Position
+  code: FTB-POSITION-FB
+  attributes:
+    name: Fullback
+    abbreviation: FB
+  references:
+    sport: SPORT-FTB
+    parent: FTB-POSITION-OFF
+- type: Position
+  code: FTB-POSITION-WR
+  attributes:
+    name: Wide Receiver
+    abbreviation: WR
+  references:
+    sport: SPORT-FTB
+    parent: FTB-POSITION-OFF
+- type: Position
+  code: FTB-POSITION-TE
+  attributes:
+    name: Tight End
+    abbreviation: TE
+  references:
+    sport: SPORT-FTB
+    parent: FTB-POSITION-OFF
+- type: Position
+  code: FTB-POSITION-OT
+  attributes:
+    name: Offensive Tackle
+    abbreviation: OT
+  references:
+    sport: SPORT-FTB
+    parent: FTB-POSITION-OL
+- type: Position
+  code: FTB-POSITION-G
+  attributes:
+    name: Guard
+    abbreviation: G
+  references:
+    sport: SPORT-FTB
+    parent: FTB-POSITION-OL
+- type: Position
+  code: FTB-POSITION-C
+  attributes:
+    name: Center
+    abbreviation: C
+  references:
+    sport: SPORT-FTB
+    parent: FTB-POSITION-OL
+- type: Position
+  code: FTB-POSITION-DE
+  attributes:
+    name: Defensive End
+    abbreviation: DE
+  references:
+    sport: SPORT-FTB
+    parent: FTB-POSITION-DEF
+- type: Position
+  code: FTB-POSITION-DT
+  attributes:
+    name: Defensive Tackle
+    abbreviation: DT
+  references:
+    sport: SPORT-FTB
+    parent: FTB-POSITION-DEF
+- type: Position
+  code: FTB-POSITION-LB
+  attributes:
+    name: Linebacker
+    abbreviation: LB
+  references:
+    sport: SPORT-FTB
+    parent: FTB-POSITION-DEF
+- type: Position
+  code: FTB-POSITION-CB
+  attributes:
+    name: Cornerback
+    abbreviation: CB
+  references:
+    sport: SPORT-FTB
+    parent: FTB-POSITION-DB
+- type: Position
+  code: FTB-POSITION-S
+  attributes:
+    name: Safety
+    abbreviation: S
+  references:
+    sport: SPORT-FTB
+    parent: FTB-POSITION-DB
+- type: Position
+  code: FTB-POSITION-PK
+  attributes:
+    name: Place Kicker
+    abbreviation: PK
+  references:
+    sport: SPORT-FTB
+    parent: FTB-POSITION-ST
+- type: Position
+  code: FTB-POSITION-P
+  attributes:
+    name: Punter
+    abbreviation: P
+  references:
+    sport: SPORT-FTB
+    parent: FTB-POSITION-ST
+- type: Position
+  code: FTB-POSITION-LS
+  attributes:
+    name: Long Snapper
+    abbreviation: LS
+  references:
+    sport: SPORT-FTB
+    parent: FTB-POSITION-ST

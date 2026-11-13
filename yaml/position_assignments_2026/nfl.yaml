@@ -1,0 +1,1880 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+source:
+  url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams?limit=100&season=2026
+  captured_on: '2026-10-26'
+  note: Complete source-listed season roster captured on 2026-10-26; not a complete
+    historical season union or a competition registration certification.
+records:
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_15168-POSITION-QB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_15168
+    position: FTB-POSITION-QB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_17427-POSITION-PK
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_17427
+    position: FTB-POSITION-PK
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_2576492-POSITION-DE
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_2576492
+    position: FTB-POSITION-DE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_2577773-POSITION-G
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_2577773
+    position: FTB-POSITION-G
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_2973405-POSITION-WR
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_2973405
+    position: FTB-POSITION-WR
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_2980138-POSITION-LS
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_2980138
+    position: FTB-POSITION-LS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_3116726-POSITION-DT
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_3116726
+    position: FTB-POSITION-DT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_3116729-POSITION-C
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_3116729
+    position: FTB-POSITION-C
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_3121544-POSITION-LB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_3121544
+    position: FTB-POSITION-LB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_3124058-POSITION-DE
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_3124058
+    position: FTB-POSITION-DE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_3134690-POSITION-DE
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_3134690
+    position: FTB-POSITION-DE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_3892883-POSITION-DT
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_3892883
+    position: FTB-POSITION-DT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_3914397-POSITION-WR
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_3914397
+    position: FTB-POSITION-WR
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_3916577-POSITION-CB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_3916577
+    position: FTB-POSITION-CB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_3930040-POSITION-G
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_3930040
+    position: FTB-POSITION-G
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_3948283-POSITION-TE
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_3948283
+    position: FTB-POSITION-TE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4036032-POSITION-RB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4036032
+    position: FTB-POSITION-RB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4036169-POSITION-CB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4036169
+    position: FTB-POSITION-CB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4036261-POSITION-LB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4036261
+    position: FTB-POSITION-LB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4239094-POSITION-S
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4239094
+    position: FTB-POSITION-S
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4240459-POSITION-CB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4240459
+    position: FTB-POSITION-CB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4240900-POSITION-LB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4240900
+    position: FTB-POSITION-LB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4241007-POSITION-LB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4241007
+    position: FTB-POSITION-LB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4241611-POSITION-LB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4241611
+    position: FTB-POSITION-LB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4242402-POSITION-S
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4242402
+    position: FTB-POSITION-S
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4242659-POSITION-DE
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4242659
+    position: FTB-POSITION-DE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4243253-POSITION-CB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4243253
+    position: FTB-POSITION-CB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4243315-POSITION-RB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4243315
+    position: FTB-POSITION-RB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4245655-POSITION-LB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4245655
+    position: FTB-POSITION-LB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4251007-POSITION-OT
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4251007
+    position: FTB-POSITION-OT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4257364-POSITION-RB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4257364
+    position: FTB-POSITION-RB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4258595-POSITION-TE
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4258595
+    position: FTB-POSITION-TE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4259181-POSITION-DT
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4259181
+    position: FTB-POSITION-DT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4259545-POSITION-RB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4259545
+    position: FTB-POSITION-RB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4360319-POSITION-G
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4360319
+    position: FTB-POSITION-G
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4360335-POSITION-DB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4360335
+    position: FTB-POSITION-DB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4361093-POSITION-CB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4361093
+    position: FTB-POSITION-CB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4361748-POSITION-S
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4361748
+    position: FTB-POSITION-S
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4362103-POSITION-OT
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4362103
+    position: FTB-POSITION-OT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4365629-POSITION-DE
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4365629
+    position: FTB-POSITION-DE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4372418-POSITION-DB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4372418
+    position: FTB-POSITION-DB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4372463-POSITION-DE
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4372463
+    position: FTB-POSITION-DE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4372576-POSITION-LB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4372576
+    position: FTB-POSITION-LB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4379769-POSITION-TE
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4379769
+    position: FTB-POSITION-TE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4426358-POSITION-OT
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4426358
+    position: FTB-POSITION-OT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4426374-POSITION-CB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4426374
+    position: FTB-POSITION-CB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4426386-POSITION-RB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4426386
+    position: FTB-POSITION-RB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4429067-POSITION-CB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4429067
+    position: FTB-POSITION-CB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4429970-POSITION-LB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4429970
+    position: FTB-POSITION-LB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4430822-POSITION-LB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4430822
+    position: FTB-POSITION-LB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4431299-POSITION-WR
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4431299
+    position: FTB-POSITION-WR
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4431580-POSITION-QB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4431580
+    position: FTB-POSITION-QB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4431611-POSITION-QB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4431611
+    position: FTB-POSITION-QB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4432595-POSITION-OT
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4432595
+    position: FTB-POSITION-OT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4432804-POSITION-DT
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4432804
+    position: FTB-POSITION-DT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4434153-POSITION-QB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4434153
+    position: FTB-POSITION-QB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4608686-POSITION-RB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4608686
+    position: FTB-POSITION-RB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4682641-POSITION-S
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4682641
+    position: FTB-POSITION-S
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4683553-POSITION-DE
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4683553
+    position: FTB-POSITION-DE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4684963-POSITION-LB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4684963
+    position: FTB-POSITION-LB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4685183-POSITION-WR
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4685183
+    position: FTB-POSITION-WR
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4685278-POSITION-WR
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4685278
+    position: FTB-POSITION-WR
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4685504-POSITION-TE
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4685504
+    position: FTB-POSITION-TE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4686889-POSITION-P
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4686889
+    position: FTB-POSITION-P
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4686907-POSITION-C
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4686907
+    position: FTB-POSITION-C
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4695895-POSITION-OT
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4695895
+    position: FTB-POSITION-OT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4696723-POSITION-LS
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4696723
+    position: FTB-POSITION-LS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4709983-POSITION-G
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4709983
+    position: FTB-POSITION-G
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4723086-POSITION-TE
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4723086
+    position: FTB-POSITION-TE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4869748-POSITION-WR
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4869748
+    position: FTB-POSITION-WR
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4870953-POSITION-CB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4870953
+    position: FTB-POSITION-CB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4875381-POSITION-DT
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4875381
+    position: FTB-POSITION-DT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4877376-POSITION-DT
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4877376
+    position: FTB-POSITION-DT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4879561-POSITION-S
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4879561
+    position: FTB-POSITION-S
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4911952-POSITION-LB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4911952
+    position: FTB-POSITION-LB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4916349-POSITION-TE
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4916349
+    position: FTB-POSITION-TE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4917592-POSITION-CB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4917592
+    position: FTB-POSITION-CB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4954445-POSITION-S
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_4954445
+    position: FTB-POSITION-S
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_5065495-POSITION-WR
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_5065495
+    position: FTB-POSITION-WR
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_5125873-POSITION-OT
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_5125873
+    position: FTB-POSITION-OT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_5150662-POSITION-TE
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_5150662
+    position: FTB-POSITION-TE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_5160110-POSITION-WR
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-CHI-ROSTER-2026_10_26-PLAYER_5160110
+    position: FTB-POSITION-WR
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_13241-POSITION-OT
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_13241
+    position: FTB-POSITION-OT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_13729-POSITION-LS
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_13729
+    position: FTB-POSITION-LS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_16002-POSITION-FB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_16002
+    position: FTB-POSITION-FB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_16731-POSITION-WR
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_16731
+    position: FTB-POSITION-WR
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_16737-POSITION-WR
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_16737
+    position: FTB-POSITION-WR
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_2577185-POSITION-C
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_2577185
+    position: FTB-POSITION-C
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_3040151-POSITION-TE
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_3040151
+    position: FTB-POSITION-TE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_3043116-POSITION-WR
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_3043116
+    position: FTB-POSITION-WR
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_3052667-POSITION-LB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_3052667
+    position: FTB-POSITION-LB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_3057524-POSITION-S
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_3057524
+    position: FTB-POSITION-S
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_3115928-POSITION-WR
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_3115928
+    position: FTB-POSITION-WR
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_3116097-POSITION-LB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_3116097
+    position: FTB-POSITION-LB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_3117251-POSITION-RB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_3117251
+    position: FTB-POSITION-RB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_3125280-POSITION-P
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_3125280
+    position: FTB-POSITION-P
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_3126486-POSITION-WR
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_3126486
+    position: FTB-POSITION-WR
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_3129116-POSITION-C
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_3129116
+    position: FTB-POSITION-C
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_3138826-POSITION-LB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_3138826
+    position: FTB-POSITION-LB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_3858271-POSITION-S
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_3858271
+    position: FTB-POSITION-S
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_3895856-POSITION-WR
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_3895856
+    position: FTB-POSITION-WR
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_3916075-POSITION-OT
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_3916075
+    position: FTB-POSITION-OT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_3916903-POSITION-LB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_3916903
+    position: FTB-POSITION-LB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_3920814-POSITION-OT
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_3920814
+    position: FTB-POSITION-OT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4034862-POSITION-TE
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4034862
+    position: FTB-POSITION-TE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4034949-POSITION-PK
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4034949
+    position: FTB-POSITION-PK
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4035686-POSITION-CB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4035686
+    position: FTB-POSITION-CB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4035840-POSITION-DT
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4035840
+    position: FTB-POSITION-DT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4039029-POSITION-DE
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4039029
+    position: FTB-POSITION-DE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4040605-POSITION-DE
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4040605
+    position: FTB-POSITION-DE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4040612-POSITION-TE
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4040612
+    position: FTB-POSITION-TE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4046716-POSITION-DT
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4046716
+    position: FTB-POSITION-DT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4239088-POSITION-S
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4239088
+    position: FTB-POSITION-S
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4240542-POSITION-CB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4240542
+    position: FTB-POSITION-CB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4240554-POSITION-OT
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4240554
+    position: FTB-POSITION-OT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4241464-POSITION-QB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4241464
+    position: FTB-POSITION-QB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4241807-POSITION-LB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4241807
+    position: FTB-POSITION-LB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4242488-POSITION-CB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4242488
+    position: FTB-POSITION-CB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4242555-POSITION-OT
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4242555
+    position: FTB-POSITION-OT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4243493-POSITION-DE
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4243493
+    position: FTB-POSITION-DE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4247590-POSITION-OT
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4247590
+    position: FTB-POSITION-OT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4259147-POSITION-TE
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4259147
+    position: FTB-POSITION-TE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4360290-POSITION-TE
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4360290
+    position: FTB-POSITION-TE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4360438-POSITION-WR
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4360438
+    position: FTB-POSITION-WR
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4361741-POSITION-QB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4361741
+    position: FTB-POSITION-QB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4372561-POSITION-RB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4372561
+    position: FTB-POSITION-RB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4372774-POSITION-G
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4372774
+    position: FTB-POSITION-G
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4374148-POSITION-DE
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4374148
+    position: FTB-POSITION-DE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4386544-POSITION-WR
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4386544
+    position: FTB-POSITION-WR
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4394894-POSITION-DE
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4394894
+    position: FTB-POSITION-DE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4426698-POSITION-LB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4426698
+    position: FTB-POSITION-LB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4427325-POSITION-CB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4427325
+    position: FTB-POSITION-CB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4428144-POSITION-C
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4428144
+    position: FTB-POSITION-C
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4428209-POSITION-WR
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4428209
+    position: FTB-POSITION-WR
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4430104-POSITION-RB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4430104
+    position: FTB-POSITION-RB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4430431-POSITION-QB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4430431
+    position: FTB-POSITION-QB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4430835-POSITION-DT
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4430835
+    position: FTB-POSITION-DT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4431466-POSITION-WR
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4431466
+    position: FTB-POSITION-WR
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4431523-POSITION-G
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4431523
+    position: FTB-POSITION-G
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4432244-POSITION-DE
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4432244
+    position: FTB-POSITION-DE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4565200-POSITION-CB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4565200
+    position: FTB-POSITION-CB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4565779-POSITION-OT
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4565779
+    position: FTB-POSITION-OT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4569497-POSITION-DT
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4569497
+    position: FTB-POSITION-DT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4570410-POSITION-LB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4570410
+    position: FTB-POSITION-LB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4573188-POSITION-LB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4573188
+    position: FTB-POSITION-LB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4575665-POSITION-WR
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4575665
+    position: FTB-POSITION-WR
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4576069-POSITION-CB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4576069
+    position: FTB-POSITION-CB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4683114-POSITION-WR
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4683114
+    position: FTB-POSITION-WR
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4683155-POSITION-S
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4683155
+    position: FTB-POSITION-S
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4685369-POSITION-DT
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4685369
+    position: FTB-POSITION-DT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4685397-POSITION-RB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4685397
+    position: FTB-POSITION-RB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4685523-POSITION-CB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4685523
+    position: FTB-POSITION-CB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4685623-POSITION-DE
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4685623
+    position: FTB-POSITION-DE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4686308-POSITION-DT
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4686308
+    position: FTB-POSITION-DT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4686629-POSITION-OT
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4686629
+    position: FTB-POSITION-OT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4691556-POSITION-OT
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4691556
+    position: FTB-POSITION-OT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4692680-POSITION-DT
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4692680
+    position: FTB-POSITION-DT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4693337-POSITION-S
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4693337
+    position: FTB-POSITION-S
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4693371-POSITION-DT
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4693371
+    position: FTB-POSITION-DT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4693644-POSITION-S
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4693644
+    position: FTB-POSITION-S
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4696044-POSITION-RB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4696044
+    position: FTB-POSITION-RB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4696051-POSITION-DE
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4696051
+    position: FTB-POSITION-DE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4696211-POSITION-S
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4696211
+    position: FTB-POSITION-S
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4699678-POSITION-TE
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4699678
+    position: FTB-POSITION-TE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4710714-POSITION-WR
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4710714
+    position: FTB-POSITION-WR
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4775220-POSITION-DT
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4775220
+    position: FTB-POSITION-DT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4875123-POSITION-DE
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4875123
+    position: FTB-POSITION-DE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4888723-POSITION-WR
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_4888723
+    position: FTB-POSITION-WR
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_5086161-POSITION-LB
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_5086161
+    position: FTB-POSITION-LB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_5092959-POSITION-G
+  attributes: {}
+  references:
+    subject: FTB-NFL-SEASON_2026-TEAM-SF-ROSTER-2026_10_26-PLAYER_5092959
+    position: FTB-POSITION-G
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
