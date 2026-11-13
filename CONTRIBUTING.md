@@ -6,6 +6,8 @@ Prefer `.yml` for new maintained seeds. `.yaml` and `.json` are equally accepted
 
 Use `scope` once per file or nested group for shared context. Use semantic codes in `references`, not numeric database IDs. URLs and timestamps are optional. Do not add ERB, custom YAML tags, aliases/merge keys, duplicate mapping keys, or multiple YAML documents. Quote date/identifier strings when their interpretation could be ambiguous.
 
+Agents and curators gathering data from the web should follow the [curation skills](skills/README.md), starting with `seed-curation`.
+
 ## Check a pull request locally
 
 ```sh
