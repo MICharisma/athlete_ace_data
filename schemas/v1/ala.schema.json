@@ -876,6 +876,9 @@
               "properties": {
                 "conference": {
                   "$ref": "#/$defs/reference"
+                },
+                "league": {
+                  "$ref": "#/$defs/reference"
                 }
               },
               "required": [],
@@ -1378,7 +1381,13 @@
             "references": {
               "type": "object",
               "properties": {
+                "conference": {
+                  "$ref": "#/$defs/reference"
+                },
                 "division": {
+                  "$ref": "#/$defs/reference"
+                },
+                "league": {
                   "$ref": "#/$defs/reference"
                 },
                 "team": {
