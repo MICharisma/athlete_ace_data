@@ -1,0 +1,2057 @@
+---
+meaning: Inclusive starting-year ranges, expanded to one Campaign per team and season.
+  Split ranges when classification or annual display facts change.
+team_bindings:
+- league: MLB
+  source_id: '108'
+  team: BSB-MLB-TEAM-LAA
+  basis: existing_provider_team_id
+- league: MLB
+  source_id: '109'
+  team: BSB-MLB-TEAM-AZ
+  basis: existing_provider_team_id
+- league: MLB
+  source_id: '110'
+  team: BSB-MLB-TEAM-BAL
+  basis: existing_provider_team_id
+- league: MLB
+  source_id: '111'
+  team: BSB-MLB-TEAM-BOS
+  basis: existing_provider_team_id
+- league: MLB
+  source_id: '112'
+  team: BSB-MLB-TEAM-CHC
+  basis: existing_provider_team_id
+- league: MLB
+  source_id: '113'
+  team: BSB-MLB-TEAM-CIN
+  basis: existing_provider_team_id
+- league: MLB
+  source_id: '114'
+  team: BSB-MLB-TEAM-CLE
+  basis: existing_provider_team_id
+- league: MLB
+  source_id: '115'
+  team: BSB-MLB-TEAM-COL
+  basis: existing_provider_team_id
+- league: MLB
+  source_id: '116'
+  team: BSB-MLB-TEAM-DET
+  basis: existing_provider_team_id
+- league: MLB
+  source_id: '117'
+  team: BSB-MLB-TEAM-HOU
+  basis: existing_provider_team_id
+- league: MLB
+  source_id: '118'
+  team: BSB-MLB-TEAM-KC
+  basis: existing_provider_team_id
+- league: MLB
+  source_id: '119'
+  team: BSB-MLB-TEAM-LAD
+  basis: existing_provider_team_id
+- league: MLB
+  source_id: '120'
+  team: BSB-MLB-TEAM-WSH
+  basis: existing_provider_team_id
+- league: MLB
+  source_id: '121'
+  team: BSB-MLB-TEAM-NYM
+  basis: existing_provider_team_id
+- league: MLB
+  source_id: '133'
+  team: BSB-MLB-TEAM-ATH
+  basis: existing_provider_team_id
+- league: MLB
+  source_id: '134'
+  team: BSB-MLB-TEAM-PIT
+  basis: existing_provider_team_id
+- league: MLB
+  source_id: '135'
+  team: BSB-MLB-TEAM-SD
+  basis: existing_provider_team_id
+- league: MLB
+  source_id: '136'
+  team: BSB-MLB-TEAM-SEA
+  basis: existing_provider_team_id
+- league: MLB
+  source_id: '137'
+  team: BSB-MLB-TEAM-SF
+  basis: existing_provider_team_id
+- league: MLB
+  source_id: '138'
+  team: BSB-MLB-TEAM-STL
+  basis: existing_provider_team_id
+- league: MLB
+  source_id: '139'
+  team: BSB-MLB-TEAM-TB
+  basis: existing_provider_team_id
+- league: MLB
+  source_id: '140'
+  team: BSB-MLB-TEAM-TEX
+  basis: existing_provider_team_id
+- league: MLB
+  source_id: '141'
+  team: BSB-MLB-TEAM-TOR
+  basis: existing_provider_team_id
+- league: MLB
+  source_id: '142'
+  team: BSB-MLB-TEAM-MIN
+  basis: existing_provider_team_id
+- league: MLB
+  source_id: '143'
+  team: BSB-MLB-TEAM-PHI
+  basis: existing_provider_team_id
+- league: MLB
+  source_id: '144'
+  team: BSB-MLB-TEAM-ATL
+  basis: existing_provider_team_id
+- league: MLB
+  source_id: '145'
+  team: BSB-MLB-TEAM-CWS
+  basis: existing_provider_team_id
+- league: MLB
+  source_id: '146'
+  team: BSB-MLB-TEAM-MIA
+  basis: existing_provider_team_id
+- league: MLB
+  source_id: '147'
+  team: BSB-MLB-TEAM-NYY
+  basis: existing_provider_team_id
+- league: MLB
+  source_id: '158'
+  team: BSB-MLB-TEAM-MIL
+  basis: existing_provider_team_id
+- league: NBA
+  source_id: '1'
+  team: BKT-NBA-TEAM-ATL
+  basis: existing_provider_team_id
+- league: NBA
+  source_id: '10'
+  team: BKT-NBA-TEAM-HOU
+  basis: existing_provider_team_id
+- league: NBA
+  source_id: '11'
+  team: BKT-NBA-TEAM-IND
+  basis: existing_provider_team_id
+- league: NBA
+  source_id: '12'
+  team: BKT-NBA-TEAM-LAC
+  basis: existing_provider_team_id
+- league: NBA
+  source_id: '13'
+  team: BKT-NBA-TEAM-LAL
+  basis: existing_provider_team_id
+- league: NBA
+  source_id: '14'
+  team: BKT-NBA-TEAM-MIA
+  basis: existing_provider_team_id
+- league: NBA
+  source_id: '15'
+  team: BKT-NBA-TEAM-MIL
+  basis: existing_provider_team_id
+- league: NBA
+  source_id: '16'
+  team: BKT-NBA-TEAM-MIN
+  basis: existing_provider_team_id
+- league: NBA
+  source_id: '17'
+  team: BKT-NBA-TEAM-BKN
+  basis: existing_provider_team_id
+- league: NBA
+  source_id: '18'
+  team: BKT-NBA-TEAM-NYK
+  basis: existing_provider_team_id
+- league: NBA
+  source_id: '19'
+  team: BKT-NBA-TEAM-ORL
+  basis: existing_provider_team_id
+- league: NBA
+  source_id: '2'
+  team: BKT-NBA-TEAM-BOS
+  basis: existing_provider_team_id
+- league: NBA
+  source_id: '20'
+  team: BKT-NBA-TEAM-PHI
+  basis: existing_provider_team_id
+- league: NBA
+  source_id: '21'
+  team: BKT-NBA-TEAM-PHX
+  basis: existing_provider_team_id
+- league: NBA
+  source_id: '22'
+  team: BKT-NBA-TEAM-POR
+  basis: existing_provider_team_id
+- league: NBA
+  source_id: '23'
+  team: BKT-NBA-TEAM-SAC
+  basis: existing_provider_team_id
+- league: NBA
+  source_id: '24'
+  team: BKT-NBA-TEAM-SAS
+  basis: existing_provider_team_id
+- league: NBA
+  source_id: '25'
+  team: BKT-NBA-TEAM-OKC
+  basis: existing_provider_team_id
+- league: NBA
+  source_id: '26'
+  team: BKT-NBA-TEAM-UTA
+  basis: existing_provider_team_id
+- league: NBA
+  source_id: '27'
+  team: BKT-NBA-TEAM-WAS
+  basis: existing_provider_team_id
+- league: NBA
+  source_id: '28'
+  team: BKT-NBA-TEAM-TOR
+  basis: existing_provider_team_id
+- league: NBA
+  source_id: '29'
+  team: BKT-NBA-TEAM-MEM
+  basis: existing_provider_team_id
+- league: NBA
+  source_id: '3'
+  team: BKT-NBA-TEAM-NOP
+  basis: existing_provider_team_id
+- league: NBA
+  source_id: '30'
+  team: BKT-NBA-TEAM-CHA
+  basis: existing_provider_team_id
+- league: NBA
+  source_id: '4'
+  team: BKT-NBA-TEAM-CHI
+  basis: existing_provider_team_id
+- league: NBA
+  source_id: '5'
+  team: BKT-NBA-TEAM-CLE
+  basis: existing_provider_team_id
+- league: NBA
+  source_id: '6'
+  team: BKT-NBA-TEAM-DAL
+  basis: existing_provider_team_id
+- league: NBA
+  source_id: '7'
+  team: BKT-NBA-TEAM-DEN
+  basis: existing_provider_team_id
+- league: NBA
+  source_id: '8'
+  team: BKT-NBA-TEAM-DET
+  basis: existing_provider_team_id
+- league: NBA
+  source_id: '9'
+  team: BKT-NBA-TEAM-GSW
+  basis: existing_provider_team_id
+- league: NFL
+  source_id: '1'
+  team: FTB-NFL-TEAM-ATL
+  basis: existing_provider_team_id
+- league: NFL
+  source_id: '10'
+  team: FTB-NFL-TEAM-TEN
+  basis: existing_provider_team_id
+- league: NFL
+  source_id: '11'
+  team: FTB-NFL-TEAM-IND
+  basis: existing_provider_team_id
+- league: NFL
+  source_id: '12'
+  team: FTB-NFL-TEAM-KC
+  basis: existing_provider_team_id
+- league: NFL
+  source_id: '13'
+  team: FTB-NFL-TEAM-RAIDERS
+  basis: existing_provider_team_id
+- league: NFL
+  source_id: '14'
+  team: FTB-NFL-TEAM-LAR
+  basis: existing_provider_team_id
+- league: NFL
+  source_id: '15'
+  team: FTB-NFL-TEAM-MIA
+  basis: existing_provider_team_id
+- league: NFL
+  source_id: '16'
+  team: FTB-NFL-TEAM-MIN
+  basis: existing_provider_team_id
+- league: NFL
+  source_id: '17'
+  team: FTB-NFL-TEAM-NE
+  basis: existing_provider_team_id
+- league: NFL
+  source_id: '18'
+  team: FTB-NFL-TEAM-NO
+  basis: existing_provider_team_id
+- league: NFL
+  source_id: '19'
+  team: FTB-NFL-TEAM-NYG
+  basis: existing_provider_team_id
+- league: NFL
+  source_id: '2'
+  team: FTB-NFL-TEAM-BUF
+  basis: existing_provider_team_id
+- league: NFL
+  source_id: '20'
+  team: FTB-NFL-TEAM-NYJ
+  basis: existing_provider_team_id
+- league: NFL
+  source_id: '21'
+  team: FTB-NFL-TEAM-PHI
+  basis: existing_provider_team_id
+- league: NFL
+  source_id: '22'
+  team: FTB-NFL-TEAM-ARI
+  basis: existing_provider_team_id
+- league: NFL
+  source_id: '23'
+  team: FTB-NFL-TEAM-PIT
+  basis: existing_provider_team_id
+- league: NFL
+  source_id: '24'
+  team: FTB-NFL-TEAM-LAC
+  basis: existing_provider_team_id
+- league: NFL
+  source_id: '25'
+  team: FTB-NFL-TEAM-SF
+  basis: existing_provider_team_id
+- league: NFL
+  source_id: '26'
+  team: FTB-NFL-TEAM-SEA
+  basis: existing_provider_team_id
+- league: NFL
+  source_id: '27'
+  team: FTB-NFL-TEAM-TB
+  basis: existing_provider_team_id
+- league: NFL
+  source_id: '28'
+  team: FTB-NFL-TEAM-WAS
+  basis: existing_provider_team_id
+- league: NFL
+  source_id: '29'
+  team: FTB-NFL-TEAM-CAR
+  basis: existing_provider_team_id
+- league: NFL
+  source_id: '3'
+  team: FTB-NFL-TEAM-CHI
+  basis: existing_provider_team_id
+- league: NFL
+  source_id: '30'
+  team: FTB-NFL-TEAM-JAX
+  basis: existing_provider_team_id
+- league: NFL
+  source_id: '33'
+  team: FTB-NFL-TEAM-BAL
+  basis: existing_provider_team_id
+- league: NFL
+  source_id: '34'
+  team: FTB-NFL-TEAM-HOU
+  basis: existing_provider_team_id
+- league: NFL
+  source_id: '4'
+  team: FTB-NFL-TEAM-CIN
+  basis: existing_provider_team_id
+- league: NFL
+  source_id: '5'
+  team: FTB-NFL-TEAM-CLE
+  basis: existing_provider_team_id
+- league: NFL
+  source_id: '6'
+  team: FTB-NFL-TEAM-DAL
+  basis: existing_provider_team_id
+- league: NFL
+  source_id: '7'
+  team: FTB-NFL-TEAM-DEN
+  basis: existing_provider_team_id
+- league: NFL
+  source_id: '8'
+  team: FTB-NFL-TEAM-DET
+  basis: existing_provider_team_id
+- league: NFL
+  source_id: '9'
+  team: FTB-NFL-TEAM-GB
+  basis: existing_provider_team_id
+- league: NHL
+  source_id: ANA
+  team: HCK-NHL-TEAM-ANA
+  basis: reviewed_official_abbreviation
+- league: NHL
+  source_id: ARI
+  team: HCK-NHL-TEAM-ARI
+  basis: reviewed_official_abbreviation
+- league: NHL
+  source_id: BOS
+  team: HCK-NHL-TEAM-BOS
+  basis: reviewed_official_abbreviation
+- league: NHL
+  source_id: BUF
+  team: HCK-NHL-TEAM-BUF
+  basis: reviewed_official_abbreviation
+- league: NHL
+  source_id: CAR
+  team: HCK-NHL-TEAM-CAR
+  basis: reviewed_official_abbreviation
+- league: NHL
+  source_id: CBJ
+  team: HCK-NHL-TEAM-CBJ
+  basis: reviewed_official_abbreviation
+- league: NHL
+  source_id: CGY
+  team: HCK-NHL-TEAM-CGY
+  basis: reviewed_official_abbreviation
+- league: NHL
+  source_id: CHI
+  team: HCK-NHL-TEAM-CHI
+  basis: reviewed_official_abbreviation
+- league: NHL
+  source_id: COL
+  team: HCK-NHL-TEAM-COL
+  basis: reviewed_official_abbreviation
+- league: NHL
+  source_id: DAL
+  team: HCK-NHL-TEAM-DAL
+  basis: reviewed_official_abbreviation
+- league: NHL
+  source_id: DET
+  team: HCK-NHL-TEAM-DET
+  basis: reviewed_official_abbreviation
+- league: NHL
+  source_id: EDM
+  team: HCK-NHL-TEAM-EDM
+  basis: reviewed_official_abbreviation
+- league: NHL
+  source_id: FLA
+  team: HCK-NHL-TEAM-FLA
+  basis: reviewed_official_abbreviation
+- league: NHL
+  source_id: LAK
+  team: HCK-NHL-TEAM-LAK
+  basis: reviewed_official_abbreviation
+- league: NHL
+  source_id: MIN
+  team: HCK-NHL-TEAM-MIN
+  basis: reviewed_official_abbreviation
+- league: NHL
+  source_id: MTL
+  team: HCK-NHL-TEAM-MTL
+  basis: reviewed_official_abbreviation
+- league: NHL
+  source_id: NJD
+  team: HCK-NHL-TEAM-NJD
+  basis: reviewed_official_abbreviation
+- league: NHL
+  source_id: NSH
+  team: HCK-NHL-TEAM-NSH
+  basis: reviewed_official_abbreviation
+- league: NHL
+  source_id: NYI
+  team: HCK-NHL-TEAM-NYI
+  basis: reviewed_official_abbreviation
+- league: NHL
+  source_id: NYR
+  team: HCK-NHL-TEAM-NYR
+  basis: reviewed_official_abbreviation
+- league: NHL
+  source_id: OTT
+  team: HCK-NHL-TEAM-OTT
+  basis: reviewed_official_abbreviation
+- league: NHL
+  source_id: PHI
+  team: HCK-NHL-TEAM-PHI
+  basis: reviewed_official_abbreviation
+- league: NHL
+  source_id: PIT
+  team: HCK-NHL-TEAM-PIT
+  basis: reviewed_official_abbreviation
+- league: NHL
+  source_id: SEA
+  team: HCK-NHL-TEAM-SEA
+  basis: reviewed_official_abbreviation
+- league: NHL
+  source_id: SJS
+  team: HCK-NHL-TEAM-SJS
+  basis: reviewed_official_abbreviation
+- league: NHL
+  source_id: STL
+  team: HCK-NHL-TEAM-STL
+  basis: reviewed_official_abbreviation
+- league: NHL
+  source_id: TBL
+  team: HCK-NHL-TEAM-TBL
+  basis: reviewed_official_abbreviation
+- league: NHL
+  source_id: TOR
+  team: HCK-NHL-TEAM-TOR
+  basis: reviewed_official_abbreviation
+- league: NHL
+  source_id: UTA
+  team: HCK-NHL-TEAM-UTA
+  basis: reviewed_official_abbreviation
+- league: NHL
+  source_id: VAN
+  team: HCK-NHL-TEAM-VAN
+  basis: reviewed_official_abbreviation
+- league: NHL
+  source_id: VGK
+  team: HCK-NHL-TEAM-VGK
+  basis: reviewed_official_abbreviation
+- league: NHL
+  source_id: WPG
+  team: HCK-NHL-TEAM-WPG
+  basis: reviewed_official_abbreviation
+- league: NHL
+  source_id: WSH
+  team: HCK-NHL-TEAM-WSH
+  basis: reviewed_official_abbreviation
+ranges:
+- league: NBA
+  team: BKT-NBA-TEAM-ATL
+  from: 2015
+  through: 2024
+  conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-SOUTHEAST_DIVISION
+  display_name: Atlanta Hawks
+  abbreviation: ATL
+- league: NBA
+  team: BKT-NBA-TEAM-BKN
+  from: 2015
+  through: 2024
+  conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-ATLANTIC_DIVISION
+  display_name: Brooklyn Nets
+  abbreviation: BKN
+- league: NBA
+  team: BKT-NBA-TEAM-BOS
+  from: 2015
+  through: 2024
+  conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-ATLANTIC_DIVISION
+  display_name: Boston Celtics
+  abbreviation: BOS
+- league: NBA
+  team: BKT-NBA-TEAM-CHA
+  from: 2015
+  through: 2024
+  conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-SOUTHEAST_DIVISION
+  display_name: Charlotte Hornets
+  abbreviation: CHA
+- league: NBA
+  team: BKT-NBA-TEAM-CHI
+  from: 2015
+  through: 2024
+  conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-CENTRAL_DIVISION
+  display_name: Chicago Bulls
+  abbreviation: CHI
+- league: NBA
+  team: BKT-NBA-TEAM-CLE
+  from: 2015
+  through: 2024
+  conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-CENTRAL_DIVISION
+  display_name: Cleveland Cavaliers
+  abbreviation: CLE
+- league: NBA
+  team: BKT-NBA-TEAM-DAL
+  from: 2015
+  through: 2024
+  conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-SOUTHWEST_DIVISION
+  display_name: Dallas Mavericks
+  abbreviation: DAL
+- league: NBA
+  team: BKT-NBA-TEAM-DEN
+  from: 2015
+  through: 2024
+  conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-NORTHWEST_DIVISION
+  display_name: Denver Nuggets
+  abbreviation: DEN
+- league: NBA
+  team: BKT-NBA-TEAM-DET
+  from: 2015
+  through: 2024
+  conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-CENTRAL_DIVISION
+  display_name: Detroit Pistons
+  abbreviation: DET
+- league: NBA
+  team: BKT-NBA-TEAM-GSW
+  from: 2015
+  through: 2024
+  conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-PACIFIC_DIVISION
+  display_name: Golden State Warriors
+  abbreviation: GSW
+- league: NBA
+  team: BKT-NBA-TEAM-HOU
+  from: 2015
+  through: 2024
+  conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-SOUTHWEST_DIVISION
+  display_name: Houston Rockets
+  abbreviation: HOU
+- league: NBA
+  team: BKT-NBA-TEAM-IND
+  from: 2015
+  through: 2024
+  conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-CENTRAL_DIVISION
+  display_name: Indiana Pacers
+  abbreviation: IND
+- league: NBA
+  team: BKT-NBA-TEAM-LAC
+  from: 2015
+  through: 2024
+  conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-PACIFIC_DIVISION
+  display_name: LA Clippers
+  abbreviation: LAC
+- league: NBA
+  team: BKT-NBA-TEAM-LAL
+  from: 2015
+  through: 2024
+  conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-PACIFIC_DIVISION
+  display_name: Los Angeles Lakers
+  abbreviation: LAL
+- league: NBA
+  team: BKT-NBA-TEAM-MEM
+  from: 2015
+  through: 2024
+  conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-SOUTHWEST_DIVISION
+  display_name: Memphis Grizzlies
+  abbreviation: MEM
+- league: NBA
+  team: BKT-NBA-TEAM-MIA
+  from: 2015
+  through: 2024
+  conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-SOUTHEAST_DIVISION
+  display_name: Miami Heat
+  abbreviation: MIA
+- league: NBA
+  team: BKT-NBA-TEAM-MIL
+  from: 2015
+  through: 2024
+  conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-CENTRAL_DIVISION
+  display_name: Milwaukee Bucks
+  abbreviation: MIL
+- league: NBA
+  team: BKT-NBA-TEAM-MIN
+  from: 2015
+  through: 2024
+  conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-NORTHWEST_DIVISION
+  display_name: Minnesota Timberwolves
+  abbreviation: MIN
+- league: NBA
+  team: BKT-NBA-TEAM-NOP
+  from: 2015
+  through: 2024
+  conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-SOUTHWEST_DIVISION
+  display_name: New Orleans Pelicans
+  abbreviation: NOP
+- league: NBA
+  team: BKT-NBA-TEAM-NYK
+  from: 2015
+  through: 2024
+  conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-ATLANTIC_DIVISION
+  display_name: New York Knicks
+  abbreviation: NYK
+- league: NBA
+  team: BKT-NBA-TEAM-OKC
+  from: 2015
+  through: 2024
+  conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-NORTHWEST_DIVISION
+  display_name: Oklahoma City Thunder
+  abbreviation: OKC
+- league: NBA
+  team: BKT-NBA-TEAM-ORL
+  from: 2015
+  through: 2024
+  conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-SOUTHEAST_DIVISION
+  display_name: Orlando Magic
+  abbreviation: ORL
+- league: NBA
+  team: BKT-NBA-TEAM-PHI
+  from: 2015
+  through: 2024
+  conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-ATLANTIC_DIVISION
+  display_name: Philadelphia 76ers
+  abbreviation: PHI
+- league: NBA
+  team: BKT-NBA-TEAM-PHX
+  from: 2015
+  through: 2024
+  conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-PACIFIC_DIVISION
+  display_name: Phoenix Suns
+  abbreviation: PHX
+- league: NBA
+  team: BKT-NBA-TEAM-POR
+  from: 2015
+  through: 2024
+  conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-NORTHWEST_DIVISION
+  display_name: Portland Trail Blazers
+  abbreviation: POR
+- league: NBA
+  team: BKT-NBA-TEAM-SAC
+  from: 2015
+  through: 2024
+  conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-PACIFIC_DIVISION
+  display_name: Sacramento Kings
+  abbreviation: SAC
+- league: NBA
+  team: BKT-NBA-TEAM-SAS
+  from: 2015
+  through: 2024
+  conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-SOUTHWEST_DIVISION
+  display_name: San Antonio Spurs
+  abbreviation: SAS
+- league: NBA
+  team: BKT-NBA-TEAM-TOR
+  from: 2015
+  through: 2024
+  conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-ATLANTIC_DIVISION
+  display_name: Toronto Raptors
+  abbreviation: TOR
+- league: NBA
+  team: BKT-NBA-TEAM-UTA
+  from: 2015
+  through: 2024
+  conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-NORTHWEST_DIVISION
+  display_name: Utah Jazz
+  abbreviation: UTA
+- league: NBA
+  team: BKT-NBA-TEAM-WAS
+  from: 2015
+  through: 2024
+  conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-SOUTHEAST_DIVISION
+  display_name: Washington Wizards
+  abbreviation: WAS
+- league: NFL
+  team: FTB-NFL-TEAM-ARI
+  from: 2015
+  through: 2024
+  conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-NFC_WEST
+  display_name: Arizona Cardinals
+  abbreviation: ARI
+- league: NFL
+  team: FTB-NFL-TEAM-ATL
+  from: 2015
+  through: 2024
+  conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-NFC_SOUTH
+  display_name: Atlanta Falcons
+  abbreviation: ATL
+- league: NFL
+  team: FTB-NFL-TEAM-BAL
+  from: 2015
+  through: 2024
+  conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-AFC_NORTH
+  display_name: Baltimore Ravens
+  abbreviation: BAL
+- league: NFL
+  team: FTB-NFL-TEAM-BUF
+  from: 2015
+  through: 2024
+  conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-AFC_EAST
+  display_name: Buffalo Bills
+  abbreviation: BUF
+- league: NFL
+  team: FTB-NFL-TEAM-CAR
+  from: 2015
+  through: 2024
+  conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-NFC_SOUTH
+  display_name: Carolina Panthers
+  abbreviation: CAR
+- league: NFL
+  team: FTB-NFL-TEAM-CHI
+  from: 2015
+  through: 2024
+  conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-NFC_NORTH
+  display_name: Chicago Bears
+  abbreviation: CHI
+- league: NFL
+  team: FTB-NFL-TEAM-CIN
+  from: 2015
+  through: 2024
+  conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-AFC_NORTH
+  display_name: Cincinnati Bengals
+  abbreviation: CIN
+- league: NFL
+  team: FTB-NFL-TEAM-CLE
+  from: 2015
+  through: 2024
+  conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-AFC_NORTH
+  display_name: Cleveland Browns
+  abbreviation: CLE
+- league: NFL
+  team: FTB-NFL-TEAM-DAL
+  from: 2015
+  through: 2024
+  conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-NFC_EAST
+  display_name: Dallas Cowboys
+  abbreviation: DAL
+- league: NFL
+  team: FTB-NFL-TEAM-DEN
+  from: 2015
+  through: 2024
+  conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-AFC_WEST
+  display_name: Denver Broncos
+  abbreviation: DEN
+- league: NFL
+  team: FTB-NFL-TEAM-DET
+  from: 2015
+  through: 2024
+  conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-NFC_NORTH
+  display_name: Detroit Lions
+  abbreviation: DET
+- league: NFL
+  team: FTB-NFL-TEAM-GB
+  from: 2015
+  through: 2024
+  conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-NFC_NORTH
+  display_name: Green Bay Packers
+  abbreviation: GB
+- league: NFL
+  team: FTB-NFL-TEAM-HOU
+  from: 2015
+  through: 2024
+  conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-AFC_SOUTH
+  display_name: Houston Texans
+  abbreviation: HOU
+- league: NFL
+  team: FTB-NFL-TEAM-IND
+  from: 2015
+  through: 2024
+  conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-AFC_SOUTH
+  display_name: Indianapolis Colts
+  abbreviation: IND
+- league: NFL
+  team: FTB-NFL-TEAM-JAX
+  from: 2015
+  through: 2024
+  conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-AFC_SOUTH
+  display_name: Jacksonville Jaguars
+  abbreviation: JAX
+- league: NFL
+  team: FTB-NFL-TEAM-KC
+  from: 2015
+  through: 2024
+  conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-AFC_WEST
+  display_name: Kansas City Chiefs
+  abbreviation: KC
+- league: NFL
+  team: FTB-NFL-TEAM-LAC
+  from: 2015
+  through: 2016
+  conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-AFC_WEST
+  display_name: San Diego Chargers
+  abbreviation: SD
+- league: NFL
+  team: FTB-NFL-TEAM-LAC
+  from: 2017
+  through: 2024
+  conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-AFC_WEST
+  display_name: Los Angeles Chargers
+  abbreviation: LAC
+- league: NFL
+  team: FTB-NFL-TEAM-LAR
+  from: 2015
+  through: 2015
+  conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-NFC_WEST
+  display_name: St. Louis Rams
+  abbreviation: STL
+- league: NFL
+  team: FTB-NFL-TEAM-LAR
+  from: 2016
+  through: 2024
+  conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-NFC_WEST
+  display_name: Los Angeles Rams
+  abbreviation: LAR
+- league: NFL
+  team: FTB-NFL-TEAM-MIA
+  from: 2015
+  through: 2024
+  conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-AFC_EAST
+  display_name: Miami Dolphins
+  abbreviation: MIA
+- league: NFL
+  team: FTB-NFL-TEAM-MIN
+  from: 2015
+  through: 2024
+  conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-NFC_NORTH
+  display_name: Minnesota Vikings
+  abbreviation: MIN
+- league: NFL
+  team: FTB-NFL-TEAM-NE
+  from: 2015
+  through: 2024
+  conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-AFC_EAST
+  display_name: New England Patriots
+  abbreviation: NE
+- league: NFL
+  team: FTB-NFL-TEAM-NO
+  from: 2015
+  through: 2024
+  conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-NFC_SOUTH
+  display_name: New Orleans Saints
+  abbreviation: 'NO'
+- league: NFL
+  team: FTB-NFL-TEAM-NYG
+  from: 2015
+  through: 2024
+  conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-NFC_EAST
+  display_name: New York Giants
+  abbreviation: NYG
+- league: NFL
+  team: FTB-NFL-TEAM-NYJ
+  from: 2015
+  through: 2024
+  conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-AFC_EAST
+  display_name: New York Jets
+  abbreviation: NYJ
+- league: NFL
+  team: FTB-NFL-TEAM-PHI
+  from: 2015
+  through: 2024
+  conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-NFC_EAST
+  display_name: Philadelphia Eagles
+  abbreviation: PHI
+- league: NFL
+  team: FTB-NFL-TEAM-PIT
+  from: 2015
+  through: 2024
+  conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-AFC_NORTH
+  display_name: Pittsburgh Steelers
+  abbreviation: PIT
+- league: NFL
+  team: FTB-NFL-TEAM-RAIDERS
+  from: 2015
+  through: 2019
+  conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-AFC_WEST
+  display_name: Oakland Raiders
+  abbreviation: OAK
+- league: NFL
+  team: FTB-NFL-TEAM-RAIDERS
+  from: 2020
+  through: 2024
+  conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-AFC_WEST
+  display_name: Las Vegas Raiders
+  abbreviation: LV
+- league: NFL
+  team: FTB-NFL-TEAM-SEA
+  from: 2015
+  through: 2024
+  conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-NFC_WEST
+  display_name: Seattle Seahawks
+  abbreviation: SEA
+- league: NFL
+  team: FTB-NFL-TEAM-SF
+  from: 2015
+  through: 2024
+  conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-NFC_WEST
+  display_name: San Francisco 49ers
+  abbreviation: SF
+- league: NFL
+  team: FTB-NFL-TEAM-TB
+  from: 2015
+  through: 2024
+  conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-NFC_SOUTH
+  display_name: Tampa Bay Buccaneers
+  abbreviation: TB
+- league: NFL
+  team: FTB-NFL-TEAM-TEN
+  from: 2015
+  through: 2024
+  conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-AFC_SOUTH
+  display_name: Tennessee Titans
+  abbreviation: TEN
+- league: NFL
+  team: FTB-NFL-TEAM-WAS
+  from: 2015
+  through: 2019
+  conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-NFC_EAST
+  display_name: Washington Redskins
+  abbreviation: WAS
+- league: NFL
+  team: FTB-NFL-TEAM-WAS
+  from: 2020
+  through: 2021
+  conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-NFC_EAST
+  display_name: Washington Football Team
+  abbreviation: WAS
+- league: NFL
+  team: FTB-NFL-TEAM-WAS
+  from: 2022
+  through: 2024
+  conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  division: FTB-NFL-DIVISION-NFC_EAST
+  display_name: Washington Commanders
+  abbreviation: WAS
+- league: NHL
+  team: HCK-NHL-TEAM-ANA
+  from: 2015
+  through: 2019
+  conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-PACIFIC_DIVISION
+  display_name: Anaheim Ducks
+  abbreviation: ANA
+- league: NHL
+  team: HCK-NHL-TEAM-ANA
+  from: 2020
+  through: 2020
+  conference:
+  division: HCK-NHL-DIVISION-2020_2021-WEST
+  display_name: Anaheim Ducks
+  abbreviation: ANA
+- league: NHL
+  team: HCK-NHL-TEAM-ANA
+  from: 2021
+  through: 2024
+  conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-PACIFIC_DIVISION
+  display_name: Anaheim Ducks
+  abbreviation: ANA
+- league: NHL
+  team: HCK-NHL-TEAM-ARI
+  from: 2015
+  through: 2019
+  conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-PACIFIC_DIVISION
+  display_name: Arizona Coyotes
+  abbreviation: ARI
+- league: NHL
+  team: HCK-NHL-TEAM-ARI
+  from: 2020
+  through: 2020
+  conference:
+  division: HCK-NHL-DIVISION-2020_2021-WEST
+  display_name: Arizona Coyotes
+  abbreviation: ARI
+- league: NHL
+  team: HCK-NHL-TEAM-ARI
+  from: 2021
+  through: 2023
+  conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-CENTRAL_DIVISION
+  display_name: Arizona Coyotes
+  abbreviation: ARI
+- league: NHL
+  team: HCK-NHL-TEAM-BOS
+  from: 2015
+  through: 2019
+  conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-ATLANTIC_DIVISION
+  display_name: Boston Bruins
+  abbreviation: BOS
+- league: NHL
+  team: HCK-NHL-TEAM-BOS
+  from: 2020
+  through: 2020
+  conference:
+  division: HCK-NHL-DIVISION-2020_2021-EAST
+  display_name: Boston Bruins
+  abbreviation: BOS
+- league: NHL
+  team: HCK-NHL-TEAM-BOS
+  from: 2021
+  through: 2024
+  conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-ATLANTIC_DIVISION
+  display_name: Boston Bruins
+  abbreviation: BOS
+- league: NHL
+  team: HCK-NHL-TEAM-BUF
+  from: 2015
+  through: 2019
+  conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-ATLANTIC_DIVISION
+  display_name: Buffalo Sabres
+  abbreviation: BUF
+- league: NHL
+  team: HCK-NHL-TEAM-BUF
+  from: 2020
+  through: 2020
+  conference:
+  division: HCK-NHL-DIVISION-2020_2021-EAST
+  display_name: Buffalo Sabres
+  abbreviation: BUF
+- league: NHL
+  team: HCK-NHL-TEAM-BUF
+  from: 2021
+  through: 2024
+  conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-ATLANTIC_DIVISION
+  display_name: Buffalo Sabres
+  abbreviation: BUF
+- league: NHL
+  team: HCK-NHL-TEAM-CAR
+  from: 2015
+  through: 2019
+  conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-METROPOLITAN_DIVISION
+  display_name: Carolina Hurricanes
+  abbreviation: CAR
+- league: NHL
+  team: HCK-NHL-TEAM-CAR
+  from: 2020
+  through: 2020
+  conference:
+  division: HCK-NHL-DIVISION-2020_2021-CENTRAL
+  display_name: Carolina Hurricanes
+  abbreviation: CAR
+- league: NHL
+  team: HCK-NHL-TEAM-CAR
+  from: 2021
+  through: 2024
+  conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-METROPOLITAN_DIVISION
+  display_name: Carolina Hurricanes
+  abbreviation: CAR
+- league: NHL
+  team: HCK-NHL-TEAM-CBJ
+  from: 2015
+  through: 2019
+  conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-METROPOLITAN_DIVISION
+  display_name: Columbus Blue Jackets
+  abbreviation: CBJ
+- league: NHL
+  team: HCK-NHL-TEAM-CBJ
+  from: 2020
+  through: 2020
+  conference:
+  division: HCK-NHL-DIVISION-2020_2021-CENTRAL
+  display_name: Columbus Blue Jackets
+  abbreviation: CBJ
+- league: NHL
+  team: HCK-NHL-TEAM-CBJ
+  from: 2021
+  through: 2024
+  conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-METROPOLITAN_DIVISION
+  display_name: Columbus Blue Jackets
+  abbreviation: CBJ
+- league: NHL
+  team: HCK-NHL-TEAM-CGY
+  from: 2015
+  through: 2019
+  conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-PACIFIC_DIVISION
+  display_name: Calgary Flames
+  abbreviation: CGY
+- league: NHL
+  team: HCK-NHL-TEAM-CGY
+  from: 2020
+  through: 2020
+  conference:
+  division: HCK-NHL-DIVISION-2020_2021-NORTH
+  display_name: Calgary Flames
+  abbreviation: CGY
+- league: NHL
+  team: HCK-NHL-TEAM-CGY
+  from: 2021
+  through: 2024
+  conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-PACIFIC_DIVISION
+  display_name: Calgary Flames
+  abbreviation: CGY
+- league: NHL
+  team: HCK-NHL-TEAM-CHI
+  from: 2015
+  through: 2019
+  conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-CENTRAL_DIVISION
+  display_name: Chicago Blackhawks
+  abbreviation: CHI
+- league: NHL
+  team: HCK-NHL-TEAM-CHI
+  from: 2020
+  through: 2020
+  conference:
+  division: HCK-NHL-DIVISION-2020_2021-CENTRAL
+  display_name: Chicago Blackhawks
+  abbreviation: CHI
+- league: NHL
+  team: HCK-NHL-TEAM-CHI
+  from: 2021
+  through: 2024
+  conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-CENTRAL_DIVISION
+  display_name: Chicago Blackhawks
+  abbreviation: CHI
+- league: NHL
+  team: HCK-NHL-TEAM-COL
+  from: 2015
+  through: 2019
+  conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-CENTRAL_DIVISION
+  display_name: Colorado Avalanche
+  abbreviation: COL
+- league: NHL
+  team: HCK-NHL-TEAM-COL
+  from: 2020
+  through: 2020
+  conference:
+  division: HCK-NHL-DIVISION-2020_2021-WEST
+  display_name: Colorado Avalanche
+  abbreviation: COL
+- league: NHL
+  team: HCK-NHL-TEAM-COL
+  from: 2021
+  through: 2024
+  conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-CENTRAL_DIVISION
+  display_name: Colorado Avalanche
+  abbreviation: COL
+- league: NHL
+  team: HCK-NHL-TEAM-DAL
+  from: 2015
+  through: 2019
+  conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-CENTRAL_DIVISION
+  display_name: Dallas Stars
+  abbreviation: DAL
+- league: NHL
+  team: HCK-NHL-TEAM-DAL
+  from: 2020
+  through: 2020
+  conference:
+  division: HCK-NHL-DIVISION-2020_2021-CENTRAL
+  display_name: Dallas Stars
+  abbreviation: DAL
+- league: NHL
+  team: HCK-NHL-TEAM-DAL
+  from: 2021
+  through: 2024
+  conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-CENTRAL_DIVISION
+  display_name: Dallas Stars
+  abbreviation: DAL
+- league: NHL
+  team: HCK-NHL-TEAM-DET
+  from: 2015
+  through: 2019
+  conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-ATLANTIC_DIVISION
+  display_name: Detroit Red Wings
+  abbreviation: DET
+- league: NHL
+  team: HCK-NHL-TEAM-DET
+  from: 2020
+  through: 2020
+  conference:
+  division: HCK-NHL-DIVISION-2020_2021-CENTRAL
+  display_name: Detroit Red Wings
+  abbreviation: DET
+- league: NHL
+  team: HCK-NHL-TEAM-DET
+  from: 2021
+  through: 2024
+  conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-ATLANTIC_DIVISION
+  display_name: Detroit Red Wings
+  abbreviation: DET
+- league: NHL
+  team: HCK-NHL-TEAM-EDM
+  from: 2015
+  through: 2019
+  conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-PACIFIC_DIVISION
+  display_name: Edmonton Oilers
+  abbreviation: EDM
+- league: NHL
+  team: HCK-NHL-TEAM-EDM
+  from: 2020
+  through: 2020
+  conference:
+  division: HCK-NHL-DIVISION-2020_2021-NORTH
+  display_name: Edmonton Oilers
+  abbreviation: EDM
+- league: NHL
+  team: HCK-NHL-TEAM-EDM
+  from: 2021
+  through: 2024
+  conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-PACIFIC_DIVISION
+  display_name: Edmonton Oilers
+  abbreviation: EDM
+- league: NHL
+  team: HCK-NHL-TEAM-FLA
+  from: 2015
+  through: 2019
+  conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-ATLANTIC_DIVISION
+  display_name: Florida Panthers
+  abbreviation: FLA
+- league: NHL
+  team: HCK-NHL-TEAM-FLA
+  from: 2020
+  through: 2020
+  conference:
+  division: HCK-NHL-DIVISION-2020_2021-CENTRAL
+  display_name: Florida Panthers
+  abbreviation: FLA
+- league: NHL
+  team: HCK-NHL-TEAM-FLA
+  from: 2021
+  through: 2024
+  conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-ATLANTIC_DIVISION
+  display_name: Florida Panthers
+  abbreviation: FLA
+- league: NHL
+  team: HCK-NHL-TEAM-LAK
+  from: 2015
+  through: 2019
+  conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-PACIFIC_DIVISION
+  display_name: Los Angeles Kings
+  abbreviation: LAK
+- league: NHL
+  team: HCK-NHL-TEAM-LAK
+  from: 2020
+  through: 2020
+  conference:
+  division: HCK-NHL-DIVISION-2020_2021-WEST
+  display_name: Los Angeles Kings
+  abbreviation: LAK
+- league: NHL
+  team: HCK-NHL-TEAM-LAK
+  from: 2021
+  through: 2024
+  conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-PACIFIC_DIVISION
+  display_name: Los Angeles Kings
+  abbreviation: LAK
+- league: NHL
+  team: HCK-NHL-TEAM-MIN
+  from: 2015
+  through: 2019
+  conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-CENTRAL_DIVISION
+  display_name: Minnesota Wild
+  abbreviation: MIN
+- league: NHL
+  team: HCK-NHL-TEAM-MIN
+  from: 2020
+  through: 2020
+  conference:
+  division: HCK-NHL-DIVISION-2020_2021-WEST
+  display_name: Minnesota Wild
+  abbreviation: MIN
+- league: NHL
+  team: HCK-NHL-TEAM-MIN
+  from: 2021
+  through: 2024
+  conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-CENTRAL_DIVISION
+  display_name: Minnesota Wild
+  abbreviation: MIN
+- league: NHL
+  team: HCK-NHL-TEAM-MTL
+  from: 2015
+  through: 2019
+  conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-ATLANTIC_DIVISION
+  display_name: Montreal Canadiens
+  abbreviation: MTL
+- league: NHL
+  team: HCK-NHL-TEAM-MTL
+  from: 2020
+  through: 2020
+  conference:
+  division: HCK-NHL-DIVISION-2020_2021-NORTH
+  display_name: Montréal Canadiens
+  abbreviation: MTL
+- league: NHL
+  team: HCK-NHL-TEAM-MTL
+  from: 2021
+  through: 2024
+  conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-ATLANTIC_DIVISION
+  display_name: Montreal Canadiens
+  abbreviation: MTL
+- league: NHL
+  team: HCK-NHL-TEAM-NJD
+  from: 2015
+  through: 2019
+  conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-METROPOLITAN_DIVISION
+  display_name: New Jersey Devils
+  abbreviation: NJD
+- league: NHL
+  team: HCK-NHL-TEAM-NJD
+  from: 2020
+  through: 2020
+  conference:
+  division: HCK-NHL-DIVISION-2020_2021-EAST
+  display_name: New Jersey Devils
+  abbreviation: NJD
+- league: NHL
+  team: HCK-NHL-TEAM-NJD
+  from: 2021
+  through: 2024
+  conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-METROPOLITAN_DIVISION
+  display_name: New Jersey Devils
+  abbreviation: NJD
+- league: NHL
+  team: HCK-NHL-TEAM-NSH
+  from: 2015
+  through: 2019
+  conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-CENTRAL_DIVISION
+  display_name: Nashville Predators
+  abbreviation: NSH
+- league: NHL
+  team: HCK-NHL-TEAM-NSH
+  from: 2020
+  through: 2020
+  conference:
+  division: HCK-NHL-DIVISION-2020_2021-CENTRAL
+  display_name: Nashville Predators
+  abbreviation: NSH
+- league: NHL
+  team: HCK-NHL-TEAM-NSH
+  from: 2021
+  through: 2024
+  conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-CENTRAL_DIVISION
+  display_name: Nashville Predators
+  abbreviation: NSH
+- league: NHL
+  team: HCK-NHL-TEAM-NYI
+  from: 2015
+  through: 2019
+  conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-METROPOLITAN_DIVISION
+  display_name: New York Islanders
+  abbreviation: NYI
+- league: NHL
+  team: HCK-NHL-TEAM-NYI
+  from: 2020
+  through: 2020
+  conference:
+  division: HCK-NHL-DIVISION-2020_2021-EAST
+  display_name: New York Islanders
+  abbreviation: NYI
+- league: NHL
+  team: HCK-NHL-TEAM-NYI
+  from: 2021
+  through: 2024
+  conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-METROPOLITAN_DIVISION
+  display_name: New York Islanders
+  abbreviation: NYI
+- league: NHL
+  team: HCK-NHL-TEAM-NYR
+  from: 2015
+  through: 2019
+  conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-METROPOLITAN_DIVISION
+  display_name: New York Rangers
+  abbreviation: NYR
+- league: NHL
+  team: HCK-NHL-TEAM-NYR
+  from: 2020
+  through: 2020
+  conference:
+  division: HCK-NHL-DIVISION-2020_2021-EAST
+  display_name: New York Rangers
+  abbreviation: NYR
+- league: NHL
+  team: HCK-NHL-TEAM-NYR
+  from: 2021
+  through: 2024
+  conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-METROPOLITAN_DIVISION
+  display_name: New York Rangers
+  abbreviation: NYR
+- league: NHL
+  team: HCK-NHL-TEAM-OTT
+  from: 2015
+  through: 2019
+  conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-ATLANTIC_DIVISION
+  display_name: Ottawa Senators
+  abbreviation: OTT
+- league: NHL
+  team: HCK-NHL-TEAM-OTT
+  from: 2020
+  through: 2020
+  conference:
+  division: HCK-NHL-DIVISION-2020_2021-NORTH
+  display_name: Ottawa Senators
+  abbreviation: OTT
+- league: NHL
+  team: HCK-NHL-TEAM-OTT
+  from: 2021
+  through: 2024
+  conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-ATLANTIC_DIVISION
+  display_name: Ottawa Senators
+  abbreviation: OTT
+- league: NHL
+  team: HCK-NHL-TEAM-PHI
+  from: 2015
+  through: 2019
+  conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-METROPOLITAN_DIVISION
+  display_name: Philadelphia Flyers
+  abbreviation: PHI
+- league: NHL
+  team: HCK-NHL-TEAM-PHI
+  from: 2020
+  through: 2020
+  conference:
+  division: HCK-NHL-DIVISION-2020_2021-EAST
+  display_name: Philadelphia Flyers
+  abbreviation: PHI
+- league: NHL
+  team: HCK-NHL-TEAM-PHI
+  from: 2021
+  through: 2024
+  conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-METROPOLITAN_DIVISION
+  display_name: Philadelphia Flyers
+  abbreviation: PHI
+- league: NHL
+  team: HCK-NHL-TEAM-PIT
+  from: 2015
+  through: 2019
+  conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-METROPOLITAN_DIVISION
+  display_name: Pittsburgh Penguins
+  abbreviation: PIT
+- league: NHL
+  team: HCK-NHL-TEAM-PIT
+  from: 2020
+  through: 2020
+  conference:
+  division: HCK-NHL-DIVISION-2020_2021-EAST
+  display_name: Pittsburgh Penguins
+  abbreviation: PIT
+- league: NHL
+  team: HCK-NHL-TEAM-PIT
+  from: 2021
+  through: 2024
+  conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-METROPOLITAN_DIVISION
+  display_name: Pittsburgh Penguins
+  abbreviation: PIT
+- league: NHL
+  team: HCK-NHL-TEAM-SEA
+  from: 2021
+  through: 2024
+  conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-PACIFIC_DIVISION
+  display_name: Seattle Kraken
+  abbreviation: SEA
+- league: NHL
+  team: HCK-NHL-TEAM-SJS
+  from: 2015
+  through: 2019
+  conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-PACIFIC_DIVISION
+  display_name: San Jose Sharks
+  abbreviation: SJS
+- league: NHL
+  team: HCK-NHL-TEAM-SJS
+  from: 2020
+  through: 2020
+  conference:
+  division: HCK-NHL-DIVISION-2020_2021-WEST
+  display_name: San Jose Sharks
+  abbreviation: SJS
+- league: NHL
+  team: HCK-NHL-TEAM-SJS
+  from: 2021
+  through: 2024
+  conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-PACIFIC_DIVISION
+  display_name: San Jose Sharks
+  abbreviation: SJS
+- league: NHL
+  team: HCK-NHL-TEAM-STL
+  from: 2015
+  through: 2019
+  conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-CENTRAL_DIVISION
+  display_name: St. Louis Blues
+  abbreviation: STL
+- league: NHL
+  team: HCK-NHL-TEAM-STL
+  from: 2020
+  through: 2020
+  conference:
+  division: HCK-NHL-DIVISION-2020_2021-WEST
+  display_name: St. Louis Blues
+  abbreviation: STL
+- league: NHL
+  team: HCK-NHL-TEAM-STL
+  from: 2021
+  through: 2024
+  conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-CENTRAL_DIVISION
+  display_name: St. Louis Blues
+  abbreviation: STL
+- league: NHL
+  team: HCK-NHL-TEAM-TBL
+  from: 2015
+  through: 2019
+  conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-ATLANTIC_DIVISION
+  display_name: Tampa Bay Lightning
+  abbreviation: TBL
+- league: NHL
+  team: HCK-NHL-TEAM-TBL
+  from: 2020
+  through: 2020
+  conference:
+  division: HCK-NHL-DIVISION-2020_2021-CENTRAL
+  display_name: Tampa Bay Lightning
+  abbreviation: TBL
+- league: NHL
+  team: HCK-NHL-TEAM-TBL
+  from: 2021
+  through: 2024
+  conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-ATLANTIC_DIVISION
+  display_name: Tampa Bay Lightning
+  abbreviation: TBL
+- league: NHL
+  team: HCK-NHL-TEAM-TOR
+  from: 2015
+  through: 2019
+  conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-ATLANTIC_DIVISION
+  display_name: Toronto Maple Leafs
+  abbreviation: TOR
+- league: NHL
+  team: HCK-NHL-TEAM-TOR
+  from: 2020
+  through: 2020
+  conference:
+  division: HCK-NHL-DIVISION-2020_2021-NORTH
+  display_name: Toronto Maple Leafs
+  abbreviation: TOR
+- league: NHL
+  team: HCK-NHL-TEAM-TOR
+  from: 2021
+  through: 2024
+  conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-ATLANTIC_DIVISION
+  display_name: Toronto Maple Leafs
+  abbreviation: TOR
+- league: NHL
+  team: HCK-NHL-TEAM-UTA
+  from: 2024
+  through: 2024
+  conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-CENTRAL_DIVISION
+  display_name: Utah Hockey Club
+  abbreviation: UTA
+- league: NHL
+  team: HCK-NHL-TEAM-VAN
+  from: 2015
+  through: 2019
+  conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-PACIFIC_DIVISION
+  display_name: Vancouver Canucks
+  abbreviation: VAN
+- league: NHL
+  team: HCK-NHL-TEAM-VAN
+  from: 2020
+  through: 2020
+  conference:
+  division: HCK-NHL-DIVISION-2020_2021-NORTH
+  display_name: Vancouver Canucks
+  abbreviation: VAN
+- league: NHL
+  team: HCK-NHL-TEAM-VAN
+  from: 2021
+  through: 2024
+  conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-PACIFIC_DIVISION
+  display_name: Vancouver Canucks
+  abbreviation: VAN
+- league: NHL
+  team: HCK-NHL-TEAM-VGK
+  from: 2017
+  through: 2019
+  conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-PACIFIC_DIVISION
+  display_name: Vegas Golden Knights
+  abbreviation: VGK
+- league: NHL
+  team: HCK-NHL-TEAM-VGK
+  from: 2020
+  through: 2020
+  conference:
+  division: HCK-NHL-DIVISION-2020_2021-WEST
+  display_name: Vegas Golden Knights
+  abbreviation: VGK
+- league: NHL
+  team: HCK-NHL-TEAM-VGK
+  from: 2021
+  through: 2024
+  conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-PACIFIC_DIVISION
+  display_name: Vegas Golden Knights
+  abbreviation: VGK
+- league: NHL
+  team: HCK-NHL-TEAM-WPG
+  from: 2015
+  through: 2019
+  conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-CENTRAL_DIVISION
+  display_name: Winnipeg Jets
+  abbreviation: WPG
+- league: NHL
+  team: HCK-NHL-TEAM-WPG
+  from: 2020
+  through: 2020
+  conference:
+  division: HCK-NHL-DIVISION-2020_2021-NORTH
+  display_name: Winnipeg Jets
+  abbreviation: WPG
+- league: NHL
+  team: HCK-NHL-TEAM-WPG
+  from: 2021
+  through: 2024
+  conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-CENTRAL_DIVISION
+  display_name: Winnipeg Jets
+  abbreviation: WPG
+- league: NHL
+  team: HCK-NHL-TEAM-WSH
+  from: 2015
+  through: 2019
+  conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-METROPOLITAN_DIVISION
+  display_name: Washington Capitals
+  abbreviation: WSH
+- league: NHL
+  team: HCK-NHL-TEAM-WSH
+  from: 2020
+  through: 2020
+  conference:
+  division: HCK-NHL-DIVISION-2020_2021-EAST
+  display_name: Washington Capitals
+  abbreviation: WSH
+- league: NHL
+  team: HCK-NHL-TEAM-WSH
+  from: 2021
+  through: 2024
+  conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  division: HCK-NHL-DIVISION-METROPOLITAN_DIVISION
+  display_name: Washington Capitals
+  abbreviation: WSH
+- league: MLB
+  team: BSB-MLB-TEAM-ATH
+  from: 2016
+  through: 2024
+  conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  division: BSB-MLB-DIVISION-AL_WEST
+  display_name: Oakland Athletics
+  abbreviation: OAK
+- league: MLB
+  team: BSB-MLB-TEAM-ATH
+  from: 2025
+  through: 2025
+  conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  division: BSB-MLB-DIVISION-AL_WEST
+  display_name: Athletics
+  abbreviation: ATH
+- league: MLB
+  team: BSB-MLB-TEAM-ATL
+  from: 2016
+  through: 2025
+  conference: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  division: BSB-MLB-DIVISION-NL_EAST
+  display_name: Atlanta Braves
+  abbreviation: ATL
+- league: MLB
+  team: BSB-MLB-TEAM-AZ
+  from: 2016
+  through: 2025
+  conference: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  division: BSB-MLB-DIVISION-NL_WEST
+  display_name: Arizona Diamondbacks
+  abbreviation: AZ
+- league: MLB
+  team: BSB-MLB-TEAM-BAL
+  from: 2016
+  through: 2025
+  conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  division: BSB-MLB-DIVISION-AL_EAST
+  display_name: Baltimore Orioles
+  abbreviation: BAL
+- league: MLB
+  team: BSB-MLB-TEAM-BOS
+  from: 2016
+  through: 2025
+  conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  division: BSB-MLB-DIVISION-AL_EAST
+  display_name: Boston Red Sox
+  abbreviation: BOS
+- league: MLB
+  team: BSB-MLB-TEAM-CHC
+  from: 2016
+  through: 2025
+  conference: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  division: BSB-MLB-DIVISION-NL_CENTRAL
+  display_name: Chicago Cubs
+  abbreviation: CHC
+- league: MLB
+  team: BSB-MLB-TEAM-CIN
+  from: 2016
+  through: 2025
+  conference: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  division: BSB-MLB-DIVISION-NL_CENTRAL
+  display_name: Cincinnati Reds
+  abbreviation: CIN
+- league: MLB
+  team: BSB-MLB-TEAM-CLE
+  from: 2016
+  through: 2021
+  conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  division: BSB-MLB-DIVISION-AL_CENTRAL
+  display_name: Cleveland Indians
+  abbreviation: CLE
+- league: MLB
+  team: BSB-MLB-TEAM-CLE
+  from: 2022
+  through: 2025
+  conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  division: BSB-MLB-DIVISION-AL_CENTRAL
+  display_name: Cleveland Guardians
+  abbreviation: CLE
+- league: MLB
+  team: BSB-MLB-TEAM-COL
+  from: 2016
+  through: 2025
+  conference: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  division: BSB-MLB-DIVISION-NL_WEST
+  display_name: Colorado Rockies
+  abbreviation: COL
+- league: MLB
+  team: BSB-MLB-TEAM-CWS
+  from: 2016
+  through: 2025
+  conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  division: BSB-MLB-DIVISION-AL_CENTRAL
+  display_name: Chicago White Sox
+  abbreviation: CWS
+- league: MLB
+  team: BSB-MLB-TEAM-DET
+  from: 2016
+  through: 2025
+  conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  division: BSB-MLB-DIVISION-AL_CENTRAL
+  display_name: Detroit Tigers
+  abbreviation: DET
+- league: MLB
+  team: BSB-MLB-TEAM-HOU
+  from: 2016
+  through: 2025
+  conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  division: BSB-MLB-DIVISION-AL_WEST
+  display_name: Houston Astros
+  abbreviation: HOU
+- league: MLB
+  team: BSB-MLB-TEAM-KC
+  from: 2016
+  through: 2025
+  conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  division: BSB-MLB-DIVISION-AL_CENTRAL
+  display_name: Kansas City Royals
+  abbreviation: KC
+- league: MLB
+  team: BSB-MLB-TEAM-LAA
+  from: 2016
+  through: 2025
+  conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  division: BSB-MLB-DIVISION-AL_WEST
+  display_name: Los Angeles Angels
+  abbreviation: LAA
+- league: MLB
+  team: BSB-MLB-TEAM-LAD
+  from: 2016
+  through: 2025
+  conference: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  division: BSB-MLB-DIVISION-NL_WEST
+  display_name: Los Angeles Dodgers
+  abbreviation: LAD
+- league: MLB
+  team: BSB-MLB-TEAM-MIA
+  from: 2016
+  through: 2025
+  conference: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  division: BSB-MLB-DIVISION-NL_EAST
+  display_name: Miami Marlins
+  abbreviation: MIA
+- league: MLB
+  team: BSB-MLB-TEAM-MIL
+  from: 2016
+  through: 2025
+  conference: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  division: BSB-MLB-DIVISION-NL_CENTRAL
+  display_name: Milwaukee Brewers
+  abbreviation: MIL
+- league: MLB
+  team: BSB-MLB-TEAM-MIN
+  from: 2016
+  through: 2025
+  conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  division: BSB-MLB-DIVISION-AL_CENTRAL
+  display_name: Minnesota Twins
+  abbreviation: MIN
+- league: MLB
+  team: BSB-MLB-TEAM-NYM
+  from: 2016
+  through: 2025
+  conference: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  division: BSB-MLB-DIVISION-NL_EAST
+  display_name: New York Mets
+  abbreviation: NYM
+- league: MLB
+  team: BSB-MLB-TEAM-NYY
+  from: 2016
+  through: 2025
+  conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  division: BSB-MLB-DIVISION-AL_EAST
+  display_name: New York Yankees
+  abbreviation: NYY
+- league: MLB
+  team: BSB-MLB-TEAM-PHI
+  from: 2016
+  through: 2025
+  conference: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  division: BSB-MLB-DIVISION-NL_EAST
+  display_name: Philadelphia Phillies
+  abbreviation: PHI
+- league: MLB
+  team: BSB-MLB-TEAM-PIT
+  from: 2016
+  through: 2025
+  conference: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  division: BSB-MLB-DIVISION-NL_CENTRAL
+  display_name: Pittsburgh Pirates
+  abbreviation: PIT
+- league: MLB
+  team: BSB-MLB-TEAM-SD
+  from: 2016
+  through: 2025
+  conference: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  division: BSB-MLB-DIVISION-NL_WEST
+  display_name: San Diego Padres
+  abbreviation: SD
+- league: MLB
+  team: BSB-MLB-TEAM-SEA
+  from: 2016
+  through: 2025
+  conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  division: BSB-MLB-DIVISION-AL_WEST
+  display_name: Seattle Mariners
+  abbreviation: SEA
+- league: MLB
+  team: BSB-MLB-TEAM-SF
+  from: 2016
+  through: 2025
+  conference: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  division: BSB-MLB-DIVISION-NL_WEST
+  display_name: San Francisco Giants
+  abbreviation: SF
+- league: MLB
+  team: BSB-MLB-TEAM-STL
+  from: 2016
+  through: 2025
+  conference: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  division: BSB-MLB-DIVISION-NL_CENTRAL
+  display_name: St. Louis Cardinals
+  abbreviation: STL
+- league: MLB
+  team: BSB-MLB-TEAM-TB
+  from: 2016
+  through: 2025
+  conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  division: BSB-MLB-DIVISION-AL_EAST
+  display_name: Tampa Bay Rays
+  abbreviation: TB
+- league: MLB
+  team: BSB-MLB-TEAM-TEX
+  from: 2016
+  through: 2025
+  conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  division: BSB-MLB-DIVISION-AL_WEST
+  display_name: Texas Rangers
+  abbreviation: TEX
+- league: MLB
+  team: BSB-MLB-TEAM-TOR
+  from: 2016
+  through: 2025
+  conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  division: BSB-MLB-DIVISION-AL_EAST
+  display_name: Toronto Blue Jays
+  abbreviation: TOR
+- league: MLB
+  team: BSB-MLB-TEAM-WSH
+  from: 2016
+  through: 2025
+  conference: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  division: BSB-MLB-DIVISION-NL_EAST
+  display_name: Washington Nationals
+  abbreviation: WSH

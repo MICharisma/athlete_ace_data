@@ -1,0 +1,2542 @@
+{
+  "league": "NHL",
+  "as_of": "2026-11-13",
+  "meaning": "Complete annual league/conference/division classification. No player roster, game participation, or exact affiliation dates are asserted.",
+  "seasons": [
+    {
+      "start_year": 2015,
+      "label": "2015_2016",
+      "url": "https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2016&level=3",
+      "teams": [
+        {
+          "source_id": "ANA",
+          "provider_team_id": "25",
+          "name": "Anaheim Ducks",
+          "abbreviation": "ANA",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "ARI",
+          "provider_team_id": "24",
+          "name": "Arizona Coyotes",
+          "abbreviation": "ARI",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "BOS",
+          "provider_team_id": "1",
+          "name": "Boston Bruins",
+          "abbreviation": "BOS",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "BUF",
+          "provider_team_id": "2",
+          "name": "Buffalo Sabres",
+          "abbreviation": "BUF",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "CAR",
+          "provider_team_id": "7",
+          "name": "Carolina Hurricanes",
+          "abbreviation": "CAR",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "CBJ",
+          "provider_team_id": "29",
+          "name": "Columbus Blue Jackets",
+          "abbreviation": "CBJ",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "CGY",
+          "provider_team_id": "3",
+          "name": "Calgary Flames",
+          "abbreviation": "CGY",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "CHI",
+          "provider_team_id": "4",
+          "name": "Chicago Blackhawks",
+          "abbreviation": "CHI",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "COL",
+          "provider_team_id": "17",
+          "name": "Colorado Avalanche",
+          "abbreviation": "COL",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "DAL",
+          "provider_team_id": "9",
+          "name": "Dallas Stars",
+          "abbreviation": "DAL",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "DET",
+          "provider_team_id": "5",
+          "name": "Detroit Red Wings",
+          "abbreviation": "DET",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "EDM",
+          "provider_team_id": "6",
+          "name": "Edmonton Oilers",
+          "abbreviation": "EDM",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "FLA",
+          "provider_team_id": "26",
+          "name": "Florida Panthers",
+          "abbreviation": "FLA",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "LAK",
+          "provider_team_id": "8",
+          "name": "Los Angeles Kings",
+          "abbreviation": "LAK",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "MIN",
+          "provider_team_id": "30",
+          "name": "Minnesota Wild",
+          "abbreviation": "MIN",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "MTL",
+          "provider_team_id": "10",
+          "name": "Montreal Canadiens",
+          "abbreviation": "MTL",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "NJD",
+          "provider_team_id": "11",
+          "name": "New Jersey Devils",
+          "abbreviation": "NJD",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "NSH",
+          "provider_team_id": "27",
+          "name": "Nashville Predators",
+          "abbreviation": "NSH",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "NYI",
+          "provider_team_id": "12",
+          "name": "New York Islanders",
+          "abbreviation": "NYI",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "NYR",
+          "provider_team_id": "13",
+          "name": "New York Rangers",
+          "abbreviation": "NYR",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "OTT",
+          "provider_team_id": "14",
+          "name": "Ottawa Senators",
+          "abbreviation": "OTT",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "PHI",
+          "provider_team_id": "15",
+          "name": "Philadelphia Flyers",
+          "abbreviation": "PHI",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "PIT",
+          "provider_team_id": "16",
+          "name": "Pittsburgh Penguins",
+          "abbreviation": "PIT",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "SJS",
+          "provider_team_id": "18",
+          "name": "San Jose Sharks",
+          "abbreviation": "SJS",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "STL",
+          "provider_team_id": "19",
+          "name": "St. Louis Blues",
+          "abbreviation": "STL",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "TBL",
+          "provider_team_id": "20",
+          "name": "Tampa Bay Lightning",
+          "abbreviation": "TBL",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "TOR",
+          "provider_team_id": "21",
+          "name": "Toronto Maple Leafs",
+          "abbreviation": "TOR",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "VAN",
+          "provider_team_id": "22",
+          "name": "Vancouver Canucks",
+          "abbreviation": "VAN",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "WPG",
+          "provider_team_id": "28",
+          "name": "Winnipeg Jets",
+          "abbreviation": "WPG",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "WSH",
+          "provider_team_id": "23",
+          "name": "Washington Capitals",
+          "abbreviation": "WSH",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        }
+      ]
+    },
+    {
+      "start_year": 2016,
+      "label": "2016_2017",
+      "url": "https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2017&level=3",
+      "teams": [
+        {
+          "source_id": "ANA",
+          "provider_team_id": "25",
+          "name": "Anaheim Ducks",
+          "abbreviation": "ANA",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "ARI",
+          "provider_team_id": "24",
+          "name": "Arizona Coyotes",
+          "abbreviation": "ARI",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "BOS",
+          "provider_team_id": "1",
+          "name": "Boston Bruins",
+          "abbreviation": "BOS",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "BUF",
+          "provider_team_id": "2",
+          "name": "Buffalo Sabres",
+          "abbreviation": "BUF",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "CAR",
+          "provider_team_id": "7",
+          "name": "Carolina Hurricanes",
+          "abbreviation": "CAR",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "CBJ",
+          "provider_team_id": "29",
+          "name": "Columbus Blue Jackets",
+          "abbreviation": "CBJ",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "CGY",
+          "provider_team_id": "3",
+          "name": "Calgary Flames",
+          "abbreviation": "CGY",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "CHI",
+          "provider_team_id": "4",
+          "name": "Chicago Blackhawks",
+          "abbreviation": "CHI",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "COL",
+          "provider_team_id": "17",
+          "name": "Colorado Avalanche",
+          "abbreviation": "COL",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "DAL",
+          "provider_team_id": "9",
+          "name": "Dallas Stars",
+          "abbreviation": "DAL",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "DET",
+          "provider_team_id": "5",
+          "name": "Detroit Red Wings",
+          "abbreviation": "DET",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "EDM",
+          "provider_team_id": "6",
+          "name": "Edmonton Oilers",
+          "abbreviation": "EDM",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "FLA",
+          "provider_team_id": "26",
+          "name": "Florida Panthers",
+          "abbreviation": "FLA",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "LAK",
+          "provider_team_id": "8",
+          "name": "Los Angeles Kings",
+          "abbreviation": "LAK",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "MIN",
+          "provider_team_id": "30",
+          "name": "Minnesota Wild",
+          "abbreviation": "MIN",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "MTL",
+          "provider_team_id": "10",
+          "name": "Montreal Canadiens",
+          "abbreviation": "MTL",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "NJD",
+          "provider_team_id": "11",
+          "name": "New Jersey Devils",
+          "abbreviation": "NJD",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "NSH",
+          "provider_team_id": "27",
+          "name": "Nashville Predators",
+          "abbreviation": "NSH",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "NYI",
+          "provider_team_id": "12",
+          "name": "New York Islanders",
+          "abbreviation": "NYI",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "NYR",
+          "provider_team_id": "13",
+          "name": "New York Rangers",
+          "abbreviation": "NYR",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "OTT",
+          "provider_team_id": "14",
+          "name": "Ottawa Senators",
+          "abbreviation": "OTT",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "PHI",
+          "provider_team_id": "15",
+          "name": "Philadelphia Flyers",
+          "abbreviation": "PHI",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "PIT",
+          "provider_team_id": "16",
+          "name": "Pittsburgh Penguins",
+          "abbreviation": "PIT",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "SJS",
+          "provider_team_id": "18",
+          "name": "San Jose Sharks",
+          "abbreviation": "SJS",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "STL",
+          "provider_team_id": "19",
+          "name": "St. Louis Blues",
+          "abbreviation": "STL",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "TBL",
+          "provider_team_id": "20",
+          "name": "Tampa Bay Lightning",
+          "abbreviation": "TBL",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "TOR",
+          "provider_team_id": "21",
+          "name": "Toronto Maple Leafs",
+          "abbreviation": "TOR",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "VAN",
+          "provider_team_id": "22",
+          "name": "Vancouver Canucks",
+          "abbreviation": "VAN",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "WPG",
+          "provider_team_id": "28",
+          "name": "Winnipeg Jets",
+          "abbreviation": "WPG",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "WSH",
+          "provider_team_id": "23",
+          "name": "Washington Capitals",
+          "abbreviation": "WSH",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        }
+      ]
+    },
+    {
+      "start_year": 2017,
+      "label": "2017_2018",
+      "url": "https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2018&level=3",
+      "teams": [
+        {
+          "source_id": "ANA",
+          "provider_team_id": "25",
+          "name": "Anaheim Ducks",
+          "abbreviation": "ANA",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "ARI",
+          "provider_team_id": "24",
+          "name": "Arizona Coyotes",
+          "abbreviation": "ARI",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "BOS",
+          "provider_team_id": "1",
+          "name": "Boston Bruins",
+          "abbreviation": "BOS",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "BUF",
+          "provider_team_id": "2",
+          "name": "Buffalo Sabres",
+          "abbreviation": "BUF",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "CAR",
+          "provider_team_id": "7",
+          "name": "Carolina Hurricanes",
+          "abbreviation": "CAR",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "CBJ",
+          "provider_team_id": "29",
+          "name": "Columbus Blue Jackets",
+          "abbreviation": "CBJ",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "CGY",
+          "provider_team_id": "3",
+          "name": "Calgary Flames",
+          "abbreviation": "CGY",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "CHI",
+          "provider_team_id": "4",
+          "name": "Chicago Blackhawks",
+          "abbreviation": "CHI",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "COL",
+          "provider_team_id": "17",
+          "name": "Colorado Avalanche",
+          "abbreviation": "COL",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "DAL",
+          "provider_team_id": "9",
+          "name": "Dallas Stars",
+          "abbreviation": "DAL",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "DET",
+          "provider_team_id": "5",
+          "name": "Detroit Red Wings",
+          "abbreviation": "DET",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "EDM",
+          "provider_team_id": "6",
+          "name": "Edmonton Oilers",
+          "abbreviation": "EDM",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "FLA",
+          "provider_team_id": "26",
+          "name": "Florida Panthers",
+          "abbreviation": "FLA",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "LAK",
+          "provider_team_id": "8",
+          "name": "Los Angeles Kings",
+          "abbreviation": "LAK",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "MIN",
+          "provider_team_id": "30",
+          "name": "Minnesota Wild",
+          "abbreviation": "MIN",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "MTL",
+          "provider_team_id": "10",
+          "name": "Montreal Canadiens",
+          "abbreviation": "MTL",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "NJD",
+          "provider_team_id": "11",
+          "name": "New Jersey Devils",
+          "abbreviation": "NJD",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "NSH",
+          "provider_team_id": "27",
+          "name": "Nashville Predators",
+          "abbreviation": "NSH",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "NYI",
+          "provider_team_id": "12",
+          "name": "New York Islanders",
+          "abbreviation": "NYI",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "NYR",
+          "provider_team_id": "13",
+          "name": "New York Rangers",
+          "abbreviation": "NYR",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "OTT",
+          "provider_team_id": "14",
+          "name": "Ottawa Senators",
+          "abbreviation": "OTT",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "PHI",
+          "provider_team_id": "15",
+          "name": "Philadelphia Flyers",
+          "abbreviation": "PHI",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "PIT",
+          "provider_team_id": "16",
+          "name": "Pittsburgh Penguins",
+          "abbreviation": "PIT",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "SJS",
+          "provider_team_id": "18",
+          "name": "San Jose Sharks",
+          "abbreviation": "SJS",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "STL",
+          "provider_team_id": "19",
+          "name": "St. Louis Blues",
+          "abbreviation": "STL",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "TBL",
+          "provider_team_id": "20",
+          "name": "Tampa Bay Lightning",
+          "abbreviation": "TBL",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "TOR",
+          "provider_team_id": "21",
+          "name": "Toronto Maple Leafs",
+          "abbreviation": "TOR",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "VAN",
+          "provider_team_id": "22",
+          "name": "Vancouver Canucks",
+          "abbreviation": "VAN",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "VGK",
+          "provider_team_id": "37",
+          "name": "Vegas Golden Knights",
+          "abbreviation": "VGK",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "WPG",
+          "provider_team_id": "28",
+          "name": "Winnipeg Jets",
+          "abbreviation": "WPG",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "WSH",
+          "provider_team_id": "23",
+          "name": "Washington Capitals",
+          "abbreviation": "WSH",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        }
+      ]
+    },
+    {
+      "start_year": 2018,
+      "label": "2018_2019",
+      "url": "https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2019&level=3",
+      "teams": [
+        {
+          "source_id": "ANA",
+          "provider_team_id": "25",
+          "name": "Anaheim Ducks",
+          "abbreviation": "ANA",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "ARI",
+          "provider_team_id": "24",
+          "name": "Arizona Coyotes",
+          "abbreviation": "ARI",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "BOS",
+          "provider_team_id": "1",
+          "name": "Boston Bruins",
+          "abbreviation": "BOS",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "BUF",
+          "provider_team_id": "2",
+          "name": "Buffalo Sabres",
+          "abbreviation": "BUF",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "CAR",
+          "provider_team_id": "7",
+          "name": "Carolina Hurricanes",
+          "abbreviation": "CAR",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "CBJ",
+          "provider_team_id": "29",
+          "name": "Columbus Blue Jackets",
+          "abbreviation": "CBJ",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "CGY",
+          "provider_team_id": "3",
+          "name": "Calgary Flames",
+          "abbreviation": "CGY",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "CHI",
+          "provider_team_id": "4",
+          "name": "Chicago Blackhawks",
+          "abbreviation": "CHI",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "COL",
+          "provider_team_id": "17",
+          "name": "Colorado Avalanche",
+          "abbreviation": "COL",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "DAL",
+          "provider_team_id": "9",
+          "name": "Dallas Stars",
+          "abbreviation": "DAL",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "DET",
+          "provider_team_id": "5",
+          "name": "Detroit Red Wings",
+          "abbreviation": "DET",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "EDM",
+          "provider_team_id": "6",
+          "name": "Edmonton Oilers",
+          "abbreviation": "EDM",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "FLA",
+          "provider_team_id": "26",
+          "name": "Florida Panthers",
+          "abbreviation": "FLA",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "LAK",
+          "provider_team_id": "8",
+          "name": "Los Angeles Kings",
+          "abbreviation": "LAK",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "MIN",
+          "provider_team_id": "30",
+          "name": "Minnesota Wild",
+          "abbreviation": "MIN",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "MTL",
+          "provider_team_id": "10",
+          "name": "Montreal Canadiens",
+          "abbreviation": "MTL",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "NJD",
+          "provider_team_id": "11",
+          "name": "New Jersey Devils",
+          "abbreviation": "NJD",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "NSH",
+          "provider_team_id": "27",
+          "name": "Nashville Predators",
+          "abbreviation": "NSH",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "NYI",
+          "provider_team_id": "12",
+          "name": "New York Islanders",
+          "abbreviation": "NYI",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "NYR",
+          "provider_team_id": "13",
+          "name": "New York Rangers",
+          "abbreviation": "NYR",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "OTT",
+          "provider_team_id": "14",
+          "name": "Ottawa Senators",
+          "abbreviation": "OTT",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "PHI",
+          "provider_team_id": "15",
+          "name": "Philadelphia Flyers",
+          "abbreviation": "PHI",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "PIT",
+          "provider_team_id": "16",
+          "name": "Pittsburgh Penguins",
+          "abbreviation": "PIT",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "SJS",
+          "provider_team_id": "18",
+          "name": "San Jose Sharks",
+          "abbreviation": "SJS",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "STL",
+          "provider_team_id": "19",
+          "name": "St. Louis Blues",
+          "abbreviation": "STL",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "TBL",
+          "provider_team_id": "20",
+          "name": "Tampa Bay Lightning",
+          "abbreviation": "TBL",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "TOR",
+          "provider_team_id": "21",
+          "name": "Toronto Maple Leafs",
+          "abbreviation": "TOR",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "VAN",
+          "provider_team_id": "22",
+          "name": "Vancouver Canucks",
+          "abbreviation": "VAN",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "VGK",
+          "provider_team_id": "37",
+          "name": "Vegas Golden Knights",
+          "abbreviation": "VGK",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "WPG",
+          "provider_team_id": "28",
+          "name": "Winnipeg Jets",
+          "abbreviation": "WPG",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "WSH",
+          "provider_team_id": "23",
+          "name": "Washington Capitals",
+          "abbreviation": "WSH",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        }
+      ]
+    },
+    {
+      "start_year": 2019,
+      "label": "2019_2020",
+      "url": "https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2020&level=3",
+      "teams": [
+        {
+          "source_id": "ANA",
+          "provider_team_id": "25",
+          "name": "Anaheim Ducks",
+          "abbreviation": "ANA",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "ARI",
+          "provider_team_id": "24",
+          "name": "Arizona Coyotes",
+          "abbreviation": "ARI",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "BOS",
+          "provider_team_id": "1",
+          "name": "Boston Bruins",
+          "abbreviation": "BOS",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "BUF",
+          "provider_team_id": "2",
+          "name": "Buffalo Sabres",
+          "abbreviation": "BUF",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "CAR",
+          "provider_team_id": "7",
+          "name": "Carolina Hurricanes",
+          "abbreviation": "CAR",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "CBJ",
+          "provider_team_id": "29",
+          "name": "Columbus Blue Jackets",
+          "abbreviation": "CBJ",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "CGY",
+          "provider_team_id": "3",
+          "name": "Calgary Flames",
+          "abbreviation": "CGY",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "CHI",
+          "provider_team_id": "4",
+          "name": "Chicago Blackhawks",
+          "abbreviation": "CHI",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "COL",
+          "provider_team_id": "17",
+          "name": "Colorado Avalanche",
+          "abbreviation": "COL",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "DAL",
+          "provider_team_id": "9",
+          "name": "Dallas Stars",
+          "abbreviation": "DAL",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "DET",
+          "provider_team_id": "5",
+          "name": "Detroit Red Wings",
+          "abbreviation": "DET",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "EDM",
+          "provider_team_id": "6",
+          "name": "Edmonton Oilers",
+          "abbreviation": "EDM",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "FLA",
+          "provider_team_id": "26",
+          "name": "Florida Panthers",
+          "abbreviation": "FLA",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "LAK",
+          "provider_team_id": "8",
+          "name": "Los Angeles Kings",
+          "abbreviation": "LAK",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "MIN",
+          "provider_team_id": "30",
+          "name": "Minnesota Wild",
+          "abbreviation": "MIN",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "MTL",
+          "provider_team_id": "10",
+          "name": "Montreal Canadiens",
+          "abbreviation": "MTL",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "NJD",
+          "provider_team_id": "11",
+          "name": "New Jersey Devils",
+          "abbreviation": "NJD",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "NSH",
+          "provider_team_id": "27",
+          "name": "Nashville Predators",
+          "abbreviation": "NSH",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "NYI",
+          "provider_team_id": "12",
+          "name": "New York Islanders",
+          "abbreviation": "NYI",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "NYR",
+          "provider_team_id": "13",
+          "name": "New York Rangers",
+          "abbreviation": "NYR",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "OTT",
+          "provider_team_id": "14",
+          "name": "Ottawa Senators",
+          "abbreviation": "OTT",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "PHI",
+          "provider_team_id": "15",
+          "name": "Philadelphia Flyers",
+          "abbreviation": "PHI",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "PIT",
+          "provider_team_id": "16",
+          "name": "Pittsburgh Penguins",
+          "abbreviation": "PIT",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "SJS",
+          "provider_team_id": "18",
+          "name": "San Jose Sharks",
+          "abbreviation": "SJS",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "STL",
+          "provider_team_id": "19",
+          "name": "St. Louis Blues",
+          "abbreviation": "STL",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "TBL",
+          "provider_team_id": "20",
+          "name": "Tampa Bay Lightning",
+          "abbreviation": "TBL",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "TOR",
+          "provider_team_id": "21",
+          "name": "Toronto Maple Leafs",
+          "abbreviation": "TOR",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "VAN",
+          "provider_team_id": "22",
+          "name": "Vancouver Canucks",
+          "abbreviation": "VAN",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "VGK",
+          "provider_team_id": "37",
+          "name": "Vegas Golden Knights",
+          "abbreviation": "VGK",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "WPG",
+          "provider_team_id": "28",
+          "name": "Winnipeg Jets",
+          "abbreviation": "WPG",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "WSH",
+          "provider_team_id": "23",
+          "name": "Washington Capitals",
+          "abbreviation": "WSH",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        }
+      ]
+    },
+    {
+      "start_year": 2020,
+      "label": "2020_2021",
+      "url": "https://api-web.nhle.com/v1/standings/2021-05-20",
+      "teams": [
+        {
+          "source_id": "ANA",
+          "name": "Anaheim Ducks",
+          "abbreviation": "ANA",
+          "conference": null,
+          "division": "Honda West"
+        },
+        {
+          "source_id": "ARI",
+          "name": "Arizona Coyotes",
+          "abbreviation": "ARI",
+          "conference": null,
+          "division": "Honda West"
+        },
+        {
+          "source_id": "BOS",
+          "name": "Boston Bruins",
+          "abbreviation": "BOS",
+          "conference": null,
+          "division": "MassMutual East"
+        },
+        {
+          "source_id": "BUF",
+          "name": "Buffalo Sabres",
+          "abbreviation": "BUF",
+          "conference": null,
+          "division": "MassMutual East"
+        },
+        {
+          "source_id": "CAR",
+          "name": "Carolina Hurricanes",
+          "abbreviation": "CAR",
+          "conference": null,
+          "division": "Discover Central"
+        },
+        {
+          "source_id": "CBJ",
+          "name": "Columbus Blue Jackets",
+          "abbreviation": "CBJ",
+          "conference": null,
+          "division": "Discover Central"
+        },
+        {
+          "source_id": "CGY",
+          "name": "Calgary Flames",
+          "abbreviation": "CGY",
+          "conference": null,
+          "division": "Scotia North"
+        },
+        {
+          "source_id": "CHI",
+          "name": "Chicago Blackhawks",
+          "abbreviation": "CHI",
+          "conference": null,
+          "division": "Discover Central"
+        },
+        {
+          "source_id": "COL",
+          "name": "Colorado Avalanche",
+          "abbreviation": "COL",
+          "conference": null,
+          "division": "Honda West"
+        },
+        {
+          "source_id": "DAL",
+          "name": "Dallas Stars",
+          "abbreviation": "DAL",
+          "conference": null,
+          "division": "Discover Central"
+        },
+        {
+          "source_id": "DET",
+          "name": "Detroit Red Wings",
+          "abbreviation": "DET",
+          "conference": null,
+          "division": "Discover Central"
+        },
+        {
+          "source_id": "EDM",
+          "name": "Edmonton Oilers",
+          "abbreviation": "EDM",
+          "conference": null,
+          "division": "Scotia North"
+        },
+        {
+          "source_id": "FLA",
+          "name": "Florida Panthers",
+          "abbreviation": "FLA",
+          "conference": null,
+          "division": "Discover Central"
+        },
+        {
+          "source_id": "LAK",
+          "name": "Los Angeles Kings",
+          "abbreviation": "LAK",
+          "conference": null,
+          "division": "Honda West"
+        },
+        {
+          "source_id": "MIN",
+          "name": "Minnesota Wild",
+          "abbreviation": "MIN",
+          "conference": null,
+          "division": "Honda West"
+        },
+        {
+          "source_id": "MTL",
+          "name": "Montréal Canadiens",
+          "abbreviation": "MTL",
+          "conference": null,
+          "division": "Scotia North"
+        },
+        {
+          "source_id": "NJD",
+          "name": "New Jersey Devils",
+          "abbreviation": "NJD",
+          "conference": null,
+          "division": "MassMutual East"
+        },
+        {
+          "source_id": "NSH",
+          "name": "Nashville Predators",
+          "abbreviation": "NSH",
+          "conference": null,
+          "division": "Discover Central"
+        },
+        {
+          "source_id": "NYI",
+          "name": "New York Islanders",
+          "abbreviation": "NYI",
+          "conference": null,
+          "division": "MassMutual East"
+        },
+        {
+          "source_id": "NYR",
+          "name": "New York Rangers",
+          "abbreviation": "NYR",
+          "conference": null,
+          "division": "MassMutual East"
+        },
+        {
+          "source_id": "OTT",
+          "name": "Ottawa Senators",
+          "abbreviation": "OTT",
+          "conference": null,
+          "division": "Scotia North"
+        },
+        {
+          "source_id": "PHI",
+          "name": "Philadelphia Flyers",
+          "abbreviation": "PHI",
+          "conference": null,
+          "division": "MassMutual East"
+        },
+        {
+          "source_id": "PIT",
+          "name": "Pittsburgh Penguins",
+          "abbreviation": "PIT",
+          "conference": null,
+          "division": "MassMutual East"
+        },
+        {
+          "source_id": "SJS",
+          "name": "San Jose Sharks",
+          "abbreviation": "SJS",
+          "conference": null,
+          "division": "Honda West"
+        },
+        {
+          "source_id": "STL",
+          "name": "St. Louis Blues",
+          "abbreviation": "STL",
+          "conference": null,
+          "division": "Honda West"
+        },
+        {
+          "source_id": "TBL",
+          "name": "Tampa Bay Lightning",
+          "abbreviation": "TBL",
+          "conference": null,
+          "division": "Discover Central"
+        },
+        {
+          "source_id": "TOR",
+          "name": "Toronto Maple Leafs",
+          "abbreviation": "TOR",
+          "conference": null,
+          "division": "Scotia North"
+        },
+        {
+          "source_id": "VAN",
+          "name": "Vancouver Canucks",
+          "abbreviation": "VAN",
+          "conference": null,
+          "division": "Scotia North"
+        },
+        {
+          "source_id": "VGK",
+          "name": "Vegas Golden Knights",
+          "abbreviation": "VGK",
+          "conference": null,
+          "division": "Honda West"
+        },
+        {
+          "source_id": "WPG",
+          "name": "Winnipeg Jets",
+          "abbreviation": "WPG",
+          "conference": null,
+          "division": "Scotia North"
+        },
+        {
+          "source_id": "WSH",
+          "name": "Washington Capitals",
+          "abbreviation": "WSH",
+          "conference": null,
+          "division": "MassMutual East"
+        }
+      ]
+    },
+    {
+      "start_year": 2021,
+      "label": "2021_2022",
+      "url": "https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2022&level=3",
+      "teams": [
+        {
+          "source_id": "ANA",
+          "provider_team_id": "25",
+          "name": "Anaheim Ducks",
+          "abbreviation": "ANA",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "ARI",
+          "provider_team_id": "24",
+          "name": "Arizona Coyotes",
+          "abbreviation": "ARI",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "BOS",
+          "provider_team_id": "1",
+          "name": "Boston Bruins",
+          "abbreviation": "BOS",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "BUF",
+          "provider_team_id": "2",
+          "name": "Buffalo Sabres",
+          "abbreviation": "BUF",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "CAR",
+          "provider_team_id": "7",
+          "name": "Carolina Hurricanes",
+          "abbreviation": "CAR",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "CBJ",
+          "provider_team_id": "29",
+          "name": "Columbus Blue Jackets",
+          "abbreviation": "CBJ",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "CGY",
+          "provider_team_id": "3",
+          "name": "Calgary Flames",
+          "abbreviation": "CGY",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "CHI",
+          "provider_team_id": "4",
+          "name": "Chicago Blackhawks",
+          "abbreviation": "CHI",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "COL",
+          "provider_team_id": "17",
+          "name": "Colorado Avalanche",
+          "abbreviation": "COL",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "DAL",
+          "provider_team_id": "9",
+          "name": "Dallas Stars",
+          "abbreviation": "DAL",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "DET",
+          "provider_team_id": "5",
+          "name": "Detroit Red Wings",
+          "abbreviation": "DET",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "EDM",
+          "provider_team_id": "6",
+          "name": "Edmonton Oilers",
+          "abbreviation": "EDM",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "FLA",
+          "provider_team_id": "26",
+          "name": "Florida Panthers",
+          "abbreviation": "FLA",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "LAK",
+          "provider_team_id": "8",
+          "name": "Los Angeles Kings",
+          "abbreviation": "LAK",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "MIN",
+          "provider_team_id": "30",
+          "name": "Minnesota Wild",
+          "abbreviation": "MIN",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "MTL",
+          "provider_team_id": "10",
+          "name": "Montreal Canadiens",
+          "abbreviation": "MTL",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "NJD",
+          "provider_team_id": "11",
+          "name": "New Jersey Devils",
+          "abbreviation": "NJD",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "NSH",
+          "provider_team_id": "27",
+          "name": "Nashville Predators",
+          "abbreviation": "NSH",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "NYI",
+          "provider_team_id": "12",
+          "name": "New York Islanders",
+          "abbreviation": "NYI",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "NYR",
+          "provider_team_id": "13",
+          "name": "New York Rangers",
+          "abbreviation": "NYR",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "OTT",
+          "provider_team_id": "14",
+          "name": "Ottawa Senators",
+          "abbreviation": "OTT",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "PHI",
+          "provider_team_id": "15",
+          "name": "Philadelphia Flyers",
+          "abbreviation": "PHI",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "PIT",
+          "provider_team_id": "16",
+          "name": "Pittsburgh Penguins",
+          "abbreviation": "PIT",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "SEA",
+          "provider_team_id": "124292",
+          "name": "Seattle Kraken",
+          "abbreviation": "SEA",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "SJS",
+          "provider_team_id": "18",
+          "name": "San Jose Sharks",
+          "abbreviation": "SJS",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "STL",
+          "provider_team_id": "19",
+          "name": "St. Louis Blues",
+          "abbreviation": "STL",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "TBL",
+          "provider_team_id": "20",
+          "name": "Tampa Bay Lightning",
+          "abbreviation": "TBL",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "TOR",
+          "provider_team_id": "21",
+          "name": "Toronto Maple Leafs",
+          "abbreviation": "TOR",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "VAN",
+          "provider_team_id": "22",
+          "name": "Vancouver Canucks",
+          "abbreviation": "VAN",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "VGK",
+          "provider_team_id": "37",
+          "name": "Vegas Golden Knights",
+          "abbreviation": "VGK",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "WPG",
+          "provider_team_id": "28",
+          "name": "Winnipeg Jets",
+          "abbreviation": "WPG",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "WSH",
+          "provider_team_id": "23",
+          "name": "Washington Capitals",
+          "abbreviation": "WSH",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        }
+      ]
+    },
+    {
+      "start_year": 2022,
+      "label": "2022_2023",
+      "url": "https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2023&level=3",
+      "teams": [
+        {
+          "source_id": "ANA",
+          "provider_team_id": "25",
+          "name": "Anaheim Ducks",
+          "abbreviation": "ANA",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "ARI",
+          "provider_team_id": "24",
+          "name": "Arizona Coyotes",
+          "abbreviation": "ARI",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "BOS",
+          "provider_team_id": "1",
+          "name": "Boston Bruins",
+          "abbreviation": "BOS",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "BUF",
+          "provider_team_id": "2",
+          "name": "Buffalo Sabres",
+          "abbreviation": "BUF",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "CAR",
+          "provider_team_id": "7",
+          "name": "Carolina Hurricanes",
+          "abbreviation": "CAR",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "CBJ",
+          "provider_team_id": "29",
+          "name": "Columbus Blue Jackets",
+          "abbreviation": "CBJ",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "CGY",
+          "provider_team_id": "3",
+          "name": "Calgary Flames",
+          "abbreviation": "CGY",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "CHI",
+          "provider_team_id": "4",
+          "name": "Chicago Blackhawks",
+          "abbreviation": "CHI",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "COL",
+          "provider_team_id": "17",
+          "name": "Colorado Avalanche",
+          "abbreviation": "COL",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "DAL",
+          "provider_team_id": "9",
+          "name": "Dallas Stars",
+          "abbreviation": "DAL",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "DET",
+          "provider_team_id": "5",
+          "name": "Detroit Red Wings",
+          "abbreviation": "DET",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "EDM",
+          "provider_team_id": "6",
+          "name": "Edmonton Oilers",
+          "abbreviation": "EDM",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "FLA",
+          "provider_team_id": "26",
+          "name": "Florida Panthers",
+          "abbreviation": "FLA",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "LAK",
+          "provider_team_id": "8",
+          "name": "Los Angeles Kings",
+          "abbreviation": "LAK",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "MIN",
+          "provider_team_id": "30",
+          "name": "Minnesota Wild",
+          "abbreviation": "MIN",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "MTL",
+          "provider_team_id": "10",
+          "name": "Montreal Canadiens",
+          "abbreviation": "MTL",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "NJD",
+          "provider_team_id": "11",
+          "name": "New Jersey Devils",
+          "abbreviation": "NJD",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "NSH",
+          "provider_team_id": "27",
+          "name": "Nashville Predators",
+          "abbreviation": "NSH",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "NYI",
+          "provider_team_id": "12",
+          "name": "New York Islanders",
+          "abbreviation": "NYI",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "NYR",
+          "provider_team_id": "13",
+          "name": "New York Rangers",
+          "abbreviation": "NYR",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "OTT",
+          "provider_team_id": "14",
+          "name": "Ottawa Senators",
+          "abbreviation": "OTT",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "PHI",
+          "provider_team_id": "15",
+          "name": "Philadelphia Flyers",
+          "abbreviation": "PHI",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "PIT",
+          "provider_team_id": "16",
+          "name": "Pittsburgh Penguins",
+          "abbreviation": "PIT",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "SEA",
+          "provider_team_id": "124292",
+          "name": "Seattle Kraken",
+          "abbreviation": "SEA",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "SJS",
+          "provider_team_id": "18",
+          "name": "San Jose Sharks",
+          "abbreviation": "SJS",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "STL",
+          "provider_team_id": "19",
+          "name": "St. Louis Blues",
+          "abbreviation": "STL",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "TBL",
+          "provider_team_id": "20",
+          "name": "Tampa Bay Lightning",
+          "abbreviation": "TBL",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "TOR",
+          "provider_team_id": "21",
+          "name": "Toronto Maple Leafs",
+          "abbreviation": "TOR",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "VAN",
+          "provider_team_id": "22",
+          "name": "Vancouver Canucks",
+          "abbreviation": "VAN",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "VGK",
+          "provider_team_id": "37",
+          "name": "Vegas Golden Knights",
+          "abbreviation": "VGK",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "WPG",
+          "provider_team_id": "28",
+          "name": "Winnipeg Jets",
+          "abbreviation": "WPG",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "WSH",
+          "provider_team_id": "23",
+          "name": "Washington Capitals",
+          "abbreviation": "WSH",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        }
+      ]
+    },
+    {
+      "start_year": 2023,
+      "label": "2023_2024",
+      "url": "https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2024&level=3",
+      "teams": [
+        {
+          "source_id": "ANA",
+          "provider_team_id": "25",
+          "name": "Anaheim Ducks",
+          "abbreviation": "ANA",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "ARI",
+          "provider_team_id": "24",
+          "name": "Arizona Coyotes",
+          "abbreviation": "ARI",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "BOS",
+          "provider_team_id": "1",
+          "name": "Boston Bruins",
+          "abbreviation": "BOS",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "BUF",
+          "provider_team_id": "2",
+          "name": "Buffalo Sabres",
+          "abbreviation": "BUF",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "CAR",
+          "provider_team_id": "7",
+          "name": "Carolina Hurricanes",
+          "abbreviation": "CAR",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "CBJ",
+          "provider_team_id": "29",
+          "name": "Columbus Blue Jackets",
+          "abbreviation": "CBJ",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "CGY",
+          "provider_team_id": "3",
+          "name": "Calgary Flames",
+          "abbreviation": "CGY",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "CHI",
+          "provider_team_id": "4",
+          "name": "Chicago Blackhawks",
+          "abbreviation": "CHI",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "COL",
+          "provider_team_id": "17",
+          "name": "Colorado Avalanche",
+          "abbreviation": "COL",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "DAL",
+          "provider_team_id": "9",
+          "name": "Dallas Stars",
+          "abbreviation": "DAL",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "DET",
+          "provider_team_id": "5",
+          "name": "Detroit Red Wings",
+          "abbreviation": "DET",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "EDM",
+          "provider_team_id": "6",
+          "name": "Edmonton Oilers",
+          "abbreviation": "EDM",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "FLA",
+          "provider_team_id": "26",
+          "name": "Florida Panthers",
+          "abbreviation": "FLA",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "LAK",
+          "provider_team_id": "8",
+          "name": "Los Angeles Kings",
+          "abbreviation": "LAK",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "MIN",
+          "provider_team_id": "30",
+          "name": "Minnesota Wild",
+          "abbreviation": "MIN",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "MTL",
+          "provider_team_id": "10",
+          "name": "Montreal Canadiens",
+          "abbreviation": "MTL",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "NJD",
+          "provider_team_id": "11",
+          "name": "New Jersey Devils",
+          "abbreviation": "NJD",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "NSH",
+          "provider_team_id": "27",
+          "name": "Nashville Predators",
+          "abbreviation": "NSH",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "NYI",
+          "provider_team_id": "12",
+          "name": "New York Islanders",
+          "abbreviation": "NYI",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "NYR",
+          "provider_team_id": "13",
+          "name": "New York Rangers",
+          "abbreviation": "NYR",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "OTT",
+          "provider_team_id": "14",
+          "name": "Ottawa Senators",
+          "abbreviation": "OTT",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "PHI",
+          "provider_team_id": "15",
+          "name": "Philadelphia Flyers",
+          "abbreviation": "PHI",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "PIT",
+          "provider_team_id": "16",
+          "name": "Pittsburgh Penguins",
+          "abbreviation": "PIT",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "SEA",
+          "provider_team_id": "124292",
+          "name": "Seattle Kraken",
+          "abbreviation": "SEA",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "SJS",
+          "provider_team_id": "18",
+          "name": "San Jose Sharks",
+          "abbreviation": "SJS",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "STL",
+          "provider_team_id": "19",
+          "name": "St. Louis Blues",
+          "abbreviation": "STL",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "TBL",
+          "provider_team_id": "20",
+          "name": "Tampa Bay Lightning",
+          "abbreviation": "TBL",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "TOR",
+          "provider_team_id": "21",
+          "name": "Toronto Maple Leafs",
+          "abbreviation": "TOR",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "VAN",
+          "provider_team_id": "22",
+          "name": "Vancouver Canucks",
+          "abbreviation": "VAN",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "VGK",
+          "provider_team_id": "37",
+          "name": "Vegas Golden Knights",
+          "abbreviation": "VGK",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "WPG",
+          "provider_team_id": "28",
+          "name": "Winnipeg Jets",
+          "abbreviation": "WPG",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "WSH",
+          "provider_team_id": "23",
+          "name": "Washington Capitals",
+          "abbreviation": "WSH",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        }
+      ]
+    },
+    {
+      "start_year": 2024,
+      "label": "2024_2025",
+      "url": "https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2025&level=3",
+      "teams": [
+        {
+          "source_id": "ANA",
+          "provider_team_id": "25",
+          "name": "Anaheim Ducks",
+          "abbreviation": "ANA",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "BOS",
+          "provider_team_id": "1",
+          "name": "Boston Bruins",
+          "abbreviation": "BOS",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "BUF",
+          "provider_team_id": "2",
+          "name": "Buffalo Sabres",
+          "abbreviation": "BUF",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "CAR",
+          "provider_team_id": "7",
+          "name": "Carolina Hurricanes",
+          "abbreviation": "CAR",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "CBJ",
+          "provider_team_id": "29",
+          "name": "Columbus Blue Jackets",
+          "abbreviation": "CBJ",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "CGY",
+          "provider_team_id": "3",
+          "name": "Calgary Flames",
+          "abbreviation": "CGY",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "CHI",
+          "provider_team_id": "4",
+          "name": "Chicago Blackhawks",
+          "abbreviation": "CHI",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "COL",
+          "provider_team_id": "17",
+          "name": "Colorado Avalanche",
+          "abbreviation": "COL",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "DAL",
+          "provider_team_id": "9",
+          "name": "Dallas Stars",
+          "abbreviation": "DAL",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "DET",
+          "provider_team_id": "5",
+          "name": "Detroit Red Wings",
+          "abbreviation": "DET",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "EDM",
+          "provider_team_id": "6",
+          "name": "Edmonton Oilers",
+          "abbreviation": "EDM",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "FLA",
+          "provider_team_id": "26",
+          "name": "Florida Panthers",
+          "abbreviation": "FLA",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "LAK",
+          "provider_team_id": "8",
+          "name": "Los Angeles Kings",
+          "abbreviation": "LAK",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "MIN",
+          "provider_team_id": "30",
+          "name": "Minnesota Wild",
+          "abbreviation": "MIN",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "MTL",
+          "provider_team_id": "10",
+          "name": "Montreal Canadiens",
+          "abbreviation": "MTL",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "NJD",
+          "provider_team_id": "11",
+          "name": "New Jersey Devils",
+          "abbreviation": "NJD",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "NSH",
+          "provider_team_id": "27",
+          "name": "Nashville Predators",
+          "abbreviation": "NSH",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "NYI",
+          "provider_team_id": "12",
+          "name": "New York Islanders",
+          "abbreviation": "NYI",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "NYR",
+          "provider_team_id": "13",
+          "name": "New York Rangers",
+          "abbreviation": "NYR",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "OTT",
+          "provider_team_id": "14",
+          "name": "Ottawa Senators",
+          "abbreviation": "OTT",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "PHI",
+          "provider_team_id": "15",
+          "name": "Philadelphia Flyers",
+          "abbreviation": "PHI",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "PIT",
+          "provider_team_id": "16",
+          "name": "Pittsburgh Penguins",
+          "abbreviation": "PIT",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        },
+        {
+          "source_id": "SEA",
+          "provider_team_id": "124292",
+          "name": "Seattle Kraken",
+          "abbreviation": "SEA",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "SJS",
+          "provider_team_id": "18",
+          "name": "San Jose Sharks",
+          "abbreviation": "SJS",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "STL",
+          "provider_team_id": "19",
+          "name": "St. Louis Blues",
+          "abbreviation": "STL",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "TBL",
+          "provider_team_id": "20",
+          "name": "Tampa Bay Lightning",
+          "abbreviation": "TBL",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "TOR",
+          "provider_team_id": "21",
+          "name": "Toronto Maple Leafs",
+          "abbreviation": "TOR",
+          "conference": "Eastern Conference",
+          "division": "Atlantic Division"
+        },
+        {
+          "source_id": "UTA",
+          "provider_team_id": "129764",
+          "name": "Utah Hockey Club",
+          "abbreviation": "UTA",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "VAN",
+          "provider_team_id": "22",
+          "name": "Vancouver Canucks",
+          "abbreviation": "VAN",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "VGK",
+          "provider_team_id": "37",
+          "name": "Vegas Golden Knights",
+          "abbreviation": "VGK",
+          "conference": "Western Conference",
+          "division": "Pacific Division"
+        },
+        {
+          "source_id": "WPG",
+          "provider_team_id": "28",
+          "name": "Winnipeg Jets",
+          "abbreviation": "WPG",
+          "conference": "Western Conference",
+          "division": "Central Division"
+        },
+        {
+          "source_id": "WSH",
+          "provider_team_id": "23",
+          "name": "Washington Capitals",
+          "abbreviation": "WSH",
+          "conference": "Eastern Conference",
+          "division": "Metropolitan Division"
+        }
+      ]
+    }
+  ]
+}
