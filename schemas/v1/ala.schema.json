@@ -1728,6 +1728,102 @@
         {
           "properties": {
             "type": {
+              "const": "Position"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "abbreviation": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "description": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "kind": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {
+                "parent": {
+                  "$ref": "#/$defs/reference"
+                },
+                "sport": {
+                  "$ref": "#/$defs/reference"
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "PositionAssignment"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "details": {},
+                "primary": {
+                  "type": "boolean"
+                },
+                "sequence": {
+                  "anyOf": [
+                    {
+                      "type": "integer"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "source": {},
+                "statistics": {}
+              },
+              "required": [],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {
+                "position": {
+                  "$ref": "#/$defs/reference"
+                },
+                "subject": {
+                  "$ref": "#/$defs/reference"
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
               "const": "Roster"
             },
             "attributes": {

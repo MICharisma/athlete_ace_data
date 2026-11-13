@@ -1096,6 +1096,64 @@
         "player_group"
       ]
     },
+    "Position": {
+      "attributes": {
+        "abbreviation": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "description": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "kind": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "references": [
+        "parent",
+        "sport"
+      ]
+    },
+    "PositionAssignment": {
+      "attributes": {
+        "details": {},
+        "primary": {
+          "type": "boolean"
+        },
+        "sequence": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "source": {},
+        "statistics": {}
+      },
+      "references": [
+        "position",
+        "subject"
+      ]
+    },
     "Roster": {
       "attributes": {
         "coverage": {
