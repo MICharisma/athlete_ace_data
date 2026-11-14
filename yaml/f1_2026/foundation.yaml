@@ -1,0 +1,747 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+source:
+  url: https://api.jolpi.ca/ergast/f1/2026.json
+  captured_on: '2026-11-13'
+  note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+    with every published race and sprint result as of the capture date. The driver
+    table includes practice and reserve drivers; only drivers with race or sprint
+    results are race entrants. Races after the capture date have no results.
+records:
+- type: Sport
+  code: SPORT-MOT
+  attributes:
+    name: Motorsport
+  references: {}
+- type: Federation
+  code: FEDERATION-FIA
+  attributes:
+    name: Fédération Internationale de l'Automobile
+    abbreviation: FIA
+    url: https://www.fia.com/
+  references: {}
+- type: League
+  code: MOT-LEAGUE-F1
+  attributes:
+    name: Formula One World Championship
+    abbreviation: F1
+    url: https://www.formula1.com/
+  references:
+    sport: SPORT-MOT
+    jurisdiction: FEDERATION-FIA
+- type: Season
+  code: MOT-F1-SEASON_2026
+  attributes:
+    label: '2026'
+    start_date: '2026-03-08'
+  references:
+    league: MOT-LEAGUE-F1
+    year: YEAR-2026
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Country
+  code: COUNTRY-AU
+  attributes:
+    name: Australia
+    abbreviation: AU
+  references: {}
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:AU
+- type: State
+  code: STATE-AU-VIC
+  attributes:
+    name: Victoria
+    abbreviation: VIC
+  references:
+    country: COUNTRY-AU
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:AU
+- type: City
+  code: CITY-AU-VIC-MELBOURNE
+  attributes:
+    name: Melbourne
+  references:
+    state: STATE-AU-VIC
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/albert_park.json
+    captured_on: '2026-11-13'
+- type: Stadium
+  code: STADIUM-AU-VIC-MELBOURNE-ALBERT_PARK_GRAND_PRIX_CIRCUIT
+  attributes:
+    name: Albert Park Grand Prix Circuit
+    url: https://en.wikipedia.org/wiki/Albert_Park_Circuit
+  references:
+    city: CITY-AU-VIC-MELBOURNE
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/albert_park.json
+    captured_on: '2026-11-13'
+- type: Stadium
+  code: STADIUM-US-TX-AUSTIN-CIRCUIT_OF_THE_AMERICAS
+  attributes:
+    name: Circuit of the Americas
+    url: https://en.wikipedia.org/wiki/Circuit_of_the_Americas
+  references:
+    city: CITY-US-TX-AUSTIN
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/americas.json
+    captured_on: '2026-11-13'
+- type: Country
+  code: COUNTRY-AZ
+  attributes:
+    name: Azerbaijan
+    abbreviation: AZ
+  references: {}
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:AZ
+- type: State
+  code: STATE-AZ-BA
+  attributes:
+    name: Baku
+    abbreviation: BA
+  references:
+    country: COUNTRY-AZ
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:AZ
+- type: City
+  code: CITY-AZ-BA-BAKU
+  attributes:
+    name: Baku
+  references:
+    state: STATE-AZ-BA
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/baku.json
+    captured_on: '2026-11-13'
+- type: Stadium
+  code: STADIUM-AZ-BA-BAKU-BAKU_CITY_CIRCUIT
+  attributes:
+    name: Baku City Circuit
+    url: https://en.wikipedia.org/wiki/Baku_City_Circuit
+  references:
+    city: CITY-AZ-BA-BAKU
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/baku.json
+    captured_on: '2026-11-13'
+- type: Country
+  code: COUNTRY-ES
+  attributes:
+    name: Spain
+    abbreviation: ES
+  references: {}
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:ES
+- type: State
+  code: STATE-ES-CT
+  attributes:
+    name: Catalonia
+    abbreviation: CT
+  references:
+    country: COUNTRY-ES
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:ES
+- type: City
+  code: CITY-ES-CT-BARCELONA
+  attributes:
+    name: Barcelona
+  references:
+    state: STATE-ES-CT
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/catalunya.json
+    captured_on: '2026-11-13'
+- type: Stadium
+  code: STADIUM-ES-CT-BARCELONA-CIRCUIT_DE_BARCELONA_CATALUNYA
+  attributes:
+    name: Circuit de Barcelona-Catalunya
+    url: https://en.wikipedia.org/wiki/Circuit_de_Barcelona-Catalunya
+  references:
+    city: CITY-ES-CT-BARCELONA
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/catalunya.json
+    captured_on: '2026-11-13'
+- type: Country
+  code: COUNTRY-HU
+  attributes:
+    name: Hungary
+    abbreviation: HU
+  references: {}
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:HU
+- type: State
+  code: STATE-HU-BU
+  attributes:
+    name: Budapest
+    abbreviation: BU
+  references:
+    country: COUNTRY-HU
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:HU
+- type: City
+  code: CITY-HU-BU-BUDAPEST
+  attributes:
+    name: Budapest
+  references:
+    state: STATE-HU-BU
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/hungaroring.json
+    captured_on: '2026-11-13'
+- type: Stadium
+  code: STADIUM-HU-BU-BUDAPEST-HUNGARORING
+  attributes:
+    name: Hungaroring
+    url: https://en.wikipedia.org/wiki/Hungaroring
+  references:
+    city: CITY-HU-BU-BUDAPEST
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/hungaroring.json
+    captured_on: '2026-11-13'
+- type: Country
+  code: COUNTRY-BR
+  attributes:
+    name: Brazil
+    abbreviation: BR
+  references: {}
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:BR
+- type: State
+  code: STATE-BR-SP
+  attributes:
+    name: São Paulo
+    abbreviation: SP
+  references:
+    country: COUNTRY-BR
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:BR
+- type: City
+  code: CITY-BR-SP-SAO_PAULO
+  attributes:
+    name: São Paulo
+  references:
+    state: STATE-BR-SP
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/interlagos.json
+    captured_on: '2026-11-13'
+- type: Stadium
+  code: STADIUM-BR-SP-SAO_PAULO-AUTODROMO_JOSE_CARLOS_PACE
+  attributes:
+    name: Autódromo José Carlos Pace
+    url: https://en.wikipedia.org/wiki/Interlagos_Circuit
+  references:
+    city: CITY-BR-SP-SAO_PAULO
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/interlagos.json
+    captured_on: '2026-11-13'
+- type: Country
+  code: COUNTRY-QA
+  attributes:
+    name: Qatar
+    abbreviation: QA
+  references: {}
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:QA
+- type: State
+  code: STATE-QA-ZA
+  attributes:
+    name: Al Daayen
+    abbreviation: ZA
+  references:
+    country: COUNTRY-QA
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:QA
+- type: City
+  code: CITY-QA-ZA-LUSAIL
+  attributes:
+    name: Lusail
+  references:
+    state: STATE-QA-ZA
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/losail.json
+    captured_on: '2026-11-13'
+- type: Stadium
+  code: STADIUM-QA-ZA-LUSAIL-LUSAIL_INTERNATIONAL_CIRCUIT
+  attributes:
+    name: Lusail International Circuit
+    url: https://en.wikipedia.org/wiki/Lusail_International_Circuit
+  references:
+    city: CITY-QA-ZA-LUSAIL
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/losail.json
+    captured_on: '2026-11-13'
+- type: State
+  code: STATE-ES-MD
+  attributes:
+    name: Community of Madrid
+    abbreviation: MD
+  references:
+    country: COUNTRY-ES
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:ES
+- type: City
+  code: CITY-ES-MD-MADRID
+  attributes:
+    name: Madrid
+  references:
+    state: STATE-ES-MD
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/madring.json
+    captured_on: '2026-11-13'
+- type: Stadium
+  code: STADIUM-ES-MD-MADRID-MADRING
+  attributes:
+    name: Madring
+    url: https://en.wikipedia.org/wiki/Madring
+  references:
+    city: CITY-ES-MD-MADRID
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/madring.json
+    captured_on: '2026-11-13'
+- type: Country
+  code: COUNTRY-SG
+  attributes:
+    name: Singapore
+    abbreviation: SG
+  references: {}
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:SG
+- type: State
+  code: STATE-SG-01
+  attributes:
+    name: Central Singapore
+    abbreviation: '01'
+  references:
+    country: COUNTRY-SG
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:SG
+- type: City
+  code: CITY-SG-01-MARINA_BAY
+  attributes:
+    name: Marina Bay
+  references:
+    state: STATE-SG-01
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/marina_bay.json
+    captured_on: '2026-11-13'
+- type: Stadium
+  code: STADIUM-SG-01-MARINA_BAY-MARINA_BAY_STREET_CIRCUIT
+  attributes:
+    name: Marina Bay Street Circuit
+    url: https://en.wikipedia.org/wiki/Marina_Bay_Street_Circuit
+  references:
+    city: CITY-SG-01-MARINA_BAY
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/marina_bay.json
+    captured_on: '2026-11-13'
+- type: Stadium
+  code: STADIUM-US-FL-MIAMI-MIAMI_INTERNATIONAL_AUTODROME
+  attributes:
+    name: Miami International Autodrome
+    url: https://en.wikipedia.org/wiki/Miami_International_Autodrome
+  references:
+    city: CITY-US-FL-MIAMI
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/miami.json
+    captured_on: '2026-11-13'
+- type: Country
+  code: COUNTRY-MC
+  attributes:
+    name: Monaco
+    abbreviation: MC
+  references: {}
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:MC
+- type: State
+  code: STATE-MC-MC
+  attributes:
+    name: Monte-Carlo
+    abbreviation: MC
+  references:
+    country: COUNTRY-MC
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:MC
+- type: City
+  code: CITY-MC-MC-MONTE_CARLO
+  attributes:
+    name: Monte Carlo
+  references:
+    state: STATE-MC-MC
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/monaco.json
+    captured_on: '2026-11-13'
+- type: Stadium
+  code: STADIUM-MC-MC-MONTE_CARLO-CIRCUIT_DE_MONACO
+  attributes:
+    name: Circuit de Monaco
+    url: https://en.wikipedia.org/wiki/Circuit_de_Monaco
+  references:
+    city: CITY-MC-MC-MONTE_CARLO
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/monaco.json
+    captured_on: '2026-11-13'
+- type: Country
+  code: COUNTRY-IT
+  attributes:
+    name: Italy
+    abbreviation: IT
+  references: {}
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:IT
+- type: State
+  code: STATE-IT-25
+  attributes:
+    name: Lombardy
+    abbreviation: '25'
+  references:
+    country: COUNTRY-IT
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:IT
+- type: City
+  code: CITY-IT-25-MONZA
+  attributes:
+    name: Monza
+  references:
+    state: STATE-IT-25
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/monza.json
+    captured_on: '2026-11-13'
+- type: Stadium
+  code: STADIUM-IT-25-MONZA-AUTODROMO_NAZIONALE_DI_MONZA
+  attributes:
+    name: Autodromo Nazionale di Monza
+    url: https://en.wikipedia.org/wiki/Monza_Circuit
+  references:
+    city: CITY-IT-25-MONZA
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/monza.json
+    captured_on: '2026-11-13'
+- type: Country
+  code: COUNTRY-AT
+  attributes:
+    name: Austria
+    abbreviation: AT
+  references: {}
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:AT
+- type: State
+  code: STATE-AT-6
+  attributes:
+    name: Styria
+    abbreviation: '6'
+  references:
+    country: COUNTRY-AT
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:AT
+- type: City
+  code: CITY-AT-6-SPIELBERG
+  attributes:
+    name: Spielberg
+  references:
+    state: STATE-AT-6
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/red_bull_ring.json
+    captured_on: '2026-11-13'
+- type: Stadium
+  code: STADIUM-AT-6-SPIELBERG-RED_BULL_RING
+  attributes:
+    name: Red Bull Ring
+    url: https://en.wikipedia.org/wiki/Red_Bull_Ring
+  references:
+    city: CITY-AT-6-SPIELBERG
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/red_bull_ring.json
+    captured_on: '2026-11-13'
+- type: Country
+  code: COUNTRY-MX
+  attributes:
+    name: Mexico
+    abbreviation: MX
+  references: {}
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:MX
+- type: State
+  code: STATE-MX-CMX
+  attributes:
+    name: Mexico City
+    abbreviation: CMX
+  references:
+    country: COUNTRY-MX
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:MX
+- type: City
+  code: CITY-MX-CMX-MEXICO_CITY
+  attributes:
+    name: Mexico City
+  references:
+    state: STATE-MX-CMX
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/rodriguez.json
+    captured_on: '2026-11-13'
+- type: Stadium
+  code: STADIUM-MX-CMX-MEXICO_CITY-AUTODROMO_HERMANOS_RODRIGUEZ
+  attributes:
+    name: Autódromo Hermanos Rodríguez
+    url: https://en.wikipedia.org/wiki/Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez
+  references:
+    city: CITY-MX-CMX-MEXICO_CITY
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/rodriguez.json
+    captured_on: '2026-11-13'
+- type: Country
+  code: COUNTRY-MY
+  attributes:
+    name: Malaysia
+    abbreviation: MY
+  references: {}
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:MY
+- type: State
+  code: STATE-MY-14
+  attributes:
+    name: Kuala Lumpur
+    abbreviation: '14'
+  references:
+    country: COUNTRY-MY
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:MY
+- type: City
+  code: CITY-MY-14-KUALA_LUMPUR
+  attributes:
+    name: Kuala Lumpur
+  references:
+    state: STATE-MY-14
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/sepang.json
+    captured_on: '2026-11-13'
+- type: Stadium
+  code: STADIUM-MY-14-KUALA_LUMPUR-SEPANG_INTERNATIONAL_CIRCUIT
+  attributes:
+    name: Sepang International Circuit
+    url: https://en.wikipedia.org/wiki/Sepang_International_Circuit
+  references:
+    city: CITY-MY-14-KUALA_LUMPUR
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/sepang.json
+    captured_on: '2026-11-13'
+- type: Country
+  code: COUNTRY-CN
+  attributes:
+    name: China
+    abbreviation: CN
+  references: {}
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:CN
+- type: State
+  code: STATE-CN-SH
+  attributes:
+    name: Shanghai
+    abbreviation: SH
+  references:
+    country: COUNTRY-CN
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:CN
+- type: City
+  code: CITY-CN-SH-SHANGHAI
+  attributes:
+    name: Shanghai
+  references:
+    state: STATE-CN-SH
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/shanghai.json
+    captured_on: '2026-11-13'
+- type: Stadium
+  code: STADIUM-CN-SH-SHANGHAI-SHANGHAI_INTERNATIONAL_CIRCUIT
+  attributes:
+    name: Shanghai International Circuit
+    url: https://en.wikipedia.org/wiki/Shanghai_International_Circuit
+  references:
+    city: CITY-CN-SH-SHANGHAI
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/shanghai.json
+    captured_on: '2026-11-13'
+- type: City
+  code: CITY-GB-ENG-SILVERSTONE
+  attributes:
+    name: Silverstone
+  references:
+    state: STATE-GB-ENG
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/silverstone.json
+    captured_on: '2026-11-13'
+- type: Stadium
+  code: STADIUM-GB-ENG-SILVERSTONE-SILVERSTONE_CIRCUIT
+  attributes:
+    name: Silverstone Circuit
+    url: https://en.wikipedia.org/wiki/Silverstone_Circuit
+  references:
+    city: CITY-GB-ENG-SILVERSTONE
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/silverstone.json
+    captured_on: '2026-11-13'
+- type: Country
+  code: COUNTRY-BE
+  attributes:
+    name: Belgium
+    abbreviation: BE
+  references: {}
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:BE
+- type: State
+  code: STATE-BE-WAL
+  attributes:
+    name: Wallonia
+    abbreviation: WAL
+  references:
+    country: COUNTRY-BE
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:BE
+- type: City
+  code: CITY-BE-WAL-SPA
+  attributes:
+    name: Spa
+  references:
+    state: STATE-BE-WAL
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/spa.json
+    captured_on: '2026-11-13'
+- type: Stadium
+  code: STADIUM-BE-WAL-SPA-CIRCUIT_DE_SPA_FRANCORCHAMPS
+  attributes:
+    name: Circuit de Spa-Francorchamps
+    url: https://en.wikipedia.org/wiki/Circuit_de_Spa-Francorchamps
+  references:
+    city: CITY-BE-WAL-SPA
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/spa.json
+    captured_on: '2026-11-13'
+- type: Country
+  code: COUNTRY-JP
+  attributes:
+    name: Japan
+    abbreviation: JP
+  references: {}
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:JP
+- type: State
+  code: STATE-JP-24
+  attributes:
+    name: Mie
+    abbreviation: '24'
+  references:
+    country: COUNTRY-JP
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:JP
+- type: City
+  code: CITY-JP-24-SUZUKA
+  attributes:
+    name: Suzuka
+  references:
+    state: STATE-JP-24
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/suzuka.json
+    captured_on: '2026-11-13'
+- type: Stadium
+  code: STADIUM-JP-24-SUZUKA-SUZUKA_CIRCUIT
+  attributes:
+    name: Suzuka Circuit
+    url: https://en.wikipedia.org/wiki/Suzuka_International_Racing_Course
+  references:
+    city: CITY-JP-24-SUZUKA
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/suzuka.json
+    captured_on: '2026-11-13'
+- type: Stadium
+  code: STADIUM-US-NV-LAS_VEGAS-LAS_VEGAS_STRIP_STREET_CIRCUIT
+  attributes:
+    name: Las Vegas Strip Street Circuit
+    url: https://en.wikipedia.org/wiki/Las_Vegas_Grand_Prix#Circuit
+  references:
+    city: CITY-US-NV-LAS_VEGAS
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/vegas.json
+    captured_on: '2026-11-13'
+- type: Stadium
+  code: STADIUM-CA-QC-MONTREAL-CIRCUIT_GILLES_VILLENEUVE
+  attributes:
+    name: Circuit Gilles Villeneuve
+    url: https://en.wikipedia.org/wiki/Circuit_Gilles_Villeneuve
+  references:
+    city: CITY-CA-QC-MONTREAL
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/villeneuve.json
+    captured_on: '2026-11-13'
+- type: Country
+  code: COUNTRY-AE
+  attributes:
+    name: United Arab Emirates
+    abbreviation: AE
+  references: {}
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:AE
+- type: State
+  code: STATE-AE-AZ
+  attributes:
+    name: Abu Dhabi
+    abbreviation: AZ
+  references:
+    country: COUNTRY-AE
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:AE
+- type: City
+  code: CITY-AE-AZ-ABU_DHABI
+  attributes:
+    name: Abu Dhabi
+  references:
+    state: STATE-AE-AZ
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/yas_marina.json
+    captured_on: '2026-11-13'
+- type: Stadium
+  code: STADIUM-AE-AZ-ABU_DHABI-YAS_MARINA_CIRCUIT
+  attributes:
+    name: Yas Marina Circuit
+    url: https://en.wikipedia.org/wiki/Yas_Marina_Circuit
+  references:
+    city: CITY-AE-AZ-ABU_DHABI
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/yas_marina.json
+    captured_on: '2026-11-13'
+- type: Country
+  code: COUNTRY-NL
+  attributes:
+    name: Netherlands
+    abbreviation: NL
+  references: {}
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:NL
+- type: State
+  code: STATE-NL-NH
+  attributes:
+    name: North Holland
+    abbreviation: NH
+  references:
+    country: COUNTRY-NL
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:NL
+- type: City
+  code: CITY-NL-NH-ZANDVOORT
+  attributes:
+    name: Zandvoort
+  references:
+    state: STATE-NL-NH
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/zandvoort.json
+    captured_on: '2026-11-13'
+- type: Stadium
+  code: STADIUM-NL-NH-ZANDVOORT-CIRCUIT_PARK_ZANDVOORT
+  attributes:
+    name: Circuit Park Zandvoort
+    url: https://en.wikipedia.org/wiki/Circuit_Zandvoort
+  references:
+    city: CITY-NL-NH-ZANDVOORT
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/zandvoort.json
+    captured_on: '2026-11-13'

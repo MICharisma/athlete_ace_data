@@ -1,0 +1,43 @@
+{
+  "policy": "City is the provider locality from Jolpica, as for the home-venue capture. The subdivision is the ISO 3166-2 code containing that locality. Known gaps between the provider locality and the circuit's municipality are listed under locality_notes for a later sourced correction; none is corrected here without a source.",
+  "iso_source": "https://www.iso.org/obp/ui/#iso:code:3166:",
+  "provider_countries": { "Canada": "CA", "UK": "GB", "USA": "US", "UAE": "AE" },
+  "countries": {
+    "AE": "United Arab Emirates", "AT": "Austria", "AU": "Australia", "AZ": "Azerbaijan", "BE": "Belgium", "BR": "Brazil",
+    "CN": "China", "ES": "Spain", "HU": "Hungary", "IT": "Italy", "JP": "Japan", "MC": "Monaco", "MX": "Mexico",
+    "MY": "Malaysia", "NL": "Netherlands", "QA": "Qatar", "SG": "Singapore"
+  },
+  "circuits": {
+    "albert_park": { "country": "AU", "subdivision": "VIC", "subdivision_name": "Victoria" },
+    "americas": { "country": "US", "subdivision": "TX", "city_code": "CITY-US-TX-AUSTIN" },
+    "baku": { "country": "AZ", "subdivision": "BA", "subdivision_name": "Baku" },
+    "catalunya": { "country": "ES", "subdivision": "CT", "subdivision_name": "Catalonia" },
+    "hungaroring": { "country": "HU", "subdivision": "BU", "subdivision_name": "Budapest" },
+    "interlagos": { "country": "BR", "subdivision": "SP", "subdivision_name": "São Paulo" },
+    "losail": { "country": "QA", "subdivision": "ZA", "subdivision_name": "Al Daayen" },
+    "madring": { "country": "ES", "subdivision": "MD", "subdivision_name": "Community of Madrid" },
+    "marina_bay": { "country": "SG", "subdivision": "01", "subdivision_name": "Central Singapore" },
+    "miami": { "country": "US", "subdivision": "FL", "city_code": "CITY-US-FL-MIAMI" },
+    "monaco": { "country": "MC", "subdivision": "MC", "subdivision_name": "Monte-Carlo" },
+    "monza": { "country": "IT", "subdivision": "25", "subdivision_name": "Lombardy" },
+    "red_bull_ring": { "country": "AT", "subdivision": "6", "subdivision_name": "Styria" },
+    "rodriguez": { "country": "MX", "subdivision": "CMX", "subdivision_name": "Mexico City" },
+    "sepang": { "country": "MY", "subdivision": "14", "subdivision_name": "Kuala Lumpur" },
+    "shanghai": { "country": "CN", "subdivision": "SH", "subdivision_name": "Shanghai" },
+    "silverstone": { "country": "GB", "subdivision": "ENG" },
+    "spa": { "country": "BE", "subdivision": "WAL", "subdivision_name": "Wallonia" },
+    "suzuka": { "country": "JP", "subdivision": "24", "subdivision_name": "Mie" },
+    "vegas": { "country": "US", "subdivision": "NV", "city_code": "CITY-US-NV-LAS_VEGAS" },
+    "villeneuve": { "country": "CA", "subdivision": "QC", "city_code": "CITY-CA-QC-MONTREAL" },
+    "yas_marina": { "country": "AE", "subdivision": "AZ", "subdivision_name": "Abu Dhabi" },
+    "zandvoort": { "country": "NL", "subdivision": "NH", "subdivision_name": "North Holland" }
+  },
+  "locality_notes": {
+    "catalunya": "Jolpica says Barcelona; the circuit is in Montmeló, also in Catalonia.",
+    "hungaroring": "Jolpica says Budapest; the circuit is in Mogyoród, Pest County (HU-PE), outside Budapest.",
+    "marina_bay": "Jolpica's locality is the Marina Bay district of Singapore, a city-state.",
+    "miami": "Jolpica says Miami; the autodrome surrounds Hard Rock Stadium in Miami Gardens, which the catalog already has as a city.",
+    "sepang": "Jolpica says Kuala Lumpur; the circuit is in Sepang, Selangor (MY-10), outside the federal territory.",
+    "spa": "Jolpica says Spa; the circuit lies mostly in Stavelot, Liège Province, Wallonia."
+  }
+}

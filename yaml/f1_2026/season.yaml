@@ -1,0 +1,1654 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+source:
+  url: https://api.jolpi.ca/ergast/f1/2026.json
+  captured_on: '2026-11-13'
+  note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+    with every published race and sprint result as of the capture date. The driver
+    table includes practice and reserve drivers; only drivers with race or sprint
+    results are race entrants. Races after the capture date have no results.
+records:
+- type: Team
+  code: MOT-F1-TEAM-ALPINE
+  attributes:
+    mascot: Alpine F1 Team
+  references:
+    league: MOT-LEAGUE-F1
+  aliases:
+  - MOT-JOLPICA-CONSTRUCTOR_ALPINE
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Campaign
+  code: MOT-F1-SEASON_2026-TEAM-ALPINE
+  attributes:
+    display_name: Alpine F1 Team
+  references:
+    team: MOT-F1-TEAM-ALPINE
+    season: MOT-F1-SEASON_2026
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Team
+  code: MOT-F1-TEAM-ASTON_MARTIN
+  attributes:
+    mascot: Aston Martin
+  references:
+    league: MOT-LEAGUE-F1
+  aliases:
+  - MOT-JOLPICA-CONSTRUCTOR_ASTON_MARTIN
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Campaign
+  code: MOT-F1-SEASON_2026-TEAM-ASTON_MARTIN
+  attributes:
+    display_name: Aston Martin
+  references:
+    team: MOT-F1-TEAM-ASTON_MARTIN
+    season: MOT-F1-SEASON_2026
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Team
+  code: MOT-F1-TEAM-AUDI
+  attributes:
+    mascot: Audi
+  references:
+    league: MOT-LEAGUE-F1
+  aliases:
+  - MOT-JOLPICA-CONSTRUCTOR_AUDI
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Campaign
+  code: MOT-F1-SEASON_2026-TEAM-AUDI
+  attributes:
+    display_name: Audi
+  references:
+    team: MOT-F1-TEAM-AUDI
+    season: MOT-F1-SEASON_2026
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Team
+  code: MOT-F1-TEAM-CADILLAC
+  attributes:
+    mascot: Cadillac F1 Team
+  references:
+    league: MOT-LEAGUE-F1
+  aliases:
+  - MOT-JOLPICA-CONSTRUCTOR_CADILLAC
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Campaign
+  code: MOT-F1-SEASON_2026-TEAM-CADILLAC
+  attributes:
+    display_name: Cadillac F1 Team
+  references:
+    team: MOT-F1-TEAM-CADILLAC
+    season: MOT-F1-SEASON_2026
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Team
+  code: MOT-F1-TEAM-FERRARI
+  attributes:
+    mascot: Ferrari
+  references:
+    league: MOT-LEAGUE-F1
+  aliases:
+  - MOT-JOLPICA-CONSTRUCTOR_FERRARI
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Campaign
+  code: MOT-F1-SEASON_2026-TEAM-FERRARI
+  attributes:
+    display_name: Ferrari
+  references:
+    team: MOT-F1-TEAM-FERRARI
+    season: MOT-F1-SEASON_2026
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Team
+  code: MOT-F1-TEAM-HAAS
+  attributes:
+    mascot: Haas F1 Team
+  references:
+    league: MOT-LEAGUE-F1
+  aliases:
+  - MOT-JOLPICA-CONSTRUCTOR_HAAS
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Campaign
+  code: MOT-F1-SEASON_2026-TEAM-HAAS
+  attributes:
+    display_name: Haas F1 Team
+  references:
+    team: MOT-F1-TEAM-HAAS
+    season: MOT-F1-SEASON_2026
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Team
+  code: MOT-F1-TEAM-MCLAREN
+  attributes:
+    mascot: McLaren
+  references:
+    league: MOT-LEAGUE-F1
+  aliases:
+  - MOT-JOLPICA-CONSTRUCTOR_MCLAREN
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Campaign
+  code: MOT-F1-SEASON_2026-TEAM-MCLAREN
+  attributes:
+    display_name: McLaren
+  references:
+    team: MOT-F1-TEAM-MCLAREN
+    season: MOT-F1-SEASON_2026
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Team
+  code: MOT-F1-TEAM-MERCEDES
+  attributes:
+    mascot: Mercedes
+  references:
+    league: MOT-LEAGUE-F1
+  aliases:
+  - MOT-JOLPICA-CONSTRUCTOR_MERCEDES
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Campaign
+  code: MOT-F1-SEASON_2026-TEAM-MERCEDES
+  attributes:
+    display_name: Mercedes
+  references:
+    team: MOT-F1-TEAM-MERCEDES
+    season: MOT-F1-SEASON_2026
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Team
+  code: MOT-F1-TEAM-RB
+  attributes:
+    mascot: RB F1 Team
+  references:
+    league: MOT-LEAGUE-F1
+  aliases:
+  - MOT-JOLPICA-CONSTRUCTOR_RB
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Campaign
+  code: MOT-F1-SEASON_2026-TEAM-RB
+  attributes:
+    display_name: RB F1 Team
+  references:
+    team: MOT-F1-TEAM-RB
+    season: MOT-F1-SEASON_2026
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Team
+  code: MOT-F1-TEAM-RED_BULL
+  attributes:
+    mascot: Red Bull
+  references:
+    league: MOT-LEAGUE-F1
+  aliases:
+  - MOT-JOLPICA-CONSTRUCTOR_RED_BULL
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Campaign
+  code: MOT-F1-SEASON_2026-TEAM-RED_BULL
+  attributes:
+    display_name: Red Bull
+  references:
+    team: MOT-F1-TEAM-RED_BULL
+    season: MOT-F1-SEASON_2026
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Team
+  code: MOT-F1-TEAM-WILLIAMS
+  attributes:
+    mascot: Williams
+  references:
+    league: MOT-LEAGUE-F1
+  aliases:
+  - MOT-JOLPICA-CONSTRUCTOR_WILLIAMS
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Campaign
+  code: MOT-F1-SEASON_2026-TEAM-WILLIAMS
+  attributes:
+    display_name: Williams
+  references:
+    team: MOT-F1-TEAM-WILLIAMS
+    season: MOT-F1-SEASON_2026
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Player
+  code: MOT-F1-PLAYER-ALBON_ALEXANDER
+  attributes:
+    first_name: Alexander
+    last_name: Albon
+    birthdate: '1996-03-23'
+  references:
+    sport: SPORT-MOT
+  aliases:
+  - MOT-JOLPICA-DRIVER_ALBON
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Player
+  code: MOT-F1-PLAYER-ALONSO_FERNANDO
+  attributes:
+    first_name: Fernando
+    last_name: Alonso
+    birthdate: '1981-07-29'
+  references:
+    sport: SPORT-MOT
+  aliases:
+  - MOT-JOLPICA-DRIVER_ALONSO
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Player
+  code: MOT-F1-PLAYER-ANTONELLI_ANDREA_KIMI
+  attributes:
+    first_name: Andrea Kimi
+    last_name: Antonelli
+    birthdate: '2006-08-25'
+  references:
+    sport: SPORT-MOT
+  aliases:
+  - MOT-JOLPICA-DRIVER_ANTONELLI
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Player
+  code: MOT-F1-PLAYER-LINDBLAD_ARVID
+  attributes:
+    first_name: Arvid
+    last_name: Lindblad
+    birthdate: '2007-08-08'
+  references:
+    sport: SPORT-MOT
+  aliases:
+  - MOT-JOLPICA-DRIVER_ARVID_LINDBLAD
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Player
+  code: MOT-F1-PLAYER-BEARMAN_OLIVER
+  attributes:
+    first_name: Oliver
+    last_name: Bearman
+    birthdate: '2005-05-08'
+  references:
+    sport: SPORT-MOT
+  aliases:
+  - MOT-JOLPICA-DRIVER_BEARMAN
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Player
+  code: MOT-F1-PLAYER-BORTOLETO_GABRIEL
+  attributes:
+    first_name: Gabriel
+    last_name: Bortoleto
+    birthdate: '2004-10-14'
+  references:
+    sport: SPORT-MOT
+  aliases:
+  - MOT-JOLPICA-DRIVER_BORTOLETO
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Player
+  code: MOT-F1-PLAYER-BOTTAS_VALTTERI
+  attributes:
+    first_name: Valtteri
+    last_name: Bottas
+    birthdate: '1989-08-28'
+  references:
+    sport: SPORT-MOT
+  aliases:
+  - MOT-JOLPICA-DRIVER_BOTTAS
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Player
+  code: MOT-F1-PLAYER-COLAPINTO_FRANCO
+  attributes:
+    first_name: Franco
+    last_name: Colapinto
+    birthdate: '2003-05-27'
+  references:
+    sport: SPORT-MOT
+  aliases:
+  - MOT-JOLPICA-DRIVER_COLAPINTO
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Player
+  code: MOT-F1-PLAYER-GASLY_PIERRE
+  attributes:
+    first_name: Pierre
+    last_name: Gasly
+    birthdate: '1996-02-07'
+  references:
+    sport: SPORT-MOT
+  aliases:
+  - MOT-JOLPICA-DRIVER_GASLY
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Player
+  code: MOT-F1-PLAYER-HADJAR_ISACK
+  attributes:
+    first_name: Isack
+    last_name: Hadjar
+    birthdate: '2004-09-28'
+  references:
+    sport: SPORT-MOT
+  aliases:
+  - MOT-JOLPICA-DRIVER_HADJAR
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Player
+  code: MOT-F1-PLAYER-HAMILTON_LEWIS
+  attributes:
+    first_name: Lewis
+    last_name: Hamilton
+    birthdate: '1985-01-07'
+  references:
+    sport: SPORT-MOT
+  aliases:
+  - MOT-JOLPICA-DRIVER_HAMILTON
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Player
+  code: MOT-F1-PLAYER-HULKENBERG_NICO
+  attributes:
+    first_name: Nico
+    last_name: Hülkenberg
+    birthdate: '1987-08-19'
+  references:
+    sport: SPORT-MOT
+  aliases:
+  - MOT-JOLPICA-DRIVER_HULKENBERG
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Player
+  code: MOT-F1-PLAYER-LAWSON_LIAM
+  attributes:
+    first_name: Liam
+    last_name: Lawson
+    birthdate: '2002-02-11'
+  references:
+    sport: SPORT-MOT
+  aliases:
+  - MOT-JOLPICA-DRIVER_LAWSON
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Player
+  code: MOT-F1-PLAYER-LECLERC_CHARLES
+  attributes:
+    first_name: Charles
+    last_name: Leclerc
+    birthdate: '1997-10-16'
+  references:
+    sport: SPORT-MOT
+  aliases:
+  - MOT-JOLPICA-DRIVER_LECLERC
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Player
+  code: MOT-F1-PLAYER-VERSTAPPEN_MAX
+  attributes:
+    first_name: Max
+    last_name: Verstappen
+    birthdate: '1997-09-30'
+  references:
+    sport: SPORT-MOT
+  aliases:
+  - MOT-JOLPICA-DRIVER_MAX_VERSTAPPEN
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Player
+  code: MOT-F1-PLAYER-NORRIS_LANDO
+  attributes:
+    first_name: Lando
+    last_name: Norris
+    birthdate: '1999-11-13'
+  references:
+    sport: SPORT-MOT
+  aliases:
+  - MOT-JOLPICA-DRIVER_NORRIS
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Player
+  code: MOT-F1-PLAYER-OCON_ESTEBAN
+  attributes:
+    first_name: Esteban
+    last_name: Ocon
+    birthdate: '1996-09-17'
+  references:
+    sport: SPORT-MOT
+  aliases:
+  - MOT-JOLPICA-DRIVER_OCON
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Player
+  code: MOT-F1-PLAYER-PEREZ_SERGIO
+  attributes:
+    first_name: Sergio
+    last_name: Pérez
+    birthdate: '1990-01-26'
+  references:
+    sport: SPORT-MOT
+  aliases:
+  - MOT-JOLPICA-DRIVER_PEREZ
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Player
+  code: MOT-F1-PLAYER-PIASTRI_OSCAR
+  attributes:
+    first_name: Oscar
+    last_name: Piastri
+    birthdate: '2001-04-06'
+  references:
+    sport: SPORT-MOT
+  aliases:
+  - MOT-JOLPICA-DRIVER_PIASTRI
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Player
+  code: MOT-F1-PLAYER-CAMARA_RAFAEL
+  attributes:
+    first_name: Rafael
+    last_name: Camara
+    birthdate: '2005-05-05'
+  references:
+    sport: SPORT-MOT
+  aliases:
+  - MOT-JOLPICA-DRIVER_RAFAEL_CAMARA
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Player
+  code: MOT-F1-PLAYER-RUSSELL_GEORGE
+  attributes:
+    first_name: George
+    last_name: Russell
+    birthdate: '1998-02-15'
+  references:
+    sport: SPORT-MOT
+  aliases:
+  - MOT-JOLPICA-DRIVER_RUSSELL
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Player
+  code: MOT-F1-PLAYER-HIRAKAWA_RYO
+  attributes:
+    first_name: Ryo
+    last_name: Hirakawa
+    birthdate: '1994-03-07'
+  references:
+    sport: SPORT-MOT
+  aliases:
+  - MOT-JOLPICA-DRIVER_RYO_HIRAKAWA
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Player
+  code: MOT-F1-PLAYER-SAINZ_CARLOS
+  attributes:
+    first_name: Carlos
+    last_name: Sainz
+    birthdate: '1994-09-01'
+  references:
+    sport: SPORT-MOT
+  aliases:
+  - MOT-JOLPICA-DRIVER_SAINZ
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Player
+  code: MOT-F1-PLAYER-STROLL_LANCE
+  attributes:
+    first_name: Lance
+    last_name: Stroll
+    birthdate: '1998-10-29'
+  references:
+    sport: SPORT-MOT
+  aliases:
+  - MOT-JOLPICA-DRIVER_STROLL
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Player
+  code: MOT-F1-PLAYER-TSUNODA_YUKI
+  attributes:
+    first_name: Yuki
+    last_name: Tsunoda
+    birthdate: '2000-05-11'
+  references:
+    sport: SPORT-MOT
+  aliases:
+  - MOT-JOLPICA-DRIVER_TSUNODA
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Activation
+  code: MOT-F1-SEASON_2026-TEAM-WILLIAMS-PLAYER-ALBON_ALEXANDER
+  attributes: {}
+  references:
+    player: MOT-F1-PLAYER-ALBON_ALEXANDER
+    campaign: MOT-F1-SEASON_2026-TEAM-WILLIAMS
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Activation
+  code: MOT-F1-SEASON_2026-TEAM-ASTON_MARTIN-PLAYER-ALONSO_FERNANDO
+  attributes: {}
+  references:
+    player: MOT-F1-PLAYER-ALONSO_FERNANDO
+    campaign: MOT-F1-SEASON_2026-TEAM-ASTON_MARTIN
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Activation
+  code: MOT-F1-SEASON_2026-TEAM-MERCEDES-PLAYER-ANTONELLI_ANDREA_KIMI
+  attributes: {}
+  references:
+    player: MOT-F1-PLAYER-ANTONELLI_ANDREA_KIMI
+    campaign: MOT-F1-SEASON_2026-TEAM-MERCEDES
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Activation
+  code: MOT-F1-SEASON_2026-TEAM-RB-PLAYER-LINDBLAD_ARVID
+  attributes: {}
+  references:
+    player: MOT-F1-PLAYER-LINDBLAD_ARVID
+    campaign: MOT-F1-SEASON_2026-TEAM-RB
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Activation
+  code: MOT-F1-SEASON_2026-TEAM-HAAS-PLAYER-BEARMAN_OLIVER
+  attributes: {}
+  references:
+    player: MOT-F1-PLAYER-BEARMAN_OLIVER
+    campaign: MOT-F1-SEASON_2026-TEAM-HAAS
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Activation
+  code: MOT-F1-SEASON_2026-TEAM-AUDI-PLAYER-BORTOLETO_GABRIEL
+  attributes: {}
+  references:
+    player: MOT-F1-PLAYER-BORTOLETO_GABRIEL
+    campaign: MOT-F1-SEASON_2026-TEAM-AUDI
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Activation
+  code: MOT-F1-SEASON_2026-TEAM-CADILLAC-PLAYER-BOTTAS_VALTTERI
+  attributes: {}
+  references:
+    player: MOT-F1-PLAYER-BOTTAS_VALTTERI
+    campaign: MOT-F1-SEASON_2026-TEAM-CADILLAC
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Activation
+  code: MOT-F1-SEASON_2026-TEAM-ALPINE-PLAYER-COLAPINTO_FRANCO
+  attributes: {}
+  references:
+    player: MOT-F1-PLAYER-COLAPINTO_FRANCO
+    campaign: MOT-F1-SEASON_2026-TEAM-ALPINE
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Activation
+  code: MOT-F1-SEASON_2026-TEAM-ALPINE-PLAYER-GASLY_PIERRE
+  attributes: {}
+  references:
+    player: MOT-F1-PLAYER-GASLY_PIERRE
+    campaign: MOT-F1-SEASON_2026-TEAM-ALPINE
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Activation
+  code: MOT-F1-SEASON_2026-TEAM-RED_BULL-PLAYER-HADJAR_ISACK
+  attributes: {}
+  references:
+    player: MOT-F1-PLAYER-HADJAR_ISACK
+    campaign: MOT-F1-SEASON_2026-TEAM-RED_BULL
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Activation
+  code: MOT-F1-SEASON_2026-TEAM-FERRARI-PLAYER-HAMILTON_LEWIS
+  attributes: {}
+  references:
+    player: MOT-F1-PLAYER-HAMILTON_LEWIS
+    campaign: MOT-F1-SEASON_2026-TEAM-FERRARI
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Activation
+  code: MOT-F1-SEASON_2026-TEAM-AUDI-PLAYER-HULKENBERG_NICO
+  attributes: {}
+  references:
+    player: MOT-F1-PLAYER-HULKENBERG_NICO
+    campaign: MOT-F1-SEASON_2026-TEAM-AUDI
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Activation
+  code: MOT-F1-SEASON_2026-TEAM-RB-PLAYER-LAWSON_LIAM
+  attributes: {}
+  references:
+    player: MOT-F1-PLAYER-LAWSON_LIAM
+    campaign: MOT-F1-SEASON_2026-TEAM-RB
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Activation
+  code: MOT-F1-SEASON_2026-TEAM-RED_BULL-PLAYER-LAWSON_LIAM
+  attributes: {}
+  references:
+    player: MOT-F1-PLAYER-LAWSON_LIAM
+    campaign: MOT-F1-SEASON_2026-TEAM-RED_BULL
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Activation
+  code: MOT-F1-SEASON_2026-TEAM-FERRARI-PLAYER-LECLERC_CHARLES
+  attributes: {}
+  references:
+    player: MOT-F1-PLAYER-LECLERC_CHARLES
+    campaign: MOT-F1-SEASON_2026-TEAM-FERRARI
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Activation
+  code: MOT-F1-SEASON_2026-TEAM-RED_BULL-PLAYER-VERSTAPPEN_MAX
+  attributes: {}
+  references:
+    player: MOT-F1-PLAYER-VERSTAPPEN_MAX
+    campaign: MOT-F1-SEASON_2026-TEAM-RED_BULL
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Activation
+  code: MOT-F1-SEASON_2026-TEAM-MCLAREN-PLAYER-NORRIS_LANDO
+  attributes: {}
+  references:
+    player: MOT-F1-PLAYER-NORRIS_LANDO
+    campaign: MOT-F1-SEASON_2026-TEAM-MCLAREN
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Activation
+  code: MOT-F1-SEASON_2026-TEAM-HAAS-PLAYER-OCON_ESTEBAN
+  attributes: {}
+  references:
+    player: MOT-F1-PLAYER-OCON_ESTEBAN
+    campaign: MOT-F1-SEASON_2026-TEAM-HAAS
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Activation
+  code: MOT-F1-SEASON_2026-TEAM-CADILLAC-PLAYER-PEREZ_SERGIO
+  attributes: {}
+  references:
+    player: MOT-F1-PLAYER-PEREZ_SERGIO
+    campaign: MOT-F1-SEASON_2026-TEAM-CADILLAC
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Activation
+  code: MOT-F1-SEASON_2026-TEAM-MCLAREN-PLAYER-PIASTRI_OSCAR
+  attributes: {}
+  references:
+    player: MOT-F1-PLAYER-PIASTRI_OSCAR
+    campaign: MOT-F1-SEASON_2026-TEAM-MCLAREN
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Activation
+  code: MOT-F1-SEASON_2026-TEAM-HAAS-PLAYER-CAMARA_RAFAEL
+  attributes: {}
+  references:
+    player: MOT-F1-PLAYER-CAMARA_RAFAEL
+    campaign: MOT-F1-SEASON_2026-TEAM-HAAS
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Activation
+  code: MOT-F1-SEASON_2026-TEAM-MERCEDES-PLAYER-RUSSELL_GEORGE
+  attributes: {}
+  references:
+    player: MOT-F1-PLAYER-RUSSELL_GEORGE
+    campaign: MOT-F1-SEASON_2026-TEAM-MERCEDES
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Activation
+  code: MOT-F1-SEASON_2026-TEAM-HAAS-PLAYER-HIRAKAWA_RYO
+  attributes: {}
+  references:
+    player: MOT-F1-PLAYER-HIRAKAWA_RYO
+    campaign: MOT-F1-SEASON_2026-TEAM-HAAS
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Activation
+  code: MOT-F1-SEASON_2026-TEAM-WILLIAMS-PLAYER-SAINZ_CARLOS
+  attributes: {}
+  references:
+    player: MOT-F1-PLAYER-SAINZ_CARLOS
+    campaign: MOT-F1-SEASON_2026-TEAM-WILLIAMS
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Activation
+  code: MOT-F1-SEASON_2026-TEAM-ASTON_MARTIN-PLAYER-STROLL_LANCE
+  attributes: {}
+  references:
+    player: MOT-F1-PLAYER-STROLL_LANCE
+    campaign: MOT-F1-SEASON_2026-TEAM-ASTON_MARTIN
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Activation
+  code: MOT-F1-SEASON_2026-TEAM-RB-PLAYER-TSUNODA_YUKI
+  attributes: {}
+  references:
+    player: MOT-F1-PLAYER-TSUNODA_YUKI
+    campaign: MOT-F1-SEASON_2026-TEAM-RB
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: JerseyNumberAssignment
+  code: MOT-F1-TEAM-WILLIAMS-PLAYER-ALBON_ALEXANDER-NUMBER_23-FROM_2026_03_08
+  attributes:
+    number: '23'
+    start_date: '2026-03-08'
+    end_date: '2026-11-08'
+    details:
+      period_basis: observed_session_results
+      note: Car number in every published race and sprint result from the first to
+        the last session of this run. The actual assignment period may be longer.
+  references:
+    player: MOT-F1-PLAYER-ALBON_ALEXANDER
+    team: MOT-F1-TEAM-WILLIAMS
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: JerseyNumberAssignment
+  code: MOT-F1-TEAM-ASTON_MARTIN-PLAYER-ALONSO_FERNANDO-NUMBER_14-FROM_2026_03_08
+  attributes:
+    number: '14'
+    start_date: '2026-03-08'
+    end_date: '2026-11-08'
+    details:
+      period_basis: observed_session_results
+      note: Car number in every published race and sprint result from the first to
+        the last session of this run. The actual assignment period may be longer.
+  references:
+    player: MOT-F1-PLAYER-ALONSO_FERNANDO
+    team: MOT-F1-TEAM-ASTON_MARTIN
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: JerseyNumberAssignment
+  code: MOT-F1-TEAM-MERCEDES-PLAYER-ANTONELLI_ANDREA_KIMI-NUMBER_12-FROM_2026_03_08
+  attributes:
+    number: '12'
+    start_date: '2026-03-08'
+    end_date: '2026-11-08'
+    details:
+      period_basis: observed_session_results
+      note: Car number in every published race and sprint result from the first to
+        the last session of this run. The actual assignment period may be longer.
+  references:
+    player: MOT-F1-PLAYER-ANTONELLI_ANDREA_KIMI
+    team: MOT-F1-TEAM-MERCEDES
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: JerseyNumberAssignment
+  code: MOT-F1-TEAM-RB-PLAYER-LINDBLAD_ARVID-NUMBER_41-FROM_2026_03_08
+  attributes:
+    number: '41'
+    start_date: '2026-03-08'
+    end_date: '2026-11-08'
+    details:
+      period_basis: observed_session_results
+      note: Car number in every published race and sprint result from the first to
+        the last session of this run. The actual assignment period may be longer.
+  references:
+    player: MOT-F1-PLAYER-LINDBLAD_ARVID
+    team: MOT-F1-TEAM-RB
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: JerseyNumberAssignment
+  code: MOT-F1-TEAM-HAAS-PLAYER-BEARMAN_OLIVER-NUMBER_87-FROM_2026_03_08
+  attributes:
+    number: '87'
+    start_date: '2026-03-08'
+    end_date: '2026-11-08'
+    details:
+      period_basis: observed_session_results
+      note: Car number in every published race and sprint result from the first to
+        the last session of this run. The actual assignment period may be longer.
+  references:
+    player: MOT-F1-PLAYER-BEARMAN_OLIVER
+    team: MOT-F1-TEAM-HAAS
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: JerseyNumberAssignment
+  code: MOT-F1-TEAM-AUDI-PLAYER-BORTOLETO_GABRIEL-NUMBER_5-FROM_2026_03_08
+  attributes:
+    number: '5'
+    start_date: '2026-03-08'
+    end_date: '2026-11-08'
+    details:
+      period_basis: observed_session_results
+      note: Car number in every published race and sprint result from the first to
+        the last session of this run. The actual assignment period may be longer.
+  references:
+    player: MOT-F1-PLAYER-BORTOLETO_GABRIEL
+    team: MOT-F1-TEAM-AUDI
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: JerseyNumberAssignment
+  code: MOT-F1-TEAM-CADILLAC-PLAYER-BOTTAS_VALTTERI-NUMBER_77-FROM_2026_03_08
+  attributes:
+    number: '77'
+    start_date: '2026-03-08'
+    end_date: '2026-11-08'
+    details:
+      period_basis: observed_session_results
+      note: Car number in every published race and sprint result from the first to
+        the last session of this run. The actual assignment period may be longer.
+  references:
+    player: MOT-F1-PLAYER-BOTTAS_VALTTERI
+    team: MOT-F1-TEAM-CADILLAC
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: JerseyNumberAssignment
+  code: MOT-F1-TEAM-ALPINE-PLAYER-COLAPINTO_FRANCO-NUMBER_43-FROM_2026_03_08
+  attributes:
+    number: '43'
+    start_date: '2026-03-08'
+    end_date: '2026-11-08'
+    details:
+      period_basis: observed_session_results
+      note: Car number in every published race and sprint result from the first to
+        the last session of this run. The actual assignment period may be longer.
+  references:
+    player: MOT-F1-PLAYER-COLAPINTO_FRANCO
+    team: MOT-F1-TEAM-ALPINE
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: JerseyNumberAssignment
+  code: MOT-F1-TEAM-ALPINE-PLAYER-GASLY_PIERRE-NUMBER_10-FROM_2026_03_08
+  attributes:
+    number: '10'
+    start_date: '2026-03-08'
+    end_date: '2026-11-08'
+    details:
+      period_basis: observed_session_results
+      note: Car number in every published race and sprint result from the first to
+        the last session of this run. The actual assignment period may be longer.
+  references:
+    player: MOT-F1-PLAYER-GASLY_PIERRE
+    team: MOT-F1-TEAM-ALPINE
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: JerseyNumberAssignment
+  code: MOT-F1-TEAM-RED_BULL-PLAYER-HADJAR_ISACK-NUMBER_6-FROM_2026_03_08
+  attributes:
+    number: '6'
+    start_date: '2026-03-08'
+    end_date: '2026-07-26'
+    details:
+      period_basis: observed_session_results
+      note: Car number in every published race and sprint result from the first to
+        the last session of this run. The actual assignment period may be longer.
+  references:
+    player: MOT-F1-PLAYER-HADJAR_ISACK
+    team: MOT-F1-TEAM-RED_BULL
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: JerseyNumberAssignment
+  code: MOT-F1-TEAM-RED_BULL-PLAYER-HADJAR_ISACK-NUMBER_6-FROM_2026_09_26
+  attributes:
+    number: '6'
+    start_date: '2026-09-26'
+    end_date: '2026-11-08'
+    details:
+      period_basis: observed_session_results
+      note: Car number in every published race and sprint result from the first to
+        the last session of this run. The actual assignment period may be longer.
+  references:
+    player: MOT-F1-PLAYER-HADJAR_ISACK
+    team: MOT-F1-TEAM-RED_BULL
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: JerseyNumberAssignment
+  code: MOT-F1-TEAM-FERRARI-PLAYER-HAMILTON_LEWIS-NUMBER_44-FROM_2026_03_08
+  attributes:
+    number: '44'
+    start_date: '2026-03-08'
+    end_date: '2026-11-08'
+    details:
+      period_basis: observed_session_results
+      note: Car number in every published race and sprint result from the first to
+        the last session of this run. The actual assignment period may be longer.
+  references:
+    player: MOT-F1-PLAYER-HAMILTON_LEWIS
+    team: MOT-F1-TEAM-FERRARI
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: JerseyNumberAssignment
+  code: MOT-F1-TEAM-AUDI-PLAYER-HULKENBERG_NICO-NUMBER_27-FROM_2026_03_08
+  attributes:
+    number: '27'
+    start_date: '2026-03-08'
+    end_date: '2026-11-08'
+    details:
+      period_basis: observed_session_results
+      note: Car number in every published race and sprint result from the first to
+        the last session of this run. The actual assignment period may be longer.
+  references:
+    player: MOT-F1-PLAYER-HULKENBERG_NICO
+    team: MOT-F1-TEAM-AUDI
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: JerseyNumberAssignment
+  code: MOT-F1-TEAM-RB-PLAYER-LAWSON_LIAM-NUMBER_30-FROM_2026_03_08
+  attributes:
+    number: '30'
+    start_date: '2026-03-08'
+    end_date: '2026-07-26'
+    details:
+      period_basis: observed_session_results
+      note: Car number in every published race and sprint result from the first to
+        the last session of this run. The actual assignment period may be longer.
+  references:
+    player: MOT-F1-PLAYER-LAWSON_LIAM
+    team: MOT-F1-TEAM-RB
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: JerseyNumberAssignment
+  code: MOT-F1-TEAM-RED_BULL-PLAYER-LAWSON_LIAM-NUMBER_30-FROM_2026_08_22
+  attributes:
+    number: '30'
+    start_date: '2026-08-22'
+    end_date: '2026-09-13'
+    details:
+      period_basis: observed_session_results
+      note: Car number in every published race and sprint result from the first to
+        the last session of this run. The actual assignment period may be longer.
+  references:
+    player: MOT-F1-PLAYER-LAWSON_LIAM
+    team: MOT-F1-TEAM-RED_BULL
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: JerseyNumberAssignment
+  code: MOT-F1-TEAM-RB-PLAYER-LAWSON_LIAM-NUMBER_30-FROM_2026_09_26
+  attributes:
+    number: '30'
+    start_date: '2026-09-26'
+    end_date: '2026-11-08'
+    details:
+      period_basis: observed_session_results
+      note: Car number in every published race and sprint result from the first to
+        the last session of this run. The actual assignment period may be longer.
+  references:
+    player: MOT-F1-PLAYER-LAWSON_LIAM
+    team: MOT-F1-TEAM-RB
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: JerseyNumberAssignment
+  code: MOT-F1-TEAM-FERRARI-PLAYER-LECLERC_CHARLES-NUMBER_16-FROM_2026_03_08
+  attributes:
+    number: '16'
+    start_date: '2026-03-08'
+    end_date: '2026-11-08'
+    details:
+      period_basis: observed_session_results
+      note: Car number in every published race and sprint result from the first to
+        the last session of this run. The actual assignment period may be longer.
+  references:
+    player: MOT-F1-PLAYER-LECLERC_CHARLES
+    team: MOT-F1-TEAM-FERRARI
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: JerseyNumberAssignment
+  code: MOT-F1-TEAM-RED_BULL-PLAYER-VERSTAPPEN_MAX-NUMBER_3-FROM_2026_03_08
+  attributes:
+    number: '3'
+    start_date: '2026-03-08'
+    end_date: '2026-11-08'
+    details:
+      period_basis: observed_session_results
+      note: Car number in every published race and sprint result from the first to
+        the last session of this run. The actual assignment period may be longer.
+  references:
+    player: MOT-F1-PLAYER-VERSTAPPEN_MAX
+    team: MOT-F1-TEAM-RED_BULL
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: JerseyNumberAssignment
+  code: MOT-F1-TEAM-MCLAREN-PLAYER-NORRIS_LANDO-NUMBER_1-FROM_2026_03_08
+  attributes:
+    number: '1'
+    start_date: '2026-03-08'
+    end_date: '2026-11-08'
+    details:
+      period_basis: observed_session_results
+      note: Car number in every published race and sprint result from the first to
+        the last session of this run. The actual assignment period may be longer.
+  references:
+    player: MOT-F1-PLAYER-NORRIS_LANDO
+    team: MOT-F1-TEAM-MCLAREN
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: JerseyNumberAssignment
+  code: MOT-F1-TEAM-HAAS-PLAYER-OCON_ESTEBAN-NUMBER_31-FROM_2026_03_08
+  attributes:
+    number: '31'
+    start_date: '2026-03-08'
+    end_date: '2026-10-25'
+    details:
+      period_basis: observed_session_results
+      note: Car number in every published race and sprint result from the first to
+        the last session of this run. The actual assignment period may be longer.
+  references:
+    player: MOT-F1-PLAYER-OCON_ESTEBAN
+    team: MOT-F1-TEAM-HAAS
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: JerseyNumberAssignment
+  code: MOT-F1-TEAM-CADILLAC-PLAYER-PEREZ_SERGIO-NUMBER_11-FROM_2026_03_08
+  attributes:
+    number: '11'
+    start_date: '2026-03-08'
+    end_date: '2026-11-08'
+    details:
+      period_basis: observed_session_results
+      note: Car number in every published race and sprint result from the first to
+        the last session of this run. The actual assignment period may be longer.
+  references:
+    player: MOT-F1-PLAYER-PEREZ_SERGIO
+    team: MOT-F1-TEAM-CADILLAC
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: JerseyNumberAssignment
+  code: MOT-F1-TEAM-MCLAREN-PLAYER-PIASTRI_OSCAR-NUMBER_81-FROM_2026_03_08
+  attributes:
+    number: '81'
+    start_date: '2026-03-08'
+    end_date: '2026-11-08'
+    details:
+      period_basis: observed_session_results
+      note: Car number in every published race and sprint result from the first to
+        the last session of this run. The actual assignment period may be longer.
+  references:
+    player: MOT-F1-PLAYER-PIASTRI_OSCAR
+    team: MOT-F1-TEAM-MCLAREN
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: JerseyNumberAssignment
+  code: MOT-F1-TEAM-HAAS-PLAYER-CAMARA_RAFAEL-NUMBER_51-FROM_2026_11_08
+  attributes:
+    number: '51'
+    start_date: '2026-11-08'
+    end_date: '2026-11-08'
+    details:
+      period_basis: observed_session_results
+      note: Car number in every published race and sprint result from the first to
+        the last session of this run. The actual assignment period may be longer.
+  references:
+    player: MOT-F1-PLAYER-CAMARA_RAFAEL
+    team: MOT-F1-TEAM-HAAS
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: JerseyNumberAssignment
+  code: MOT-F1-TEAM-MERCEDES-PLAYER-RUSSELL_GEORGE-NUMBER_63-FROM_2026_03_08
+  attributes:
+    number: '63'
+    start_date: '2026-03-08'
+    end_date: '2026-11-08'
+    details:
+      period_basis: observed_session_results
+      note: Car number in every published race and sprint result from the first to
+        the last session of this run. The actual assignment period may be longer.
+  references:
+    player: MOT-F1-PLAYER-RUSSELL_GEORGE
+    team: MOT-F1-TEAM-MERCEDES
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: JerseyNumberAssignment
+  code: MOT-F1-TEAM-HAAS-PLAYER-HIRAKAWA_RYO-NUMBER_50-FROM_2026_11_01
+  attributes:
+    number: '50'
+    start_date: '2026-11-01'
+    end_date: '2026-11-01'
+    details:
+      period_basis: observed_session_results
+      note: Car number in every published race and sprint result from the first to
+        the last session of this run. The actual assignment period may be longer.
+  references:
+    player: MOT-F1-PLAYER-HIRAKAWA_RYO
+    team: MOT-F1-TEAM-HAAS
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: JerseyNumberAssignment
+  code: MOT-F1-TEAM-WILLIAMS-PLAYER-SAINZ_CARLOS-NUMBER_55-FROM_2026_03_08
+  attributes:
+    number: '55'
+    start_date: '2026-03-08'
+    end_date: '2026-11-08'
+    details:
+      period_basis: observed_session_results
+      note: Car number in every published race and sprint result from the first to
+        the last session of this run. The actual assignment period may be longer.
+  references:
+    player: MOT-F1-PLAYER-SAINZ_CARLOS
+    team: MOT-F1-TEAM-WILLIAMS
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: JerseyNumberAssignment
+  code: MOT-F1-TEAM-ASTON_MARTIN-PLAYER-STROLL_LANCE-NUMBER_18-FROM_2026_03_08
+  attributes:
+    number: '18'
+    start_date: '2026-03-08'
+    end_date: '2026-11-08'
+    details:
+      period_basis: observed_session_results
+      note: Car number in every published race and sprint result from the first to
+        the last session of this run. The actual assignment period may be longer.
+  references:
+    player: MOT-F1-PLAYER-STROLL_LANCE
+    team: MOT-F1-TEAM-ASTON_MARTIN
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: JerseyNumberAssignment
+  code: MOT-F1-TEAM-RB-PLAYER-TSUNODA_YUKI-NUMBER_22-FROM_2026_08_22
+  attributes:
+    number: '22'
+    start_date: '2026-08-22'
+    end_date: '2026-09-13'
+    details:
+      period_basis: observed_session_results
+      note: Car number in every published race and sprint result from the first to
+        the last session of this run. The actual assignment period may be longer.
+  references:
+    player: MOT-F1-PLAYER-TSUNODA_YUKI
+    team: MOT-F1-TEAM-RB
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.

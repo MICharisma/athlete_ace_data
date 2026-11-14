@@ -1,6 +1,6 @@
 ---
 name: sports-seed-sources
-description: Capture and verify public sports roster, historical NBA participant, NHL schedule, and team visual sources for the AthleteAce seed catalog. Use when fetching from the NHL, MLB StatsAPI, ESPN, Basketball Reference, or official club pages, or when refreshing a coverage capture. Not for live scores or unsourced roster generation.
+description: Capture and verify public sports roster, historical NBA participant, NHL schedule, and team visual sources for the AthleteAce seed catalog. Use when fetching from the NHL, MLB StatsAPI, ESPN, Basketball Reference, Jolpica-F1, or official club pages, or when refreshing a coverage capture. Not for live scores or unsourced roster generation.
 ---
 
 # Sports seed sources
@@ -20,6 +20,7 @@ Load only the reference for the provider you need:
 | ESPN site API | NBA, NFL, MLS, EPL, UCL, NCAA basketball rosters; season schedules; logos | `references/espn.md` |
 | Basketball Reference | Historical NBA appearance unions | `references/basketball-reference.md` |
 | Official club pages | Logos, kits, uniforms, announcements | `references/club-pages.md` |
+| Jolpica-F1 | Formula One calendars, circuits, constructors, drivers, race and sprint results | `references/jolpica.md` |
 
 Adding a provider? Create `references/<provider>.md` with: endpoints, season-label convention, what the list means, required count checks, and that provider's demonstrated mistakes.
 

@@ -55,6 +55,7 @@ Name matching happens only in generators, and only when unambiguous. The databas
 - Men's and women's competitions are separate Leagues with separate Teams (NBA/WNBA; `BKT-LEAGUE-NCAA_D1_MEN`/`_WOMEN`). One school's two programs are two Teams.
 - Don't match college players to professional players by name. Link them only through a shared provider ID. ESPN athlete IDs carry over to the pros, so `BKT-ESPN-PLAYER_{id}` aliases make that link.
 - In a league with conferences but no divisions (most of NCAA), the Membership references `league` and `conference` only.
+- Motorsport is one Sport (`SPORT-MOT`) with each series as a League (`MOT-LEAGUE-F1`). A driver who moves series stays one Player. Constructors are Teams, and a rename (Sauber to Audi, AlphaTauri to Racing Bulls) is a new Campaign display name on the same Team. The 2026 batch doesn't yet link Audi or RB to earlier seasons. Motorcycle racing should be its own sport when it arrives.
 
 ## Homonyms and collisions
 
