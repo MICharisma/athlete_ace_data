@@ -1,6 +1,6 @@
 # Contributing seed data
 
-The `pseudo` branch also includes a [generated fictional league bundle](pseudo/README.md). It is selected explicitly and has separate validation commands.
+`main` holds the sourced library. The `pseudo` branch is `main` plus a generated fictional league bundle in `pseudo/`, used for developing seasonal play; real data is committed to `main` and merged into `pseudo`, never the reverse.
 
 Prefer `.yml` for new maintained seeds. `.yaml` and `.json` are equally accepted inputs using the same `micharisma-seeds/v1` structure. Add manifests beneath `yaml/`; directory and file names only organize input, never determine entity identity. Existing legacy JSON files elsewhere are a separate format and are not checked by this workflow.
 
