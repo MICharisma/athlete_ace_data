@@ -328,6 +328,289 @@
         {
           "properties": {
             "type": {
+              "const": "Attestation"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "author_name": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "body": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "captured_at": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "format": "date-time"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "content_form": {
+                  "type": "string",
+                  "enum": [
+                    "text",
+                    "link",
+                    "image",
+                    "video"
+                  ]
+                },
+                "context": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "excerpt": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "locator": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "media_url": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "published_on": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "publisher": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "source_title": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "url": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {
+                "author": {
+                  "$ref": "#/$defs/reference"
+                },
+                "claim": {
+                  "$ref": "#/$defs/reference"
+                },
+                "entered_by": {
+                  "$ref": "#/$defs/reference"
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "AttributedStatement"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "attribution_kind": {
+                  "type": "string",
+                  "enum": [
+                    "direct_quote",
+                    "attributed_paraphrase",
+                    "self_stated_value",
+                    "observer_characterization"
+                  ]
+                },
+                "context": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "observer_name": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "statement_date": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {
+                "figure": {
+                  "$ref": "#/$defs/reference"
+                },
+                "figure_practice_relationship": {
+                  "$ref": "#/$defs/reference"
+                },
+                "observer": {
+                  "$ref": "#/$defs/reference"
+                },
+                "staff_tenure": {
+                  "$ref": "#/$defs/reference"
+                },
+                "topic": {
+                  "$ref": "#/$defs/reference"
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "Business"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "details": {},
+                "founded_year": {
+                  "anyOf": [
+                    {
+                      "type": "integer"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "name": {
+                  "type": "string"
+                },
+                "source": {},
+                "url": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {},
+              "required": [],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
               "const": "Campaign"
             },
             "attributes": {
@@ -1033,6 +1316,216 @@
             "references": {
               "type": "object",
               "properties": {},
+              "required": [],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "FigureBusinessRelationship"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "as_of_date": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "compensation": {
+                  "type": "string",
+                  "enum": [
+                    "documented_paid",
+                    "documented_unpaid",
+                    "unknown"
+                  ]
+                },
+                "compensation_description": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "context": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "end_date": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "predicate": {
+                  "type": "string",
+                  "enum": [
+                    "founded",
+                    "owns",
+                    "invests_in",
+                    "endorses",
+                    "promotes",
+                    "sponsored_by"
+                  ]
+                },
+                "start_date": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "temporal_state": {
+                  "type": "string",
+                  "enum": [
+                    "reported_current",
+                    "historical",
+                    "planned",
+                    "unknown"
+                  ]
+                },
+                "vehicle_name": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {
+                "business": {
+                  "$ref": "#/$defs/reference"
+                },
+                "figure": {
+                  "$ref": "#/$defs/reference"
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "FigurePracticeRelationship"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "as_of_date": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "context": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "end_date": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "interpretation": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "predicate": {
+                  "type": "string",
+                  "enum": [
+                    "participates_in",
+                    "recommends",
+                    "teaches",
+                    "endorses"
+                  ]
+                },
+                "start_date": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "temporal_state": {
+                  "type": "string",
+                  "enum": [
+                    "reported_current",
+                    "historical",
+                    "planned",
+                    "unknown"
+                  ]
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {
+                "figure": {
+                  "$ref": "#/$defs/reference"
+                },
+                "protocol": {
+                  "$ref": "#/$defs/reference"
+                }
+              },
               "required": [],
               "additionalProperties": false
             }
@@ -1840,6 +2333,108 @@
         {
           "properties": {
             "type": {
+              "const": "Practice"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {},
+              "required": [],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "PracticeConnection"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {},
+              "required": [],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {
+                "figure_practice_relationship": {
+                  "$ref": "#/$defs/reference"
+                },
+                "practice": {
+                  "$ref": "#/$defs/reference"
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "Protocol"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "name": {
+                  "type": "string"
+                },
+                "routine": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {},
+              "required": [],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
               "const": "Roster"
             },
             "attributes": {
@@ -2528,6 +3123,39 @@
                   "$ref": "#/$defs/reference"
                 }
               },
+              "required": [],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "Topic"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "description": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {},
               "required": [],
               "additionalProperties": false
             }
