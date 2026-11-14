@@ -1,0 +1,25 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Business
+  code: BUSINESS-CALM
+  attributes:
+    name: Calm
+    url: https://www.calm.com/
+    description: Meditation and sleep app company.
+  references: {}
+- type: Business
+  code: BUSINESS-UNDER_ARMOUR
+  attributes:
+    name: Under Armour
+    url: https://about.underarmour.com/
+    description: Athletic apparel and footwear company.
+  references: {}
+- type: Business
+  code: BUSINESS-WEIGHT_WATCHERS
+  attributes:
+    name: Weight Watchers
+    description: Weight-loss program company, named as the sources name it in 2011–2012.
+  references: {}

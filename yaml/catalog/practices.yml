@@ -1,0 +1,21 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Practice
+  code: PRACTICE-MEDITATION
+  attributes:
+    name: Meditation
+  references: {}
+- type: Practice
+  code: PRACTICE-MINDFULNESS
+  attributes:
+    name: Mindfulness
+  references: {}
+- type: Protocol
+  code: PROTOCOL-SILENT_BREATH_SITTING
+  attributes:
+    name: Silent group sitting
+    routine: Players sit together in silence and monitor their breathing and passing thoughts.
+  references: {}

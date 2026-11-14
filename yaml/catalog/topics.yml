@@ -1,0 +1,25 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Topic
+  code: TOPIC-CORE_VALUES
+  attributes:
+    name: Core values
+  references: {}
+- type: Topic
+  code: TOPIC-LEADERSHIP
+  attributes:
+    name: Leadership
+  references: {}
+- type: Topic
+  code: TOPIC-MINDFULNESS
+  attributes:
+    name: Mindfulness
+  references: {}
+- type: Topic
+  code: TOPIC-MENTAL_FITNESS
+  attributes:
+    name: Mental fitness
+  references: {}

@@ -1,0 +1,300 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+# AA-218 pilot. Every claim cites the public pages read on 2026-11-14; see
+# sources/figure_connections/README.md. Claims import as pending and need an
+# admin's review before they are public.
+records:
+# Steve Kerr: player, broadcaster and coach under one Figure (yaml/figures/steve_kerr.yaml).
+- type: AttributedStatement
+  code: STATEMENT-KERR_STEVE-CORE_VALUES-2022_04
+  attributes:
+    attribution_kind: attributed_paraphrase
+    text: Kerr says four values define his approach to leadership and coaching — joy, competition, compassion and mindfulness.
+    statement_date: '2022-04'
+    context: Reported from Kerr's talk in Harvard Law School's 2021–22 Dream Big Speaker series.
+  references:
+    figure: FIGURE-KERR_STEVE
+    topic: TOPIC-CORE_VALUES
+    staff_tenure: APPOINTMENT-KERR_STEVE-GSW-2014_05_19
+- type: Attestation
+  code: ATTESTATION-KERR_STEVE-CORE_VALUES-HLS
+  attributes:
+    content_form: link
+    url: https://hls.harvard.edu/today/steve-kerr-holds-court-at-harvard-law
+    source_title: Steve Kerr holds court at Harvard Law
+    publisher: Harvard Law School
+    author_name: Courtney Majocha
+    published_on: '2022-04-13'
+    excerpt: Those are the four values that Steve Kerr says define his approach
+    locator: Opening paragraphs
+    context: The article lists the four values in its own narration and attributes them to Kerr; they are not in quotation marks, so the statement is recorded as a paraphrase.
+  references:
+    claim: STATEMENT-KERR_STEVE-CORE_VALUES-2022_04
+- type: AttributedStatement
+  code: STATEMENT-KERR_STEVE-LEADERSHIP-2022_04
+  attributes:
+    attribution_kind: direct_quote
+    text: I think being a leader is all about embodying the values that you hold to yourself, and that are authentic to yourself.
+    statement_date: '2022-04'
+    context: Said at Harvard Law School's Dream Big Speaker series.
+  references:
+    figure: FIGURE-KERR_STEVE
+    topic: TOPIC-LEADERSHIP
+    staff_tenure: APPOINTMENT-KERR_STEVE-GSW-2014_05_19
+- type: Attestation
+  code: ATTESTATION-KERR_STEVE-LEADERSHIP-HLS
+  attributes:
+    content_form: link
+    url: https://hls.harvard.edu/today/steve-kerr-holds-court-at-harvard-law
+    source_title: Steve Kerr holds court at Harvard Law
+    publisher: Harvard Law School
+    author_name: Courtney Majocha
+    published_on: '2022-04-13'
+    excerpt: I think being a leader is all about embodying the values
+    context: The article quotes Kerr directly.
+  references:
+    claim: STATEMENT-KERR_STEVE-LEADERSHIP-2022_04
+- type: AttributedStatement
+  code: STATEMENT-KERR_STEVE-MINDFULNESS_JACKSON-2022_04
+  attributes:
+    attribution_kind: attributed_paraphrase
+    text: Kerr credited Phil Jackson with introducing him to mindfulness.
+    statement_date: '2022-04'
+  references:
+    figure: FIGURE-KERR_STEVE
+    topic: TOPIC-MINDFULNESS
+- type: Attestation
+  code: ATTESTATION-KERR_STEVE-MINDFULNESS_JACKSON-HLS
+  attributes:
+    content_form: link
+    url: https://hls.harvard.edu/today/steve-kerr-holds-court-at-harvard-law
+    source_title: Steve Kerr holds court at Harvard Law
+    publisher: Harvard Law School
+    author_name: Courtney Majocha
+    published_on: '2022-04-13'
+    excerpt: credited Jackson with his introduction to mindfulness
+    context: The article's own summary of what Kerr said; not a direct quotation.
+  references:
+    claim: STATEMENT-KERR_STEVE-MINDFULNESS_JACKSON-2022_04
+# George Mumford: mindfulness teacher to Phil Jackson's teams. A general-only
+# claim: the sources describe no specific method.
+- type: FigurePracticeRelationship
+  code: PRACTICE_TIE-MUMFORD_GEORGE-TEACHES_MINDFULNESS
+  attributes:
+    predicate: teaches
+    context: Taught mindfulness to Chicago Bulls players, then to Los Angeles Lakers stars, at Phil Jackson's invitation. The sources describe no specific routine or session length.
+  references:
+    figure: FIGURE-MUMFORD_GEORGE
+- type: PracticeConnection
+  code: PRACTICE_TIE-MUMFORD_GEORGE-TEACHES_MINDFULNESS-PRACTICE-MINDFULNESS
+  attributes: {}
+  references:
+    figure_practice_relationship: PRACTICE_TIE-MUMFORD_GEORGE-TEACHES_MINDFULNESS
+    practice: PRACTICE-MINDFULNESS
+- type: PracticeConnection
+  code: PRACTICE_TIE-MUMFORD_GEORGE-TEACHES_MINDFULNESS-PRACTICE-MEDITATION
+  attributes: {}
+  references:
+    figure_practice_relationship: PRACTICE_TIE-MUMFORD_GEORGE-TEACHES_MINDFULNESS
+    practice: PRACTICE-MEDITATION
+- type: Attestation
+  code: ATTESTATION-MUMFORD_GEORGE-TEACHES-WGBH
+  attributes:
+    content_form: link
+    url: https://www.wgbh.org/news/local/2015-07-07/meet-the-man-who-taught-meditation-to-michael-jordan
+    source_title: Meet The Man Who Taught Meditation To Michael Jordan
+    publisher: WGBH Boston Public Radio
+    author_name: Boston Public Radio Staff
+    published_on: '2015-07-07'
+    excerpt: Mumford instructed that team's stars — Shaquille O'Neal and Kobe Bryant
+    context: Reports that Phil Jackson enlisted Mumford with the Bulls and that he later instructed Lakers stars.
+  references:
+    claim: PRACTICE_TIE-MUMFORD_GEORGE-TEACHES_MINDFULNESS
+- type: Attestation
+  code: ATTESTATION-MUMFORD_GEORGE-TEACHES-MINDFUL_INTERVIEW
+  attributes:
+    content_form: link
+    url: https://www.mindful.org/the-lakers-meditate/
+    source_title: The Lakers Meditate?
+    publisher: Mindful
+    author_name: George Mumford
+    published_on: '2011-04-15'
+    excerpt: Oh, you can't do it without the meditation practice.
+    locator: Interview answer on encouraging practice
+    context: Mumford, interviewed by Soren Gordhamer, describes teaching mindfulness to the Bulls and Lakers and treats meditation practice as essential to it.
+  references:
+    claim: PRACTICE_TIE-MUMFORD_GEORGE-TEACHES_MINDFULNESS
+- type: AttributedStatement
+  code: STATEMENT-MUMFORD_GEORGE-QUALITY_OF_PRACTICE
+  attributes:
+    attribution_kind: direct_quote
+    text: The amount of time is not as important as the quality.
+    context: Answering how long teams meditate; he adds that it depends on the team.
+  references:
+    figure: FIGURE-MUMFORD_GEORGE
+    topic: TOPIC-MINDFULNESS
+    figure_practice_relationship: PRACTICE_TIE-MUMFORD_GEORGE-TEACHES_MINDFULNESS
+- type: Attestation
+  code: ATTESTATION-MUMFORD_GEORGE-QUALITY-MINDFUL_INTERVIEW
+  attributes:
+    content_form: link
+    url: https://www.mindful.org/the-lakers-meditate/
+    source_title: The Lakers Meditate?
+    publisher: Mindful
+    author_name: George Mumford
+    published_on: '2011-04-15'
+    excerpt: The amount of time is not as important as the quality.
+    context: Mumford's own answer in the interview. The interview's date is unknown; the page was posted on 2011-04-15.
+  references:
+    claim: STATEMENT-MUMFORD_GEORGE-QUALITY_OF_PRACTICE
+# Phil Jackson: a specific protocol, dates unknown.
+- type: FigurePracticeRelationship
+  code: PRACTICE_TIE-JACKSON_PHIL-SILENT_SITTING
+  attributes:
+    predicate: teaches
+    context: Described as one of Jackson's methods with the Chicago Bulls to clear minds before tip-off. The source doesn't date it.
+  references:
+    figure: FIGURE-JACKSON_PHIL
+    protocol: PROTOCOL-SILENT_BREATH_SITTING
+- type: PracticeConnection
+  code: PRACTICE_TIE-JACKSON_PHIL-SILENT_SITTING-PRACTICE-MEDITATION
+  attributes: {}
+  references:
+    figure_practice_relationship: PRACTICE_TIE-JACKSON_PHIL-SILENT_SITTING
+    practice: PRACTICE-MEDITATION
+- type: Attestation
+  code: ATTESTATION-JACKSON_PHIL-SILENT_SITTING-SELLING_POWER
+  attributes:
+    content_form: link
+    url: https://www.sellingpower.com/2010/02/02/4345/the-lane-well-traveled
+    source_title: The Lane Well Traveled
+    publisher: Selling Power
+    author_name: Malcolm Fleschner
+    excerpt: players sit together in silence and monitor their breathing
+    context: The article names meditation as the first of three methods Jackson uses before tip-off and describes it this way. The page shows no publication date.
+  references:
+    claim: PRACTICE_TIE-JACKSON_PHIL-SILENT_SITTING
+# LeBron James: Calm partnership; payment terms not disclosed.
+- type: FigureBusinessRelationship
+  code: BUSINESS_TIE-JAMES_LEBRON-CALM-PROMOTES-2019_12
+  attributes:
+    predicate: promotes
+    start_date: '2019-12-10'
+    context: A multi-year partnership whose first year included a national marketing campaign, original audio content from James, and Calm donations to youth organizations. Financial terms weren't disclosed.
+  references:
+    figure: FIGURE-BKT-NBA-PLAYER-JAMES_LEBRON
+    business: BUSINESS-CALM
+- type: Attestation
+  code: ATTESTATION-JAMES_LEBRON-CALM-RELEASE
+  attributes:
+    content_form: link
+    url: https://www.einpresswire.com/article/504488585/calm-partners-with-lebron-james-to-train-your-mind
+    source_title: Calm Partners with LeBron James to "Train Your Mind"
+    publisher: Calm, distributed by GlobeNewswire
+    author_name: Calm
+    published_on: '2019-12-10'
+    excerpt: Calm today announced a partnership with LeBron James
+    context: Calm's own press release announcing the multi-year partnership and its first-year content.
+  references:
+    claim: BUSINESS_TIE-JAMES_LEBRON-CALM-PROMOTES-2019_12
+- type: AttributedStatement
+  code: STATEMENT-JAMES_LEBRON-MENTAL_FITNESS-2019_12
+  attributes:
+    attribution_kind: direct_quote
+    text: As an athlete, there's a lot of focus on physical fitness. This partnership with Calm is all about mental fitness.
+    statement_date: '2019-12-10'
+    context: The opening of James's statement in the partnership announcement.
+  references:
+    figure: FIGURE-BKT-NBA-PLAYER-JAMES_LEBRON
+    topic: TOPIC-MENTAL_FITNESS
+- type: Attestation
+  code: ATTESTATION-JAMES_LEBRON-MENTAL_FITNESS-RELEASE
+  attributes:
+    content_form: link
+    url: https://www.einpresswire.com/article/504488585/calm-partners-with-lebron-james-to-train-your-mind
+    source_title: Calm Partners with LeBron James to "Train Your Mind"
+    publisher: Calm, distributed by GlobeNewswire
+    author_name: Calm
+    published_on: '2019-12-10'
+    excerpt: This partnership with Calm is all about mental fitness.
+    context: The release attributes the statement to James. It is a company press release, not an independent interview.
+  references:
+    claim: STATEMENT-JAMES_LEBRON-MENTAL_FITNESS-2019_12
+# Stephen Curry: an ended sponsorship.
+- type: FigureBusinessRelationship
+  code: BUSINESS_TIE-CURRY_STEPHEN-UNDER_ARMOUR-SPONSORED_BY-2013
+  attributes:
+    predicate: sponsored_by
+    start_date: '2013'
+    end_date: '2025-11'
+    temporal_state: historical
+    context: Curry left Nike for Under Armour in 2013. On 2025-11-13 the two announced Curry Brand's separation from Under Armour, with final Curry Brand x Under Armour products scheduled through October 2026. Financial terms weren't disclosed.
+  references:
+    figure: FIGURE-BKT-NBA-PLAYER-CURRY_STEPHEN
+    business: BUSINESS-UNDER_ARMOUR
+- type: Attestation
+  code: ATTESTATION-CURRY_STEPHEN-UNDER_ARMOUR-ABC7
+  attributes:
+    content_form: link
+    url: https://abc7news.com/post/golden-state-warriors-stephen-curry-ending-partnership-armour/18152782/
+    source_title: Warriors' Stephen Curry ending partnership with Under Armour
+    publisher: ABC7 San Francisco (ESPN)
+    author_name: Anthony Slater
+    published_on: '2025-11-14'
+    excerpt: Curry left Nike and signed with Under Armour in 2013.
+    context: Establishes the 2013 start and the announced end of the partnership.
+  references:
+    claim: BUSINESS_TIE-CURRY_STEPHEN-UNDER_ARMOUR-SPONSORED_BY-2013
+- type: Attestation
+  code: ATTESTATION-CURRY_STEPHEN-UNDER_ARMOUR-RELEASE
+  attributes:
+    content_form: link
+    url: https://about.underarmour.com/en/stories/press-releases/release.418ad4e7-ea5d-40e6-bc25-87f92315c9ba.html
+    source_title: Under Armour and Stephen Curry Agree to Curry Brand Separation
+    publisher: Under Armour, Inc.
+    author_name: Under Armour
+    published_on: '2025-11-13'
+    excerpt: today announced plans to separate Curry Brand from Under Armour
+    context: Under Armour's own announcement. It does not state who owns Curry Brand after the separation, so no ownership claim is recorded.
+  references:
+    claim: BUSINESS_TIE-CURRY_STEPHEN-UNDER_ARMOUR-SPONSORED_BY-2013
+# Charles Barkley: documented paid promotion; end date unknown.
+- type: FigureBusinessRelationship
+  code: BUSINESS_TIE-BARKLEY_CHARLES-WEIGHT_WATCHERS-PROMOTES-2011_12
+  attributes:
+    predicate: promotes
+    start_date: '2011-12'
+    compensation: documented_paid
+    compensation_description: Barkley said on air in January 2012 that he was getting paid for the role. No amount was reported.
+    context: Signed on as a Weight Watchers spokesman for its men's campaign. The sources don't establish when the role ended.
+  references:
+    figure: FIGURE-BARKLEY_CHARLES
+    business: BUSINESS-WEIGHT_WATCHERS
+- type: Attestation
+  code: ATTESTATION-BARKLEY_CHARLES-WEIGHT_WATCHERS-PHILLYMAG
+  attributes:
+    content_form: link
+    url: https://www.phillymag.com/news/2011/12/13/sir-charles-barkley-weight-watchers-spokesman
+    source_title: Sir Charles Barkley is New Weight Watchers Spokesman
+    publisher: Philadelphia Magazine
+    author_name: Mike Bertha
+    published_on: '2011-12-13'
+    excerpt: Now, he's signed on to be a company spokesman.
+    context: Establishes the spokesman role in December 2011.
+  references:
+    claim: BUSINESS_TIE-BARKLEY_CHARLES-WEIGHT_WATCHERS-PROMOTES-2011_12
+- type: Attestation
+  code: ATTESTATION-BARKLEY_CHARLES-WEIGHT_WATCHERS-PAID
+  attributes:
+    content_form: link
+    url: https://larrybrownsports.com/basketball/charles-barkley-weight-watchers-easy-money-scam/109063
+    source_title: Charles Barkley Says His Weight Watchers Endorsement is an Easy Scam (Video)
+    publisher: Larry Brown Sports
+    author_name: Steve DelVecchio
+    published_on: '2012-01-06'
+    excerpt: getting paid at the same time
+    context: Quotes Barkley's own on-air words that he is paid for the role. Supports compensation only; the article gives no amount.
+  references:
+    claim: BUSINESS_TIE-BARKLEY_CHARLES-WEIGHT_WATCHERS-PROMOTES-2011_12

@@ -45,13 +45,18 @@ class CanonicalPathTest(unittest.TestCase):
             ("Player", "PLAYER-KERR_STEVE"): "catalog/players/K.yml",
             ("Figure", "FIGURE-KERR_STEVE"): "catalog/figures/K.yml",
             ("Position", "BSB-POSITION-SS"): "catalog/BSB/positions.yml",
+            ("Business", "BUSINESS-CALM"): "catalog/businesses.yml",
+            ("Practice", "PRACTICE-MEDITATION"): "catalog/practices.yml",
+            ("Protocol", "PROTOCOL-SILENT_BREATH_SITTING"): "catalog/practices.yml",
+            ("Topic", "TOPIC-MINDFULNESS"): "catalog/topics.yml",
         }
         for (record_type, code), expected in cases.items():
             with self.subTest(code=code):
                 self.assertEqual(canonical_path(record_type, code), expected)
 
     def test_observations_have_no_catalog_file(self):
-        for record_type in ("RosterEntry", "Activation", "Game", "Appearance", "TitleAward", "PositionAssignment", "JerseyNumberAssignment"):
+        for record_type in ("RosterEntry", "Activation", "Game", "Appearance", "TitleAward", "PositionAssignment", "JerseyNumberAssignment",
+                            "FigureBusinessRelationship", "FigurePracticeRelationship", "PracticeConnection", "AttributedStatement", "Attestation"):
             self.assertIsNone(canonical_path(record_type, "BKT-NBA-ANYTHING"))
 
     def test_unrecognized_identity_shapes_are_reported_not_guessed(self):

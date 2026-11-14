@@ -44,8 +44,11 @@ File names never decide identity, but they do decide who owns a record. A code d
   | Campaigns | `catalog/{SPORT}/{LEAGUE}/campaigns/{SEASON_LABEL}.yml` |
   | Players | `catalog/{SPORT}/{LEAGUE}/players/{INITIAL}.yml`, by the first letter of the code's last segment |
   | Figures | `catalog/figures/{INITIAL}.yml` |
+  | Businesses | `catalog/businesses.yml` |
+  | Practices and protocols | `catalog/practices.yml` |
+  | Topics | `catalog/topics.yml` |
 
-- **Batches** hold observations: rosters and roster entries, activations, number periods, stints, contracts, memberships, games and entries, appearances, titles, and position assignments. They are named by what was captured, for example `yaml/batches/{SPORT}/{LEAGUE}/{SEASON}/{source}_{date}/`. A batch references identities by code and never defines them.
+- **Batches** hold observations: rosters and roster entries, activations, number periods, stints, contracts, memberships, games and entries, appearances, titles, position assignments, and Figure connection claims with their Attestations. They are named by what was captured, for example `yaml/batches/{SPORT}/{LEAGUE}/{SEASON}/{source}_{date}/`. A batch references identities by code and never defines them.
 
 `tools/seed_layout.py` lists every code defined in more than one file, identity records outside their catalog file, identity codes no rule covers, and observations placed in the catalog. `tools/validate_seeds.py` runs it when checking the whole library and fails on any finding (`--layout report` only prints the summary).
 

@@ -2,7 +2,7 @@
 """Seed library layout lint: every code defined once, identities in their canonical file.
 
 Identity records (places, venues, sports, leagues, teams, seasons, campaigns,
-players, figures, positions) are shared by many batches, so each has exactly
+players, figures, positions, businesses, practices, protocols, topics) are shared by many batches, so each has exactly
 one canonical file under yaml/catalog/, computed from its code. Batches hold
 observations (rosters, numbers, games, results, titles) and reference
 identities without defining them. See CONTRIBUTING.md, "Library layout".
@@ -57,6 +57,12 @@ def canonical_path(record_type, code):
         return f"{CATALOG}/{parts[0]}/positions.yml"
     if record_type == "Figure":
         return f"{CATALOG}/figures/{initial(parts[-1])}.yml"
+    if record_type == "Business":
+        return f"{CATALOG}/businesses.yml"
+    if record_type in ("Practice", "Protocol"):
+        return f"{CATALOG}/practices.yml"
+    if record_type == "Topic":
+        return f"{CATALOG}/topics.yml"
     if record_type == "League":
         if len(parts) != 3 or parts[1] != "LEAGUE":
             raise UnplacedCode(code)
