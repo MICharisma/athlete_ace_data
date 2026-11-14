@@ -1,0 +1,56 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: BKT-NCAA_D1_WOMEN-PLAYER-FEHRENBACH_RHYLIN
+  aliases:
+  - BKT-ESPN-PLAYER_5460907
+  attributes:
+    first_name: Rhylin
+    last_name: Fehrenbach
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5460907.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/teams/172/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_WOMEN-PLAYER-FELDRAPPE_HILKE
+  aliases:
+  - BKT-ESPN-PLAYER_5174275
+  attributes:
+    first_name: Hilke
+    last_name: Feldrappe
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5174275.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/teams/171/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_WOMEN-PLAYER-FREIRE_MAGDA
+  aliases:
+  - BKT-ESPN-PLAYER_5240645
+  attributes:
+    first_name: Magda
+    last_name: Freire
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5240645.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/teams/159/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.

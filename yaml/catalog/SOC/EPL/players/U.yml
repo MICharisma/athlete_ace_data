@@ -1,0 +1,35 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: SOC-EPL-PLAYER-UDOGIE_DESTINY
+  aliases:
+  - SOC-ESPN-PLAYER_290076
+  attributes:
+    first_name: Destiny
+    last_name: Udogie
+    birthdate: '2002-11-28'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/367/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-UGARTE_MANUEL
+  aliases:
+  - SOC-ESPN-PLAYER_241468
+  attributes:
+    first_name: Manuel
+    last_name: Ugarte
+    birthdate: '2001-04-11'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/360/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.

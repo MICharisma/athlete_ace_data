@@ -1,0 +1,27 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Federation
+  code: FEDERATION-FIA
+  attributes:
+    name: Fédération Internationale de l'Automobile
+    abbreviation: FIA
+    url: https://www.fia.com/
+  references: {}
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Federation
+  code: FEDERATION-UEFA
+  attributes:
+    name: Union of European Football Associations
+    abbreviation: UEFA
+    url: https://www.uefa.com/
+  references: {}
+  source: {}

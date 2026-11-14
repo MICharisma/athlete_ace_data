@@ -1,0 +1,125 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: SOC-EPL-PLAYER-IBRAHIM_IFE
+  aliases:
+  - SOC-ESPN-PLAYER_399894
+  attributes:
+    first_name: Ife
+    last_name: Ibrahim
+    birthdate: '2008-01-20'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/359/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-IBRAHIM_YOUNES
+  aliases:
+  - SOC-ESPN-PLAYER_413274
+  attributes:
+    first_name: Younes
+    last_name: Ibrahim
+    birthdate: '2008-02-16'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/331/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-IGOR_JESUS
+  aliases:
+  - SOC-ESPN-PLAYER_287869
+  attributes:
+    first_name: Igor Jesus
+    last_name: ''
+    birthdate: '2001-02-25'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/393/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-IROEGBUNAM_TIM
+  aliases:
+  - SOC-ESPN-PLAYER_310599
+  attributes:
+    first_name: Tim
+    last_name: Iroegbunam
+    birthdate: '2003-06-30'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/306/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-ISAK_ALEXANDER
+  aliases:
+  - SOC-ESPN-PLAYER_235662
+  attributes:
+    first_name: Alexander
+    last_name: Isak
+    birthdate: '1999-09-21'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/364/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-ISIDOR_WILSON
+  aliases:
+  - SOC-ESPN-PLAYER_265915
+  attributes:
+    first_name: Wilson
+    last_name: Isidor
+    birthdate: '2000-08-27'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/366/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-ISSAHAKU_FATAWU
+  aliases:
+  - SOC-ESPN-PLAYER_318680
+  attributes:
+    first_name: Fatawu
+    last_name: Issahaku
+    birthdate: '2004-03-08'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/373/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-IWOBI_ALEX
+  aliases:
+  - SOC-ESPN-PLAYER_175063
+  attributes:
+    first_name: Alex
+    last_name: Iwobi
+    birthdate: '1996-05-03'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/370/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.

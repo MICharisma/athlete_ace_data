@@ -1,0 +1,158 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-LANGFORD_DOUGLAS
+  aliases:
+  - BKT-ESPN-PLAYER_5248295
+  attributes:
+    first_name: Douglas
+    last_name: Langford
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5248295.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/171/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-LANGHAM_ISAIAH
+  aliases:
+  - BKT-ESPN-PLAYER_5312599
+  attributes:
+    first_name: Isaiah
+    last_name: Langham
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5312599.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/225/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-LECKLITNER_BLAKE
+  aliases:
+  - BKT-ESPN-PLAYER_5313692
+  attributes:
+    first_name: Blake
+    last_name: Lecklitner
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5313692.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/172/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-LEVINE_AJ
+  aliases:
+  - BKT-ESPN-PLAYER_5241732
+  attributes:
+    first_name: AJ
+    last_name: Levine
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5241732.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/219/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-LIN_ETHAN
+  aliases:
+  - BKT-ESPN-PLAYER_5459462
+  attributes:
+    first_name: Ethan
+    last_name: Lin
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5459462.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/219/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-LOUGHLIN_BRADY
+  aliases:
+  - BKT-ESPN-PLAYER_5312601
+  attributes:
+    first_name: Brady
+    last_name: Loughlin
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5312601.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/225/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-LOURIDAS_JACK
+  aliases:
+  - BKT-ESPN-PLAYER_5459432
+  attributes:
+    first_name: Jack
+    last_name: Louridas
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5459432.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/43/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-LOVING_ALVIN
+  aliases:
+  - BKT-ESPN-PLAYER_5313387
+  attributes:
+    first_name: Alvin
+    last_name: Loving
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5313387.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/43/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-LUETH_LUCAS
+  aliases:
+  - BKT-ESPN-PLAYER_5314648
+  attributes:
+    first_name: Lucas
+    last_name: Lueth
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5314648.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/219/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.

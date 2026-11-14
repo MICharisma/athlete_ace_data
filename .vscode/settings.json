@@ -1,8 +1,8 @@
 {
   "yaml.yamlVersion": "1.1",
   "yaml.schemas": {
-    "./schemas/v1/ala.schema.json": ["yaml/**/*.yml", "yaml/**/*.yaml", "tools/fixtures/*.yml", "!yaml/entity_sequences.yaml"],
-    "./schemas/v1/entity-sequences.schema.json": ["yaml/entity_sequences.yaml", "tools/fixtures/entity_sequences.yaml"]
+    "./schemas/v1/ala.schema.json": ["yaml/**/*.yml", "yaml/**/*.yaml", "!yaml/entity_sequences.yaml"],
+    "./schemas/v1/entity-sequences.schema.json": ["yaml/entity_sequences.yaml"]
   },
   "json.schemas": [
     { "fileMatch": ["/yaml/**/*.json"], "url": "./schemas/v1/ala.schema.json" }

@@ -1,0 +1,72 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: City
+  code: CITY-ES-CT-BARCELONA
+  attributes:
+    name: Barcelona
+  references:
+    state: STATE-ES-CT
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/catalunya.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: City
+  code: CITY-ES-MD-MADRID
+  attributes:
+    name: Madrid
+  references:
+    state: STATE-ES-MD
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/madring.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Country
+  code: COUNTRY-ES
+  attributes:
+    name: Spain
+    abbreviation: ES
+  references: {}
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:ES
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: State
+  code: STATE-ES-CT
+  attributes:
+    name: Catalonia
+    abbreviation: CT
+  references:
+    country: COUNTRY-ES
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:ES
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: State
+  code: STATE-ES-MD
+  attributes:
+    name: Community of Madrid
+    abbreviation: MD
+  references:
+    country: COUNTRY-ES
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:ES
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.

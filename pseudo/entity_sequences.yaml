@@ -1,0 +1,19 @@
+"01":
+  "10": [Sport, League, Conference, Division, Year, Team]
+  "11": [Sport, League, Year, Team]
+  "12": [Sport, League, Year]
+  "13": [Sport, League, Team]
+"05":
+  "22": [Sport, League, Team, Year, Player]
+terminology:
+  families:
+    hierarchy: 1
+    athletes: 5
+  sequences:
+    "01":
+      annual_team_hierarchy: 10
+      season_team: 11
+      league_year: 12
+      current_team: 13
+    "05":
+      season_roster: 22

@@ -1,0 +1,58 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: BKT-NBA-PLAYER-ZELLER_CODY
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_ZELLECO01
+  attributes:
+    first_name: Cody
+    last_name: Zeller
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://www.basketball-reference.com/leagues/NBA_2024_per_game.html
+    captured_on: '2026-10-26'
+    note: Complete regular-season and playoff appearance union by team, retaining
+      trade-side memberships. Excludes roster members with no recorded appearances
+      and does not establish jersey-number periods.
+- type: Player
+  code: BKT-NBA-PLAYER-ZIKARSKY_ROCCO
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_ZIKARRO01
+  - BKT-ESPN-PLAYER_5157587
+  attributes:
+    first_name: Rocco
+    last_name: Zikarsky
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/minnesota-timberwolves/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-ZUBAC_IVICA
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_ZUBACIV01
+  - BKT-ESPN-PLAYER_4017837
+  attributes:
+    first_name: Ivica
+    last_name: Zubac
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/indiana-pacers/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.

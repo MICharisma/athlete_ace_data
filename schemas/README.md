@@ -22,8 +22,8 @@ Then from `lib/micharisma_seeders` (the private build tool, not needed by contri
 
 ```sh
 bundle install
-bundle exec ruby exe/export-seed-schemas --catalog ../../db/seeds/athlete_ace_data/schemas/ala.contract.json --output ../../db/seeds/athlete_ace_data/schemas/v1 --base-url https://raw.githubusercontent.com/mikeymicrophone/athlete_ace_data/main/schemas/v1
-bundle exec ruby exe/export-seed-schemas --catalog ../../db/seeds/athlete_ace_data/schemas/ala.contract.json --output ../../db/seeds/athlete_ace_data/schemas/v1 --base-url https://raw.githubusercontent.com/mikeymicrophone/athlete_ace_data/main/schemas/v1 --check
+bundle exec ruby exe/export-seed-schemas --catalog ../../db/seeds/athlete_ace_data/schemas/ala.contract.json --output ../../db/seeds/athlete_ace_data/schemas/v1
+bundle exec ruby exe/export-seed-schemas --catalog ../../db/seeds/athlete_ace_data/schemas/ala.contract.json --output ../../db/seeds/athlete_ace_data/schemas/v1 --check
 ```
 
-`RAILS_ENV=test CHECK=1 bundle exec rails seeds:schema_contract` checks model/contract drift. The exporter derives envelope fields from the shared Reader and fails if those declarations diverge. Generated schemas are self-contained and require no remote `$ref` downloads. Their `$id` URLs point to this repository's `main` branch. The source contract is shared with the `pseudo` branch; simulation data remains separate. When publishing from an isolated data checkout, copy the generated contract there and set the exporter output to that checkout's `schemas/v1` directory. Prelaunch schema details can continue to evolve alongside consumers.
+`RAILS_ENV=test CHECK=1 bundle exec rails seeds:schema_contract` checks model/contract drift. The exporter derives envelope fields from the shared Reader and fails if those declarations diverge. Generated schemas are self-contained and require no remote `$ref` downloads. Their `$id` URLs point to this repository's current seed branch; move the publication URL deliberately when publishing a launch guide. Prelaunch schema details can continue to evolve alongside consumers.

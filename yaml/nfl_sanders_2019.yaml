@@ -1,0 +1,30 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+source:
+  url: https://www.denverbroncos.com/news/broncos-agree-trade-emmanuel-sanders-to-49ers-draft-picks
+  published_on: '2019-10-22'
+  note: 'Sample 2019 season union: retain Denver and San Francisco memberships; not
+    a complete roster.'
+scope:
+  sport: SPORT-FTB
+  league: FTB-LEAGUE-NFL
+  year: YEAR-2019
+groups:
+- scope:
+    team: FTB-NFL-TEAM-DEN
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2019-TEAM-DEN-PLAYER-SANDERS_EMMANUEL
+    attributes: {}
+    references:
+      player: FTB-NFL-PIT-2010-SANDERS_EMMANUEL
+- scope:
+    team: FTB-NFL-TEAM-SF
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2019-TEAM-SF-PLAYER-SANDERS_EMMANUEL
+    attributes: {}
+    references:
+      player: FTB-NFL-PIT-2010-SANDERS_EMMANUEL

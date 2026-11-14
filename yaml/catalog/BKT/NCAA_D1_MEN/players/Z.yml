@@ -1,0 +1,39 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-ZANONI_MICHAEL
+  aliases:
+  - BKT-ESPN-PLAYER_5108877
+  attributes:
+    first_name: Michael
+    last_name: Zanoni
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5108877.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/219/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-ZARKOVIC_NINO
+  aliases:
+  - BKT-ESPN-PLAYER_5458787
+  attributes:
+    first_name: Nino
+    last_name: Zarkovic
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5458787.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/171/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.

@@ -1,0 +1,1310 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+source:
+  url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026
+  captured_on: '2026-10-26'
+  note: Complete official fullSeason roster inventory, including departed players.
+    Does not assert current active-roster status or dates of number assignments.
+records:
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_500743-POSITION-2B
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_500743
+    position: BSB-POSITION-2B
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_518692-POSITION-1B
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_518692
+    position: BSB-POSITION-1B
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_571771-POSITION-3B
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_571771
+    position: BSB-POSITION-3B
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_571970-POSITION-3B
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_571970
+    position: BSB-POSITION-3B
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_592779-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_592779
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_595014-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_595014
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_605141-POSITION-SS
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_605141
+    position: BSB-POSITION-SS
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_605483-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_605483
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_606192-POSITION-LF
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_606192
+    position: BSB-POSITION-LF
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_607192-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_607192
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_608344-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_608344
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_621242-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_621242
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_623465-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_623465
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_641778-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_641778
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_642020-POSITION-C
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_642020
+    position: BSB-POSITION-C
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_642546-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_642546
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_656212-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_656212
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_656945-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_656945
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_660271-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_660271
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: 'Reviewed correction: the source lists Shohei Ohtani as TWP (Two-Way Player).
+      AthleteAce records the two roles that designation combines, pitcher and designated
+      hitter. A roster designation, not a record of game appearances.'
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_660271-POSITION-DH
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_660271
+    position: BSB-POSITION-DH
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: 'Reviewed correction: the source lists Shohei Ohtani as TWP (Two-Way Player).
+      AthleteAce records the two roles that designation combines, pitcher and designated
+      hitter. A roster designation, not a record of game appearances.'
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_663460-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_663460
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_663656-POSITION-RF
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_663656
+    position: BSB-POSITION-RF
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_666163-POSITION-C
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_666163
+    position: BSB-POSITION-C
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_669165-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_669165
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_669242-POSITION-2B
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_669242
+    position: BSB-POSITION-2B
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_669257-POSITION-C
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_669257
+    position: BSB-POSITION-C
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_669289-POSITION-3B
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_669289
+    position: BSB-POSITION-3B
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_669373-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_669373
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_669743-POSITION-LF
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_669743
+    position: BSB-POSITION-LF
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_669899-POSITION-LF
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_669899
+    position: BSB-POSITION-LF
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_670090-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_670090
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_671109-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_671109
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_672613-POSITION-C
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_672613
+    position: BSB-POSITION-C
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_676263-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_676263
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_676272-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_676272
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_676439-POSITION-C
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_676439
+    position: BSB-POSITION-C
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_676508-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_676508
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_677950-POSITION-CF
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_677950
+    position: BSB-POSITION-CF
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_678020-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_678020
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_680736-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_680736
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_681624-POSITION-CF
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_681624
+    position: BSB-POSITION-CF
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_681911-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_681911
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_683618-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_683618
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_686218-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_686218
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_687221-POSITION-C
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_687221
+    position: BSB-POSITION-C
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_689017-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_689017
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_690976-POSITION-2B
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_690976
+    position: BSB-POSITION-2B
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_694361-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_694361
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_694646-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_694646
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_800543-POSITION-DH
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_800543
+    position: BSB-POSITION-DH
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_801434-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_801434
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_808963-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_808963
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_808967-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_808967
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_808975-POSITION-SS
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-LAD-ROSTER-2026_10_26-PLAYER_808975
+    position: BSB-POSITION-SS
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_472610-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_472610
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_476594-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_476594
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_502054-POSITION-LF
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_502054
+    position: BSB-POSITION-LF
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_518886-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_518886
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_543760-POSITION-2B
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_543760
+    position: BSB-POSITION-2B
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_548384-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_548384
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_593871-POSITION-DH
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_593871
+    position: BSB-POSITION-DH
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_596019-POSITION-SS
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_596019
+    position: BSB-POSITION-SS
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_596103-POSITION-RF
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_596103
+    position: BSB-POSITION-RF
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_596133-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_596133
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_605218-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_605218
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_605280-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_605280
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_606965-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_606965
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_620443-POSITION-C
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_620443
+    position: BSB-POSITION-C
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_621345-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_621345
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_621438-POSITION-LF
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_621438
+    position: BSB-POSITION-LF
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_623211-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_623211
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_628451-POSITION-2B
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_628451
+    position: BSB-POSITION-2B
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_640455-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_640455
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_642207-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_642207
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_642376-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_642376
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_642547-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_642547
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_643361-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_643361
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_650960-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_650960
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_656849-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_656849
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_660644-POSITION-SS
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_660644
+    position: BSB-POSITION-SS
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_663584-POSITION-C
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_663584
+    position: BSB-POSITION-C
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_663795-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_663795
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_663992-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_663992
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_665506-POSITION-OF
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_665506
+    position: BSB-POSITION-OF
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_665742-POSITION-LF
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_665742
+    position: BSB-POSITION-LF
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_666182-POSITION-3B
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_666182
+    position: BSB-POSITION-3B
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_666624-POSITION-1B
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_666624
+    position: BSB-POSITION-1B
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_668901-POSITION-1B
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_668901
+    position: BSB-POSITION-1B
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_668964-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_668964
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_669004-POSITION-DH
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_669004
+    position: BSB-POSITION-DH
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_670097-POSITION-SS
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_670097
+    position: BSB-POSITION-SS
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_670871-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_670871
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_672335-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_672335
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_672356-POSITION-3B
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_672356
+    position: BSB-POSITION-3B
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_673357-POSITION-CF
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_673357
+    position: BSB-POSITION-CF
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_673380-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_673380
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_673540-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_673540
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_674073-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_674073
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_675540-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_675540
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_676572-POSITION-1B
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_676572
+    position: BSB-POSITION-1B
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_676724-POSITION-1B
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_676724
+    position: BSB-POSITION-1B
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_676910-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_676910
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_677595-POSITION-SS
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_677595
+    position: BSB-POSITION-SS
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_680702-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_680702
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_681035-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_681035
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_681320-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_681320
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_681810-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_681810
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_682626-POSITION-C
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_682626
+    position: BSB-POSITION-C
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_683146-POSITION-3B
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_683146
+    position: BSB-POSITION-3B
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_690997-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_690997
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_694646-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_694646
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_697811-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_697811
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_701807-POSITION-RF
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_701807
+    position: BSB-POSITION-RF
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_702752-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_702752
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_703492-POSITION-LF
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_703492
+    position: BSB-POSITION-LF
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_804267-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_804267
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_804636-POSITION-P
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_804636
+    position: BSB-POSITION-P
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.
+- type: PositionAssignment
+  code: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_805999-POSITION-CF
+  attributes: {}
+  references:
+    subject: BSB-MLB-SEASON_2026-TEAM-NYM-ROSTER-2026_10_26-PLAYER_805999
+    position: BSB-POSITION-CF
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Position listed for this player on the source roster. A roster designation,
+      not a record of where the player appeared in games.

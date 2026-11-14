@@ -1,0 +1,20 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: SOC-EPL-PLAYER-QUENDA_GEOVANY
+  aliases:
+  - SOC-ESPN-PLAYER_376274
+  attributes:
+    first_name: Geovany
+    last_name: Quenda
+    birthdate: '2007-04-30'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/363/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.

@@ -1,0 +1,142 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Position
+  code: BSB-POSITION-1B
+  attributes:
+    name: First Base
+    abbreviation: 1B
+  references:
+    sport: SPORT-BSB
+    parent: BSB-POSITION-IF
+  source:
+    note: Baseball position vocabulary. Abbreviations match the MLB Stats API roster
+      positions in sources/coverage_2026/mlb.json; IF and OF group the fielding positions.
+- type: Position
+  code: BSB-POSITION-2B
+  attributes:
+    name: Second Base
+    abbreviation: 2B
+  references:
+    sport: SPORT-BSB
+    parent: BSB-POSITION-IF
+  source:
+    note: Baseball position vocabulary. Abbreviations match the MLB Stats API roster
+      positions in sources/coverage_2026/mlb.json; IF and OF group the fielding positions.
+- type: Position
+  code: BSB-POSITION-3B
+  attributes:
+    name: Third Base
+    abbreviation: 3B
+  references:
+    sport: SPORT-BSB
+    parent: BSB-POSITION-IF
+  source:
+    note: Baseball position vocabulary. Abbreviations match the MLB Stats API roster
+      positions in sources/coverage_2026/mlb.json; IF and OF group the fielding positions.
+- type: Position
+  code: BSB-POSITION-C
+  attributes:
+    name: Catcher
+    abbreviation: C
+  references:
+    sport: SPORT-BSB
+  source:
+    note: Baseball position vocabulary. Abbreviations match the MLB Stats API roster
+      positions in sources/coverage_2026/mlb.json; IF and OF group the fielding positions.
+- type: Position
+  code: BSB-POSITION-CF
+  attributes:
+    name: Center Field
+    abbreviation: CF
+  references:
+    sport: SPORT-BSB
+    parent: BSB-POSITION-OF
+  source:
+    note: Baseball position vocabulary. Abbreviations match the MLB Stats API roster
+      positions in sources/coverage_2026/mlb.json; IF and OF group the fielding positions.
+- type: Position
+  code: BSB-POSITION-DH
+  attributes:
+    name: Designated Hitter
+    abbreviation: DH
+  references:
+    sport: SPORT-BSB
+  source:
+    note: Baseball position vocabulary. Abbreviations match the MLB Stats API roster
+      positions in sources/coverage_2026/mlb.json; IF and OF group the fielding positions.
+- type: Position
+  code: BSB-POSITION-IF
+  attributes:
+    name: Infielder
+    abbreviation: IF
+  references:
+    sport: SPORT-BSB
+  source:
+    note: Baseball position vocabulary. Abbreviations match the MLB Stats API roster
+      positions in sources/coverage_2026/mlb.json; IF and OF group the fielding positions.
+- type: Position
+  code: BSB-POSITION-LF
+  attributes:
+    name: Left Field
+    abbreviation: LF
+  references:
+    sport: SPORT-BSB
+    parent: BSB-POSITION-OF
+  source:
+    note: Baseball position vocabulary. Abbreviations match the MLB Stats API roster
+      positions in sources/coverage_2026/mlb.json; IF and OF group the fielding positions.
+- type: Position
+  code: BSB-POSITION-OF
+  attributes:
+    name: Outfielder
+    abbreviation: OF
+  references:
+    sport: SPORT-BSB
+  source:
+    note: Baseball position vocabulary. Abbreviations match the MLB Stats API roster
+      positions in sources/coverage_2026/mlb.json; IF and OF group the fielding positions.
+- type: Position
+  code: BSB-POSITION-P
+  attributes:
+    name: Pitcher
+    abbreviation: P
+  references:
+    sport: SPORT-BSB
+  source:
+    note: Baseball position vocabulary. Abbreviations match the MLB Stats API roster
+      positions in sources/coverage_2026/mlb.json; IF and OF group the fielding positions.
+- type: Position
+  code: BSB-POSITION-RF
+  attributes:
+    name: Right Field
+    abbreviation: RF
+  references:
+    sport: SPORT-BSB
+    parent: BSB-POSITION-OF
+  source:
+    note: Baseball position vocabulary. Abbreviations match the MLB Stats API roster
+      positions in sources/coverage_2026/mlb.json; IF and OF group the fielding positions.
+- type: Position
+  code: BSB-POSITION-SS
+  attributes:
+    name: Shortstop
+    abbreviation: SS
+  references:
+    sport: SPORT-BSB
+    parent: BSB-POSITION-IF
+  source:
+    note: Baseball position vocabulary. Abbreviations match the MLB Stats API roster
+      positions in sources/coverage_2026/mlb.json; IF and OF group the fielding positions.
+- type: Position
+  code: BSB-POSITION-TWP
+  attributes:
+    name: Two-Way Player
+    abbreviation: TWP
+  references:
+    sport: SPORT-BSB
+  source:
+    note: Baseball position vocabulary. Abbreviations match the MLB Stats API roster
+      positions in sources/coverage_2026/mlb.json; IF and OF group the fielding positions.

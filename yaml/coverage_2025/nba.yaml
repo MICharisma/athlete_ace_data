@@ -1,0 +1,659 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+scope:
+  sport: SPORT-BKT
+  league: BKT-LEAGUE-NBA
+  year: YEAR-2025
+groups:
+- scope:
+    team: BKT-NBA-TEAM-ATL
+  source:
+    url: https://pdfroster.nba.com/atlanta-hawks/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-ATL-PLAYER-GILBERT_KESHON
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-GILBERT_KESHON
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-ATL-PLAYER-DENNIS_RAYJ
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-DENNIS_RAYJ
+- scope:
+    team: BKT-NBA-TEAM-BKN
+  source:
+    url: https://pdfroster.nba.com/brooklyn-nets/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-BKN-PLAYER-MINOTT_JOSH
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-MINOTT_JOSH
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-BKN-PLAYER-WILLIAMS_ZIAIRE
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-WILLIAMS_ZIAIRE
+- scope:
+    team: BKT-NBA-TEAM-BOS
+  source:
+    url: https://pdfroster.nba.com/boston-celtics/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-BOS-PLAYER-TATUM_JAYSON
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-TATUM_JAYSON
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-BOS-PLAYER-VUCEVIC_NIKOLA
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-VUCEVIC_NIKOLA
+- scope:
+    team: BKT-NBA-TEAM-CHA
+  source:
+    url: https://pdfroster.nba.com/charlotte-hornets/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-CHA-PLAYER-BRIDGES_MILES
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-BRIDGES_MILES
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-CHA-PLAYER-BALL_LAMELO
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-BALL_LAMELO
+- scope:
+    team: BKT-NBA-TEAM-CHI
+  source:
+    url: https://pdfroster.nba.com/chicago-bulls/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-CHI-PLAYER-SEXTON_COLLIN
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-SEXTON_COLLIN
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-CHI-PLAYER-GIDDEY_JOSH
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-GIDDEY_JOSH
+- scope:
+    team: BKT-NBA-TEAM-CLE
+  source:
+    url: https://pdfroster.nba.com/cleveland-cavaliers/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-CLE-PLAYER-HARDEN_JAMES
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-HARDEN_JAMES
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-CLE-PLAYER-STRUS_MAX
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-STRUS_MAX
+- scope:
+    team: BKT-NBA-TEAM-DAL
+  source:
+    url: https://pdfroster.nba.com/dallas-mavericks/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-DAL-PLAYER-POULAKIDAS_JOHN
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-POULAKIDAS_JOHN
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-DAL-PLAYER-CHRISTIE_MAX
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-CHRISTIE_MAX
+- scope:
+    team: BKT-NBA-TEAM-DEN
+  source:
+    url: https://pdfroster.nba.com/denver-nuggets/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-DEN-PLAYER-BRAUN_CHRISTIAN
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-BRAUN_CHRISTIAN
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-DEN-PLAYER-JONES_CURTIS
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-JONES_CURTIS
+- scope:
+    team: BKT-NBA-TEAM-DET
+  source:
+    url: https://pdfroster.nba.com/detroit-pistons/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-DET-PLAYER-DUREN_JALEN
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-DUREN_JALEN
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-DET-PLAYER-CUNNINGHAM_CADE
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-CUNNINGHAM_CADE
+- scope:
+    team: BKT-NBA-TEAM-GSW
+  source:
+    url: https://pdfroster.nba.com/golden-state-warriors/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-GSW-PLAYER-PAYTON_II_GARY
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-PAYTON_II_GARY
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-GSW-PLAYER-PODZIEMSKI_BRANDIN
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-PODZIEMSKI_BRANDIN
+- scope:
+    team: BKT-NBA-TEAM-HOU
+  source:
+    url: https://pdfroster.nba.com/houston-rockets/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-HOU-PLAYER-HOLIDAY_AARON
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-HOLIDAY_AARON
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-HOU-PLAYER-THOMPSON_AMEN
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-THOMPSON_AMEN
+- scope:
+    team: BKT-NBA-TEAM-IND
+  source:
+    url: https://pdfroster.nba.com/indiana-pacers/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-IND-PLAYER-HALIBURTON_TYRESE
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-HALIBURTON_TYRESE
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-IND-PLAYER-TOPPIN_OBI
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-TOPPIN_OBI
+- scope:
+    team: BKT-NBA-TEAM-LAC
+  source:
+    url: https://pdfroster.nba.com/los-angeles-clippers/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-LAC-PLAYER-OMIER_NORCHAD
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-OMIER_NORCHAD
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-LAC-PLAYER-PEDULLA_SEAN
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-PEDULLA_SEAN
+- scope:
+    team: BKT-NBA-TEAM-LAL
+  source:
+    url: https://pdfroster.nba.com/los-angeles-lakers/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-LAL-PLAYER-THIERO_ADOU
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-THIERO_ADOU
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-LAL-PLAYER-VANDERBILT_JARRED
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-VANDERBILT_JARRED
+- scope:
+    team: BKT-NBA-TEAM-MEM
+  source:
+    url: https://pdfroster.nba.com/memphis-grizzlies/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-MEM-PLAYER-MASHACK_JAHMAI
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-MASHACK_JAHMAI
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-MEM-PLAYER-WELLS_JAYLEN
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-WELLS_JAYLEN
+- scope:
+    team: BKT-NBA-TEAM-MIA
+  source:
+    url: https://pdfroster.nba.com/miami-heat/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-MIA-PLAYER-FONTECCHIO_SIMONE
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-FONTECCHIO_SIMONE
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-MIA-PLAYER-KEELS_TREVOR
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-KEELS_TREVOR
+- scope:
+    team: BKT-NBA-TEAM-MIL
+  source:
+    url: https://pdfroster.nba.com/milwaukee-bucks/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-MIL-PLAYER-SIMS_JERICHO
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-SIMS_JERICHO
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-MIL-PLAYER-TURNER_MYLES
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-TURNER_MYLES
+- scope:
+    team: BKT-NBA-TEAM-MIN
+  source:
+    url: https://pdfroster.nba.com/minnesota-timberwolves/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-MIN-PLAYER-DIVINCENZO_DONTE
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-DIVINCENZO_DONTE
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-MIN-PLAYER-SHANNON_JR_TERRENCE
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-SHANNON_JR_TERRENCE
+- scope:
+    team: BKT-NBA-TEAM-NOP
+  source:
+    url: https://pdfroster.nba.com/new-orleans-pelicans/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NOP-PLAYER-ODURO_JOSH
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-ODURO_JOSH
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NOP-PLAYER-FEARS_JEREMIAH
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-FEARS_JEREMIAH
+- scope:
+    team: BKT-NBA-TEAM-NYK
+  source:
+    url: https://pdfroster.nba.com/new-york-knicks/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected.
+  records:
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-CLARKSON_JORDAN
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-CLARKSON_JORDAN
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-JONES_DILLON
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-JONES_DILLON
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-MCBRIDE_MILES
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-MCBRIDE_MILES
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-HART_JOSH
+    attributes: {}
+    references:
+      player: BKT-NBA-LAL-2017-HART_JOSH
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-DADIET_PACOME
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-DADIET_PACOME
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-ALVARADO_JOSE
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-ALVARADO_JOSE
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-ANUNOBY_OG
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-ANUNOBY_OG
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-MCCULLAR_JR_KEVIN
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-MCCULLAR_JR_KEVIN
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-BRUNSON_JALEN
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-BRUNSON_JALEN
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-KOLEK_TYLER
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-KOLEK_TYLER
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-SOCHAN_JEREMY
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-SOCHAN_JEREMY
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-ROBINSON_MITCHELL
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-ROBINSON_MITCHELL
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-BRIDGES_MIKAL
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-BRIDGES_MIKAL
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-TOWNS_KARL_ANTHONY
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-TOWNS_KARL_ANTHONY
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-SHAMET_LANDRY
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-SHAMET_LANDRY
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-JEMISON_III_TREY
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-JEMISON_III_TREY
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-DIAWARA_MOHAMED
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-DIAWARA_MOHAMED
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-HUKPORTI_ARIEL
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-HUKPORTI_ARIEL
+- scope:
+    team: BKT-NBA-TEAM-OKC
+  source:
+    url: https://pdfroster.nba.com/oklahoma-city-thunder/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-OKC-PLAYER-GILGEOUS_ALEXANDER_SHAI
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-GILGEOUS_ALEXANDER_SHAI
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-OKC-PLAYER-MCCAIN_JARED
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-MCCAIN_JARED
+- scope:
+    team: BKT-NBA-TEAM-ORL
+  source:
+    url: https://pdfroster.nba.com/orlando-magic/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-ORL-PLAYER-MORALES_ALEX
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-MORALES_ALEX
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-ORL-PLAYER-BLACK_ANTHONY
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-BLACK_ANTHONY
+- scope:
+    team: BKT-NBA-TEAM-PHI
+  source:
+    url: https://pdfroster.nba.com/philadelphia-76ers/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-PHI-PLAYER-MAXEY_TYRESE
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-MAXEY_TYRESE
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-PHI-PLAYER-DRUMMOND_ANDRE
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-DRUMMOND_ANDRE
+- scope:
+    team: BKT-NBA-TEAM-PHX
+  source:
+    url: https://pdfroster.nba.com/phoenix-suns/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-PHX-PLAYER-O_NEALE_ROYCE
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-O_NEALE_ROYCE
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-PHX-PLAYER-DUNN_RYAN
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-DUNN_RYAN
+- scope:
+    team: BKT-NBA-TEAM-POR
+  source:
+    url: https://pdfroster.nba.com/portland-trailblazers/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-POR-PLAYER-KENT_JAYSON
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-KENT_JAYSON
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-POR-PLAYER-HENDERSON_SCOOT
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-HENDERSON_SCOOT
+- scope:
+    team: BKT-NBA-TEAM-SAC
+  source:
+    url: https://pdfroster.nba.com/sacramento-kings/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-SAC-PLAYER-MONK_MALIK
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-MONK_MALIK
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-SAC-PLAYER-CLIFFORD_NIQUE
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-CLIFFORD_NIQUE
+- scope:
+    team: BKT-NBA-TEAM-SAS
+  source:
+    url: https://pdfroster.nba.com/san-antonio-spurs/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-SAS-PLAYER-MCLAUGHLIN_JORDAN
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-MCLAUGHLIN_JORDAN
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-SAS-PLAYER-WEMBANYAMA_VICTOR
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-WEMBANYAMA_VICTOR
+- scope:
+    team: BKT-NBA-TEAM-TOR
+  source:
+    url: https://pdfroster.nba.com/toronto-raptors/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-TOR-PLAYER-LAWSON_A_J
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-LAWSON_A_J
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-TOR-PLAYER-DICK_GRADEY
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-DICK_GRADEY
+- scope:
+    team: BKT-NBA-TEAM-UTA
+  source:
+    url: https://pdfroster.nba.com/utah-jazz/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-UTA-PLAYER-GRAY_HAYDEN
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-GRAY_HAYDEN
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-UTA-PLAYER-HINSON_BLAKE
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-HINSON_BLAKE
+- scope:
+    team: BKT-NBA-TEAM-WAS
+  source:
+    url: https://pdfroster.nba.com/washington-wizards/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-WAS-PLAYER-REESE_JULIAN
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-REESE_JULIAN
+  - type: Activation
+    code: BKT-NBA-SEASON_2025_2026-TEAM-WAS-PLAYER-COULIBALY_BILAL
+    attributes: {}
+    references:
+      player: BKT-NBA-PLAYER-COULIBALY_BILAL

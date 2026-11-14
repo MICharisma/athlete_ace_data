@@ -1,0 +1,150 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: BKT-NBA-PLAYER-IGHODARO_OSO
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_IGHODOS01
+  - BKT-ESPN-PLAYER_4601023
+  attributes:
+    first_name: Oso
+    last_name: Ighodaro
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/phoenix-suns/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-IKE_GRAHAM
+  aliases:
+  - BKT-ESPN-PLAYER_4703396
+  attributes:
+    first_name: Graham
+    last_name: Ike
+    birthdate: '2002-08-03'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nba/players/full/4703396.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/9/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: BKT-NBA-PLAYER-INGLES_JOE
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_INGLEJO01
+  attributes:
+    first_name: Joe
+    last_name: Ingles
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/minnesota-timberwolves/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-INGRAM_BRANDON
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_INGRABR01
+  - BKT-ESPN-PLAYER_3913176
+  attributes:
+    first_name: Brandon
+    last_name: Ingram
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/toronto-raptors/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-INGRAM_HARRISON
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_INGRAHA01
+  - BKT-ESPN-PLAYER_4433618
+  attributes:
+    first_name: Harrison
+    last_name: Ingram
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/san-antonio-spurs/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-IRVING_KYRIE
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_IRVINKY01
+  - BKT-ESPN-PLAYER_6442
+  attributes:
+    first_name: Kyrie
+    last_name: Irving
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/dallas-mavericks/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-ISAAC_JONATHAN
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_ISAACJO01
+  - BKT-ESPN-PLAYER_4065654
+  attributes:
+    first_name: Jonathan
+    last_name: Isaac
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/orlando-magic/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-IVEY_JADEN
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_IVEYJA01
+  attributes:
+    first_name: Jaden
+    last_name: Ivey
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://www.basketball-reference.com/leagues/NBA_2024_per_game.html
+    captured_on: '2026-10-26'
+    note: Complete regular-season and playoff appearance union by team, retaining
+      trade-side memberships. Excludes roster members with no recorded appearances
+      and does not establish jersey-number periods.

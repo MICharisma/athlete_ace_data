@@ -1,0 +1,107 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: FTB-NFL-PLAYER-UCHE_JOSH
+  aliases:
+  - FTB-ESPN-PLAYER_4046528
+  attributes:
+    first_name: Josh
+    last_name: Uche
+    birthdate: '1998-09-18'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4046528.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/15/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-UIAGALELEI_DJ
+  aliases:
+  - FTB-ESPN-PLAYER_4429020
+  attributes:
+    first_name: DJ
+    last_name: Uiagalelei
+    birthdate: '2001-04-17'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4429020.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/24/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ULOFOSHIO_EDEFUAN
+  aliases:
+  - FTB-ESPN-PLAYER_4374280
+  attributes:
+    first_name: Edefuan
+    last_name: Ulofoshio
+    birthdate: '2000-01-23'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4374280.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/5/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-UMANMIELEN_PRINCELY
+  aliases:
+  - FTB-ESPN-PLAYER_4429166
+  attributes:
+    first_name: Princely
+    last_name: Umanmielen
+    birthdate: '2002-04-18'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4429166.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/29/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-UNDERWOOD_ROCCO
+  aliases:
+  - FTB-ESPN-PLAYER_4686566
+  attributes:
+    first_name: Rocco
+    last_name: Underwood
+    birthdate: '2002-08-14'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4686566.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/21/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-UWAZURIKE_EYIOMA
+  aliases:
+  - FTB-ESPN-PLAYER_4066109
+  attributes:
+    first_name: Eyioma
+    last_name: Uwazurike
+    birthdate: '1998-05-06'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4066109.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/7/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.

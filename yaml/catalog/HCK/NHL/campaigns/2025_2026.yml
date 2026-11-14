@@ -1,0 +1,645 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Campaign
+  code: HCK-NHL-SEASON_2025_2026-TEAM-ANA
+  attributes:
+    display_name: Anaheim Ducks
+    abbreviation: ANA
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 32
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: HCK-NHL-TEAM-ANA
+    league: HCK-LEAGUE-NHL
+    year: YEAR-2025
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/ANA/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Campaign
+  code: HCK-NHL-SEASON_2025_2026-TEAM-BOS
+  attributes:
+    display_name: Boston Bruins
+    abbreviation: BOS
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 35
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: HCK-NHL-TEAM-BOS
+    league: HCK-LEAGUE-NHL
+    year: YEAR-2025
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/BOS/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Campaign
+  code: HCK-NHL-SEASON_2025_2026-TEAM-BUF
+  attributes:
+    display_name: Buffalo Sabres
+    abbreviation: BUF
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 36
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: HCK-NHL-TEAM-BUF
+    league: HCK-LEAGUE-NHL
+    year: YEAR-2025
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/BUF/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Campaign
+  code: HCK-NHL-SEASON_2025_2026-TEAM-CAR
+  attributes:
+    display_name: Carolina Hurricanes
+    abbreviation: CAR
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 34
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: HCK-NHL-TEAM-CAR
+    league: HCK-LEAGUE-NHL
+    year: YEAR-2025
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/CAR/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Campaign
+  code: HCK-NHL-SEASON_2025_2026-TEAM-CBJ
+  attributes:
+    display_name: Columbus Blue Jackets
+    abbreviation: CBJ
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 32
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: HCK-NHL-TEAM-CBJ
+    league: HCK-LEAGUE-NHL
+    year: YEAR-2025
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/CBJ/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Campaign
+  code: HCK-NHL-SEASON_2025_2026-TEAM-CGY
+  attributes:
+    display_name: Calgary Flames
+    abbreviation: CGY
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 41
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: HCK-NHL-TEAM-CGY
+    league: HCK-LEAGUE-NHL
+    year: YEAR-2025
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/CGY/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Campaign
+  code: HCK-NHL-SEASON_2025_2026-TEAM-CHI
+  attributes:
+    display_name: Chicago Blackhawks
+    abbreviation: CHI
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 32
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: HCK-NHL-TEAM-CHI
+    league: HCK-LEAGUE-NHL
+    year: YEAR-2025
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/CHI/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Campaign
+  code: HCK-NHL-SEASON_2025_2026-TEAM-COL
+  attributes:
+    display_name: Colorado Avalanche
+    abbreviation: COL
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 36
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: HCK-NHL-TEAM-COL
+    league: HCK-LEAGUE-NHL
+    year: YEAR-2025
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/COL/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Campaign
+  code: HCK-NHL-SEASON_2025_2026-TEAM-DAL
+  attributes:
+    display_name: Dallas Stars
+    abbreviation: DAL
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 30
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: HCK-NHL-TEAM-DAL
+    league: HCK-LEAGUE-NHL
+    year: YEAR-2025
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/DAL/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Campaign
+  code: HCK-NHL-SEASON_2025_2026-TEAM-DET
+  attributes:
+    display_name: Detroit Red Wings
+    abbreviation: DET
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 31
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: HCK-NHL-TEAM-DET
+    league: HCK-LEAGUE-NHL
+    year: YEAR-2025
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/DET/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Campaign
+  code: HCK-NHL-SEASON_2025_2026-TEAM-EDM
+  attributes:
+    display_name: Edmonton Oilers
+    abbreviation: EDM
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 38
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: HCK-NHL-TEAM-EDM
+    league: HCK-LEAGUE-NHL
+    year: YEAR-2025
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/EDM/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Campaign
+  code: HCK-NHL-SEASON_2025_2026-TEAM-FLA
+  attributes:
+    display_name: Florida Panthers
+    abbreviation: FLA
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 38
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: HCK-NHL-TEAM-FLA
+    league: HCK-LEAGUE-NHL
+    year: YEAR-2025
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/FLA/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Campaign
+  code: HCK-NHL-SEASON_2025_2026-TEAM-LAK
+  attributes:
+    display_name: Los Angeles Kings
+    abbreviation: LAK
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 32
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: HCK-NHL-TEAM-LAK
+    league: HCK-LEAGUE-NHL
+    year: YEAR-2025
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/LAK/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Campaign
+  code: HCK-NHL-SEASON_2025_2026-TEAM-MIN
+  attributes:
+    display_name: Minnesota Wild
+    abbreviation: MIN
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 38
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: HCK-NHL-TEAM-MIN
+    league: HCK-LEAGUE-NHL
+    year: YEAR-2025
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/MIN/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Campaign
+  code: HCK-NHL-SEASON_2025_2026-TEAM-MTL
+  attributes:
+    display_name: Montréal Canadiens
+    abbreviation: MTL
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 32
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: HCK-NHL-TEAM-MTL
+    league: HCK-LEAGUE-NHL
+    year: YEAR-2025
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/MTL/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Campaign
+  code: HCK-NHL-SEASON_2025_2026-TEAM-NJD
+  attributes:
+    display_name: New Jersey Devils
+    abbreviation: NJD
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 38
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: HCK-NHL-TEAM-NJD
+    league: HCK-LEAGUE-NHL
+    year: YEAR-2025
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/NJD/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Campaign
+  code: HCK-NHL-SEASON_2025_2026-TEAM-NSH
+  attributes:
+    display_name: Nashville Predators
+    abbreviation: NSH
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 32
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: HCK-NHL-TEAM-NSH
+    league: HCK-LEAGUE-NHL
+    year: YEAR-2025
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/NSH/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Campaign
+  code: HCK-NHL-SEASON_2025_2026-TEAM-NYI
+  attributes:
+    display_name: New York Islanders
+    abbreviation: NYI
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 34
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: HCK-NHL-TEAM-NYI
+    league: HCK-LEAGUE-NHL
+    year: YEAR-2025
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/NYI/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Campaign
+  code: HCK-NHL-SEASON_2025_2026-TEAM-NYR
+  attributes:
+    display_name: New York Rangers
+    abbreviation: NYR
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 38
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: HCK-NHL-TEAM-NYR
+    league: HCK-LEAGUE-NHL
+    year: YEAR-2025
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/NYR/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Campaign
+  code: HCK-NHL-SEASON_2025_2026-TEAM-OTT
+  attributes:
+    display_name: Ottawa Senators
+    abbreviation: OTT
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 37
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: HCK-NHL-TEAM-OTT
+    league: HCK-LEAGUE-NHL
+    year: YEAR-2025
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/OTT/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Campaign
+  code: HCK-NHL-SEASON_2025_2026-TEAM-PHI
+  attributes:
+    display_name: Philadelphia Flyers
+    abbreviation: PHI
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 39
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: HCK-NHL-TEAM-PHI
+    league: HCK-LEAGUE-NHL
+    year: YEAR-2025
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/PHI/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Campaign
+  code: HCK-NHL-SEASON_2025_2026-TEAM-PIT
+  attributes:
+    display_name: Pittsburgh Penguins
+    abbreviation: PIT
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 44
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: HCK-NHL-TEAM-PIT
+    league: HCK-LEAGUE-NHL
+    year: YEAR-2025
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/PIT/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Campaign
+  code: HCK-NHL-SEASON_2025_2026-TEAM-SEA
+  attributes:
+    display_name: Seattle Kraken
+    abbreviation: SEA
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 32
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: HCK-NHL-TEAM-SEA
+    league: HCK-LEAGUE-NHL
+    year: YEAR-2025
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/SEA/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Campaign
+  code: HCK-NHL-SEASON_2025_2026-TEAM-SJS
+  attributes:
+    display_name: San Jose Sharks
+    abbreviation: SJS
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 32
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: HCK-NHL-TEAM-SJS
+    league: HCK-LEAGUE-NHL
+    year: YEAR-2025
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/SJS/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Campaign
+  code: HCK-NHL-SEASON_2025_2026-TEAM-STL
+  attributes:
+    display_name: St. Louis Blues
+    abbreviation: STL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 35
+      selected_player_count: 35
+  references: {}
+  scope:
+    team: HCK-NHL-TEAM-STL
+    league: HCK-LEAGUE-NHL
+    year: YEAR-2025
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/STL/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected.
+- type: Campaign
+  code: HCK-NHL-SEASON_2025_2026-TEAM-TBL
+  attributes:
+    display_name: Tampa Bay Lightning
+    abbreviation: TBL
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 36
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: HCK-NHL-TEAM-TBL
+    league: HCK-LEAGUE-NHL
+    year: YEAR-2025
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/TBL/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Campaign
+  code: HCK-NHL-SEASON_2025_2026-TEAM-TOR
+  attributes:
+    display_name: Toronto Maple Leafs
+    abbreviation: TOR
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 38
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: HCK-NHL-TEAM-TOR
+    league: HCK-LEAGUE-NHL
+    year: YEAR-2025
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/TOR/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Campaign
+  code: HCK-NHL-SEASON_2025_2026-TEAM-UTA
+  attributes:
+    display_name: Utah Mammoth
+    abbreviation: UTA
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 29
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: HCK-NHL-TEAM-UTA
+    league: HCK-LEAGUE-NHL
+    year: YEAR-2025
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/UTA/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Campaign
+  code: HCK-NHL-SEASON_2025_2026-TEAM-VAN
+  attributes:
+    display_name: Vancouver Canucks
+    abbreviation: VAN
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 40
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: HCK-NHL-TEAM-VAN
+    league: HCK-LEAGUE-NHL
+    year: YEAR-2025
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/VAN/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Campaign
+  code: HCK-NHL-SEASON_2025_2026-TEAM-VGK
+  attributes:
+    display_name: Vegas Golden Knights
+    abbreviation: VGK
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 35
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: HCK-NHL-TEAM-VGK
+    league: HCK-LEAGUE-NHL
+    year: YEAR-2025
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/VGK/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Campaign
+  code: HCK-NHL-SEASON_2025_2026-TEAM-WPG
+  attributes:
+    display_name: Winnipeg Jets
+    abbreviation: WPG
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 35
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: HCK-NHL-TEAM-WPG
+    league: HCK-LEAGUE-NHL
+    year: YEAR-2025
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/WPG/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Campaign
+  code: HCK-NHL-SEASON_2025_2026-TEAM-WSH
+  attributes:
+    display_name: Washington Capitals
+    abbreviation: WSH
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 32
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: HCK-NHL-TEAM-WSH
+    league: HCK-LEAGUE-NHL
+    year: YEAR-2025
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/WSH/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.

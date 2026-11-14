@@ -1,0 +1,13 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Season
+  code: SOC-UCL-SEASON_2026_2027
+  attributes:
+    label: '2026_2027'
+  references:
+    league: SOC-LEAGUE-UCL
+    year: YEAR-2026
+  source: {}

@@ -1,0 +1,2375 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Contest
+  code: BKT-NBA-SEASON_2015_2016-CHAMPIONSHIP
+  attributes:
+    name: 2016 NBA championship
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2016
+      source:
+        url: https://www.nba.com/news/history-nba-champions
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BKT-LEAGUE-NBA
+    season: BKT-NBA-SEASON_2015_2016
+    champion: BKT-NBA-TEAM-CLE
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2015_2016-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BKT-NBA-SEASON_2015_2016-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2015_2016-TEAM-CLE
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2015_2016-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BKT-NBA-SEASON_2015_2016-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2015_2016-TEAM-GSW
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BKT-NBA-SEASON_2015_2016-CHAMPIONSHIP-TITLE
+  attributes:
+    key: nba_championship
+    name: NBA championship
+  references:
+    contest: BKT-NBA-SEASON_2015_2016-CHAMPIONSHIP
+    winner: BKT-NBA-SEASON_2015_2016-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: BKT-NBA-SEASON_2016_2017-CHAMPIONSHIP
+  attributes:
+    name: 2017 NBA championship
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2017
+      source:
+        url: https://www.nba.com/news/history-nba-champions
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BKT-LEAGUE-NBA
+    season: BKT-NBA-SEASON_2016_2017
+    champion: BKT-NBA-TEAM-GSW
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2016_2017-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BKT-NBA-SEASON_2016_2017-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2016_2017-TEAM-GSW
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2016_2017-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BKT-NBA-SEASON_2016_2017-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2016_2017-TEAM-CLE
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BKT-NBA-SEASON_2016_2017-CHAMPIONSHIP-TITLE
+  attributes:
+    key: nba_championship
+    name: NBA championship
+  references:
+    contest: BKT-NBA-SEASON_2016_2017-CHAMPIONSHIP
+    winner: BKT-NBA-SEASON_2016_2017-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: BKT-NBA-SEASON_2017_2018-CHAMPIONSHIP
+  attributes:
+    name: 2018 NBA championship
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2018
+      source:
+        url: https://www.nba.com/news/history-nba-champions
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BKT-LEAGUE-NBA
+    season: BKT-NBA-SEASON_2017_2018
+    champion: BKT-NBA-TEAM-GSW
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2017_2018-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BKT-NBA-SEASON_2017_2018-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2017_2018-TEAM-GSW
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2017_2018-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BKT-NBA-SEASON_2017_2018-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2017_2018-TEAM-CLE
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BKT-NBA-SEASON_2017_2018-CHAMPIONSHIP-TITLE
+  attributes:
+    key: nba_championship
+    name: NBA championship
+  references:
+    contest: BKT-NBA-SEASON_2017_2018-CHAMPIONSHIP
+    winner: BKT-NBA-SEASON_2017_2018-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: BKT-NBA-SEASON_2018_2019-CHAMPIONSHIP
+  attributes:
+    name: 2019 NBA championship
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2019
+      source:
+        url: https://www.nba.com/news/history-nba-champions
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BKT-LEAGUE-NBA
+    season: BKT-NBA-SEASON_2018_2019
+    champion: BKT-NBA-TEAM-TOR
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2018_2019-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BKT-NBA-SEASON_2018_2019-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2018_2019-TEAM-TOR
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2018_2019-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BKT-NBA-SEASON_2018_2019-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2018_2019-TEAM-GSW
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BKT-NBA-SEASON_2018_2019-CHAMPIONSHIP-TITLE
+  attributes:
+    key: nba_championship
+    name: NBA championship
+  references:
+    contest: BKT-NBA-SEASON_2018_2019-CHAMPIONSHIP
+    winner: BKT-NBA-SEASON_2018_2019-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: BKT-NBA-SEASON_2019_2020-CHAMPIONSHIP
+  attributes:
+    name: 2020 NBA championship
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2020
+      source:
+        url: https://www.nba.com/news/history-nba-champions
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BKT-LEAGUE-NBA
+    season: BKT-NBA-SEASON_2019_2020
+    champion: BKT-NBA-TEAM-LAL
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2019_2020-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BKT-NBA-SEASON_2019_2020-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2019_2020-TEAM-LAL
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2019_2020-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BKT-NBA-SEASON_2019_2020-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2019_2020-TEAM-MIA
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BKT-NBA-SEASON_2019_2020-CHAMPIONSHIP-TITLE
+  attributes:
+    key: nba_championship
+    name: NBA championship
+  references:
+    contest: BKT-NBA-SEASON_2019_2020-CHAMPIONSHIP
+    winner: BKT-NBA-SEASON_2019_2020-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: BKT-NBA-SEASON_2020_2021-CHAMPIONSHIP
+  attributes:
+    name: 2021 NBA championship
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2021
+      source:
+        url: https://www.nba.com/news/history-nba-champions
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BKT-LEAGUE-NBA
+    season: BKT-NBA-SEASON_2020_2021
+    champion: BKT-NBA-TEAM-MIL
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2020_2021-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BKT-NBA-SEASON_2020_2021-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2020_2021-TEAM-MIL
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2020_2021-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BKT-NBA-SEASON_2020_2021-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2020_2021-TEAM-PHX
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BKT-NBA-SEASON_2020_2021-CHAMPIONSHIP-TITLE
+  attributes:
+    key: nba_championship
+    name: NBA championship
+  references:
+    contest: BKT-NBA-SEASON_2020_2021-CHAMPIONSHIP
+    winner: BKT-NBA-SEASON_2020_2021-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: BKT-NBA-SEASON_2021_2022-CHAMPIONSHIP
+  attributes:
+    name: 2022 NBA championship
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2022
+      source:
+        url: https://www.nba.com/news/history-nba-champions
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BKT-LEAGUE-NBA
+    season: BKT-NBA-SEASON_2021_2022
+    champion: BKT-NBA-TEAM-GSW
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2021_2022-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BKT-NBA-SEASON_2021_2022-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2021_2022-TEAM-GSW
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2021_2022-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BKT-NBA-SEASON_2021_2022-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2021_2022-TEAM-BOS
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BKT-NBA-SEASON_2021_2022-CHAMPIONSHIP-TITLE
+  attributes:
+    key: nba_championship
+    name: NBA championship
+  references:
+    contest: BKT-NBA-SEASON_2021_2022-CHAMPIONSHIP
+    winner: BKT-NBA-SEASON_2021_2022-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: BKT-NBA-SEASON_2022_2023-CHAMPIONSHIP
+  attributes:
+    name: 2023 NBA championship
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2023
+      source:
+        url: https://www.nba.com/news/history-nba-champions
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BKT-LEAGUE-NBA
+    season: BKT-NBA-SEASON_2022_2023
+    champion: BKT-NBA-TEAM-DEN
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2022_2023-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BKT-NBA-SEASON_2022_2023-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2022_2023-TEAM-DEN
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2022_2023-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BKT-NBA-SEASON_2022_2023-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2022_2023-TEAM-MIA
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BKT-NBA-SEASON_2022_2023-CHAMPIONSHIP-TITLE
+  attributes:
+    key: nba_championship
+    name: NBA championship
+  references:
+    contest: BKT-NBA-SEASON_2022_2023-CHAMPIONSHIP
+    winner: BKT-NBA-SEASON_2022_2023-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: BKT-NBA-SEASON_2023_2024-CHAMPIONSHIP
+  attributes:
+    name: 2024 NBA championship
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2024
+      source:
+        url: https://www.nba.com/news/history-nba-champions
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BKT-LEAGUE-NBA
+    season: BKT-NBA-SEASON_2023_2024
+    champion: BKT-NBA-TEAM-BOS
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2023_2024-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BKT-NBA-SEASON_2023_2024-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2023_2024-TEAM-BOS
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2023_2024-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BKT-NBA-SEASON_2023_2024-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2023_2024-TEAM-DAL
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BKT-NBA-SEASON_2023_2024-CHAMPIONSHIP-TITLE
+  attributes:
+    key: nba_championship
+    name: NBA championship
+  references:
+    contest: BKT-NBA-SEASON_2023_2024-CHAMPIONSHIP
+    winner: BKT-NBA-SEASON_2023_2024-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: BKT-NBA-SEASON_2024_2025-CHAMPIONSHIP
+  attributes:
+    name: 2025 NBA championship
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2025
+      source:
+        url: https://www.nba.com/news/history-nba-champions
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BKT-LEAGUE-NBA
+    season: BKT-NBA-SEASON_2024_2025
+    champion: BKT-NBA-TEAM-OKC
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2024_2025-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BKT-NBA-SEASON_2024_2025-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2024_2025-TEAM-OKC
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2024_2025-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BKT-NBA-SEASON_2024_2025-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2024_2025-TEAM-IND
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BKT-NBA-SEASON_2024_2025-CHAMPIONSHIP-TITLE
+  attributes:
+    key: nba_championship
+    name: NBA championship
+  references:
+    contest: BKT-NBA-SEASON_2024_2025-CHAMPIONSHIP
+    winner: BKT-NBA-SEASON_2024_2025-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: HCK-NHL-SEASON_2015_2016-CHAMPIONSHIP
+  attributes:
+    name: 2016 Stanley Cup
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2016
+      source:
+        url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: HCK-LEAGUE-NHL
+    season: HCK-NHL-SEASON_2015_2016
+    champion: HCK-NHL-TEAM-PIT
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: HCK-NHL-SEASON_2015_2016-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: HCK-NHL-SEASON_2015_2016-CHAMPIONSHIP
+    campaign: HCK-NHL-SEASON_2015_2016-TEAM-PIT
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: HCK-NHL-SEASON_2015_2016-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: HCK-NHL-SEASON_2015_2016-CHAMPIONSHIP
+    campaign: HCK-NHL-SEASON_2015_2016-TEAM-SJS
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: HCK-NHL-SEASON_2015_2016-CHAMPIONSHIP-TITLE
+  attributes:
+    key: stanley_cup
+    name: Stanley Cup
+  references:
+    contest: HCK-NHL-SEASON_2015_2016-CHAMPIONSHIP
+    winner: HCK-NHL-SEASON_2015_2016-CHAMPIONSHIP-WINNER
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: HCK-NHL-SEASON_2016_2017-CHAMPIONSHIP
+  attributes:
+    name: 2017 Stanley Cup
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2017
+      source:
+        url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: HCK-LEAGUE-NHL
+    season: HCK-NHL-SEASON_2016_2017
+    champion: HCK-NHL-TEAM-PIT
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: HCK-NHL-SEASON_2016_2017-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: HCK-NHL-SEASON_2016_2017-CHAMPIONSHIP
+    campaign: HCK-NHL-SEASON_2016_2017-TEAM-PIT
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: HCK-NHL-SEASON_2016_2017-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: HCK-NHL-SEASON_2016_2017-CHAMPIONSHIP
+    campaign: HCK-NHL-SEASON_2016_2017-TEAM-NSH
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: HCK-NHL-SEASON_2016_2017-CHAMPIONSHIP-TITLE
+  attributes:
+    key: stanley_cup
+    name: Stanley Cup
+  references:
+    contest: HCK-NHL-SEASON_2016_2017-CHAMPIONSHIP
+    winner: HCK-NHL-SEASON_2016_2017-CHAMPIONSHIP-WINNER
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: HCK-NHL-SEASON_2017_2018-CHAMPIONSHIP
+  attributes:
+    name: 2018 Stanley Cup
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2018
+      source:
+        url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: HCK-LEAGUE-NHL
+    season: HCK-NHL-SEASON_2017_2018
+    champion: HCK-NHL-TEAM-WSH
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: HCK-NHL-SEASON_2017_2018-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: HCK-NHL-SEASON_2017_2018-CHAMPIONSHIP
+    campaign: HCK-NHL-SEASON_2017_2018-TEAM-WSH
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: HCK-NHL-SEASON_2017_2018-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: HCK-NHL-SEASON_2017_2018-CHAMPIONSHIP
+    campaign: HCK-NHL-SEASON_2017_2018-TEAM-VGK
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: HCK-NHL-SEASON_2017_2018-CHAMPIONSHIP-TITLE
+  attributes:
+    key: stanley_cup
+    name: Stanley Cup
+  references:
+    contest: HCK-NHL-SEASON_2017_2018-CHAMPIONSHIP
+    winner: HCK-NHL-SEASON_2017_2018-CHAMPIONSHIP-WINNER
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: HCK-NHL-SEASON_2018_2019-CHAMPIONSHIP
+  attributes:
+    name: 2019 Stanley Cup
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2019
+      source:
+        url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: HCK-LEAGUE-NHL
+    season: HCK-NHL-SEASON_2018_2019
+    champion: HCK-NHL-TEAM-STL
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: HCK-NHL-SEASON_2018_2019-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: HCK-NHL-SEASON_2018_2019-CHAMPIONSHIP
+    campaign: HCK-NHL-SEASON_2018_2019-TEAM-STL
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: HCK-NHL-SEASON_2018_2019-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: HCK-NHL-SEASON_2018_2019-CHAMPIONSHIP
+    campaign: HCK-NHL-SEASON_2018_2019-TEAM-BOS
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: HCK-NHL-SEASON_2018_2019-CHAMPIONSHIP-TITLE
+  attributes:
+    key: stanley_cup
+    name: Stanley Cup
+  references:
+    contest: HCK-NHL-SEASON_2018_2019-CHAMPIONSHIP
+    winner: HCK-NHL-SEASON_2018_2019-CHAMPIONSHIP-WINNER
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: HCK-NHL-SEASON_2019_2020-CHAMPIONSHIP
+  attributes:
+    name: 2020 Stanley Cup
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2020
+      source:
+        url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: HCK-LEAGUE-NHL
+    season: HCK-NHL-SEASON_2019_2020
+    champion: HCK-NHL-TEAM-TBL
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: HCK-NHL-SEASON_2019_2020-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: HCK-NHL-SEASON_2019_2020-CHAMPIONSHIP
+    campaign: HCK-NHL-SEASON_2019_2020-TEAM-TBL
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: HCK-NHL-SEASON_2019_2020-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: HCK-NHL-SEASON_2019_2020-CHAMPIONSHIP
+    campaign: HCK-NHL-SEASON_2019_2020-TEAM-DAL
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: HCK-NHL-SEASON_2019_2020-CHAMPIONSHIP-TITLE
+  attributes:
+    key: stanley_cup
+    name: Stanley Cup
+  references:
+    contest: HCK-NHL-SEASON_2019_2020-CHAMPIONSHIP
+    winner: HCK-NHL-SEASON_2019_2020-CHAMPIONSHIP-WINNER
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: HCK-NHL-SEASON_2020_2021-CHAMPIONSHIP
+  attributes:
+    name: 2021 Stanley Cup
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2021
+      source:
+        url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: HCK-LEAGUE-NHL
+    season: HCK-NHL-SEASON_2020_2021
+    champion: HCK-NHL-TEAM-TBL
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: HCK-NHL-SEASON_2020_2021-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: HCK-NHL-SEASON_2020_2021-CHAMPIONSHIP
+    campaign: HCK-NHL-SEASON_2020_2021-TEAM-TBL
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: HCK-NHL-SEASON_2020_2021-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: HCK-NHL-SEASON_2020_2021-CHAMPIONSHIP
+    campaign: HCK-NHL-SEASON_2020_2021-TEAM-MTL
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: HCK-NHL-SEASON_2020_2021-CHAMPIONSHIP-TITLE
+  attributes:
+    key: stanley_cup
+    name: Stanley Cup
+  references:
+    contest: HCK-NHL-SEASON_2020_2021-CHAMPIONSHIP
+    winner: HCK-NHL-SEASON_2020_2021-CHAMPIONSHIP-WINNER
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: HCK-NHL-SEASON_2021_2022-CHAMPIONSHIP
+  attributes:
+    name: 2022 Stanley Cup
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2022
+      source:
+        url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: HCK-LEAGUE-NHL
+    season: HCK-NHL-SEASON_2021_2022
+    champion: HCK-NHL-TEAM-COL
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: HCK-NHL-SEASON_2021_2022-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: HCK-NHL-SEASON_2021_2022-CHAMPIONSHIP
+    campaign: HCK-NHL-SEASON_2021_2022-TEAM-COL
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: HCK-NHL-SEASON_2021_2022-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: HCK-NHL-SEASON_2021_2022-CHAMPIONSHIP
+    campaign: HCK-NHL-SEASON_2021_2022-TEAM-TBL
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: HCK-NHL-SEASON_2021_2022-CHAMPIONSHIP-TITLE
+  attributes:
+    key: stanley_cup
+    name: Stanley Cup
+  references:
+    contest: HCK-NHL-SEASON_2021_2022-CHAMPIONSHIP
+    winner: HCK-NHL-SEASON_2021_2022-CHAMPIONSHIP-WINNER
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: HCK-NHL-SEASON_2022_2023-CHAMPIONSHIP
+  attributes:
+    name: 2023 Stanley Cup
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2023
+      source:
+        url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: HCK-LEAGUE-NHL
+    season: HCK-NHL-SEASON_2022_2023
+    champion: HCK-NHL-TEAM-VGK
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: HCK-NHL-SEASON_2022_2023-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: HCK-NHL-SEASON_2022_2023-CHAMPIONSHIP
+    campaign: HCK-NHL-SEASON_2022_2023-TEAM-VGK
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: HCK-NHL-SEASON_2022_2023-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: HCK-NHL-SEASON_2022_2023-CHAMPIONSHIP
+    campaign: HCK-NHL-SEASON_2022_2023-TEAM-FLA
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: HCK-NHL-SEASON_2022_2023-CHAMPIONSHIP-TITLE
+  attributes:
+    key: stanley_cup
+    name: Stanley Cup
+  references:
+    contest: HCK-NHL-SEASON_2022_2023-CHAMPIONSHIP
+    winner: HCK-NHL-SEASON_2022_2023-CHAMPIONSHIP-WINNER
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: HCK-NHL-SEASON_2023_2024-CHAMPIONSHIP
+  attributes:
+    name: 2024 Stanley Cup
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2024
+      source:
+        url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: HCK-LEAGUE-NHL
+    season: HCK-NHL-SEASON_2023_2024
+    champion: HCK-NHL-TEAM-FLA
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: HCK-NHL-SEASON_2023_2024-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: HCK-NHL-SEASON_2023_2024-CHAMPIONSHIP
+    campaign: HCK-NHL-SEASON_2023_2024-TEAM-FLA
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: HCK-NHL-SEASON_2023_2024-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: HCK-NHL-SEASON_2023_2024-CHAMPIONSHIP
+    campaign: HCK-NHL-SEASON_2023_2024-TEAM-EDM
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: HCK-NHL-SEASON_2023_2024-CHAMPIONSHIP-TITLE
+  attributes:
+    key: stanley_cup
+    name: Stanley Cup
+  references:
+    contest: HCK-NHL-SEASON_2023_2024-CHAMPIONSHIP
+    winner: HCK-NHL-SEASON_2023_2024-CHAMPIONSHIP-WINNER
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: HCK-NHL-SEASON_2024_2025-CHAMPIONSHIP
+  attributes:
+    name: 2025 Stanley Cup
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2025
+      source:
+        url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: HCK-LEAGUE-NHL
+    season: HCK-NHL-SEASON_2024_2025
+    champion: HCK-NHL-TEAM-FLA
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: HCK-NHL-SEASON_2024_2025-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: HCK-NHL-SEASON_2024_2025-CHAMPIONSHIP
+    campaign: HCK-NHL-SEASON_2024_2025-TEAM-FLA
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: HCK-NHL-SEASON_2024_2025-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: HCK-NHL-SEASON_2024_2025-CHAMPIONSHIP
+    campaign: HCK-NHL-SEASON_2024_2025-TEAM-EDM
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: HCK-NHL-SEASON_2024_2025-CHAMPIONSHIP-TITLE
+  attributes:
+    key: stanley_cup
+    name: Stanley Cup
+  references:
+    contest: HCK-NHL-SEASON_2024_2025-CHAMPIONSHIP
+    winner: HCK-NHL-SEASON_2024_2025-CHAMPIONSHIP-WINNER
+  source:
+    url: https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: FTB-NFL-SEASON_2015-CHAMPIONSHIP
+  attributes:
+    name: 2016 Super Bowl
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2016
+      source:
+        url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: FTB-LEAGUE-NFL
+    season: FTB-NFL-SEASON_2015
+    champion: FTB-NFL-TEAM-DEN
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: FTB-NFL-SEASON_2015-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: FTB-NFL-SEASON_2015-CHAMPIONSHIP
+    campaign: FTB-NFL-SEASON_2015-TEAM-DEN
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: FTB-NFL-SEASON_2015-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: FTB-NFL-SEASON_2015-CHAMPIONSHIP
+    campaign: FTB-NFL-SEASON_2015-TEAM-CAR
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: FTB-NFL-SEASON_2015-CHAMPIONSHIP-TITLE
+  attributes:
+    key: super_bowl
+    name: Super Bowl
+    awarded_on: '2016-02-07'
+  references:
+    contest: FTB-NFL-SEASON_2015-CHAMPIONSHIP
+    winner: FTB-NFL-SEASON_2015-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: FTB-NFL-SEASON_2016-CHAMPIONSHIP
+  attributes:
+    name: 2017 Super Bowl
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2017
+      source:
+        url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: FTB-LEAGUE-NFL
+    season: FTB-NFL-SEASON_2016
+    champion: FTB-NFL-TEAM-NE
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: FTB-NFL-SEASON_2016-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: FTB-NFL-SEASON_2016-CHAMPIONSHIP
+    campaign: FTB-NFL-SEASON_2016-TEAM-NE
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: FTB-NFL-SEASON_2016-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: FTB-NFL-SEASON_2016-CHAMPIONSHIP
+    campaign: FTB-NFL-SEASON_2016-TEAM-ATL
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: FTB-NFL-SEASON_2016-CHAMPIONSHIP-TITLE
+  attributes:
+    key: super_bowl
+    name: Super Bowl
+    awarded_on: '2017-02-05'
+  references:
+    contest: FTB-NFL-SEASON_2016-CHAMPIONSHIP
+    winner: FTB-NFL-SEASON_2016-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: FTB-NFL-SEASON_2017-CHAMPIONSHIP
+  attributes:
+    name: 2018 Super Bowl
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2018
+      source:
+        url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: FTB-LEAGUE-NFL
+    season: FTB-NFL-SEASON_2017
+    champion: FTB-NFL-TEAM-PHI
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: FTB-NFL-SEASON_2017-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: FTB-NFL-SEASON_2017-CHAMPIONSHIP
+    campaign: FTB-NFL-SEASON_2017-TEAM-PHI
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: FTB-NFL-SEASON_2017-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: FTB-NFL-SEASON_2017-CHAMPIONSHIP
+    campaign: FTB-NFL-SEASON_2017-TEAM-NE
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: FTB-NFL-SEASON_2017-CHAMPIONSHIP-TITLE
+  attributes:
+    key: super_bowl
+    name: Super Bowl
+    awarded_on: '2018-02-04'
+  references:
+    contest: FTB-NFL-SEASON_2017-CHAMPIONSHIP
+    winner: FTB-NFL-SEASON_2017-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: FTB-NFL-SEASON_2018-CHAMPIONSHIP
+  attributes:
+    name: 2019 Super Bowl
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2019
+      source:
+        url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: FTB-LEAGUE-NFL
+    season: FTB-NFL-SEASON_2018
+    champion: FTB-NFL-TEAM-NE
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: FTB-NFL-SEASON_2018-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: FTB-NFL-SEASON_2018-CHAMPIONSHIP
+    campaign: FTB-NFL-SEASON_2018-TEAM-NE
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: FTB-NFL-SEASON_2018-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: FTB-NFL-SEASON_2018-CHAMPIONSHIP
+    campaign: FTB-NFL-SEASON_2018-TEAM-LAR
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: FTB-NFL-SEASON_2018-CHAMPIONSHIP-TITLE
+  attributes:
+    key: super_bowl
+    name: Super Bowl
+    awarded_on: '2019-02-03'
+  references:
+    contest: FTB-NFL-SEASON_2018-CHAMPIONSHIP
+    winner: FTB-NFL-SEASON_2018-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: FTB-NFL-SEASON_2019-CHAMPIONSHIP
+  attributes:
+    name: 2020 Super Bowl
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2020
+      source:
+        url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: FTB-LEAGUE-NFL
+    season: FTB-NFL-SEASON_2019
+    champion: FTB-NFL-TEAM-KC
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: FTB-NFL-SEASON_2019-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: FTB-NFL-SEASON_2019-CHAMPIONSHIP
+    campaign: FTB-NFL-SEASON_2019-TEAM-KC
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: FTB-NFL-SEASON_2019-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: FTB-NFL-SEASON_2019-CHAMPIONSHIP
+    campaign: FTB-NFL-SEASON_2019-TEAM-SF
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: FTB-NFL-SEASON_2019-CHAMPIONSHIP-TITLE
+  attributes:
+    key: super_bowl
+    name: Super Bowl
+    awarded_on: '2020-02-02'
+  references:
+    contest: FTB-NFL-SEASON_2019-CHAMPIONSHIP
+    winner: FTB-NFL-SEASON_2019-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: FTB-NFL-SEASON_2020-CHAMPIONSHIP
+  attributes:
+    name: 2021 Super Bowl
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2021
+      source:
+        url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: FTB-LEAGUE-NFL
+    season: FTB-NFL-SEASON_2020
+    champion: FTB-NFL-TEAM-TB
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: FTB-NFL-SEASON_2020-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: FTB-NFL-SEASON_2020-CHAMPIONSHIP
+    campaign: FTB-NFL-SEASON_2020-TEAM-TB
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: FTB-NFL-SEASON_2020-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: FTB-NFL-SEASON_2020-CHAMPIONSHIP
+    campaign: FTB-NFL-SEASON_2020-TEAM-KC
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: FTB-NFL-SEASON_2020-CHAMPIONSHIP-TITLE
+  attributes:
+    key: super_bowl
+    name: Super Bowl
+    awarded_on: '2021-02-07'
+  references:
+    contest: FTB-NFL-SEASON_2020-CHAMPIONSHIP
+    winner: FTB-NFL-SEASON_2020-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: FTB-NFL-SEASON_2021-CHAMPIONSHIP
+  attributes:
+    name: 2022 Super Bowl
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2022
+      source:
+        url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: FTB-LEAGUE-NFL
+    season: FTB-NFL-SEASON_2021
+    champion: FTB-NFL-TEAM-LAR
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: FTB-NFL-SEASON_2021-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: FTB-NFL-SEASON_2021-CHAMPIONSHIP
+    campaign: FTB-NFL-SEASON_2021-TEAM-LAR
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: FTB-NFL-SEASON_2021-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: FTB-NFL-SEASON_2021-CHAMPIONSHIP
+    campaign: FTB-NFL-SEASON_2021-TEAM-CIN
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: FTB-NFL-SEASON_2021-CHAMPIONSHIP-TITLE
+  attributes:
+    key: super_bowl
+    name: Super Bowl
+    awarded_on: '2022-02-13'
+  references:
+    contest: FTB-NFL-SEASON_2021-CHAMPIONSHIP
+    winner: FTB-NFL-SEASON_2021-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: FTB-NFL-SEASON_2022-CHAMPIONSHIP
+  attributes:
+    name: 2023 Super Bowl
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2023
+      source:
+        url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: FTB-LEAGUE-NFL
+    season: FTB-NFL-SEASON_2022
+    champion: FTB-NFL-TEAM-KC
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: FTB-NFL-SEASON_2022-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: FTB-NFL-SEASON_2022-CHAMPIONSHIP
+    campaign: FTB-NFL-SEASON_2022-TEAM-KC
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: FTB-NFL-SEASON_2022-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: FTB-NFL-SEASON_2022-CHAMPIONSHIP
+    campaign: FTB-NFL-SEASON_2022-TEAM-PHI
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: FTB-NFL-SEASON_2022-CHAMPIONSHIP-TITLE
+  attributes:
+    key: super_bowl
+    name: Super Bowl
+    awarded_on: '2023-02-12'
+  references:
+    contest: FTB-NFL-SEASON_2022-CHAMPIONSHIP
+    winner: FTB-NFL-SEASON_2022-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: FTB-NFL-SEASON_2023-CHAMPIONSHIP
+  attributes:
+    name: 2024 Super Bowl
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2024
+      source:
+        url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: FTB-LEAGUE-NFL
+    season: FTB-NFL-SEASON_2023
+    champion: FTB-NFL-TEAM-KC
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: FTB-NFL-SEASON_2023-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: FTB-NFL-SEASON_2023-CHAMPIONSHIP
+    campaign: FTB-NFL-SEASON_2023-TEAM-KC
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: FTB-NFL-SEASON_2023-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: FTB-NFL-SEASON_2023-CHAMPIONSHIP
+    campaign: FTB-NFL-SEASON_2023-TEAM-SF
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: FTB-NFL-SEASON_2023-CHAMPIONSHIP-TITLE
+  attributes:
+    key: super_bowl
+    name: Super Bowl
+    awarded_on: '2024-02-11'
+  references:
+    contest: FTB-NFL-SEASON_2023-CHAMPIONSHIP
+    winner: FTB-NFL-SEASON_2023-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: FTB-NFL-SEASON_2024-CHAMPIONSHIP
+  attributes:
+    name: 2025 Super Bowl
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2025
+      source:
+        url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: FTB-LEAGUE-NFL
+    season: FTB-NFL-SEASON_2024
+    champion: FTB-NFL-TEAM-PHI
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: FTB-NFL-SEASON_2024-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: FTB-NFL-SEASON_2024-CHAMPIONSHIP
+    campaign: FTB-NFL-SEASON_2024-TEAM-PHI
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: FTB-NFL-SEASON_2024-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: FTB-NFL-SEASON_2024-CHAMPIONSHIP
+    campaign: FTB-NFL-SEASON_2024-TEAM-KC
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: FTB-NFL-SEASON_2024-CHAMPIONSHIP-TITLE
+  attributes:
+    key: super_bowl
+    name: Super Bowl
+    awarded_on: '2025-02-09'
+  references:
+    contest: FTB-NFL-SEASON_2024-CHAMPIONSHIP
+    winner: FTB-NFL-SEASON_2024-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: BSB-MLB-SEASON_2016-CHAMPIONSHIP
+  attributes:
+    name: 2016 World Series
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2016
+      source:
+        url: https://www.mlb.com/postseason/history/world-series
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BSB-LEAGUE-MLB
+    season: BSB-MLB-SEASON_2016
+    champion: BSB-MLB-TEAM-CHC
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BSB-MLB-SEASON_2016-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BSB-MLB-SEASON_2016-CHAMPIONSHIP
+    campaign: BSB-MLB-SEASON_2016-TEAM-CHC
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BSB-MLB-SEASON_2016-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BSB-MLB-SEASON_2016-CHAMPIONSHIP
+    campaign: BSB-MLB-SEASON_2016-TEAM-CLE
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BSB-MLB-SEASON_2016-CHAMPIONSHIP-TITLE
+  attributes:
+    key: world_series
+    name: World Series
+  references:
+    contest: BSB-MLB-SEASON_2016-CHAMPIONSHIP
+    winner: BSB-MLB-SEASON_2016-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: BSB-MLB-SEASON_2017-CHAMPIONSHIP
+  attributes:
+    name: 2017 World Series
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2017
+      source:
+        url: https://www.mlb.com/postseason/history/world-series
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BSB-LEAGUE-MLB
+    season: BSB-MLB-SEASON_2017
+    champion: BSB-MLB-TEAM-HOU
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BSB-MLB-SEASON_2017-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BSB-MLB-SEASON_2017-CHAMPIONSHIP
+    campaign: BSB-MLB-SEASON_2017-TEAM-HOU
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BSB-MLB-SEASON_2017-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BSB-MLB-SEASON_2017-CHAMPIONSHIP
+    campaign: BSB-MLB-SEASON_2017-TEAM-LAD
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BSB-MLB-SEASON_2017-CHAMPIONSHIP-TITLE
+  attributes:
+    key: world_series
+    name: World Series
+  references:
+    contest: BSB-MLB-SEASON_2017-CHAMPIONSHIP
+    winner: BSB-MLB-SEASON_2017-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: BSB-MLB-SEASON_2018-CHAMPIONSHIP
+  attributes:
+    name: 2018 World Series
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2018
+      source:
+        url: https://www.mlb.com/postseason/history/world-series
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BSB-LEAGUE-MLB
+    season: BSB-MLB-SEASON_2018
+    champion: BSB-MLB-TEAM-BOS
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BSB-MLB-SEASON_2018-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BSB-MLB-SEASON_2018-CHAMPIONSHIP
+    campaign: BSB-MLB-SEASON_2018-TEAM-BOS
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BSB-MLB-SEASON_2018-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BSB-MLB-SEASON_2018-CHAMPIONSHIP
+    campaign: BSB-MLB-SEASON_2018-TEAM-LAD
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BSB-MLB-SEASON_2018-CHAMPIONSHIP-TITLE
+  attributes:
+    key: world_series
+    name: World Series
+  references:
+    contest: BSB-MLB-SEASON_2018-CHAMPIONSHIP
+    winner: BSB-MLB-SEASON_2018-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: BSB-MLB-SEASON_2019-CHAMPIONSHIP
+  attributes:
+    name: 2019 World Series
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2019
+      source:
+        url: https://www.mlb.com/postseason/history/world-series
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BSB-LEAGUE-MLB
+    season: BSB-MLB-SEASON_2019
+    champion: BSB-MLB-TEAM-WSH
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BSB-MLB-SEASON_2019-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BSB-MLB-SEASON_2019-CHAMPIONSHIP
+    campaign: BSB-MLB-SEASON_2019-TEAM-WSH
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BSB-MLB-SEASON_2019-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BSB-MLB-SEASON_2019-CHAMPIONSHIP
+    campaign: BSB-MLB-SEASON_2019-TEAM-HOU
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BSB-MLB-SEASON_2019-CHAMPIONSHIP-TITLE
+  attributes:
+    key: world_series
+    name: World Series
+  references:
+    contest: BSB-MLB-SEASON_2019-CHAMPIONSHIP
+    winner: BSB-MLB-SEASON_2019-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: BSB-MLB-SEASON_2020-CHAMPIONSHIP
+  attributes:
+    name: 2020 World Series
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2020
+      source:
+        url: https://www.mlb.com/postseason/history/world-series
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BSB-LEAGUE-MLB
+    season: BSB-MLB-SEASON_2020
+    champion: BSB-MLB-TEAM-LAD
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BSB-MLB-SEASON_2020-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BSB-MLB-SEASON_2020-CHAMPIONSHIP
+    campaign: BSB-MLB-SEASON_2020-TEAM-LAD
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BSB-MLB-SEASON_2020-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BSB-MLB-SEASON_2020-CHAMPIONSHIP
+    campaign: BSB-MLB-SEASON_2020-TEAM-TB
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BSB-MLB-SEASON_2020-CHAMPIONSHIP-TITLE
+  attributes:
+    key: world_series
+    name: World Series
+  references:
+    contest: BSB-MLB-SEASON_2020-CHAMPIONSHIP
+    winner: BSB-MLB-SEASON_2020-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: BSB-MLB-SEASON_2021-CHAMPIONSHIP
+  attributes:
+    name: 2021 World Series
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2021
+      source:
+        url: https://www.mlb.com/postseason/history/world-series
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BSB-LEAGUE-MLB
+    season: BSB-MLB-SEASON_2021
+    champion: BSB-MLB-TEAM-ATL
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BSB-MLB-SEASON_2021-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BSB-MLB-SEASON_2021-CHAMPIONSHIP
+    campaign: BSB-MLB-SEASON_2021-TEAM-ATL
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BSB-MLB-SEASON_2021-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BSB-MLB-SEASON_2021-CHAMPIONSHIP
+    campaign: BSB-MLB-SEASON_2021-TEAM-HOU
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BSB-MLB-SEASON_2021-CHAMPIONSHIP-TITLE
+  attributes:
+    key: world_series
+    name: World Series
+  references:
+    contest: BSB-MLB-SEASON_2021-CHAMPIONSHIP
+    winner: BSB-MLB-SEASON_2021-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: BSB-MLB-SEASON_2022-CHAMPIONSHIP
+  attributes:
+    name: 2022 World Series
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2022
+      source:
+        url: https://www.mlb.com/postseason/history/world-series
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BSB-LEAGUE-MLB
+    season: BSB-MLB-SEASON_2022
+    champion: BSB-MLB-TEAM-HOU
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BSB-MLB-SEASON_2022-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BSB-MLB-SEASON_2022-CHAMPIONSHIP
+    campaign: BSB-MLB-SEASON_2022-TEAM-HOU
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BSB-MLB-SEASON_2022-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BSB-MLB-SEASON_2022-CHAMPIONSHIP
+    campaign: BSB-MLB-SEASON_2022-TEAM-PHI
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BSB-MLB-SEASON_2022-CHAMPIONSHIP-TITLE
+  attributes:
+    key: world_series
+    name: World Series
+  references:
+    contest: BSB-MLB-SEASON_2022-CHAMPIONSHIP
+    winner: BSB-MLB-SEASON_2022-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: BSB-MLB-SEASON_2023-CHAMPIONSHIP
+  attributes:
+    name: 2023 World Series
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2023
+      source:
+        url: https://www.mlb.com/postseason/history/world-series
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BSB-LEAGUE-MLB
+    season: BSB-MLB-SEASON_2023
+    champion: BSB-MLB-TEAM-TEX
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BSB-MLB-SEASON_2023-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BSB-MLB-SEASON_2023-CHAMPIONSHIP
+    campaign: BSB-MLB-SEASON_2023-TEAM-TEX
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BSB-MLB-SEASON_2023-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BSB-MLB-SEASON_2023-CHAMPIONSHIP
+    campaign: BSB-MLB-SEASON_2023-TEAM-AZ
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BSB-MLB-SEASON_2023-CHAMPIONSHIP-TITLE
+  attributes:
+    key: world_series
+    name: World Series
+  references:
+    contest: BSB-MLB-SEASON_2023-CHAMPIONSHIP
+    winner: BSB-MLB-SEASON_2023-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: BSB-MLB-SEASON_2024-CHAMPIONSHIP
+  attributes:
+    name: 2024 World Series
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2024
+      source:
+        url: https://www.mlb.com/postseason/history/world-series
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BSB-LEAGUE-MLB
+    season: BSB-MLB-SEASON_2024
+    champion: BSB-MLB-TEAM-LAD
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BSB-MLB-SEASON_2024-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BSB-MLB-SEASON_2024-CHAMPIONSHIP
+    campaign: BSB-MLB-SEASON_2024-TEAM-LAD
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BSB-MLB-SEASON_2024-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BSB-MLB-SEASON_2024-CHAMPIONSHIP
+    campaign: BSB-MLB-SEASON_2024-TEAM-NYY
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BSB-MLB-SEASON_2024-CHAMPIONSHIP-TITLE
+  attributes:
+    key: world_series
+    name: World Series
+  references:
+    contest: BSB-MLB-SEASON_2024-CHAMPIONSHIP
+    winner: BSB-MLB-SEASON_2024-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: BSB-MLB-SEASON_2025-CHAMPIONSHIP
+  attributes:
+    name: 2025 World Series
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2025
+      source:
+        url: https://www.mlb.com/postseason/history/world-series
+        captured_on: '2026-11-13'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BSB-LEAGUE-MLB
+    season: BSB-MLB-SEASON_2025
+    champion: BSB-MLB-TEAM-LAD
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BSB-MLB-SEASON_2025-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BSB-MLB-SEASON_2025-CHAMPIONSHIP
+    campaign: BSB-MLB-SEASON_2025-TEAM-LAD
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BSB-MLB-SEASON_2025-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BSB-MLB-SEASON_2025-CHAMPIONSHIP
+    campaign: BSB-MLB-SEASON_2025-TEAM-TOR
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BSB-MLB-SEASON_2025-CHAMPIONSHIP-TITLE
+  attributes:
+    key: world_series
+    name: World Series
+  references:
+    contest: BSB-MLB-SEASON_2025-CHAMPIONSHIP
+    winner: BSB-MLB-SEASON_2025-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.mlb.com/postseason/history/world-series
+    captured_on: '2026-11-13'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.

@@ -1,0 +1,365 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Campaign
+  code: SOC-EPL-SEASON_2026_2027-TEAM-ARS
+  attributes:
+    display_name: Arsenal
+    abbreviation: ARS
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 29
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-EPL-TEAM-ARS
+    season: SOC-EPL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/359/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-EPL-SEASON_2026_2027-TEAM-AVL
+  attributes:
+    display_name: Aston Villa
+    abbreviation: AVL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 29
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-EPL-TEAM-AVL
+    season: SOC-EPL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/362/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-EPL-SEASON_2026_2027-TEAM-BHA
+  attributes:
+    display_name: Brighton & Hove Albion
+    abbreviation: BHA
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 34
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-EPL-TEAM-BHA
+    season: SOC-EPL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/331/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-EPL-SEASON_2026_2027-TEAM-BOU
+  attributes:
+    display_name: AFC Bournemouth
+    abbreviation: BOU
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 29
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-EPL-TEAM-BOU
+    season: SOC-EPL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/349/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-EPL-SEASON_2026_2027-TEAM-BRE
+  attributes:
+    display_name: Brentford
+    abbreviation: BRE
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 29
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-EPL-TEAM-BRE
+    season: SOC-EPL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/337/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-EPL-SEASON_2026_2027-TEAM-CHE
+  attributes:
+    display_name: Chelsea
+    abbreviation: CHE
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 30
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-EPL-TEAM-CHE
+    season: SOC-EPL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/363/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-EPL-SEASON_2026_2027-TEAM-COV
+  attributes:
+    display_name: Coventry City
+    abbreviation: COV
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 29
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-EPL-TEAM-COV
+    season: SOC-EPL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/388/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-EPL-SEASON_2026_2027-TEAM-CRY
+  attributes:
+    display_name: Crystal Palace
+    abbreviation: CRY
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 33
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-EPL-TEAM-CRY
+    season: SOC-EPL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/384/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-EPL-SEASON_2026_2027-TEAM-EVE
+  attributes:
+    display_name: Everton
+    abbreviation: EVE
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 24
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-EPL-TEAM-EVE
+    season: SOC-EPL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/368/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-EPL-SEASON_2026_2027-TEAM-FUL
+  attributes:
+    display_name: Fulham
+    abbreviation: FUL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 29
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-EPL-TEAM-FUL
+    season: SOC-EPL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/370/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-EPL-SEASON_2026_2027-TEAM-HUL
+  attributes:
+    display_name: Hull City
+    abbreviation: HUL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 34
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-EPL-TEAM-HUL
+    season: SOC-EPL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/306/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-EPL-SEASON_2026_2027-TEAM-IPS
+  attributes:
+    display_name: Ipswich Town
+    abbreviation: IPS
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 29
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-EPL-TEAM-IPS
+    season: SOC-EPL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/373/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-EPL-SEASON_2026_2027-TEAM-LEE
+  attributes:
+    display_name: Leeds United
+    abbreviation: LEE
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 29
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-EPL-TEAM-LEE
+    season: SOC-EPL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/357/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-EPL-SEASON_2026_2027-TEAM-LIV
+  attributes:
+    display_name: Liverpool
+    abbreviation: LIV
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 34
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-EPL-TEAM-LIV
+    season: SOC-EPL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/364/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-EPL-SEASON_2026_2027-TEAM-MCI
+  attributes:
+    display_name: Manchester City
+    abbreviation: MCI
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 27
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-EPL-TEAM-MCI
+    season: SOC-EPL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/382/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-EPL-SEASON_2026_2027-TEAM-MUN
+  attributes:
+    display_name: Manchester United
+    abbreviation: MUN
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 33
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-EPL-TEAM-MUN
+    season: SOC-EPL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/360/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-EPL-SEASON_2026_2027-TEAM-NEW
+  attributes:
+    display_name: Newcastle United
+    abbreviation: NEW
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 30
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-EPL-TEAM-NEW
+    season: SOC-EPL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/361/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-EPL-SEASON_2026_2027-TEAM-NFO
+  attributes:
+    display_name: Nottingham Forest
+    abbreviation: NFO
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 24
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-EPL-TEAM-NFO
+    season: SOC-EPL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/393/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-EPL-SEASON_2026_2027-TEAM-SUN
+  attributes:
+    display_name: Sunderland
+    abbreviation: SUN
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 33
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-EPL-TEAM-SUN
+    season: SOC-EPL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/366/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-EPL-SEASON_2026_2027-TEAM-TOT
+  attributes:
+    display_name: Tottenham Hotspur
+    abbreviation: TOT
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 30
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-EPL-TEAM-TOT
+    season: SOC-EPL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/367/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.

@@ -1,0 +1,782 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+scope:
+  sport: SPORT-HCK
+  league: HCK-LEAGUE-NHL
+  year: YEAR-2025
+groups:
+- scope:
+    team: HCK-NHL-TEAM-ANA
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/ANA/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-ANA-PLAYER-KILLORN_ALEX
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-KILLORN_ALEX
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-ANA-PLAYER-CARLSON_JOHN
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-CARLSON_JOHN
+- scope:
+    team: HCK-NHL-TEAM-BOS
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/BOS/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-BOS-PLAYER-KURALY_SEAN
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-KURALY_SEAN
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-BOS-PLAYER-LINDHOLM_HAMPUS
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-LINDHOLM_HAMPUS
+- scope:
+    team: HCK-NHL-TEAM-BUF
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/BUF/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-BUF-PLAYER-SCHENN_LUKE
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-SCHENN_LUKE
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-BUF-PLAYER-ZUCKER_JASON
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-ZUCKER_JASON
+- scope:
+    team: HCK-NHL-TEAM-CAR
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/CAR/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-CAR-PLAYER-STAAL_JORDAN
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-STAAL_JORDAN
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-CAR-PLAYER-DESLAURIERS_NICOLAS
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-DESLAURIERS_NICOLAS
+- scope:
+    team: HCK-NHL-TEAM-CBJ
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/CBJ/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-CBJ-PLAYER-SMITH_BRENDAN
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-SMITH_BRENDAN
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-CBJ-PLAYER-COYLE_CHARLIE
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-COYLE_CHARLIE
+- scope:
+    team: HCK-NHL-TEAM-CGY
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/CGY/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-CGY-PLAYER-BACKLUND_MIKAEL
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-BACKLUND_MIKAEL
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-CGY-PLAYER-KADRI_NAZEM
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-KADRI_NAZEM
+- scope:
+    team: HCK-NHL-TEAM-CHI
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/CHI/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-CHI-PLAYER-FOLIGNO_NICK
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-FOLIGNO_NICK
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-CHI-PLAYER-MURPHY_CONNOR
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-MURPHY_CONNOR
+- scope:
+    team: HCK-NHL-TEAM-COL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/COL/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-COL-PLAYER-BURNS_BRENT
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-BURNS_BRENT
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-COL-PLAYER-KADRI_NAZEM
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-KADRI_NAZEM
+- scope:
+    team: HCK-NHL-TEAM-DAL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/DAL/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-DAL-PLAYER-BENN_JAMIE
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-BENN_JAMIE
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-DAL-PLAYER-MYERS_TYLER
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-MYERS_TYLER
+- scope:
+    team: HCK-NHL-TEAM-DET
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/DET/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-DET-PLAYER-VAN_RIEMSDYK_JAMES
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-VAN_RIEMSDYK_JAMES
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-DET-PLAYER-PERRON_DAVID
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-PERRON_DAVID
+- scope:
+    team: HCK-NHL-TEAM-EDM
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/EDM/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-EDM-PLAYER-HENRIQUE_ADAM
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-HENRIQUE_ADAM
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-EDM-PLAYER-EKHOLM_MATTIAS
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-EKHOLM_MATTIAS
+- scope:
+    team: HCK-NHL-TEAM-FLA
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/FLA/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-FLA-PLAYER-MARCHAND_BRAD
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-MARCHAND_BRAD
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-FLA-PLAYER-PETRY_JEFF
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-PETRY_JEFF
+- scope:
+    team: HCK-NHL-TEAM-LAK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/LAK/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-LAK-PLAYER-PERRY_COREY
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-PERRY_COREY
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-LAK-PLAYER-KOPITAR_ANZE
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-KOPITAR_ANZE
+- scope:
+    team: HCK-NHL-TEAM-MIN
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/MIN/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-MIN-PLAYER-FOLIGNO_NICK
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-FOLIGNO_NICK
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-MIN-PLAYER-PETRY_JEFF
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-PETRY_JEFF
+- scope:
+    team: HCK-NHL-TEAM-MTL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/MTL/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-MTL-PLAYER-GALLAGHER_BRENDAN
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-GALLAGHER_BRENDAN
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-MTL-PLAYER-DANAULT_PHILLIP
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-DANAULT_PHILLIP
+- scope:
+    team: HCK-NHL-TEAM-NJD
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/NJD/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-NJD-PLAYER-DADONOV_EVGENII
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-DADONOV_EVGENII
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-NJD-PLAYER-DILLON_BRENDEN
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-DILLON_BRENDEN
+- scope:
+    team: HCK-NHL-TEAM-NSH
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/NSH/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-NSH-PLAYER-STAMKOS_STEVEN
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-STAMKOS_STEVEN
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-NSH-PLAYER-JOSI_ROMAN
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-JOSI_ROMAN
+- scope:
+    team: HCK-NHL-TEAM-NYI
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/NYI/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-NYI-PLAYER-PALMIERI_KYLE
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-PALMIERI_KYLE
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-NYI-PLAYER-SCHENN_BRAYDEN
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-SCHENN_BRAYDEN
+- scope:
+    team: HCK-NHL-TEAM-NYR
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/NYR/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-NYR-PLAYER-DOWLING_JUSTIN
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-DOWLING_JUSTIN
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-NYR-PLAYER-CARRICK_SAM
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-CARRICK_SAM
+- scope:
+    team: HCK-NHL-TEAM-OTT
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/OTT/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-OTT-PLAYER-GIROUX_CLAUDE
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-GIROUX_CLAUDE
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-OTT-PLAYER-PERRON_DAVID
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-PERRON_DAVID
+- scope:
+    team: HCK-NHL-TEAM-PHI
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/PHI/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-PHI-PLAYER-DESLAURIERS_NICOLAS
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-DESLAURIERS_NICOLAS
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-PHI-PLAYER-WILSON_GARRETT
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-WILSON_GARRETT
+- scope:
+    team: HCK-NHL-TEAM-PIT
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/PIT/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-PIT-PLAYER-MALKIN_EVGENI
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-MALKIN_EVGENI
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-PIT-PLAYER-CROSBY_SIDNEY
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-CROSBY_SIDNEY
+- scope:
+    team: HCK-NHL-TEAM-SEA
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/SEA/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-SEA-PLAYER-EBERLE_JORDAN
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-EBERLE_JORDAN
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-SEA-PLAYER-SCHWARTZ_JADEN
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-SCHWARTZ_JADEN
+- scope:
+    team: HCK-NHL-TEAM-SJS
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/SJS/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-SJS-PLAYER-REAVES_RYAN
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-REAVES_RYAN
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-SJS-PLAYER-LEDDY_NICK
+    attributes: {}
+    references:
+      player: HCK-NHL-CHI-2010-LEDDY_NICK
+- scope:
+    team: HCK-NHL-TEAM-STL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/STL/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected.
+  records:
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-SCHENN_BRAYDEN
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-SCHENN_BRAYDEN
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-HOLL_JUSTIN
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-HOLL_JUSTIN
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-FAULK_JUSTIN
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-FAULK_JUSTIN
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-BJUGSTAD_NICK
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-BJUGSTAD_NICK
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-FOWLER_CAM
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-FOWLER_CAM
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-PARAYKO_COLTON
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-PARAYKO_COLTON
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-SUNDQVIST_OSKAR
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-SUNDQVIST_OSKAR
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-BUCHNEVICH_PAVEL
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-BUCHNEVICH_PAVEL
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-DROUIN_JONATHAN
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-DROUIN_JONATHAN
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-WALKER_NATHAN
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-WALKER_NATHAN
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-FABBRI_ROBBY
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-FABBRI_ROBBY
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-JOSEPH_MATHIEU
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-JOSEPH_MATHIEU
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-KYROU_JORDAN
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-KYROU_JORDAN
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-LUFF_MATT
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-LUFF_MATT
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-THOMAS_ROBERT
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-THOMAS_ROBERT
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-TEXIER_ALEXANDRE
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-TEXIER_ALEXANDRE
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-TOROPCHENKO_ALEXEY
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-TOROPCHENKO_ALEXEY
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-SUTER_PIUS
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-SUTER_PIUS
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-TUCKER_TYLER
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-TUCKER_TYLER
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-BERGGREN_JONATAN
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-BERGGREN_JONATAN
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-MCGING_HUGH
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-MCGING_HUGH
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-BROBERG_PHILIP
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-BROBERG_PHILIP
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-SKINNER_HUNTER
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-SKINNER_HUNTER
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-HOLLOWAY_DYLAN
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-HOLLOWAY_DYLAN
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-NEIGHBOURS_JAKE
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-NEIGHBOURS_JAKE
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-FINLEY_JACK
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-FINLEY_JACK
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-KESSEL_MATTHEW
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-KESSEL_MATTHEW
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-MAILLOUX_LOGAN
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-MAILLOUX_LOGAN
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-KASKIMAKI_ALEKSANTERI
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-KASKIMAKI_ALEKSANTERI
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-SNUGGERUD_JIMMY
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-SNUGGERUD_JIMMY
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-DVORSKY_DALIBOR
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-DVORSKY_DALIBOR
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-LINDSTEIN_THEO
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-LINDSTEIN_THEO
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-STENBERG_OTTO
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-STENBERG_OTTO
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-BINNINGTON_JORDAN
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-BINNINGTON_JORDAN
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-HOFER_JOEL
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-HOFER_JOEL
+- scope:
+    team: HCK-NHL-TEAM-TBL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/TBL/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-TBL-PLAYER-PERRY_COREY
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-PERRY_COREY
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-TBL-PLAYER-MCDONAGH_RYAN
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-MCDONAGH_RYAN
+- scope:
+    team: HCK-NHL-TEAM-TOR
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/TOR/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-TOR-PLAYER-TAVARES_JOHN
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-TAVARES_JOHN
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-TOR-PLAYER-EKMAN_LARSSON_OLIVER
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-EKMAN_LARSSON_OLIVER
+- scope:
+    team: HCK-NHL-TEAM-UTA
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/UTA/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-UTA-PLAYER-COLE_IAN
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-COLE_IAN
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-UTA-PLAYER-AGOZZINO_ANDREW
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-AGOZZINO_ANDREW
+- scope:
+    team: HCK-NHL-TEAM-VAN
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/VAN/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-VAN-PLAYER-MYERS_TYLER
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-MYERS_TYLER
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-VAN-PLAYER-KANE_EVANDER
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-KANE_EVANDER
+- scope:
+    team: HCK-NHL-TEAM-VGK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/VGK/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-VGK-PLAYER-MCNABB_BRAYDEN
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-MCNABB_BRAYDEN
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-VGK-PLAYER-SMITH_REILLY
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-SMITH_REILLY
+- scope:
+    team: HCK-NHL-TEAM-WPG
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/WPG/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-WPG-PLAYER-TOEWS_JONATHAN
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-TOEWS_JONATHAN
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-WPG-PLAYER-SCHENN_LUKE
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-SCHENN_LUKE
+- scope:
+    team: HCK-NHL-TEAM-WSH
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/WSH/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-WSH-PLAYER-OVECHKIN_ALEX
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-OVECHKIN_ALEX
+  - type: Activation
+    code: HCK-NHL-SEASON_2025_2026-TEAM-WSH-PLAYER-CARLSON_JOHN
+    attributes: {}
+    references:
+      player: HCK-NHL-PLAYER-CARLSON_JOHN

@@ -1,0 +1,1112 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+scope:
+  sport: SPORT-FTB
+  league: FTB-LEAGUE-NFL
+  year: YEAR-2025
+groups:
+- scope:
+    team: FTB-NFL-TEAM-ARI
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/arizona-cardinals
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-ARI-PLAYER-ADAMS_ISAIAH
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ADAMS_ISAIAH
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-ARI-PLAYER-ANUSIEM_CHIGOZIE
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ANUSIEM_CHIGOZIE
+- scope:
+    team: FTB-NFL-TEAM-ATL
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/atlanta-falcons
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-ATL-PLAYER-AGNEW_JAMAL
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-AGNEW_JAMAL
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-ATL-PLAYER-ALLGEIER_TYLER
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ALLGEIER_TYLER
+- scope:
+    team: FTB-NFL-TEAM-BAL
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/baltimore-ravens
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-BAL-PLAYER-ALEXANDER_JAIRE
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ALEXANDER_JAIRE
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-BAL-PLAYER-ALI_RASHEEN
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ALI_RASHEEN
+- scope:
+    team: FTB-NFL-TEAM-BUF
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/buffalo-bills
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-BUF-PLAYER-AKINGBESOTE_TOMMY
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-AKINGBESOTE_TOMMY
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-BUF-PLAYER-ALLEN_JOSH
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ALLEN_JOSH
+- scope:
+    team: FTB-NFL-TEAM-CAR
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/carolina-panthers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-CAR-PLAYER-AKINGBESOTE_TOMMY
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-AKINGBESOTE_TOMMY
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-CAR-PLAYER-AUMAVAE_POPO
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-AUMAVAE_POPO
+- scope:
+    team: FTB-NFL-TEAM-CHI
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/chicago-bears
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-CHI-PLAYER-ALEXANDER_MAURICE
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ALEXANDER_MAURICE
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-CHI-PLAYER-AMEGADJIE_KIRAN
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-AMEGADJIE_KIRAN
+- scope:
+    team: FTB-NFL-TEAM-CIN
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/cincinnati-bengals
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-CIN-PLAYER-ALL_ERICK
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ALL_ERICK
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-CIN-PLAYER-ANDERSON_LIAM
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ANDERSON_LIAM
+- scope:
+    team: FTB-NFL-TEAM-CLE
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/cleveland-browns
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-CLE-PLAYER-ASANTE_EUGENE
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ASANTE_EUGENE
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-CLE-PLAYER-AVERY_TRE
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-AVERY_TRE
+- scope:
+    team: FTB-NFL-TEAM-DAL
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/dallas-cowboys
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-DAL-PLAYER-ABANIKANDA_ISRAEL
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ABANIKANDA_ISRAEL
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-DAL-PLAYER-ADENIJI_HAKEEM
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ADENIJI_HAKEEM
+- scope:
+    team: FTB-NFL-TEAM-DEN
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/denver-broncos
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-DEN-PLAYER-ABRAMS_DRAINE_KRIS
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ABRAMS_DRAINE_KRIS
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-DEN-PLAYER-ADKINS_NATE
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ADKINS_NATE
+- scope:
+    team: FTB-NFL-TEAM-DET
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/detroit-lions
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-DET-PLAYER-ADAMS_MYLES
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ADAMS_MYLES
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-DET-PLAYER-ALLEN_KYLE
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ALLEN_KYLE
+- scope:
+    team: FTB-NFL-TEAM-GB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/green-bay-packers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-GB-PLAYER-ABANIKANDA_ISRAEL
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ABANIKANDA_ISRAEL
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-GB-PLAYER-ALEXANDRE_DESLIN
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ALEXANDRE_DESLIN
+- scope:
+    team: FTB-NFL-TEAM-HOU
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/houston-texans
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-HOU-PLAYER-AL_SHAAIR_AZEEZ
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-AL_SHAAIR_AZEEZ
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-HOU-PLAYER-ANDERSON_JR_WILL
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ANDERSON_JR_WILL
+- scope:
+    team: FTB-NFL-TEAM-IND
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/indianapolis-colts
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-IND-PLAYER-ABDULLAH_AMEER
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ABDULLAH_AMEER
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-IND-PLAYER-ADEBAWORE_ADETOMIWA
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ADEBAWORE_ADETOMIWA
+- scope:
+    team: FTB-NFL-TEAM-JAX
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/jacksonville-jaguars
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-JAX-PLAYER-ABDULLAH_YASIR
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ABDULLAH_YASIR
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-JAX-PLAYER-AKINS_JORDAN
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-AKINS_JORDAN
+- scope:
+    team: FTB-NFL-TEAM-KC
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/kansas-city-chiefs
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-KC-PLAYER-ANUDIKE_UZOMAH_FELIX
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ANUDIKE_UZOMAH_FELIX
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-KC-PLAYER-ARAIZA_MATT
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ARAIZA_MATT
+- scope:
+    team: FTB-NFL-TEAM-LAC
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/los-angeles-chargers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-LAC-PLAYER-ALLEN_KEENAN
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ALLEN_KEENAN
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-LAC-PLAYER-ALT_JOE
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ALT_JOE
+- scope:
+    team: FTB-NFL-TEAM-LAR
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/los-angeles-rams
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-LAR-PLAYER-ADAMS_DAVANTE
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ADAMS_DAVANTE
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-LAR-PLAYER-ALLEN_DAVIS
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ALLEN_DAVIS
+- scope:
+    team: FTB-NFL-TEAM-RAIDERS
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/las-vegas-raiders
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-RAIDERS-PLAYER-ADAMS_JAMAL
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ADAMS_JAMAL
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-RAIDERS-PLAYER-ANUSIEM_CHIGOZIE
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ANUSIEM_CHIGOZIE
+- scope:
+    team: FTB-NFL-TEAM-MIA
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/miami-dolphins
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-MIA-PLAYER-ACHANE_DE_VON
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ACHANE_DE_VON
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-MIA-PLAYER-ARMSTRONG_CORNELL
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ARMSTRONG_CORNELL
+- scope:
+    team: FTB-NFL-TEAM-MIN
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/minnesota-vikings
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-MIN-PLAYER-ADDISON_JORDAN
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ADDISON_JORDAN
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-MIN-PLAYER-AKERS_CAM
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-AKERS_CAM
+- scope:
+    team: FTB-NFL-TEAM-NE
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/new-england-patriots
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-NE-PLAYER-ASHBY_JULIAN
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ASHBY_JULIAN
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-NE-PLAYER-AUSTIN_ALEX
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-AUSTIN_ALEX
+- scope:
+    team: FTB-NFL-TEAM-NO
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/new-orleans-saints
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-NO-PLAYER-AMADI_UGO
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-AMADI_UGO
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-NO-PLAYER-AUSTIN_JR_KEVIN
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-AUSTIN_JR_KEVIN
+- scope:
+    team: FTB-NFL-TEAM-NYG
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/new-york-giants
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-NYG-PLAYER-ADEBO_PAULSON
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ADEBO_PAULSON
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-NYG-PLAYER-ALEXANDER_DARIUS
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ALEXANDER_DARIUS
+- scope:
+    team: FTB-NFL-TEAM-NYJ
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/new-york-jets
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-NYJ-PLAYER-ADAMS_TONY
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ADAMS_TONY
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-NYJ-PLAYER-ALLEN_BRAELON
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ALLEN_BRAELON
+- scope:
+    team: FTB-NFL-TEAM-PHI
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/philadelphia-eagles
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-PHI-PLAYER-ADOMITIS_CAL
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ADOMITIS_CAL
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-PHI-PLAYER-ALEXANDER_JAIRE
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ALEXANDER_JAIRE
+- scope:
+    team: FTB-NFL-TEAM-PIT
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/pittsburgh-steelers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-PIT-PLAYER-ADOMITIS_CAL
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ADOMITIS_CAL
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-PIT-PLAYER-ANDERSON_CALVIN
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ANDERSON_CALVIN
+- scope:
+    team: FTB-NFL-TEAM-SEA
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/seattle-seahawks
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SEA-PLAYER-AKERS_CAM
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-AKERS_CAM
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SEA-PLAYER-ARROYO_ELIJAH
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ARROYO_ELIJAH
+- scope:
+    team: FTB-NFL-TEAM-SF
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/san-francisco-49ers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Every
+      source-listed player is selected.
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-AIYUK_BRANDON
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-AIYUK_BRANDON
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-ALARCON_ISAAC
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ALARCON_ISAAC
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-ANDERSON_EVAN
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ANDERSON_EVAN
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-CHOSEN_ROBBIE
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-CHOSEN_ROBBIE
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-APPLE_ELI
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-APPLE_ELI
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-BAKER_JAVON
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-BAKER_JAVON
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-BARTCH_BEN
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-BARTCH_BEN
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-BEAL_JR_ROB
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-BEAL_JR_ROB
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-BERGEN_JUNIOR
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-BERGEN_JUNIOR
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-BETHUNE_TATUM
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-BETHUNE_TATUM
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-BLANTON_STONE
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-BLANTON_STONE
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-BOLDEN_ISAIAH
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-BOLDEN_ISAIAH
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-BOSA_NICK
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-BOSA_NICK
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-BOURNE_KENDRICK
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-BOURNE_KENDRICK
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-BRADLEY_KING_WILL
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-BRADLEY_KING_WILL
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-BRENDEL_JAKE
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-BRENDEL_JAKE
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-BROWN_JI_AYIR
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-BROWN_JI_AYIR
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-BURFORD_SPENCER
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-BURFORD_SPENCER
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-CANTEEN_DERRICK
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-CANTEEN_DERRICK
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-COLBY_CONNOR
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-COLBY_CONNOR
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-COLLINS_ALFRED
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-COLLINS_ALFRED
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-COWING_JACOB
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-COWING_JACOB
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-DAVIS_KALIA
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-DAVIS_KALIA
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-ELLIOTT_JORDAN
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ELLIOTT_JORDAN
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-FARMER_II_ANDREW
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-FARMER_II_ANDREW
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-FARRELL_LUKE
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-FARRELL_LUKE
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-FERRELL_CLELIN
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-FERRELL_CLELIN
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-FORREST_DARRICK
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-FORREST_DARRICK
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-GAGE_RUSSELL
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-GAGE_RUSSELL
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-GAY_MATT
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-GAY_MATT
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-GIFFORD_LUKE
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-GIFFORD_LUKE
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-GIPSON_TREVIS
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-GIPSON_TREVIS
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-GIVENS_KEVIN
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-GIVENS_KEVIN
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-GRAHAM_JALEN
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-GRAHAM_JALEN
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-GREEN_RENARDO
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-GREEN_RENARDO
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-GROSS_MATOS_YETUR
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-GROSS_MATOS_YETUR
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-GUERENDO_ISAAC
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-GUERENDO_ISAAC
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-HECTOR_BRUCE
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-HECTOR_BRUCE
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-HENNESSY_MATT
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-HENNESSY_MATT
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-TOMLINSON_TRE
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-TOMLINSON_TRE
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-HUFF_BRYCE
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-HUFF_BRYCE
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-JACKSON_TARRON
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-JACKSON_TARRON
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-JAMES_JORDAN
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-JAMES_JORDAN
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-JEFFERSON_JORDAN
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-JEFFERSON_JORDAN
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-JENNINGS_JAUAN
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-JENNINGS_JAUAN
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-JONES_MAC
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-JONES_MAC
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-JUSZCZYK_KYLE
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-JUSZCZYK_KYLE
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-KENDRICKS_ERIC
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-KENDRICKS_ERIC
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-KITTLE_GEORGE
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-KITTLE_GEORGE
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-LENOIR_DEOMMODORE
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-LENOIR_DEOMMODORE
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-LUCAS_CHASE
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-LUCAS_CHASE
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-LUTER_JR_DARRELL
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-LUTER_JR_DARRELL
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-MAHONEY_JAYLEN
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-MAHONEY_JAYLEN
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-MARTIN_NICK
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-MARTIN_NICK
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-MARTINEZ_ADRIAN
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-MARTINEZ_ADRIAN
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-MCCAFFREY_CHRISTIAN
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-MCCAFFREY_CHRISTIAN
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-MCCORMICK_SINCERE
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-MCCORMICK_SINCERE
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-MCKIVITZ_COLTON
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-MCKIVITZ_COLTON
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-MOODY_JAKE
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-MOODY_JAKE
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-MOORE_SKYY
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-MOORE_SKYY
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-MORSTEAD_THOMAS
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-MORSTEAD_THOMAS
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-MOSS_DREW
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-MOSS_DREW
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-MUSTAPHA_MALIK
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-MUSTAPHA_MALIK
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-NEAL_SIRAN
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-NEAL_SIRAN
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-NUGENT_DRAKE
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-NUGENT_DRAKE
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-OKUAYINONU_SAM
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-OKUAYINONU_SAM
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-PARKER_BRANDON
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-PARKER_BRANDON
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-PEARSALL_RICKY
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-PEARSALL_RICKY
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-PINEIRO_EDDY
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-PINEIRO_EDDY
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-PINNOCK_JASON
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-PINNOCK_JASON
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-PLEASANTS_AUSTEN
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-PLEASANTS_AUSTEN
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-PUNI_DOMINICK
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-PUNI_DOMINICK
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-PURDY_BROCK
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-PURDY_BROCK
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-ROBINSON_CURTIS
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ROBINSON_CURTIS
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-ROBINSON_DEMARCUS
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ROBINSON_DEMARCUS
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-ROBINSON_JAKOB
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ROBINSON_JAKOB
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-ROBINSON_BRIAN
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ROBINSON_BRIAN
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-ROURKE_KURTIS
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ROURKE_KURTIS
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-RUCCI_HAYDEN
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-RUCCI_HAYDEN
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-SIGLE_MARQUES
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-SIGLE_MARQUES
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-STOUT_UPTON
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-STOUT_UPTON
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-SWINSON_MESSIAH
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-SWINSON_MESSIAH
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-TAYLOR_PATRICK
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-TAYLOR_PATRICK
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-TAYLOR_TRENT
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-TAYLOR_TRENT
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-TONGES_JAKE
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-TONGES_JAKE
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-TURNER_MALIK
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-TURNER_MALIK
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-VALDES_SCANTLING_MARQUEZ
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-VALDES_SCANTLING_MARQUEZ
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-VALDEZ_SEBASTIAN
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-VALDEZ_SEBASTIAN
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-WALLOW_GARRET
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-WALLOW_GARRET
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-WARNER_FRED
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-WARNER_FRED
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-WATKINS_JORDAN
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-WATKINS_JORDAN
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-WEEKS_JON
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-WEEKS_JON
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-WEST_C_J
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-WEST_C_J
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-WHITE_KEION
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-WHITE_KEION
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-WHITE_KYZIR
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-WHITE_KYZIR
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-WILLIAMS_MYKEL
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-WILLIAMS_MYKEL
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-WILLIAMS_TRENT
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-WILLIAMS_TRENT
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-WILLIS_BRAYDEN
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-WILLIS_BRAYDEN
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-WINTERS_DEE
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-WINTERS_DEE
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-ZAKELJ_NICK
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ZAKELJ_NICK
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-ZIERER_KILIAN
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ZIERER_KILIAN
+- scope:
+    team: FTB-NFL-TEAM-TB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/tampa-bay-buccaneers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-TB-PLAYER-BANKS_MARCUS
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-BANKS_MARCUS
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-TB-PLAYER-BARNHART_KARSEN
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-BARNHART_KARSEN
+- scope:
+    team: FTB-NFL-TEAM-TEN
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/tennessee-titans
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-TEN-PLAYER-AGOHA_DAVID
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-AGOHA_DAVID
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-TEN-PLAYER-ALLEN_BRANDON
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ALLEN_BRANDON
+- scope:
+    team: FTB-NFL-TEAM-WAS
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/washington-commanders
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-WAS-PLAYER-ALLEGRETTI_NICK
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-ALLEGRETTI_NICK
+  - type: Activation
+    code: FTB-NFL-SEASON_2025-TEAM-WAS-PLAYER-AMOS_TREY
+    attributes: {}
+    references:
+      player: FTB-NFL-PLAYER-AMOS_TREY

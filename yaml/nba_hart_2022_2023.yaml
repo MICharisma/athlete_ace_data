@@ -1,0 +1,30 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+source:
+  url: https://www.nba.com/knicks/news/new-york-knicks-acquire-josh-hart
+  published_on: '2023-02-09'
+  note: 'Sample 2022_2023 season union: retain Portland and New York memberships;
+    not a complete roster.'
+scope:
+  sport: SPORT-BKT
+  league: BKT-LEAGUE-NBA
+  year: YEAR-2022
+groups:
+- scope:
+    team: BKT-NBA-TEAM-POR
+  records:
+  - type: Activation
+    code: BKT-NBA-SEASON_2022_2023-TEAM-POR-PLAYER-HART_JOSH
+    attributes: {}
+    references:
+      player: BKT-NBA-LAL-2017-HART_JOSH
+- scope:
+    team: BKT-NBA-TEAM-NYK
+  records:
+  - type: Activation
+    code: BKT-NBA-SEASON_2022_2023-TEAM-NYK-PLAYER-HART_JOSH
+    attributes: {}
+    references:
+      player: BKT-NBA-LAL-2017-HART_JOSH

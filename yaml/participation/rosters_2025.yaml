@@ -1,0 +1,2876 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+groups:
+- source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: SOC-EPL-SEASON_2025_2026-TEAM-ARS-ROSTER-SENIOR_REGISTRATION_2025_09_12
+    attributes:
+      kind: senior_registration
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 21
+        selected_player_count: 2
+      effective_on: '2025-09-12'
+    references:
+      campaign: SOC-EPL-SEASON_2025_2026-TEAM-ARS
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-ARS-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-ARRIZABALAGA_REVUELTA_KEPA
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-ARS-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-ARRIZABALAGA_REVUELTA_KEPA
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-ARS-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-CALAFIORI_RICCARDO
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-ARS-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-CALAFIORI_RICCARDO
+- source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: SOC-EPL-SEASON_2025_2026-TEAM-AVL-ROSTER-SENIOR_REGISTRATION_2025_09_12
+    attributes:
+      kind: senior_registration
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 22
+        selected_player_count: 2
+      effective_on: '2025-09-12'
+    references:
+      campaign: SOC-EPL-SEASON_2025_2026-TEAM-AVL
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-AVL-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-BARKLEY_ROSS
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-AVL-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-BARKLEY_ROSS
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-AVL-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-BIZOT_MARCO
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-AVL-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-BIZOT_MARCO
+- source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: SOC-EPL-SEASON_2025_2026-TEAM-BHA-ROSTER-SENIOR_REGISTRATION_2025_09_12
+    attributes:
+      kind: senior_registration
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 20
+        selected_player_count: 2
+      effective_on: '2025-09-12'
+    references:
+      campaign: SOC-EPL-SEASON_2025_2026-TEAM-BHA
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-BHA-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-AYARI_YASIN
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-BHA-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-AYARI_YASIN
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-BHA-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-BOSCAGLI_OLIVIER
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-BHA-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-BOSCAGLI_OLIVIER
+- source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: SOC-EPL-SEASON_2025_2026-TEAM-BOU-ROSTER-SENIOR_REGISTRATION_2025_09_12
+    attributes:
+      kind: senior_registration
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 21
+        selected_player_count: 2
+      effective_on: '2025-09-12'
+    references:
+      campaign: SOC-EPL-SEASON_2025_2026-TEAM-BOU
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-BOU-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-ADAMS_TYLER_SHAAN
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-BOU-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-ADAMS_TYLER_SHAAN
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-BOU-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-ADLI_AMINE
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-BOU-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-ADLI_AMINE
+- source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: SOC-EPL-SEASON_2025_2026-TEAM-BRE-ROSTER-SENIOR_REGISTRATION_2025_09_12
+    attributes:
+      kind: senior_registration
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 24
+        selected_player_count: 2
+      effective_on: '2025-09-12'
+    references:
+      campaign: SOC-EPL-SEASON_2025_2026-TEAM-BRE
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-BRE-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-ADEDOKUN_VALENTINO_MAYOWA
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-BRE-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-ADEDOKUN_VALENTINO_MAYOWA
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-BRE-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-AJER_KRISTOFFER_VASSBAKK
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-BRE-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-AJER_KRISTOFFER_VASSBAKK
+- source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: SOC-EPL-SEASON_2025_2026-TEAM-BUR-ROSTER-SENIOR_REGISTRATION_2025_09_12
+    attributes:
+      kind: senior_registration
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 25
+        selected_player_count: 2
+      effective_on: '2025-09-12'
+    references:
+      campaign: SOC-EPL-SEASON_2025_2026-TEAM-BUR
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-BUR-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-ANTHONY_JAIDON
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-BUR-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-ANTHONY_JAIDON
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-BUR-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-BARNES_ASHLEY
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-BUR-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-BARNES_ASHLEY
+- source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: SOC-EPL-SEASON_2025_2026-TEAM-CHE-ROSTER-SENIOR_REGISTRATION_2025_09_12
+    attributes:
+      kind: senior_registration
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 19
+        selected_player_count: 2
+      effective_on: '2025-09-12'
+    references:
+      campaign: SOC-EPL-SEASON_2025_2026-TEAM-CHE
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-CHE-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-ADARABIOYO_ABDUL_NASIR_OLUWATOSIN
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-CHE-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-ADARABIOYO_ABDUL_NASIR_OLUWATOSIN
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-CHE-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-BADIASHILE_MUKINAYI_BENOIT_NTAMBUE
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-CHE-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-BADIASHILE_MUKINAYI_BENOIT_NTAMBUE
+- source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: SOC-EPL-SEASON_2025_2026-TEAM-CRY-ROSTER-SENIOR_REGISTRATION_2025_09_12
+    attributes:
+      kind: senior_registration
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 24
+        selected_player_count: 2
+      effective_on: '2025-09-12'
+    references:
+      campaign: SOC-EPL-SEASON_2025_2026-TEAM-CRY
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-CRY-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-AHAMADA_NAOUIROU
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-CRY-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-AHAMADA_NAOUIROU
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-CRY-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-BENITEZ_WALTER_DANIEL
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-CRY-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-BENITEZ_WALTER_DANIEL
+- source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: SOC-EPL-SEASON_2025_2026-TEAM-EVE-ROSTER-SENIOR_REGISTRATION_2025_09_12
+    attributes:
+      kind: senior_registration
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 23
+        selected_player_count: 2
+      effective_on: '2025-09-12'
+    references:
+      campaign: SOC-EPL-SEASON_2025_2026-TEAM-EVE
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-EVE-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-ALCARAZ_DURAN_CARLOS_JONAS
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-EVE-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-ALCARAZ_DURAN_CARLOS_JONAS
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-EVE-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-BARRY_THIERNO_MAMADOU
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-EVE-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-BARRY_THIERNO_MAMADOU
+- source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: SOC-EPL-SEASON_2025_2026-TEAM-FUL-ROSTER-SENIOR_REGISTRATION_2025_09_12
+    attributes:
+      kind: senior_registration
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 23
+        selected_player_count: 2
+      effective_on: '2025-09-12'
+    references:
+      campaign: SOC-EPL-SEASON_2025_2026-TEAM-FUL
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-FUL-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-ANDERSEN_JOACHIM_CHRISTIAN
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-FUL-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-ANDERSEN_JOACHIM_CHRISTIAN
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-FUL-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-BASSEY_CALVIN
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-FUL-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-BASSEY_CALVIN
+- source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: SOC-EPL-SEASON_2025_2026-TEAM-LEE-ROSTER-SENIOR_REGISTRATION_2025_09_12
+    attributes:
+      kind: senior_registration
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 25
+        selected_player_count: 2
+      effective_on: '2025-09-12'
+    references:
+      campaign: SOC-EPL-SEASON_2025_2026-TEAM-LEE
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-LEE-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-AARONSON_BRENDEN_RUSSELL
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-LEE-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-AARONSON_BRENDEN_RUSSELL
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-LEE-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-AMPADU_ETHAN_KWAME_COLM_RAYMOND
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-LEE-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-AMPADU_ETHAN_KWAME_COLM_RAYMOND
+- source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: SOC-EPL-SEASON_2025_2026-TEAM-LIV-ROSTER-SENIOR_REGISTRATION_2025_09_12
+    attributes:
+      kind: senior_registration
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 24
+        selected_player_count: 2
+      effective_on: '2025-09-12'
+    references:
+      campaign: SOC-EPL-SEASON_2025_2026-TEAM-LIV
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-LIV-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-BECKER_ALISSON_RAMSES
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-LIV-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-BECKER_ALISSON_RAMSES
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-LIV-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-BRADLEY_CONOR
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-LIV-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-BRADLEY_CONOR
+- source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: SOC-EPL-SEASON_2025_2026-TEAM-MCI-ROSTER-SENIOR_REGISTRATION_2025_09_12
+    attributes:
+      kind: senior_registration
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 23
+        selected_player_count: 2
+      effective_on: '2025-09-12'
+    references:
+      campaign: SOC-EPL-SEASON_2025_2026-TEAM-MCI
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-MCI-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-AIT_NOURI_RAYAN
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-MCI-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-AIT_NOURI_RAYAN
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-MCI-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-AKE_NATHAN_BENJAMIN
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-MCI-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-AKE_NATHAN_BENJAMIN
+- source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: SOC-EPL-SEASON_2025_2026-TEAM-MUN-ROSTER-SENIOR_REGISTRATION_2025_09_12
+    attributes:
+      kind: senior_registration
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 21
+        selected_player_count: 2
+      effective_on: '2025-09-12'
+    references:
+      campaign: SOC-EPL-SEASON_2025_2026-TEAM-MUN
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-MUN-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-BAYINDIR_ALTAY
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-MUN-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-BAYINDIR_ALTAY
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-MUN-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-BENNETT_RHYS_JOSEPH_WRIGHT
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-MUN-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-BENNETT_RHYS_JOSEPH_WRIGHT
+- source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: SOC-EPL-SEASON_2025_2026-TEAM-NEW-ROSTER-SENIOR_REGISTRATION_2025_09_12
+    attributes:
+      kind: senior_registration
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 25
+        selected_player_count: 2
+      effective_on: '2025-09-12'
+    references:
+      campaign: SOC-EPL-SEASON_2025_2026-TEAM-NEW
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-NEW-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-APOLINARIO_DE_LIRA_JOELINTON_CASSIO
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-NEW-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-APOLINARIO_DE_LIRA_JOELINTON_CASSIO
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-NEW-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-ASHBY_HARRISON_CHARLES
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-NEW-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-ASHBY_HARRISON_CHARLES
+- source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: SOC-EPL-SEASON_2025_2026-TEAM-NFO-ROSTER-SENIOR_REGISTRATION_2025_09_12
+    attributes:
+      kind: senior_registration
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 25
+        selected_player_count: 2
+      effective_on: '2025-09-12'
+    references:
+      campaign: SOC-EPL-SEASON_2025_2026-TEAM-NFO
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-NFO-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-ANDERSON_ELLIOT_JUNIOR
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-NFO-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-ANDERSON_ELLIOT_JUNIOR
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-NFO-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-AWONIYI_TAIWO_MICHEAL
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-NFO-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-AWONIYI_TAIWO_MICHEAL
+- source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: SOC-EPL-SEASON_2025_2026-TEAM-SUN-ROSTER-SENIOR_REGISTRATION_2025_09_12
+    attributes:
+      kind: senior_registration
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 23
+        selected_player_count: 2
+      effective_on: '2025-09-12'
+    references:
+      campaign: SOC-EPL-SEASON_2025_2026-TEAM-SUN
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-SUN-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-ADINGRA_SIMON
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-SUN-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-ADINGRA_SIMON
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-SUN-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-ALDERETE_FERNANDEZ_OMAR_FEDERICO
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-SUN-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-ALDERETE_FERNANDEZ_OMAR_FEDERICO
+- source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: SOC-EPL-SEASON_2025_2026-TEAM-TOT-ROSTER-SENIOR_REGISTRATION_2025_09_12
+    attributes:
+      kind: senior_registration
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 23
+        selected_player_count: 2
+      effective_on: '2025-09-12'
+    references:
+      campaign: SOC-EPL-SEASON_2025_2026-TEAM-TOT
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-TOT-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-AUSTIN_BRANDON_ANTHONY
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-TOT-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-AUSTIN_BRANDON_ANTHONY
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-TOT-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-BENTANCUR_RODRIGO
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-TOT-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-BENTANCUR_RODRIGO
+- source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: SOC-EPL-SEASON_2025_2026-TEAM-WHU-ROSTER-SENIOR_REGISTRATION_2025_09_12
+    attributes:
+      kind: senior_registration
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 21
+        selected_player_count: 2
+      effective_on: '2025-09-12'
+    references:
+      campaign: SOC-EPL-SEASON_2025_2026-TEAM-WHU
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-WHU-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-AREOLA_ALPHONSE_FRANCIS
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-WHU-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-AREOLA_ALPHONSE_FRANCIS
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-WHU-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-BOWEN_JARROD
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-WHU-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-BOWEN_JARROD
+- source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: SOC-EPL-SEASON_2025_2026-TEAM-WOL-ROSTER-SENIOR_REGISTRATION_2025_09_12
+    attributes:
+      kind: senior_registration
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 23
+        selected_player_count: 2
+      effective_on: '2025-09-12'
+    references:
+      campaign: SOC-EPL-SEASON_2025_2026-TEAM-WOL
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-WOL-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-AGBADOU_BADOBRE_EMMANUEL_ELYSEE_DJEDJE
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-WOL-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-AGBADOU_BADOBRE_EMMANUEL_ELYSEE_DJEDJE
+  - type: RosterEntry
+    code: SOC-EPL-SEASON_2025_2026-TEAM-WOL-ROSTER-SENIOR_REGISTRATION_2025_09_12-PLAYER-ARIAS_ANDRADE_JHON_ADOLFO
+    references:
+      roster: SOC-EPL-SEASON_2025_2026-TEAM-WOL-ROSTER-SENIOR_REGISTRATION_2025_09_12
+      player: SOC-EPL-PLAYER-ARIAS_ANDRADE_JHON_ADOLFO
+- source:
+    url: https://pdfroster.nba.com/atlanta-hawks/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: BKT-NBA-SEASON_2025_2026-TEAM-ATL-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_roster
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 18
+        selected_player_count: 2
+    references:
+      campaign: BKT-NBA-SEASON_2025_2026-TEAM-ATL
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-ATL-ROSTER-CAPTURE_2026_10_05-PLAYER-GILBERT_KESHON
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-ATL-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-GILBERT_KESHON
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-ATL-ROSTER-CAPTURE_2026_10_05-PLAYER-DENNIS_RAYJ
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-ATL-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-DENNIS_RAYJ
+- source:
+    url: https://pdfroster.nba.com/brooklyn-nets/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: BKT-NBA-SEASON_2025_2026-TEAM-BKN-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_roster
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 18
+        selected_player_count: 2
+    references:
+      campaign: BKT-NBA-SEASON_2025_2026-TEAM-BKN
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-BKN-ROSTER-CAPTURE_2026_10_05-PLAYER-MINOTT_JOSH
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-BKN-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-MINOTT_JOSH
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-BKN-ROSTER-CAPTURE_2026_10_05-PLAYER-WILLIAMS_ZIAIRE
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-BKN-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-WILLIAMS_ZIAIRE
+- source:
+    url: https://pdfroster.nba.com/boston-celtics/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: BKT-NBA-SEASON_2025_2026-TEAM-BOS-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_roster
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 16
+        selected_player_count: 2
+    references:
+      campaign: BKT-NBA-SEASON_2025_2026-TEAM-BOS
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-BOS-ROSTER-CAPTURE_2026_10_05-PLAYER-TATUM_JAYSON
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-BOS-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-TATUM_JAYSON
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-BOS-ROSTER-CAPTURE_2026_10_05-PLAYER-VUCEVIC_NIKOLA
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-BOS-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-VUCEVIC_NIKOLA
+- source:
+    url: https://pdfroster.nba.com/charlotte-hornets/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: BKT-NBA-SEASON_2025_2026-TEAM-CHA-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_roster
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 18
+        selected_player_count: 2
+    references:
+      campaign: BKT-NBA-SEASON_2025_2026-TEAM-CHA
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-CHA-ROSTER-CAPTURE_2026_10_05-PLAYER-BRIDGES_MILES
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-CHA-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-BRIDGES_MILES
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-CHA-ROSTER-CAPTURE_2026_10_05-PLAYER-BALL_LAMELO
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-CHA-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-BALL_LAMELO
+- source:
+    url: https://pdfroster.nba.com/chicago-bulls/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: BKT-NBA-SEASON_2025_2026-TEAM-CHI-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_roster
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 18
+        selected_player_count: 2
+    references:
+      campaign: BKT-NBA-SEASON_2025_2026-TEAM-CHI
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-CHI-ROSTER-CAPTURE_2026_10_05-PLAYER-SEXTON_COLLIN
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-CHI-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-SEXTON_COLLIN
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-CHI-ROSTER-CAPTURE_2026_10_05-PLAYER-GIDDEY_JOSH
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-CHI-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-GIDDEY_JOSH
+- source:
+    url: https://pdfroster.nba.com/cleveland-cavaliers/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: BKT-NBA-SEASON_2025_2026-TEAM-CLE-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_roster
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 18
+        selected_player_count: 2
+    references:
+      campaign: BKT-NBA-SEASON_2025_2026-TEAM-CLE
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-CLE-ROSTER-CAPTURE_2026_10_05-PLAYER-HARDEN_JAMES
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-CLE-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-HARDEN_JAMES
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-CLE-ROSTER-CAPTURE_2026_10_05-PLAYER-STRUS_MAX
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-CLE-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-STRUS_MAX
+- source:
+    url: https://pdfroster.nba.com/dallas-mavericks/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: BKT-NBA-SEASON_2025_2026-TEAM-DAL-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_roster
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 18
+        selected_player_count: 2
+    references:
+      campaign: BKT-NBA-SEASON_2025_2026-TEAM-DAL
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-DAL-ROSTER-CAPTURE_2026_10_05-PLAYER-POULAKIDAS_JOHN
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-DAL-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-POULAKIDAS_JOHN
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-DAL-ROSTER-CAPTURE_2026_10_05-PLAYER-CHRISTIE_MAX
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-DAL-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-CHRISTIE_MAX
+- source:
+    url: https://pdfroster.nba.com/denver-nuggets/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: BKT-NBA-SEASON_2025_2026-TEAM-DEN-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_roster
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 18
+        selected_player_count: 2
+    references:
+      campaign: BKT-NBA-SEASON_2025_2026-TEAM-DEN
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-DEN-ROSTER-CAPTURE_2026_10_05-PLAYER-BRAUN_CHRISTIAN
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-DEN-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-BRAUN_CHRISTIAN
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-DEN-ROSTER-CAPTURE_2026_10_05-PLAYER-JONES_CURTIS
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-DEN-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-JONES_CURTIS
+- source:
+    url: https://pdfroster.nba.com/detroit-pistons/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: BKT-NBA-SEASON_2025_2026-TEAM-DET-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_roster
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 17
+        selected_player_count: 2
+    references:
+      campaign: BKT-NBA-SEASON_2025_2026-TEAM-DET
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-DET-ROSTER-CAPTURE_2026_10_05-PLAYER-DUREN_JALEN
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-DET-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-DUREN_JALEN
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-DET-ROSTER-CAPTURE_2026_10_05-PLAYER-CUNNINGHAM_CADE
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-DET-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-CUNNINGHAM_CADE
+- source:
+    url: https://pdfroster.nba.com/golden-state-warriors/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: BKT-NBA-SEASON_2025_2026-TEAM-GSW-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_roster
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 18
+        selected_player_count: 2
+    references:
+      campaign: BKT-NBA-SEASON_2025_2026-TEAM-GSW
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-GSW-ROSTER-CAPTURE_2026_10_05-PLAYER-PAYTON_II_GARY
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-GSW-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-PAYTON_II_GARY
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-GSW-ROSTER-CAPTURE_2026_10_05-PLAYER-PODZIEMSKI_BRANDIN
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-GSW-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-PODZIEMSKI_BRANDIN
+- source:
+    url: https://pdfroster.nba.com/houston-rockets/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: BKT-NBA-SEASON_2025_2026-TEAM-HOU-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_roster
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 17
+        selected_player_count: 2
+    references:
+      campaign: BKT-NBA-SEASON_2025_2026-TEAM-HOU
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-HOU-ROSTER-CAPTURE_2026_10_05-PLAYER-HOLIDAY_AARON
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-HOU-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-HOLIDAY_AARON
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-HOU-ROSTER-CAPTURE_2026_10_05-PLAYER-THOMPSON_AMEN
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-HOU-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-THOMPSON_AMEN
+- source:
+    url: https://pdfroster.nba.com/indiana-pacers/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: BKT-NBA-SEASON_2025_2026-TEAM-IND-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_roster
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 18
+        selected_player_count: 2
+    references:
+      campaign: BKT-NBA-SEASON_2025_2026-TEAM-IND
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-IND-ROSTER-CAPTURE_2026_10_05-PLAYER-HALIBURTON_TYRESE
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-IND-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-HALIBURTON_TYRESE
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-IND-ROSTER-CAPTURE_2026_10_05-PLAYER-TOPPIN_OBI
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-IND-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-TOPPIN_OBI
+- source:
+    url: https://pdfroster.nba.com/los-angeles-clippers/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: BKT-NBA-SEASON_2025_2026-TEAM-LAC-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_roster
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 18
+        selected_player_count: 2
+    references:
+      campaign: BKT-NBA-SEASON_2025_2026-TEAM-LAC
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-LAC-ROSTER-CAPTURE_2026_10_05-PLAYER-OMIER_NORCHAD
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-LAC-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-OMIER_NORCHAD
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-LAC-ROSTER-CAPTURE_2026_10_05-PLAYER-PEDULLA_SEAN
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-LAC-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-PEDULLA_SEAN
+- source:
+    url: https://pdfroster.nba.com/los-angeles-lakers/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: BKT-NBA-SEASON_2025_2026-TEAM-LAL-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_roster
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 17
+        selected_player_count: 2
+    references:
+      campaign: BKT-NBA-SEASON_2025_2026-TEAM-LAL
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-LAL-ROSTER-CAPTURE_2026_10_05-PLAYER-THIERO_ADOU
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-LAL-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-THIERO_ADOU
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-LAL-ROSTER-CAPTURE_2026_10_05-PLAYER-VANDERBILT_JARRED
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-LAL-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-VANDERBILT_JARRED
+- source:
+    url: https://pdfroster.nba.com/memphis-grizzlies/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: BKT-NBA-SEASON_2025_2026-TEAM-MEM-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_roster
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 18
+        selected_player_count: 2
+    references:
+      campaign: BKT-NBA-SEASON_2025_2026-TEAM-MEM
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-MEM-ROSTER-CAPTURE_2026_10_05-PLAYER-MASHACK_JAHMAI
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-MEM-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-MASHACK_JAHMAI
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-MEM-ROSTER-CAPTURE_2026_10_05-PLAYER-WELLS_JAYLEN
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-MEM-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-WELLS_JAYLEN
+- source:
+    url: https://pdfroster.nba.com/miami-heat/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: BKT-NBA-SEASON_2025_2026-TEAM-MIA-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_roster
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 17
+        selected_player_count: 2
+    references:
+      campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIA
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-MIA-ROSTER-CAPTURE_2026_10_05-PLAYER-FONTECCHIO_SIMONE
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-MIA-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-FONTECCHIO_SIMONE
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-MIA-ROSTER-CAPTURE_2026_10_05-PLAYER-KEELS_TREVOR
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-MIA-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-KEELS_TREVOR
+- source:
+    url: https://pdfroster.nba.com/milwaukee-bucks/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: BKT-NBA-SEASON_2025_2026-TEAM-MIL-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_roster
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 17
+        selected_player_count: 2
+    references:
+      campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIL
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-MIL-ROSTER-CAPTURE_2026_10_05-PLAYER-SIMS_JERICHO
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-MIL-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-SIMS_JERICHO
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-MIL-ROSTER-CAPTURE_2026_10_05-PLAYER-TURNER_MYLES
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-MIL-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-TURNER_MYLES
+- source:
+    url: https://pdfroster.nba.com/minnesota-timberwolves/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: BKT-NBA-SEASON_2025_2026-TEAM-MIN-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_roster
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 18
+        selected_player_count: 2
+    references:
+      campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIN
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-MIN-ROSTER-CAPTURE_2026_10_05-PLAYER-DIVINCENZO_DONTE
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-MIN-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-DIVINCENZO_DONTE
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-MIN-ROSTER-CAPTURE_2026_10_05-PLAYER-SHANNON_JR_TERRENCE
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-MIN-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-SHANNON_JR_TERRENCE
+- source:
+    url: https://pdfroster.nba.com/new-orleans-pelicans/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NOP-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_roster
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 18
+        selected_player_count: 2
+    references:
+      campaign: BKT-NBA-SEASON_2025_2026-TEAM-NOP
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NOP-ROSTER-CAPTURE_2026_10_05-PLAYER-ODURO_JOSH
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-NOP-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-ODURO_JOSH
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NOP-ROSTER-CAPTURE_2026_10_05-PLAYER-FEARS_JEREMIAH
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-NOP-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-FEARS_JEREMIAH
+- source:
+    url: https://pdfroster.nba.com/new-york-knicks/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected.
+  records:
+  - type: Roster
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_roster
+      coverage: complete
+      details:
+        roster_coverage: complete_source_listing
+        source_player_count: 18
+        selected_player_count: 18
+    references:
+      campaign: BKT-NBA-SEASON_2025_2026-TEAM-NYK
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05-PLAYER-CLARKSON_JORDAN
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-CLARKSON_JORDAN
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05-PLAYER-JONES_DILLON
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-JONES_DILLON
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05-PLAYER-MCBRIDE_MILES
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-MCBRIDE_MILES
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05-PLAYER-HART_JOSH
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-LAL-2017-HART_JOSH
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05-PLAYER-DADIET_PACOME
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-DADIET_PACOME
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05-PLAYER-ALVARADO_JOSE
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-ALVARADO_JOSE
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05-PLAYER-ANUNOBY_OG
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-ANUNOBY_OG
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05-PLAYER-MCCULLAR_JR_KEVIN
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-MCCULLAR_JR_KEVIN
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05-PLAYER-BRUNSON_JALEN
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-BRUNSON_JALEN
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05-PLAYER-KOLEK_TYLER
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-KOLEK_TYLER
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05-PLAYER-SOCHAN_JEREMY
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-SOCHAN_JEREMY
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05-PLAYER-ROBINSON_MITCHELL
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-ROBINSON_MITCHELL
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05-PLAYER-BRIDGES_MIKAL
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-BRIDGES_MIKAL
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05-PLAYER-TOWNS_KARL_ANTHONY
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-TOWNS_KARL_ANTHONY
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05-PLAYER-SHAMET_LANDRY
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-SHAMET_LANDRY
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05-PLAYER-JEMISON_III_TREY
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-JEMISON_III_TREY
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05-PLAYER-DIAWARA_MOHAMED
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-DIAWARA_MOHAMED
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05-PLAYER-HUKPORTI_ARIEL
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-NYK-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-HUKPORTI_ARIEL
+- source:
+    url: https://pdfroster.nba.com/oklahoma-city-thunder/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: BKT-NBA-SEASON_2025_2026-TEAM-OKC-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_roster
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 18
+        selected_player_count: 2
+    references:
+      campaign: BKT-NBA-SEASON_2025_2026-TEAM-OKC
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-OKC-ROSTER-CAPTURE_2026_10_05-PLAYER-GILGEOUS_ALEXANDER_SHAI
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-OKC-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-GILGEOUS_ALEXANDER_SHAI
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-OKC-ROSTER-CAPTURE_2026_10_05-PLAYER-MCCAIN_JARED
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-OKC-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-MCCAIN_JARED
+- source:
+    url: https://pdfroster.nba.com/orlando-magic/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: BKT-NBA-SEASON_2025_2026-TEAM-ORL-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_roster
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 17
+        selected_player_count: 2
+    references:
+      campaign: BKT-NBA-SEASON_2025_2026-TEAM-ORL
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-ORL-ROSTER-CAPTURE_2026_10_05-PLAYER-MORALES_ALEX
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-ORL-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-MORALES_ALEX
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-ORL-ROSTER-CAPTURE_2026_10_05-PLAYER-BLACK_ANTHONY
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-ORL-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-BLACK_ANTHONY
+- source:
+    url: https://pdfroster.nba.com/philadelphia-76ers/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: BKT-NBA-SEASON_2025_2026-TEAM-PHI-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_roster
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 17
+        selected_player_count: 2
+    references:
+      campaign: BKT-NBA-SEASON_2025_2026-TEAM-PHI
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-PHI-ROSTER-CAPTURE_2026_10_05-PLAYER-MAXEY_TYRESE
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-PHI-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-MAXEY_TYRESE
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-PHI-ROSTER-CAPTURE_2026_10_05-PLAYER-DRUMMOND_ANDRE
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-PHI-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-DRUMMOND_ANDRE
+- source:
+    url: https://pdfroster.nba.com/phoenix-suns/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: BKT-NBA-SEASON_2025_2026-TEAM-PHX-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_roster
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 18
+        selected_player_count: 2
+    references:
+      campaign: BKT-NBA-SEASON_2025_2026-TEAM-PHX
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-PHX-ROSTER-CAPTURE_2026_10_05-PLAYER-O_NEALE_ROYCE
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-PHX-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-O_NEALE_ROYCE
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-PHX-ROSTER-CAPTURE_2026_10_05-PLAYER-DUNN_RYAN
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-PHX-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-DUNN_RYAN
+- source:
+    url: https://pdfroster.nba.com/portland-trailblazers/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: BKT-NBA-SEASON_2025_2026-TEAM-POR-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_roster
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 18
+        selected_player_count: 2
+    references:
+      campaign: BKT-NBA-SEASON_2025_2026-TEAM-POR
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-POR-ROSTER-CAPTURE_2026_10_05-PLAYER-KENT_JAYSON
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-POR-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-KENT_JAYSON
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-POR-ROSTER-CAPTURE_2026_10_05-PLAYER-HENDERSON_SCOOT
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-POR-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-HENDERSON_SCOOT
+- source:
+    url: https://pdfroster.nba.com/sacramento-kings/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: BKT-NBA-SEASON_2025_2026-TEAM-SAC-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_roster
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 18
+        selected_player_count: 2
+    references:
+      campaign: BKT-NBA-SEASON_2025_2026-TEAM-SAC
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-SAC-ROSTER-CAPTURE_2026_10_05-PLAYER-MONK_MALIK
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-SAC-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-MONK_MALIK
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-SAC-ROSTER-CAPTURE_2026_10_05-PLAYER-CLIFFORD_NIQUE
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-SAC-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-CLIFFORD_NIQUE
+- source:
+    url: https://pdfroster.nba.com/san-antonio-spurs/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: BKT-NBA-SEASON_2025_2026-TEAM-SAS-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_roster
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 18
+        selected_player_count: 2
+    references:
+      campaign: BKT-NBA-SEASON_2025_2026-TEAM-SAS
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-SAS-ROSTER-CAPTURE_2026_10_05-PLAYER-MCLAUGHLIN_JORDAN
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-SAS-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-MCLAUGHLIN_JORDAN
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-SAS-ROSTER-CAPTURE_2026_10_05-PLAYER-WEMBANYAMA_VICTOR
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-SAS-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-WEMBANYAMA_VICTOR
+- source:
+    url: https://pdfroster.nba.com/toronto-raptors/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: BKT-NBA-SEASON_2025_2026-TEAM-TOR-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_roster
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 17
+        selected_player_count: 2
+    references:
+      campaign: BKT-NBA-SEASON_2025_2026-TEAM-TOR
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-TOR-ROSTER-CAPTURE_2026_10_05-PLAYER-LAWSON_A_J
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-TOR-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-LAWSON_A_J
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-TOR-ROSTER-CAPTURE_2026_10_05-PLAYER-DICK_GRADEY
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-TOR-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-DICK_GRADEY
+- source:
+    url: https://pdfroster.nba.com/utah-jazz/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: BKT-NBA-SEASON_2025_2026-TEAM-UTA-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_roster
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 18
+        selected_player_count: 2
+    references:
+      campaign: BKT-NBA-SEASON_2025_2026-TEAM-UTA
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-UTA-ROSTER-CAPTURE_2026_10_05-PLAYER-GRAY_HAYDEN
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-UTA-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-GRAY_HAYDEN
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-UTA-ROSTER-CAPTURE_2026_10_05-PLAYER-HINSON_BLAKE
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-UTA-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-HINSON_BLAKE
+- source:
+    url: https://pdfroster.nba.com/washington-wizards/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: BKT-NBA-SEASON_2025_2026-TEAM-WAS-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_roster
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 18
+        selected_player_count: 2
+    references:
+      campaign: BKT-NBA-SEASON_2025_2026-TEAM-WAS
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-WAS-ROSTER-CAPTURE_2026_10_05-PLAYER-REESE_JULIAN
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-WAS-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-REESE_JULIAN
+  - type: RosterEntry
+    code: BKT-NBA-SEASON_2025_2026-TEAM-WAS-ROSTER-CAPTURE_2026_10_05-PLAYER-COULIBALY_BILAL
+    references:
+      roster: BKT-NBA-SEASON_2025_2026-TEAM-WAS-ROSTER-CAPTURE_2026_10_05
+      player: BKT-NBA-PLAYER-COULIBALY_BILAL
+- source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/arizona-cardinals
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: FTB-NFL-SEASON_2025-TEAM-ARI-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_player_inventory
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 113
+        selected_player_count: 2
+    references:
+      campaign: FTB-NFL-SEASON_2025-TEAM-ARI
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-ARI-ROSTER-CAPTURE_2026_10_05-PLAYER-ADAMS_ISAIAH
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-ARI-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ADAMS_ISAIAH
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-ARI-ROSTER-CAPTURE_2026_10_05-PLAYER-ANUSIEM_CHIGOZIE
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-ARI-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ANUSIEM_CHIGOZIE
+- source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/atlanta-falcons
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: FTB-NFL-SEASON_2025-TEAM-ATL-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_player_inventory
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 97
+        selected_player_count: 2
+    references:
+      campaign: FTB-NFL-SEASON_2025-TEAM-ATL
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-ATL-ROSTER-CAPTURE_2026_10_05-PLAYER-AGNEW_JAMAL
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-ATL-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-AGNEW_JAMAL
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-ATL-ROSTER-CAPTURE_2026_10_05-PLAYER-ALLGEIER_TYLER
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-ATL-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ALLGEIER_TYLER
+- source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/baltimore-ravens
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: FTB-NFL-SEASON_2025-TEAM-BAL-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_player_inventory
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 92
+        selected_player_count: 2
+    references:
+      campaign: FTB-NFL-SEASON_2025-TEAM-BAL
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-BAL-ROSTER-CAPTURE_2026_10_05-PLAYER-ALEXANDER_JAIRE
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-BAL-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ALEXANDER_JAIRE
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-BAL-ROSTER-CAPTURE_2026_10_05-PLAYER-ALI_RASHEEN
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-BAL-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ALI_RASHEEN
+- source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/buffalo-bills
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: FTB-NFL-SEASON_2025-TEAM-BUF-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_player_inventory
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 98
+        selected_player_count: 2
+    references:
+      campaign: FTB-NFL-SEASON_2025-TEAM-BUF
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-BUF-ROSTER-CAPTURE_2026_10_05-PLAYER-AKINGBESOTE_TOMMY
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-BUF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-AKINGBESOTE_TOMMY
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-BUF-ROSTER-CAPTURE_2026_10_05-PLAYER-ALLEN_JOSH
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-BUF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ALLEN_JOSH
+- source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/carolina-panthers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: FTB-NFL-SEASON_2025-TEAM-CAR-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_player_inventory
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 94
+        selected_player_count: 2
+    references:
+      campaign: FTB-NFL-SEASON_2025-TEAM-CAR
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-CAR-ROSTER-CAPTURE_2026_10_05-PLAYER-AKINGBESOTE_TOMMY
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-CAR-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-AKINGBESOTE_TOMMY
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-CAR-ROSTER-CAPTURE_2026_10_05-PLAYER-AUMAVAE_POPO
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-CAR-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-AUMAVAE_POPO
+- source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/chicago-bears
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: FTB-NFL-SEASON_2025-TEAM-CHI-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_player_inventory
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 90
+        selected_player_count: 2
+    references:
+      campaign: FTB-NFL-SEASON_2025-TEAM-CHI
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-CHI-ROSTER-CAPTURE_2026_10_05-PLAYER-ALEXANDER_MAURICE
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-CHI-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ALEXANDER_MAURICE
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-CHI-ROSTER-CAPTURE_2026_10_05-PLAYER-AMEGADJIE_KIRAN
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-CHI-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-AMEGADJIE_KIRAN
+- source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/cincinnati-bengals
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: FTB-NFL-SEASON_2025-TEAM-CIN-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_player_inventory
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 87
+        selected_player_count: 2
+    references:
+      campaign: FTB-NFL-SEASON_2025-TEAM-CIN
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-CIN-ROSTER-CAPTURE_2026_10_05-PLAYER-ALL_ERICK
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-CIN-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ALL_ERICK
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-CIN-ROSTER-CAPTURE_2026_10_05-PLAYER-ANDERSON_LIAM
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-CIN-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ANDERSON_LIAM
+- source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/cleveland-browns
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: FTB-NFL-SEASON_2025-TEAM-CLE-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_player_inventory
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 107
+        selected_player_count: 2
+    references:
+      campaign: FTB-NFL-SEASON_2025-TEAM-CLE
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-CLE-ROSTER-CAPTURE_2026_10_05-PLAYER-ASANTE_EUGENE
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-CLE-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ASANTE_EUGENE
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-CLE-ROSTER-CAPTURE_2026_10_05-PLAYER-AVERY_TRE
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-CLE-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-AVERY_TRE
+- source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/dallas-cowboys
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: FTB-NFL-SEASON_2025-TEAM-DAL-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_player_inventory
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 90
+        selected_player_count: 2
+    references:
+      campaign: FTB-NFL-SEASON_2025-TEAM-DAL
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-DAL-ROSTER-CAPTURE_2026_10_05-PLAYER-ABANIKANDA_ISRAEL
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-DAL-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ABANIKANDA_ISRAEL
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-DAL-ROSTER-CAPTURE_2026_10_05-PLAYER-ADENIJI_HAKEEM
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-DAL-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ADENIJI_HAKEEM
+- source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/denver-broncos
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: FTB-NFL-SEASON_2025-TEAM-DEN-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_player_inventory
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 95
+        selected_player_count: 2
+    references:
+      campaign: FTB-NFL-SEASON_2025-TEAM-DEN
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-DEN-ROSTER-CAPTURE_2026_10_05-PLAYER-ABRAMS_DRAINE_KRIS
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-DEN-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ABRAMS_DRAINE_KRIS
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-DEN-ROSTER-CAPTURE_2026_10_05-PLAYER-ADKINS_NATE
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-DEN-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ADKINS_NATE
+- source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/detroit-lions
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: FTB-NFL-SEASON_2025-TEAM-DET-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_player_inventory
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 105
+        selected_player_count: 2
+    references:
+      campaign: FTB-NFL-SEASON_2025-TEAM-DET
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-DET-ROSTER-CAPTURE_2026_10_05-PLAYER-ADAMS_MYLES
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-DET-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ADAMS_MYLES
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-DET-ROSTER-CAPTURE_2026_10_05-PLAYER-ALLEN_KYLE
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-DET-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ALLEN_KYLE
+- source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/green-bay-packers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: FTB-NFL-SEASON_2025-TEAM-GB-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_player_inventory
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 96
+        selected_player_count: 2
+    references:
+      campaign: FTB-NFL-SEASON_2025-TEAM-GB
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-GB-ROSTER-CAPTURE_2026_10_05-PLAYER-ABANIKANDA_ISRAEL
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-GB-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ABANIKANDA_ISRAEL
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-GB-ROSTER-CAPTURE_2026_10_05-PLAYER-ALEXANDRE_DESLIN
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-GB-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ALEXANDRE_DESLIN
+- source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/houston-texans
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: FTB-NFL-SEASON_2025-TEAM-HOU-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_player_inventory
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 102
+        selected_player_count: 2
+    references:
+      campaign: FTB-NFL-SEASON_2025-TEAM-HOU
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-HOU-ROSTER-CAPTURE_2026_10_05-PLAYER-AL_SHAAIR_AZEEZ
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-HOU-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-AL_SHAAIR_AZEEZ
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-HOU-ROSTER-CAPTURE_2026_10_05-PLAYER-ANDERSON_JR_WILL
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-HOU-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ANDERSON_JR_WILL
+- source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/indianapolis-colts
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: FTB-NFL-SEASON_2025-TEAM-IND-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_player_inventory
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 105
+        selected_player_count: 2
+    references:
+      campaign: FTB-NFL-SEASON_2025-TEAM-IND
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-IND-ROSTER-CAPTURE_2026_10_05-PLAYER-ABDULLAH_AMEER
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-IND-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ABDULLAH_AMEER
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-IND-ROSTER-CAPTURE_2026_10_05-PLAYER-ADEBAWORE_ADETOMIWA
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-IND-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ADEBAWORE_ADETOMIWA
+- source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/jacksonville-jaguars
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: FTB-NFL-SEASON_2025-TEAM-JAX-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_player_inventory
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 86
+        selected_player_count: 2
+    references:
+      campaign: FTB-NFL-SEASON_2025-TEAM-JAX
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-JAX-ROSTER-CAPTURE_2026_10_05-PLAYER-ABDULLAH_YASIR
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-JAX-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ABDULLAH_YASIR
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-JAX-ROSTER-CAPTURE_2026_10_05-PLAYER-AKINS_JORDAN
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-JAX-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-AKINS_JORDAN
+- source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/kansas-city-chiefs
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: FTB-NFL-SEASON_2025-TEAM-KC-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_player_inventory
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 90
+        selected_player_count: 2
+    references:
+      campaign: FTB-NFL-SEASON_2025-TEAM-KC
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-KC-ROSTER-CAPTURE_2026_10_05-PLAYER-ANUDIKE_UZOMAH_FELIX
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-KC-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ANUDIKE_UZOMAH_FELIX
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-KC-ROSTER-CAPTURE_2026_10_05-PLAYER-ARAIZA_MATT
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-KC-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ARAIZA_MATT
+- source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/los-angeles-chargers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: FTB-NFL-SEASON_2025-TEAM-LAC-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_player_inventory
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 99
+        selected_player_count: 2
+    references:
+      campaign: FTB-NFL-SEASON_2025-TEAM-LAC
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-LAC-ROSTER-CAPTURE_2026_10_05-PLAYER-ALLEN_KEENAN
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-LAC-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ALLEN_KEENAN
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-LAC-ROSTER-CAPTURE_2026_10_05-PLAYER-ALT_JOE
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-LAC-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ALT_JOE
+- source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/los-angeles-rams
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: FTB-NFL-SEASON_2025-TEAM-LAR-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_player_inventory
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 83
+        selected_player_count: 2
+    references:
+      campaign: FTB-NFL-SEASON_2025-TEAM-LAR
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-LAR-ROSTER-CAPTURE_2026_10_05-PLAYER-ADAMS_DAVANTE
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-LAR-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ADAMS_DAVANTE
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-LAR-ROSTER-CAPTURE_2026_10_05-PLAYER-ALLEN_DAVIS
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-LAR-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ALLEN_DAVIS
+- source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/las-vegas-raiders
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: FTB-NFL-SEASON_2025-TEAM-RAIDERS-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_player_inventory
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 88
+        selected_player_count: 2
+    references:
+      campaign: FTB-NFL-SEASON_2025-TEAM-RAIDERS
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-RAIDERS-ROSTER-CAPTURE_2026_10_05-PLAYER-ADAMS_JAMAL
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-RAIDERS-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ADAMS_JAMAL
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-RAIDERS-ROSTER-CAPTURE_2026_10_05-PLAYER-ANUSIEM_CHIGOZIE
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-RAIDERS-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ANUSIEM_CHIGOZIE
+- source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/miami-dolphins
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: FTB-NFL-SEASON_2025-TEAM-MIA-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_player_inventory
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 99
+        selected_player_count: 2
+    references:
+      campaign: FTB-NFL-SEASON_2025-TEAM-MIA
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-MIA-ROSTER-CAPTURE_2026_10_05-PLAYER-ACHANE_DE_VON
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-MIA-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ACHANE_DE_VON
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-MIA-ROSTER-CAPTURE_2026_10_05-PLAYER-ARMSTRONG_CORNELL
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-MIA-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ARMSTRONG_CORNELL
+- source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/minnesota-vikings
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: FTB-NFL-SEASON_2025-TEAM-MIN-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_player_inventory
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 91
+        selected_player_count: 2
+    references:
+      campaign: FTB-NFL-SEASON_2025-TEAM-MIN
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-MIN-ROSTER-CAPTURE_2026_10_05-PLAYER-ADDISON_JORDAN
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-MIN-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ADDISON_JORDAN
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-MIN-ROSTER-CAPTURE_2026_10_05-PLAYER-AKERS_CAM
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-MIN-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-AKERS_CAM
+- source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/new-england-patriots
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: FTB-NFL-SEASON_2025-TEAM-NE-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_player_inventory
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 108
+        selected_player_count: 2
+    references:
+      campaign: FTB-NFL-SEASON_2025-TEAM-NE
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-NE-ROSTER-CAPTURE_2026_10_05-PLAYER-ASHBY_JULIAN
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-NE-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ASHBY_JULIAN
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-NE-ROSTER-CAPTURE_2026_10_05-PLAYER-AUSTIN_ALEX
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-NE-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-AUSTIN_ALEX
+- source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/new-orleans-saints
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: FTB-NFL-SEASON_2025-TEAM-NO-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_player_inventory
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 96
+        selected_player_count: 2
+    references:
+      campaign: FTB-NFL-SEASON_2025-TEAM-NO
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-NO-ROSTER-CAPTURE_2026_10_05-PLAYER-AMADI_UGO
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-NO-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-AMADI_UGO
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-NO-ROSTER-CAPTURE_2026_10_05-PLAYER-AUSTIN_JR_KEVIN
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-NO-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-AUSTIN_JR_KEVIN
+- source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/new-york-giants
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: FTB-NFL-SEASON_2025-TEAM-NYG-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_player_inventory
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 102
+        selected_player_count: 2
+    references:
+      campaign: FTB-NFL-SEASON_2025-TEAM-NYG
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-NYG-ROSTER-CAPTURE_2026_10_05-PLAYER-ADEBO_PAULSON
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-NYG-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ADEBO_PAULSON
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-NYG-ROSTER-CAPTURE_2026_10_05-PLAYER-ALEXANDER_DARIUS
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-NYG-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ALEXANDER_DARIUS
+- source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/new-york-jets
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: FTB-NFL-SEASON_2025-TEAM-NYJ-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_player_inventory
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 106
+        selected_player_count: 2
+    references:
+      campaign: FTB-NFL-SEASON_2025-TEAM-NYJ
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-NYJ-ROSTER-CAPTURE_2026_10_05-PLAYER-ADAMS_TONY
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-NYJ-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ADAMS_TONY
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-NYJ-ROSTER-CAPTURE_2026_10_05-PLAYER-ALLEN_BRAELON
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-NYJ-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ALLEN_BRAELON
+- source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/philadelphia-eagles
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: FTB-NFL-SEASON_2025-TEAM-PHI-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_player_inventory
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 92
+        selected_player_count: 2
+    references:
+      campaign: FTB-NFL-SEASON_2025-TEAM-PHI
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-PHI-ROSTER-CAPTURE_2026_10_05-PLAYER-ADOMITIS_CAL
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-PHI-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ADOMITIS_CAL
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-PHI-ROSTER-CAPTURE_2026_10_05-PLAYER-ALEXANDER_JAIRE
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-PHI-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ALEXANDER_JAIRE
+- source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/pittsburgh-steelers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: FTB-NFL-SEASON_2025-TEAM-PIT-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_player_inventory
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 109
+        selected_player_count: 2
+    references:
+      campaign: FTB-NFL-SEASON_2025-TEAM-PIT
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-PIT-ROSTER-CAPTURE_2026_10_05-PLAYER-ADOMITIS_CAL
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-PIT-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ADOMITIS_CAL
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-PIT-ROSTER-CAPTURE_2026_10_05-PLAYER-ANDERSON_CALVIN
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-PIT-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ANDERSON_CALVIN
+- source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/seattle-seahawks
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: FTB-NFL-SEASON_2025-TEAM-SEA-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_player_inventory
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 94
+        selected_player_count: 2
+    references:
+      campaign: FTB-NFL-SEASON_2025-TEAM-SEA
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SEA-ROSTER-CAPTURE_2026_10_05-PLAYER-AKERS_CAM
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SEA-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-AKERS_CAM
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SEA-ROSTER-CAPTURE_2026_10_05-PLAYER-ARROYO_ELIJAH
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SEA-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ARROYO_ELIJAH
+- source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/san-francisco-49ers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Every
+      source-listed player is selected.
+  records:
+  - type: Roster
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_player_inventory
+      coverage: complete
+      details:
+        roster_coverage: complete_source_listing
+        source_player_count: 101
+        selected_player_count: 101
+    references:
+      campaign: FTB-NFL-SEASON_2025-TEAM-SF
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-AIYUK_BRANDON
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-AIYUK_BRANDON
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-ALARCON_ISAAC
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ALARCON_ISAAC
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-ANDERSON_EVAN
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ANDERSON_EVAN
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-CHOSEN_ROBBIE
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-CHOSEN_ROBBIE
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-APPLE_ELI
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-APPLE_ELI
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-BAKER_JAVON
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-BAKER_JAVON
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-BARTCH_BEN
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-BARTCH_BEN
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-BEAL_JR_ROB
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-BEAL_JR_ROB
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-BERGEN_JUNIOR
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-BERGEN_JUNIOR
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-BETHUNE_TATUM
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-BETHUNE_TATUM
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-BLANTON_STONE
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-BLANTON_STONE
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-BOLDEN_ISAIAH
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-BOLDEN_ISAIAH
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-BOSA_NICK
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-BOSA_NICK
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-BOURNE_KENDRICK
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-BOURNE_KENDRICK
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-BRADLEY_KING_WILL
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-BRADLEY_KING_WILL
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-BRENDEL_JAKE
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-BRENDEL_JAKE
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-BROWN_JI_AYIR
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-BROWN_JI_AYIR
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-BURFORD_SPENCER
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-BURFORD_SPENCER
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-CANTEEN_DERRICK
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-CANTEEN_DERRICK
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-COLBY_CONNOR
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-COLBY_CONNOR
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-COLLINS_ALFRED
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-COLLINS_ALFRED
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-COWING_JACOB
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-COWING_JACOB
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-DAVIS_KALIA
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-DAVIS_KALIA
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-ELLIOTT_JORDAN
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ELLIOTT_JORDAN
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-FARMER_II_ANDREW
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-FARMER_II_ANDREW
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-FARRELL_LUKE
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-FARRELL_LUKE
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-FERRELL_CLELIN
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-FERRELL_CLELIN
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-FORREST_DARRICK
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-FORREST_DARRICK
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-GAGE_RUSSELL
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-GAGE_RUSSELL
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-GAY_MATT
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-GAY_MATT
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-GIFFORD_LUKE
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-GIFFORD_LUKE
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-GIPSON_TREVIS
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-GIPSON_TREVIS
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-GIVENS_KEVIN
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-GIVENS_KEVIN
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-GRAHAM_JALEN
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-GRAHAM_JALEN
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-GREEN_RENARDO
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-GREEN_RENARDO
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-GROSS_MATOS_YETUR
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-GROSS_MATOS_YETUR
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-GUERENDO_ISAAC
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-GUERENDO_ISAAC
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-HECTOR_BRUCE
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-HECTOR_BRUCE
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-HENNESSY_MATT
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-HENNESSY_MATT
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-TOMLINSON_TRE
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-TOMLINSON_TRE
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-HUFF_BRYCE
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-HUFF_BRYCE
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-JACKSON_TARRON
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-JACKSON_TARRON
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-JAMES_JORDAN
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-JAMES_JORDAN
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-JEFFERSON_JORDAN
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-JEFFERSON_JORDAN
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-JENNINGS_JAUAN
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-JENNINGS_JAUAN
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-JONES_MAC
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-JONES_MAC
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-JUSZCZYK_KYLE
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-JUSZCZYK_KYLE
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-KENDRICKS_ERIC
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-KENDRICKS_ERIC
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-KITTLE_GEORGE
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-KITTLE_GEORGE
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-LENOIR_DEOMMODORE
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-LENOIR_DEOMMODORE
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-LUCAS_CHASE
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-LUCAS_CHASE
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-LUTER_JR_DARRELL
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-LUTER_JR_DARRELL
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-MAHONEY_JAYLEN
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-MAHONEY_JAYLEN
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-MARTIN_NICK
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-MARTIN_NICK
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-MARTINEZ_ADRIAN
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-MARTINEZ_ADRIAN
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-MCCAFFREY_CHRISTIAN
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-MCCAFFREY_CHRISTIAN
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-MCCORMICK_SINCERE
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-MCCORMICK_SINCERE
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-MCKIVITZ_COLTON
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-MCKIVITZ_COLTON
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-MOODY_JAKE
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-MOODY_JAKE
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-MOORE_SKYY
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-MOORE_SKYY
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-MORSTEAD_THOMAS
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-MORSTEAD_THOMAS
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-MOSS_DREW
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-MOSS_DREW
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-MUSTAPHA_MALIK
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-MUSTAPHA_MALIK
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-NEAL_SIRAN
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-NEAL_SIRAN
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-NUGENT_DRAKE
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-NUGENT_DRAKE
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-OKUAYINONU_SAM
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-OKUAYINONU_SAM
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-PARKER_BRANDON
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-PARKER_BRANDON
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-PEARSALL_RICKY
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-PEARSALL_RICKY
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-PINEIRO_EDDY
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-PINEIRO_EDDY
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-PINNOCK_JASON
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-PINNOCK_JASON
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-PLEASANTS_AUSTEN
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-PLEASANTS_AUSTEN
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-PUNI_DOMINICK
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-PUNI_DOMINICK
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-PURDY_BROCK
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-PURDY_BROCK
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-ROBINSON_CURTIS
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ROBINSON_CURTIS
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-ROBINSON_DEMARCUS
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ROBINSON_DEMARCUS
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-ROBINSON_JAKOB
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ROBINSON_JAKOB
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-ROBINSON_BRIAN
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ROBINSON_BRIAN
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-ROURKE_KURTIS
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ROURKE_KURTIS
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-RUCCI_HAYDEN
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-RUCCI_HAYDEN
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-SIGLE_MARQUES
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-SIGLE_MARQUES
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-STOUT_UPTON
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-STOUT_UPTON
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-SWINSON_MESSIAH
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-SWINSON_MESSIAH
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-TAYLOR_PATRICK
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-TAYLOR_PATRICK
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-TAYLOR_TRENT
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-TAYLOR_TRENT
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-TONGES_JAKE
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-TONGES_JAKE
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-TURNER_MALIK
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-TURNER_MALIK
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-VALDES_SCANTLING_MARQUEZ
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-VALDES_SCANTLING_MARQUEZ
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-VALDEZ_SEBASTIAN
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-VALDEZ_SEBASTIAN
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-WALLOW_GARRET
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-WALLOW_GARRET
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-WARNER_FRED
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-WARNER_FRED
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-WATKINS_JORDAN
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-WATKINS_JORDAN
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-WEEKS_JON
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-WEEKS_JON
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-WEST_C_J
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-WEST_C_J
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-WHITE_KEION
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-WHITE_KEION
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-WHITE_KYZIR
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-WHITE_KYZIR
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-WILLIAMS_MYKEL
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-WILLIAMS_MYKEL
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-WILLIAMS_TRENT
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-WILLIAMS_TRENT
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-WILLIS_BRAYDEN
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-WILLIS_BRAYDEN
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-WINTERS_DEE
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-WINTERS_DEE
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-ZAKELJ_NICK
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ZAKELJ_NICK
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05-PLAYER-ZIERER_KILIAN
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-SF-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ZIERER_KILIAN
+- source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/tampa-bay-buccaneers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: FTB-NFL-SEASON_2025-TEAM-TB-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_player_inventory
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 90
+        selected_player_count: 2
+    references:
+      campaign: FTB-NFL-SEASON_2025-TEAM-TB
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-TB-ROSTER-CAPTURE_2026_10_05-PLAYER-BANKS_MARCUS
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-TB-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-BANKS_MARCUS
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-TB-ROSTER-CAPTURE_2026_10_05-PLAYER-BARNHART_KARSEN
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-TB-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-BARNHART_KARSEN
+- source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/tennessee-titans
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: FTB-NFL-SEASON_2025-TEAM-TEN-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_player_inventory
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 101
+        selected_player_count: 2
+    references:
+      campaign: FTB-NFL-SEASON_2025-TEAM-TEN
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-TEN-ROSTER-CAPTURE_2026_10_05-PLAYER-AGOHA_DAVID
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-TEN-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-AGOHA_DAVID
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-TEN-ROSTER-CAPTURE_2026_10_05-PLAYER-ALLEN_BRANDON
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-TEN-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ALLEN_BRANDON
+- source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/washington-commanders
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+  records:
+  - type: Roster
+    code: FTB-NFL-SEASON_2025-TEAM-WAS-ROSTER-CAPTURE_2026_10_05
+    attributes:
+      kind: published_season_player_inventory
+      coverage: partial
+      details:
+        roster_coverage: two_player_sample
+        source_player_count: 96
+        selected_player_count: 2
+    references:
+      campaign: FTB-NFL-SEASON_2025-TEAM-WAS
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-WAS-ROSTER-CAPTURE_2026_10_05-PLAYER-ALLEGRETTI_NICK
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-WAS-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-ALLEGRETTI_NICK
+  - type: RosterEntry
+    code: FTB-NFL-SEASON_2025-TEAM-WAS-ROSTER-CAPTURE_2026_10_05-PLAYER-AMOS_TREY
+    references:
+      roster: FTB-NFL-SEASON_2025-TEAM-WAS-ROSTER-CAPTURE_2026_10_05
+      player: FTB-NFL-PLAYER-AMOS_TREY

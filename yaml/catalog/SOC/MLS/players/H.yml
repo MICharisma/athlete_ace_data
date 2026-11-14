@@ -1,0 +1,764 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: SOC-MLS-PLAYER-HAAK_JUSTIN
+  aliases:
+  - SOC-ESPN-PLAYER_285383
+  attributes:
+    first_name: Justin
+    last_name: Haak
+    birthdate: '2001-09-12'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/285383.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/187/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HABROUNE_TAHA
+  aliases:
+  - SOC-ESPN-PLAYER_362812
+  attributes:
+    first_name: Taha
+    last_name: Habroune
+    birthdate: '2006-02-05'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/183/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HADEBE_TEENAGE
+  aliases:
+  - SOC-ESPN-PLAYER_232755
+  attributes:
+    first_name: Teenage
+    last_name: Hadebe
+    birthdate: '1995-09-17'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/232755.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/18267/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HAGEN_NICHOLAS
+  aliases:
+  - SOC-ESPN-PLAYER_224640
+  attributes:
+    first_name: Nicholas
+    last_name: Hagen
+    birthdate: '1996-08-02'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/183/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HAGGLUND_NICK
+  aliases:
+  - SOC-ESPN-PLAYER_201354
+  attributes:
+    first_name: Nick
+    last_name: Hagglund
+    birthdate: '1992-09-14'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/201354.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/18267/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HAILE_SELASSIE_MAREN
+  aliases:
+  - SOC-ESPN-PLAYER_259951
+  attributes:
+    first_name: Maren
+    last_name: Haile-Selassie
+    birthdate: '1999-03-13'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/259951.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/182/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HALBOUNI_BELAL
+  aliases:
+  - SOC-ESPN-PLAYER_343994
+  attributes:
+    first_name: Belal
+    last_name: Halbouni
+    birthdate: '1999-12-29'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/9727/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HALL_JULIAN
+  aliases:
+  - SOC-ESPN-PLAYER_288041
+  attributes:
+    first_name: Julian
+    last_name: Hall
+    birthdate: '2008-03-24'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/190/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HALL_TYLER
+  aliases:
+  - SOC-ESPN-PLAYER_364401
+  attributes:
+    first_name: Tyler
+    last_name: Hall
+    birthdate: '2006-02-05'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/20232/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HALTER_LUCAS
+  aliases:
+  - SOC-ESPN-PLAYER_266281
+  attributes:
+    first_name: Lucas
+    last_name: Halter
+    birthdate: '2000-05-02'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/6077/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HANCHE_OLSEN_ANDREAS
+  aliases:
+  - SOC-ESPN-PLAYER_218646
+  attributes:
+    first_name: Andreas
+    last_name: Hanche-Olsen
+    birthdate: '1997-01-17'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/182/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HANSEN_NICO
+  aliases:
+  - SOC-ESPN-PLAYER_293342
+  attributes:
+    first_name: Nico
+    last_name: Hansen
+    birthdate: '2001-07-10'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/184/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HARKES_IAN
+  aliases:
+  - SOC-ESPN-PLAYER_249699
+  attributes:
+    first_name: Ian
+    last_name: Harkes
+    birthdate: '1995-03-30'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/249699.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/191/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HARPER_CAMERON
+  aliases:
+  - SOC-ESPN-PLAYER_270302
+  attributes:
+    first_name: Cameron
+    last_name: Harper
+    birthdate: '2001-11-19'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/270302.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/190/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HARRIEL_NATHAN
+  aliases:
+  - SOC-ESPN-PLAYER_286778
+  attributes:
+    first_name: Nathan
+    last_name: Harriel
+    birthdate: '2001-04-23'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/286778.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/10739/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HARRISON_JACK
+  aliases:
+  - SOC-ESPN-PLAYER_199850
+  attributes:
+    first_name: Jack
+    last_name: Harrison
+    birthdate: '1996-11-20'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/189/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HARRIS_ALEX
+  aliases:
+  - SOC-ESPN-PLAYER_179245
+  attributes:
+    first_name: Alex
+    last_name: Harris
+    birthdate: '1994-08-31'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/184/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HARRIS_CALVIN
+  aliases:
+  - SOC-ESPN-PLAYER_293695
+  attributes:
+    first_name: Calvin
+    last_name: Harris
+    birthdate: '2000-03-20'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/293695.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/186/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HARRIS_WILSON
+  aliases:
+  - SOC-ESPN-PLAYER_272161
+  attributes:
+    first_name: Wilson
+    last_name: Harris
+    birthdate: '1999-11-28'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/189/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HARUNA_ISSAH
+  aliases:
+  - SOC-ESPN-PLAYER_3124789
+  attributes:
+    first_name: Issah
+    last_name: Haruna
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/12011/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HARVEY_CARLOS
+  aliases:
+  - SOC-ESPN-PLAYER_285452
+  attributes:
+    first_name: Carlos
+    last_name: Harvey
+    birthdate: '2000-02-03'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/285452.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/17362/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HASAL_THOMAS
+  aliases:
+  - SOC-ESPN-PLAYER_262728
+  attributes:
+    first_name: Thomas
+    last_name: Hasal
+    birthdate: '1999-07-09'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/262728.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/18966/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HAWKINS_STUART
+  aliases:
+  - SOC-ESPN-PLAYER_371080
+  attributes:
+    first_name: Stuart
+    last_name: Hawkins
+    birthdate: '2006-09-18'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/9726/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HEFTI_SILVAN
+  aliases:
+  - SOC-ESPN-PLAYER_227891
+  attributes:
+    first_name: Silvan
+    last_name: Hefti
+    birthdate: '1997-10-25'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/193/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HENRY_KOBI
+  aliases:
+  - SOC-ESPN-PLAYER_304126
+  attributes:
+    first_name: Kobi
+    last_name: Henry
+    birthdate: '2004-04-26'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/4771/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HENRY_MALIK
+  aliases:
+  - SOC-ESPN-PLAYER_308639
+  attributes:
+    first_name: Malik
+    last_name: Henry
+    birthdate: '2002-07-23'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/7318/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HERBERS_FABIAN
+  aliases:
+  - SOC-ESPN-PLAYER_233047
+  attributes:
+    first_name: Fabian
+    last_name: Herbers
+    birthdate: '1993-08-17'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/233047.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/9720/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HERNANDEZ_RONALD
+  aliases:
+  - SOC-ESPN-PLAYER_240783
+  attributes:
+    first_name: Ronald
+    last_name: Hernández
+    birthdate: '1997-09-21'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/240783.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/9723/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HERRERA_ANDRES
+  aliases:
+  - SOC-ESPN-PLAYER_286389
+  attributes:
+    first_name: Andrés
+    last_name: Herrera
+    birthdate: '1998-11-03'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/183/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HERRERA_HECTOR
+  aliases:
+  - SOC-ESPN-PLAYER_146866
+  attributes:
+    first_name: Héctor
+    last_name: Herrera
+    birthdate: '1990-04-19'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/146866.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/6077/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HEUNG_MIN_SON
+  aliases:
+  - SOC-ESPN-PLAYER_149945
+  attributes:
+    first_name: Son
+    last_name: Heung-Min
+    birthdate: '1992-07-08'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/18966/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HEZARKHANI_AIDEN
+  aliases:
+  - SOC-ESPN-PLAYER_399190
+  attributes:
+    first_name: Aiden
+    last_name: Hezarkhani
+    birthdate: '2007-06-28'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/4771/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HIBBERT_JAYDEN
+  aliases:
+  - SOC-ESPN-PLAYER_385044
+  attributes:
+    first_name: Jayden
+    last_name: Hibbert
+    birthdate: '2004-08-05'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/18418/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HIDALGO_BODE
+  aliases:
+  - SOC-ESPN-PLAYER_295620
+  attributes:
+    first_name: Bode
+    last_name: Hidalgo
+    birthdate: '2002-02-22'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/295620.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/9720/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HIEBERT_KYLE
+  aliases:
+  - SOC-ESPN-PLAYER_319055
+  attributes:
+    first_name: Kyle
+    last_name: Hiebert
+    birthdate: '1997-07-30'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/319055.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/21812/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HIMES_TRISTAN
+  aliases:
+  - SOC-ESPN-PLAYER_330021
+  attributes:
+    first_name: Tristan
+    last_name: Himes
+    birthdate: '2003-07-15'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/12011/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HINES_IKE_BRENDAN
+  aliases:
+  - SOC-ESPN-PLAYER_238438
+  attributes:
+    first_name: Brendan
+    last_name: Hines-Ike
+    birthdate: '1994-11-30'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/238438.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/20906/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HLONGWANE_BONGOKUHLE
+  aliases:
+  - SOC-ESPN-PLAYER_287784
+  attributes:
+    first_name: Bongokuhle
+    last_name: Hlongwane
+    birthdate: '2000-06-20'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/287784.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/17362/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HOLDING_ROB
+  aliases:
+  - SOC-ESPN-PLAYER_218188
+  attributes:
+    first_name: Rob
+    last_name: Holding
+    birthdate: '1995-09-20'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/184/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HOLLINGSHEAD_RYAN
+  aliases:
+  - SOC-ESPN-PLAYER_183758
+  attributes:
+    first_name: Ryan
+    last_name: Hollingshead
+    birthdate: '1991-04-16'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/183758.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/18966/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HOLMES_DUANE
+  aliases:
+  - SOC-ESPN-PLAYER_182070
+  attributes:
+    first_name: Duane
+    last_name: Holmes
+    birthdate: '1994-11-06'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/6077/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HOLSE_CARLO
+  aliases:
+  - SOC-ESPN-PLAYER_255313
+  attributes:
+    first_name: Carlo
+    last_name: Holse
+    birthdate: '1999-06-02'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/21812/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HOLSTAD_CLAY
+  aliases:
+  - SOC-ESPN-PLAYER_279821
+  attributes:
+    first_name: Clay
+    last_name: Holstad
+    birthdate: '2000-01-12'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/185/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HOPKINS_JACKSON
+  aliases:
+  - SOC-ESPN-PLAYER_324048
+  attributes:
+    first_name: Jackson
+    last_name: Hopkins
+    birthdate: '2004-07-01'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/324048.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/193/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HORVATH_ETHAN
+  aliases:
+  - SOC-ESPN-PLAYER_192027
+  attributes:
+    first_name: Ethan
+    last_name: Horvath
+    birthdate: '1995-06-09'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/190/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HOYOS_LUCAS
+  aliases:
+  - SOC-ESPN-PLAYER_109193
+  attributes:
+    first_name: Lucas
+    last_name: Hoyos
+    birthdate: '1989-04-29'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/18418/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HUGHES_KEEGAN
+  aliases:
+  - SOC-ESPN-PLAYER_291705
+  attributes:
+    first_name: Keegan
+    last_name: Hughes
+    birthdate: '2000-07-22'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/291705.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/189/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-HYLTON_JUSTIN
+  aliases:
+  - SOC-ESPN-PLAYER_399945
+  attributes:
+    first_name: Justin
+    last_name: Hylton
+    birthdate: '2007-12-04'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/12011/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.

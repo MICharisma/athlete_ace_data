@@ -1,0 +1,16 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Stadium
+  code: STADIUM-FI-18-HELSINKI-VEIKKAUS_ARENA
+  attributes:
+    name: Veikkaus Arena
+  references:
+    city: CITY-FI-18-HELSINKI
+  source:
+    note: Locality from the NHL landing record's venueLocation. Helsinki is in Uusimaa
+      (ISO 3166-2 FI-18).
+    url: https://api-web.nhle.com/v1/gamecenter/2026020309/landing
+    captured_on: '2026-11-13'

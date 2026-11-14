@@ -1,0 +1,166 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: BKT-NBA-PLAYER-VALANCIUNAS_JONAS
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_VALANJO01
+  attributes:
+    first_name: Jonas
+    last_name: Valančiūnas
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/denver-nuggets/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-VANDERBILT_JARRED
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_VANDEJA01
+  - BKT-ESPN-PLAYER_4278077
+  attributes:
+    first_name: Jarred
+    last_name: Vanderbilt
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/los-angeles-lakers/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Player
+  code: BKT-NBA-PLAYER-VANVLEET_FRED
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_VANVLFR01
+  - BKT-ESPN-PLAYER_2991230
+  attributes:
+    first_name: Fred
+    last_name: VanVleet
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/houston-rockets/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-VASSELL_DEVIN
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_VASSEDE01
+  - BKT-ESPN-PLAYER_4395630
+  attributes:
+    first_name: Devin
+    last_name: Vassell
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/san-antonio-spurs/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-VEESAAR_HENRI
+  aliases:
+  - BKT-ESPN-PLAYER_5105571
+  attributes:
+    first_name: Henri
+    last_name: Veesaar
+    birthdate: '2004-03-28'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nba/players/full/5105571.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/1/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: BKT-NBA-PLAYER-VEZENKOV_SASHA
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_VEZENAL01
+  attributes:
+    first_name: Sasha
+    last_name: Vezenkov
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://www.basketball-reference.com/leagues/NBA_2024_per_game.html
+    captured_on: '2026-10-26'
+    note: Complete regular-season and playoff appearance union by team, retaining
+      trade-side memberships. Excludes roster members with no recorded appearances
+      and does not establish jersey-number periods.
+- type: Player
+  code: BKT-NBA-PLAYER-VINCENT_GABE
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_VINCEGA01
+  attributes:
+    first_name: Gabe
+    last_name: Vincent
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/atlanta-hawks/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-VUCEVIC_NIKOLA
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_VUCEVNI01
+  - BKT-ESPN-PLAYER_6478
+  attributes:
+    first_name: Nikola
+    last_name: Vučević
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/boston-celtics/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Player
+  code: BKT-NBA-PLAYER-VUKCEVIC_TRISTAN
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_VUKCETR01
+  - BKT-ESPN-PLAYER_4997537
+  attributes:
+    first_name: Tristan
+    last_name: Vukcevic
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/washington-wizards/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.

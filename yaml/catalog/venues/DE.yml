@@ -1,0 +1,16 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Stadium
+  code: STADIUM-DE-NW-DUSSELDORF-PSD_BANK_DOME
+  attributes:
+    name: PSD Bank Dome
+  references:
+    city: CITY-DE-NW-DUSSELDORF
+  source:
+    note: Locality from the NHL landing record's venueLocation. Düsseldorf is in North
+      Rhine-Westphalia (ISO 3166-2 DE-NW).
+    url: https://api-web.nhle.com/v1/gamecenter/2026020560/landing
+    captured_on: '2026-11-13'

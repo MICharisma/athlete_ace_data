@@ -1,0 +1,90 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-OGUNYEMI_DANIEL
+  aliases:
+  - BKT-ESPN-PLAYER_5313389
+  attributes:
+    first_name: Daniel
+    last_name: Ogunyemi
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5313389.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/43/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-OWARE_JONAS
+  aliases:
+  - BKT-ESPN-PLAYER_5459430
+  attributes:
+    first_name: Jonas
+    last_name: Oware
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5459430.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/43/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-O_KEEFE_GERARD
+  aliases:
+  - BKT-ESPN-PLAYER_5241712
+  attributes:
+    first_name: Gerard
+    last_name: O'Keefe
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5241712.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/171/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-O_KEEFE_LOUIS
+  aliases:
+  - BKT-ESPN-PLAYER_5459448
+  attributes:
+    first_name: Louis
+    last_name: O'Keefe
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5459448.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/163/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-O_SULLIVAN_CHARLIE
+  aliases:
+  - BKT-ESPN-PLAYER_5312602
+  attributes:
+    first_name: Charlie
+    last_name: O'Sullivan
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5312602.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/225/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.

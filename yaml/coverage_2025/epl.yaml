@@ -1,0 +1,369 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+scope:
+  sport: SPORT-SOC
+  league: SOC-LEAGUE-EPL
+  year: YEAR-2025
+groups:
+- scope:
+    team: SOC-EPL-TEAM-ARS
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-ARS-PLAYER-ARRIZABALAGA_REVUELTA_KEPA
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-ARRIZABALAGA_REVUELTA_KEPA
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-ARS-PLAYER-CALAFIORI_RICCARDO
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-CALAFIORI_RICCARDO
+- scope:
+    team: SOC-EPL-TEAM-AVL
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-AVL-PLAYER-BARKLEY_ROSS
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-BARKLEY_ROSS
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-AVL-PLAYER-BIZOT_MARCO
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-BIZOT_MARCO
+- scope:
+    team: SOC-EPL-TEAM-BHA
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-BHA-PLAYER-AYARI_YASIN
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-AYARI_YASIN
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-BHA-PLAYER-BOSCAGLI_OLIVIER
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-BOSCAGLI_OLIVIER
+- scope:
+    team: SOC-EPL-TEAM-BOU
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-BOU-PLAYER-ADAMS_TYLER_SHAAN
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-ADAMS_TYLER_SHAAN
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-BOU-PLAYER-ADLI_AMINE
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-ADLI_AMINE
+- scope:
+    team: SOC-EPL-TEAM-BRE
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-BRE-PLAYER-ADEDOKUN_VALENTINO_MAYOWA
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-ADEDOKUN_VALENTINO_MAYOWA
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-BRE-PLAYER-AJER_KRISTOFFER_VASSBAKK
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-AJER_KRISTOFFER_VASSBAKK
+- scope:
+    team: SOC-EPL-TEAM-BUR
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-BUR-PLAYER-ANTHONY_JAIDON
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-ANTHONY_JAIDON
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-BUR-PLAYER-BARNES_ASHLEY
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-BARNES_ASHLEY
+- scope:
+    team: SOC-EPL-TEAM-CHE
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-CHE-PLAYER-ADARABIOYO_ABDUL_NASIR_OLUWATOSIN
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-ADARABIOYO_ABDUL_NASIR_OLUWATOSIN
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-CHE-PLAYER-BADIASHILE_MUKINAYI_BENOIT_NTAMBUE
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-BADIASHILE_MUKINAYI_BENOIT_NTAMBUE
+- scope:
+    team: SOC-EPL-TEAM-CRY
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-CRY-PLAYER-AHAMADA_NAOUIROU
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-AHAMADA_NAOUIROU
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-CRY-PLAYER-BENITEZ_WALTER_DANIEL
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-BENITEZ_WALTER_DANIEL
+- scope:
+    team: SOC-EPL-TEAM-EVE
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-EVE-PLAYER-ALCARAZ_DURAN_CARLOS_JONAS
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-ALCARAZ_DURAN_CARLOS_JONAS
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-EVE-PLAYER-BARRY_THIERNO_MAMADOU
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-BARRY_THIERNO_MAMADOU
+- scope:
+    team: SOC-EPL-TEAM-FUL
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-FUL-PLAYER-ANDERSEN_JOACHIM_CHRISTIAN
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-ANDERSEN_JOACHIM_CHRISTIAN
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-FUL-PLAYER-BASSEY_CALVIN
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-BASSEY_CALVIN
+- scope:
+    team: SOC-EPL-TEAM-LEE
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-LEE-PLAYER-AARONSON_BRENDEN_RUSSELL
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-AARONSON_BRENDEN_RUSSELL
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-LEE-PLAYER-AMPADU_ETHAN_KWAME_COLM_RAYMOND
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-AMPADU_ETHAN_KWAME_COLM_RAYMOND
+- scope:
+    team: SOC-EPL-TEAM-LIV
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-LIV-PLAYER-BECKER_ALISSON_RAMSES
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-BECKER_ALISSON_RAMSES
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-LIV-PLAYER-BRADLEY_CONOR
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-BRADLEY_CONOR
+- scope:
+    team: SOC-EPL-TEAM-MCI
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-MCI-PLAYER-AIT_NOURI_RAYAN
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-AIT_NOURI_RAYAN
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-MCI-PLAYER-AKE_NATHAN_BENJAMIN
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-AKE_NATHAN_BENJAMIN
+- scope:
+    team: SOC-EPL-TEAM-MUN
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-MUN-PLAYER-BAYINDIR_ALTAY
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-BAYINDIR_ALTAY
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-MUN-PLAYER-BENNETT_RHYS_JOSEPH_WRIGHT
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-BENNETT_RHYS_JOSEPH_WRIGHT
+- scope:
+    team: SOC-EPL-TEAM-NEW
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-NEW-PLAYER-APOLINARIO_DE_LIRA_JOELINTON_CASSIO
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-APOLINARIO_DE_LIRA_JOELINTON_CASSIO
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-NEW-PLAYER-ASHBY_HARRISON_CHARLES
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-ASHBY_HARRISON_CHARLES
+- scope:
+    team: SOC-EPL-TEAM-NFO
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-NFO-PLAYER-ANDERSON_ELLIOT_JUNIOR
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-ANDERSON_ELLIOT_JUNIOR
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-NFO-PLAYER-AWONIYI_TAIWO_MICHEAL
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-AWONIYI_TAIWO_MICHEAL
+- scope:
+    team: SOC-EPL-TEAM-SUN
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-SUN-PLAYER-ADINGRA_SIMON
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-ADINGRA_SIMON
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-SUN-PLAYER-ALDERETE_FERNANDEZ_OMAR_FEDERICO
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-ALDERETE_FERNANDEZ_OMAR_FEDERICO
+- scope:
+    team: SOC-EPL-TEAM-TOT
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-TOT-PLAYER-AUSTIN_BRANDON_ANTHONY
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-AUSTIN_BRANDON_ANTHONY
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-TOT-PLAYER-BENTANCUR_RODRIGO
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-BENTANCUR_RODRIGO
+- scope:
+    team: SOC-EPL-TEAM-WHU
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-WHU-PLAYER-AREOLA_ALPHONSE_FRANCIS
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-AREOLA_ALPHONSE_FRANCIS
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-WHU-PLAYER-BOWEN_JARROD
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-BOWEN_JARROD
+- scope:
+    team: SOC-EPL-TEAM-WOL
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+  records:
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-WOL-PLAYER-AGBADOU_BADOBRE_EMMANUEL_ELYSEE_DJEDJE
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-AGBADOU_BADOBRE_EMMANUEL_ELYSEE_DJEDJE
+  - type: Activation
+    code: SOC-EPL-SEASON_2025_2026-TEAM-WOL-PLAYER-ARIAS_ANDRADE_JHON_ADOLFO
+    attributes: {}
+    references:
+      player: SOC-EPL-PLAYER-ARIAS_ANDRADE_JHON_ADOLFO

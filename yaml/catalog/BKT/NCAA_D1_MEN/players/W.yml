@@ -1,0 +1,158 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-WALLACE_COURTNEY
+  aliases:
+  - BKT-ESPN-PLAYER_5313385
+  attributes:
+    first_name: Courtney
+    last_name: Wallace
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5313385.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/43/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-WHITFIELD_SEBASTIAN
+  aliases:
+  - BKT-ESPN-PLAYER_5314682
+  attributes:
+    first_name: Sebastian
+    last_name: Whitfield
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5314682.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/163/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-WILLIAMS_LANDON
+  aliases:
+  - BKT-ESPN-PLAYER_5242642
+  attributes:
+    first_name: Landon
+    last_name: Williams
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5242642.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/159/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-WILLIAMS_MIKEHI
+  aliases:
+  - BKT-ESPN-PLAYER_5460040
+  attributes:
+    first_name: Mikehi
+    last_name: Williams
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5460040.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/172/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-WILLIAMS_TREY
+  aliases:
+  - BKT-ESPN-PLAYER_5460041
+  attributes:
+    first_name: Trey
+    last_name: Williams
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5460041.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/172/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-WINKLER_TIM
+  aliases:
+  - BKT-ESPN-PLAYER_5144558
+  attributes:
+    first_name: Tim
+    last_name: Winkler
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5144558.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/43/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-WOOLEY_BRADY
+  aliases:
+  - BKT-ESPN-PLAYER_5459429
+  attributes:
+    first_name: Brady
+    last_name: Wooley
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5459429.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/43/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-WOO_RYKAN
+  aliases:
+  - BKT-ESPN-PLAYER_5458750
+  attributes:
+    first_name: Rykan
+    last_name: Woo
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5458750.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/225/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-WRISBY_JEFFERSON_MALCOLM
+  aliases:
+  - BKT-ESPN-PLAYER_5175853
+  attributes:
+    first_name: Malcolm
+    last_name: Wrisby-Jefferson
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5175853.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/225/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.

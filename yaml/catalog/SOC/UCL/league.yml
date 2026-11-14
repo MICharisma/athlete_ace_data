@@ -1,0 +1,14 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: League
+  code: SOC-LEAGUE-UCL
+  attributes:
+    name: UEFA Champions League
+    abbreviation: UCL
+  references:
+    sport: SPORT-SOC
+    jurisdiction: FEDERATION-UEFA
+  source: {}

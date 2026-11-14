@@ -1,0 +1,695 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Logo
+  code: BKT-NBA-TEAM-NYK-LOGO-PRIMARY
+  attributes:
+    name: Knicks primary logo
+    role: primary
+    ongoing: true
+  references:
+    team: BKT-NBA-TEAM-NYK
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/18/roster?season=2027
+    asset_url: https://a.espncdn.com/i/teamlogos/nba/500/ny.png
+    captured_on: '2026-10-26'
+- type: AssetRepresentation
+  code: BKT-NBA-TEAM-NYK-LOGO-PRIMARY-FILE-KNICKS_PRIMARY_PNG
+  attributes:
+    canonical_path: media/pilot/knicks-primary.png
+    file_format: png
+    content_type: image/png
+    view: default
+    sha256: 35d2cc3780d172d427ed9bec8300bdcb91dd1065a3e1b6b015d46bb065ea35f5
+    byte_size: 98474
+    details:
+      depiction: source_image
+  references:
+    subject: BKT-NBA-TEAM-NYK-LOGO-PRIMARY
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/18/roster?season=2027
+    asset_url: https://a.espncdn.com/i/teamlogos/nba/500/ny.png
+    captured_on: '2026-10-26'
+- type: Logo
+  code: BKT-NBA-TEAM-NYK-LOGO-SECONDARY
+  attributes:
+    name: Knicks secondary logo
+    role: secondary
+    ongoing: true
+  references:
+    team: BKT-NBA-TEAM-NYK
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/18/roster?season=2027
+    asset_url: https://a.espncdn.com/guid/61719eb2-11c3-4e3d-90c3-0a1319fd850b/logos/secondary_logo_on_white_color.png
+    captured_on: '2026-10-26'
+- type: AssetRepresentation
+  code: BKT-NBA-TEAM-NYK-LOGO-SECONDARY-FILE-KNICKS_SECONDARY_PNG
+  attributes:
+    canonical_path: media/pilot/knicks-secondary.png
+    file_format: png
+    content_type: image/png
+    view: default
+    sha256: 51c8415049ab6c2843698ff234ff411c5ce9a1852034d57f74bf5300b47b27f1
+    byte_size: 232209
+    details:
+      depiction: source_image
+  references:
+    subject: BKT-NBA-TEAM-NYK-LOGO-SECONDARY
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/18/roster?season=2027
+    asset_url: https://a.espncdn.com/guid/61719eb2-11c3-4e3d-90c3-0a1319fd850b/logos/secondary_logo_on_white_color.png
+    captured_on: '2026-10-26'
+- type: Logo
+  code: HCK-NHL-TEAM-STL-LOGO-PRIMARY
+  attributes:
+    name: Blues Blue Note
+    role: primary
+    ongoing: true
+  references:
+    team: HCK-NHL-TEAM-STL
+  source:
+    url: https://www.nhl.com/blues/team/brand
+    asset_url: https://assets.nhle.com/logos/nhl/svg/STL_light.svg
+    captured_on: '2026-10-26'
+- type: AssetRepresentation
+  code: HCK-NHL-TEAM-STL-LOGO-PRIMARY-FILE-BLUES_PRIMARY_SVG
+  attributes:
+    canonical_path: media/pilot/blues-primary.svg
+    file_format: svg
+    content_type: image/svg+xml
+    view: default
+    sha256: 3a61c2a870cedab47508bc46b567f572e69cf8f2173aef13eee17c87bd07c44f
+    byte_size: 2693
+    details:
+      depiction: source_image
+  references:
+    subject: HCK-NHL-TEAM-STL-LOGO-PRIMARY
+  source:
+    url: https://www.nhl.com/blues/team/brand
+    asset_url: https://assets.nhle.com/logos/nhl/svg/STL_light.svg
+    captured_on: '2026-10-26'
+- type: Logo
+  code: HCK-NHL-TEAM-STL-LOGO-FLEUR
+  attributes:
+    name: Blues Fleur
+    role: fleur
+    ongoing: true
+  references:
+    team: HCK-NHL-TEAM-STL
+  source:
+    url: https://www.nhl.com/blues/team/brand
+    asset_url: https://media.d3.nhle.com/image/private/t_ratio1_1-size30/f_auto/prd/i4bpk0uecfyexiy8wsdq.jpg
+    captured_on: '2026-10-26'
+- type: AssetRepresentation
+  code: HCK-NHL-TEAM-STL-LOGO-FLEUR-FILE-BLUES_FLEUR_JPG
+  attributes:
+    canonical_path: media/pilot/blues-fleur.jpg
+    file_format: jpg
+    content_type: image/jpeg
+    view: default
+    sha256: 92ad2bc64b3dc9c575f63bc0c6f5316ddd39180ed30b8e47ff4062c7df7e9a45
+    byte_size: 30314
+    details:
+      depiction: source_image
+  references:
+    subject: HCK-NHL-TEAM-STL-LOGO-FLEUR
+  source:
+    url: https://www.nhl.com/blues/team/brand
+    asset_url: https://media.d3.nhle.com/image/private/t_ratio1_1-size30/f_auto/prd/i4bpk0uecfyexiy8wsdq.jpg
+    captured_on: '2026-10-26'
+- type: Logo
+  code: SOC-EPL-TEAM-ARS-LOGO-PRIMARY
+  attributes:
+    name: Arsenal crest
+    role: primary
+    ongoing: true
+  references:
+    team: SOC-EPL-TEAM-ARS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/359
+    asset_url: https://a.espncdn.com/i/teamlogos/soccer/500/359.png
+    captured_on: '2026-10-26'
+- type: AssetRepresentation
+  code: SOC-EPL-TEAM-ARS-LOGO-PRIMARY-FILE-ARSENAL_PRIMARY_PNG
+  attributes:
+    canonical_path: media/pilot/arsenal-primary.png
+    file_format: png
+    content_type: image/png
+    view: default
+    sha256: 92f1bb35662ff56dde09e1f8084221a458357a6df390bc97b2ed6495f6e39f53
+    byte_size: 36280
+    details:
+      depiction: source_image
+  references:
+    subject: SOC-EPL-TEAM-ARS-LOGO-PRIMARY
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/359
+    asset_url: https://a.espncdn.com/i/teamlogos/soccer/500/359.png
+    captured_on: '2026-10-26'
+- type: Uniform
+  code: BKT-NBA-TEAM-NYK-UNIFORM-ASSOCIATION
+  attributes:
+    name: Knicks Association Edition
+    role: association
+    details:
+      coverage: selected_visual_components
+  references:
+    team: BKT-NBA-TEAM-NYK
+  source:
+    url: https://store.nba.com/new-york-knicks/unisex-new-york-knicks-jalen-brunson-nike-white-swingman-jersey-association-edition/t-25470720+p-469981676139465+z-9-3762950839
+    captured_on: '2026-10-26'
+- type: UniformPiece
+  code: BKT-NBA-TEAM-NYK-UNIFORM-ASSOCIATION-PIECE-JERSEY
+  attributes:
+    name: jersey
+  references:
+    uniform: BKT-NBA-TEAM-NYK-UNIFORM-ASSOCIATION
+  source:
+    url: https://store.nba.com/new-york-knicks/unisex-new-york-knicks-jalen-brunson-nike-white-swingman-jersey-association-edition/t-25470720+p-469981676139465+z-9-3762950839
+    captured_on: '2026-10-26'
+- type: AssetRepresentation
+  code: BKT-NBA-TEAM-NYK-UNIFORM-ASSOCIATION-PIECE-JERSEY-FILE-BKT_NBA_TEAM_NYK_ASSOCIATION_JERSEY_SVG
+  attributes:
+    canonical_path: media/pilot/bkt-nba-team-nyk-association-jersey.svg
+    file_format: svg
+    content_type: image/svg+xml
+    view: front
+    sha256: 1b7c68485e85842e4e6c0a8f3047098d7ef4dc720a2a43428556218aa1cbc18a
+    byte_size: 420
+    details:
+      depiction: illustrative_schematic
+  references:
+    subject: BKT-NBA-TEAM-NYK-UNIFORM-ASSOCIATION-PIECE-JERSEY
+  source:
+    url: https://store.nba.com/new-york-knicks/unisex-new-york-knicks-jalen-brunson-nike-white-swingman-jersey-association-edition/t-25470720+p-469981676139465+z-9-3762950839
+    captured_on: '2026-10-26'
+    generated_by: scripts/build_visual_assets.rb
+- type: UniformPiece
+  code: BKT-NBA-TEAM-NYK-UNIFORM-ASSOCIATION-PIECE-SHORTS
+  attributes:
+    name: shorts
+  references:
+    uniform: BKT-NBA-TEAM-NYK-UNIFORM-ASSOCIATION
+  source:
+    url: https://store.nba.com/new-york-knicks/unisex-new-york-knicks-jalen-brunson-nike-white-swingman-jersey-association-edition/t-25470720+p-469981676139465+z-9-3762950839
+    captured_on: '2026-10-26'
+- type: AssetRepresentation
+  code: BKT-NBA-TEAM-NYK-UNIFORM-ASSOCIATION-PIECE-SHORTS-FILE-BKT_NBA_TEAM_NYK_ASSOCIATION_SHORTS_SVG
+  attributes:
+    canonical_path: media/pilot/bkt-nba-team-nyk-association-shorts.svg
+    file_format: svg
+    content_type: image/svg+xml
+    view: front
+    sha256: cb95455047dec71f68893fa81ac095e49930c7784096ee3cb733ff4c89d26ad5
+    byte_size: 390
+    details:
+      depiction: illustrative_schematic
+  references:
+    subject: BKT-NBA-TEAM-NYK-UNIFORM-ASSOCIATION-PIECE-SHORTS
+  source:
+    url: https://store.nba.com/new-york-knicks/unisex-new-york-knicks-jalen-brunson-nike-white-swingman-jersey-association-edition/t-25470720+p-469981676139465+z-9-3762950839
+    captured_on: '2026-10-26'
+    generated_by: scripts/build_visual_assets.rb
+- type: AssetRepresentation
+  code: BKT-NBA-TEAM-NYK-UNIFORM-ASSOCIATION-FILE-BKT_NBA_TEAM_NYK_ASSOCIATION_GLB
+  attributes:
+    canonical_path: media/pilot/bkt-nba-team-nyk-association.glb
+    file_format: glb
+    content_type: model/gltf-binary
+    view: whole
+    sha256: 6e8150f0b2d5c330c6e2beb12c27c72aa9449f0630740e4c8058dbbd560149a9
+    byte_size: 1580
+    details:
+      depiction: illustrative_schematic
+  references:
+    subject: BKT-NBA-TEAM-NYK-UNIFORM-ASSOCIATION
+  source:
+    url: https://store.nba.com/new-york-knicks/unisex-new-york-knicks-jalen-brunson-nike-white-swingman-jersey-association-edition/t-25470720+p-469981676139465+z-9-3762950839
+    captured_on: '2026-10-26'
+    generated_by: scripts/build_visual_assets.rb
+- type: Uniform
+  code: SOC-EPL-TEAM-ARS-UNIFORM-HOME_2026
+  attributes:
+    name: Arsenal 2026/27 home
+    role: home_2026
+    details:
+      coverage: selected_visual_components
+  references:
+    team: SOC-EPL-TEAM-ARS
+  source:
+    url: https://www.arsenal.com/news/gallery-2627-adidas-home-kit-launches-in-the-armoury-afAJd0y8JygH
+    captured_on: '2026-10-26'
+- type: UniformCampaign
+  code: SOC-EPL-TEAM-ARS-UNIFORM-HOME_2026-USE-SOC-EPL-SEASON_2026_2027-TEAM-ARS
+  attributes: {}
+  references:
+    uniform: SOC-EPL-TEAM-ARS-UNIFORM-HOME_2026
+    campaign: SOC-EPL-SEASON_2026_2027-TEAM-ARS
+  source:
+    url: https://www.arsenal.com/news/gallery-2627-adidas-home-kit-launches-in-the-armoury-afAJd0y8JygH
+    captured_on: '2026-10-26'
+- type: UniformCampaign
+  code: SOC-EPL-TEAM-ARS-UNIFORM-HOME_2026-USE-SOC-UCL-SEASON_2026_2027-TEAM-ARS
+  attributes: {}
+  references:
+    uniform: SOC-EPL-TEAM-ARS-UNIFORM-HOME_2026
+    campaign: SOC-UCL-SEASON_2026_2027-TEAM-ARS
+  source:
+    url: https://www.arsenal.com/news/gallery-2627-adidas-home-kit-launches-in-the-armoury-afAJd0y8JygH
+    captured_on: '2026-10-26'
+- type: AssetRepresentation
+  code: SOC-EPL-TEAM-ARS-UNIFORM-HOME_2026-FILE-HOME_2026_SOC_EPL_TEAM_ARS_REFERENCE_JPG
+  attributes:
+    canonical_path: media/pilot/home_2026-soc-epl-team-ars-reference.jpg
+    file_format: jpg
+    content_type: image/jpeg
+    view: reference
+    sha256: 7822ead4c34e928b996580449fa51fb49b844d20306a1398a5a374f28accedfa
+    byte_size: 115319
+    details:
+      depiction: source_image
+  references:
+    subject: SOC-EPL-TEAM-ARS-UNIFORM-HOME_2026
+  source:
+    url: https://www.arsenal.com/news/gallery-2627-adidas-home-kit-launches-in-the-armoury-afAJd0y8JygH
+    captured_on: '2026-10-26'
+    asset_url: https://assets.arsenal.com/prod/images/gm_preview/5787f51e059c-dsc58983pn379aa.jpg
+- type: UniformPiece
+  code: SOC-EPL-TEAM-ARS-UNIFORM-HOME_2026-PIECE-JERSEY
+  attributes:
+    name: jersey
+  references:
+    uniform: SOC-EPL-TEAM-ARS-UNIFORM-HOME_2026
+  source:
+    url: https://www.arsenal.com/news/gallery-2627-adidas-home-kit-launches-in-the-armoury-afAJd0y8JygH
+    captured_on: '2026-10-26'
+- type: AssetRepresentation
+  code: SOC-EPL-TEAM-ARS-UNIFORM-HOME_2026-PIECE-JERSEY-FILE-SOC_EPL_TEAM_ARS_HOME_2026_JERSEY_SVG
+  attributes:
+    canonical_path: media/pilot/soc-epl-team-ars-home_2026-jersey.svg
+    file_format: svg
+    content_type: image/svg+xml
+    view: front
+    sha256: d9d0ec11583e4c165d9d92210c8b66b45a55b48ac7137f884f1aa6f88e62b854
+    byte_size: 420
+    details:
+      depiction: illustrative_schematic
+  references:
+    subject: SOC-EPL-TEAM-ARS-UNIFORM-HOME_2026-PIECE-JERSEY
+  source:
+    url: https://www.arsenal.com/news/gallery-2627-adidas-home-kit-launches-in-the-armoury-afAJd0y8JygH
+    captured_on: '2026-10-26'
+    generated_by: scripts/build_visual_assets.rb
+- type: UniformPiece
+  code: SOC-EPL-TEAM-ARS-UNIFORM-HOME_2026-PIECE-SHORTS
+  attributes:
+    name: shorts
+  references:
+    uniform: SOC-EPL-TEAM-ARS-UNIFORM-HOME_2026
+  source:
+    url: https://www.arsenal.com/news/gallery-2627-adidas-home-kit-launches-in-the-armoury-afAJd0y8JygH
+    captured_on: '2026-10-26'
+- type: AssetRepresentation
+  code: SOC-EPL-TEAM-ARS-UNIFORM-HOME_2026-PIECE-SHORTS-FILE-SOC_EPL_TEAM_ARS_HOME_2026_SHORTS_SVG
+  attributes:
+    canonical_path: media/pilot/soc-epl-team-ars-home_2026-shorts.svg
+    file_format: svg
+    content_type: image/svg+xml
+    view: front
+    sha256: 780064af56e534e49560fc1a31c1c9c3ea974b575beb6cf2eff0beab4177781f
+    byte_size: 390
+    details:
+      depiction: illustrative_schematic
+  references:
+    subject: SOC-EPL-TEAM-ARS-UNIFORM-HOME_2026-PIECE-SHORTS
+  source:
+    url: https://www.arsenal.com/news/gallery-2627-adidas-home-kit-launches-in-the-armoury-afAJd0y8JygH
+    captured_on: '2026-10-26'
+    generated_by: scripts/build_visual_assets.rb
+- type: AssetRepresentation
+  code: SOC-EPL-TEAM-ARS-UNIFORM-HOME_2026-FILE-SOC_EPL_TEAM_ARS_HOME_2026_GLB
+  attributes:
+    canonical_path: media/pilot/soc-epl-team-ars-home_2026.glb
+    file_format: glb
+    content_type: model/gltf-binary
+    view: whole
+    sha256: 6c8d78a493410cfec4f426753099cd020070b8d28999dfc151be802e4d1d2cca
+    byte_size: 1628
+    details:
+      depiction: illustrative_schematic
+  references:
+    subject: SOC-EPL-TEAM-ARS-UNIFORM-HOME_2026
+  source:
+    url: https://www.arsenal.com/news/gallery-2627-adidas-home-kit-launches-in-the-armoury-afAJd0y8JygH
+    captured_on: '2026-10-26'
+    generated_by: scripts/build_visual_assets.rb
+- type: Uniform
+  code: HCK-NHL-TEAM-STL-UNIFORM-HOME
+  attributes:
+    name: Blues home uniform
+    role: home
+    details:
+      coverage: selected_visual_components
+  references:
+    team: HCK-NHL-TEAM-STL
+  source:
+    url: https://www.nhl.com/blues/team/brand
+    captured_on: '2026-10-26'
+- type: UniformCampaign
+  code: HCK-NHL-TEAM-STL-UNIFORM-HOME-USE-HCK-NHL-SEASON_2025_2026-TEAM-STL
+  attributes: {}
+  references:
+    uniform: HCK-NHL-TEAM-STL-UNIFORM-HOME
+    campaign: HCK-NHL-SEASON_2025_2026-TEAM-STL
+  source:
+    url: https://www.nhl.com/blues/team/brand
+    captured_on: '2026-10-26'
+- type: UniformCampaign
+  code: HCK-NHL-TEAM-STL-UNIFORM-HOME-USE-HCK-NHL-SEASON_2026_2027-TEAM-STL
+  attributes: {}
+  references:
+    uniform: HCK-NHL-TEAM-STL-UNIFORM-HOME
+    campaign: HCK-NHL-SEASON_2026_2027-TEAM-STL
+  source:
+    url: https://www.nhl.com/blues/team/brand
+    captured_on: '2026-10-26'
+- type: AssetRepresentation
+  code: HCK-NHL-TEAM-STL-UNIFORM-HOME-FILE-HOME_HCK_NHL_TEAM_STL_REFERENCE_JPG
+  attributes:
+    canonical_path: media/pilot/home-hck-nhl-team-stl-reference.jpg
+    file_format: jpg
+    content_type: image/jpeg
+    view: reference
+    sha256: 7a42c1236fc7be1a1bff38dd8572166ae6d21f0777762351bc79c7b07fa19e2c
+    byte_size: 96434
+    details:
+      depiction: source_image
+  references:
+    subject: HCK-NHL-TEAM-STL-UNIFORM-HOME
+  source:
+    url: https://www.nhl.com/blues/team/brand
+    captured_on: '2026-10-26'
+    asset_url: https://media.d3.nhle.com/image/private/t_ratio1_1-size30/f_auto/prd/tvupl7zkynfkf5gtp1ea.jpg
+- type: UniformPiece
+  code: HCK-NHL-TEAM-STL-UNIFORM-HOME-PIECE-SWEATER
+  attributes:
+    name: sweater
+  references:
+    uniform: HCK-NHL-TEAM-STL-UNIFORM-HOME
+  source:
+    url: https://www.nhl.com/blues/team/brand
+    captured_on: '2026-10-26'
+- type: AssetRepresentation
+  code: HCK-NHL-TEAM-STL-UNIFORM-HOME-PIECE-SWEATER-FILE-HCK_NHL_TEAM_STL_HOME_SWEATER_SVG
+  attributes:
+    canonical_path: media/pilot/hck-nhl-team-stl-home-sweater.svg
+    file_format: svg
+    content_type: image/svg+xml
+    view: front
+    sha256: 2b2030dc1b34fd9f38c28a6fae8b04c5311e34f4a26f23034910d9b0f6474264
+    byte_size: 420
+    details:
+      depiction: illustrative_schematic
+  references:
+    subject: HCK-NHL-TEAM-STL-UNIFORM-HOME-PIECE-SWEATER
+  source:
+    url: https://www.nhl.com/blues/team/brand
+    captured_on: '2026-10-26'
+    generated_by: scripts/build_visual_assets.rb
+- type: UniformPiece
+  code: HCK-NHL-TEAM-STL-UNIFORM-HOME-PIECE-PANTS
+  attributes:
+    name: pants
+  references:
+    uniform: HCK-NHL-TEAM-STL-UNIFORM-HOME
+  source:
+    url: https://www.nhl.com/blues/team/brand
+    captured_on: '2026-10-26'
+- type: AssetRepresentation
+  code: HCK-NHL-TEAM-STL-UNIFORM-HOME-PIECE-PANTS-FILE-HCK_NHL_TEAM_STL_HOME_PANTS_SVG
+  attributes:
+    canonical_path: media/pilot/hck-nhl-team-stl-home-pants.svg
+    file_format: svg
+    content_type: image/svg+xml
+    view: front
+    sha256: e98cae962a1849ab902466b96a9993bd69c81a77a3e1219db9b7d9b0c9ec8f2e
+    byte_size: 390
+    details:
+      depiction: illustrative_schematic
+  references:
+    subject: HCK-NHL-TEAM-STL-UNIFORM-HOME-PIECE-PANTS
+  source:
+    url: https://www.nhl.com/blues/team/brand
+    captured_on: '2026-10-26'
+    generated_by: scripts/build_visual_assets.rb
+- type: AssetRepresentation
+  code: HCK-NHL-TEAM-STL-UNIFORM-HOME-FILE-HCK_NHL_TEAM_STL_HOME_GLB
+  attributes:
+    canonical_path: media/pilot/hck-nhl-team-stl-home.glb
+    file_format: glb
+    content_type: model/gltf-binary
+    view: whole
+    sha256: 584b36315b7f562988d5e7a9a03955529b7fffc026c3ba00002a959056e47cf6
+    byte_size: 1608
+    details:
+      depiction: illustrative_schematic
+  references:
+    subject: HCK-NHL-TEAM-STL-UNIFORM-HOME
+  source:
+    url: https://www.nhl.com/blues/team/brand
+    captured_on: '2026-10-26'
+    generated_by: scripts/build_visual_assets.rb
+- type: Uniform
+  code: HCK-NHL-TEAM-STL-UNIFORM-AWAY
+  attributes:
+    name: Blues away uniform
+    role: away
+    details:
+      coverage: selected_visual_components
+  references:
+    team: HCK-NHL-TEAM-STL
+  source:
+    url: https://www.nhl.com/blues/team/brand
+    captured_on: '2026-10-26'
+- type: UniformCampaign
+  code: HCK-NHL-TEAM-STL-UNIFORM-AWAY-USE-HCK-NHL-SEASON_2025_2026-TEAM-STL
+  attributes: {}
+  references:
+    uniform: HCK-NHL-TEAM-STL-UNIFORM-AWAY
+    campaign: HCK-NHL-SEASON_2025_2026-TEAM-STL
+  source:
+    url: https://www.nhl.com/blues/team/brand
+    captured_on: '2026-10-26'
+- type: UniformCampaign
+  code: HCK-NHL-TEAM-STL-UNIFORM-AWAY-USE-HCK-NHL-SEASON_2026_2027-TEAM-STL
+  attributes: {}
+  references:
+    uniform: HCK-NHL-TEAM-STL-UNIFORM-AWAY
+    campaign: HCK-NHL-SEASON_2026_2027-TEAM-STL
+  source:
+    url: https://www.nhl.com/blues/team/brand
+    captured_on: '2026-10-26'
+- type: AssetRepresentation
+  code: HCK-NHL-TEAM-STL-UNIFORM-AWAY-FILE-AWAY_HCK_NHL_TEAM_STL_REFERENCE_JPG
+  attributes:
+    canonical_path: media/pilot/away-hck-nhl-team-stl-reference.jpg
+    file_format: jpg
+    content_type: image/jpeg
+    view: reference
+    sha256: 974c9528e7b389538554c054e574608ffa8fe8de8475f6b0937e27d106e4fdc0
+    byte_size: 58697
+    details:
+      depiction: source_image
+  references:
+    subject: HCK-NHL-TEAM-STL-UNIFORM-AWAY
+  source:
+    url: https://www.nhl.com/blues/team/brand
+    captured_on: '2026-10-26'
+    asset_url: https://media.d3.nhle.com/image/private/t_ratio1_1-size30/f_auto/prd/gjiy1lupxlpnmxt1mkxw.jpg
+- type: UniformPiece
+  code: HCK-NHL-TEAM-STL-UNIFORM-AWAY-PIECE-SWEATER
+  attributes:
+    name: sweater
+  references:
+    uniform: HCK-NHL-TEAM-STL-UNIFORM-AWAY
+  source:
+    url: https://www.nhl.com/blues/team/brand
+    captured_on: '2026-10-26'
+- type: AssetRepresentation
+  code: HCK-NHL-TEAM-STL-UNIFORM-AWAY-PIECE-SWEATER-FILE-HCK_NHL_TEAM_STL_AWAY_SWEATER_SVG
+  attributes:
+    canonical_path: media/pilot/hck-nhl-team-stl-away-sweater.svg
+    file_format: svg
+    content_type: image/svg+xml
+    view: front
+    sha256: 80876d925f1cb21c04d2f239b59560f5ec0320f577ef645ad66959038fa45df3
+    byte_size: 420
+    details:
+      depiction: illustrative_schematic
+  references:
+    subject: HCK-NHL-TEAM-STL-UNIFORM-AWAY-PIECE-SWEATER
+  source:
+    url: https://www.nhl.com/blues/team/brand
+    captured_on: '2026-10-26'
+    generated_by: scripts/build_visual_assets.rb
+- type: UniformPiece
+  code: HCK-NHL-TEAM-STL-UNIFORM-AWAY-PIECE-PANTS
+  attributes:
+    name: pants
+  references:
+    uniform: HCK-NHL-TEAM-STL-UNIFORM-AWAY
+  source:
+    url: https://www.nhl.com/blues/team/brand
+    captured_on: '2026-10-26'
+- type: AssetRepresentation
+  code: HCK-NHL-TEAM-STL-UNIFORM-AWAY-PIECE-PANTS-FILE-HCK_NHL_TEAM_STL_AWAY_PANTS_SVG
+  attributes:
+    canonical_path: media/pilot/hck-nhl-team-stl-away-pants.svg
+    file_format: svg
+    content_type: image/svg+xml
+    view: front
+    sha256: 3fbb3cfd2436a153b8590701b98ea2f5bf6dd28f573c5a1b272f50cbbddd1427
+    byte_size: 390
+    details:
+      depiction: illustrative_schematic
+  references:
+    subject: HCK-NHL-TEAM-STL-UNIFORM-AWAY-PIECE-PANTS
+  source:
+    url: https://www.nhl.com/blues/team/brand
+    captured_on: '2026-10-26'
+    generated_by: scripts/build_visual_assets.rb
+- type: AssetRepresentation
+  code: HCK-NHL-TEAM-STL-UNIFORM-AWAY-FILE-HCK_NHL_TEAM_STL_AWAY_GLB
+  attributes:
+    canonical_path: media/pilot/hck-nhl-team-stl-away.glb
+    file_format: glb
+    content_type: model/gltf-binary
+    view: whole
+    sha256: 6e8150f0b2d5c330c6e2beb12c27c72aa9449f0630740e4c8058dbbd560149a9
+    byte_size: 1580
+    details:
+      depiction: illustrative_schematic
+  references:
+    subject: HCK-NHL-TEAM-STL-UNIFORM-AWAY
+  source:
+    url: https://www.nhl.com/blues/team/brand
+    captured_on: '2026-10-26'
+    generated_by: scripts/build_visual_assets.rb
+- type: Uniform
+  code: HCK-NHL-TEAM-STL-UNIFORM-THIRD
+  attributes:
+    name: Blues third uniform
+    role: third
+    details:
+      coverage: selected_visual_components
+  references:
+    team: HCK-NHL-TEAM-STL
+  source:
+    url: https://www.nhl.com/blues/team/brand
+    captured_on: '2026-10-26'
+- type: UniformCampaign
+  code: HCK-NHL-TEAM-STL-UNIFORM-THIRD-USE-HCK-NHL-SEASON_2025_2026-TEAM-STL
+  attributes: {}
+  references:
+    uniform: HCK-NHL-TEAM-STL-UNIFORM-THIRD
+    campaign: HCK-NHL-SEASON_2025_2026-TEAM-STL
+  source:
+    url: https://www.nhl.com/blues/team/brand
+    captured_on: '2026-10-26'
+- type: UniformCampaign
+  code: HCK-NHL-TEAM-STL-UNIFORM-THIRD-USE-HCK-NHL-SEASON_2026_2027-TEAM-STL
+  attributes: {}
+  references:
+    uniform: HCK-NHL-TEAM-STL-UNIFORM-THIRD
+    campaign: HCK-NHL-SEASON_2026_2027-TEAM-STL
+  source:
+    url: https://www.nhl.com/blues/team/brand
+    captured_on: '2026-10-26'
+- type: AssetRepresentation
+  code: HCK-NHL-TEAM-STL-UNIFORM-THIRD-FILE-THIRD_HCK_NHL_TEAM_STL_REFERENCE_JPG
+  attributes:
+    canonical_path: media/pilot/third-hck-nhl-team-stl-reference.jpg
+    file_format: jpg
+    content_type: image/jpeg
+    view: reference
+    sha256: 2cc297275e8b1d3f560402565155a02be5a3ca06edb8d2e1df22c9b04177199d
+    byte_size: 79355
+    details:
+      depiction: source_image
+  references:
+    subject: HCK-NHL-TEAM-STL-UNIFORM-THIRD
+  source:
+    url: https://www.nhl.com/blues/team/brand
+    captured_on: '2026-10-26'
+    asset_url: https://media.d3.nhle.com/image/private/t_ratio1_1-size30/f_auto/prd/c2nzm1e6tp2apnmdr3o9.jpg
+- type: UniformPiece
+  code: HCK-NHL-TEAM-STL-UNIFORM-THIRD-PIECE-SWEATER
+  attributes:
+    name: sweater
+  references:
+    uniform: HCK-NHL-TEAM-STL-UNIFORM-THIRD
+  source:
+    url: https://www.nhl.com/blues/team/brand
+    captured_on: '2026-10-26'
+- type: AssetRepresentation
+  code: HCK-NHL-TEAM-STL-UNIFORM-THIRD-PIECE-SWEATER-FILE-HCK_NHL_TEAM_STL_THIRD_SWEATER_SVG
+  attributes:
+    canonical_path: media/pilot/hck-nhl-team-stl-third-sweater.svg
+    file_format: svg
+    content_type: image/svg+xml
+    view: front
+    sha256: 2b2030dc1b34fd9f38c28a6fae8b04c5311e34f4a26f23034910d9b0f6474264
+    byte_size: 420
+    details:
+      depiction: illustrative_schematic
+  references:
+    subject: HCK-NHL-TEAM-STL-UNIFORM-THIRD-PIECE-SWEATER
+  source:
+    url: https://www.nhl.com/blues/team/brand
+    captured_on: '2026-10-26'
+    generated_by: scripts/build_visual_assets.rb
+- type: UniformPiece
+  code: HCK-NHL-TEAM-STL-UNIFORM-THIRD-PIECE-PANTS
+  attributes:
+    name: pants
+  references:
+    uniform: HCK-NHL-TEAM-STL-UNIFORM-THIRD
+  source:
+    url: https://www.nhl.com/blues/team/brand
+    captured_on: '2026-10-26'
+- type: AssetRepresentation
+  code: HCK-NHL-TEAM-STL-UNIFORM-THIRD-PIECE-PANTS-FILE-HCK_NHL_TEAM_STL_THIRD_PANTS_SVG
+  attributes:
+    canonical_path: media/pilot/hck-nhl-team-stl-third-pants.svg
+    file_format: svg
+    content_type: image/svg+xml
+    view: front
+    sha256: e98cae962a1849ab902466b96a9993bd69c81a77a3e1219db9b7d9b0c9ec8f2e
+    byte_size: 390
+    details:
+      depiction: illustrative_schematic
+  references:
+    subject: HCK-NHL-TEAM-STL-UNIFORM-THIRD-PIECE-PANTS
+  source:
+    url: https://www.nhl.com/blues/team/brand
+    captured_on: '2026-10-26'
+    generated_by: scripts/build_visual_assets.rb
+- type: AssetRepresentation
+  code: HCK-NHL-TEAM-STL-UNIFORM-THIRD-FILE-HCK_NHL_TEAM_STL_THIRD_GLB
+  attributes:
+    canonical_path: media/pilot/hck-nhl-team-stl-third.glb
+    file_format: glb
+    content_type: model/gltf-binary
+    view: whole
+    sha256: 584b36315b7f562988d5e7a9a03955529b7fffc026c3ba00002a959056e47cf6
+    byte_size: 1608
+    details:
+      depiction: illustrative_schematic
+  references:
+    subject: HCK-NHL-TEAM-STL-UNIFORM-THIRD
+  source:
+    url: https://www.nhl.com/blues/team/brand
+    captured_on: '2026-10-26'
+    generated_by: scripts/build_visual_assets.rb

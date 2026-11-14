@@ -1,0 +1,490 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Campaign
+  code: FTB-NFL-SEASON_2021-TEAM-ARI
+  attributes:
+    display_name: Arizona Cardinals
+    abbreviation: ARI
+  references:
+    team: FTB-NFL-TEAM-ARI
+    season: FTB-NFL-SEASON_2021
+    division: FTB-NFL-DIVISION-NFC_WEST
+    conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/football/nfl/standings?season=2021&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: FTB-NFL-SEASON_2021-TEAM-ATL
+  attributes:
+    display_name: Atlanta Falcons
+    abbreviation: ATL
+  references:
+    team: FTB-NFL-TEAM-ATL
+    season: FTB-NFL-SEASON_2021
+    division: FTB-NFL-DIVISION-NFC_SOUTH
+    conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/football/nfl/standings?season=2021&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: FTB-NFL-SEASON_2021-TEAM-BAL
+  attributes:
+    display_name: Baltimore Ravens
+    abbreviation: BAL
+  references:
+    team: FTB-NFL-TEAM-BAL
+    season: FTB-NFL-SEASON_2021
+    division: FTB-NFL-DIVISION-AFC_NORTH
+    conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/football/nfl/standings?season=2021&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: FTB-NFL-SEASON_2021-TEAM-BUF
+  attributes:
+    display_name: Buffalo Bills
+    abbreviation: BUF
+  references:
+    team: FTB-NFL-TEAM-BUF
+    season: FTB-NFL-SEASON_2021
+    division: FTB-NFL-DIVISION-AFC_EAST
+    conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/football/nfl/standings?season=2021&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: FTB-NFL-SEASON_2021-TEAM-CAR
+  attributes:
+    display_name: Carolina Panthers
+    abbreviation: CAR
+  references:
+    team: FTB-NFL-TEAM-CAR
+    season: FTB-NFL-SEASON_2021
+    division: FTB-NFL-DIVISION-NFC_SOUTH
+    conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/football/nfl/standings?season=2021&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: FTB-NFL-SEASON_2021-TEAM-CHI
+  attributes:
+    display_name: Chicago Bears
+    abbreviation: CHI
+  references:
+    team: FTB-NFL-TEAM-CHI
+    season: FTB-NFL-SEASON_2021
+    division: FTB-NFL-DIVISION-NFC_NORTH
+    conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/football/nfl/standings?season=2021&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: FTB-NFL-SEASON_2021-TEAM-CIN
+  attributes:
+    display_name: Cincinnati Bengals
+    abbreviation: CIN
+  references:
+    team: FTB-NFL-TEAM-CIN
+    season: FTB-NFL-SEASON_2021
+    division: FTB-NFL-DIVISION-AFC_NORTH
+    conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/football/nfl/standings?season=2021&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: FTB-NFL-SEASON_2021-TEAM-CLE
+  attributes:
+    display_name: Cleveland Browns
+    abbreviation: CLE
+  references:
+    team: FTB-NFL-TEAM-CLE
+    season: FTB-NFL-SEASON_2021
+    division: FTB-NFL-DIVISION-AFC_NORTH
+    conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/football/nfl/standings?season=2021&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: FTB-NFL-SEASON_2021-TEAM-DAL
+  attributes:
+    display_name: Dallas Cowboys
+    abbreviation: DAL
+  references:
+    team: FTB-NFL-TEAM-DAL
+    season: FTB-NFL-SEASON_2021
+    division: FTB-NFL-DIVISION-NFC_EAST
+    conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/football/nfl/standings?season=2021&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: FTB-NFL-SEASON_2021-TEAM-DEN
+  attributes:
+    display_name: Denver Broncos
+    abbreviation: DEN
+  references:
+    team: FTB-NFL-TEAM-DEN
+    season: FTB-NFL-SEASON_2021
+    division: FTB-NFL-DIVISION-AFC_WEST
+    conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/football/nfl/standings?season=2021&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: FTB-NFL-SEASON_2021-TEAM-DET
+  attributes:
+    display_name: Detroit Lions
+    abbreviation: DET
+  references:
+    team: FTB-NFL-TEAM-DET
+    season: FTB-NFL-SEASON_2021
+    division: FTB-NFL-DIVISION-NFC_NORTH
+    conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/football/nfl/standings?season=2021&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: FTB-NFL-SEASON_2021-TEAM-GB
+  attributes:
+    display_name: Green Bay Packers
+    abbreviation: GB
+  references:
+    team: FTB-NFL-TEAM-GB
+    season: FTB-NFL-SEASON_2021
+    division: FTB-NFL-DIVISION-NFC_NORTH
+    conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/football/nfl/standings?season=2021&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: FTB-NFL-SEASON_2021-TEAM-HOU
+  attributes:
+    display_name: Houston Texans
+    abbreviation: HOU
+  references:
+    team: FTB-NFL-TEAM-HOU
+    season: FTB-NFL-SEASON_2021
+    division: FTB-NFL-DIVISION-AFC_SOUTH
+    conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/football/nfl/standings?season=2021&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: FTB-NFL-SEASON_2021-TEAM-IND
+  attributes:
+    display_name: Indianapolis Colts
+    abbreviation: IND
+  references:
+    team: FTB-NFL-TEAM-IND
+    season: FTB-NFL-SEASON_2021
+    division: FTB-NFL-DIVISION-AFC_SOUTH
+    conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/football/nfl/standings?season=2021&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: FTB-NFL-SEASON_2021-TEAM-JAX
+  attributes:
+    display_name: Jacksonville Jaguars
+    abbreviation: JAX
+  references:
+    team: FTB-NFL-TEAM-JAX
+    season: FTB-NFL-SEASON_2021
+    division: FTB-NFL-DIVISION-AFC_SOUTH
+    conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/football/nfl/standings?season=2021&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: FTB-NFL-SEASON_2021-TEAM-KC
+  attributes:
+    display_name: Kansas City Chiefs
+    abbreviation: KC
+  references:
+    team: FTB-NFL-TEAM-KC
+    season: FTB-NFL-SEASON_2021
+    division: FTB-NFL-DIVISION-AFC_WEST
+    conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/football/nfl/standings?season=2021&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: FTB-NFL-SEASON_2021-TEAM-LAC
+  attributes:
+    display_name: Los Angeles Chargers
+    abbreviation: LAC
+  references:
+    team: FTB-NFL-TEAM-LAC
+    season: FTB-NFL-SEASON_2021
+    division: FTB-NFL-DIVISION-AFC_WEST
+    conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/football/nfl/standings?season=2021&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: FTB-NFL-SEASON_2021-TEAM-LAR
+  attributes:
+    display_name: Los Angeles Rams
+    abbreviation: LAR
+  references:
+    team: FTB-NFL-TEAM-LAR
+    season: FTB-NFL-SEASON_2021
+    division: FTB-NFL-DIVISION-NFC_WEST
+    conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/football/nfl/standings?season=2021&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: FTB-NFL-SEASON_2021-TEAM-MIA
+  attributes:
+    display_name: Miami Dolphins
+    abbreviation: MIA
+  references:
+    team: FTB-NFL-TEAM-MIA
+    season: FTB-NFL-SEASON_2021
+    division: FTB-NFL-DIVISION-AFC_EAST
+    conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/football/nfl/standings?season=2021&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: FTB-NFL-SEASON_2021-TEAM-MIN
+  attributes:
+    display_name: Minnesota Vikings
+    abbreviation: MIN
+  references:
+    team: FTB-NFL-TEAM-MIN
+    season: FTB-NFL-SEASON_2021
+    division: FTB-NFL-DIVISION-NFC_NORTH
+    conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/football/nfl/standings?season=2021&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: FTB-NFL-SEASON_2021-TEAM-NE
+  attributes:
+    display_name: New England Patriots
+    abbreviation: NE
+  references:
+    team: FTB-NFL-TEAM-NE
+    season: FTB-NFL-SEASON_2021
+    division: FTB-NFL-DIVISION-AFC_EAST
+    conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/football/nfl/standings?season=2021&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: FTB-NFL-SEASON_2021-TEAM-NO
+  attributes:
+    display_name: New Orleans Saints
+    abbreviation: 'NO'
+  references:
+    team: FTB-NFL-TEAM-NO
+    season: FTB-NFL-SEASON_2021
+    division: FTB-NFL-DIVISION-NFC_SOUTH
+    conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/football/nfl/standings?season=2021&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: FTB-NFL-SEASON_2021-TEAM-NYG
+  attributes:
+    display_name: New York Giants
+    abbreviation: NYG
+  references:
+    team: FTB-NFL-TEAM-NYG
+    season: FTB-NFL-SEASON_2021
+    division: FTB-NFL-DIVISION-NFC_EAST
+    conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/football/nfl/standings?season=2021&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: FTB-NFL-SEASON_2021-TEAM-NYJ
+  attributes:
+    display_name: New York Jets
+    abbreviation: NYJ
+  references:
+    team: FTB-NFL-TEAM-NYJ
+    season: FTB-NFL-SEASON_2021
+    division: FTB-NFL-DIVISION-AFC_EAST
+    conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/football/nfl/standings?season=2021&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: FTB-NFL-SEASON_2021-TEAM-PHI
+  attributes:
+    display_name: Philadelphia Eagles
+    abbreviation: PHI
+  references:
+    team: FTB-NFL-TEAM-PHI
+    season: FTB-NFL-SEASON_2021
+    division: FTB-NFL-DIVISION-NFC_EAST
+    conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/football/nfl/standings?season=2021&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: FTB-NFL-SEASON_2021-TEAM-PIT
+  attributes:
+    display_name: Pittsburgh Steelers
+    abbreviation: PIT
+  references:
+    team: FTB-NFL-TEAM-PIT
+    season: FTB-NFL-SEASON_2021
+    division: FTB-NFL-DIVISION-AFC_NORTH
+    conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/football/nfl/standings?season=2021&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: FTB-NFL-SEASON_2021-TEAM-RAIDERS
+  attributes:
+    display_name: Las Vegas Raiders
+    abbreviation: LV
+  references:
+    team: FTB-NFL-TEAM-RAIDERS
+    season: FTB-NFL-SEASON_2021
+    division: FTB-NFL-DIVISION-AFC_WEST
+    conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/football/nfl/standings?season=2021&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: FTB-NFL-SEASON_2021-TEAM-SEA
+  attributes:
+    display_name: Seattle Seahawks
+    abbreviation: SEA
+  references:
+    team: FTB-NFL-TEAM-SEA
+    season: FTB-NFL-SEASON_2021
+    division: FTB-NFL-DIVISION-NFC_WEST
+    conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/football/nfl/standings?season=2021&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: FTB-NFL-SEASON_2021-TEAM-SF
+  attributes:
+    display_name: San Francisco 49ers
+    abbreviation: SF
+  references:
+    team: FTB-NFL-TEAM-SF
+    season: FTB-NFL-SEASON_2021
+    division: FTB-NFL-DIVISION-NFC_WEST
+    conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/football/nfl/standings?season=2021&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: FTB-NFL-SEASON_2021-TEAM-TB
+  attributes:
+    display_name: Tampa Bay Buccaneers
+    abbreviation: TB
+  references:
+    team: FTB-NFL-TEAM-TB
+    season: FTB-NFL-SEASON_2021
+    division: FTB-NFL-DIVISION-NFC_SOUTH
+    conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/football/nfl/standings?season=2021&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: FTB-NFL-SEASON_2021-TEAM-TEN
+  attributes:
+    display_name: Tennessee Titans
+    abbreviation: TEN
+  references:
+    team: FTB-NFL-TEAM-TEN
+    season: FTB-NFL-SEASON_2021
+    division: FTB-NFL-DIVISION-AFC_SOUTH
+    conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/football/nfl/standings?season=2021&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: FTB-NFL-SEASON_2021-TEAM-WAS
+  attributes:
+    display_name: Washington Football Team
+    abbreviation: WAS
+  references:
+    team: FTB-NFL-TEAM-WAS
+    season: FTB-NFL-SEASON_2021
+    division: FTB-NFL-DIVISION-NFC_EAST
+    conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/football/nfl/standings?season=2021&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+    display_name_correction:
+      url: https://www.commanders.com/news/the-washington-football-team-is-now-the-washington-commanders
+      published_on: '2022-02-02'
+      note: Washington Football Team was replaced by Commanders in February 2022.
+        The July 2020 announcement establishes its adoption for the 2020 season.

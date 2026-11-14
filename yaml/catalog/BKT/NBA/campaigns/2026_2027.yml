@@ -1,0 +1,545 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Campaign
+  code: BKT-NBA-SEASON_2026_2027-TEAM-ATL
+  attributes:
+    display_name: Atlanta Hawks
+    abbreviation: ATL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 18
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: BKT-NBA-TEAM-ATL
+    season: BKT-NBA-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/1/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: BKT-NBA-SEASON_2026_2027-TEAM-BKN
+  attributes:
+    display_name: Brooklyn Nets
+    abbreviation: BKN
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 18
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: BKT-NBA-TEAM-BKN
+    season: BKT-NBA-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/17/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: BKT-NBA-SEASON_2026_2027-TEAM-BOS
+  attributes:
+    display_name: Boston Celtics
+    abbreviation: BOS
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 17
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: BKT-NBA-TEAM-BOS
+    season: BKT-NBA-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/2/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: BKT-NBA-SEASON_2026_2027-TEAM-CHA
+  attributes:
+    display_name: Charlotte Hornets
+    abbreviation: CHA
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 17
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: BKT-NBA-TEAM-CHA
+    season: BKT-NBA-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/30/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: BKT-NBA-SEASON_2026_2027-TEAM-CHI
+  attributes:
+    display_name: Chicago Bulls
+    abbreviation: CHI
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 17
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: BKT-NBA-TEAM-CHI
+    season: BKT-NBA-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/4/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: BKT-NBA-SEASON_2026_2027-TEAM-CLE
+  attributes:
+    display_name: Cleveland Cavaliers
+    abbreviation: CLE
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 14
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: BKT-NBA-TEAM-CLE
+    season: BKT-NBA-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/5/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: BKT-NBA-SEASON_2026_2027-TEAM-DAL
+  attributes:
+    display_name: Dallas Mavericks
+    abbreviation: DAL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 18
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: BKT-NBA-TEAM-DAL
+    season: BKT-NBA-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/6/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: BKT-NBA-SEASON_2026_2027-TEAM-DEN
+  attributes:
+    display_name: Denver Nuggets
+    abbreviation: DEN
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 17
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: BKT-NBA-TEAM-DEN
+    season: BKT-NBA-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/7/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: BKT-NBA-SEASON_2026_2027-TEAM-DET
+  attributes:
+    display_name: Detroit Pistons
+    abbreviation: DET
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 18
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: BKT-NBA-TEAM-DET
+    season: BKT-NBA-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/8/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: BKT-NBA-SEASON_2026_2027-TEAM-GSW
+  attributes:
+    display_name: Golden State Warriors
+    abbreviation: GSW
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 18
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: BKT-NBA-TEAM-GSW
+    season: BKT-NBA-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/9/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: BKT-NBA-SEASON_2026_2027-TEAM-HOU
+  attributes:
+    display_name: Houston Rockets
+    abbreviation: HOU
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 17
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: BKT-NBA-TEAM-HOU
+    season: BKT-NBA-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/10/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: BKT-NBA-SEASON_2026_2027-TEAM-IND
+  attributes:
+    display_name: Indiana Pacers
+    abbreviation: IND
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 17
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: BKT-NBA-TEAM-IND
+    season: BKT-NBA-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/11/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: BKT-NBA-SEASON_2026_2027-TEAM-LAC
+  attributes:
+    display_name: LA Clippers
+    abbreviation: LAC
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 18
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: BKT-NBA-TEAM-LAC
+    season: BKT-NBA-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/12/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: BKT-NBA-SEASON_2026_2027-TEAM-LAL
+  attributes:
+    display_name: Los Angeles Lakers
+    abbreviation: LAL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 18
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: BKT-NBA-TEAM-LAL
+    season: BKT-NBA-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/13/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: BKT-NBA-SEASON_2026_2027-TEAM-MEM
+  attributes:
+    display_name: Memphis Grizzlies
+    abbreviation: MEM
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 18
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: BKT-NBA-TEAM-MEM
+    season: BKT-NBA-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/29/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: BKT-NBA-SEASON_2026_2027-TEAM-MIA
+  attributes:
+    display_name: Miami Heat
+    abbreviation: MIA
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 17
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: BKT-NBA-TEAM-MIA
+    season: BKT-NBA-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/14/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: BKT-NBA-SEASON_2026_2027-TEAM-MIL
+  attributes:
+    display_name: Milwaukee Bucks
+    abbreviation: MIL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 18
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: BKT-NBA-TEAM-MIL
+    season: BKT-NBA-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/15/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: BKT-NBA-SEASON_2026_2027-TEAM-MIN
+  attributes:
+    display_name: Minnesota Timberwolves
+    abbreviation: MIN
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 16
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: BKT-NBA-TEAM-MIN
+    season: BKT-NBA-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/16/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: BKT-NBA-SEASON_2026_2027-TEAM-NOP
+  attributes:
+    display_name: New Orleans Pelicans
+    abbreviation: NOP
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 18
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: BKT-NBA-TEAM-NOP
+    season: BKT-NBA-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/3/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: BKT-NBA-SEASON_2026_2027-TEAM-NYK
+  attributes:
+    display_name: New York Knicks
+    abbreviation: NYK
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 17
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: BKT-NBA-TEAM-NYK
+    season: BKT-NBA-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/18/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: BKT-NBA-SEASON_2026_2027-TEAM-OKC
+  attributes:
+    display_name: Oklahoma City Thunder
+    abbreviation: OKC
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 18
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: BKT-NBA-TEAM-OKC
+    season: BKT-NBA-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/25/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: BKT-NBA-SEASON_2026_2027-TEAM-ORL
+  attributes:
+    display_name: Orlando Magic
+    abbreviation: ORL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 17
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: BKT-NBA-TEAM-ORL
+    season: BKT-NBA-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/19/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: BKT-NBA-SEASON_2026_2027-TEAM-PHI
+  attributes:
+    display_name: Philadelphia 76ers
+    abbreviation: PHI
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 17
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: BKT-NBA-TEAM-PHI
+    season: BKT-NBA-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/20/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: BKT-NBA-SEASON_2026_2027-TEAM-PHX
+  attributes:
+    display_name: Phoenix Suns
+    abbreviation: PHX
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 17
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: BKT-NBA-TEAM-PHX
+    season: BKT-NBA-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/21/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: BKT-NBA-SEASON_2026_2027-TEAM-POR
+  attributes:
+    display_name: Portland Trail Blazers
+    abbreviation: POR
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 17
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: BKT-NBA-TEAM-POR
+    season: BKT-NBA-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/22/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: BKT-NBA-SEASON_2026_2027-TEAM-SAC
+  attributes:
+    display_name: Sacramento Kings
+    abbreviation: SAC
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 17
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: BKT-NBA-TEAM-SAC
+    season: BKT-NBA-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/23/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: BKT-NBA-SEASON_2026_2027-TEAM-SAS
+  attributes:
+    display_name: San Antonio Spurs
+    abbreviation: SAS
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 17
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: BKT-NBA-TEAM-SAS
+    season: BKT-NBA-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/24/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: BKT-NBA-SEASON_2026_2027-TEAM-TOR
+  attributes:
+    display_name: Toronto Raptors
+    abbreviation: TOR
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 16
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: BKT-NBA-TEAM-TOR
+    season: BKT-NBA-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/28/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: BKT-NBA-SEASON_2026_2027-TEAM-UTA
+  attributes:
+    display_name: Utah Jazz
+    abbreviation: UTA
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 18
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: BKT-NBA-TEAM-UTA
+    season: BKT-NBA-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/26/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: BKT-NBA-SEASON_2026_2027-TEAM-WAS
+  attributes:
+    display_name: Washington Wizards
+    abbreviation: WAS
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 18
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: BKT-NBA-TEAM-WAS
+    season: BKT-NBA-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/27/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.

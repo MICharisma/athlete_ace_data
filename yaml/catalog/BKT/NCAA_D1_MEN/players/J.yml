@@ -1,0 +1,90 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-JAMGBADI_EMMANUEL
+  aliases:
+  - BKT-ESPN-PLAYER_5210979
+  attributes:
+    first_name: Emmanuel
+    last_name: Jamgbadi
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5210979.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/225/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-JENKINS_JEREMIAH
+  aliases:
+  - BKT-ESPN-PLAYER_4873101
+  attributes:
+    first_name: Jeremiah
+    last_name: Jenkins
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4873101.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/225/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-JIMENEZ_ACEN
+  aliases:
+  - BKT-ESPN-PLAYER_5460684
+  attributes:
+    first_name: Acen
+    last_name: Jimenez
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5460684.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/159/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-JONES_JAY
+  aliases:
+  - BKT-ESPN-PLAYER_5314644
+  attributes:
+    first_name: Jay
+    last_name: Jones
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5314644.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/219/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-JONES_LOGAN
+  aliases:
+  - BKT-ESPN-PLAYER_5458749
+  attributes:
+    first_name: Logan
+    last_name: Jones
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5458749.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/225/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.

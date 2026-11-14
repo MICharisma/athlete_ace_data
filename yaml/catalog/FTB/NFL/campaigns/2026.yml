@@ -1,0 +1,581 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Campaign
+  code: FTB-NFL-SEASON_2026-TEAM-ARI
+  attributes:
+    display_name: Arizona Cardinals
+    abbreviation: ARI
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 83
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: FTB-NFL-TEAM-ARI
+    season: FTB-NFL-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/22/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: FTB-NFL-SEASON_2026-TEAM-ATL
+  attributes:
+    display_name: Atlanta Falcons
+    abbreviation: ATL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 80
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: FTB-NFL-TEAM-ATL
+    season: FTB-NFL-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/1/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: FTB-NFL-SEASON_2026-TEAM-BAL
+  attributes:
+    display_name: Baltimore Ravens
+    abbreviation: BAL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 78
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: FTB-NFL-TEAM-BAL
+    season: FTB-NFL-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/33/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: FTB-NFL-SEASON_2026-TEAM-BUF
+  attributes:
+    display_name: Buffalo Bills
+    abbreviation: BUF
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 74
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: FTB-NFL-TEAM-BUF
+    season: FTB-NFL-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/2/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: FTB-NFL-SEASON_2026-TEAM-CAR
+  attributes:
+    display_name: Carolina Panthers
+    abbreviation: CAR
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 80
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: FTB-NFL-TEAM-CAR
+    season: FTB-NFL-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/29/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: FTB-NFL-SEASON_2026-TEAM-CHI
+  attributes:
+    display_name: Chicago Bears
+    abbreviation: CHI
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 82
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: FTB-NFL-TEAM-CHI
+    season: FTB-NFL-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: FTB-NFL-SEASON_2026-TEAM-CIN
+  attributes:
+    display_name: Cincinnati Bengals
+    abbreviation: CIN
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 75
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: FTB-NFL-TEAM-CIN
+    season: FTB-NFL-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/4/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: FTB-NFL-SEASON_2026-TEAM-CLE
+  attributes:
+    display_name: Cleveland Browns
+    abbreviation: CLE
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 81
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: FTB-NFL-TEAM-CLE
+    season: FTB-NFL-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/5/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: FTB-NFL-SEASON_2026-TEAM-DAL
+  attributes:
+    display_name: Dallas Cowboys
+    abbreviation: DAL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 79
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: FTB-NFL-TEAM-DAL
+    season: FTB-NFL-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/6/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: FTB-NFL-SEASON_2026-TEAM-DEN
+  attributes:
+    display_name: Denver Broncos
+    abbreviation: DEN
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 79
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: FTB-NFL-TEAM-DEN
+    season: FTB-NFL-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/7/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: FTB-NFL-SEASON_2026-TEAM-DET
+  attributes:
+    display_name: Detroit Lions
+    abbreviation: DET
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 83
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: FTB-NFL-TEAM-DET
+    season: FTB-NFL-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/8/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: FTB-NFL-SEASON_2026-TEAM-GB
+  attributes:
+    display_name: Green Bay Packers
+    abbreviation: GB
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 81
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: FTB-NFL-TEAM-GB
+    season: FTB-NFL-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/9/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: FTB-NFL-SEASON_2026-TEAM-HOU
+  attributes:
+    display_name: Houston Texans
+    abbreviation: HOU
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 85
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: FTB-NFL-TEAM-HOU
+    season: FTB-NFL-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/34/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: FTB-NFL-SEASON_2026-TEAM-IND
+  attributes:
+    display_name: Indianapolis Colts
+    abbreviation: IND
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 76
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: FTB-NFL-TEAM-IND
+    season: FTB-NFL-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/11/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: FTB-NFL-SEASON_2026-TEAM-JAX
+  attributes:
+    display_name: Jacksonville Jaguars
+    abbreviation: JAX
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 81
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: FTB-NFL-TEAM-JAX
+    season: FTB-NFL-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/30/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: FTB-NFL-SEASON_2026-TEAM-KC
+  attributes:
+    display_name: Kansas City Chiefs
+    abbreviation: KC
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 77
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: FTB-NFL-TEAM-KC
+    season: FTB-NFL-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/12/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: FTB-NFL-SEASON_2026-TEAM-LAC
+  attributes:
+    display_name: Los Angeles Chargers
+    abbreviation: LAC
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 79
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: FTB-NFL-TEAM-LAC
+    season: FTB-NFL-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/24/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: FTB-NFL-SEASON_2026-TEAM-LAR
+  attributes:
+    display_name: Los Angeles Rams
+    abbreviation: LAR
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 82
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: FTB-NFL-TEAM-LAR
+    season: FTB-NFL-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/14/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: FTB-NFL-SEASON_2026-TEAM-MIA
+  attributes:
+    display_name: Miami Dolphins
+    abbreviation: MIA
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 75
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: FTB-NFL-TEAM-MIA
+    season: FTB-NFL-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/15/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: FTB-NFL-SEASON_2026-TEAM-MIN
+  attributes:
+    display_name: Minnesota Vikings
+    abbreviation: MIN
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 76
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: FTB-NFL-TEAM-MIN
+    season: FTB-NFL-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/16/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: FTB-NFL-SEASON_2026-TEAM-NE
+  attributes:
+    display_name: New England Patriots
+    abbreviation: NE
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 81
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: FTB-NFL-TEAM-NE
+    season: FTB-NFL-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/17/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: FTB-NFL-SEASON_2026-TEAM-NO
+  attributes:
+    display_name: New Orleans Saints
+    abbreviation: 'NO'
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 82
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: FTB-NFL-TEAM-NO
+    season: FTB-NFL-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/18/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: FTB-NFL-SEASON_2026-TEAM-NYG
+  attributes:
+    display_name: New York Giants
+    abbreviation: NYG
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 83
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: FTB-NFL-TEAM-NYG
+    season: FTB-NFL-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/19/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: FTB-NFL-SEASON_2026-TEAM-NYJ
+  attributes:
+    display_name: New York Jets
+    abbreviation: NYJ
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 82
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: FTB-NFL-TEAM-NYJ
+    season: FTB-NFL-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/20/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: FTB-NFL-SEASON_2026-TEAM-PHI
+  attributes:
+    display_name: Philadelphia Eagles
+    abbreviation: PHI
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 80
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: FTB-NFL-TEAM-PHI
+    season: FTB-NFL-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/21/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: FTB-NFL-SEASON_2026-TEAM-PIT
+  attributes:
+    display_name: Pittsburgh Steelers
+    abbreviation: PIT
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 80
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: FTB-NFL-TEAM-PIT
+    season: FTB-NFL-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/23/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: FTB-NFL-SEASON_2026-TEAM-RAIDERS
+  attributes:
+    display_name: Las Vegas Raiders
+    abbreviation: LV
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 78
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: FTB-NFL-TEAM-RAIDERS
+    season: FTB-NFL-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/13/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: FTB-NFL-SEASON_2026-TEAM-SEA
+  attributes:
+    display_name: Seattle Seahawks
+    abbreviation: SEA
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 83
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: FTB-NFL-TEAM-SEA
+    season: FTB-NFL-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/26/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: FTB-NFL-SEASON_2026-TEAM-SF
+  attributes:
+    display_name: San Francisco 49ers
+    abbreviation: SF
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 88
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: FTB-NFL-TEAM-SF
+    season: FTB-NFL-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: FTB-NFL-SEASON_2026-TEAM-TB
+  attributes:
+    display_name: Tampa Bay Buccaneers
+    abbreviation: TB
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 74
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: FTB-NFL-TEAM-TB
+    season: FTB-NFL-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/27/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: FTB-NFL-SEASON_2026-TEAM-TEN
+  attributes:
+    display_name: Tennessee Titans
+    abbreviation: TEN
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 81
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: FTB-NFL-TEAM-TEN
+    season: FTB-NFL-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/10/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: FTB-NFL-SEASON_2026-TEAM-WAS
+  attributes:
+    display_name: Washington Commanders
+    abbreviation: WAS
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 77
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: FTB-NFL-TEAM-WAS
+    season: FTB-NFL-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/28/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.

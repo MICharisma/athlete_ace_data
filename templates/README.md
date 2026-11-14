@@ -1,6 +1,6 @@
-# AthleteAce JSON Templates
+# Legacy AthleteAce JSON templates
 
-This directory contains JSON templates for all supported data formats in AthleteAce. Use these templates when contributing new sports data to the project.
+These templates describe the legacy JSON seed layout, used only by the explicit legacy importer. For maintained YAML or JSON manifests, use the `micharisma-seeds/v1` envelope and follow the [contributor guide](../CONTRIBUTING.md). The standard Rails seed command imports that maintained library.
 
 ## Template Files
 
@@ -78,3 +78,11 @@ When adding new data:
 5. Create contests and achievements
 
 For questions or help, please refer to the main AthleteAce documentation.
+
+## Seasons Champion Metadata
+
+Season seed files can now indicate the champion without requiring full playoff data.
+
+- Use `champion_name` or `champion_id` on a season entry to set `season.champion`.
+- Use `championship_contest_name` or `championship_contest_id` to link the season to the deciding contest.
+- If only a championship contest is provided and that contest has a champion, the season champion will be inferred from the contest on the post-contest sync pass.

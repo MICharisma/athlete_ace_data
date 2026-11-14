@@ -1,0 +1,2460 @@
+{
+  "as_of": "2026-10-27",
+  "subdivision_sources": {
+    "US": "https://pe.usps.com/text/pub28/pub28apb.htm",
+    "CA": "https://www.canadapost-postescanada.ca/cpc/en/support/articles/addressing-guidelines/symbols-and-abbreviations.page",
+    "GB": "https://www.ons.gov.uk/methodology/geography/ukgeographies/administrativegeography/england"
+  },
+  "subdivisions": {
+    "US": {
+      "AL": "Alabama",
+      "AK": "Alaska",
+      "AZ": "Arizona",
+      "AR": "Arkansas",
+      "CA": "California",
+      "CO": "Colorado",
+      "CT": "Connecticut",
+      "DE": "Delaware",
+      "DC": "District of Columbia",
+      "FL": "Florida",
+      "GA": "Georgia",
+      "HI": "Hawaii",
+      "ID": "Idaho",
+      "IL": "Illinois",
+      "IN": "Indiana",
+      "IA": "Iowa",
+      "KS": "Kansas",
+      "KY": "Kentucky",
+      "LA": "Louisiana",
+      "ME": "Maine",
+      "MD": "Maryland",
+      "MA": "Massachusetts",
+      "MI": "Michigan",
+      "MN": "Minnesota",
+      "MS": "Mississippi",
+      "MO": "Missouri",
+      "MT": "Montana",
+      "NE": "Nebraska",
+      "NV": "Nevada",
+      "NH": "New Hampshire",
+      "NJ": "New Jersey",
+      "NM": "New Mexico",
+      "NY": "New York",
+      "NC": "North Carolina",
+      "ND": "North Dakota",
+      "OH": "Ohio",
+      "OK": "Oklahoma",
+      "OR": "Oregon",
+      "PA": "Pennsylvania",
+      "RI": "Rhode Island",
+      "SC": "South Carolina",
+      "SD": "South Dakota",
+      "TN": "Tennessee",
+      "TX": "Texas",
+      "UT": "Utah",
+      "VT": "Vermont",
+      "VA": "Virginia",
+      "WA": "Washington",
+      "WV": "West Virginia",
+      "WI": "Wisconsin",
+      "WY": "Wyoming"
+    },
+    "CA": {
+      "AB": "Alberta",
+      "BC": "British Columbia",
+      "MB": "Manitoba",
+      "NB": "New Brunswick",
+      "NL": "Newfoundland and Labrador",
+      "NT": "Northwest Territories",
+      "NU": " Nunavut",
+      "NS": "Nova Scotia",
+      "ON": "Ontario",
+      "PE": "Prince Edward Island",
+      "QC": "Quebec",
+      "SK": "Saskatchewan",
+      "YT": "Yukon"
+    },
+    "GB": {
+      "ENG": "England"
+    }
+  },
+  "locality_policy": "City stores the provider locality, including towns. New York borough/locality variants are grouped under New York; Montréal and Newcastle upon Tyne use consistent spellings. UK venues use England under the existing United Kingdom country. Explicit corrections retain their primary sources.",
+  "venues": [
+    {
+      "code": "STADIUM-CA-AB-CALGARY-SCOTIABANK_SADDLEDOME",
+      "name": "Scotiabank Saddledome",
+      "country": "CA",
+      "state": "AB",
+      "city": "Calgary",
+      "observations": [
+        {
+          "league": "NHL",
+          "team_id": "CGY",
+          "name": "Scotiabank Saddledome"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-CA-AB-EDMONTON-ROGERS_PLACE",
+      "name": "Rogers Place",
+      "country": "CA",
+      "state": "AB",
+      "city": "Edmonton",
+      "observations": [
+        {
+          "league": "NHL",
+          "team_id": "EDM",
+          "name": "Rogers Place"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-CA-BC-VANCOUVER-BC_PLACE",
+      "name": "BC Place",
+      "country": "CA",
+      "state": "BC",
+      "city": "Vancouver",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "9727",
+          "name": "BC Place"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-CA-BC-VANCOUVER-ROGERS_ARENA",
+      "name": "Rogers Arena",
+      "country": "CA",
+      "state": "BC",
+      "city": "Vancouver",
+      "observations": [
+        {
+          "league": "NHL",
+          "team_id": "VAN",
+          "name": "Rogers Arena"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-CA-MB-WINNIPEG-CANADA_LIFE_CENTRE",
+      "name": "Canada Life Centre",
+      "country": "CA",
+      "state": "MB",
+      "city": "Winnipeg",
+      "observations": [
+        {
+          "league": "NHL",
+          "team_id": "WPG",
+          "name": "Canada Life Centre"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-CA-MB-WINNIPEG-PRINCESS_AUTO_STADIUM",
+      "name": "Princess Auto Stadium",
+      "country": "CA",
+      "state": "MB",
+      "city": "Winnipeg",
+      "observations": [
+        {
+          "league": "NHL",
+          "team_id": "WPG",
+          "name": "Princess Auto Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-CA-ON-OTTAWA-CANADIAN_TIRE_CENTRE",
+      "name": "Canadian Tire Centre",
+      "country": "CA",
+      "state": "ON",
+      "city": "Ottawa",
+      "observations": [
+        {
+          "league": "NHL",
+          "team_id": "OTT",
+          "name": "Canadian Tire Centre"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-CA-ON-TORONTO-BMO_FIELD",
+      "name": "BMO Field",
+      "country": "CA",
+      "state": "ON",
+      "city": "Toronto",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "7318",
+          "name": "BMO Field"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-CA-ON-TORONTO-ROGERS_CENTRE",
+      "name": "Rogers Centre",
+      "country": "CA",
+      "state": "ON",
+      "city": "Toronto",
+      "observations": [
+        {
+          "league": "MLB",
+          "team_id": "141",
+          "name": "Rogers Centre"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-CA-ON-TORONTO-SCOTIABANK_ARENA",
+      "name": "Scotiabank Arena",
+      "country": "CA",
+      "state": "ON",
+      "city": "Toronto",
+      "observations": [
+        {
+          "league": "NBA",
+          "team_id": "28",
+          "name": "Scotiabank Arena"
+        },
+        {
+          "league": "NHL",
+          "team_id": "TOR",
+          "name": "Scotiabank Arena"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-CA-QC-MONTREAL-BELL_CENTRE",
+      "name": "Bell Centre",
+      "country": "CA",
+      "state": "QC",
+      "city": "Montréal",
+      "observations": [
+        {
+          "league": "NHL",
+          "team_id": "MTL",
+          "name": "Bell Centre"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-CA-QC-MONTREAL-STADE_SAPUTO",
+      "name": "Stade Saputo",
+      "country": "CA",
+      "state": "QC",
+      "city": "Montréal",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "9720",
+          "name": "Stade Saputo"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-GB-ENG-BIRMINGHAM-VILLA_PARK",
+      "name": "Villa Park",
+      "country": "GB",
+      "state": "ENG",
+      "city": "Birmingham",
+      "observations": [
+        {
+          "league": "EPL",
+          "team_id": "362",
+          "name": "Villa Park"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-GB-ENG-BOURNEMOUTH-VITALITY_STADIUM",
+      "name": "Vitality Stadium",
+      "country": "GB",
+      "state": "ENG",
+      "city": "Bournemouth",
+      "observations": [
+        {
+          "league": "EPL",
+          "team_id": "349",
+          "name": "Vitality Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-GB-ENG-BRENTFORD-GTECH_COMMUNITY_STADIUM",
+      "name": "Gtech Community Stadium",
+      "country": "GB",
+      "state": "ENG",
+      "city": "Brentford",
+      "observations": [
+        {
+          "league": "EPL",
+          "team_id": "337",
+          "name": "Gtech Community Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-GB-ENG-COVENTRY-COVENTRY_BUILDING_SOCIETY_ARENA",
+      "name": "Coventry Building Society Arena",
+      "country": "GB",
+      "state": "ENG",
+      "city": "Coventry",
+      "observations": [
+        {
+          "league": "EPL",
+          "team_id": "388",
+          "name": "Coventry Building Society Arena"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-GB-ENG-FALMER-AMERICAN_EXPRESS_STADIUM",
+      "name": "American Express Stadium",
+      "country": "GB",
+      "state": "ENG",
+      "city": "Falmer",
+      "observations": [
+        {
+          "league": "EPL",
+          "team_id": "331",
+          "name": "American Express Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-GB-ENG-HULL-THE_MKM_STADIUM",
+      "name": "The MKM Stadium",
+      "country": "GB",
+      "state": "ENG",
+      "city": "Hull",
+      "observations": [
+        {
+          "league": "EPL",
+          "team_id": "306",
+          "name": "The MKM Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-GB-ENG-IPSWICH-PORTMAN_ROAD",
+      "name": "Portman Road",
+      "country": "GB",
+      "state": "ENG",
+      "city": "Ipswich",
+      "observations": [
+        {
+          "league": "EPL",
+          "team_id": "373",
+          "name": "Portman Road"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-GB-ENG-LEEDS-ELLAND_ROAD",
+      "name": "Elland Road",
+      "country": "GB",
+      "state": "ENG",
+      "city": "Leeds",
+      "observations": [
+        {
+          "league": "EPL",
+          "team_id": "357",
+          "name": "Elland Road"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-GB-ENG-LIVERPOOL-ANFIELD",
+      "name": "Anfield",
+      "country": "GB",
+      "state": "ENG",
+      "city": "Liverpool",
+      "observations": [
+        {
+          "league": "EPL",
+          "team_id": "364",
+          "name": "Anfield"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-GB-ENG-LIVERPOOL-HILL_DICKINSON_STADIUM",
+      "name": "Hill Dickinson Stadium",
+      "country": "GB",
+      "state": "ENG",
+      "city": "Liverpool",
+      "observations": [
+        {
+          "league": "EPL",
+          "team_id": "368",
+          "name": "Hill Dickinson Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-GB-ENG-LONDON-CRAVEN_COTTAGE",
+      "name": "Craven Cottage",
+      "country": "GB",
+      "state": "ENG",
+      "city": "London",
+      "observations": [
+        {
+          "league": "EPL",
+          "team_id": "370",
+          "name": "Craven Cottage"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-GB-ENG-LONDON-EMIRATES_STADIUM",
+      "name": "Emirates Stadium",
+      "country": "GB",
+      "state": "ENG",
+      "city": "London",
+      "observations": [
+        {
+          "league": "EPL",
+          "team_id": "359",
+          "name": "Emirates Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-GB-ENG-LONDON-SELHURST_PARK",
+      "name": "Selhurst Park",
+      "country": "GB",
+      "state": "ENG",
+      "city": "London",
+      "observations": [
+        {
+          "league": "EPL",
+          "team_id": "384",
+          "name": "Selhurst Park"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-GB-ENG-LONDON-STAMFORD_BRIDGE",
+      "name": "Stamford Bridge",
+      "country": "GB",
+      "state": "ENG",
+      "city": "London",
+      "observations": [
+        {
+          "league": "EPL",
+          "team_id": "363",
+          "name": "Stamford Bridge"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-GB-ENG-LONDON-TOTTENHAM_HOTSPUR_STADIUM",
+      "name": "Tottenham Hotspur Stadium",
+      "country": "GB",
+      "state": "ENG",
+      "city": "London",
+      "observations": [
+        {
+          "league": "EPL",
+          "team_id": "367",
+          "name": "Tottenham Hotspur Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-GB-ENG-MANCHESTER-ETIHAD_STADIUM",
+      "name": "Etihad Stadium",
+      "country": "GB",
+      "state": "ENG",
+      "city": "Manchester",
+      "observations": [
+        {
+          "league": "EPL",
+          "team_id": "382",
+          "name": "Etihad Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-GB-ENG-MANCHESTER-OLD_TRAFFORD",
+      "name": "Old Trafford",
+      "country": "GB",
+      "state": "ENG",
+      "city": "Manchester",
+      "observations": [
+        {
+          "league": "EPL",
+          "team_id": "360",
+          "name": "Old Trafford"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-GB-ENG-NEWCASTLE_UPON_TYNE-ST_JAMES_PARK",
+      "name": "St. James' Park",
+      "country": "GB",
+      "state": "ENG",
+      "city": "Newcastle upon Tyne",
+      "observations": [
+        {
+          "league": "EPL",
+          "team_id": "361",
+          "name": "St. James' Park"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-GB-ENG-SUNDERLAND-STADIUM_OF_LIGHT",
+      "name": "Stadium of Light",
+      "country": "GB",
+      "state": "ENG",
+      "city": "Sunderland",
+      "observations": [
+        {
+          "league": "EPL",
+          "team_id": "366",
+          "name": "Stadium of Light"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-GB-ENG-WEST_BRIDGFORD-THE_CITY_GROUND",
+      "name": "The City Ground",
+      "country": "GB",
+      "state": "ENG",
+      "city": "West Bridgford",
+      "observations": [
+        {
+          "league": "EPL",
+          "team_id": "393",
+          "name": "The City Ground"
+        }
+      ],
+      "review": {
+        "url": "https://www.premierleague.com/en/news/4725666",
+        "note": "The Premier League guide places the stadium in West Bridgford, south of Nottingham."
+      }
+    },
+    {
+      "code": "STADIUM-US-AZ-GLENDALE-STATE_FARM_STADIUM",
+      "name": "State Farm Stadium",
+      "country": "US",
+      "state": "AZ",
+      "city": "Glendale",
+      "observations": [
+        {
+          "league": "NFL",
+          "team_id": "22",
+          "name": "State Farm Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-AZ-PHOENIX-CHASE_FIELD",
+      "name": "Chase Field",
+      "country": "US",
+      "state": "AZ",
+      "city": "Phoenix",
+      "observations": [
+        {
+          "league": "MLB",
+          "team_id": "109",
+          "name": "Chase Field"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-AZ-PHOENIX-MORTGAGE_MATCHUP_CENTER",
+      "name": "Mortgage Matchup Center",
+      "country": "US",
+      "state": "AZ",
+      "city": "Phoenix",
+      "observations": [
+        {
+          "league": "NBA",
+          "team_id": "21",
+          "name": "Mortgage Matchup Center"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-CA-ANAHEIM-ANGEL_STADIUM",
+      "name": "Angel Stadium",
+      "country": "US",
+      "state": "CA",
+      "city": "Anaheim",
+      "observations": [
+        {
+          "league": "MLB",
+          "team_id": "108",
+          "name": "Angel Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-CA-ANAHEIM-HONDA_CENTER",
+      "name": "Honda Center",
+      "country": "US",
+      "state": "CA",
+      "city": "Anaheim",
+      "observations": [
+        {
+          "league": "NHL",
+          "team_id": "ANA",
+          "name": "Honda Center"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-CA-CARSON-DIGNITY_HEALTH_SPORTS_PARK",
+      "name": "Dignity Health Sports Park",
+      "country": "US",
+      "state": "CA",
+      "city": "Carson",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "187",
+          "name": "Dignity Health Sports Park"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-CA-INGLEWOOD-INTUIT_DOME",
+      "name": "Intuit Dome",
+      "country": "US",
+      "state": "CA",
+      "city": "Inglewood",
+      "observations": [
+        {
+          "league": "NBA",
+          "team_id": "12",
+          "name": "Intuit Dome"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-CA-INGLEWOOD-SOFI_STADIUM",
+      "name": "SoFi Stadium",
+      "country": "US",
+      "state": "CA",
+      "city": "Inglewood",
+      "observations": [
+        {
+          "league": "NFL",
+          "team_id": "14",
+          "name": "SoFi Stadium"
+        },
+        {
+          "league": "NFL",
+          "team_id": "24",
+          "name": "SoFi Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-CA-LOS_ANGELES-BMO_STADIUM",
+      "name": "BMO Stadium",
+      "country": "US",
+      "state": "CA",
+      "city": "Los Angeles",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "18966",
+          "name": "BMO Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-CA-LOS_ANGELES-CRYPTO_COM_ARENA",
+      "name": "crypto.com Arena",
+      "country": "US",
+      "state": "CA",
+      "city": "Los Angeles",
+      "observations": [
+        {
+          "league": "NBA",
+          "team_id": "13",
+          "name": "crypto.com Arena"
+        },
+        {
+          "league": "NHL",
+          "team_id": "LAK",
+          "name": "crypto.com Arena"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-CA-LOS_ANGELES-LOS_ANGELES_MEMORIAL_COLISEUM",
+      "name": "Los Angeles Memorial Coliseum",
+      "country": "US",
+      "state": "CA",
+      "city": "Los Angeles",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "18966",
+          "name": "Los Angeles Memorial Coliseum"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-CA-LOS_ANGELES-UNIQLO_FIELD_AT_DODGER_STADIUM",
+      "name": "UNIQLO Field at Dodger Stadium",
+      "country": "US",
+      "state": "CA",
+      "city": "Los Angeles",
+      "observations": [
+        {
+          "league": "MLB",
+          "team_id": "119",
+          "name": "UNIQLO Field at Dodger Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-CA-SACRAMENTO-GOLDEN_1_CENTER",
+      "name": "Golden 1 Center",
+      "country": "US",
+      "state": "CA",
+      "city": "Sacramento",
+      "observations": [
+        {
+          "league": "NBA",
+          "team_id": "23",
+          "name": "Golden 1 Center"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-CA-SANTA_CLARA-LEVI_S_STADIUM",
+      "name": "Levi's Stadium",
+      "country": "US",
+      "state": "CA",
+      "city": "Santa Clara",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "191",
+          "name": "Levi's Stadium"
+        },
+        {
+          "league": "NFL",
+          "team_id": "25",
+          "name": "Levi's Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-CA-SAN_DIEGO-PETCO_PARK",
+      "name": "Petco Park",
+      "country": "US",
+      "state": "CA",
+      "city": "San Diego",
+      "observations": [
+        {
+          "league": "MLB",
+          "team_id": "135",
+          "name": "Petco Park"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-CA-SAN_DIEGO-SNAPDRAGON_STADIUM",
+      "name": "Snapdragon Stadium",
+      "country": "US",
+      "state": "CA",
+      "city": "San Diego",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "22529",
+          "name": "Snapdragon Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-CA-SAN_FRANCISCO-CHASE_CENTER",
+      "name": "Chase Center",
+      "country": "US",
+      "state": "CA",
+      "city": "San Francisco",
+      "observations": [
+        {
+          "league": "NBA",
+          "team_id": "9",
+          "name": "Chase Center"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-CA-SAN_FRANCISCO-ORACLE_PARK",
+      "name": "Oracle Park",
+      "country": "US",
+      "state": "CA",
+      "city": "San Francisco",
+      "observations": [
+        {
+          "league": "MLB",
+          "team_id": "137",
+          "name": "Oracle Park"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-CA-SAN_JOSE-PAYPAL_PARK",
+      "name": "PayPal Park",
+      "country": "US",
+      "state": "CA",
+      "city": "San Jose",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "191",
+          "name": "PayPal Park"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-CA-SAN_JOSE-SAP_CENTER_AT_SAN_JOSE",
+      "name": "SAP Center at San Jose",
+      "country": "US",
+      "state": "CA",
+      "city": "San Jose",
+      "observations": [
+        {
+          "league": "NHL",
+          "team_id": "SJS",
+          "name": "SAP Center at San Jose"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-CA-STANFORD-STANFORD_STADIUM",
+      "name": "Stanford Stadium",
+      "country": "US",
+      "state": "CA",
+      "city": "Stanford",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "191",
+          "name": "Stanford Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-CA-WEST_SACRAMENTO-SUTTER_HEALTH_PARK",
+      "name": "Sutter Health Park",
+      "country": "US",
+      "state": "CA",
+      "city": "West Sacramento",
+      "observations": [
+        {
+          "league": "MLB",
+          "team_id": "133",
+          "name": "Sutter Health Park"
+        }
+      ],
+      "review": {
+        "url": "https://www.sutterhealthpark.com/",
+        "note": "MLB gives Sacramento as a postal locality; the venue identifies West Sacramento."
+      }
+    },
+    {
+      "code": "STADIUM-US-CO-COMMERCE_CITY-DICK_S_SPORTING_GOODS_PARK",
+      "name": "Dick's Sporting Goods Park",
+      "country": "US",
+      "state": "CO",
+      "city": "Commerce City",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "184",
+          "name": "Dick's Sporting Goods Park"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-CO-DENVER-BALL_ARENA",
+      "name": "Ball Arena",
+      "country": "US",
+      "state": "CO",
+      "city": "Denver",
+      "observations": [
+        {
+          "league": "NBA",
+          "team_id": "7",
+          "name": "Ball Arena"
+        },
+        {
+          "league": "NHL",
+          "team_id": "COL",
+          "name": "Ball Arena"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-CO-DENVER-COORS_FIELD",
+      "name": "Coors Field",
+      "country": "US",
+      "state": "CO",
+      "city": "Denver",
+      "observations": [
+        {
+          "league": "MLB",
+          "team_id": "115",
+          "name": "Coors Field"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-CO-DENVER-EMPOWER_FIELD_AT_MILE_HIGH",
+      "name": "Empower Field at Mile High",
+      "country": "US",
+      "state": "CO",
+      "city": "Denver",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "184",
+          "name": "Empower Field at Mile High"
+        },
+        {
+          "league": "NFL",
+          "team_id": "7",
+          "name": "Empower Field at Mile High"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-DC-WASHINGTON-AUDI_FIELD",
+      "name": "Audi Field",
+      "country": "US",
+      "state": "DC",
+      "city": "Washington",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "193",
+          "name": "Audi Field"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-DC-WASHINGTON-CAPITAL_ONE_ARENA",
+      "name": "Capital One Arena",
+      "country": "US",
+      "state": "DC",
+      "city": "Washington",
+      "observations": [
+        {
+          "league": "NBA",
+          "team_id": "27",
+          "name": "Capital One Arena"
+        },
+        {
+          "league": "NHL",
+          "team_id": "WSH",
+          "name": "Capital One Arena"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-DC-WASHINGTON-NATIONALS_PARK",
+      "name": "Nationals Park",
+      "country": "US",
+      "state": "DC",
+      "city": "Washington",
+      "observations": [
+        {
+          "league": "MLB",
+          "team_id": "120",
+          "name": "Nationals Park"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-FL-JACKSONVILLE-EVERBANK_STADIUM",
+      "name": "EverBank Stadium",
+      "country": "US",
+      "state": "FL",
+      "city": "Jacksonville",
+      "observations": [
+        {
+          "league": "NFL",
+          "team_id": "30",
+          "name": "EverBank Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-FL-MIAMI-KASEYA_CENTER",
+      "name": "Kaseya Center",
+      "country": "US",
+      "state": "FL",
+      "city": "Miami",
+      "observations": [
+        {
+          "league": "NBA",
+          "team_id": "14",
+          "name": "Kaseya Center"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-FL-MIAMI-LOANDEPOT_PARK",
+      "name": "loanDepot park",
+      "country": "US",
+      "state": "FL",
+      "city": "Miami",
+      "observations": [
+        {
+          "league": "MLB",
+          "team_id": "146",
+          "name": "loanDepot park"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-FL-MIAMI-NU_STADIUM",
+      "name": "Nu Stadium",
+      "country": "US",
+      "state": "FL",
+      "city": "Miami",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "20232",
+          "name": "Nu Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-FL-MIAMI_GARDENS-HARD_ROCK_STADIUM",
+      "name": "Hard Rock Stadium",
+      "country": "US",
+      "state": "FL",
+      "city": "Miami Gardens",
+      "observations": [
+        {
+          "league": "NFL",
+          "team_id": "15",
+          "name": "Hard Rock Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-FL-ORLANDO-INTER_CO_STADIUM",
+      "name": "Inter&Co Stadium",
+      "country": "US",
+      "state": "FL",
+      "city": "Orlando",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "12011",
+          "name": "Inter&Co Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-FL-ORLANDO-KIA_CENTER",
+      "name": "Kia Center",
+      "country": "US",
+      "state": "FL",
+      "city": "Orlando",
+      "observations": [
+        {
+          "league": "NBA",
+          "team_id": "19",
+          "name": "Kia Center"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-FL-ST_PETERSBURG-TROPICANA_FIELD",
+      "name": "Tropicana Field",
+      "country": "US",
+      "state": "FL",
+      "city": "St. Petersburg",
+      "observations": [
+        {
+          "league": "MLB",
+          "team_id": "139",
+          "name": "Tropicana Field"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-FL-SUNRISE-AMERANT_BANK_ARENA",
+      "name": "Amerant Bank Arena",
+      "country": "US",
+      "state": "FL",
+      "city": "Sunrise",
+      "observations": [
+        {
+          "league": "NHL",
+          "team_id": "FLA",
+          "name": "Amerant Bank Arena"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-FL-TAMPA-BENCHMARK_INTERNATIONAL_ARENA",
+      "name": "Benchmark International Arena",
+      "country": "US",
+      "state": "FL",
+      "city": "Tampa",
+      "observations": [
+        {
+          "league": "NHL",
+          "team_id": "TBL",
+          "name": "Benchmark International Arena"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-FL-TAMPA-RAYMOND_JAMES_STADIUM",
+      "name": "Raymond James Stadium",
+      "country": "US",
+      "state": "FL",
+      "city": "Tampa",
+      "observations": [
+        {
+          "league": "NFL",
+          "team_id": "27",
+          "name": "Raymond James Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-GA-ATLANTA-MERCEDES_BENZ_STADIUM",
+      "name": "Mercedes-Benz Stadium",
+      "country": "US",
+      "state": "GA",
+      "city": "Atlanta",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "18418",
+          "name": "Mercedes-Benz Stadium"
+        },
+        {
+          "league": "NFL",
+          "team_id": "1",
+          "name": "Mercedes-Benz Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-GA-ATLANTA-STATE_FARM_ARENA",
+      "name": "State Farm Arena",
+      "country": "US",
+      "state": "GA",
+      "city": "Atlanta",
+      "observations": [
+        {
+          "league": "NBA",
+          "team_id": "1",
+          "name": "State Farm Arena"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-GA-ATLANTA-TRUIST_PARK",
+      "name": "Truist Park",
+      "country": "US",
+      "state": "GA",
+      "city": "Atlanta",
+      "observations": [
+        {
+          "league": "MLB",
+          "team_id": "144",
+          "name": "Truist Park"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-IL-CHICAGO-RATE_FIELD",
+      "name": "Rate Field",
+      "country": "US",
+      "state": "IL",
+      "city": "Chicago",
+      "observations": [
+        {
+          "league": "MLB",
+          "team_id": "145",
+          "name": "Rate Field"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-IL-CHICAGO-SOLDIER_FIELD",
+      "name": "Soldier Field",
+      "country": "US",
+      "state": "IL",
+      "city": "Chicago",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "182",
+          "name": "Soldier Field"
+        },
+        {
+          "league": "NFL",
+          "team_id": "3",
+          "name": "Soldier Field"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-IL-CHICAGO-UNITED_CENTER",
+      "name": "United Center",
+      "country": "US",
+      "state": "IL",
+      "city": "Chicago",
+      "observations": [
+        {
+          "league": "NBA",
+          "team_id": "4",
+          "name": "United Center"
+        },
+        {
+          "league": "NHL",
+          "team_id": "CHI",
+          "name": "United Center"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-IL-CHICAGO-WRIGLEY_FIELD",
+      "name": "Wrigley Field",
+      "country": "US",
+      "state": "IL",
+      "city": "Chicago",
+      "observations": [
+        {
+          "league": "MLB",
+          "team_id": "112",
+          "name": "Wrigley Field"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-IN-INDIANAPOLIS-GAINBRIDGE_FIELDHOUSE",
+      "name": "Gainbridge Fieldhouse",
+      "country": "US",
+      "state": "IN",
+      "city": "Indianapolis",
+      "observations": [
+        {
+          "league": "NBA",
+          "team_id": "11",
+          "name": "Gainbridge Fieldhouse"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-IN-INDIANAPOLIS-LUCAS_OIL_STADIUM",
+      "name": "Lucas Oil Stadium",
+      "country": "US",
+      "state": "IN",
+      "city": "Indianapolis",
+      "observations": [
+        {
+          "league": "NFL",
+          "team_id": "11",
+          "name": "Lucas Oil Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-KS-KANSAS_CITY-SPORTING_PARK",
+      "name": "Sporting Park",
+      "country": "US",
+      "state": "KS",
+      "city": "Kansas City",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "186",
+          "name": "Sporting Park"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-LA-NEW_ORLEANS-CAESARS_SUPERDOME",
+      "name": "Caesars Superdome",
+      "country": "US",
+      "state": "LA",
+      "city": "New Orleans",
+      "observations": [
+        {
+          "league": "NFL",
+          "team_id": "18",
+          "name": "Caesars Superdome"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-LA-NEW_ORLEANS-SMOOTHIE_KING_CENTER",
+      "name": "Smoothie King Center",
+      "country": "US",
+      "state": "LA",
+      "city": "New Orleans",
+      "observations": [
+        {
+          "league": "NBA",
+          "team_id": "3",
+          "name": "Smoothie King Center"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-MA-BOSTON-FENWAY_PARK",
+      "name": "Fenway Park",
+      "country": "US",
+      "state": "MA",
+      "city": "Boston",
+      "observations": [
+        {
+          "league": "MLB",
+          "team_id": "111",
+          "name": "Fenway Park"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-MA-BOSTON-TD_GARDEN",
+      "name": "TD Garden",
+      "country": "US",
+      "state": "MA",
+      "city": "Boston",
+      "observations": [
+        {
+          "league": "NBA",
+          "team_id": "2",
+          "name": "TD Garden"
+        },
+        {
+          "league": "NHL",
+          "team_id": "BOS",
+          "name": "TD Garden"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-MA-FOXBOROUGH-GILLETTE_STADIUM",
+      "name": "Gillette Stadium",
+      "country": "US",
+      "state": "MA",
+      "city": "Foxborough",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "189",
+          "name": "Gillette Stadium"
+        },
+        {
+          "league": "NFL",
+          "team_id": "17",
+          "name": "Gillette Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-MD-BALTIMORE-M_T_BANK_STADIUM",
+      "name": "M&T Bank Stadium",
+      "country": "US",
+      "state": "MD",
+      "city": "Baltimore",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "193",
+          "name": "M&T Bank Stadium"
+        },
+        {
+          "league": "NFL",
+          "team_id": "33",
+          "name": "M&T Bank Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-MD-BALTIMORE-ORIOLE_PARK_AT_CAMDEN_YARDS",
+      "name": "Oriole Park at Camden Yards",
+      "country": "US",
+      "state": "MD",
+      "city": "Baltimore",
+      "observations": [
+        {
+          "league": "MLB",
+          "team_id": "110",
+          "name": "Oriole Park at Camden Yards"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-MD-LANDOVER-NORTHWEST_STADIUM",
+      "name": "Northwest Stadium",
+      "country": "US",
+      "state": "MD",
+      "city": "Landover",
+      "observations": [
+        {
+          "league": "NFL",
+          "team_id": "28",
+          "name": "Northwest Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-MI-DETROIT-COMERICA_PARK",
+      "name": "Comerica Park",
+      "country": "US",
+      "state": "MI",
+      "city": "Detroit",
+      "observations": [
+        {
+          "league": "MLB",
+          "team_id": "116",
+          "name": "Comerica Park"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-MI-DETROIT-FORD_FIELD",
+      "name": "Ford Field",
+      "country": "US",
+      "state": "MI",
+      "city": "Detroit",
+      "observations": [
+        {
+          "league": "NFL",
+          "team_id": "8",
+          "name": "Ford Field"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-MI-DETROIT-LITTLE_CAESARS_ARENA",
+      "name": "Little Caesars Arena",
+      "country": "US",
+      "state": "MI",
+      "city": "Detroit",
+      "observations": [
+        {
+          "league": "NBA",
+          "team_id": "8",
+          "name": "Little Caesars Arena"
+        },
+        {
+          "league": "NHL",
+          "team_id": "DET",
+          "name": "Little Caesars Arena"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-MN-MINNEAPOLIS-TARGET_CENTER",
+      "name": "Target Center",
+      "country": "US",
+      "state": "MN",
+      "city": "Minneapolis",
+      "observations": [
+        {
+          "league": "NBA",
+          "team_id": "16",
+          "name": "Target Center"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-MN-MINNEAPOLIS-TARGET_FIELD",
+      "name": "Target Field",
+      "country": "US",
+      "state": "MN",
+      "city": "Minneapolis",
+      "observations": [
+        {
+          "league": "MLB",
+          "team_id": "142",
+          "name": "Target Field"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-MN-MINNEAPOLIS-U_S_BANK_STADIUM",
+      "name": "U.S. Bank Stadium",
+      "country": "US",
+      "state": "MN",
+      "city": "Minneapolis",
+      "observations": [
+        {
+          "league": "NFL",
+          "team_id": "16",
+          "name": "U.S. Bank Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-MN-SAINT_PAUL-ALLIANZ_FIELD",
+      "name": "Allianz Field",
+      "country": "US",
+      "state": "MN",
+      "city": "Saint Paul",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "17362",
+          "name": "Allianz Field"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-MN-SAINT_PAUL-GRAND_CASINO_ARENA",
+      "name": "Grand Casino Arena",
+      "country": "US",
+      "state": "MN",
+      "city": "Saint Paul",
+      "observations": [
+        {
+          "league": "NHL",
+          "team_id": "MIN",
+          "name": "Grand Casino Arena"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-MO-KANSAS_CITY-ARROWHEAD_STADIUM",
+      "name": "Arrowhead Stadium",
+      "country": "US",
+      "state": "MO",
+      "city": "Kansas City",
+      "observations": [
+        {
+          "league": "NFL",
+          "team_id": "12",
+          "name": "Arrowhead Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-MO-KANSAS_CITY-KAUFFMAN_STADIUM",
+      "name": "Kauffman Stadium",
+      "country": "US",
+      "state": "MO",
+      "city": "Kansas City",
+      "observations": [
+        {
+          "league": "MLB",
+          "team_id": "118",
+          "name": "Kauffman Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-MO-ST_LOUIS-BUSCH_STADIUM",
+      "name": "Busch Stadium",
+      "country": "US",
+      "state": "MO",
+      "city": "St. Louis",
+      "observations": [
+        {
+          "league": "MLB",
+          "team_id": "138",
+          "name": "Busch Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-MO-ST_LOUIS-ENERGIZER_PARK",
+      "name": "Energizer Park",
+      "country": "US",
+      "state": "MO",
+      "city": "St. Louis",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "21812",
+          "name": "Energizer Park"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-MO-ST_LOUIS-ENTERPRISE_CENTER",
+      "name": "Enterprise Center",
+      "country": "US",
+      "state": "MO",
+      "city": "St. Louis",
+      "observations": [
+        {
+          "league": "NHL",
+          "team_id": "STL",
+          "name": "Enterprise Center"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-NC-CHARLOTTE-BANK_OF_AMERICA_STADIUM",
+      "name": "Bank of America Stadium",
+      "country": "US",
+      "state": "NC",
+      "city": "Charlotte",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "21300",
+          "name": "Bank of America Stadium"
+        },
+        {
+          "league": "NFL",
+          "team_id": "29",
+          "name": "Bank of America Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-NC-CHARLOTTE-SPECTRUM_CENTER",
+      "name": "Spectrum Center",
+      "country": "US",
+      "state": "NC",
+      "city": "Charlotte",
+      "observations": [
+        {
+          "league": "NBA",
+          "team_id": "30",
+          "name": "Spectrum Center"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-NC-RALEIGH-LENOVO_CENTER",
+      "name": "Lenovo Center",
+      "country": "US",
+      "state": "NC",
+      "city": "Raleigh",
+      "observations": [
+        {
+          "league": "NHL",
+          "team_id": "CAR",
+          "name": "Lenovo Center"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-NJ-EAST_RUTHERFORD-METLIFE_STADIUM",
+      "name": "MetLife Stadium",
+      "country": "US",
+      "state": "NJ",
+      "city": "East Rutherford",
+      "observations": [
+        {
+          "league": "NFL",
+          "team_id": "19",
+          "name": "MetLife Stadium"
+        },
+        {
+          "league": "NFL",
+          "team_id": "20",
+          "name": "MetLife Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-NJ-HARRISON-SPORTS_ILLUSTRATED_STADIUM",
+      "name": "Sports Illustrated Stadium",
+      "country": "US",
+      "state": "NJ",
+      "city": "Harrison",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "190",
+          "name": "Sports Illustrated Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-NJ-NEWARK-PRUDENTIAL_CENTER",
+      "name": "Prudential Center",
+      "country": "US",
+      "state": "NJ",
+      "city": "Newark",
+      "observations": [
+        {
+          "league": "NHL",
+          "team_id": "NJD",
+          "name": "Prudential Center"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-NV-LAS_VEGAS-ALLEGIANT_STADIUM",
+      "name": "Allegiant Stadium",
+      "country": "US",
+      "state": "NV",
+      "city": "Las Vegas",
+      "observations": [
+        {
+          "league": "NFL",
+          "team_id": "13",
+          "name": "Allegiant Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-NV-LAS_VEGAS-T_MOBILE_ARENA",
+      "name": "T-Mobile Arena",
+      "country": "US",
+      "state": "NV",
+      "city": "Las Vegas",
+      "observations": [
+        {
+          "league": "NHL",
+          "team_id": "VGK",
+          "name": "T-Mobile Arena"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-NY-BUFFALO-KEYBANK_CENTER",
+      "name": "KeyBank Center",
+      "country": "US",
+      "state": "NY",
+      "city": "Buffalo",
+      "observations": [
+        {
+          "league": "NHL",
+          "team_id": "BUF",
+          "name": "KeyBank Center"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-NY-ELMONT-UBS_ARENA",
+      "name": "UBS Arena",
+      "country": "US",
+      "state": "NY",
+      "city": "Elmont",
+      "observations": [
+        {
+          "league": "NHL",
+          "team_id": "NYI",
+          "name": "UBS Arena"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-NY-NEW_YORK-BARCLAYS_CENTER",
+      "name": "Barclays Center",
+      "country": "US",
+      "state": "NY",
+      "city": "New York",
+      "observations": [
+        {
+          "league": "NBA",
+          "team_id": "17",
+          "name": "Barclays Center"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-NY-NEW_YORK-CITI_FIELD",
+      "name": "Citi Field",
+      "country": "US",
+      "state": "NY",
+      "city": "New York",
+      "observations": [
+        {
+          "league": "MLB",
+          "team_id": "121",
+          "name": "Citi Field"
+        },
+        {
+          "league": "MLS",
+          "team_id": "17606",
+          "name": "Citi Field"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-NY-NEW_YORK-MADISON_SQUARE_GARDEN",
+      "name": "Madison Square Garden",
+      "country": "US",
+      "state": "NY",
+      "city": "New York",
+      "observations": [
+        {
+          "league": "NBA",
+          "team_id": "18",
+          "name": "Madison Square Garden"
+        },
+        {
+          "league": "NHL",
+          "team_id": "NYR",
+          "name": "Madison Square Garden"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-NY-NEW_YORK-YANKEE_STADIUM",
+      "name": "Yankee Stadium",
+      "country": "US",
+      "state": "NY",
+      "city": "New York",
+      "observations": [
+        {
+          "league": "MLB",
+          "team_id": "147",
+          "name": "Yankee Stadium"
+        },
+        {
+          "league": "MLS",
+          "team_id": "17606",
+          "name": "Yankee Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-NY-ORCHARD_PARK-HIGHMARK_STADIUM_2026",
+      "name": "Highmark Stadium",
+      "country": "US",
+      "state": "NY",
+      "city": "Orchard Park",
+      "observations": [
+        {
+          "league": "NFL",
+          "team_id": "2",
+          "name": "Highmark Stadium"
+        }
+      ],
+      "review": {
+        "url": "https://static.www.nfl.com/league/apps/league-site/media-guides/2024/BUF.pdf",
+        "note": "The new stadium opened for the 2026 season. Keep a distinct identity from the former same-name facility."
+      }
+    },
+    {
+      "code": "STADIUM-US-OH-CINCINNATI-GREAT_AMERICAN_BALL_PARK",
+      "name": "Great American Ball Park",
+      "country": "US",
+      "state": "OH",
+      "city": "Cincinnati",
+      "observations": [
+        {
+          "league": "MLB",
+          "team_id": "113",
+          "name": "Great American Ball Park"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-OH-CINCINNATI-PAYCOR_STADIUM",
+      "name": "Paycor Stadium",
+      "country": "US",
+      "state": "OH",
+      "city": "Cincinnati",
+      "observations": [
+        {
+          "league": "NFL",
+          "team_id": "4",
+          "name": "Paycor Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-OH-CINCINNATI-TQL_STADIUM",
+      "name": "TQL Stadium",
+      "country": "US",
+      "state": "OH",
+      "city": "Cincinnati",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "18267",
+          "name": "TQL Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-OH-CLEVELAND-HUNTINGTON_BANK_FIELD",
+      "name": "Huntington Bank Field",
+      "country": "US",
+      "state": "OH",
+      "city": "Cleveland",
+      "observations": [
+        {
+          "league": "NFL",
+          "team_id": "5",
+          "name": "Huntington Bank Field"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-OH-CLEVELAND-PROGRESSIVE_FIELD",
+      "name": "Progressive Field",
+      "country": "US",
+      "state": "OH",
+      "city": "Cleveland",
+      "observations": [
+        {
+          "league": "MLB",
+          "team_id": "114",
+          "name": "Progressive Field"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-OH-CLEVELAND-ROCKET_ARENA",
+      "name": "Rocket Arena",
+      "country": "US",
+      "state": "OH",
+      "city": "Cleveland",
+      "observations": [
+        {
+          "league": "NBA",
+          "team_id": "5",
+          "name": "Rocket Arena"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-OH-COLUMBUS-NATIONWIDE_ARENA",
+      "name": "Nationwide Arena",
+      "country": "US",
+      "state": "OH",
+      "city": "Columbus",
+      "observations": [
+        {
+          "league": "NHL",
+          "team_id": "CBJ",
+          "name": "Nationwide Arena"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-OH-COLUMBUS-SCOTTSMIRACLE_GRO_FIELD",
+      "name": "ScottsMiracle-Gro Field",
+      "country": "US",
+      "state": "OH",
+      "city": "Columbus",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "183",
+          "name": "ScottsMiracle-Gro Field"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-OK-OKLAHOMA_CITY-PAYCOM_CENTER",
+      "name": "Paycom Center",
+      "country": "US",
+      "state": "OK",
+      "city": "Oklahoma City",
+      "observations": [
+        {
+          "league": "NBA",
+          "team_id": "25",
+          "name": "Paycom Center"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-OR-PORTLAND-MODA_CENTER",
+      "name": "Moda Center",
+      "country": "US",
+      "state": "OR",
+      "city": "Portland",
+      "observations": [
+        {
+          "league": "NBA",
+          "team_id": "22",
+          "name": "Moda Center"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-OR-PORTLAND-PROVIDENCE_PARK",
+      "name": "Providence Park",
+      "country": "US",
+      "state": "OR",
+      "city": "Portland",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "9723",
+          "name": "Providence Park"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-PA-CHESTER-SUBARU_PARK",
+      "name": "Subaru Park",
+      "country": "US",
+      "state": "PA",
+      "city": "Chester",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "10739",
+          "name": "Subaru Park"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-PA-PHILADELPHIA-CITIZENS_BANK_PARK",
+      "name": "Citizens Bank Park",
+      "country": "US",
+      "state": "PA",
+      "city": "Philadelphia",
+      "observations": [
+        {
+          "league": "MLB",
+          "team_id": "143",
+          "name": "Citizens Bank Park"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-PA-PHILADELPHIA-LINCOLN_FINANCIAL_FIELD",
+      "name": "Lincoln Financial Field",
+      "country": "US",
+      "state": "PA",
+      "city": "Philadelphia",
+      "observations": [
+        {
+          "league": "NFL",
+          "team_id": "21",
+          "name": "Lincoln Financial Field"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-PA-PHILADELPHIA-XFINITY_MOBILE_ARENA",
+      "name": "Xfinity Mobile Arena",
+      "country": "US",
+      "state": "PA",
+      "city": "Philadelphia",
+      "observations": [
+        {
+          "league": "NBA",
+          "team_id": "20",
+          "name": "Xfinity Mobile Arena"
+        },
+        {
+          "league": "NHL",
+          "team_id": "PHI",
+          "name": "Xfinity Mobile Arena"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-PA-PITTSBURGH-ACRISURE_STADIUM",
+      "name": "Acrisure Stadium",
+      "country": "US",
+      "state": "PA",
+      "city": "Pittsburgh",
+      "observations": [
+        {
+          "league": "NFL",
+          "team_id": "23",
+          "name": "Acrisure Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-PA-PITTSBURGH-PNC_PARK",
+      "name": "PNC Park",
+      "country": "US",
+      "state": "PA",
+      "city": "Pittsburgh",
+      "observations": [
+        {
+          "league": "MLB",
+          "team_id": "134",
+          "name": "PNC Park"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-PA-PITTSBURGH-PPG_PAINTS_ARENA",
+      "name": "PPG Paints Arena",
+      "country": "US",
+      "state": "PA",
+      "city": "Pittsburgh",
+      "observations": [
+        {
+          "league": "NHL",
+          "team_id": "PIT",
+          "name": "PPG Paints Arena"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-TN-MEMPHIS-FEDEXFORUM",
+      "name": "FedExForum",
+      "country": "US",
+      "state": "TN",
+      "city": "Memphis",
+      "observations": [
+        {
+          "league": "NBA",
+          "team_id": "29",
+          "name": "FedExForum"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-TN-NASHVILLE-BRIDGESTONE_ARENA",
+      "name": "Bridgestone Arena",
+      "country": "US",
+      "state": "TN",
+      "city": "Nashville",
+      "observations": [
+        {
+          "league": "NHL",
+          "team_id": "NSH",
+          "name": "Bridgestone Arena"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-TN-NASHVILLE-GEODIS_PARK",
+      "name": "GEODIS Park",
+      "country": "US",
+      "state": "TN",
+      "city": "Nashville",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "18986",
+          "name": "GEODIS Park"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-TN-NASHVILLE-NISSAN_STADIUM",
+      "name": "Nissan Stadium",
+      "country": "US",
+      "state": "TN",
+      "city": "Nashville",
+      "observations": [
+        {
+          "league": "NFL",
+          "team_id": "10",
+          "name": "Nissan Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-TX-ARLINGTON-AT_T_STADIUM",
+      "name": "AT&T Stadium",
+      "country": "US",
+      "state": "TX",
+      "city": "Arlington",
+      "observations": [
+        {
+          "league": "NFL",
+          "team_id": "6",
+          "name": "AT&T Stadium"
+        },
+        {
+          "league": "NHL",
+          "team_id": "DAL",
+          "name": "AT&T Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-TX-ARLINGTON-GLOBE_LIFE_FIELD",
+      "name": "Globe Life Field",
+      "country": "US",
+      "state": "TX",
+      "city": "Arlington",
+      "observations": [
+        {
+          "league": "MLB",
+          "team_id": "140",
+          "name": "Globe Life Field"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-TX-AUSTIN-MOODY_CENTER",
+      "name": "Moody Center",
+      "country": "US",
+      "state": "TX",
+      "city": "Austin",
+      "observations": [
+        {
+          "league": "NBA",
+          "team_id": "24",
+          "name": "Moody Center"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-TX-AUSTIN-Q2_STADIUM",
+      "name": "Q2 Stadium",
+      "country": "US",
+      "state": "TX",
+      "city": "Austin",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "20906",
+          "name": "Q2 Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-TX-DALLAS-AMERICAN_AIRLINES_CENTER",
+      "name": "American Airlines Center",
+      "country": "US",
+      "state": "TX",
+      "city": "Dallas",
+      "observations": [
+        {
+          "league": "NBA",
+          "team_id": "6",
+          "name": "American Airlines Center"
+        },
+        {
+          "league": "NHL",
+          "team_id": "DAL",
+          "name": "American Airlines Center"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-TX-FRISCO-TOYOTA_STADIUM",
+      "name": "Toyota Stadium",
+      "country": "US",
+      "state": "TX",
+      "city": "Frisco",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "185",
+          "name": "Toyota Stadium"
+        }
+      ],
+      "review": {
+        "url": "https://www.fcdallas.com/stadium/directions",
+        "note": "The schedule incorrectly puts the stadium name in its city field. Club directions identify Frisco, Texas."
+      }
+    },
+    {
+      "code": "STADIUM-US-TX-HOUSTON-DAIKIN_PARK",
+      "name": "Daikin Park",
+      "country": "US",
+      "state": "TX",
+      "city": "Houston",
+      "observations": [
+        {
+          "league": "MLB",
+          "team_id": "117",
+          "name": "Daikin Park"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-TX-HOUSTON-RELIANT_STADIUM",
+      "name": "Reliant Stadium",
+      "country": "US",
+      "state": "TX",
+      "city": "Houston",
+      "observations": [
+        {
+          "league": "NFL",
+          "team_id": "34",
+          "name": "Reliant Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-TX-HOUSTON-SHELL_ENERGY_STADIUM",
+      "name": "Shell Energy Stadium",
+      "country": "US",
+      "state": "TX",
+      "city": "Houston",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "6077",
+          "name": "Shell Energy Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-TX-HOUSTON-TOYOTA_CENTER_HOUSTON",
+      "name": "Toyota Center (Houston)",
+      "country": "US",
+      "state": "TX",
+      "city": "Houston",
+      "observations": [
+        {
+          "league": "NBA",
+          "team_id": "10",
+          "name": "Toyota Center (Houston)"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-TX-SAN_ANTONIO-FROST_BANK_CENTER",
+      "name": "Frost Bank Center",
+      "country": "US",
+      "state": "TX",
+      "city": "San Antonio",
+      "observations": [
+        {
+          "league": "NBA",
+          "team_id": "24",
+          "name": "Frost Bank Center"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-UT-SALT_LAKE_CITY-DELTA_CENTER",
+      "name": "Delta Center",
+      "country": "US",
+      "state": "UT",
+      "city": "Salt Lake City",
+      "observations": [
+        {
+          "league": "NBA",
+          "team_id": "26",
+          "name": "Delta Center"
+        },
+        {
+          "league": "NHL",
+          "team_id": "UTA",
+          "name": "Delta Center"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-UT-SALT_LAKE_CITY-RICE_ECCLES_STADIUM",
+      "name": "Rice-Eccles Stadium",
+      "country": "US",
+      "state": "UT",
+      "city": "Salt Lake City",
+      "observations": [
+        {
+          "league": "NHL",
+          "team_id": "UTA",
+          "name": "Rice-Eccles Stadium"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-UT-SANDY-AMERICA_FIRST_FIELD",
+      "name": "America First Field",
+      "country": "US",
+      "state": "UT",
+      "city": "Sandy",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "4771",
+          "name": "America First Field"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-WA-SEATTLE-CLIMATE_PLEDGE_ARENA",
+      "name": "Climate Pledge Arena",
+      "country": "US",
+      "state": "WA",
+      "city": "Seattle",
+      "observations": [
+        {
+          "league": "NHL",
+          "team_id": "SEA",
+          "name": "Climate Pledge Arena"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-WA-SEATTLE-LUMEN_FIELD",
+      "name": "Lumen Field",
+      "country": "US",
+      "state": "WA",
+      "city": "Seattle",
+      "observations": [
+        {
+          "league": "MLS",
+          "team_id": "9726",
+          "name": "Lumen Field"
+        },
+        {
+          "league": "NFL",
+          "team_id": "26",
+          "name": "Lumen Field"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-WA-SEATTLE-T_MOBILE_PARK",
+      "name": "T-Mobile Park",
+      "country": "US",
+      "state": "WA",
+      "city": "Seattle",
+      "observations": [
+        {
+          "league": "MLB",
+          "team_id": "136",
+          "name": "T-Mobile Park"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-WI-GREEN_BAY-LAMBEAU_FIELD",
+      "name": "Lambeau Field",
+      "country": "US",
+      "state": "WI",
+      "city": "Green Bay",
+      "observations": [
+        {
+          "league": "NFL",
+          "team_id": "9",
+          "name": "Lambeau Field"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-WI-MILWAUKEE-AMERICAN_FAMILY_FIELD",
+      "name": "American Family Field",
+      "country": "US",
+      "state": "WI",
+      "city": "Milwaukee",
+      "observations": [
+        {
+          "league": "MLB",
+          "team_id": "158",
+          "name": "American Family Field"
+        }
+      ]
+    },
+    {
+      "code": "STADIUM-US-WI-MILWAUKEE-FISERV_FORUM",
+      "name": "Fiserv Forum",
+      "country": "US",
+      "state": "WI",
+      "city": "Milwaukee",
+      "observations": [
+        {
+          "league": "NBA",
+          "team_id": "15",
+          "name": "Fiserv Forum"
+        }
+      ]
+    }
+  ]
+}

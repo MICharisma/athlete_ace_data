@@ -1,0 +1,37 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: City
+  code: CITY-DE-NW-DUSSELDORF
+  attributes:
+    name: Düsseldorf
+  references:
+    state: STATE-DE-NW
+  source:
+    note: Locality from the NHL landing record's venueLocation. Düsseldorf is in North
+      Rhine-Westphalia (ISO 3166-2 DE-NW).
+    url: https://api-web.nhle.com/v1/gamecenter/2026020560/landing
+    captured_on: '2026-11-13'
+- type: Country
+  code: COUNTRY-DE
+  attributes:
+    name: Germany
+    abbreviation: DE
+  references: {}
+  source:
+    note: Places for NHL 2026-27 venues outside the home-venue capture. Localities
+      come from NHL landing records; subdivisions from ISO 3166-2.
+    url: https://www.iso.org/obp/ui/#iso:code:3166:DE
+- type: State
+  code: STATE-DE-NW
+  attributes:
+    name: North Rhine-Westphalia
+    abbreviation: NW
+  references:
+    country: COUNTRY-DE
+  source:
+    note: Places for NHL 2026-27 venues outside the home-venue capture. Localities
+      come from NHL landing records; subdivisions from ISO 3166-2.
+    url: https://www.iso.org/obp/ui/#iso:code:3166:DE

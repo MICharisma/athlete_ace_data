@@ -1,0 +1,95 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: BSB-MLB-PLAYER-UBERSTINE_TYLER
+  aliases:
+  - BSB-MLB-PLAYER_700413
+  attributes:
+    first_name: Tyler
+    last_name: Uberstine
+    birthdate: '1999-06-01'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/111/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Player
+  code: BSB-MLB-PLAYER-ULLOLA_MIGUEL
+  aliases:
+  - BSB-MLB-PLAYER_699044
+  attributes:
+    first_name: Miguel
+    last_name: Ullola
+    birthdate: '2002-06-19'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/117/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Player
+  code: BSB-MLB-PLAYER-URENA_WALBERT
+  aliases:
+  - BSB-MLB-PLAYER_700712
+  attributes:
+    first_name: Walbert
+    last_name: Ureña
+    birthdate: '2004-01-25'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/108/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Player
+  code: BSB-MLB-PLAYER-URIAS_RAMON
+  aliases:
+  - BSB-MLB-PLAYER_602104
+  attributes:
+    first_name: Ramón
+    last_name: Urías
+    birthdate: '1994-06-03'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/138/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Player
+  code: BSB-MLB-PLAYER-URIBE_ABNER
+  aliases:
+  - BSB-MLB-PLAYER_682842
+  attributes:
+    first_name: Abner
+    last_name: Uribe
+    birthdate: '2000-06-20'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/158/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Player
+  code: BSB-MLB-PLAYER-URQUIDY_JOSE
+  aliases:
+  - BSB-MLB-PLAYER_664353
+  attributes:
+    first_name: José
+    last_name: Urquidy
+    birthdate: '1995-05-01'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/134/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.

@@ -1,0 +1,3891 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: FTB-NFL-PIT-2010-SANDERS_EMMANUEL
+  aliases:
+  - FTB-NFL-PLAYER-SANDERS_EMMANUEL
+  attributes:
+    first_name: Emmanuel
+    last_name: Sanders
+    debut_year: 2010
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/players/emmanuel-sanders/stats/career
+    note: Official career table anchors Pittsburgh 2010 and records both Denver and
+      San Francisco in 2019; no current team is assigned.
+- type: Player
+  code: FTB-NFL-PLAYER-SADIQ_KENYON
+  aliases:
+  - FTB-ESPN-PLAYER_5083315
+  attributes:
+    first_name: Kenyon
+    last_name: Sadiq
+    birthdate: '2005-03-04'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/5083315.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/20/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SAINRISTIL_MIKE
+  aliases:
+  - FTB-ESPN-PLAYER_4428414
+  attributes:
+    first_name: Mike
+    last_name: Sainristil
+    birthdate: '2000-10-03'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4428414.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/28/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SALDIVERI_NICK
+  aliases:
+  - FTB-ESPN-PLAYER_4361600
+  attributes:
+    first_name: Nick
+    last_name: Saldiveri
+    birthdate: '2000-08-14'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4361600.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/18/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SAMAC_NICK
+  aliases:
+  - FTB-ESPN-PLAYER_4428421
+  attributes:
+    first_name: Nick
+    last_name: Samac
+    birthdate: '2001-08-21'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4428421.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/16/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SAMPLE_DREW
+  aliases:
+  - FTB-ESPN-PLAYER_3127310
+  attributes:
+    first_name: Drew
+    last_name: Sample
+    birthdate: '1996-04-16'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3127310.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/4/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SAMPSON_DYLAN
+  aliases:
+  - FTB-ESPN-PLAYER_5081397
+  attributes:
+    first_name: Dylan
+    last_name: Sampson
+    birthdate: '2004-09-14'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/5081397.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/5/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SAMUEL_JR_ASANTE
+  aliases:
+  - FTB-ESPN-PLAYER_4363034
+  attributes:
+    first_name: Asante
+    last_name: Samuel Jr.
+    birthdate: '1999-10-03'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4363034.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/23/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SAMUEL_SR_DEEBO
+  aliases:
+  - FTB-ESPN-PLAYER_3126486
+  attributes:
+    first_name: Deebo
+    last_name: Samuel Sr.
+    birthdate: '1996-01-15'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3126486.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SAM_ANDRE
+  aliases:
+  - FTB-ESPN-PLAYER_4250510
+  attributes:
+    first_name: Andre'
+    last_name: Sam
+    birthdate: '1999-02-09'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4250510.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/21/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SANBORN_JACK
+  aliases:
+  - FTB-ESPN-PLAYER_4372576
+  attributes:
+    first_name: Jack
+    last_name: Sanborn
+    birthdate: '2000-07-29'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4372576.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SANCHEZ_RIGOBERTO
+  aliases:
+  - FTB-ESPN-PLAYER_3914922
+  attributes:
+    first_name: Rigoberto
+    last_name: Sanchez
+    birthdate: '1994-09-08'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3914922.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/11/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SANDERS_JASON
+  aliases:
+  - FTB-ESPN-PLAYER_3124679
+  attributes:
+    first_name: Jason
+    last_name: Sanders
+    birthdate: '1995-11-16'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3124679.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/20/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SANDERS_JA_TAVION
+  aliases:
+  - FTB-ESPN-PLAYER_4431588
+  attributes:
+    first_name: Ja'Tavion
+    last_name: Sanders
+    birthdate: '2003-03-27'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4431588.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/29/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SANDERS_RAHEIM
+  aliases:
+  - FTB-ESPN-PLAYER_4601080
+  attributes:
+    first_name: Raheim
+    last_name: Sanders
+    birthdate: '2002-06-08'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4601080.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/5/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SANDERS_SHEDEUR
+  aliases:
+  - FTB-ESPN-PLAYER_4432762
+  attributes:
+    first_name: Shedeur
+    last_name: Sanders
+    birthdate: '2002-02-07'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4432762.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/5/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SANDERS_T_J
+  aliases:
+  - FTB-ESPN-PLAYER_4684527
+  attributes:
+    first_name: T.J.
+    last_name: Sanders
+    birthdate: '2003-07-30'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4684527.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/2/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SANKER_JONAS
+  aliases:
+  - FTB-ESPN-PLAYER_4683813
+  attributes:
+    first_name: Jonas
+    last_name: Sanker
+    birthdate: '2002-11-23'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4683813.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/18/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SANTOS_CAIRO
+  aliases:
+  - FTB-ESPN-PLAYER_17427
+  attributes:
+    first_name: Cairo
+    last_name: Santos
+    birthdate: '1991-11-12'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/17427.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SARELL_FOSTER
+  aliases:
+  - FTB-ESPN-PLAYER_4242555
+  attributes:
+    first_name: Foster
+    last_name: Sarell
+    birthdate: '1998-08-28'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4242555.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SARRATT_ELIJAH
+  aliases:
+  - FTB-ESPN-PLAYER_5088338
+  attributes:
+    first_name: Elijah
+    last_name: Sarratt
+    birthdate: '2003-05-28'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/5088338.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/33/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SAUBERT_ERIC
+  aliases:
+  - FTB-ESPN-PLAYER_2975863
+  attributes:
+    first_name: Eric
+    last_name: Saubert
+    birthdate: '1994-05-09'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/2975863.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/26/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SAUNDERS_JR_JOHN
+  aliases:
+  - FTB-ESPN-PLAYER_4608762
+  attributes:
+    first_name: John
+    last_name: Saunders Jr.
+    birthdate: '2001-10-24'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4608762.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/5/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SAUNDERS_TREYVHON
+  aliases:
+  - FTB-ESPN-PLAYER_5085942
+  attributes:
+    first_name: Treyvhon
+    last_name: Saunders
+    birthdate: '2004-05-07'
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/34/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SAVAIINAEA_JONAH
+  aliases:
+  - FTB-ESPN-PLAYER_4819257
+  attributes:
+    first_name: Jonah
+    last_name: Savaiinaea
+    birthdate: '2004-01-13'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4819257.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/15/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SAWYER_JACK
+  aliases:
+  - FTB-ESPN-PLAYER_4431590
+  attributes:
+    first_name: Jack
+    last_name: Sawyer
+    birthdate: '2002-05-06'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4431590.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/23/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SAYLORS_JACOB
+  aliases:
+  - FTB-ESPN-PLAYER_4383429
+  attributes:
+    first_name: Jacob
+    last_name: Saylors
+    birthdate: '2000-03-08'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4383429.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/8/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SCHERNECKE_RYAN
+  aliases:
+  - FTB-ESPN-PLAYER_5344428
+  attributes:
+    first_name: Ryan
+    last_name: Schernecke
+    birthdate: '2003-04-30'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/5344428.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/19/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SCHLOTTMANN_AUSTIN
+  aliases:
+  - FTB-ESPN-PLAYER_4038544
+  attributes:
+    first_name: Austin
+    last_name: Schlottmann
+    birthdate: '1995-09-18'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4038544.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/10/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SCHMITZ_JR_JOHN_MICHAEL
+  aliases:
+  - FTB-ESPN-PLAYER_4240771
+  attributes:
+    first_name: John Michael
+    last_name: Schmitz Jr.
+    birthdate: '1999-03-19'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4240771.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/19/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SCHOOLER_BRENDEN
+  aliases:
+  - FTB-ESPN-PLAYER_4047941
+  attributes:
+    first_name: Brenden
+    last_name: Schooler
+    birthdate: '1997-05-30'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4047941.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/17/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SCHOONMAKER_LUKE
+  aliases:
+  - FTB-ESPN-PLAYER_4372096
+  attributes:
+    first_name: Luke
+    last_name: Schoonmaker
+    birthdate: '1998-09-28'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4372096.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/6/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SCHRADER_CODY
+  aliases:
+  - FTB-ESPN-PLAYER_4391845
+  attributes:
+    first_name: Cody
+    last_name: Schrader
+    birthdate: '1999-09-08'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4391845.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/7/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SCHRAUTH_BILLY
+  aliases:
+  - FTB-ESPN-PLAYER_4685549
+  attributes:
+    first_name: Billy
+    last_name: Schrauth
+    birthdate: '2003-09-09'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4685549.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/27/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SCHULTZ_DALTON
+  aliases:
+  - FTB-ESPN-PLAYER_3117256
+  attributes:
+    first_name: Dalton
+    last_name: Schultz
+    birthdate: '1996-07-11'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3117256.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/34/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SCHWESINGER_CARSON
+  aliases:
+  - FTB-ESPN-PLAYER_4876017
+  attributes:
+    first_name: Carson
+    last_name: Schwesinger
+    birthdate: '2003-02-24'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4876017.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/5/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SCOTT_BEN
+  aliases:
+  - FTB-ESPN-PLAYER_4569202
+  attributes:
+    first_name: Ben
+    last_name: Scott
+    birthdate: '2001-01-09'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4569202.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/27/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SCOTT_DANIEL
+  aliases:
+  - FTB-ESPN-PLAYER_4242415
+  attributes:
+    first_name: Daniel
+    last_name: Scott
+    birthdate: '1998-10-26'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4242415.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/11/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SCOTT_JK
+  aliases:
+  - FTB-ESPN-PLAYER_3126368
+  attributes:
+    first_name: JK
+    last_name: Scott
+    birthdate: '1995-10-30'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3126368.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/24/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SCOTT_KEIONTE
+  aliases:
+  - FTB-ESPN-PLAYER_5093694
+  attributes:
+    first_name: Keionte
+    last_name: Scott
+    birthdate: '2001-08-11'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/5093694.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/27/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SCOTT_LUCAS
+  aliases:
+  - FTB-ESPN-PLAYER_4879972
+  attributes:
+    first_name: Lucas
+    last_name: Scott
+    birthdate: '2003-08-25'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4879972.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/33/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SCOTT_MILES
+  aliases:
+  - FTB-ESPN-PLAYER_4880014
+  attributes:
+    first_name: Miles
+    last_name: Scott
+    birthdate: '2002-03-28'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4880014.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/7/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SCOTT_NICK
+  aliases:
+  - FTB-ESPN-PLAYER_3116179
+  attributes:
+    first_name: Nick
+    last_name: Scott
+    birthdate: '1995-05-17'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3116179.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/29/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SCOTT_TRENT
+  aliases:
+  - FTB-ESPN-PLAYER_3123303
+  attributes:
+    first_name: Trent
+    last_name: Scott
+    birthdate: '1994-01-25'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3123303.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/28/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SCOTT_TYLER
+  aliases:
+  - FTB-ESPN-PLAYER_4565908
+  attributes:
+    first_name: Tyler
+    last_name: Scott
+    birthdate: '2001-10-12'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4565908.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/13/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SCOTT_ZAVIER
+  aliases:
+  - FTB-ESPN-PLAYER_4257364
+  attributes:
+    first_name: Zavier
+    last_name: Scott
+    birthdate: '1999-07-17'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4257364.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SCOURTON_NIC
+  aliases:
+  - FTB-ESPN-PLAYER_4833355
+  attributes:
+    first_name: Nic
+    last_name: Scourton
+    birthdate: '2004-08-25'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4833355.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/29/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SCRUGGS_JUICE
+  aliases:
+  - FTB-ESPN-PLAYER_4361425
+  attributes:
+    first_name: Juice
+    last_name: Scruggs
+    birthdate: '2000-01-19'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4361425.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/8/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SENN_VALENTIN
+  aliases:
+  - FTB-ESPN-PLAYER_4428458
+  attributes:
+    first_name: Valentin
+    last_name: Senn
+    birthdate: '2000-04-23'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4428458.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/22/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SERMON_TREY
+  aliases:
+  - FTB-ESPN-PLAYER_4241401
+  attributes:
+    first_name: Trey
+    last_name: Sermon
+    birthdate: '1999-01-30'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4241401.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/1/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SETTLE_TIM
+  aliases:
+  - FTB-ESPN-PLAYER_3929956
+  attributes:
+    first_name: Tim
+    last_name: Settle
+    birthdate: '1997-07-11'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3929956.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/28/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SEUMALO_ISAAC
+  aliases:
+  - FTB-ESPN-PLAYER_2978247
+  attributes:
+    first_name: Isaac
+    last_name: Seumalo
+    birthdate: '1993-10-29'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/2978247.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/22/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SEUMALO_USO
+  aliases:
+  - FTB-ESPN-PLAYER_5081916
+  attributes:
+    first_name: Uso
+    last_name: Seumalo
+    birthdate: '2002-05-17'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/5081916.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/26/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SEWELL_MARLEN
+  aliases:
+  - FTB-ESPN-PLAYER_4682641
+  attributes:
+    first_name: Marlen
+    last_name: Sewell
+    birthdate: '2003-02-16'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4682641.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SEWELL_NEPHI
+  aliases:
+  - FTB-ESPN-PLAYER_4241611
+  attributes:
+    first_name: Nephi
+    last_name: Sewell
+    birthdate: '1998-12-19'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4241611.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SEWELL_NOAH
+  aliases:
+  - FTB-ESPN-PLAYER_4430822
+  attributes:
+    first_name: Noah
+    last_name: Sewell
+    birthdate: '2002-04-26'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4430822.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SEWELL_PENEI
+  aliases:
+  - FTB-ESPN-PLAYER_4373825
+  attributes:
+    first_name: Penei
+    last_name: Sewell
+    birthdate: '2000-10-09'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4373825.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/8/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SHAHEED_RASHID
+  aliases:
+  - FTB-ESPN-PLAYER_4032473
+  attributes:
+    first_name: Rashid
+    last_name: Shaheed
+    birthdate: '1998-08-31'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4032473.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/26/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SHAKIR_KHALIL
+  aliases:
+  - FTB-ESPN-PLAYER_4373678
+  attributes:
+    first_name: Khalil
+    last_name: Shakir
+    birthdate: '2000-02-03'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4373678.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/2/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SHARAR_KARSON
+  aliases:
+  - FTB-ESPN-PLAYER_4709695
+  attributes:
+    first_name: Karson
+    last_name: Sharar
+    birthdate: '2003-03-07'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4709695.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/22/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SHARP_BAUER
+  aliases:
+  - FTB-ESPN-PLAYER_4890373
+  attributes:
+    first_name: Bauer
+    last_name: Sharp
+    birthdate: '2003-05-03'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4890373.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/27/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SHAVERS_TYRELL
+  aliases:
+  - FTB-ESPN-PLAYER_4241476
+  attributes:
+    first_name: Tyrell
+    last_name: Shavers
+    birthdate: '1999-08-18'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4241476.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/2/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SHELLEY_RODNEY
+  aliases:
+  - FTB-ESPN-PLAYER_4838693
+  attributes:
+    first_name: Rodney
+    last_name: Shelley
+    birthdate: '2002-08-14'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4838693.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/24/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SHELTON_COLEMAN
+  aliases:
+  - FTB-ESPN-PLAYER_3052180
+  attributes:
+    first_name: Coleman
+    last_name: Shelton
+    birthdate: '1995-07-28'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3052180.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/14/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SHELTON_DREW
+  aliases:
+  - FTB-ESPN-PLAYER_4685554
+  attributes:
+    first_name: Drew
+    last_name: Shelton
+    birthdate: '2003-12-26'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4685554.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/6/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SHEPARD_STERLING
+  aliases:
+  - FTB-ESPN-PLAYER_2976592
+  attributes:
+    first_name: Sterling
+    last_name: Shepard
+    birthdate: '1993-02-10'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/2976592.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/20/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SHEPHERD_NATHAN
+  aliases:
+  - FTB-ESPN-PLAYER_4076951
+  attributes:
+    first_name: Nathan
+    last_name: Shepherd
+    birthdate: '1993-10-09'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4076951.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/18/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SHEPPARD_WILL
+  aliases:
+  - FTB-ESPN-PLAYER_4608679
+  attributes:
+    first_name: Will
+    last_name: Sheppard
+    birthdate: '2002-02-11'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4608679.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/15/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SHERFIELD_TRENT
+  aliases:
+  - FTB-ESPN-PLAYER_3122168
+  attributes:
+    first_name: Trent
+    last_name: Sherfield
+    birthdate: '1996-02-25'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3122168.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/2/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SHERMAN_WILLIAM
+  aliases:
+  - FTB-ESPN-PLAYER_4243186
+  attributes:
+    first_name: William
+    last_name: Sherman
+    birthdate: '1999-05-27'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4243186.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/18/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SHERWOOD_JAMIEN
+  aliases:
+  - FTB-ESPN-PLAYER_4361331
+  attributes:
+    first_name: Jamien
+    last_name: Sherwood
+    birthdate: '2000-01-12'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4361331.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/20/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SHIPLEY_WILL
+  aliases:
+  - FTB-ESPN-PLAYER_4431545
+  attributes:
+    first_name: Will
+    last_name: Shipley
+    birthdate: '2002-08-29'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4431545.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/21/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SHOUGH_TYLER
+  aliases:
+  - FTB-ESPN-PLAYER_4360689
+  attributes:
+    first_name: Tyler
+    last_name: Shough
+    birthdate: '1999-09-28'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4360689.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/18/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SHRADER_SPENCER
+  aliases:
+  - FTB-ESPN-PLAYER_4571557
+  attributes:
+    first_name: Spencer
+    last_name: Shrader
+    birthdate: '1999-05-19'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4571557.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/11/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SIEG_TRENT
+  aliases:
+  - FTB-ESPN-PLAYER_3052357
+  attributes:
+    first_name: Trent
+    last_name: Sieg
+    birthdate: '1995-05-19'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3052357.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/6/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SIELER_ZACH
+  aliases:
+  - FTB-ESPN-PLAYER_3057956
+  attributes:
+    first_name: Zach
+    last_name: Sieler
+    birthdate: '1995-09-07'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3057956.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/15/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SIGLE_MARQUES
+  aliases:
+  - FTB-ESPN-PLAYER_4693337
+  attributes:
+    first_name: Marques
+    last_name: Sigle
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/san-francisco-49ers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Every
+      source-listed player is selected.
+- type: Player
+  code: FTB-NFL-PLAYER-SILLS_JOSH
+  aliases:
+  - FTB-ESPN-PLAYER_4039243
+  attributes:
+    first_name: Josh
+    last_name: Sills
+    birthdate: '1998-12-26'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4039243.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/19/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SILLS_V_DAVID
+  aliases:
+  - FTB-ESPN-PLAYER_3871102
+  attributes:
+    first_name: David
+    last_name: Sills V
+    birthdate: '1996-05-29'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3871102.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/27/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SILMON_CRAIG_CAM_RON
+  aliases:
+  - FTB-ESPN-PLAYER_4877475
+  attributes:
+    first_name: Cam'Ron
+    last_name: Silmon-Craig
+    birthdate: '2002-10-30'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4877475.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/30/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SIMMONS_ELIJAH
+  aliases:
+  - FTB-ESPN-PLAYER_4430478
+  attributes:
+    first_name: Elijah
+    last_name: Simmons
+    birthdate: '2001-07-26'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4430478.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/27/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SIMMONS_ISAIAH
+  aliases:
+  - FTB-ESPN-PLAYER_4035462
+  attributes:
+    first_name: Isaiah
+    last_name: Simmons
+    birthdate: '1998-07-26'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4035462.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/29/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SIMMONS_JEFFERY
+  aliases:
+  - FTB-ESPN-PLAYER_4035369
+  attributes:
+    first_name: Jeffery
+    last_name: Simmons
+    birthdate: '1997-07-28'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4035369.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/10/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SIMMONS_JOSH
+  aliases:
+  - FTB-ESPN-PLAYER_4569659
+  attributes:
+    first_name: Josh
+    last_name: Simmons
+    birthdate: '2002-12-26'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4569659.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/12/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SIMON_CODY
+  aliases:
+  - FTB-ESPN-PLAYER_4429071
+  attributes:
+    first_name: Cody
+    last_name: Simon
+    birthdate: '2002-04-01'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4429071.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/22/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SIMPKINS_III_TORRICELLI
+  aliases:
+  - FTB-ESPN-PLAYER_4696902
+  attributes:
+    first_name: Torricelli
+    last_name: Simpkins III
+    birthdate: '2002-06-06'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4696902.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/29/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SIMPSON_JAYLIN
+  aliases:
+  - FTB-ESPN-PLAYER_4567225
+  attributes:
+    first_name: Jaylin
+    last_name: Simpson
+    birthdate: '2000-03-17'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4567225.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/15/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SIMPSON_JOHN
+  aliases:
+  - FTB-ESPN-PLAYER_4035479
+  attributes:
+    first_name: John
+    last_name: Simpson
+    birthdate: '1997-08-19'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4035479.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/33/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SIMPSON_TRENTON
+  aliases:
+  - FTB-ESPN-PLAYER_4430831
+  attributes:
+    first_name: Trenton
+    last_name: Simpson
+    birthdate: '2001-06-14'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4430831.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/33/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SIMPSON_TY
+  aliases:
+  - FTB-ESPN-PLAYER_4685522
+  attributes:
+    first_name: Ty
+    last_name: Simpson
+    birthdate: '2002-12-21'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4685522.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/14/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SINGLETARY_DEVIN
+  aliases:
+  - FTB-ESPN-PLAYER_4040761
+  attributes:
+    first_name: Devin
+    last_name: Singletary
+    birthdate: '1997-09-03'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4040761.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/19/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SINGLETON_ALEX
+  aliases:
+  - FTB-ESPN-PLAYER_2612151
+  attributes:
+    first_name: Alex
+    last_name: Singleton
+    birthdate: '1993-12-07'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/2612151.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/7/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SINGLETON_DESHON
+  aliases:
+  - FTB-ESPN-PLAYER_5081093
+  attributes:
+    first_name: DeShon
+    last_name: Singleton
+    birthdate: '2003-02-04'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/5081093.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/12/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SINGLETON_NICHOLAS
+  aliases:
+  - FTB-ESPN-PLAYER_4685555
+  attributes:
+    first_name: Nicholas
+    last_name: Singleton
+    birthdate: '2004-01-06'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4685555.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/10/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SINNOTT_BEN
+  aliases:
+  - FTB-ESPN-PLAYER_4690923
+  attributes:
+    first_name: Ben
+    last_name: Sinnott
+    birthdate: '2002-06-14'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4690923.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/28/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SIRMON_JACKSON
+  aliases:
+  - FTB-ESPN-PLAYER_4361101
+  attributes:
+    first_name: Jackson
+    last_name: Sirmon
+    birthdate: '2000-04-15'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4361101.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/18/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SKATTEBO_CAM
+  aliases:
+  - FTB-ESPN-PLAYER_4696981
+  attributes:
+    first_name: Cam
+    last_name: Skattebo
+    birthdate: '2002-02-05'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4696981.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/19/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SKINNER_JL
+  aliases:
+  - FTB-ESPN-PLAYER_4428503
+  attributes:
+    first_name: JL
+    last_name: Skinner
+    birthdate: '2001-04-16'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4428503.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/7/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SKINNER_JR_QUINCY
+  aliases:
+  - FTB-ESPN-PLAYER_4572380
+  attributes:
+    first_name: Quincy
+    last_name: Skinner Jr.
+    birthdate: '2003-02-28'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4572380.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/9/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SKORONSKI_PETER
+  aliases:
+  - FTB-ESPN-PLAYER_4429100
+  attributes:
+    first_name: Peter
+    last_name: Skoronski
+    birthdate: '2001-07-31'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4429100.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/10/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SKOWRONEK_BEN
+  aliases:
+  - FTB-ESPN-PLAYER_4035656
+  attributes:
+    first_name: Ben
+    last_name: Skowronek
+    birthdate: '1997-06-27'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4035656.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/23/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SKULE_JUSTIN
+  aliases:
+  - FTB-ESPN-PLAYER_3915777
+  attributes:
+    first_name: Justin
+    last_name: Skule
+    birthdate: '1996-11-23'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3915777.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/27/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SLATER_JACKSON
+  aliases:
+  - FTB-ESPN-PLAYER_4876319
+  attributes:
+    first_name: Jackson
+    last_name: Slater
+    birthdate: '2003-05-30'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4876319.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/10/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SLATER_RASHAWN
+  aliases:
+  - FTB-ESPN-PLAYER_4242283
+  attributes:
+    first_name: Rashawn
+    last_name: Slater
+    birthdate: '1999-03-26'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4242283.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/24/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SLATON_JR_T_J
+  aliases:
+  - FTB-ESPN-PLAYER_4240612
+  attributes:
+    first_name: T.J.
+    last_name: Slaton Jr.
+    birthdate: '1997-10-03'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4240612.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/4/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SLAUGHTER_DONEIKO
+  aliases:
+  - FTB-ESPN-PLAYER_4692628
+  attributes:
+    first_name: Doneiko
+    last_name: Slaughter
+    birthdate: '2001-11-08'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4692628.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/23/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SLAUGHTER_JAKE
+  aliases:
+  - FTB-ESPN-PLAYER_4682506
+  attributes:
+    first_name: Jake
+    last_name: Slaughter
+    birthdate: '2002-12-12'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4682506.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/24/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SLONE_CIAN
+  aliases:
+  - FTB-ESPN-PLAYER_5153665
+  attributes:
+    first_name: Cian
+    last_name: Slone
+    birthdate: '2002-09-19'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/5153665.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/13/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SLOVIS_KEDON
+  aliases:
+  - FTB-ESPN-PLAYER_4428512
+  attributes:
+    first_name: Kedon
+    last_name: Slovis
+    birthdate: '2001-04-11'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4428512.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/9/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SLYE_JOEY
+  aliases:
+  - FTB-ESPN-PLAYER_3124084
+  attributes:
+    first_name: Joey
+    last_name: Slye
+    birthdate: '1996-04-10'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3124084.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/10/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMACK_TREY
+  aliases:
+  - FTB-ESPN-PLAYER_4869461
+  attributes:
+    first_name: Trey
+    last_name: Smack
+    birthdate: '2003-07-12'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4869461.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/9/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMALL_JABARI
+  aliases:
+  - FTB-ESPN-PLAYER_4432545
+  attributes:
+    first_name: Jabari
+    last_name: Small
+    birthdate: '2001-01-31'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4432545.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/8/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMARTT_STONE
+  aliases:
+  - FTB-ESPN-PLAYER_4250764
+  attributes:
+    first_name: Stone
+    last_name: Smartt
+    birthdate: '1998-10-04'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4250764.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/18/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMITH_ANTHONY
+  aliases:
+  - FTB-ESPN-PLAYER_4685110
+  attributes:
+    first_name: Anthony
+    last_name: Smith
+    birthdate: '2002-03-01'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4685110.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/6/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMITH_ARIAN
+  aliases:
+  - FTB-ESPN-PLAYER_4429105
+  attributes:
+    first_name: Arian
+    last_name: Smith
+    birthdate: '2001-10-11'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4429105.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/20/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMITH_AVERY
+  aliases:
+  - FTB-ESPN-PLAYER_5082331
+  attributes:
+    first_name: Avery
+    last_name: Smith
+    birthdate: '2004-07-01'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/5082331.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/26/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMITH_BRADEN
+  aliases:
+  - FTB-ESPN-PLAYER_3121595
+  attributes:
+    first_name: Braden
+    last_name: Smith
+    birthdate: '1996-03-25'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3121595.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/34/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMITH_BRANDON
+  aliases:
+  - FTB-ESPN-PLAYER_4240577
+  attributes:
+    first_name: Brandon
+    last_name: Smith
+    birthdate: '1998-12-10'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4240577.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/23/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMITH_BRASHARD
+  aliases:
+  - FTB-ESPN-PLAYER_4596602
+  attributes:
+    first_name: Brashard
+    last_name: Smith
+    birthdate: '2003-04-11'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4596602.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/12/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMITH_DEVONTA
+  aliases:
+  - FTB-ESPN-PLAYER_4241478
+  attributes:
+    first_name: DeVonta
+    last_name: Smith
+    birthdate: '1998-11-14'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4241478.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/21/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMITH_DEVONTA_SOURCE_ESPN_4594449
+  aliases:
+  - FTB-ESPN-PLAYER_4594449
+  attributes:
+    first_name: DeVonta
+    last_name: Smith
+    birthdate: '2002-12-11'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4594449.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/29/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMITH_GENESIS
+  aliases:
+  - FTB-ESPN-PLAYER_4950551
+  attributes:
+    first_name: Genesis
+    last_name: Smith
+    birthdate: '2004-11-05'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4950551.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/24/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMITH_GENO
+  aliases:
+  - FTB-ESPN-PLAYER_15864
+  attributes:
+    first_name: Geno
+    last_name: Smith
+    birthdate: '1990-10-10'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/15864.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/20/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMITH_HARRISON
+  aliases:
+  - FTB-ESPN-PLAYER_14945
+  attributes:
+    first_name: Harrison
+    last_name: Smith
+    birthdate: '1989-02-02'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/14945.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/16/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMITH_III_GARY
+  aliases:
+  - FTB-ESPN-PLAYER_4431390
+  attributes:
+    first_name: Gary
+    last_name: Smith III
+    birthdate: '2001-11-01'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4431390.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/26/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMITH_JAYLIN
+  aliases:
+  - FTB-ESPN-PLAYER_4594277
+  attributes:
+    first_name: Jaylin
+    last_name: Smith
+    birthdate: '2003-11-05'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4594277.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/34/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMITH_JONNU
+  aliases:
+  - FTB-ESPN-PLAYER_3054212
+  attributes:
+    first_name: Jonnu
+    last_name: Smith
+    birthdate: '1995-08-22'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3054212.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/9/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMITH_JR_MELVIN
+  aliases:
+  - FTB-ESPN-PLAYER_5278708
+  attributes:
+    first_name: Melvin
+    last_name: Smith Jr.
+    birthdate: '2002-04-12'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/5278708.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/12/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMITH_JR_NOLAN
+  aliases:
+  - FTB-ESPN-PLAYER_4426331
+  attributes:
+    first_name: Nolan
+    last_name: Smith Jr.
+    birthdate: '2001-01-18'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4426331.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/21/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMITH_KEIDRON
+  aliases:
+  - FTB-ESPN-PLAYER_4372418
+  attributes:
+    first_name: Keidron
+    last_name: Smith
+    birthdate: '1999-11-06'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4372418.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMITH_MAASON
+  aliases:
+  - FTB-ESPN-PLAYER_4431567
+  attributes:
+    first_name: Maason
+    last_name: Smith
+    birthdate: '2002-10-13'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4431567.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/1/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMITH_MARSETTE_IHMIR
+  aliases:
+  - FTB-ESPN-PLAYER_4240573
+  attributes:
+    first_name: Ihmir
+    last_name: Smith-Marsette
+    birthdate: '1999-08-29'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4240573.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/29/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMITH_MAZI
+  aliases:
+  - FTB-ESPN-PLAYER_4426347
+  attributes:
+    first_name: Mazi
+    last_name: Smith
+    birthdate: '2001-06-16'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4426347.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/9/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMITH_NJIGBA_JAXON
+  aliases:
+  - FTB-ESPN-PLAYER_4430878
+  attributes:
+    first_name: Jaxon
+    last_name: Smith-Njigba
+    birthdate: '2002-02-14'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4430878.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/26/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMITH_ROQUAN
+  aliases:
+  - FTB-ESPN-PLAYER_3915189
+  attributes:
+    first_name: Roquan
+    last_name: Smith
+    birthdate: '1997-04-08'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3915189.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/33/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMITH_TERELL
+  aliases:
+  - FTB-ESPN-PLAYER_4360935
+  attributes:
+    first_name: Terell
+    last_name: Smith
+    birthdate: '1999-07-27'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4360935.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/23/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMITH_TIM
+  aliases:
+  - FTB-ESPN-PLAYER_4692033
+  attributes:
+    first_name: Tim
+    last_name: Smith
+    birthdate: '2002-08-09'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4692033.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/11/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMITH_TREMON
+  aliases:
+  - FTB-ESPN-PLAYER_3134448
+  attributes:
+    first_name: Tremon
+    last_name: Smith
+    birthdate: '1996-07-20'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3134448.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/34/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMITH_TREY
+  aliases:
+  - FTB-ESPN-PLAYER_4242459
+  attributes:
+    first_name: Trey
+    last_name: Smith
+    birthdate: '1999-06-16'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4242459.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/12/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMITH_TYKEE
+  aliases:
+  - FTB-ESPN-PLAYER_4428522
+  attributes:
+    first_name: Tykee
+    last_name: Smith
+    birthdate: '2001-02-18'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4428522.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/27/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMITH_TYLER
+  aliases:
+  - FTB-ESPN-PLAYER_4568652
+  attributes:
+    first_name: Tyler
+    last_name: Smith
+    birthdate: '2001-04-03'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4568652.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/6/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMITH_TYREKE
+  aliases:
+  - FTB-ESPN-PLAYER_4361340
+  attributes:
+    first_name: Tyreke
+    last_name: Smith
+    birthdate: '2000-02-14'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4361340.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/12/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMITH_WADE_CHAU
+  aliases:
+  - FTB-ESPN-PLAYER_4697636
+  attributes:
+    first_name: Chau
+    last_name: Smith-Wade
+    birthdate: '2002-09-17'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4697636.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/29/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMITH_XAVIER
+  aliases:
+  - FTB-ESPN-PLAYER_4386544
+  attributes:
+    first_name: Xavier
+    last_name: Smith
+    birthdate: '1997-09-21'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4386544.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMITH_ZA_DARIUS
+  aliases:
+  - FTB-ESPN-PLAYER_3043168
+  attributes:
+    first_name: Za'Darius
+    last_name: Smith
+    birthdate: '1992-09-08'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3043168.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/1/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMOOT_DAWUANE
+  aliases:
+  - FTB-ESPN-PLAYER_3042476
+  attributes:
+    first_name: Dawuane
+    last_name: Smoot
+    birthdate: '1995-03-02'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3042476.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/19/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMYTHE_DURHAM
+  aliases:
+  - FTB-ESPN-PLAYER_3052897
+  attributes:
+    first_name: Durham
+    last_name: Smythe
+    birthdate: '1995-08-09'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3052897.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/33/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SMYTH_CHARLIE
+  aliases:
+  - FTB-ESPN-PLAYER_5208518
+  attributes:
+    first_name: Charlie
+    last_name: Smyth
+    birthdate: '2001-06-26'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/5208518.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/18/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SNEED_L_JARIUS
+  aliases:
+  - FTB-ESPN-PLAYER_4040432
+  attributes:
+    first_name: L'Jarius
+    last_name: Sneed
+    birthdate: '1997-01-21'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4040432.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/12/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SNOWDEN_CHARLES
+  aliases:
+  - FTB-ESPN-PLAYER_4240849
+  attributes:
+    first_name: Charles
+    last_name: Snowden
+    birthdate: '1998-03-27'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4240849.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/1/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SOLOMON_JAVON
+  aliases:
+  - FTB-ESPN-PLAYER_4428548
+  attributes:
+    first_name: Javon
+    last_name: Solomon
+    birthdate: '2001-01-17'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4428548.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/2/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SORRELL_BARRYN
+  aliases:
+  - FTB-ESPN-PLAYER_4683643
+  attributes:
+    first_name: Barryn
+    last_name: Sorrell
+    birthdate: '2002-12-22'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4683643.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/9/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SORSDAL_COLBY
+  aliases:
+  - FTB-ESPN-PLAYER_4367775
+  attributes:
+    first_name: Colby
+    last_name: Sorsdal
+    birthdate: '2000-03-01'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4367775.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/1/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SPANN_FORD_BREVYN
+  aliases:
+  - FTB-ESPN-PLAYER_4360967
+  attributes:
+    first_name: Brevyn
+    last_name: Spann-Ford
+    birthdate: '1999-12-27'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4360967.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/6/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SPEARS_JENNINGS_ROBERT
+  aliases:
+  - FTB-ESPN-PLAYER_4820584
+  attributes:
+    first_name: Robert
+    last_name: Spears-Jennings
+    birthdate: '2004-01-25'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4820584.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/23/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SPEARS_TYJAE
+  aliases:
+  - FTB-ESPN-PLAYER_4428557
+  attributes:
+    first_name: Tyjae
+    last_name: Spears
+    birthdate: '2001-06-15'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4428557.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/10/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SPEED_AMEER
+  aliases:
+  - FTB-ESPN-PLAYER_4259546
+  attributes:
+    first_name: Ameer
+    last_name: Speed
+    birthdate: '1999-10-13'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4259546.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/6/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SPEED_E_J
+  aliases:
+  - FTB-ESPN-PLAYER_3071353
+  attributes:
+    first_name: E.J.
+    last_name: Speed
+    birthdate: '1995-06-01'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3071353.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/34/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SPEIGHTS_OMAR
+  aliases:
+  - FTB-ESPN-PLAYER_4428550
+  attributes:
+    first_name: Omar
+    last_name: Speights
+    birthdate: '2001-03-02'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4428550.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/14/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SPILLANE_ROBERT
+  aliases:
+  - FTB-ESPN-PLAYER_3129446
+  attributes:
+    first_name: Robert
+    last_name: Spillane
+    birthdate: '1995-12-14'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3129446.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/17/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SPOMER_JACOB
+  aliases:
+  - FTB-ESPN-PLAYER_5082312
+  attributes:
+    first_name: Jacob
+    last_name: Spomer
+    birthdate: '2001-01-24'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/5082312.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/24/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STACKHOUSE_NAZIR
+  aliases:
+  - FTB-ESPN-PLAYER_4429142
+  attributes:
+    first_name: Nazir
+    last_name: Stackhouse
+    birthdate: '2002-04-18'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4429142.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/10/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STAFFORD_MATTHEW
+  aliases:
+  - FTB-ESPN-PLAYER_12483
+  attributes:
+    first_name: Matthew
+    last_name: Stafford
+    birthdate: '1988-02-07'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/12483.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/14/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STALBIRD_ISAIAH
+  aliases:
+  - FTB-ESPN-PLAYER_4361194
+  attributes:
+    first_name: Isaiah
+    last_name: Stalbird
+    birthdate: '2000-07-18'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4361194.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/18/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STANLEY_RONNIE
+  aliases:
+  - FTB-ESPN-PLAYER_2980153
+  attributes:
+    first_name: Ronnie
+    last_name: Stanley
+    birthdate: '1994-03-18'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/2980153.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/33/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STARKS_MALAKI
+  aliases:
+  - FTB-ESPN-PLAYER_4685530
+  attributes:
+    first_name: Malaki
+    last_name: Starks
+    birthdate: '2003-11-13'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4685530.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/33/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STEELE_TERENCE
+  aliases:
+  - FTB-ESPN-PLAYER_3915834
+  attributes:
+    first_name: Terence
+    last_name: Steele
+    birthdate: '1997-06-04'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3915834.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/6/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STEEN_TYLER
+  aliases:
+  - FTB-ESPN-PLAYER_4362805
+  attributes:
+    first_name: Tyler
+    last_name: Steen
+    birthdate: '2000-06-24'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4362805.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/21/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STEPHENS_BEAU
+  aliases:
+  - FTB-ESPN-PLAYER_4592823
+  attributes:
+    first_name: Beau
+    last_name: Stephens
+    birthdate: '2002-11-01'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4592823.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/26/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STEPHENS_BRANDON
+  aliases:
+  - FTB-ESPN-PLAYER_4035824
+  attributes:
+    first_name: Brandon
+    last_name: Stephens
+    birthdate: '1997-12-29'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4035824.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/20/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STEVENSON_RHAMONDRE
+  aliases:
+  - FTB-ESPN-PLAYER_4569173
+  attributes:
+    first_name: Rhamondre
+    last_name: Stevenson
+    birthdate: '1998-02-23'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4569173.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/17/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STEVENSON_SR_TYRIQUE
+  aliases:
+  - FTB-ESPN-PLAYER_4426374
+  attributes:
+    first_name: Tyrique
+    last_name: Stevenson Sr.
+    birthdate: '2000-05-26'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4426374.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STEVENS_DREW
+  aliases:
+  - FTB-ESPN-PLAYER_5081335
+  attributes:
+    first_name: Drew
+    last_name: Stevens
+    birthdate: '2003-12-09'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/5081335.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/28/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STEWARD_REDDY
+  aliases:
+  - FTB-ESPN-PLAYER_4428584
+  attributes:
+    first_name: Reddy
+    last_name: Steward
+    birthdate: '2001-05-04'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4428584.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/6/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STEWART_GROVER
+  aliases:
+  - FTB-ESPN-PLAYER_4058825
+  attributes:
+    first_name: Grover
+    last_name: Stewart
+    birthdate: '1993-10-20'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4058825.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/11/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STEWART_JOSAIAH
+  aliases:
+  - FTB-ESPN-PLAYER_4682983
+  attributes:
+    first_name: Josaiah
+    last_name: Stewart
+    birthdate: '2003-04-26'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4682983.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/14/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STEWART_M_J
+  aliases:
+  - FTB-ESPN-PLAYER_3116679
+  attributes:
+    first_name: M.J.
+    last_name: Stewart
+    birthdate: '1995-09-16'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3116679.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/34/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STEWART_SHEMAR
+  aliases:
+  - FTB-ESPN-PLAYER_4685562
+  attributes:
+    first_name: Shemar
+    last_name: Stewart
+    birthdate: '2003-11-12'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4685562.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/4/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STICK_EASTON
+  aliases:
+  - FTB-ESPN-PLAYER_3120590
+  attributes:
+    first_name: Easton
+    last_name: Stick
+    birthdate: '1995-09-15'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3120590.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/27/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STIDHAM_JARRETT
+  aliases:
+  - FTB-ESPN-PLAYER_3892775
+  attributes:
+    first_name: Jarrett
+    last_name: Stidham
+    birthdate: '1996-08-08'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3892775.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/7/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STIGGERS_QWAN_TEZ
+  aliases:
+  - FTB-ESPN-PLAYER_5208977
+  attributes:
+    first_name: Qwan'tez
+    last_name: Stiggers
+    birthdate: '2002-01-08'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/5208977.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/20/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STILLE_BEN
+  aliases:
+  - FTB-ESPN-PLAYER_4034861
+  attributes:
+    first_name: Ben
+    last_name: Stille
+    birthdate: '1997-11-12'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4034861.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/8/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STILLS_DANTE
+  aliases:
+  - FTB-ESPN-PLAYER_4362225
+  attributes:
+    first_name: Dante
+    last_name: Stills
+    birthdate: '1999-12-14'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4362225.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/22/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STILL_TARHEEB
+  aliases:
+  - FTB-ESPN-PLAYER_4432571
+  attributes:
+    first_name: Tarheeb
+    last_name: Still
+    birthdate: '2002-06-09'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4432571.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/24/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STINGLEY_JR_DEREK
+  aliases:
+  - FTB-ESPN-PLAYER_4426434
+  attributes:
+    first_name: Derek
+    last_name: Stingley Jr.
+    birthdate: '2001-06-20'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4426434.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/34/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STINNIE_AARON
+  aliases:
+  - FTB-ESPN-PLAYER_3049339
+  attributes:
+    first_name: Aaron
+    last_name: Stinnie
+    birthdate: '1994-02-18'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3049339.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/19/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STOKES_ERIC
+  aliases:
+  - FTB-ESPN-PLAYER_4259561
+  attributes:
+    first_name: Eric
+    last_name: Stokes
+    birthdate: '1999-03-01'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4259561.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/13/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STOLL_CHRIS
+  aliases:
+  - FTB-ESPN-PLAYER_4259606
+  attributes:
+    first_name: Chris
+    last_name: Stoll
+    birthdate: '1998-08-03'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4259606.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/26/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STOLL_JACK
+  aliases:
+  - FTB-ESPN-PLAYER_4034862
+  attributes:
+    first_name: Jack
+    last_name: Stoll
+    birthdate: '1998-01-28'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4034862.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STONE_GENO
+  aliases:
+  - FTB-ESPN-PLAYER_4240575
+  attributes:
+    first_name: Geno
+    last_name: Stone
+    birthdate: '1999-04-19'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4240575.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/2/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STOUT_JORDAN
+  aliases:
+  - FTB-ESPN-PLAYER_4260224
+  attributes:
+    first_name: Jordan
+    last_name: Stout
+    birthdate: '1998-08-04'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4260224.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/19/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STOUT_UPTON
+  aliases:
+  - FTB-ESPN-PLAYER_4565200
+  attributes:
+    first_name: Upton
+    last_name: Stout
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/san-francisco-49ers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Every
+      source-listed player is selected.
+- type: Player
+  code: FTB-NFL-PLAYER-STOVER_CADE
+  aliases:
+  - FTB-ESPN-PLAYER_4426496
+  attributes:
+    first_name: Cade
+    last_name: Stover
+    birthdate: '2000-06-12'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4426496.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/34/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STOWERS_ELI
+  aliases:
+  - FTB-ESPN-PLAYER_4431574
+  attributes:
+    first_name: Eli
+    last_name: Stowers
+    birthdate: '2003-04-15'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4431574.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/21/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STRAND_JACK
+  aliases:
+  - FTB-ESPN-PLAYER_5344782
+  attributes:
+    first_name: Jack
+    last_name: Strand
+    birthdate: '2004-06-23'
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/1/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STRANGE_BRENTON
+  aliases:
+  - FTB-ESPN-PLAYER_4430539
+  attributes:
+    first_name: Brenton
+    last_name: Strange
+    birthdate: '2000-12-27'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4430539.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/30/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STRANGE_COLE
+  aliases:
+  - FTB-ESPN-PLAYER_4051001
+  attributes:
+    first_name: Cole
+    last_name: Strange
+    birthdate: '1998-07-31'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4051001.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/24/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STREET_KENTAVIUS
+  aliases:
+  - FTB-ESPN-PLAYER_3116726
+  attributes:
+    first_name: Kentavius
+    last_name: Street
+    birthdate: '1996-05-08'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3116726.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STRIBLING_DE_ZHAUN
+  aliases:
+  - FTB-ESPN-PLAYER_4710714
+  attributes:
+    first_name: De'Zhaun
+    last_name: Stribling
+    birthdate: '2002-12-18'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4710714.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STRIGGOW_DANNY
+  aliases:
+  - FTB-ESPN-PLAYER_4573319
+  attributes:
+    first_name: Danny
+    last_name: Striggow
+    birthdate: '2002-07-24'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4573319.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/30/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STRNAD_JUSTIN
+  aliases:
+  - FTB-ESPN-PLAYER_3919548
+  attributes:
+    first_name: Justin
+    last_name: Strnad
+    birthdate: '1996-08-21'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3919548.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/7/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STROMAN_JALEN
+  aliases:
+  - FTB-ESPN-PLAYER_4683155
+  attributes:
+    first_name: Jalen
+    last_name: Stroman
+    birthdate: '2003-05-22'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4683155.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STRONG_DORIAN
+  aliases:
+  - FTB-ESPN-PLAYER_4568703
+  attributes:
+    first_name: Dorian
+    last_name: Strong
+    birthdate: '2002-03-14'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4568703.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/2/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STRONG_JR_PIERRE
+  aliases:
+  - FTB-ESPN-PLAYER_4249836
+  attributes:
+    first_name: Pierre
+    last_name: Strong Jr.
+    birthdate: '1998-12-10'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4249836.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/9/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STROUD_C_J
+  aliases:
+  - FTB-ESPN-PLAYER_4432577
+  attributes:
+    first_name: C.J.
+    last_name: Stroud
+    birthdate: '2001-10-03'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4432577.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/34/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STUARD_GRANT
+  aliases:
+  - FTB-ESPN-PLAYER_4240255
+  attributes:
+    first_name: Grant
+    last_name: Stuard
+    birthdate: '1998-10-15'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4240255.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/14/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STUKES_TREYDAN
+  aliases:
+  - FTB-ESPN-PLAYER_4697757
+  attributes:
+    first_name: Treydan
+    last_name: Stukes
+    birthdate: '2001-09-11'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4697757.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/13/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STURDIVANT_J_MICHAEL
+  aliases:
+  - FTB-ESPN-PLAYER_4635009
+  attributes:
+    first_name: J. Michael
+    last_name: Sturdivant
+    birthdate: '2002-09-06'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4635009.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/9/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STUTSMAN_DANNY
+  aliases:
+  - FTB-ESPN-PLAYER_4683215
+  attributes:
+    first_name: Danny
+    last_name: Stutsman
+    birthdate: '2003-03-10'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4683215.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/18/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STYLES_JR_LORENZO
+  aliases:
+  - FTB-ESPN-PLAYER_4432768
+  attributes:
+    first_name: Lorenzo
+    last_name: Styles Jr.
+    birthdate: '2002-09-09'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4432768.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/18/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-STYLES_SONNY
+  aliases:
+  - FTB-ESPN-PLAYER_5081807
+  attributes:
+    first_name: Sonny
+    last_name: Styles
+    birthdate: '2004-11-24'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/5081807.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/28/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ST_BROWN_AMON_RA
+  aliases:
+  - FTB-ESPN-PLAYER_4374302
+  attributes:
+    first_name: Amon-Ra
+    last_name: St. Brown
+    birthdate: '1999-10-24'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4374302.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/8/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ST_JUSTE_BENJAMIN
+  aliases:
+  - FTB-ESPN-PLAYER_4258206
+  attributes:
+    first_name: Benjamin
+    last_name: St-Juste
+    birthdate: '1997-09-08'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4258206.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/9/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SUAMATAIA_KINGSLEY
+  aliases:
+  - FTB-ESPN-PLAYER_4431595
+  attributes:
+    first_name: Kingsley
+    last_name: Suamataia
+    birthdate: '2003-01-18'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4431595.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/12/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SUGGS_JAY_VIAR
+  aliases:
+  - FTB-ESPN-PLAYER_5213029
+  attributes:
+    first_name: Jay'viar
+    last_name: Suggs
+    birthdate: '2001-02-24'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/5213029.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/18/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SUNAHARA_REX
+  aliases:
+  - FTB-ESPN-PLAYER_3913293
+  attributes:
+    first_name: Rex
+    last_name: Sunahara
+    birthdate: '1996-10-09'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3913293.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/5/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SUNDELL_JALEN
+  aliases:
+  - FTB-ESPN-PLAYER_4383409
+  attributes:
+    first_name: Jalen
+    last_name: Sundell
+    birthdate: '1999-10-18'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4383409.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/26/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SURRATT_CHAZZ
+  aliases:
+  - FTB-ESPN-PLAYER_4037521
+  attributes:
+    first_name: Chazz
+    last_name: Surratt
+    birthdate: '1997-02-16'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4037521.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/26/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SURTAIN_II_PAT
+  aliases:
+  - FTB-ESPN-PLAYER_4372012
+  attributes:
+    first_name: Pat
+    last_name: Surtain II
+    birthdate: '2000-04-14'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4372012.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/7/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SUTTON_COURTLAND
+  aliases:
+  - FTB-ESPN-PLAYER_3128429
+  attributes:
+    first_name: Courtland
+    last_name: Sutton
+    birthdate: '1995-10-10'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3128429.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/7/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SVOBODA_EVAN
+  aliases:
+  - FTB-ESPN-PLAYER_5082633
+  attributes:
+    first_name: Evan
+    last_name: Svoboda
+    birthdate: '2003-03-31'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/5082633.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/24/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SWEAT_JOSH
+  aliases:
+  - FTB-ESPN-PLAYER_3693166
+  attributes:
+    first_name: Josh
+    last_name: Sweat
+    birthdate: '1997-03-29'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3693166.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/22/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SWEAT_MONTEZ
+  aliases:
+  - FTB-ESPN-PLAYER_3134690
+  attributes:
+    first_name: Montez
+    last_name: Sweat
+    birthdate: '1996-09-04'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3134690.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SWEAT_T_VONDRE
+  aliases:
+  - FTB-ESPN-PLAYER_4428617
+  attributes:
+    first_name: T'Vondre
+    last_name: Sweat
+    birthdate: '2001-07-11'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4428617.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/20/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SWIFT_D_ANDRE
+  aliases:
+  - FTB-ESPN-PLAYER_4259545
+  attributes:
+    first_name: D'Andre
+    last_name: Swift
+    birthdate: '1999-01-14'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4259545.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SWINSON_BRADYN
+  aliases:
+  - FTB-ESPN-PLAYER_4431424
+  attributes:
+    first_name: Bradyn
+    last_name: Swinson
+    birthdate: '2002-07-04'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4431424.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/22/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SWINSON_MESSIAH
+  attributes:
+    first_name: Messiah
+    last_name: Swinson
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/san-francisco-49ers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Every
+      source-listed player is selected.
+- type: Player
+  code: FTB-NFL-PLAYER-SYDNOR_KHORDAE
+  aliases:
+  - FTB-ESPN-PLAYER_4683129
+  attributes:
+    first_name: Khordae
+    last_name: Sydnor
+    birthdate: '2003-08-24'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/college-football/players/full/4683129.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/5/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-SZMYT_ANDRE
+  aliases:
+  - FTB-ESPN-PLAYER_4258620
+  attributes:
+    first_name: Andre
+    last_name: Szmyt
+    birthdate: '1998-09-26'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4258620.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/5/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.

@@ -1,0 +1,65 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: BSB-MLB-PLAYER-QUANTRILL_CAL
+  aliases:
+  - BSB-MLB-PLAYER_615698
+  attributes:
+    first_name: Cal
+    last_name: Quantrill
+    birthdate: '1995-02-10'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/140/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Player
+  code: BSB-MLB-PLAYER-QUERO_EDGAR
+  aliases:
+  - BSB-MLB-PLAYER_700337
+  attributes:
+    first_name: Edgar
+    last_name: Quero
+    birthdate: '2003-04-06'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/145/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Player
+  code: BSB-MLB-PLAYER-QUERO_JEFERSON
+  aliases:
+  - BSB-MLB-PLAYER_691620
+  attributes:
+    first_name: Jeferson
+    last_name: Quero
+    birthdate: '2002-10-08'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/158/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Player
+  code: BSB-MLB-PLAYER-QUINTANA_JOSE
+  aliases:
+  - BSB-MLB-PLAYER_500779
+  attributes:
+    first_name: Jose
+    last_name: Quintana
+    birthdate: '1989-01-24'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/115/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.

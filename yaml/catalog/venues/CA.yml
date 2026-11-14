@@ -1,0 +1,127 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Stadium
+  code: STADIUM-CA-AB-CALGARY-SCOTIABANK_SADDLEDOME
+  attributes:
+    name: Scotiabank Saddledome
+  references:
+    city: CITY-CA-AB-CALGARY
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/4/schedule?season=2027&seasontype=2
+    captured_on: '2026-10-27'
+- type: Stadium
+  code: STADIUM-CA-AB-EDMONTON-ROGERS_PLACE
+  attributes:
+    name: Rogers Place
+  references:
+    city: CITY-CA-AB-EDMONTON
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/30/schedule?season=2027&seasontype=2
+    captured_on: '2026-10-27'
+- type: Stadium
+  code: STADIUM-CA-BC-VANCOUVER-BC_PLACE
+  attributes:
+    name: BC Place
+  references:
+    city: CITY-CA-BC-VANCOUVER
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/18267/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: Stadium
+  code: STADIUM-CA-BC-VANCOUVER-ROGERS_ARENA
+  attributes:
+    name: Rogers Arena
+  references:
+    city: CITY-CA-BC-VANCOUVER
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/23/schedule?season=2027&seasontype=2
+    captured_on: '2026-10-27'
+- type: Stadium
+  code: STADIUM-CA-MB-WINNIPEG-CANADA_LIFE_CENTRE
+  attributes:
+    name: Canada Life Centre
+  references:
+    city: CITY-CA-MB-WINNIPEG
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/23/schedule?season=2027&seasontype=2
+    captured_on: '2026-10-27'
+- type: Stadium
+  code: STADIUM-CA-MB-WINNIPEG-PRINCESS_AUTO_STADIUM
+  attributes:
+    name: Princess Auto Stadium
+  references:
+    city: CITY-CA-MB-WINNIPEG
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/23/schedule?season=2027&seasontype=2
+    captured_on: '2026-10-27'
+- type: Stadium
+  code: STADIUM-CA-ON-OTTAWA-CANADIAN_TIRE_CENTRE
+  attributes:
+    name: Canadian Tire Centre
+  references:
+    city: CITY-CA-ON-OTTAWA
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/19/schedule?season=2027&seasontype=2
+    captured_on: '2026-10-27'
+- type: Stadium
+  code: STADIUM-CA-ON-TORONTO-BMO_FIELD
+  attributes:
+    name: BMO Field
+  references:
+    city: CITY-CA-ON-TORONTO
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/10739/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: Stadium
+  code: STADIUM-CA-ON-TORONTO-ROGERS_CENTRE
+  attributes:
+    name: Rogers Centre
+  references:
+    city: CITY-CA-ON-TORONTO
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+    captured_on: '2026-10-27'
+- type: Stadium
+  code: STADIUM-CA-ON-TORONTO-SCOTIABANK_ARENA
+  attributes:
+    name: Scotiabank Arena
+  references:
+    city: CITY-CA-ON-TORONTO
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/30/schedule?season=2027&seasontype=2
+    captured_on: '2026-10-27'
+- type: Stadium
+  code: STADIUM-CA-QC-MONTREAL-BELL_CENTRE
+  attributes:
+    name: Bell Centre
+  references:
+    city: CITY-CA-QC-MONTREAL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/27/schedule?season=2027&seasontype=2
+    captured_on: '2026-10-27'
+- type: Stadium
+  code: STADIUM-CA-QC-MONTREAL-CIRCUIT_GILLES_VILLENEUVE
+  attributes:
+    name: Circuit Gilles Villeneuve
+    url: https://en.wikipedia.org/wiki/Circuit_Gilles_Villeneuve
+  references:
+    city: CITY-CA-QC-MONTREAL
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/villeneuve.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Stadium
+  code: STADIUM-CA-QC-MONTREAL-STADE_SAPUTO
+  attributes:
+    name: Stade Saputo
+  references:
+    city: CITY-CA-QC-MONTREAL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/17362/schedule?season=2026
+    captured_on: '2026-10-27'

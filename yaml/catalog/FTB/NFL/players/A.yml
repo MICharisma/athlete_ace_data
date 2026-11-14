@@ -1,0 +1,1750 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: FTB-NFL-PLAYER-ABANIKANDA_ISRAEL
+  aliases:
+  - FTB-ESPN-PLAYER_4429202
+  attributes:
+    first_name: Israel
+    last_name: Abanikanda
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/dallas-cowboys
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ABDULLAH_AMEER
+  aliases:
+  - FTB-ESPN-PLAYER_2576336
+  attributes:
+    first_name: Ameer
+    last_name: Abdullah
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/indianapolis-colts
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ABDULLAH_YASIR
+  aliases:
+  - FTB-ESPN-PLAYER_4360807
+  attributes:
+    first_name: Yasir
+    last_name: Abdullah
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/jacksonville-jaguars
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ABNEY_II_KEITH
+  aliases:
+  - FTB-ESPN-PLAYER_5093004
+  attributes:
+    first_name: Keith
+    last_name: Abney II
+    birthdate: '2005-01-11'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/5093004.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/8/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ABRAMS_DRAINE_KRIS
+  aliases:
+  - FTB-ESPN-PLAYER_4429193
+  attributes:
+    first_name: Kris
+    last_name: Abrams-Draine
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/denver-broncos
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ACHANE_DE_VON
+  aliases:
+  - FTB-ESPN-PLAYER_4429160
+  attributes:
+    first_name: De'Von
+    last_name: Achane
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/miami-dolphins
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ACKER_JACKSON
+  aliases:
+  - FTB-ESPN-PLAYER_4431152
+  attributes:
+    first_name: Jackson
+    last_name: Acker
+    birthdate: '2002-09-17'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4431152.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/26/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ADAMS_DAVANTE
+  aliases:
+  - FTB-ESPN-PLAYER_16800
+  attributes:
+    first_name: Davante
+    last_name: Adams
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/los-angeles-rams
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ADAMS_ISAIAH
+  aliases:
+  - FTB-ESPN-PLAYER_5084939
+  attributes:
+    first_name: Isaiah
+    last_name: Adams
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/arizona-cardinals
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ADAMS_JAMAL
+  aliases:
+  - FTB-ESPN-PLAYER_3115373
+  attributes:
+    first_name: Jamal
+    last_name: Adams
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/las-vegas-raiders
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ADAMS_MYLES
+  aliases:
+  - FTB-ESPN-PLAYER_4039164
+  attributes:
+    first_name: Myles
+    last_name: Adams
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/detroit-lions
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ADAMS_TONY
+  aliases:
+  - FTB-ESPN-PLAYER_4240532
+  attributes:
+    first_name: Tony
+    last_name: Adams
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/new-york-jets
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ADDINGTON_TUCKER
+  aliases:
+  - FTB-ESPN-PLAYER_4034729
+  attributes:
+    first_name: Tucker
+    last_name: Addington
+    birthdate: '1997-07-16'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4034729.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/15/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ADDISON_JORDAN
+  aliases:
+  - FTB-ESPN-PLAYER_4429205
+  attributes:
+    first_name: Jordan
+    last_name: Addison
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/minnesota-vikings
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ADEBAWORE_ADETOMIWA
+  aliases:
+  - FTB-ESPN-PLAYER_4427635
+  attributes:
+    first_name: Adetomiwa
+    last_name: Adebawore
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/indianapolis-colts
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ADEBO_PAULSON
+  aliases:
+  - FTB-ESPN-PLAYER_4242547
+  attributes:
+    first_name: Paulson
+    last_name: Adebo
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/new-york-giants
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ADENIJI_HAKEEM
+  attributes:
+    first_name: Hakeem
+    last_name: Adeniji
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/dallas-cowboys
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ADKINS_NATE
+  aliases:
+  - FTB-ESPN-PLAYER_4383440
+  attributes:
+    first_name: Nate
+    last_name: Adkins
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/denver-broncos
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ADOMITIS_CAL
+  attributes:
+    first_name: Cal
+    last_name: Adomitis
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/philadelphia-eagles
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-AGNEW_JAMAL
+  attributes:
+    first_name: Jamal
+    last_name: Agnew
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/atlanta-falcons
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-AGOHA_DAVID
+  attributes:
+    first_name: David
+    last_name: Agoha
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/tennessee-titans
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-AGOHA_DAVID_EBUKA
+  aliases:
+  - FTB-ESPN-PLAYER_5144941
+  attributes:
+    first_name: David Ebuka
+    last_name: Agoha
+    birthdate: '2001-05-18'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/5144941.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/7/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-AGUILAR_JOEY
+  aliases:
+  - FTB-ESPN-PLAYER_5151948
+  attributes:
+    first_name: Joey
+    last_name: Aguilar
+    birthdate: '2001-06-16'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/5151948.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/30/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-AHMED_SALVON
+  aliases:
+  - FTB-ESPN-PLAYER_4243315
+  attributes:
+    first_name: Salvon
+    last_name: Ahmed
+    birthdate: '1998-12-30'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4243315.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/3/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-AIYUK_BRANDON
+  aliases:
+  - FTB-ESPN-PLAYER_4360438
+  attributes:
+    first_name: Brandon
+    last_name: Aiyuk
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/san-francisco-49ers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Every
+      source-listed player is selected.
+- type: Player
+  code: FTB-NFL-PLAYER-AJIAKE_AUSTIN
+  aliases:
+  - FTB-ESPN-PLAYER_4374171
+  attributes:
+    first_name: Austin
+    last_name: Ajiake
+    birthdate: '2000-06-30'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4374171.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/11/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-AKERS_CAM
+  attributes:
+    first_name: Cam
+    last_name: Akers
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/minnesota-vikings
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-AKINGBESOTE_TOMMY
+  attributes:
+    first_name: Tommy
+    last_name: Akingbesote
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/buffalo-bills
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-AKINS_JORDAN
+  attributes:
+    first_name: Jordan
+    last_name: Akins
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/jacksonville-jaguars
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ALARCON_ISAAC
+  aliases:
+  - FTB-ESPN-PLAYER_4686629
+  attributes:
+    first_name: Isaac
+    last_name: Alarcon
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/san-francisco-49ers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Every
+      source-listed player is selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ALEXANDER_DARIUS
+  aliases:
+  - FTB-ESPN-PLAYER_4426542
+  attributes:
+    first_name: Darius
+    last_name: Alexander
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/new-york-giants
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ALEXANDER_JAIRE
+  attributes:
+    first_name: Jaire
+    last_name: Alexander
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/baltimore-ravens
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ALEXANDER_MAURICE
+  attributes:
+    first_name: Maurice
+    last_name: Alexander
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/chicago-bears
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ALEXANDRE_DESLIN
+  attributes:
+    first_name: Deslin
+    last_name: Alexandre
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/green-bay-packers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ALFORD_DEE
+  aliases:
+  - FTB-ESPN-PLAYER_4401823
+  attributes:
+    first_name: Dee
+    last_name: Alford
+    birthdate: '1997-11-05'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4401823.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/2/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ALIE_COX_MO
+  aliases:
+  - FTB-ESPN-PLAYER_2998565
+  attributes:
+    first_name: Mo
+    last_name: Alie-Cox
+    birthdate: '1993-09-19'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/2998565.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/11/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ALI_RASHEEN
+  aliases:
+  - FTB-ESPN-PLAYER_4690013
+  attributes:
+    first_name: Rasheen
+    last_name: Ali
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/baltimore-ravens
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ALLAR_DREW
+  aliases:
+  - FTB-ESPN-PLAYER_4714771
+  attributes:
+    first_name: Drew
+    last_name: Allar
+    birthdate: '2004-03-08'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4714771.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/23/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ALLEGRETTI_NICK
+  aliases:
+  - FTB-ESPN-PLAYER_3115922
+  attributes:
+    first_name: Nick
+    last_name: Allegretti
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/washington-commanders
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ALLEN_BRAELON
+  aliases:
+  - FTB-ESPN-PLAYER_4685247
+  attributes:
+    first_name: Braelon
+    last_name: Allen
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/new-york-jets
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ALLEN_BRANDON
+  attributes:
+    first_name: Brandon
+    last_name: Allen
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/tennessee-titans
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ALLEN_CJ
+  aliases:
+  - FTB-ESPN-PLAYER_4870598
+  attributes:
+    first_name: CJ
+    last_name: Allen
+    birthdate: '2005-03-01'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4870598.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/11/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ALLEN_CYRUS
+  aliases:
+  - FTB-ESPN-PLAYER_4912218
+  attributes:
+    first_name: Cyrus
+    last_name: Allen
+    birthdate: '2003-02-11'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4912218.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/12/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ALLEN_DAVIS
+  aliases:
+  - FTB-ESPN-PLAYER_4426553
+  attributes:
+    first_name: Davis
+    last_name: Allen
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/los-angeles-rams
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ALLEN_JONATHAN
+  aliases:
+  - FTB-ESPN-PLAYER_3054840
+  attributes:
+    first_name: Jonathan
+    last_name: Allen
+    birthdate: '1995-01-16'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3054840.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/4/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ALLEN_JOSH
+  aliases:
+  - FTB-ESPN-PLAYER_3918298
+  attributes:
+    first_name: Josh
+    last_name: Allen
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/buffalo-bills
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ALLEN_JR_LEQUINT
+  aliases:
+  - FTB-ESPN-PLAYER_4911851
+  attributes:
+    first_name: LeQuint
+    last_name: Allen Jr.
+    birthdate: '2004-08-05'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4911851.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/30/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ALLEN_KAYTRON
+  aliases:
+  - FTB-ESPN-PLAYER_4685246
+  attributes:
+    first_name: Kaytron
+    last_name: Allen
+    birthdate: '2003-01-08'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4685246.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/15/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ALLEN_KEENAN
+  aliases:
+  - FTB-ESPN-PLAYER_15818
+  attributes:
+    first_name: Keenan
+    last_name: Allen
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/los-angeles-chargers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ALLEN_KYLE
+  aliases:
+  - FTB-ESPN-PLAYER_3115293
+  attributes:
+    first_name: Kyle
+    last_name: Allen
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/detroit-lions
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ALLEN_ZACH
+  aliases:
+  - FTB-ESPN-PLAYER_3915282
+  attributes:
+    first_name: Zach
+    last_name: Allen
+    birthdate: '1997-08-20'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3915282.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/7/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ALLGEIER_TYLER
+  aliases:
+  - FTB-ESPN-PLAYER_4373626
+  attributes:
+    first_name: Tyler
+    last_name: Allgeier
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/atlanta-falcons
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ALL_ERICK
+  attributes:
+    first_name: Erick
+    last_name: All
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/cincinnati-bengals
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ALL_JR_ERICK
+  aliases:
+  - FTB-ESPN-PLAYER_4427834
+  attributes:
+    first_name: Erick
+    last_name: All Jr.
+    birthdate: '2000-09-13'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4427834.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/4/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ALTMYER_LUKE
+  aliases:
+  - FTB-ESPN-PLAYER_4597679
+  attributes:
+    first_name: Luke
+    last_name: Altmyer
+    birthdate: '2002-10-22'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4597679.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/8/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ALT_JOE
+  aliases:
+  - FTB-ESPN-PLAYER_4683487
+  attributes:
+    first_name: Joe
+    last_name: Alt
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/los-angeles-chargers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-AL_SHAAIR_AZEEZ
+  aliases:
+  - FTB-ESPN-PLAYER_3919117
+  attributes:
+    first_name: Azeez
+    last_name: Al-Shaair
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/houston-texans
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-AMADI_UGO
+  aliases:
+  - FTB-ESPN-PLAYER_3886834
+  attributes:
+    first_name: Ugo
+    last_name: Amadi
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/new-orleans-saints
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-AMEGADJIE_KIRAN
+  aliases:
+  - FTB-ESPN-PLAYER_4883090
+  attributes:
+    first_name: Kiran
+    last_name: Amegadjie
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/chicago-bears
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-AMOS_TREY
+  aliases:
+  - FTB-ESPN-PLAYER_4574689
+  attributes:
+    first_name: Trey
+    last_name: Amos
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/washington-commanders
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ANDERSEN_NICK
+  aliases:
+  - FTB-ESPN-PLAYER_4690182
+  attributes:
+    first_name: Nick
+    last_name: Andersen
+    birthdate: '2002-01-28'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4690182.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/14/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ANDERSON_ALEC
+  aliases:
+  - FTB-ESPN-PLAYER_4367203
+  attributes:
+    first_name: Alec
+    last_name: Anderson
+    birthdate: '1999-10-03'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4367203.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/2/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ANDERSON_CALVIN
+  attributes:
+    first_name: Calvin
+    last_name: Anderson
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/pittsburgh-steelers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ANDERSON_EVAN
+  attributes:
+    first_name: Evan
+    last_name: Anderson
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/san-francisco-49ers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Every
+      source-listed player is selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ANDERSON_JR_WILL
+  aliases:
+  - FTB-ESPN-PLAYER_4685724
+  attributes:
+    first_name: Will
+    last_name: Anderson Jr.
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/houston-texans
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ANDERSON_LIAM
+  aliases:
+  - FTB-ESPN-PLAYER_4368056
+  attributes:
+    first_name: Liam
+    last_name: Anderson
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/cincinnati-bengals
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ANDERSON_SPENCER
+  aliases:
+  - FTB-ESPN-PLAYER_4372056
+  attributes:
+    first_name: Spencer
+    last_name: Anderson
+    birthdate: '2000-06-07'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4372056.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/23/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ANDERSON_TYCEN
+  aliases:
+  - FTB-ESPN-PLAYER_4257240
+  attributes:
+    first_name: Tycen
+    last_name: Anderson
+    birthdate: '1999-06-13'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4257240.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/7/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ANDERSON_ZAYNE
+  aliases:
+  - FTB-ESPN-PLAYER_3932335
+  attributes:
+    first_name: Zayne
+    last_name: Anderson
+    birthdate: '1997-01-03'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3932335.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/15/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ANDREESSEN_JOE
+  aliases:
+  - FTB-ESPN-PLAYER_4366349
+  attributes:
+    first_name: Joe
+    last_name: Andreessen
+    birthdate: '2000-02-07'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4366349.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/2/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ANDREWS_JAKE
+  aliases:
+  - FTB-ESPN-PLAYER_4362732
+  attributes:
+    first_name: Jake
+    last_name: Andrews
+    birthdate: '1999-11-11'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4362732.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/34/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ANDREWS_MARK
+  aliases:
+  - FTB-ESPN-PLAYER_3116365
+  attributes:
+    first_name: Mark
+    last_name: Andrews
+    birthdate: '1995-09-06'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3116365.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/33/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ANGER_BRYAN
+  aliases:
+  - FTB-ESPN-PLAYER_14950
+  attributes:
+    first_name: Bryan
+    last_name: Anger
+    birthdate: '1988-10-06'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/14950.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/6/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ANTHONY_II_VINNY
+  aliases:
+  - FTB-ESPN-PLAYER_4869816
+  attributes:
+    first_name: Vinny
+    last_name: Anthony II
+    birthdate: '2003-06-27'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4869816.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/1/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ANTHONY_JR_VINCENT
+  aliases:
+  - FTB-ESPN-PLAYER_4875123
+  attributes:
+    first_name: Vincent
+    last_name: Anthony Jr.
+    birthdate: '2004-04-26'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4875123.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ANUDIKE_UZOMAH_FELIX
+  aliases:
+  - FTB-ESPN-PLAYER_4612387
+  attributes:
+    first_name: Felix
+    last_name: Anudike-Uzomah
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/kansas-city-chiefs
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ANUSIEM_CHIGOZIE
+  aliases:
+  - FTB-ESPN-PLAYER_4360475
+  attributes:
+    first_name: Chigozie
+    last_name: Anusiem
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/arizona-cardinals
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ANZALONE_ALEX
+  aliases:
+  - FTB-ESPN-PLAYER_3043107
+  attributes:
+    first_name: Alex
+    last_name: Anzalone
+    birthdate: '1994-09-22'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3043107.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/27/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-APPLE_ELI
+  attributes:
+    first_name: Eli
+    last_name: Apple
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/san-francisco-49ers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Every
+      source-listed player is selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ARAIZA_MATT
+  aliases:
+  - FTB-ESPN-PLAYER_4361496
+  attributes:
+    first_name: Matt
+    last_name: Araiza
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/kansas-city-chiefs
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ARCURI_AJ
+  aliases:
+  - FTB-ESPN-PLAYER_4046707
+  attributes:
+    first_name: AJ
+    last_name: Arcuri
+    birthdate: '1997-08-13'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4046707.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/33/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ARKIN_TANNER
+  aliases:
+  - FTB-ESPN-PLAYER_4683308
+  attributes:
+    first_name: Tanner
+    last_name: Arkin
+    birthdate: '2003-07-07'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4683308.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/17/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ARMSTEAD_ARIK
+  aliases:
+  - FTB-ESPN-PLAYER_2971275
+  attributes:
+    first_name: Arik
+    last_name: Armstead
+    birthdate: '1993-11-15'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/2971275.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/30/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ARMSTEAD_DA_VEAWN
+  aliases:
+  - FTB-ESPN-PLAYER_4705513
+  attributes:
+    first_name: Da'Veawn
+    last_name: Armstead
+    birthdate: '2002-11-20'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4705513.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/16/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ARMSTRONG_ANDREW
+  aliases:
+  - FTB-ESPN-PLAYER_5093923
+  attributes:
+    first_name: Andrew
+    last_name: Armstrong
+    birthdate: '2000-10-31'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/5093923.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/12/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ARMSTRONG_CORNELL
+  attributes:
+    first_name: Cornell
+    last_name: Armstrong
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/miami-dolphins
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ARMSTRONG_DORANCE
+  aliases:
+  - FTB-ESPN-PLAYER_3928979
+  attributes:
+    first_name: Dorance
+    last_name: Armstrong
+    birthdate: '1997-06-10'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3928979.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/28/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ARNOLD_TERRION
+  aliases:
+  - FTB-ESPN-PLAYER_4592837
+  attributes:
+    first_name: Terrion
+    last_name: Arnold
+    birthdate: '2003-03-22'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4592837.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/26/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ARROYO_ELIJAH
+  aliases:
+  - FTB-ESPN-PLAYER_4678006
+  attributes:
+    first_name: Elijah
+    last_name: Arroyo
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/seattle-seahawks
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ASAMOAH_II_BRIAN
+  aliases:
+  - FTB-ESPN-PLAYER_4360255
+  attributes:
+    first_name: Brian
+    last_name: Asamoah II
+    birthdate: '2000-03-29'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4360255.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/1/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ASANTE_EUGENE
+  attributes:
+    first_name: Eugene
+    last_name: Asante
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/cleveland-browns
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ASHBY_JULIAN
+  aliases:
+  - FTB-ESPN-PLAYER_4695254
+  attributes:
+    first_name: Julian
+    last_name: Ashby
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/new-england-patriots
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ATWELL_TUTU
+  aliases:
+  - FTB-ESPN-PLAYER_4360797
+  attributes:
+    first_name: Tutu
+    last_name: Atwell
+    birthdate: '1999-10-07'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4360797.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/14/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-AUBREY_BRANDON
+  aliases:
+  - FTB-ESPN-PLAYER_3953687
+  attributes:
+    first_name: Brandon
+    last_name: Aubrey
+    birthdate: '1995-03-14'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3953687.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/6/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-AUMAVAE_POPO
+  attributes:
+    first_name: Popo
+    last_name: Aumavae
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/carolina-panthers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-AUSTIN_ALEX
+  attributes:
+    first_name: Alex
+    last_name: Austin
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/new-england-patriots
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-AUSTIN_BRENT
+  aliases:
+  - FTB-ESPN-PLAYER_5082398
+  attributes:
+    first_name: Brent
+    last_name: Austin
+    birthdate: '2003-12-19'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/5082398.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/7/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-AUSTIN_III_CALVIN
+  aliases:
+  - FTB-ESPN-PLAYER_4243389
+  attributes:
+    first_name: Calvin
+    last_name: Austin III
+    birthdate: '1999-03-24'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4243389.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/19/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-AUSTIN_JR_KEVIN
+  aliases:
+  - FTB-ESPN-PLAYER_4372758
+  attributes:
+    first_name: Kevin
+    last_name: Austin Jr.
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/new-orleans-saints
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-AVERY_TRE
+  attributes:
+    first_name: Tre
+    last_name: Avery
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/cleveland-browns
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Player
+  code: FTB-NFL-PLAYER-AVILA_STEVE
+  aliases:
+  - FTB-ESPN-PLAYER_4362474
+  attributes:
+    first_name: Steve
+    last_name: Avila
+    birthdate: '1999-10-16'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4362474.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/14/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-AWOSIKA_KAYODE
+  aliases:
+  - FTB-ESPN-PLAYER_4040842
+  attributes:
+    first_name: Kayode
+    last_name: Awosika
+    birthdate: '1998-10-27'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4040842.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/24/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-AWUZIE_CHIDOBE
+  aliases:
+  - FTB-ESPN-PLAYER_3052101
+  attributes:
+    first_name: Chidobe
+    last_name: Awuzie
+    birthdate: '1995-05-24'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3052101.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/33/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-AYEDZE_GOTTLIEB
+  aliases:
+  - FTB-ESPN-PLAYER_5145719
+  attributes:
+    first_name: Gottlieb
+    last_name: Ayedze
+    birthdate: '2000-04-10'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/5145719.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/15/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-AYOMANOR_ELIC
+  aliases:
+  - FTB-ESPN-PLAYER_4883647
+  attributes:
+    first_name: Elic
+    last_name: Ayomanor
+    birthdate: '2003-06-03'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4883647.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/10/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.

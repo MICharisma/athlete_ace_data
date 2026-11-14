@@ -1,0 +1,93 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: League
+  code: BKT-LEAGUE-NBA
+  attributes:
+    name: National Basketball Association
+    abbreviation: NBA
+  references:
+    sport: SPORT-BKT
+    jurisdiction: COUNTRY-US
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://www.nba.com/news/history-season-recaps-index
+    note: Official season index; pilot uses identity and season labels only, not a
+      complete team or player catalog. Index updated 2026-06-29.
+- type: Conference
+  code: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  attributes:
+    name: Eastern Conference
+    abbreviation: East
+  references:
+    league: BKT-LEAGUE-NBA
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Conference
+  code: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  attributes:
+    name: Western Conference
+    abbreviation: West
+  references:
+    league: BKT-LEAGUE-NBA
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Division
+  code: BKT-NBA-DIVISION-ATLANTIC_DIVISION
+  attributes:
+    name: Atlantic Division
+  references:
+    conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Division
+  code: BKT-NBA-DIVISION-CENTRAL_DIVISION
+  attributes:
+    name: Central Division
+  references:
+    conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Division
+  code: BKT-NBA-DIVISION-NORTHWEST_DIVISION
+  attributes:
+    name: Northwest Division
+  references:
+    conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Division
+  code: BKT-NBA-DIVISION-PACIFIC_DIVISION
+  attributes:
+    name: Pacific Division
+  references:
+    conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Division
+  code: BKT-NBA-DIVISION-SOUTHEAST_DIVISION
+  attributes:
+    name: Southeast Division
+  references:
+    conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Division
+  code: BKT-NBA-DIVISION-SOUTHWEST_DIVISION
+  attributes:
+    name: Southwest Division
+  references:
+    conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA

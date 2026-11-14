@@ -1,0 +1,158 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: FTB-NFL-PLAYER-ZABEL_GREY
+  aliases:
+  - FTB-ESPN-PLAYER_4693346
+  attributes:
+    first_name: Grey
+    last_name: Zabel
+    birthdate: '2002-03-30'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4693346.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/26/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ZACCHEAUS_OLAMIDE
+  aliases:
+  - FTB-ESPN-PLAYER_3917914
+  attributes:
+    first_name: Olamide
+    last_name: Zaccheaus
+    birthdate: '1997-07-23'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3917914.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/1/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ZAKELJ_NICK
+  aliases:
+  - FTB-ESPN-PLAYER_4247590
+  attributes:
+    first_name: Nick
+    last_name: Zakelj
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/san-francisco-49ers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Every
+      source-listed player is selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ZAVALA_CHANDLER
+  aliases:
+  - FTB-ESPN-PLAYER_4710661
+  attributes:
+    first_name: Chandler
+    last_name: Zavala
+    birthdate: '1999-04-02'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4710661.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/10/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ZEITLER_KEVIN
+  aliases:
+  - FTB-ESPN-PLAYER_14931
+  attributes:
+    first_name: Kevin
+    last_name: Zeitler
+    birthdate: '1990-03-08'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/14931.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/9/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ZIERER_KILIAN
+  aliases:
+  - FTB-ESPN-PLAYER_4689088
+  attributes:
+    first_name: Kilian
+    last_name: Zierer
+  references:
+    sport: SPORT-FTB
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/san-francisco-49ers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Every
+      source-listed player is selected.
+- type: Player
+  code: FTB-NFL-PLAYER-ZINTER_ZAK
+  aliases:
+  - FTB-ESPN-PLAYER_4433963
+  attributes:
+    first_name: Zak
+    last_name: Zinter
+    birthdate: '2001-04-17'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4433963.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/5/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ZUHN_III_TREY
+  aliases:
+  - FTB-ESPN-PLAYER_4431623
+  attributes:
+    first_name: Trey
+    last_name: Zuhn III
+    birthdate: '2002-10-12'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4431623.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/13/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-ZVADA_DOMINIC
+  aliases:
+  - FTB-ESPN-PLAYER_5082424
+  attributes:
+    first_name: Dominic
+    last_name: Zvada
+    birthdate: '2003-10-25'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/5082424.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/19/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.

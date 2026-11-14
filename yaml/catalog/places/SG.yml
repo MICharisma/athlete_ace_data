@@ -1,0 +1,45 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: City
+  code: CITY-SG-01-MARINA_BAY
+  attributes:
+    name: Marina Bay
+  references:
+    state: STATE-SG-01
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/marina_bay.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Country
+  code: COUNTRY-SG
+  attributes:
+    name: Singapore
+    abbreviation: SG
+  references: {}
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:SG
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: State
+  code: STATE-SG-01
+  attributes:
+    name: Central Singapore
+    abbreviation: '01'
+  references:
+    country: COUNTRY-SG
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:SG
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.

@@ -1,0 +1,45 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: City
+  code: CITY-BR-SP-SAO_PAULO
+  attributes:
+    name: São Paulo
+  references:
+    state: STATE-BR-SP
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/interlagos.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Country
+  code: COUNTRY-BR
+  attributes:
+    name: Brazil
+    abbreviation: BR
+  references: {}
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:BR
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: State
+  code: STATE-BR-SP
+  attributes:
+    name: São Paulo
+    abbreviation: SP
+  references:
+    country: COUNTRY-BR
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:BR
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.

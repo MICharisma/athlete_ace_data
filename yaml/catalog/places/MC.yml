@@ -1,0 +1,45 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: City
+  code: CITY-MC-MC-MONTE_CARLO
+  attributes:
+    name: Monte Carlo
+  references:
+    state: STATE-MC-MC
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/monaco.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Country
+  code: COUNTRY-MC
+  attributes:
+    name: Monaco
+    abbreviation: MC
+  references: {}
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:MC
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: State
+  code: STATE-MC-MC
+  attributes:
+    name: Monte-Carlo
+    abbreviation: MC
+  references:
+    country: COUNTRY-MC
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:MC
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.

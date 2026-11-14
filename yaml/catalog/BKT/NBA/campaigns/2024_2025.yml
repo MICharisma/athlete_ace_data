@@ -1,0 +1,635 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Campaign
+  code: BKT-NBA-SEASON_2024_2025-TEAM-ATL
+  attributes:
+    display_name: ATL
+    abbreviation: ATL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 21
+      roster_meaning: Complete regular-season and playoff appearance union by team,
+        retaining trade-side memberships. Excludes roster members with no recorded
+        appearances and does not establish jersey-number periods.
+  references:
+    team: BKT-NBA-TEAM-ATL
+    season: BKT-NBA-SEASON_2024_2025
+    division: BKT-NBA-DIVISION-SOUTHEAST_DIVISION
+    conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2025&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2024_2025-TEAM-BKN
+  attributes:
+    display_name: BRK
+    abbreviation: BKN
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 24
+      roster_meaning: Complete regular-season and playoff appearance union by team,
+        retaining trade-side memberships. Excludes roster members with no recorded
+        appearances and does not establish jersey-number periods.
+  references:
+    team: BKT-NBA-TEAM-BKN
+    season: BKT-NBA-SEASON_2024_2025
+    division: BKT-NBA-DIVISION-ATLANTIC_DIVISION
+    conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2025&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2024_2025-TEAM-BOS
+  attributes:
+    display_name: BOS
+    abbreviation: BOS
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 18
+      roster_meaning: Complete regular-season and playoff appearance union by team,
+        retaining trade-side memberships. Excludes roster members with no recorded
+        appearances and does not establish jersey-number periods.
+  references:
+    team: BKT-NBA-TEAM-BOS
+    season: BKT-NBA-SEASON_2024_2025
+    division: BKT-NBA-DIVISION-ATLANTIC_DIVISION
+    conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2025&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2024_2025-TEAM-CHA
+  attributes:
+    display_name: CHO
+    abbreviation: CHA
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 27
+      roster_meaning: Complete regular-season and playoff appearance union by team,
+        retaining trade-side memberships. Excludes roster members with no recorded
+        appearances and does not establish jersey-number periods.
+  references:
+    team: BKT-NBA-TEAM-CHA
+    season: BKT-NBA-SEASON_2024_2025
+    division: BKT-NBA-DIVISION-SOUTHEAST_DIVISION
+    conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2025&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2024_2025-TEAM-CHI
+  attributes:
+    display_name: CHI
+    abbreviation: CHI
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 22
+      roster_meaning: Complete regular-season and playoff appearance union by team,
+        retaining trade-side memberships. Excludes roster members with no recorded
+        appearances and does not establish jersey-number periods.
+  references:
+    team: BKT-NBA-TEAM-CHI
+    season: BKT-NBA-SEASON_2024_2025
+    division: BKT-NBA-DIVISION-CENTRAL_DIVISION
+    conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2025&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2024_2025-TEAM-CLE
+  attributes:
+    display_name: CLE
+    abbreviation: CLE
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 21
+      roster_meaning: Complete regular-season and playoff appearance union by team,
+        retaining trade-side memberships. Excludes roster members with no recorded
+        appearances and does not establish jersey-number periods.
+  references:
+    team: BKT-NBA-TEAM-CLE
+    season: BKT-NBA-SEASON_2024_2025
+    division: BKT-NBA-DIVISION-CENTRAL_DIVISION
+    conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2025&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2024_2025-TEAM-DAL
+  attributes:
+    display_name: DAL
+    abbreviation: DAL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 24
+      roster_meaning: Complete regular-season and playoff appearance union by team,
+        retaining trade-side memberships. Excludes roster members with no recorded
+        appearances and does not establish jersey-number periods.
+  references:
+    team: BKT-NBA-TEAM-DAL
+    season: BKT-NBA-SEASON_2024_2025
+    division: BKT-NBA-DIVISION-SOUTHWEST_DIVISION
+    conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2025&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2024_2025-TEAM-DEN
+  attributes:
+    display_name: DEN
+    abbreviation: DEN
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 17
+      roster_meaning: Complete regular-season and playoff appearance union by team,
+        retaining trade-side memberships. Excludes roster members with no recorded
+        appearances and does not establish jersey-number periods.
+  references:
+    team: BKT-NBA-TEAM-DEN
+    season: BKT-NBA-SEASON_2024_2025
+    division: BKT-NBA-DIVISION-NORTHWEST_DIVISION
+    conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2025&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2024_2025-TEAM-DET
+  attributes:
+    display_name: DET
+    abbreviation: DET
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 21
+      roster_meaning: Complete regular-season and playoff appearance union by team,
+        retaining trade-side memberships. Excludes roster members with no recorded
+        appearances and does not establish jersey-number periods.
+  references:
+    team: BKT-NBA-TEAM-DET
+    season: BKT-NBA-SEASON_2024_2025
+    division: BKT-NBA-DIVISION-CENTRAL_DIVISION
+    conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2025&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2024_2025-TEAM-GSW
+  attributes:
+    display_name: GSW
+    abbreviation: GSW
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 23
+      roster_meaning: Complete regular-season and playoff appearance union by team,
+        retaining trade-side memberships. Excludes roster members with no recorded
+        appearances and does not establish jersey-number periods.
+  references:
+    team: BKT-NBA-TEAM-GSW
+    season: BKT-NBA-SEASON_2024_2025
+    division: BKT-NBA-DIVISION-PACIFIC_DIVISION
+    conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2025&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2024_2025-TEAM-HOU
+  attributes:
+    display_name: HOU
+    abbreviation: HOU
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 18
+      roster_meaning: Complete regular-season and playoff appearance union by team,
+        retaining trade-side memberships. Excludes roster members with no recorded
+        appearances and does not establish jersey-number periods.
+  references:
+    team: BKT-NBA-TEAM-HOU
+    season: BKT-NBA-SEASON_2024_2025
+    division: BKT-NBA-DIVISION-SOUTHWEST_DIVISION
+    conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2025&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2024_2025-TEAM-IND
+  attributes:
+    display_name: IND
+    abbreviation: IND
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 22
+      roster_meaning: Complete regular-season and playoff appearance union by team,
+        retaining trade-side memberships. Excludes roster members with no recorded
+        appearances and does not establish jersey-number periods.
+  references:
+    team: BKT-NBA-TEAM-IND
+    season: BKT-NBA-SEASON_2024_2025
+    division: BKT-NBA-DIVISION-CENTRAL_DIVISION
+    conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2025&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2024_2025-TEAM-LAC
+  attributes:
+    display_name: LAC
+    abbreviation: LAC
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 23
+      roster_meaning: Complete regular-season and playoff appearance union by team,
+        retaining trade-side memberships. Excludes roster members with no recorded
+        appearances and does not establish jersey-number periods.
+  references:
+    team: BKT-NBA-TEAM-LAC
+    season: BKT-NBA-SEASON_2024_2025
+    division: BKT-NBA-DIVISION-PACIFIC_DIVISION
+    conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2025&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2024_2025-TEAM-LAL
+  attributes:
+    display_name: LAL
+    abbreviation: LAL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 25
+      roster_meaning: Complete regular-season and playoff appearance union by team,
+        retaining trade-side memberships. Excludes roster members with no recorded
+        appearances and does not establish jersey-number periods.
+  references:
+    team: BKT-NBA-TEAM-LAL
+    season: BKT-NBA-SEASON_2024_2025
+    division: BKT-NBA-DIVISION-PACIFIC_DIVISION
+    conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2025&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2024_2025-TEAM-MEM
+  attributes:
+    display_name: MEM
+    abbreviation: MEM
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 21
+      roster_meaning: Complete regular-season and playoff appearance union by team,
+        retaining trade-side memberships. Excludes roster members with no recorded
+        appearances and does not establish jersey-number periods.
+  references:
+    team: BKT-NBA-TEAM-MEM
+    season: BKT-NBA-SEASON_2024_2025
+    division: BKT-NBA-DIVISION-SOUTHWEST_DIVISION
+    conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2025&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2024_2025-TEAM-MIA
+  attributes:
+    display_name: MIA
+    abbreviation: MIA
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 21
+      roster_meaning: Complete regular-season and playoff appearance union by team,
+        retaining trade-side memberships. Excludes roster members with no recorded
+        appearances and does not establish jersey-number periods.
+  references:
+    team: BKT-NBA-TEAM-MIA
+    season: BKT-NBA-SEASON_2024_2025
+    division: BKT-NBA-DIVISION-SOUTHEAST_DIVISION
+    conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2025&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2024_2025-TEAM-MIL
+  attributes:
+    display_name: MIL
+    abbreviation: MIL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 23
+      roster_meaning: Complete regular-season and playoff appearance union by team,
+        retaining trade-side memberships. Excludes roster members with no recorded
+        appearances and does not establish jersey-number periods.
+  references:
+    team: BKT-NBA-TEAM-MIL
+    season: BKT-NBA-SEASON_2024_2025
+    division: BKT-NBA-DIVISION-CENTRAL_DIVISION
+    conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2025&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2024_2025-TEAM-MIN
+  attributes:
+    display_name: MIN
+    abbreviation: MIN
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 20
+      roster_meaning: Complete regular-season and playoff appearance union by team,
+        retaining trade-side memberships. Excludes roster members with no recorded
+        appearances and does not establish jersey-number periods.
+  references:
+    team: BKT-NBA-TEAM-MIN
+    season: BKT-NBA-SEASON_2024_2025
+    division: BKT-NBA-DIVISION-NORTHWEST_DIVISION
+    conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2025&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2024_2025-TEAM-NOP
+  attributes:
+    display_name: NOP
+    abbreviation: NOP
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 25
+      roster_meaning: Complete regular-season and playoff appearance union by team,
+        retaining trade-side memberships. Excludes roster members with no recorded
+        appearances and does not establish jersey-number periods.
+  references:
+    team: BKT-NBA-TEAM-NOP
+    season: BKT-NBA-SEASON_2024_2025
+    division: BKT-NBA-DIVISION-SOUTHWEST_DIVISION
+    conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2025&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2024_2025-TEAM-NYK
+  attributes:
+    display_name: NYK
+    abbreviation: NYK
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 21
+      roster_meaning: Complete regular-season and playoff appearance union by team,
+        retaining trade-side memberships. Excludes roster members with no recorded
+        appearances and does not establish jersey-number periods.
+  references:
+    team: BKT-NBA-TEAM-NYK
+    season: BKT-NBA-SEASON_2024_2025
+    division: BKT-NBA-DIVISION-ATLANTIC_DIVISION
+    conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2025&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2024_2025-TEAM-OKC
+  attributes:
+    display_name: OKC
+    abbreviation: OKC
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 19
+      roster_meaning: Complete regular-season and playoff appearance union by team,
+        retaining trade-side memberships. Excludes roster members with no recorded
+        appearances and does not establish jersey-number periods.
+  references:
+    team: BKT-NBA-TEAM-OKC
+    season: BKT-NBA-SEASON_2024_2025
+    division: BKT-NBA-DIVISION-NORTHWEST_DIVISION
+    conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2025&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2024_2025-TEAM-ORL
+  attributes:
+    display_name: ORL
+    abbreviation: ORL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 17
+      roster_meaning: Complete regular-season and playoff appearance union by team,
+        retaining trade-side memberships. Excludes roster members with no recorded
+        appearances and does not establish jersey-number periods.
+  references:
+    team: BKT-NBA-TEAM-ORL
+    season: BKT-NBA-SEASON_2024_2025
+    division: BKT-NBA-DIVISION-SOUTHEAST_DIVISION
+    conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2025&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2024_2025-TEAM-PHI
+  attributes:
+    display_name: PHI
+    abbreviation: PHI
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 30
+      roster_meaning: Complete regular-season and playoff appearance union by team,
+        retaining trade-side memberships. Excludes roster members with no recorded
+        appearances and does not establish jersey-number periods.
+  references:
+    team: BKT-NBA-TEAM-PHI
+    season: BKT-NBA-SEASON_2024_2025
+    division: BKT-NBA-DIVISION-ATLANTIC_DIVISION
+    conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2025&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2024_2025-TEAM-PHX
+  attributes:
+    display_name: PHO
+    abbreviation: PHX
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 20
+      roster_meaning: Complete regular-season and playoff appearance union by team,
+        retaining trade-side memberships. Excludes roster members with no recorded
+        appearances and does not establish jersey-number periods.
+  references:
+    team: BKT-NBA-TEAM-PHX
+    season: BKT-NBA-SEASON_2024_2025
+    division: BKT-NBA-DIVISION-PACIFIC_DIVISION
+    conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2025&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2024_2025-TEAM-POR
+  attributes:
+    display_name: POR
+    abbreviation: POR
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 19
+      roster_meaning: Complete regular-season and playoff appearance union by team,
+        retaining trade-side memberships. Excludes roster members with no recorded
+        appearances and does not establish jersey-number periods.
+  references:
+    team: BKT-NBA-TEAM-POR
+    season: BKT-NBA-SEASON_2024_2025
+    division: BKT-NBA-DIVISION-NORTHWEST_DIVISION
+    conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2025&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2024_2025-TEAM-SAC
+  attributes:
+    display_name: SAC
+    abbreviation: SAC
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 25
+      roster_meaning: Complete regular-season and playoff appearance union by team,
+        retaining trade-side memberships. Excludes roster members with no recorded
+        appearances and does not establish jersey-number periods.
+  references:
+    team: BKT-NBA-TEAM-SAC
+    season: BKT-NBA-SEASON_2024_2025
+    division: BKT-NBA-DIVISION-PACIFIC_DIVISION
+    conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2025&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2024_2025-TEAM-SAS
+  attributes:
+    display_name: SAS
+    abbreviation: SAS
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 21
+      roster_meaning: Complete regular-season and playoff appearance union by team,
+        retaining trade-side memberships. Excludes roster members with no recorded
+        appearances and does not establish jersey-number periods.
+  references:
+    team: BKT-NBA-TEAM-SAS
+    season: BKT-NBA-SEASON_2024_2025
+    division: BKT-NBA-DIVISION-SOUTHWEST_DIVISION
+    conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2025&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2024_2025-TEAM-TOR
+  attributes:
+    display_name: TOR
+    abbreviation: TOR
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 23
+      roster_meaning: Complete regular-season and playoff appearance union by team,
+        retaining trade-side memberships. Excludes roster members with no recorded
+        appearances and does not establish jersey-number periods.
+  references:
+    team: BKT-NBA-TEAM-TOR
+    season: BKT-NBA-SEASON_2024_2025
+    division: BKT-NBA-DIVISION-ATLANTIC_DIVISION
+    conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2025&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2024_2025-TEAM-UTA
+  attributes:
+    display_name: UTA
+    abbreviation: UTA
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 20
+      roster_meaning: Complete regular-season and playoff appearance union by team,
+        retaining trade-side memberships. Excludes roster members with no recorded
+        appearances and does not establish jersey-number periods.
+  references:
+    team: BKT-NBA-TEAM-UTA
+    season: BKT-NBA-SEASON_2024_2025
+    division: BKT-NBA-DIVISION-NORTHWEST_DIVISION
+    conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2025&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2024_2025-TEAM-WAS
+  attributes:
+    display_name: WAS
+    abbreviation: WAS
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 24
+      roster_meaning: Complete regular-season and playoff appearance union by team,
+        retaining trade-side memberships. Excludes roster members with no recorded
+        appearances and does not establish jersey-number periods.
+  references:
+    team: BKT-NBA-TEAM-WAS
+    season: BKT-NBA-SEASON_2024_2025
+    division: BKT-NBA-DIVISION-SOUTHEAST_DIVISION
+    conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2025&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.

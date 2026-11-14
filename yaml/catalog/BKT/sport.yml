@@ -1,0 +1,14 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Sport
+  code: SPORT-BKT
+  attributes:
+    name: Basketball
+  references: {}
+  source:
+    url: https://www.nba.com/news/history-season-recaps-index
+    note: Official season index; pilot uses identity and season labels only, not a
+      complete team or player catalog. Index updated 2026-06-29.

@@ -1,0 +1,18 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: League
+  code: SOC-LEAGUE-EPL
+  attributes:
+    name: Premier League
+    abbreviation: EPL
+  references:
+    sport: SPORT-SOC
+    jurisdiction: COUNTRY-GB
+  scope:
+    sport: SPORT-SOC
+  source:
+    url: https://www.premierleague.com/en/premier-league-explained
+    note: Official league identity and season-label index; pilot definitions only.

@@ -1,0 +1,175 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: SOC-MLS-PLAYER-ZAGAR_DUSAN
+  aliases:
+  - SOC-ESPN-PLAYER_3125496
+  attributes:
+    first_name: Dušan
+    last_name: Žagar
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/4771/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-ZAMBLE_BRYAN
+  aliases:
+  - SOC-ESPN-PLAYER_419201
+  attributes:
+    first_name: Bryan
+    last_name: Zamblé
+    birthdate: '2008-02-19'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/22529/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-ZAMBRANO_DELGADO_MARCOS
+  aliases:
+  - SOC-ESPN-PLAYER_404655
+  attributes:
+    first_name: Marcos
+    last_name: Zambrano-Delgado
+    birthdate: '2005-01-20'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/189/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-ZAROURY_ANASS
+  aliases:
+  - SOC-ESPN-PLAYER_323725
+  attributes:
+    first_name: Anass
+    last_name: Zaroury
+    birthdate: '2000-11-07'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/183/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-ZARZALEJO_CARLOS
+  aliases:
+  - SOC-ESPN-PLAYER_381729
+  attributes:
+    first_name: Carlos
+    last_name: Zarzalejo
+    birthdate: '2004-09-10'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/189/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-ZAWADZKI_SEAN
+  aliases:
+  - SOC-ESPN-PLAYER_296221
+  attributes:
+    first_name: Sean
+    last_name: Zawadzki
+    birthdate: '2000-04-21'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/296221.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/183/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-ZELTZER_ZUBIDA_IDOH
+  aliases:
+  - SOC-ESPN-PLAYER_399946
+  attributes:
+    first_name: Idoh
+    last_name: Zeltzer-Zubida
+    birthdate: '2005-02-08'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/20232/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-ZENDEJAS_ADRIAN
+  aliases:
+  - SOC-ESPN-PLAYER_223042
+  attributes:
+    first_name: Adrián
+    last_name: Zendejas
+    birthdate: '1995-08-30'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/223042.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/9727/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-ZENGUE_ZACH
+  aliases:
+  - SOC-ESPN-PLAYER_381750
+  attributes:
+    first_name: Zach
+    last_name: Zengue
+    birthdate: '2004-01-30'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/21812/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-ZIMMERMAN_WALKER
+  aliases:
+  - SOC-ESPN-PLAYER_183764
+  attributes:
+    first_name: Walker
+    last_name: Zimmerman
+    birthdate: '1993-05-19'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/183764.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/7318/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-ZINCKERNAGEL_PHILIP
+  aliases:
+  - SOC-ESPN-PLAYER_186466
+  attributes:
+    first_name: Philip
+    last_name: Zinckernagel
+    birthdate: '1994-12-16'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/182/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.

@@ -1,0 +1,882 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: City
+  code: CITY-US-AZ-GLENDALE
+  attributes:
+    name: Glendale
+  references:
+    state: STATE-US-AZ
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/29/schedule?season=2026&seasontype=2
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-AZ-PHOENIX
+  attributes:
+    name: Phoenix
+  references:
+    state: STATE-US-AZ
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-CA-ANAHEIM
+  attributes:
+    name: Anaheim
+  references:
+    state: STATE-US-CA
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-CA-CARSON
+  attributes:
+    name: Carson
+  references:
+    state: STATE-US-CA
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/191/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-CA-INGLEWOOD
+  attributes:
+    name: Inglewood
+  references:
+    state: STATE-US-CA
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/15/schedule?season=2027&seasontype=2
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-CA-LOS_ANGELES
+  attributes:
+    name: Los Angeles
+  references:
+    state: STATE-US-CA
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-CA-SACRAMENTO
+  attributes:
+    name: Sacramento
+  references:
+    state: STATE-US-CA
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/25/schedule?season=2027&seasontype=2
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-CA-SANTA_CLARA
+  attributes:
+    name: Santa Clara
+  references:
+    state: STATE-US-CA
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/6077/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-CA-SAN_DIEGO
+  attributes:
+    name: San Diego
+  references:
+    state: STATE-US-CA
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-CA-SAN_FRANCISCO
+  attributes:
+    name: San Francisco
+  references:
+    state: STATE-US-CA
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-CA-SAN_JOSE
+  attributes:
+    name: San Jose
+  references:
+    state: STATE-US-CA
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/6077/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-CA-STANFORD
+  attributes:
+    name: Stanford
+  references:
+    state: STATE-US-CA
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/6077/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-CA-WEST_SACRAMENTO
+  attributes:
+    name: West Sacramento
+  references:
+    state: STATE-US-CA
+  source:
+    url: https://www.sutterhealthpark.com/
+    captured_on: '2026-10-27'
+    note: MLB gives Sacramento as a postal locality; the venue identifies West Sacramento.
+- type: City
+  code: CITY-US-CO-COMMERCE_CITY
+  attributes:
+    name: Commerce City
+  references:
+    state: STATE-US-CO
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/189/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-CO-DENVER
+  attributes:
+    name: Denver
+  references:
+    state: STATE-US-CO
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-DC-WASHINGTON
+  attributes:
+    name: Washington
+  references:
+    state: STATE-US-DC
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-FL-JACKSONVILLE
+  attributes:
+    name: Jacksonville
+  references:
+    state: STATE-US-FL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/33/schedule?season=2026&seasontype=2
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-FL-MIAMI
+  attributes:
+    name: Miami
+  references:
+    state: STATE-US-FL
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-FL-MIAMI_GARDENS
+  attributes:
+    name: Miami Gardens
+  references:
+    state: STATE-US-FL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/20/schedule?season=2026&seasontype=2
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-FL-ORLANDO
+  attributes:
+    name: Orlando
+  references:
+    state: STATE-US-FL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/21812/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-FL-ST_PETERSBURG
+  attributes:
+    name: St. Petersburg
+  references:
+    state: STATE-US-FL
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-FL-SUNRISE
+  attributes:
+    name: Sunrise
+  references:
+    state: STATE-US-FL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/8/schedule?season=2027&seasontype=2
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-FL-TAMPA
+  attributes:
+    name: Tampa
+  references:
+    state: STATE-US-FL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/34/schedule?season=2026&seasontype=2
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-GA-ATLANTA
+  attributes:
+    name: Atlanta
+  references:
+    state: STATE-US-GA
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-IL-CHICAGO
+  attributes:
+    name: Chicago
+  references:
+    state: STATE-US-IL
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-IN-INDIANAPOLIS
+  attributes:
+    name: Indianapolis
+  references:
+    state: STATE-US-IN
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/18/schedule?season=2027&seasontype=2
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-KS-KANSAS_CITY
+  attributes:
+    name: Kansas City
+  references:
+    state: STATE-US-KS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/193/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-LA-NEW_ORLEANS
+  attributes:
+    name: New Orleans
+  references:
+    state: STATE-US-LA
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/9/schedule?season=2027&seasontype=2
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-MA-BOSTON
+  attributes:
+    name: Boston
+  references:
+    state: STATE-US-MA
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-MA-FOXBOROUGH
+  attributes:
+    name: Foxborough
+  references:
+    state: STATE-US-MA
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/7318/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-MD-BALTIMORE
+  attributes:
+    name: Baltimore
+  references:
+    state: STATE-US-MD
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-MD-LANDOVER
+  attributes:
+    name: Landover
+  references:
+    state: STATE-US-MD
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/34/schedule?season=2026&seasontype=2
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-MI-DETROIT
+  attributes:
+    name: Detroit
+  references:
+    state: STATE-US-MI
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-MN-MINNEAPOLIS
+  attributes:
+    name: Minneapolis
+  references:
+    state: STATE-US-MN
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-MN-SAINT_PAUL
+  attributes:
+    name: Saint Paul
+  references:
+    state: STATE-US-MN
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/20906/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-MO-KANSAS_CITY
+  attributes:
+    name: Kansas City
+  references:
+    state: STATE-US-MO
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-MO-ST_LOUIS
+  attributes:
+    name: St. Louis
+  references:
+    state: STATE-US-MO
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-NC-CHARLOTTE
+  attributes:
+    name: Charlotte
+  references:
+    state: STATE-US-NC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/22529/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-NC-RALEIGH
+  attributes:
+    name: Raleigh
+  references:
+    state: STATE-US-NC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/9/schedule?season=2027&seasontype=2
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-NJ-EAST_RUTHERFORD
+  attributes:
+    name: East Rutherford
+  references:
+    state: STATE-US-NJ
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/24/schedule?season=2026&seasontype=2
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-NJ-HARRISON
+  attributes:
+    name: Harrison
+  references:
+    state: STATE-US-NJ
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/9720/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-NJ-NEWARK
+  attributes:
+    name: Newark
+  references:
+    state: STATE-US-NJ
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/13/schedule?season=2027&seasontype=2
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-NV-LAS_VEGAS
+  attributes:
+    name: Las Vegas
+  references:
+    state: STATE-US-NV
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/18/schedule?season=2026&seasontype=2
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-NY-BUFFALO
+  attributes:
+    name: Buffalo
+  references:
+    state: STATE-US-NY
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/5/schedule?season=2027&seasontype=2
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-NY-ELMONT
+  attributes:
+    name: Elmont
+  references:
+    state: STATE-US-NY
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/124292/schedule?season=2027&seasontype=2
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-NY-NEW_YORK
+  attributes:
+    name: New York
+  references:
+    state: STATE-US-NY
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-NY-ORCHARD_PARK
+  attributes:
+    name: Orchard Park
+  references:
+    state: STATE-US-NY
+  source:
+    url: https://static.www.nfl.com/league/apps/league-site/media-guides/2024/BUF.pdf
+    captured_on: '2026-10-27'
+    note: The new stadium opened for the 2026 season. Keep a distinct identity from
+      the former same-name facility.
+- type: City
+  code: CITY-US-OH-CINCINNATI
+  attributes:
+    name: Cincinnati
+  references:
+    state: STATE-US-OH
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-OH-CLEVELAND
+  attributes:
+    name: Cleveland
+  references:
+    state: STATE-US-OH
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-OH-COLUMBUS
+  attributes:
+    name: Columbus
+  references:
+    state: STATE-US-OH
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/187/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-OK-OKLAHOMA_CITY
+  attributes:
+    name: Oklahoma City
+  references:
+    state: STATE-US-OK
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/29/schedule?season=2027&seasontype=2
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-OR-PORTLAND
+  attributes:
+    name: Portland
+  references:
+    state: STATE-US-OR
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/17606/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-PA-CHESTER
+  attributes:
+    name: Chester
+  references:
+    state: STATE-US-PA
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/18418/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-PA-PHILADELPHIA
+  attributes:
+    name: Philadelphia
+  references:
+    state: STATE-US-PA
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-PA-PITTSBURGH
+  attributes:
+    name: Pittsburgh
+  references:
+    state: STATE-US-PA
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-TN-MEMPHIS
+  attributes:
+    name: Memphis
+  references:
+    state: STATE-US-TN
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/30/schedule?season=2027&seasontype=2
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-TN-NASHVILLE
+  attributes:
+    name: Nashville
+  references:
+    state: STATE-US-TN
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/22529/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-TX-ARLINGTON
+  attributes:
+    name: Arlington
+  references:
+    state: STATE-US-TX
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-TX-AUSTIN
+  attributes:
+    name: Austin
+  references:
+    state: STATE-US-TX
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/22529/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-TX-DALLAS
+  attributes:
+    name: Dallas
+  references:
+    state: STATE-US-TX
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/11/schedule?season=2027&seasontype=2
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-TX-FRISCO
+  attributes:
+    name: Frisco
+  references:
+    state: STATE-US-TX
+  source:
+    url: https://www.fcdallas.com/stadium/directions
+    captured_on: '2026-10-27'
+    note: The schedule incorrectly puts the stadium name in its city field. Club directions
+      identify Frisco, Texas.
+- type: City
+  code: CITY-US-TX-HOUSTON
+  attributes:
+    name: Houston
+  references:
+    state: STATE-US-TX
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-TX-SAN_ANTONIO
+  attributes:
+    name: San Antonio
+  references:
+    state: STATE-US-TX
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/30/schedule?season=2027&seasontype=2
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-UT-SALT_LAKE_CITY
+  attributes:
+    name: Salt Lake City
+  references:
+    state: STATE-US-UT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/30/schedule?season=2027&seasontype=2
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-UT-SANDY
+  attributes:
+    name: Sandy
+  references:
+    state: STATE-US-UT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/9726/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-WA-SEATTLE
+  attributes:
+    name: Seattle
+  references:
+    state: STATE-US-WA
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-WI-GREEN_BAY
+  attributes:
+    name: Green Bay
+  references:
+    state: STATE-US-WI
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/16/schedule?season=2026&seasontype=2
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-US-WI-MILWAUKEE
+  attributes:
+    name: Milwaukee
+  references:
+    state: STATE-US-WI
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+    captured_on: '2026-10-27'
+- type: Country
+  code: COUNTRY-US
+  attributes:
+    name: United States
+    abbreviation: US
+  references: {}
+  source:
+    url: https://www.usa.gov/about-the-us
+- type: State
+  code: STATE-US-AZ
+  attributes:
+    name: Arizona
+    abbreviation: AZ
+  references:
+    country: COUNTRY-US
+  source:
+    url: https://pe.usps.com/text/pub28/pub28apb.htm
+- type: State
+  code: STATE-US-CA
+  attributes:
+    name: California
+    abbreviation: CA
+  references:
+    country: COUNTRY-US
+  source:
+    url: https://pe.usps.com/text/pub28/pub28apb.htm
+- type: State
+  code: STATE-US-CO
+  attributes:
+    name: Colorado
+    abbreviation: CO
+  references:
+    country: COUNTRY-US
+  source:
+    url: https://pe.usps.com/text/pub28/pub28apb.htm
+- type: State
+  code: STATE-US-DC
+  attributes:
+    name: District of Columbia
+    abbreviation: DC
+  references:
+    country: COUNTRY-US
+  source:
+    url: https://pe.usps.com/text/pub28/pub28apb.htm
+- type: State
+  code: STATE-US-FL
+  attributes:
+    name: Florida
+    abbreviation: FL
+  references:
+    country: COUNTRY-US
+  source:
+    url: https://pe.usps.com/text/pub28/pub28apb.htm
+- type: State
+  code: STATE-US-GA
+  attributes:
+    name: Georgia
+    abbreviation: GA
+  references:
+    country: COUNTRY-US
+  source:
+    url: https://pe.usps.com/text/pub28/pub28apb.htm
+- type: State
+  code: STATE-US-IL
+  attributes:
+    name: Illinois
+    abbreviation: IL
+  references:
+    country: COUNTRY-US
+  source:
+    url: https://pe.usps.com/text/pub28/pub28apb.htm
+- type: State
+  code: STATE-US-IN
+  attributes:
+    name: Indiana
+    abbreviation: IN
+  references:
+    country: COUNTRY-US
+  source:
+    url: https://pe.usps.com/text/pub28/pub28apb.htm
+- type: State
+  code: STATE-US-KS
+  attributes:
+    name: Kansas
+    abbreviation: KS
+  references:
+    country: COUNTRY-US
+  source:
+    url: https://pe.usps.com/text/pub28/pub28apb.htm
+- type: State
+  code: STATE-US-LA
+  attributes:
+    name: Louisiana
+    abbreviation: LA
+  references:
+    country: COUNTRY-US
+  source:
+    url: https://pe.usps.com/text/pub28/pub28apb.htm
+- type: State
+  code: STATE-US-MA
+  attributes:
+    name: Massachusetts
+    abbreviation: MA
+  references:
+    country: COUNTRY-US
+  source:
+    url: https://pe.usps.com/text/pub28/pub28apb.htm
+- type: State
+  code: STATE-US-MD
+  attributes:
+    name: Maryland
+    abbreviation: MD
+  references:
+    country: COUNTRY-US
+  source:
+    url: https://pe.usps.com/text/pub28/pub28apb.htm
+- type: State
+  code: STATE-US-MI
+  attributes:
+    name: Michigan
+    abbreviation: MI
+  references:
+    country: COUNTRY-US
+  source:
+    url: https://pe.usps.com/text/pub28/pub28apb.htm
+- type: State
+  code: STATE-US-MN
+  attributes:
+    name: Minnesota
+    abbreviation: MN
+  references:
+    country: COUNTRY-US
+  source:
+    url: https://pe.usps.com/text/pub28/pub28apb.htm
+- type: State
+  code: STATE-US-MO
+  attributes:
+    name: Missouri
+    abbreviation: MO
+  references:
+    country: COUNTRY-US
+  source:
+    url: https://pe.usps.com/text/pub28/pub28apb.htm
+- type: State
+  code: STATE-US-NC
+  attributes:
+    name: North Carolina
+    abbreviation: NC
+  references:
+    country: COUNTRY-US
+  source:
+    url: https://pe.usps.com/text/pub28/pub28apb.htm
+- type: State
+  code: STATE-US-NJ
+  attributes:
+    name: New Jersey
+    abbreviation: NJ
+  references:
+    country: COUNTRY-US
+  source:
+    url: https://pe.usps.com/text/pub28/pub28apb.htm
+- type: State
+  code: STATE-US-NV
+  attributes:
+    name: Nevada
+    abbreviation: NV
+  references:
+    country: COUNTRY-US
+  source:
+    url: https://pe.usps.com/text/pub28/pub28apb.htm
+- type: State
+  code: STATE-US-NY
+  attributes:
+    name: New York
+    abbreviation: NY
+  references:
+    country: COUNTRY-US
+  source:
+    url: https://pe.usps.com/text/pub28/pub28apb.htm
+- type: State
+  code: STATE-US-OH
+  attributes:
+    name: Ohio
+    abbreviation: OH
+  references:
+    country: COUNTRY-US
+  source:
+    url: https://pe.usps.com/text/pub28/pub28apb.htm
+- type: State
+  code: STATE-US-OK
+  attributes:
+    name: Oklahoma
+    abbreviation: OK
+  references:
+    country: COUNTRY-US
+  source:
+    url: https://pe.usps.com/text/pub28/pub28apb.htm
+- type: State
+  code: STATE-US-OR
+  attributes:
+    name: Oregon
+    abbreviation: OR
+  references:
+    country: COUNTRY-US
+  source:
+    url: https://pe.usps.com/text/pub28/pub28apb.htm
+- type: State
+  code: STATE-US-PA
+  attributes:
+    name: Pennsylvania
+    abbreviation: PA
+  references:
+    country: COUNTRY-US
+  source:
+    url: https://pe.usps.com/text/pub28/pub28apb.htm
+- type: State
+  code: STATE-US-TN
+  attributes:
+    name: Tennessee
+    abbreviation: TN
+  references:
+    country: COUNTRY-US
+  source:
+    url: https://pe.usps.com/text/pub28/pub28apb.htm
+- type: State
+  code: STATE-US-TX
+  attributes:
+    name: Texas
+    abbreviation: TX
+  references:
+    country: COUNTRY-US
+  source:
+    url: https://pe.usps.com/text/pub28/pub28apb.htm
+- type: State
+  code: STATE-US-UT
+  attributes:
+    name: Utah
+    abbreviation: UT
+  references:
+    country: COUNTRY-US
+  source:
+    url: https://pe.usps.com/text/pub28/pub28apb.htm
+- type: State
+  code: STATE-US-WA
+  attributes:
+    name: Washington
+    abbreviation: WA
+  references:
+    country: COUNTRY-US
+  source:
+    url: https://pe.usps.com/text/pub28/pub28apb.htm
+- type: State
+  code: STATE-US-WI
+  attributes:
+    name: Wisconsin
+    abbreviation: WI
+  references:
+    country: COUNTRY-US
+  source:
+    url: https://pe.usps.com/text/pub28/pub28apb.htm

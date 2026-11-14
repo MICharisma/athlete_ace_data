@@ -1,0 +1,545 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Campaign
+  code: SOC-MLS-SEASON_2026-TEAM-ATL
+  attributes:
+    display_name: Atlanta United FC
+    abbreviation: ATL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 32
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-MLS-TEAM-ATL
+    season: SOC-MLS-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/18418/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-MLS-SEASON_2026-TEAM-ATX
+  attributes:
+    display_name: Austin FC
+    abbreviation: ATX
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 27
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-MLS-TEAM-ATX
+    season: SOC-MLS-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/20906/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-MLS-SEASON_2026-TEAM-CHI
+  attributes:
+    display_name: Chicago Fire FC
+    abbreviation: CHI
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 30
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-MLS-TEAM-CHI
+    season: SOC-MLS-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/182/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-MLS-SEASON_2026-TEAM-CIN
+  attributes:
+    display_name: FC Cincinnati
+    abbreviation: CIN
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 30
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-MLS-TEAM-CIN
+    season: SOC-MLS-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/18267/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-MLS-SEASON_2026-TEAM-CLB
+  attributes:
+    display_name: Columbus Crew
+    abbreviation: CLB
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 33
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-MLS-TEAM-CLB
+    season: SOC-MLS-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/183/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-MLS-SEASON_2026-TEAM-CLT
+  attributes:
+    display_name: Charlotte FC
+    abbreviation: CLT
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 31
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-MLS-TEAM-CLT
+    season: SOC-MLS-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/21300/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-MLS-SEASON_2026-TEAM-COL
+  attributes:
+    display_name: Colorado Rapids
+    abbreviation: COL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 33
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-MLS-TEAM-COL
+    season: SOC-MLS-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/184/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-MLS-SEASON_2026-TEAM-DAL
+  attributes:
+    display_name: FC Dallas
+    abbreviation: DAL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 35
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-MLS-TEAM-DAL
+    season: SOC-MLS-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/185/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-MLS-SEASON_2026-TEAM-DC
+  attributes:
+    display_name: D.C. United
+    abbreviation: DC
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 26
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-MLS-TEAM-DC
+    season: SOC-MLS-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/193/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-MLS-SEASON_2026-TEAM-HOU
+  attributes:
+    display_name: Houston Dynamo FC
+    abbreviation: HOU
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 27
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-MLS-TEAM-HOU
+    season: SOC-MLS-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/6077/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-MLS-SEASON_2026-TEAM-LA
+  attributes:
+    display_name: LA Galaxy
+    abbreviation: LA
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 33
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-MLS-TEAM-LA
+    season: SOC-MLS-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/187/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-MLS-SEASON_2026-TEAM-LAFC
+  attributes:
+    display_name: LAFC
+    abbreviation: LAFC
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 32
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-MLS-TEAM-LAFC
+    season: SOC-MLS-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/18966/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-MLS-SEASON_2026-TEAM-MIA
+  attributes:
+    display_name: Inter Miami CF
+    abbreviation: MIA
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 34
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-MLS-TEAM-MIA
+    season: SOC-MLS-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/20232/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-MLS-SEASON_2026-TEAM-MIN
+  attributes:
+    display_name: Minnesota United FC
+    abbreviation: MIN
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 30
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-MLS-TEAM-MIN
+    season: SOC-MLS-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/17362/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-MLS-SEASON_2026-TEAM-MTL
+  attributes:
+    display_name: CF Montréal
+    abbreviation: MTL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 29
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-MLS-TEAM-MTL
+    season: SOC-MLS-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/9720/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-MLS-SEASON_2026-TEAM-NE
+  attributes:
+    display_name: New England Revolution
+    abbreviation: NE
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 39
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-MLS-TEAM-NE
+    season: SOC-MLS-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/189/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-MLS-SEASON_2026-TEAM-NSH
+  attributes:
+    display_name: Nashville SC
+    abbreviation: NSH
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 30
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-MLS-TEAM-NSH
+    season: SOC-MLS-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/18986/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-MLS-SEASON_2026-TEAM-NYC
+  attributes:
+    display_name: New York City FC
+    abbreviation: NYC
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 36
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-MLS-TEAM-NYC
+    season: SOC-MLS-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/17606/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-MLS-SEASON_2026-TEAM-ORL
+  attributes:
+    display_name: Orlando City SC
+    abbreviation: ORL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 31
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-MLS-TEAM-ORL
+    season: SOC-MLS-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/12011/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-MLS-SEASON_2026-TEAM-PHI
+  attributes:
+    display_name: Philadelphia Union
+    abbreviation: PHI
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 29
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-MLS-TEAM-PHI
+    season: SOC-MLS-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/10739/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-MLS-SEASON_2026-TEAM-POR
+  attributes:
+    display_name: Portland Timbers
+    abbreviation: POR
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 29
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-MLS-TEAM-POR
+    season: SOC-MLS-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/9723/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-MLS-SEASON_2026-TEAM-RBNY
+  attributes:
+    display_name: Red Bull New York
+    abbreviation: RBNY
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 33
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-MLS-TEAM-RBNY
+    season: SOC-MLS-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/190/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-MLS-SEASON_2026-TEAM-RSL
+  attributes:
+    display_name: Real Salt Lake
+    abbreviation: RSL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 41
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-MLS-TEAM-RSL
+    season: SOC-MLS-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/4771/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-MLS-SEASON_2026-TEAM-SD
+  attributes:
+    display_name: San Diego FC
+    abbreviation: SD
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 30
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-MLS-TEAM-SD
+    season: SOC-MLS-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/22529/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-MLS-SEASON_2026-TEAM-SEA
+  attributes:
+    display_name: Seattle Sounders FC
+    abbreviation: SEA
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 33
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-MLS-TEAM-SEA
+    season: SOC-MLS-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/9726/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-MLS-SEASON_2026-TEAM-SJ
+  attributes:
+    display_name: San Jose Earthquakes
+    abbreviation: SJ
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 33
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-MLS-TEAM-SJ
+    season: SOC-MLS-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/191/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-MLS-SEASON_2026-TEAM-SKC
+  attributes:
+    display_name: Sporting Kansas City
+    abbreviation: SKC
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 32
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-MLS-TEAM-SKC
+    season: SOC-MLS-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/186/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-MLS-SEASON_2026-TEAM-STL
+  attributes:
+    display_name: St. Louis CITY SC
+    abbreviation: STL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 35
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-MLS-TEAM-STL
+    season: SOC-MLS-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/21812/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-MLS-SEASON_2026-TEAM-TOR
+  attributes:
+    display_name: Toronto FC
+    abbreviation: TOR
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 37
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-MLS-TEAM-TOR
+    season: SOC-MLS-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/7318/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-MLS-SEASON_2026-TEAM-VAN
+  attributes:
+    display_name: Vancouver Whitecaps
+    abbreviation: VAN
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 33
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-MLS-TEAM-VAN
+    season: SOC-MLS-SEASON_2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/9727/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.

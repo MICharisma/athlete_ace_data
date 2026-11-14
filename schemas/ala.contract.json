@@ -66,6 +66,33 @@
         "stint"
       ]
     },
+    "AssetRepresentation": {
+      "attributes": {
+        "byte_size": {
+          "type": "integer"
+        },
+        "canonical_path": {
+          "type": "string"
+        },
+        "content_type": {
+          "type": "string"
+        },
+        "details": {},
+        "file_format": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string"
+        },
+        "source": {},
+        "view": {
+          "type": "string"
+        }
+      },
+      "references": [
+        "subject"
+      ]
+    },
     "Campaign": {
       "attributes": {
         "abbreviation": {
@@ -286,7 +313,8 @@
       "references": [
         "champion",
         "context",
-        "season"
+        "season",
+        "stadium"
       ]
     },
     "ContestGame": {
@@ -314,6 +342,16 @@
           "anyOf": [
             {
               "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "side": {
+          "anyOf": [
+            {
+              "type": "string"
             },
             {
               "type": "null"
@@ -448,7 +486,8 @@
         }
       },
       "references": [
-        "conference"
+        "conference",
+        "league"
       ]
     },
     "Federation": {
@@ -503,6 +542,60 @@
             }
           ]
         }
+      },
+      "references": []
+    },
+    "Figure": {
+      "attributes": {
+        "alternate_names": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "details": {},
+        "first_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "last_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "name": {
+          "type": "string"
+        },
+        "name_segments": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "nicknames": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "short_name": {
+          "type": "string"
+        },
+        "sort_name": {
+          "type": "string"
+        },
+        "source": {}
       },
       "references": []
     },
@@ -576,7 +669,8 @@
       "references": [
         "champion",
         "context",
-        "season"
+        "season",
+        "stadium"
       ]
     },
     "JerseyNumberAssignment": {
@@ -688,9 +782,97 @@
         }
       },
       "references": [
-        "country",
         "jurisdiction",
         "sport"
+      ]
+    },
+    "Logo": {
+      "attributes": {
+        "details": {},
+        "end_date": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "name": {
+          "type": "string"
+        },
+        "ongoing": {
+          "type": "boolean"
+        },
+        "role": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "source": {},
+        "start_date": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "references": [
+        "team"
+      ]
+    },
+    "Membership": {
+      "attributes": {
+        "active": {
+          "anyOf": [
+            {
+              "type": "boolean"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "end_date": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start_date": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "references": [
+        "conference",
+        "division",
+        "league",
+        "team"
       ]
     },
     "Organization": {
@@ -869,17 +1051,10 @@
           ]
         },
         "nicknames": {
-          "anyOf": [
-            {
-              "type": "array",
-              "items": {
-                "type": "string"
-              }
-            },
-            {
-              "type": "null"
-            }
-          ]
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
         },
         "photo_urls": {
           "anyOf": [
@@ -898,6 +1073,7 @@
       "references": [
         "birth_city",
         "birth_country",
+        "figure",
         "sport",
         "team"
       ]
@@ -930,6 +1106,64 @@
       "references": [
         "player",
         "player_group"
+      ]
+    },
+    "Position": {
+      "attributes": {
+        "abbreviation": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "description": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "kind": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "references": [
+        "parent",
+        "sport"
+      ]
+    },
+    "PositionAssignment": {
+      "attributes": {
+        "details": {},
+        "primary": {
+          "type": "boolean"
+        },
+        "sequence": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "source": {},
+        "statistics": {}
+      },
+      "references": [
+        "position",
+        "subject"
       ]
     },
     "Roster": {
@@ -1179,6 +1413,51 @@
         "city"
       ]
     },
+    "StaffTenure": {
+      "attributes": {
+        "details": {},
+        "end_date": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "ongoing": {
+          "type": "boolean"
+        },
+        "role": {
+          "type": "string",
+          "enum": [
+            "coach",
+            "staff",
+            "broadcaster"
+          ]
+        },
+        "source": {},
+        "start_date": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "title": {
+          "type": "string"
+        }
+      },
+      "references": [
+        "figure",
+        "organization",
+        "team"
+      ]
+    },
     "State": {
       "attributes": {
         "abbreviation": {
@@ -1383,6 +1662,7 @@
       },
       "references": [
         "contest",
+        "player",
         "winner"
       ]
     },
@@ -1418,6 +1698,72 @@
         "player",
         "to_organization",
         "to_team"
+      ]
+    },
+    "Uniform": {
+      "attributes": {
+        "details": {},
+        "end_date": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "name": {
+          "type": "string"
+        },
+        "ongoing": {
+          "type": "boolean"
+        },
+        "role": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "source": {},
+        "start_date": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "references": [
+        "team"
+      ]
+    },
+    "UniformCampaign": {
+      "attributes": {},
+      "references": [
+        "campaign",
+        "uniform"
+      ]
+    },
+    "UniformPiece": {
+      "attributes": {
+        "details": {},
+        "name": {
+          "type": "string"
+        },
+        "source": {}
+      },
+      "references": [
+        "uniform"
       ]
     },
     "Year": {

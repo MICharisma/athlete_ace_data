@@ -1,0 +1,491 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Team
+  code: HCK-NHL-TEAM-ANA
+  attributes:
+    territory: Anaheim
+    mascot: Ducks
+    abbreviation: ANA
+  references: {}
+  scope:
+    league: HCK-LEAGUE-NHL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/ANA/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Team
+  code: HCK-NHL-TEAM-ARI
+  attributes:
+    territory: Arizona
+    mascot: Coyotes
+    abbreviation: ARI
+  references:
+    league: HCK-LEAGUE-NHL
+- type: Team
+  code: HCK-NHL-TEAM-BOS
+  attributes:
+    territory: Boston
+    mascot: Bruins
+    abbreviation: BOS
+  references: {}
+  scope:
+    league: HCK-LEAGUE-NHL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/BOS/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Team
+  code: HCK-NHL-TEAM-BUF
+  attributes:
+    territory: Buffalo
+    mascot: Sabres
+    abbreviation: BUF
+  references: {}
+  scope:
+    league: HCK-LEAGUE-NHL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/BUF/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Team
+  code: HCK-NHL-TEAM-CAR
+  attributes:
+    territory: Carolina
+    mascot: Hurricanes
+    abbreviation: CAR
+  references: {}
+  scope:
+    league: HCK-LEAGUE-NHL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/CAR/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Team
+  code: HCK-NHL-TEAM-CBJ
+  attributes:
+    territory: Columbus
+    mascot: Blue Jackets
+    abbreviation: CBJ
+  references: {}
+  scope:
+    league: HCK-LEAGUE-NHL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/CBJ/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Team
+  code: HCK-NHL-TEAM-CGY
+  attributes:
+    territory: Calgary
+    mascot: Flames
+    abbreviation: CGY
+  references: {}
+  scope:
+    league: HCK-LEAGUE-NHL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/CGY/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Team
+  code: HCK-NHL-TEAM-CHI
+  attributes:
+    territory: Chicago
+    mascot: Blackhawks
+    abbreviation: CHI
+  references: {}
+  scope:
+    league: HCK-LEAGUE-NHL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/CHI/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Team
+  code: HCK-NHL-TEAM-COL
+  attributes:
+    territory: Colorado
+    mascot: Avalanche
+    abbreviation: COL
+  references: {}
+  scope:
+    league: HCK-LEAGUE-NHL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/COL/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Team
+  code: HCK-NHL-TEAM-DAL
+  attributes:
+    territory: Dallas
+    mascot: Stars
+    abbreviation: DAL
+  references: {}
+  scope:
+    league: HCK-LEAGUE-NHL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/DAL/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Team
+  code: HCK-NHL-TEAM-DET
+  attributes:
+    territory: Detroit
+    mascot: Red Wings
+    abbreviation: DET
+  references: {}
+  scope:
+    league: HCK-LEAGUE-NHL
+  source:
+    url: https://www.nhl.com/blues/news/blues-acquire-leddy-witkowski-from-red-wings-332085830
+    note: 'Sample 2021_2022 season union: retain Detroit and St. Louis memberships;
+      not a complete roster.'
+    published_on: '2022-03-21'
+- type: Team
+  code: HCK-NHL-TEAM-EDM
+  attributes:
+    territory: Edmonton
+    mascot: Oilers
+    abbreviation: EDM
+  references: {}
+  scope:
+    league: HCK-LEAGUE-NHL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/EDM/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Team
+  code: HCK-NHL-TEAM-FLA
+  attributes:
+    territory: Florida
+    mascot: Panthers
+    abbreviation: FLA
+  references: {}
+  scope:
+    league: HCK-LEAGUE-NHL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/FLA/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Team
+  code: HCK-NHL-TEAM-LAK
+  attributes:
+    territory: Los Angeles
+    mascot: Kings
+    abbreviation: LAK
+  references: {}
+  scope:
+    league: HCK-LEAGUE-NHL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/LAK/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Team
+  code: HCK-NHL-TEAM-MIN
+  attributes:
+    territory: Minnesota
+    mascot: Wild
+    abbreviation: MIN
+  references: {}
+  scope:
+    league: HCK-LEAGUE-NHL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/MIN/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Team
+  code: HCK-NHL-TEAM-MTL
+  attributes:
+    territory: Montréal
+    mascot: Canadiens
+    abbreviation: MTL
+  references: {}
+  scope:
+    league: HCK-LEAGUE-NHL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/MTL/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Team
+  code: HCK-NHL-TEAM-NJD
+  attributes:
+    territory: New Jersey
+    mascot: Devils
+    abbreviation: NJD
+  references: {}
+  scope:
+    league: HCK-LEAGUE-NHL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/NJD/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Team
+  code: HCK-NHL-TEAM-NSH
+  attributes:
+    territory: Nashville
+    mascot: Predators
+    abbreviation: NSH
+  references: {}
+  scope:
+    league: HCK-LEAGUE-NHL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/NSH/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Team
+  code: HCK-NHL-TEAM-NYI
+  attributes:
+    territory: New York
+    mascot: Islanders
+    abbreviation: NYI
+  references: {}
+  scope:
+    league: HCK-LEAGUE-NHL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/NYI/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Team
+  code: HCK-NHL-TEAM-NYR
+  attributes:
+    territory: New York
+    mascot: Rangers
+    abbreviation: NYR
+  references: {}
+  scope:
+    league: HCK-LEAGUE-NHL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/NYR/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Team
+  code: HCK-NHL-TEAM-OTT
+  attributes:
+    territory: Ottawa
+    mascot: Senators
+    abbreviation: OTT
+  references: {}
+  scope:
+    league: HCK-LEAGUE-NHL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/OTT/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Team
+  code: HCK-NHL-TEAM-PHI
+  attributes:
+    territory: Philadelphia
+    mascot: Flyers
+    abbreviation: PHI
+  references: {}
+  scope:
+    league: HCK-LEAGUE-NHL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/PHI/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Team
+  code: HCK-NHL-TEAM-PIT
+  attributes:
+    territory: Pittsburgh
+    mascot: Penguins
+    abbreviation: PIT
+  references: {}
+  scope:
+    league: HCK-LEAGUE-NHL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/PIT/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Team
+  code: HCK-NHL-TEAM-SEA
+  attributes:
+    territory: Seattle
+    mascot: Kraken
+    abbreviation: SEA
+  references: {}
+  scope:
+    league: HCK-LEAGUE-NHL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/SEA/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Team
+  code: HCK-NHL-TEAM-SJS
+  attributes:
+    territory: San Jose
+    mascot: Sharks
+    abbreviation: SJS
+  references: {}
+  scope:
+    league: HCK-LEAGUE-NHL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/SJS/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Team
+  code: HCK-NHL-TEAM-STL
+  attributes:
+    territory: St. Louis
+    mascot: Blues
+    abbreviation: STL
+  references: {}
+  scope:
+    league: HCK-LEAGUE-NHL
+  source:
+    url: https://www.nhl.com/blues/news/blues-acquire-leddy-witkowski-from-red-wings-332085830
+    note: 'Sample 2021_2022 season union: retain Detroit and St. Louis memberships;
+      not a complete roster.'
+    published_on: '2022-03-21'
+- type: Team
+  code: HCK-NHL-TEAM-TBL
+  attributes:
+    territory: Tampa Bay
+    mascot: Lightning
+    abbreviation: TBL
+  references: {}
+  scope:
+    league: HCK-LEAGUE-NHL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/TBL/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Team
+  code: HCK-NHL-TEAM-TOR
+  attributes:
+    territory: Toronto
+    mascot: Maple Leafs
+    abbreviation: TOR
+  references: {}
+  scope:
+    league: HCK-LEAGUE-NHL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/TOR/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Team
+  code: HCK-NHL-TEAM-UTA
+  attributes:
+    territory: Utah
+    mascot: Mammoth
+    abbreviation: UTA
+  references: {}
+  scope:
+    league: HCK-LEAGUE-NHL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/UTA/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Team
+  code: HCK-NHL-TEAM-VAN
+  attributes:
+    territory: Vancouver
+    mascot: Canucks
+    abbreviation: VAN
+  references: {}
+  scope:
+    league: HCK-LEAGUE-NHL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/VAN/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Team
+  code: HCK-NHL-TEAM-VGK
+  attributes:
+    territory: Vegas
+    mascot: Golden Knights
+    abbreviation: VGK
+  references: {}
+  scope:
+    league: HCK-LEAGUE-NHL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/VGK/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Team
+  code: HCK-NHL-TEAM-WPG
+  attributes:
+    territory: Winnipeg
+    mascot: Jets
+    abbreviation: WPG
+  references: {}
+  scope:
+    league: HCK-LEAGUE-NHL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/WPG/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Team
+  code: HCK-NHL-TEAM-WSH
+  attributes:
+    territory: Washington
+    mascot: Capitals
+    abbreviation: WSH
+  references: {}
+  scope:
+    league: HCK-LEAGUE-NHL
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/WSH/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.

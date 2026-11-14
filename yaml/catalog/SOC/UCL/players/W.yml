@@ -1,0 +1,85 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: SOC-UCL-PLAYER-WANNER_PAUL
+  aliases:
+  - SOC-ESPN-PLAYER_333399
+  attributes:
+    first_name: Paul
+    last_name: Wanner
+    birthdate: '2005-12-23'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/333399.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/148/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-WATANABE_TSUYOSHI
+  aliases:
+  - SOC-ESPN-PLAYER_276279
+  attributes:
+    first_name: Tsuyoshi
+    last_name: Watanabe
+    birthdate: '1997-02-05'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/276279.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/142/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-WESLEY
+  aliases:
+  - SOC-ESPN-PLAYER_332354
+  attributes:
+    first_name: Wesley
+    last_name: ''
+    birthdate: '2003-09-06'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/104/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-WESSELS_TIJME
+  aliases:
+  - SOC-ESPN-PLAYER_3102195
+  attributes:
+    first_name: Tijme
+    last_name: Wessels
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/3102195.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/142/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-WIMMER_KEVIN
+  aliases:
+  - SOC-ESPN-PLAYER_174526
+  attributes:
+    first_name: Kevin
+    last_name: Wimmer
+    birthdate: '1992-11-15'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/521/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.

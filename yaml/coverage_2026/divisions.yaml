@@ -1,0 +1,1548 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+source:
+  note: Current conference and division alignment carried over from the legacy JSON
+    catalog onto 2026 team identities.
+records:
+- type: Membership
+  code: BSB-MLB-TEAM-BAL-MEMBERSHIP-AL_EAST
+  attributes:
+    active: true
+  references:
+    team: BSB-MLB-TEAM-BAL
+    division: BSB-MLB-DIVISION-AL_EAST
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Membership
+  code: BSB-MLB-TEAM-BOS-MEMBERSHIP-AL_EAST
+  attributes:
+    active: true
+  references:
+    team: BSB-MLB-TEAM-BOS
+    division: BSB-MLB-DIVISION-AL_EAST
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Membership
+  code: BSB-MLB-TEAM-NYY-MEMBERSHIP-AL_EAST
+  attributes:
+    active: true
+  references:
+    team: BSB-MLB-TEAM-NYY
+    division: BSB-MLB-DIVISION-AL_EAST
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Membership
+  code: BSB-MLB-TEAM-TB-MEMBERSHIP-AL_EAST
+  attributes:
+    active: true
+  references:
+    team: BSB-MLB-TEAM-TB
+    division: BSB-MLB-DIVISION-AL_EAST
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Membership
+  code: BSB-MLB-TEAM-TOR-MEMBERSHIP-AL_EAST
+  attributes:
+    active: true
+  references:
+    team: BSB-MLB-TEAM-TOR
+    division: BSB-MLB-DIVISION-AL_EAST
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Membership
+  code: BSB-MLB-TEAM-CWS-MEMBERSHIP-AL_CENTRAL
+  attributes:
+    active: true
+  references:
+    team: BSB-MLB-TEAM-CWS
+    division: BSB-MLB-DIVISION-AL_CENTRAL
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Membership
+  code: BSB-MLB-TEAM-CLE-MEMBERSHIP-AL_CENTRAL
+  attributes:
+    active: true
+  references:
+    team: BSB-MLB-TEAM-CLE
+    division: BSB-MLB-DIVISION-AL_CENTRAL
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Membership
+  code: BSB-MLB-TEAM-DET-MEMBERSHIP-AL_CENTRAL
+  attributes:
+    active: true
+  references:
+    team: BSB-MLB-TEAM-DET
+    division: BSB-MLB-DIVISION-AL_CENTRAL
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Membership
+  code: BSB-MLB-TEAM-KC-MEMBERSHIP-AL_CENTRAL
+  attributes:
+    active: true
+  references:
+    team: BSB-MLB-TEAM-KC
+    division: BSB-MLB-DIVISION-AL_CENTRAL
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Membership
+  code: BSB-MLB-TEAM-MIN-MEMBERSHIP-AL_CENTRAL
+  attributes:
+    active: true
+  references:
+    team: BSB-MLB-TEAM-MIN
+    division: BSB-MLB-DIVISION-AL_CENTRAL
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Membership
+  code: BSB-MLB-TEAM-HOU-MEMBERSHIP-AL_WEST
+  attributes:
+    active: true
+  references:
+    team: BSB-MLB-TEAM-HOU
+    division: BSB-MLB-DIVISION-AL_WEST
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Membership
+  code: BSB-MLB-TEAM-LAA-MEMBERSHIP-AL_WEST
+  attributes:
+    active: true
+  references:
+    team: BSB-MLB-TEAM-LAA
+    division: BSB-MLB-DIVISION-AL_WEST
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Membership
+  code: BSB-MLB-TEAM-ATH-MEMBERSHIP-AL_WEST
+  attributes:
+    active: true
+  references:
+    team: BSB-MLB-TEAM-ATH
+    division: BSB-MLB-DIVISION-AL_WEST
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Membership
+  code: BSB-MLB-TEAM-SEA-MEMBERSHIP-AL_WEST
+  attributes:
+    active: true
+  references:
+    team: BSB-MLB-TEAM-SEA
+    division: BSB-MLB-DIVISION-AL_WEST
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Membership
+  code: BSB-MLB-TEAM-TEX-MEMBERSHIP-AL_WEST
+  attributes:
+    active: true
+  references:
+    team: BSB-MLB-TEAM-TEX
+    division: BSB-MLB-DIVISION-AL_WEST
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Membership
+  code: BSB-MLB-TEAM-ATL-MEMBERSHIP-NL_EAST
+  attributes:
+    active: true
+  references:
+    team: BSB-MLB-TEAM-ATL
+    division: BSB-MLB-DIVISION-NL_EAST
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Membership
+  code: BSB-MLB-TEAM-MIA-MEMBERSHIP-NL_EAST
+  attributes:
+    active: true
+  references:
+    team: BSB-MLB-TEAM-MIA
+    division: BSB-MLB-DIVISION-NL_EAST
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Membership
+  code: BSB-MLB-TEAM-NYM-MEMBERSHIP-NL_EAST
+  attributes:
+    active: true
+  references:
+    team: BSB-MLB-TEAM-NYM
+    division: BSB-MLB-DIVISION-NL_EAST
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Membership
+  code: BSB-MLB-TEAM-PHI-MEMBERSHIP-NL_EAST
+  attributes:
+    active: true
+  references:
+    team: BSB-MLB-TEAM-PHI
+    division: BSB-MLB-DIVISION-NL_EAST
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Membership
+  code: BSB-MLB-TEAM-WSH-MEMBERSHIP-NL_EAST
+  attributes:
+    active: true
+  references:
+    team: BSB-MLB-TEAM-WSH
+    division: BSB-MLB-DIVISION-NL_EAST
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Membership
+  code: BSB-MLB-TEAM-CHC-MEMBERSHIP-NL_CENTRAL
+  attributes:
+    active: true
+  references:
+    team: BSB-MLB-TEAM-CHC
+    division: BSB-MLB-DIVISION-NL_CENTRAL
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Membership
+  code: BSB-MLB-TEAM-CIN-MEMBERSHIP-NL_CENTRAL
+  attributes:
+    active: true
+  references:
+    team: BSB-MLB-TEAM-CIN
+    division: BSB-MLB-DIVISION-NL_CENTRAL
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Membership
+  code: BSB-MLB-TEAM-MIL-MEMBERSHIP-NL_CENTRAL
+  attributes:
+    active: true
+  references:
+    team: BSB-MLB-TEAM-MIL
+    division: BSB-MLB-DIVISION-NL_CENTRAL
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Membership
+  code: BSB-MLB-TEAM-PIT-MEMBERSHIP-NL_CENTRAL
+  attributes:
+    active: true
+  references:
+    team: BSB-MLB-TEAM-PIT
+    division: BSB-MLB-DIVISION-NL_CENTRAL
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Membership
+  code: BSB-MLB-TEAM-STL-MEMBERSHIP-NL_CENTRAL
+  attributes:
+    active: true
+  references:
+    team: BSB-MLB-TEAM-STL
+    division: BSB-MLB-DIVISION-NL_CENTRAL
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Membership
+  code: BSB-MLB-TEAM-AZ-MEMBERSHIP-NL_WEST
+  attributes:
+    active: true
+  references:
+    team: BSB-MLB-TEAM-AZ
+    division: BSB-MLB-DIVISION-NL_WEST
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Membership
+  code: BSB-MLB-TEAM-COL-MEMBERSHIP-NL_WEST
+  attributes:
+    active: true
+  references:
+    team: BSB-MLB-TEAM-COL
+    division: BSB-MLB-DIVISION-NL_WEST
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Membership
+  code: BSB-MLB-TEAM-LAD-MEMBERSHIP-NL_WEST
+  attributes:
+    active: true
+  references:
+    team: BSB-MLB-TEAM-LAD
+    division: BSB-MLB-DIVISION-NL_WEST
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Membership
+  code: BSB-MLB-TEAM-SD-MEMBERSHIP-NL_WEST
+  attributes:
+    active: true
+  references:
+    team: BSB-MLB-TEAM-SD
+    division: BSB-MLB-DIVISION-NL_WEST
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Membership
+  code: BSB-MLB-TEAM-SF-MEMBERSHIP-NL_WEST
+  attributes:
+    active: true
+  references:
+    team: BSB-MLB-TEAM-SF
+    division: BSB-MLB-DIVISION-NL_WEST
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Membership
+  code: BKT-NBA-TEAM-BOS-MEMBERSHIP-ATLANTIC_DIVISION
+  attributes:
+    active: true
+  references:
+    team: BKT-NBA-TEAM-BOS
+    division: BKT-NBA-DIVISION-ATLANTIC_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Membership
+  code: BKT-NBA-TEAM-BKN-MEMBERSHIP-ATLANTIC_DIVISION
+  attributes:
+    active: true
+  references:
+    team: BKT-NBA-TEAM-BKN
+    division: BKT-NBA-DIVISION-ATLANTIC_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Membership
+  code: BKT-NBA-TEAM-NYK-MEMBERSHIP-ATLANTIC_DIVISION
+  attributes:
+    active: true
+  references:
+    team: BKT-NBA-TEAM-NYK
+    division: BKT-NBA-DIVISION-ATLANTIC_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Membership
+  code: BKT-NBA-TEAM-PHI-MEMBERSHIP-ATLANTIC_DIVISION
+  attributes:
+    active: true
+  references:
+    team: BKT-NBA-TEAM-PHI
+    division: BKT-NBA-DIVISION-ATLANTIC_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Membership
+  code: BKT-NBA-TEAM-TOR-MEMBERSHIP-ATLANTIC_DIVISION
+  attributes:
+    active: true
+  references:
+    team: BKT-NBA-TEAM-TOR
+    division: BKT-NBA-DIVISION-ATLANTIC_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Membership
+  code: BKT-NBA-TEAM-CHI-MEMBERSHIP-CENTRAL_DIVISION
+  attributes:
+    active: true
+  references:
+    team: BKT-NBA-TEAM-CHI
+    division: BKT-NBA-DIVISION-CENTRAL_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Membership
+  code: BKT-NBA-TEAM-CLE-MEMBERSHIP-CENTRAL_DIVISION
+  attributes:
+    active: true
+  references:
+    team: BKT-NBA-TEAM-CLE
+    division: BKT-NBA-DIVISION-CENTRAL_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Membership
+  code: BKT-NBA-TEAM-DET-MEMBERSHIP-CENTRAL_DIVISION
+  attributes:
+    active: true
+  references:
+    team: BKT-NBA-TEAM-DET
+    division: BKT-NBA-DIVISION-CENTRAL_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Membership
+  code: BKT-NBA-TEAM-IND-MEMBERSHIP-CENTRAL_DIVISION
+  attributes:
+    active: true
+  references:
+    team: BKT-NBA-TEAM-IND
+    division: BKT-NBA-DIVISION-CENTRAL_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Membership
+  code: BKT-NBA-TEAM-MIL-MEMBERSHIP-CENTRAL_DIVISION
+  attributes:
+    active: true
+  references:
+    team: BKT-NBA-TEAM-MIL
+    division: BKT-NBA-DIVISION-CENTRAL_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Membership
+  code: BKT-NBA-TEAM-ATL-MEMBERSHIP-SOUTHEAST_DIVISION
+  attributes:
+    active: true
+  references:
+    team: BKT-NBA-TEAM-ATL
+    division: BKT-NBA-DIVISION-SOUTHEAST_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Membership
+  code: BKT-NBA-TEAM-CHA-MEMBERSHIP-SOUTHEAST_DIVISION
+  attributes:
+    active: true
+  references:
+    team: BKT-NBA-TEAM-CHA
+    division: BKT-NBA-DIVISION-SOUTHEAST_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Membership
+  code: BKT-NBA-TEAM-MIA-MEMBERSHIP-SOUTHEAST_DIVISION
+  attributes:
+    active: true
+  references:
+    team: BKT-NBA-TEAM-MIA
+    division: BKT-NBA-DIVISION-SOUTHEAST_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Membership
+  code: BKT-NBA-TEAM-ORL-MEMBERSHIP-SOUTHEAST_DIVISION
+  attributes:
+    active: true
+  references:
+    team: BKT-NBA-TEAM-ORL
+    division: BKT-NBA-DIVISION-SOUTHEAST_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Membership
+  code: BKT-NBA-TEAM-WAS-MEMBERSHIP-SOUTHEAST_DIVISION
+  attributes:
+    active: true
+  references:
+    team: BKT-NBA-TEAM-WAS
+    division: BKT-NBA-DIVISION-SOUTHEAST_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Membership
+  code: BKT-NBA-TEAM-DEN-MEMBERSHIP-NORTHWEST_DIVISION
+  attributes:
+    active: true
+  references:
+    team: BKT-NBA-TEAM-DEN
+    division: BKT-NBA-DIVISION-NORTHWEST_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Membership
+  code: BKT-NBA-TEAM-MIN-MEMBERSHIP-NORTHWEST_DIVISION
+  attributes:
+    active: true
+  references:
+    team: BKT-NBA-TEAM-MIN
+    division: BKT-NBA-DIVISION-NORTHWEST_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Membership
+  code: BKT-NBA-TEAM-OKC-MEMBERSHIP-NORTHWEST_DIVISION
+  attributes:
+    active: true
+  references:
+    team: BKT-NBA-TEAM-OKC
+    division: BKT-NBA-DIVISION-NORTHWEST_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Membership
+  code: BKT-NBA-TEAM-POR-MEMBERSHIP-NORTHWEST_DIVISION
+  attributes:
+    active: true
+  references:
+    team: BKT-NBA-TEAM-POR
+    division: BKT-NBA-DIVISION-NORTHWEST_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Membership
+  code: BKT-NBA-TEAM-UTA-MEMBERSHIP-NORTHWEST_DIVISION
+  attributes:
+    active: true
+  references:
+    team: BKT-NBA-TEAM-UTA
+    division: BKT-NBA-DIVISION-NORTHWEST_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Membership
+  code: BKT-NBA-TEAM-GSW-MEMBERSHIP-PACIFIC_DIVISION
+  attributes:
+    active: true
+  references:
+    team: BKT-NBA-TEAM-GSW
+    division: BKT-NBA-DIVISION-PACIFIC_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Membership
+  code: BKT-NBA-TEAM-LAC-MEMBERSHIP-PACIFIC_DIVISION
+  attributes:
+    active: true
+  references:
+    team: BKT-NBA-TEAM-LAC
+    division: BKT-NBA-DIVISION-PACIFIC_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Membership
+  code: BKT-NBA-TEAM-LAL-MEMBERSHIP-PACIFIC_DIVISION
+  attributes:
+    active: true
+  references:
+    team: BKT-NBA-TEAM-LAL
+    division: BKT-NBA-DIVISION-PACIFIC_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Membership
+  code: BKT-NBA-TEAM-PHX-MEMBERSHIP-PACIFIC_DIVISION
+  attributes:
+    active: true
+  references:
+    team: BKT-NBA-TEAM-PHX
+    division: BKT-NBA-DIVISION-PACIFIC_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Membership
+  code: BKT-NBA-TEAM-SAC-MEMBERSHIP-PACIFIC_DIVISION
+  attributes:
+    active: true
+  references:
+    team: BKT-NBA-TEAM-SAC
+    division: BKT-NBA-DIVISION-PACIFIC_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Membership
+  code: BKT-NBA-TEAM-DAL-MEMBERSHIP-SOUTHWEST_DIVISION
+  attributes:
+    active: true
+  references:
+    team: BKT-NBA-TEAM-DAL
+    division: BKT-NBA-DIVISION-SOUTHWEST_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Membership
+  code: BKT-NBA-TEAM-HOU-MEMBERSHIP-SOUTHWEST_DIVISION
+  attributes:
+    active: true
+  references:
+    team: BKT-NBA-TEAM-HOU
+    division: BKT-NBA-DIVISION-SOUTHWEST_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Membership
+  code: BKT-NBA-TEAM-MEM-MEMBERSHIP-SOUTHWEST_DIVISION
+  attributes:
+    active: true
+  references:
+    team: BKT-NBA-TEAM-MEM
+    division: BKT-NBA-DIVISION-SOUTHWEST_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Membership
+  code: BKT-NBA-TEAM-NOP-MEMBERSHIP-SOUTHWEST_DIVISION
+  attributes:
+    active: true
+  references:
+    team: BKT-NBA-TEAM-NOP
+    division: BKT-NBA-DIVISION-SOUTHWEST_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Membership
+  code: BKT-NBA-TEAM-SAS-MEMBERSHIP-SOUTHWEST_DIVISION
+  attributes:
+    active: true
+  references:
+    team: BKT-NBA-TEAM-SAS
+    division: BKT-NBA-DIVISION-SOUTHWEST_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/basketball/USA/NBA
+- type: Membership
+  code: FTB-NFL-TEAM-BUF-MEMBERSHIP-AFC_EAST
+  attributes:
+    active: true
+  references:
+    team: FTB-NFL-TEAM-BUF
+    division: FTB-NFL-DIVISION-AFC_EAST
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Membership
+  code: FTB-NFL-TEAM-MIA-MEMBERSHIP-AFC_EAST
+  attributes:
+    active: true
+  references:
+    team: FTB-NFL-TEAM-MIA
+    division: FTB-NFL-DIVISION-AFC_EAST
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Membership
+  code: FTB-NFL-TEAM-NE-MEMBERSHIP-AFC_EAST
+  attributes:
+    active: true
+  references:
+    team: FTB-NFL-TEAM-NE
+    division: FTB-NFL-DIVISION-AFC_EAST
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Membership
+  code: FTB-NFL-TEAM-NYJ-MEMBERSHIP-AFC_EAST
+  attributes:
+    active: true
+  references:
+    team: FTB-NFL-TEAM-NYJ
+    division: FTB-NFL-DIVISION-AFC_EAST
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Membership
+  code: FTB-NFL-TEAM-BAL-MEMBERSHIP-AFC_NORTH
+  attributes:
+    active: true
+  references:
+    team: FTB-NFL-TEAM-BAL
+    division: FTB-NFL-DIVISION-AFC_NORTH
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Membership
+  code: FTB-NFL-TEAM-CIN-MEMBERSHIP-AFC_NORTH
+  attributes:
+    active: true
+  references:
+    team: FTB-NFL-TEAM-CIN
+    division: FTB-NFL-DIVISION-AFC_NORTH
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Membership
+  code: FTB-NFL-TEAM-CLE-MEMBERSHIP-AFC_NORTH
+  attributes:
+    active: true
+  references:
+    team: FTB-NFL-TEAM-CLE
+    division: FTB-NFL-DIVISION-AFC_NORTH
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Membership
+  code: FTB-NFL-TEAM-PIT-MEMBERSHIP-AFC_NORTH
+  attributes:
+    active: true
+  references:
+    team: FTB-NFL-TEAM-PIT
+    division: FTB-NFL-DIVISION-AFC_NORTH
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Membership
+  code: FTB-NFL-TEAM-HOU-MEMBERSHIP-AFC_SOUTH
+  attributes:
+    active: true
+  references:
+    team: FTB-NFL-TEAM-HOU
+    division: FTB-NFL-DIVISION-AFC_SOUTH
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Membership
+  code: FTB-NFL-TEAM-IND-MEMBERSHIP-AFC_SOUTH
+  attributes:
+    active: true
+  references:
+    team: FTB-NFL-TEAM-IND
+    division: FTB-NFL-DIVISION-AFC_SOUTH
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Membership
+  code: FTB-NFL-TEAM-JAX-MEMBERSHIP-AFC_SOUTH
+  attributes:
+    active: true
+  references:
+    team: FTB-NFL-TEAM-JAX
+    division: FTB-NFL-DIVISION-AFC_SOUTH
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Membership
+  code: FTB-NFL-TEAM-TEN-MEMBERSHIP-AFC_SOUTH
+  attributes:
+    active: true
+  references:
+    team: FTB-NFL-TEAM-TEN
+    division: FTB-NFL-DIVISION-AFC_SOUTH
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Membership
+  code: FTB-NFL-TEAM-DEN-MEMBERSHIP-AFC_WEST
+  attributes:
+    active: true
+  references:
+    team: FTB-NFL-TEAM-DEN
+    division: FTB-NFL-DIVISION-AFC_WEST
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Membership
+  code: FTB-NFL-TEAM-KC-MEMBERSHIP-AFC_WEST
+  attributes:
+    active: true
+  references:
+    team: FTB-NFL-TEAM-KC
+    division: FTB-NFL-DIVISION-AFC_WEST
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Membership
+  code: FTB-NFL-TEAM-RAIDERS-MEMBERSHIP-AFC_WEST
+  attributes:
+    active: true
+  references:
+    team: FTB-NFL-TEAM-RAIDERS
+    division: FTB-NFL-DIVISION-AFC_WEST
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Membership
+  code: FTB-NFL-TEAM-LAC-MEMBERSHIP-AFC_WEST
+  attributes:
+    active: true
+  references:
+    team: FTB-NFL-TEAM-LAC
+    division: FTB-NFL-DIVISION-AFC_WEST
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Membership
+  code: FTB-NFL-TEAM-DAL-MEMBERSHIP-NFC_EAST
+  attributes:
+    active: true
+  references:
+    team: FTB-NFL-TEAM-DAL
+    division: FTB-NFL-DIVISION-NFC_EAST
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Membership
+  code: FTB-NFL-TEAM-NYG-MEMBERSHIP-NFC_EAST
+  attributes:
+    active: true
+  references:
+    team: FTB-NFL-TEAM-NYG
+    division: FTB-NFL-DIVISION-NFC_EAST
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Membership
+  code: FTB-NFL-TEAM-PHI-MEMBERSHIP-NFC_EAST
+  attributes:
+    active: true
+  references:
+    team: FTB-NFL-TEAM-PHI
+    division: FTB-NFL-DIVISION-NFC_EAST
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Membership
+  code: FTB-NFL-TEAM-WAS-MEMBERSHIP-NFC_EAST
+  attributes:
+    active: true
+  references:
+    team: FTB-NFL-TEAM-WAS
+    division: FTB-NFL-DIVISION-NFC_EAST
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Membership
+  code: FTB-NFL-TEAM-CHI-MEMBERSHIP-NFC_NORTH
+  attributes:
+    active: true
+  references:
+    team: FTB-NFL-TEAM-CHI
+    division: FTB-NFL-DIVISION-NFC_NORTH
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Membership
+  code: FTB-NFL-TEAM-DET-MEMBERSHIP-NFC_NORTH
+  attributes:
+    active: true
+  references:
+    team: FTB-NFL-TEAM-DET
+    division: FTB-NFL-DIVISION-NFC_NORTH
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Membership
+  code: FTB-NFL-TEAM-GB-MEMBERSHIP-NFC_NORTH
+  attributes:
+    active: true
+  references:
+    team: FTB-NFL-TEAM-GB
+    division: FTB-NFL-DIVISION-NFC_NORTH
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Membership
+  code: FTB-NFL-TEAM-MIN-MEMBERSHIP-NFC_NORTH
+  attributes:
+    active: true
+  references:
+    team: FTB-NFL-TEAM-MIN
+    division: FTB-NFL-DIVISION-NFC_NORTH
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Membership
+  code: FTB-NFL-TEAM-ATL-MEMBERSHIP-NFC_SOUTH
+  attributes:
+    active: true
+  references:
+    team: FTB-NFL-TEAM-ATL
+    division: FTB-NFL-DIVISION-NFC_SOUTH
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Membership
+  code: FTB-NFL-TEAM-CAR-MEMBERSHIP-NFC_SOUTH
+  attributes:
+    active: true
+  references:
+    team: FTB-NFL-TEAM-CAR
+    division: FTB-NFL-DIVISION-NFC_SOUTH
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Membership
+  code: FTB-NFL-TEAM-NO-MEMBERSHIP-NFC_SOUTH
+  attributes:
+    active: true
+  references:
+    team: FTB-NFL-TEAM-NO
+    division: FTB-NFL-DIVISION-NFC_SOUTH
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Membership
+  code: FTB-NFL-TEAM-TB-MEMBERSHIP-NFC_SOUTH
+  attributes:
+    active: true
+  references:
+    team: FTB-NFL-TEAM-TB
+    division: FTB-NFL-DIVISION-NFC_SOUTH
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Membership
+  code: FTB-NFL-TEAM-ARI-MEMBERSHIP-NFC_WEST
+  attributes:
+    active: true
+  references:
+    team: FTB-NFL-TEAM-ARI
+    division: FTB-NFL-DIVISION-NFC_WEST
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Membership
+  code: FTB-NFL-TEAM-LAR-MEMBERSHIP-NFC_WEST
+  attributes:
+    active: true
+  references:
+    team: FTB-NFL-TEAM-LAR
+    division: FTB-NFL-DIVISION-NFC_WEST
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Membership
+  code: FTB-NFL-TEAM-SF-MEMBERSHIP-NFC_WEST
+  attributes:
+    active: true
+  references:
+    team: FTB-NFL-TEAM-SF
+    division: FTB-NFL-DIVISION-NFC_WEST
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Membership
+  code: FTB-NFL-TEAM-SEA-MEMBERSHIP-NFC_WEST
+  attributes:
+    active: true
+  references:
+    team: FTB-NFL-TEAM-SEA
+    division: FTB-NFL-DIVISION-NFC_WEST
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Membership
+  code: HCK-NHL-TEAM-BOS-MEMBERSHIP-ATLANTIC_DIVISION
+  attributes:
+    active: true
+  references:
+    team: HCK-NHL-TEAM-BOS
+    division: HCK-NHL-DIVISION-ATLANTIC_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Membership
+  code: HCK-NHL-TEAM-BUF-MEMBERSHIP-ATLANTIC_DIVISION
+  attributes:
+    active: true
+  references:
+    team: HCK-NHL-TEAM-BUF
+    division: HCK-NHL-DIVISION-ATLANTIC_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Membership
+  code: HCK-NHL-TEAM-DET-MEMBERSHIP-ATLANTIC_DIVISION
+  attributes:
+    active: true
+  references:
+    team: HCK-NHL-TEAM-DET
+    division: HCK-NHL-DIVISION-ATLANTIC_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Membership
+  code: HCK-NHL-TEAM-FLA-MEMBERSHIP-ATLANTIC_DIVISION
+  attributes:
+    active: true
+  references:
+    team: HCK-NHL-TEAM-FLA
+    division: HCK-NHL-DIVISION-ATLANTIC_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Membership
+  code: HCK-NHL-TEAM-MTL-MEMBERSHIP-ATLANTIC_DIVISION
+  attributes:
+    active: true
+  references:
+    team: HCK-NHL-TEAM-MTL
+    division: HCK-NHL-DIVISION-ATLANTIC_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Membership
+  code: HCK-NHL-TEAM-OTT-MEMBERSHIP-ATLANTIC_DIVISION
+  attributes:
+    active: true
+  references:
+    team: HCK-NHL-TEAM-OTT
+    division: HCK-NHL-DIVISION-ATLANTIC_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Membership
+  code: HCK-NHL-TEAM-TBL-MEMBERSHIP-ATLANTIC_DIVISION
+  attributes:
+    active: true
+  references:
+    team: HCK-NHL-TEAM-TBL
+    division: HCK-NHL-DIVISION-ATLANTIC_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Membership
+  code: HCK-NHL-TEAM-TOR-MEMBERSHIP-ATLANTIC_DIVISION
+  attributes:
+    active: true
+  references:
+    team: HCK-NHL-TEAM-TOR
+    division: HCK-NHL-DIVISION-ATLANTIC_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Membership
+  code: HCK-NHL-TEAM-CAR-MEMBERSHIP-METROPOLITAN_DIVISION
+  attributes:
+    active: true
+  references:
+    team: HCK-NHL-TEAM-CAR
+    division: HCK-NHL-DIVISION-METROPOLITAN_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Membership
+  code: HCK-NHL-TEAM-CBJ-MEMBERSHIP-METROPOLITAN_DIVISION
+  attributes:
+    active: true
+  references:
+    team: HCK-NHL-TEAM-CBJ
+    division: HCK-NHL-DIVISION-METROPOLITAN_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Membership
+  code: HCK-NHL-TEAM-NJD-MEMBERSHIP-METROPOLITAN_DIVISION
+  attributes:
+    active: true
+  references:
+    team: HCK-NHL-TEAM-NJD
+    division: HCK-NHL-DIVISION-METROPOLITAN_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Membership
+  code: HCK-NHL-TEAM-NYI-MEMBERSHIP-METROPOLITAN_DIVISION
+  attributes:
+    active: true
+  references:
+    team: HCK-NHL-TEAM-NYI
+    division: HCK-NHL-DIVISION-METROPOLITAN_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Membership
+  code: HCK-NHL-TEAM-NYR-MEMBERSHIP-METROPOLITAN_DIVISION
+  attributes:
+    active: true
+  references:
+    team: HCK-NHL-TEAM-NYR
+    division: HCK-NHL-DIVISION-METROPOLITAN_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Membership
+  code: HCK-NHL-TEAM-PHI-MEMBERSHIP-METROPOLITAN_DIVISION
+  attributes:
+    active: true
+  references:
+    team: HCK-NHL-TEAM-PHI
+    division: HCK-NHL-DIVISION-METROPOLITAN_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Membership
+  code: HCK-NHL-TEAM-PIT-MEMBERSHIP-METROPOLITAN_DIVISION
+  attributes:
+    active: true
+  references:
+    team: HCK-NHL-TEAM-PIT
+    division: HCK-NHL-DIVISION-METROPOLITAN_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Membership
+  code: HCK-NHL-TEAM-WSH-MEMBERSHIP-METROPOLITAN_DIVISION
+  attributes:
+    active: true
+  references:
+    team: HCK-NHL-TEAM-WSH
+    division: HCK-NHL-DIVISION-METROPOLITAN_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Membership
+  code: HCK-NHL-TEAM-CHI-MEMBERSHIP-CENTRAL_DIVISION
+  attributes:
+    active: true
+  references:
+    team: HCK-NHL-TEAM-CHI
+    division: HCK-NHL-DIVISION-CENTRAL_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Membership
+  code: HCK-NHL-TEAM-COL-MEMBERSHIP-CENTRAL_DIVISION
+  attributes:
+    active: true
+  references:
+    team: HCK-NHL-TEAM-COL
+    division: HCK-NHL-DIVISION-CENTRAL_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Membership
+  code: HCK-NHL-TEAM-DAL-MEMBERSHIP-CENTRAL_DIVISION
+  attributes:
+    active: true
+  references:
+    team: HCK-NHL-TEAM-DAL
+    division: HCK-NHL-DIVISION-CENTRAL_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Membership
+  code: HCK-NHL-TEAM-MIN-MEMBERSHIP-CENTRAL_DIVISION
+  attributes:
+    active: true
+  references:
+    team: HCK-NHL-TEAM-MIN
+    division: HCK-NHL-DIVISION-CENTRAL_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Membership
+  code: HCK-NHL-TEAM-NSH-MEMBERSHIP-CENTRAL_DIVISION
+  attributes:
+    active: true
+  references:
+    team: HCK-NHL-TEAM-NSH
+    division: HCK-NHL-DIVISION-CENTRAL_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Membership
+  code: HCK-NHL-TEAM-STL-MEMBERSHIP-CENTRAL_DIVISION
+  attributes:
+    active: true
+  references:
+    team: HCK-NHL-TEAM-STL
+    division: HCK-NHL-DIVISION-CENTRAL_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Membership
+  code: HCK-NHL-TEAM-UTA-MEMBERSHIP-CENTRAL_DIVISION
+  attributes:
+    active: true
+  references:
+    team: HCK-NHL-TEAM-UTA
+    division: HCK-NHL-DIVISION-CENTRAL_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Membership
+  code: HCK-NHL-TEAM-WPG-MEMBERSHIP-CENTRAL_DIVISION
+  attributes:
+    active: true
+  references:
+    team: HCK-NHL-TEAM-WPG
+    division: HCK-NHL-DIVISION-CENTRAL_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Membership
+  code: HCK-NHL-TEAM-ANA-MEMBERSHIP-PACIFIC_DIVISION
+  attributes:
+    active: true
+  references:
+    team: HCK-NHL-TEAM-ANA
+    division: HCK-NHL-DIVISION-PACIFIC_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Membership
+  code: HCK-NHL-TEAM-CGY-MEMBERSHIP-PACIFIC_DIVISION
+  attributes:
+    active: true
+  references:
+    team: HCK-NHL-TEAM-CGY
+    division: HCK-NHL-DIVISION-PACIFIC_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Membership
+  code: HCK-NHL-TEAM-EDM-MEMBERSHIP-PACIFIC_DIVISION
+  attributes:
+    active: true
+  references:
+    team: HCK-NHL-TEAM-EDM
+    division: HCK-NHL-DIVISION-PACIFIC_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Membership
+  code: HCK-NHL-TEAM-LAK-MEMBERSHIP-PACIFIC_DIVISION
+  attributes:
+    active: true
+  references:
+    team: HCK-NHL-TEAM-LAK
+    division: HCK-NHL-DIVISION-PACIFIC_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Membership
+  code: HCK-NHL-TEAM-SJS-MEMBERSHIP-PACIFIC_DIVISION
+  attributes:
+    active: true
+  references:
+    team: HCK-NHL-TEAM-SJS
+    division: HCK-NHL-DIVISION-PACIFIC_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Membership
+  code: HCK-NHL-TEAM-SEA-MEMBERSHIP-PACIFIC_DIVISION
+  attributes:
+    active: true
+  references:
+    team: HCK-NHL-TEAM-SEA
+    division: HCK-NHL-DIVISION-PACIFIC_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Membership
+  code: HCK-NHL-TEAM-VAN-MEMBERSHIP-PACIFIC_DIVISION
+  attributes:
+    active: true
+  references:
+    team: HCK-NHL-TEAM-VAN
+    division: HCK-NHL-DIVISION-PACIFIC_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Membership
+  code: HCK-NHL-TEAM-VGK-MEMBERSHIP-PACIFIC_DIVISION
+  attributes:
+    active: true
+  references:
+    team: HCK-NHL-TEAM-VGK
+    division: HCK-NHL-DIVISION-PACIFIC_DIVISION
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Membership
+  code: SOC-MLS-TEAM-ATL-MEMBERSHIP-EAST
+  attributes:
+    active: true
+  references:
+    team: SOC-MLS-TEAM-ATL
+    division: SOC-MLS-DIVISION-EAST
+  source:
+    note: Legacy JSON catalog
+    path: sports/soccer/USA/MLS
+- type: Membership
+  code: SOC-MLS-TEAM-CLT-MEMBERSHIP-EAST
+  attributes:
+    active: true
+  references:
+    team: SOC-MLS-TEAM-CLT
+    division: SOC-MLS-DIVISION-EAST
+  source:
+    note: Legacy JSON catalog
+    path: sports/soccer/USA/MLS
+- type: Membership
+  code: SOC-MLS-TEAM-CHI-MEMBERSHIP-EAST
+  attributes:
+    active: true
+  references:
+    team: SOC-MLS-TEAM-CHI
+    division: SOC-MLS-DIVISION-EAST
+  source:
+    note: Legacy JSON catalog
+    path: sports/soccer/USA/MLS
+- type: Membership
+  code: SOC-MLS-TEAM-CIN-MEMBERSHIP-EAST
+  attributes:
+    active: true
+  references:
+    team: SOC-MLS-TEAM-CIN
+    division: SOC-MLS-DIVISION-EAST
+  source:
+    note: Legacy JSON catalog
+    path: sports/soccer/USA/MLS
+- type: Membership
+  code: SOC-MLS-TEAM-CLB-MEMBERSHIP-EAST
+  attributes:
+    active: true
+  references:
+    team: SOC-MLS-TEAM-CLB
+    division: SOC-MLS-DIVISION-EAST
+  source:
+    note: Legacy JSON catalog
+    path: sports/soccer/USA/MLS
+- type: Membership
+  code: SOC-MLS-TEAM-DC-MEMBERSHIP-EAST
+  attributes:
+    active: true
+  references:
+    team: SOC-MLS-TEAM-DC
+    division: SOC-MLS-DIVISION-EAST
+  source:
+    note: Legacy JSON catalog
+    path: sports/soccer/USA/MLS
+- type: Membership
+  code: SOC-MLS-TEAM-MIA-MEMBERSHIP-EAST
+  attributes:
+    active: true
+  references:
+    team: SOC-MLS-TEAM-MIA
+    division: SOC-MLS-DIVISION-EAST
+  source:
+    note: Legacy JSON catalog
+    path: sports/soccer/USA/MLS
+- type: Membership
+  code: SOC-MLS-TEAM-MTL-MEMBERSHIP-EAST
+  attributes:
+    active: true
+  references:
+    team: SOC-MLS-TEAM-MTL
+    division: SOC-MLS-DIVISION-EAST
+  source:
+    note: Legacy JSON catalog
+    path: sports/soccer/USA/MLS
+- type: Membership
+  code: SOC-MLS-TEAM-NSH-MEMBERSHIP-EAST
+  attributes:
+    active: true
+  references:
+    team: SOC-MLS-TEAM-NSH
+    division: SOC-MLS-DIVISION-EAST
+  source:
+    note: Legacy JSON catalog
+    path: sports/soccer/USA/MLS
+- type: Membership
+  code: SOC-MLS-TEAM-NE-MEMBERSHIP-EAST
+  attributes:
+    active: true
+  references:
+    team: SOC-MLS-TEAM-NE
+    division: SOC-MLS-DIVISION-EAST
+  source:
+    note: Legacy JSON catalog
+    path: sports/soccer/USA/MLS
+- type: Membership
+  code: SOC-MLS-TEAM-NYC-MEMBERSHIP-EAST
+  attributes:
+    active: true
+  references:
+    team: SOC-MLS-TEAM-NYC
+    division: SOC-MLS-DIVISION-EAST
+  source:
+    note: Legacy JSON catalog
+    path: sports/soccer/USA/MLS
+- type: Membership
+  code: SOC-MLS-TEAM-RBNY-MEMBERSHIP-EAST
+  attributes:
+    active: true
+  references:
+    team: SOC-MLS-TEAM-RBNY
+    division: SOC-MLS-DIVISION-EAST
+  source:
+    note: Legacy JSON catalog
+    path: sports/soccer/USA/MLS
+- type: Membership
+  code: SOC-MLS-TEAM-ORL-MEMBERSHIP-EAST
+  attributes:
+    active: true
+  references:
+    team: SOC-MLS-TEAM-ORL
+    division: SOC-MLS-DIVISION-EAST
+  source:
+    note: Legacy JSON catalog
+    path: sports/soccer/USA/MLS
+- type: Membership
+  code: SOC-MLS-TEAM-PHI-MEMBERSHIP-EAST
+  attributes:
+    active: true
+  references:
+    team: SOC-MLS-TEAM-PHI
+    division: SOC-MLS-DIVISION-EAST
+  source:
+    note: Legacy JSON catalog
+    path: sports/soccer/USA/MLS
+- type: Membership
+  code: SOC-MLS-TEAM-TOR-MEMBERSHIP-EAST
+  attributes:
+    active: true
+  references:
+    team: SOC-MLS-TEAM-TOR
+    division: SOC-MLS-DIVISION-EAST
+  source:
+    note: Legacy JSON catalog
+    path: sports/soccer/USA/MLS
+- type: Membership
+  code: SOC-MLS-TEAM-ATX-MEMBERSHIP-WEST
+  attributes:
+    active: true
+  references:
+    team: SOC-MLS-TEAM-ATX
+    division: SOC-MLS-DIVISION-WEST
+  source:
+    note: Legacy JSON catalog
+    path: sports/soccer/USA/MLS
+- type: Membership
+  code: SOC-MLS-TEAM-COL-MEMBERSHIP-WEST
+  attributes:
+    active: true
+  references:
+    team: SOC-MLS-TEAM-COL
+    division: SOC-MLS-DIVISION-WEST
+  source:
+    note: Legacy JSON catalog
+    path: sports/soccer/USA/MLS
+- type: Membership
+  code: SOC-MLS-TEAM-DAL-MEMBERSHIP-WEST
+  attributes:
+    active: true
+  references:
+    team: SOC-MLS-TEAM-DAL
+    division: SOC-MLS-DIVISION-WEST
+  source:
+    note: Legacy JSON catalog
+    path: sports/soccer/USA/MLS
+- type: Membership
+  code: SOC-MLS-TEAM-HOU-MEMBERSHIP-WEST
+  attributes:
+    active: true
+  references:
+    team: SOC-MLS-TEAM-HOU
+    division: SOC-MLS-DIVISION-WEST
+  source:
+    note: Legacy JSON catalog
+    path: sports/soccer/USA/MLS
+- type: Membership
+  code: SOC-MLS-TEAM-SKC-MEMBERSHIP-WEST
+  attributes:
+    active: true
+  references:
+    team: SOC-MLS-TEAM-SKC
+    division: SOC-MLS-DIVISION-WEST
+  source:
+    note: Legacy JSON catalog
+    path: sports/soccer/USA/MLS
+- type: Membership
+  code: SOC-MLS-TEAM-LA-MEMBERSHIP-WEST
+  attributes:
+    active: true
+  references:
+    team: SOC-MLS-TEAM-LA
+    division: SOC-MLS-DIVISION-WEST
+  source:
+    note: Legacy JSON catalog
+    path: sports/soccer/USA/MLS
+- type: Membership
+  code: SOC-MLS-TEAM-LAFC-MEMBERSHIP-WEST
+  attributes:
+    active: true
+  references:
+    team: SOC-MLS-TEAM-LAFC
+    division: SOC-MLS-DIVISION-WEST
+  source:
+    note: Legacy JSON catalog
+    path: sports/soccer/USA/MLS
+- type: Membership
+  code: SOC-MLS-TEAM-MIN-MEMBERSHIP-WEST
+  attributes:
+    active: true
+  references:
+    team: SOC-MLS-TEAM-MIN
+    division: SOC-MLS-DIVISION-WEST
+  source:
+    note: Legacy JSON catalog
+    path: sports/soccer/USA/MLS
+- type: Membership
+  code: SOC-MLS-TEAM-POR-MEMBERSHIP-WEST
+  attributes:
+    active: true
+  references:
+    team: SOC-MLS-TEAM-POR
+    division: SOC-MLS-DIVISION-WEST
+  source:
+    note: Legacy JSON catalog
+    path: sports/soccer/USA/MLS
+- type: Membership
+  code: SOC-MLS-TEAM-RSL-MEMBERSHIP-WEST
+  attributes:
+    active: true
+  references:
+    team: SOC-MLS-TEAM-RSL
+    division: SOC-MLS-DIVISION-WEST
+  source:
+    note: Legacy JSON catalog
+    path: sports/soccer/USA/MLS
+- type: Membership
+  code: SOC-MLS-TEAM-SJ-MEMBERSHIP-WEST
+  attributes:
+    active: true
+  references:
+    team: SOC-MLS-TEAM-SJ
+    division: SOC-MLS-DIVISION-WEST
+  source:
+    note: Legacy JSON catalog
+    path: sports/soccer/USA/MLS
+- type: Membership
+  code: SOC-MLS-TEAM-SEA-MEMBERSHIP-WEST
+  attributes:
+    active: true
+  references:
+    team: SOC-MLS-TEAM-SEA
+    division: SOC-MLS-DIVISION-WEST
+  source:
+    note: Legacy JSON catalog
+    path: sports/soccer/USA/MLS
+- type: Membership
+  code: SOC-MLS-TEAM-STL-MEMBERSHIP-WEST
+  attributes:
+    active: true
+  references:
+    team: SOC-MLS-TEAM-STL
+    division: SOC-MLS-DIVISION-WEST
+  source:
+    note: Legacy JSON catalog
+    path: sports/soccer/USA/MLS
+- type: Membership
+  code: SOC-MLS-TEAM-VAN-MEMBERSHIP-WEST
+  attributes:
+    active: true
+  references:
+    team: SOC-MLS-TEAM-VAN
+    division: SOC-MLS-DIVISION-WEST
+  source:
+    note: Legacy JSON catalog
+    path: sports/soccer/USA/MLS
+- type: Membership
+  code: SOC-MLS-TEAM-SD-MEMBERSHIP-WEST
+  attributes:
+    active: true
+  references:
+    team: SOC-MLS-TEAM-SD
+    division: SOC-MLS-DIVISION-WEST
+  source:
+    note: Joined MLS's Western Conference as an expansion club in 2025; not present
+      in the legacy catalog.

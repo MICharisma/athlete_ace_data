@@ -1,0 +1,19 @@
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+  - type: PlayerGroup
+    code: BKT-NBA-GROUP-BRUNSON_HART
+    attributes:
+      name: "Knicks names: Brunson and Hart"
+      description: "Practice Jalen Brunson and Josh Hart."
+  - type: PlayerGroupMembership
+    code: BKT-NBA-GROUP-BRUNSON_HART-PLAYER-BRUNSON_JALEN
+    references:
+      player_group: BKT-NBA-GROUP-BRUNSON_HART
+      player: BKT-NBA-PLAYER-BRUNSON_JALEN
+  - type: PlayerGroupMembership
+    code: BKT-NBA-GROUP-BRUNSON_HART-PLAYER-HART_JOSH
+    references:
+      player_group: BKT-NBA-GROUP-BRUNSON_HART
+      player: BKT-NBA-LAL-2017-HART_JOSH

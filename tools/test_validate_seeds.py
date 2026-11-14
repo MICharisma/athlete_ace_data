@@ -73,7 +73,7 @@ class SeedSchemaTest(unittest.TestCase):
                 self.check_text(text, ".json")
 
     def test_registry_accepts_numeric_keys_and_terminology(self):
-        path = ROOT / "tools" / "fixtures" / "entity_sequences.yaml"
+        path = ROOT / "yaml" / "entity_sequences.yaml"
         self.assertIsInstance(validate_file(path, validator("entity-sequences.schema.json"), registry=True), dict)
 
     def test_schema_artifacts_match_exported_catalog_metadata(self):

@@ -1,0 +1,365 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Team
+  code: SOC-MLS-TEAM-ATL
+  attributes:
+    mascot: Atlanta United FC
+    abbreviation: ATL
+  references:
+    league: SOC-LEAGUE-MLS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/18418/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-MLS-TEAM-ATX
+  attributes:
+    mascot: Austin FC
+    abbreviation: ATX
+  references:
+    league: SOC-LEAGUE-MLS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/20906/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-MLS-TEAM-CHI
+  attributes:
+    mascot: Chicago Fire FC
+    abbreviation: CHI
+  references:
+    league: SOC-LEAGUE-MLS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/182/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-MLS-TEAM-CIN
+  attributes:
+    mascot: FC Cincinnati
+    abbreviation: CIN
+  references:
+    league: SOC-LEAGUE-MLS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/18267/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-MLS-TEAM-CLB
+  attributes:
+    mascot: Columbus Crew
+    abbreviation: CLB
+  references:
+    league: SOC-LEAGUE-MLS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/183/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-MLS-TEAM-CLT
+  attributes:
+    mascot: Charlotte FC
+    abbreviation: CLT
+  references:
+    league: SOC-LEAGUE-MLS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/21300/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-MLS-TEAM-COL
+  attributes:
+    mascot: Colorado Rapids
+    abbreviation: COL
+  references:
+    league: SOC-LEAGUE-MLS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/184/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-MLS-TEAM-DAL
+  attributes:
+    mascot: FC Dallas
+    abbreviation: DAL
+  references:
+    league: SOC-LEAGUE-MLS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/185/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-MLS-TEAM-DC
+  attributes:
+    mascot: D.C. United
+    abbreviation: DC
+  references:
+    league: SOC-LEAGUE-MLS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/193/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-MLS-TEAM-HOU
+  attributes:
+    mascot: Houston Dynamo FC
+    abbreviation: HOU
+  references:
+    league: SOC-LEAGUE-MLS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/6077/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-MLS-TEAM-LA
+  attributes:
+    mascot: LA Galaxy
+    abbreviation: LA
+  references:
+    league: SOC-LEAGUE-MLS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/187/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-MLS-TEAM-LAFC
+  attributes:
+    mascot: LAFC
+    abbreviation: LAFC
+  references:
+    league: SOC-LEAGUE-MLS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/18966/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-MLS-TEAM-MIA
+  attributes:
+    mascot: Inter Miami CF
+    abbreviation: MIA
+  references:
+    league: SOC-LEAGUE-MLS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/20232/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-MLS-TEAM-MIN
+  attributes:
+    mascot: Minnesota United FC
+    abbreviation: MIN
+  references:
+    league: SOC-LEAGUE-MLS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/17362/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-MLS-TEAM-MTL
+  attributes:
+    mascot: CF Montréal
+    abbreviation: MTL
+  references:
+    league: SOC-LEAGUE-MLS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/9720/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-MLS-TEAM-NE
+  attributes:
+    mascot: New England Revolution
+    abbreviation: NE
+  references:
+    league: SOC-LEAGUE-MLS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/189/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-MLS-TEAM-NSH
+  attributes:
+    mascot: Nashville SC
+    abbreviation: NSH
+  references:
+    league: SOC-LEAGUE-MLS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/18986/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-MLS-TEAM-NYC
+  attributes:
+    mascot: New York City FC
+    abbreviation: NYC
+  references:
+    league: SOC-LEAGUE-MLS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/17606/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-MLS-TEAM-ORL
+  attributes:
+    mascot: Orlando City SC
+    abbreviation: ORL
+  references:
+    league: SOC-LEAGUE-MLS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/12011/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-MLS-TEAM-PHI
+  attributes:
+    mascot: Philadelphia Union
+    abbreviation: PHI
+  references:
+    league: SOC-LEAGUE-MLS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/10739/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-MLS-TEAM-POR
+  attributes:
+    mascot: Portland Timbers
+    abbreviation: POR
+  references:
+    league: SOC-LEAGUE-MLS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/9723/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-MLS-TEAM-RBNY
+  attributes:
+    mascot: Red Bull New York
+    abbreviation: RBNY
+  references:
+    league: SOC-LEAGUE-MLS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/190/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-MLS-TEAM-RSL
+  attributes:
+    mascot: Real Salt Lake
+    abbreviation: RSL
+  references:
+    league: SOC-LEAGUE-MLS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/4771/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-MLS-TEAM-SD
+  attributes:
+    mascot: San Diego FC
+    abbreviation: SD
+  references:
+    league: SOC-LEAGUE-MLS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/22529/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-MLS-TEAM-SEA
+  attributes:
+    mascot: Seattle Sounders FC
+    abbreviation: SEA
+  references:
+    league: SOC-LEAGUE-MLS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/9726/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-MLS-TEAM-SJ
+  attributes:
+    mascot: San Jose Earthquakes
+    abbreviation: SJ
+  references:
+    league: SOC-LEAGUE-MLS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/191/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-MLS-TEAM-SKC
+  attributes:
+    mascot: Sporting Kansas City
+    abbreviation: SKC
+  references:
+    league: SOC-LEAGUE-MLS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/186/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-MLS-TEAM-STL
+  attributes:
+    mascot: St. Louis CITY SC
+    abbreviation: STL
+  references:
+    league: SOC-LEAGUE-MLS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/21812/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-MLS-TEAM-TOR
+  attributes:
+    mascot: Toronto FC
+    abbreviation: TOR
+  references:
+    league: SOC-LEAGUE-MLS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/7318/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-MLS-TEAM-VAN
+  attributes:
+    mascot: Vancouver Whitecaps
+    abbreviation: VAN
+  references:
+    league: SOC-LEAGUE-MLS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/9727/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.

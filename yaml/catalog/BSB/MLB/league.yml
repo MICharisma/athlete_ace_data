@@ -1,0 +1,102 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: League
+  code: BSB-LEAGUE-MLB
+  attributes:
+    name: Major League Baseball
+    abbreviation: MLB
+  references:
+    sport: SPORT-BSB
+    jurisdiction: COUNTRY-US
+  source: {}
+- type: Conference
+  code: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  attributes:
+    name: American League
+    abbreviation: AL
+    logo_url: https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/American_League_logo.svg/1200px-American_League_logo.svg.png
+  references:
+    league: BSB-LEAGUE-MLB
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Conference
+  code: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  attributes:
+    name: National League
+    abbreviation: NL
+    logo_url: https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/MLB_National_League_logo.svg/1200px-MLB_National_League_logo.svg.png
+  references:
+    league: BSB-LEAGUE-MLB
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Division
+  code: BSB-MLB-DIVISION-AL_CENTRAL
+  attributes:
+    name: AL Central
+    abbreviation: ALC
+    logo_url: https://content.sportslogos.net/logos/53/51/full/3351_american_league_central-primary-0.png
+  references:
+    conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Division
+  code: BSB-MLB-DIVISION-AL_EAST
+  attributes:
+    name: AL East
+    abbreviation: ALE
+    logo_url: https://content.sportslogos.net/logos/53/52/full/5800_american_league_east-primary-0.png
+  references:
+    conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Division
+  code: BSB-MLB-DIVISION-AL_WEST
+  attributes:
+    name: AL West
+    abbreviation: ALW
+    logo_url: https://content.sportslogos.net/logos/53/53/full/7493_american_league_west-primary-0.png
+  references:
+    conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Division
+  code: BSB-MLB-DIVISION-NL_CENTRAL
+  attributes:
+    name: NL Central
+    abbreviation: NLC
+    logo_url: https://content.sportslogos.net/logos/53/68/full/2579_national_league_central-primary-0.png
+  references:
+    conference: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Division
+  code: BSB-MLB-DIVISION-NL_EAST
+  attributes:
+    name: NL East
+    abbreviation: NLE
+    logo_url: https://content.sportslogos.net/logos/53/69/full/8972_national_league_east-primary-0.png
+  references:
+    conference: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB
+- type: Division
+  code: BSB-MLB-DIVISION-NL_WEST
+  attributes:
+    name: NL West
+    abbreviation: NLW
+    logo_url: https://content.sportslogos.net/logos/53/70/full/7175_national_league_west-primary-0.png
+  references:
+    conference: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  source:
+    note: Legacy JSON catalog
+    path: sports/baseball/USA/MLB

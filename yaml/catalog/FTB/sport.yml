@@ -1,0 +1,14 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Sport
+  code: SPORT-FTB
+  attributes:
+    name: Football
+  references: {}
+  source:
+    url: https://www.nfl.com/standings/league/2025/REG
+    note: Official league identity and completed-season standings; pilot definitions
+      only.

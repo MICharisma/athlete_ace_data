@@ -1,0 +1,20 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: SOC-UCL-PLAYER-QUARESMA_EDUARDO
+  aliases:
+  - SOC-ESPN-PLAYER_290590
+  attributes:
+    first_name: Eduardo
+    last_name: Quaresma
+    birthdate: '2002-03-02'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/2250/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
