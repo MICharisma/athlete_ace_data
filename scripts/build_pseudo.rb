@@ -116,7 +116,7 @@ leagues.each_with_index do |(sport, sport_name, league_name, abbreviation, posit
         "begin_date" => date.iso8601, "end_date" => date.iso8601, "details" => { "venue" => "#{teams[home][0]} Arena" }
       }, { "context" => league, "season" => season })
       [[home, home_score, "home"], [away, away_score, "away"]].each do |team_index, score, side|
-        records << record.call("Contestant", "#{code}-ENTRY-#{side.upcase}", { "tiebreakers" => { "side" => side, "score" => score } }, { "contest" => code, "campaign" => campaigns[team_index] })
+        records << record.call("Contestant", "#{code}-ENTRY-#{side.upcase}", { "side" => side, "tiebreakers" => { "side" => side, "score" => score } }, { "contest" => code, "campaign" => campaigns[team_index] })
       end
       records << record.call("ContestGame", "#{code}-MEMBERSHIP", { "metadata" => metadata }, { "contest" => competition, "game" => code })
     end

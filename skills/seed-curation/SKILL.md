@@ -54,6 +54,7 @@ Add to this list when a batch reveals a cross-cutting trap; source-specific trap
 - Forgetting that `CurrentTeamImporter` assigns a current team from roster entries as well as activations. A RosterEntry kept for an unconfirmed player still gives that player a current team.
 - Reading captures without `encoding: "UTF-8"`. The default can be US-ASCII, which fails on accented names.
 - Bumping the submodule but not the Dockerfile pin. Staging would have built the previous catalog without any error.
+- Leaving a generator's `--check` unrun after a later batch overlaps its records. `scripts/build_2026.rb` drifted when championship history defined some of the same NBA campaigns, and its output can no longer be regenerated safely. Run every affected generator's `--check` when a batch reuses codes from another.
 - Expecting `db:seed` to apply refreshed values. Preservation keeps old values; explicit tasks (e.g. `seeds:refresh_nhl_schedule`) or reconciliation are required.
 
 ## References

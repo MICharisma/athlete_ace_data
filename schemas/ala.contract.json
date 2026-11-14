@@ -313,7 +313,8 @@
       "references": [
         "champion",
         "context",
-        "season"
+        "season",
+        "stadium"
       ]
     },
     "ContestGame": {
@@ -341,6 +342,16 @@
           "anyOf": [
             {
               "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "side": {
+          "anyOf": [
+            {
+              "type": "string"
             },
             {
               "type": "null"
@@ -658,7 +669,8 @@
       "references": [
         "champion",
         "context",
-        "season"
+        "season",
+        "stadium"
       ]
     },
     "JerseyNumberAssignment": {

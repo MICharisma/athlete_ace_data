@@ -52,7 +52,16 @@ mise exec -- bundle exec rails seeds:validate db:seed
 mise exec -- bundle exec ruby db/seeds/athlete_ace_data/scripts/build_geography_2026.rb --check
 ```
 
-Not populated by this batch: capacities, opening years, addresses, artwork, game-to-stadium links, full venue history. Don't import capacity or opening-year values from older JSON files without fresh evidence.
+Not populated by this batch: capacities, opening years, addresses, artwork, full venue history. Don't import capacity or opening-year values from older JSON files without fresh evidence.
+
+## Game venues
+
+Every game should record where it was played (`Contest.stadium`), and each entry whether it is home or away (`Contestant.side`). A game with no recorded venue falls back to the home entry's season venue, then the team's. The app shows that fallback as inferred, and shows a recorded venue that differs from the home venue as away from home. `sources/nhl_venues_2026/` is the worked example:
+
+- Match each schedule venue name to one of the home team's bound venues. Review aliases (Montréal's "Centre Bell") in the batch's `venues.json`. Don't loosen the match.
+- For games that don't match, capture the provider's own game record (NHL landing `venueLocation`) for the locality before issuing a stadium. A venue abroad brings its country and ISO 3166-2 subdivision with it.
+- When games were seeded before their venues, deliver venues and sides as a generated bindings file applied by `Seeds::GameVenueImporter` (fill missing, report differences). Adding references to already-seeded records would only produce replay conflicts.
+- Keep a provider's designated home team at neutral or abroad sites. Don't assert a neutral-site designation the source doesn't make.
 
 ## Mistakes we've made
 
@@ -60,6 +69,7 @@ Not populated by this batch: capacities, opening years, addresses, artwork, game
 - FC Dallas's city field said "Toyota Stadium" (actually Frisco, Texas).
 - MLB said Sacramento for Sutter Health Park (West Sacramento). The EPL schedule said Nottingham for the City Ground (West Bridgford).
 - Canadian MLS listings omitted the province; reconciled with the same city's NBA/NHL listings.
+- The NHL schedule calls the Bell Centre by its French name, "Centre Bell"; an exact-name match would have issued a second Montréal arena.
 
 ## References
 

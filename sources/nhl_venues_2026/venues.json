@@ -1,0 +1,36 @@
+{
+  "aliases": [
+    {
+      "home": "MTL",
+      "name": "Centre Bell",
+      "stadium": "STADIUM-CA-QC-MONTREAL-BELL_CENTRE",
+      "basis": "French name of the Bell Centre, the Canadiens' bound home venue. The home-venue capture lists the same building as Bell Centre."
+    }
+  ],
+  "countries": [
+    { "code": "FI", "name": "Finland", "source": "https://www.iso.org/obp/ui/#iso:code:3166:FI" },
+    { "code": "DE", "name": "Germany", "source": "https://www.iso.org/obp/ui/#iso:code:3166:DE" }
+  ],
+  "subdivisions": [
+    { "country": "FI", "code": "18", "name": "Uusimaa", "source": "https://www.iso.org/obp/ui/#iso:code:3166:FI" },
+    { "country": "DE", "code": "NW", "name": "North Rhine-Westphalia", "source": "https://www.iso.org/obp/ui/#iso:code:3166:DE" }
+  ],
+  "venues": [
+    {
+      "name": "Veikkaus Arena",
+      "code": "STADIUM-FI-18-HELSINKI-VEIKKAUS_ARENA",
+      "country": "FI",
+      "subdivision": "18",
+      "city": "Helsinki",
+      "basis": "Locality from the NHL landing record's venueLocation. Helsinki is in Uusimaa (ISO 3166-2 FI-18)."
+    },
+    {
+      "name": "PSD Bank Dome",
+      "code": "STADIUM-DE-NW-DUSSELDORF-PSD_BANK_DOME",
+      "country": "DE",
+      "subdivision": "NW",
+      "city": "Düsseldorf",
+      "basis": "Locality from the NHL landing record's venueLocation. Düsseldorf is in North Rhine-Westphalia (ISO 3166-2 DE-NW)."
+    }
+  ]
+}

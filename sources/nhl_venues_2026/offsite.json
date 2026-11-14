@@ -1,0 +1,49 @@
+{
+  "provider": "nhl",
+  "league": "NHL",
+  "season": "2026_2027",
+  "as_of": "2026-11-13",
+  "meaning": "NHL gamecenter landing records for every 2026-27 schedule game whose venue is not a bound home venue of the home team. Venue and locality as published; no attendance or neutral-site designation is asserted.",
+  "games": [
+    {
+      "source_id": "2026020309",
+      "date": "2026-11-12",
+      "home": "SEA",
+      "away": "CAR",
+      "venue": "Veikkaus Arena",
+      "venue_location": "Helsinki",
+      "venue_utc_offset": "+02:00",
+      "source_url": "https://api-web.nhle.com/v1/gamecenter/2026020309/landing"
+    },
+    {
+      "source_id": "2026020321",
+      "date": "2026-11-14",
+      "home": "CAR",
+      "away": "SEA",
+      "venue": "Veikkaus Arena",
+      "venue_location": "Helsinki",
+      "venue_utc_offset": "+02:00",
+      "source_url": "https://api-web.nhle.com/v1/gamecenter/2026020321/landing"
+    },
+    {
+      "source_id": "2026020560",
+      "date": "2026-12-18",
+      "home": "OTT",
+      "away": "CHI",
+      "venue": "PSD Bank Dome",
+      "venue_location": "Düsseldorf",
+      "venue_utc_offset": "+01:00",
+      "source_url": "https://api-web.nhle.com/v1/gamecenter/2026020560/landing"
+    },
+    {
+      "source_id": "2026020577",
+      "date": "2026-12-20",
+      "home": "CHI",
+      "away": "OTT",
+      "venue": "PSD Bank Dome",
+      "venue_location": "Düsseldorf",
+      "venue_utc_offset": "+01:00",
+      "source_url": "https://api-web.nhle.com/v1/gamecenter/2026020577/landing"
+    }
+  ]
+}
