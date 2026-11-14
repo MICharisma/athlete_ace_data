@@ -107,6 +107,8 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("paths", nargs="*", type=Path, default=[ROOT / "yaml"])
     parser.add_argument("--registry", type=Path, default=ROOT / "yaml" / "entity_sequences.yaml")
+    parser.add_argument("--layout", choices=("report", "strict", "off"), default="report",
+                        help="library layout lint when validating the whole library (see tools/seed_layout.py)")
     args = parser.parse_args(argv)
     registry_schema = validator("entity-sequences.schema.json")
     manifest_schema = validator("ala.schema.json")
@@ -131,6 +133,13 @@ def main(argv=None):
             print(f"{path}: {error}", file=sys.stderr)
             failed += 1
     print(f"Checked {len(files)} manifest(s) and the sequence registry; {failed} failed. No data was imported.")
+    library = (ROOT / "yaml").resolve()
+    if args.layout != "off" and not failed and any(path.resolve() == library for path in args.paths):
+        import seed_layout  # Imported lazily: it imports this module.
+        report = seed_layout.lint(library)
+        print(seed_layout.summary(report) + " Details: tools/seed_layout.py")
+        if args.layout == "strict" and seed_layout.issue_count(report):
+            return 1
     return 1 if failed else 0
 
 

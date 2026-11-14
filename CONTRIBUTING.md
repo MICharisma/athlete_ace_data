@@ -23,6 +23,34 @@ The [published schemas](schemas/README.md) provide field completion, description
 
 Passing these checks verifies document structure, catalog field names/types, and code syntax. It does not establish factual accuracy, resolve references or people, apply inherited defaults, validate staged sequence choices, or prove replay behavior. Maintainers run the application's semantic validation and import tests before accepting changes that affect those rules.
 
+## Library layout
+
+File names never decide identity, but they do decide who owns a record. A code defined in two files is a maintenance hazard. Generators that skip codes defined elsewhere then produce different output depending on which other batches exist, and two definitions can quietly disagree. The library is moving to two layers:
+
+- **Catalog (`yaml/catalog/`)** holds identity records that many batches share, each in exactly one file computed from its code:
+
+  | Records | File |
+  | --- | --- |
+  | Years | `catalog/years.yaml` |
+  | Countries, subdivisions, cities | `catalog/places/{COUNTRY}.yaml` |
+  | Stadiums | `catalog/venues/{COUNTRY}.yaml` |
+  | Federations | `catalog/federations.yaml` |
+  | Sport | `catalog/{SPORT}/sport.yaml` |
+  | Positions | `catalog/{SPORT}/positions.yaml` |
+  | League, conferences, divisions | `catalog/{SPORT}/{LEAGUE}/league.yaml` |
+  | Teams | `catalog/{SPORT}/{LEAGUE}/teams.yaml` (clubs shared across competitions: `catalog/{SPORT}/clubs.yaml`) |
+  | Organizations | `catalog/{SPORT}/{LEAGUE}/organizations.yaml` |
+  | Seasons | `catalog/{SPORT}/{LEAGUE}/seasons.yaml` |
+  | Campaigns | `catalog/{SPORT}/{LEAGUE}/campaigns/{SEASON_LABEL}.yaml` |
+  | Players | `catalog/{SPORT}/{LEAGUE}/players/{INITIAL}.yaml`, by the first letter of the code's last segment |
+  | Figures | `catalog/figures/{INITIAL}.yaml` |
+
+- **Batches** hold observations: rosters and roster entries, activations, number periods, stints, contracts, memberships, games and entries, appearances, titles, and position assignments. They are named by what was captured, for example `yaml/batches/{SPORT}/{LEAGUE}/{SEASON}/{source}_{date}/`. A batch references identities by code and never defines them.
+
+`tools/seed_layout.py` lists every code defined in more than one file, identity records outside their catalog file, identity codes no rule covers, and observations placed in the catalog. `tools/validate_seeds.py` prints its one-line summary when checking the whole library. It reports only (exit 0) while existing files are restructured; `--layout strict` fails on any finding, and will become the default once the library is clean.
+
+New work should follow the layout now. Add identities to their catalog file, sorted by code, and merge with any definition already there; never add a second definition elsewhere. Put observations in a batch directory.
+
 ## Curated player groups
 
 Use `PlayerGroup` for a named list and `PlayerGroupMembership` for each explicit player. See [the Brunson/Hart example](yaml/player_groups/knicks_names.yaml). References use `player_group` and `player` codes. Members can be inactive or belong to different teams or sports. Groups do not evaluate queries or infer starter status.
