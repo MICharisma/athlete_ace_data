@@ -1,0 +1,73 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: MOT-F1-PLAYER-HADJAR_ISACK
+  aliases:
+  - MOT-JOLPICA-DRIVER_HADJAR
+  attributes:
+    first_name: Isack
+    last_name: Hadjar
+    birthdate: '2004-09-28'
+  references:
+    sport: SPORT-MOT
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Player
+  code: MOT-F1-PLAYER-HAMILTON_LEWIS
+  aliases:
+  - MOT-JOLPICA-DRIVER_HAMILTON
+  attributes:
+    first_name: Lewis
+    last_name: Hamilton
+    birthdate: '1985-01-07'
+  references:
+    sport: SPORT-MOT
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Player
+  code: MOT-F1-PLAYER-HIRAKAWA_RYO
+  aliases:
+  - MOT-JOLPICA-DRIVER_RYO_HIRAKAWA
+  attributes:
+    first_name: Ryo
+    last_name: Hirakawa
+    birthdate: '1994-03-07'
+  references:
+    sport: SPORT-MOT
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Player
+  code: MOT-F1-PLAYER-HULKENBERG_NICO
+  aliases:
+  - MOT-JOLPICA-DRIVER_HULKENBERG
+  attributes:
+    first_name: Nico
+    last_name: Hülkenberg
+    birthdate: '1987-08-19'
+  references:
+    sport: SPORT-MOT
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.

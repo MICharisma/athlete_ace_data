@@ -3,6 +3,7 @@ require "json"
 require "yaml"
 require_relative "../../../../lib/micharisma_seeders/lib/micharisma_seeders"
 require_relative "capture_nhl_venues_2026"
+require_relative "lib/seed_catalog"
 
 # Builds venue and side bindings for every 2026-27 NHL schedule game, plus the
 # geography for venues outside the home-venue capture, offline from:
@@ -21,6 +22,7 @@ class NhlVenues2026Builder
 
   def initialize(check: false)
     @check = check
+    @writer = SeedCatalog::Writer.new(check: check)
     @schedule = read("sources/coverage_2026/nhl.json")
     @registry = read("sources/nhl_venues_2026/venues.json")
     @offsite = read("sources/nhl_venues_2026/offsite.json")
@@ -79,11 +81,10 @@ class NhlVenues2026Builder
       records << { "type" => "City", "code" => city_code(venue), "attributes" => { "name" => venue.fetch("city") }, "references" => { "state" => state }, "source" => source }
       records << { "type" => "Stadium", "code" => venue.fetch("code"), "attributes" => { "name" => venue.fetch("name") }, "references" => { "city" => city_code(venue) }, "source" => source }
     end
-    records.each { |row| raise "#{row.fetch('code')} already exists in the catalog" if @known.key?(row.fetch("code")) }
     document = { "format" => "micharisma-seeds/v1", "namespace" => "MIC", "catalog" => "ALA",
       "source" => { "note" => "Places for NHL 2026-27 venues outside the home-venue capture. Localities come from NHL landing records; subdivisions from ISO 3166-2." },
       "records" => records }
-    write(GEOGRAPHY, YAML.dump(JSON.parse(JSON.generate(document))))
+    @writer.write_batch(GEOGRAPHY, document) # All identities: they go to the catalog.
     records
   end
 
@@ -119,6 +120,7 @@ class NhlVenues2026Builder
     document = { "as_of" => @offsite.fetch("as_of"), "schedule_captured_on" => @schedule.fetch("as_of"),
       "counts" => counts.sort.to_h.merge("games" => games.size, "stadiums" => games.map { |row| row.fetch("stadium") }.uniq.size), "games" => games }
     write(BINDINGS, JSON.pretty_generate(document) + "\n")
+    @writer.finish(codes_path: File.join(SOURCES, "catalog_codes.json"))
     puts JSON.pretty_generate(document.fetch("counts"))
   end
 end

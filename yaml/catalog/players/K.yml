@@ -1,0 +1,12 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: PLAYER-KERR_STEVE
+  attributes:
+    active: false
+  references:
+    sport: SPORT-BKT
+    figure: FIGURE-KERR_STEVE

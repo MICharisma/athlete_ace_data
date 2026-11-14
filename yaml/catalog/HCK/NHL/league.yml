@@ -1,0 +1,108 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: League
+  code: HCK-LEAGUE-NHL
+  attributes:
+    name: National Hockey League
+    abbreviation: NHL
+  references:
+    sport: SPORT-HCK
+    jurisdiction: COUNTRY-US
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://records.nhl.com/standings/all-time-standings
+    note: Official league record archive through 2025-26; pilot definitions only.
+- type: Conference
+  code: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  attributes:
+    name: Eastern Conference
+    abbreviation: East
+    logo_url: https://upload.wikimedia.org/wikipedia/en/thumb/6/65/NHL_Eastern_Conference.svg/1200px-NHL_Eastern_Conference.svg.png
+  references:
+    league: HCK-LEAGUE-NHL
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Conference
+  code: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  attributes:
+    name: Western Conference
+    abbreviation: West
+    logo_url: https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NHL_Western_Conference.svg/1200px-NHL_Western_Conference.svg.png
+  references:
+    league: HCK-LEAGUE-NHL
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Division
+  code: HCK-NHL-DIVISION-2020_2021-CENTRAL
+  attributes:
+    name: Central (2020-21)
+  references:
+    league: HCK-LEAGUE-NHL
+- type: Division
+  code: HCK-NHL-DIVISION-2020_2021-EAST
+  attributes:
+    name: East (2020-21)
+  references:
+    league: HCK-LEAGUE-NHL
+- type: Division
+  code: HCK-NHL-DIVISION-2020_2021-NORTH
+  attributes:
+    name: North (2020-21)
+  references:
+    league: HCK-LEAGUE-NHL
+- type: Division
+  code: HCK-NHL-DIVISION-2020_2021-WEST
+  attributes:
+    name: West (2020-21)
+  references:
+    league: HCK-LEAGUE-NHL
+- type: Division
+  code: HCK-NHL-DIVISION-ATLANTIC_DIVISION
+  attributes:
+    name: Atlantic Division
+    abbreviation: ATL
+    logo_url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/NHL_Eastern_Conference_Atlantic_Division.svg/1200px-NHL_Eastern_Conference_Atlantic_Division.svg.png
+  references:
+    conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Division
+  code: HCK-NHL-DIVISION-CENTRAL_DIVISION
+  attributes:
+    name: Central Division
+    abbreviation: CEN
+    logo_url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/NHL_Western_Conference_Central_Division.svg/1200px-NHL_Western_Conference_Central_Division.svg.png
+  references:
+    conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Division
+  code: HCK-NHL-DIVISION-METROPOLITAN_DIVISION
+  attributes:
+    name: Metropolitan Division
+    abbreviation: MET
+    logo_url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/NHL_Eastern_Conference_Metropolitan_Division.svg/1200px-NHL_Eastern_Conference_Metropolitan_Division.svg.png
+  references:
+    conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL
+- type: Division
+  code: HCK-NHL-DIVISION-PACIFIC_DIVISION
+  attributes:
+    name: Pacific Division
+    abbreviation: PAC
+    logo_url: https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/NHL_Western_Conference_Pacific_Division.svg/1200px-NHL_Western_Conference_Pacific_Division.svg.png
+  references:
+    conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    note: Legacy JSON catalog
+    path: sports/hockey/USA/NHL

@@ -1,0 +1,305 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: BSB-MLB-PLAYER-NANCE_THOMAS
+  aliases:
+  - BSB-MLB-PLAYER_667297
+  attributes:
+    first_name: Thomas
+    last_name: Nance
+    birthdate: '1991-03-19'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/141/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Player
+  code: BSB-MLB-PLAYER-NARDI_ANDREW
+  aliases:
+  - BSB-MLB-PLAYER_677053
+  attributes:
+    first_name: Andrew
+    last_name: Nardi
+    birthdate: '1998-08-18'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/146/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Player
+  code: BSB-MLB-PLAYER-NARVAEZ_CARLOS
+  aliases:
+  - BSB-MLB-PLAYER_665966
+  attributes:
+    first_name: Carlos
+    last_name: Narváez
+    birthdate: '1998-11-26'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/110/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Player
+  code: BSB-MLB-PLAYER-NATERA_SAMUEL
+  aliases:
+  - BSB-MLB-PLAYER_696519
+  attributes:
+    first_name: Samuel
+    last_name: Natera
+    birthdate: '1999-11-05'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/108/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Player
+  code: BSB-MLB-PLAYER-NAVARRETO_BRIAN
+  aliases:
+  - BSB-MLB-PLAYER_640459
+  attributes:
+    first_name: Brian
+    last_name: Navarreto
+    birthdate: '1994-12-29'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/146/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Player
+  code: BSB-MLB-PLAYER-NAYLOR_JOSHUA_DOUGLAS
+  aliases:
+  - BSB-MLB-PLAYER_647304
+  attributes:
+    first_name: Joshua-Douglas
+    last_name: Naylor
+    birthdate: '1997-06-22'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/136/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Player
+  code: BSB-MLB-PLAYER-NAYLOR_NOAH
+  aliases:
+  - BSB-MLB-PLAYER_666310
+  attributes:
+    first_name: Noah
+    last_name: Naylor
+    birthdate: '2000-02-21'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/114/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Player
+  code: BSB-MLB-PLAYER-NELSON_RYNE
+  aliases:
+  - BSB-MLB-PLAYER_669194
+  attributes:
+    first_name: Ryne
+    last_name: Nelson
+    birthdate: '1998-02-01'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/109/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Player
+  code: BSB-MLB-PLAYER-NETO_ZACHARY
+  aliases:
+  - BSB-MLB-PLAYER_687263
+  attributes:
+    first_name: Zachary
+    last_name: Neto
+    birthdate: '2001-01-31'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/108/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Player
+  code: BSB-MLB-PLAYER-NEWCOMB_SEAN
+  aliases:
+  - BSB-MLB-PLAYER_656794
+  attributes:
+    first_name: Sean
+    last_name: Newcomb
+    birthdate: '1993-06-12'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/145/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Player
+  code: BSB-MLB-PLAYER-NICOLAS_KYLE
+  aliases:
+  - BSB-MLB-PLAYER_693312
+  attributes:
+    first_name: Kyle
+    last_name: Nicolas
+    birthdate: '1999-02-22'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/113/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Player
+  code: BSB-MLB-PLAYER-NIKHAZY_DOUGLAS
+  aliases:
+  - BSB-MLB-PLAYER_680951
+  attributes:
+    first_name: Douglas
+    last_name: Nikhazy
+    birthdate: '1999-08-11'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/145/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Player
+  code: BSB-MLB-PLAYER-NIMMO_BRANDON
+  aliases:
+  - BSB-MLB-PLAYER_607043
+  attributes:
+    first_name: Brandon
+    last_name: Nimmo
+    birthdate: '1993-03-27'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/140/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Player
+  code: BSB-MLB-PLAYER-NISHIDA_RIKUU
+  aliases:
+  - BSB-MLB-PLAYER_807747
+  attributes:
+    first_name: Rikuu
+    last_name: Nishida
+    birthdate: '2001-05-06'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/145/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Player
+  code: BSB-MLB-PLAYER-NOLA_AARON
+  aliases:
+  - BSB-MLB-PLAYER_605400
+  attributes:
+    first_name: Aaron
+    last_name: Nola
+    birthdate: '1993-06-04'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/143/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Player
+  code: BSB-MLB-PLAYER-NOOTBAAR_LARS
+  aliases:
+  - BSB-MLB-PLAYER_663457
+  attributes:
+    first_name: Lars
+    last_name: Nootbaar
+    birthdate: '1997-09-08'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/109/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Player
+  code: BSB-MLB-PLAYER-NORBY_CONNOR
+  aliases:
+  - BSB-MLB-PLAYER_681393
+  attributes:
+    first_name: Connor
+    last_name: Norby
+    birthdate: '2000-06-08'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/115/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Player
+  code: BSB-MLB-PLAYER-NUNEZ_ANTHONY
+  aliases:
+  - BSB-MLB-PLAYER_689296
+  attributes:
+    first_name: Anthony
+    last_name: Nunez
+    birthdate: '2001-07-10'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/110/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Player
+  code: BSB-MLB-PLAYER-NUNEZ_DEDNIEL
+  aliases:
+  - BSB-MLB-PLAYER_673380
+  attributes:
+    first_name: Dedniel
+    last_name: Núñez
+    birthdate: '1996-06-05'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Player
+  code: BSB-MLB-PLAYER-NUNEZ_NASIM
+  aliases:
+  - BSB-MLB-PLAYER_683083
+  attributes:
+    first_name: Nasim
+    last_name: Nuñez
+    birthdate: '2000-08-18'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/120/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.

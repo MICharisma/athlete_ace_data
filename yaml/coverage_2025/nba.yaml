@@ -16,42 +16,11 @@ groups:
       captured on the stated date, not a complete season appearance union. Only the
       first two source-listed players are selected.
   records:
-  - type: Team
-    code: BKT-NBA-TEAM-ATL
-    attributes:
-      territory: Atlanta
-      mascot: Hawks
-      abbreviation: ATL
-    references: {}
-  - type: Campaign
-    code: BKT-NBA-SEASON_2025_2026-TEAM-ATL
-    attributes:
-      display_name: Atlanta Hawks
-      abbreviation: ATL
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 18
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: BKT-NBA-PLAYER-GILBERT_KESHON
-    attributes:
-      first_name: Keshon
-      last_name: Gilbert
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ATL-PLAYER-GILBERT_KESHON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-GILBERT_KESHON
-  - type: Player
-    code: BKT-NBA-PLAYER-DENNIS_RAYJ
-    attributes:
-      first_name: RayJ
-      last_name: Dennis
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ATL-PLAYER-DENNIS_RAYJ
     attributes: {}
@@ -66,42 +35,11 @@ groups:
       captured on the stated date, not a complete season appearance union. Only the
       first two source-listed players are selected.
   records:
-  - type: Team
-    code: BKT-NBA-TEAM-BKN
-    attributes:
-      territory: Brooklyn
-      mascot: Nets
-      abbreviation: BKN
-    references: {}
-  - type: Campaign
-    code: BKT-NBA-SEASON_2025_2026-TEAM-BKN
-    attributes:
-      display_name: Brooklyn Nets
-      abbreviation: BKN
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 18
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: BKT-NBA-PLAYER-MINOTT_JOSH
-    attributes:
-      first_name: Josh
-      last_name: Minott
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BKN-PLAYER-MINOTT_JOSH
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MINOTT_JOSH
-  - type: Player
-    code: BKT-NBA-PLAYER-WILLIAMS_ZIAIRE
-    attributes:
-      first_name: Ziaire
-      last_name: Williams
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BKN-PLAYER-WILLIAMS_ZIAIRE
     attributes: {}
@@ -116,42 +54,11 @@ groups:
       captured on the stated date, not a complete season appearance union. Only the
       first two source-listed players are selected.
   records:
-  - type: Team
-    code: BKT-NBA-TEAM-BOS
-    attributes:
-      territory: Boston
-      mascot: Celtics
-      abbreviation: BOS
-    references: {}
-  - type: Campaign
-    code: BKT-NBA-SEASON_2025_2026-TEAM-BOS
-    attributes:
-      display_name: Boston Celtics
-      abbreviation: BOS
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 16
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: BKT-NBA-PLAYER-TATUM_JAYSON
-    attributes:
-      first_name: Jayson
-      last_name: Tatum
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BOS-PLAYER-TATUM_JAYSON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-TATUM_JAYSON
-  - type: Player
-    code: BKT-NBA-PLAYER-VUCEVIC_NIKOLA
-    attributes:
-      first_name: Nikola
-      last_name: Vučević
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BOS-PLAYER-VUCEVIC_NIKOLA
     attributes: {}
@@ -166,42 +73,11 @@ groups:
       captured on the stated date, not a complete season appearance union. Only the
       first two source-listed players are selected.
   records:
-  - type: Team
-    code: BKT-NBA-TEAM-CHA
-    attributes:
-      territory: Charlotte
-      mascot: Hornets
-      abbreviation: CHA
-    references: {}
-  - type: Campaign
-    code: BKT-NBA-SEASON_2025_2026-TEAM-CHA
-    attributes:
-      display_name: Charlotte Hornets
-      abbreviation: CHA
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 18
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: BKT-NBA-PLAYER-BRIDGES_MILES
-    attributes:
-      first_name: Miles
-      last_name: Bridges
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHA-PLAYER-BRIDGES_MILES
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BRIDGES_MILES
-  - type: Player
-    code: BKT-NBA-PLAYER-BALL_LAMELO
-    attributes:
-      first_name: LaMelo
-      last_name: Ball
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHA-PLAYER-BALL_LAMELO
     attributes: {}
@@ -216,42 +92,11 @@ groups:
       captured on the stated date, not a complete season appearance union. Only the
       first two source-listed players are selected.
   records:
-  - type: Team
-    code: BKT-NBA-TEAM-CHI
-    attributes:
-      territory: Chicago
-      mascot: Bulls
-      abbreviation: CHI
-    references: {}
-  - type: Campaign
-    code: BKT-NBA-SEASON_2025_2026-TEAM-CHI
-    attributes:
-      display_name: Chicago Bulls
-      abbreviation: CHI
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 18
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: BKT-NBA-PLAYER-SEXTON_COLLIN
-    attributes:
-      first_name: Collin
-      last_name: Sexton
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHI-PLAYER-SEXTON_COLLIN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SEXTON_COLLIN
-  - type: Player
-    code: BKT-NBA-PLAYER-GIDDEY_JOSH
-    attributes:
-      first_name: Josh
-      last_name: Giddey
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHI-PLAYER-GIDDEY_JOSH
     attributes: {}
@@ -266,42 +111,11 @@ groups:
       captured on the stated date, not a complete season appearance union. Only the
       first two source-listed players are selected.
   records:
-  - type: Team
-    code: BKT-NBA-TEAM-CLE
-    attributes:
-      territory: Cleveland
-      mascot: Cavaliers
-      abbreviation: CLE
-    references: {}
-  - type: Campaign
-    code: BKT-NBA-SEASON_2025_2026-TEAM-CLE
-    attributes:
-      display_name: Cleveland Cavaliers
-      abbreviation: CLE
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 18
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: BKT-NBA-PLAYER-HARDEN_JAMES
-    attributes:
-      first_name: James
-      last_name: Harden
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CLE-PLAYER-HARDEN_JAMES
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-HARDEN_JAMES
-  - type: Player
-    code: BKT-NBA-PLAYER-STRUS_MAX
-    attributes:
-      first_name: Max
-      last_name: Strus
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CLE-PLAYER-STRUS_MAX
     attributes: {}
@@ -316,42 +130,11 @@ groups:
       captured on the stated date, not a complete season appearance union. Only the
       first two source-listed players are selected.
   records:
-  - type: Team
-    code: BKT-NBA-TEAM-DAL
-    attributes:
-      territory: Dallas
-      mascot: Mavericks
-      abbreviation: DAL
-    references: {}
-  - type: Campaign
-    code: BKT-NBA-SEASON_2025_2026-TEAM-DAL
-    attributes:
-      display_name: Dallas Mavericks
-      abbreviation: DAL
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 18
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: BKT-NBA-PLAYER-POULAKIDAS_JOHN
-    attributes:
-      first_name: John
-      last_name: Poulakidas
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DAL-PLAYER-POULAKIDAS_JOHN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-POULAKIDAS_JOHN
-  - type: Player
-    code: BKT-NBA-PLAYER-CHRISTIE_MAX
-    attributes:
-      first_name: Max
-      last_name: Christie
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DAL-PLAYER-CHRISTIE_MAX
     attributes: {}
@@ -366,42 +149,11 @@ groups:
       captured on the stated date, not a complete season appearance union. Only the
       first two source-listed players are selected.
   records:
-  - type: Team
-    code: BKT-NBA-TEAM-DEN
-    attributes:
-      territory: Denver
-      mascot: Nuggets
-      abbreviation: DEN
-    references: {}
-  - type: Campaign
-    code: BKT-NBA-SEASON_2025_2026-TEAM-DEN
-    attributes:
-      display_name: Denver Nuggets
-      abbreviation: DEN
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 18
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: BKT-NBA-PLAYER-BRAUN_CHRISTIAN
-    attributes:
-      first_name: Christian
-      last_name: Braun
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DEN-PLAYER-BRAUN_CHRISTIAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BRAUN_CHRISTIAN
-  - type: Player
-    code: BKT-NBA-PLAYER-JONES_CURTIS
-    attributes:
-      first_name: Curtis
-      last_name: Jones
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DEN-PLAYER-JONES_CURTIS
     attributes: {}
@@ -416,42 +168,11 @@ groups:
       captured on the stated date, not a complete season appearance union. Only the
       first two source-listed players are selected.
   records:
-  - type: Team
-    code: BKT-NBA-TEAM-DET
-    attributes:
-      territory: Detroit
-      mascot: Pistons
-      abbreviation: DET
-    references: {}
-  - type: Campaign
-    code: BKT-NBA-SEASON_2025_2026-TEAM-DET
-    attributes:
-      display_name: Detroit Pistons
-      abbreviation: DET
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 17
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: BKT-NBA-PLAYER-DUREN_JALEN
-    attributes:
-      first_name: Jalen
-      last_name: Duren
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DET-PLAYER-DUREN_JALEN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-DUREN_JALEN
-  - type: Player
-    code: BKT-NBA-PLAYER-CUNNINGHAM_CADE
-    attributes:
-      first_name: Cade
-      last_name: Cunningham
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DET-PLAYER-CUNNINGHAM_CADE
     attributes: {}
@@ -466,42 +187,11 @@ groups:
       captured on the stated date, not a complete season appearance union. Only the
       first two source-listed players are selected.
   records:
-  - type: Team
-    code: BKT-NBA-TEAM-GSW
-    attributes:
-      territory: Golden State
-      mascot: Warriors
-      abbreviation: GSW
-    references: {}
-  - type: Campaign
-    code: BKT-NBA-SEASON_2025_2026-TEAM-GSW
-    attributes:
-      display_name: Golden State Warriors
-      abbreviation: GSW
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 18
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: BKT-NBA-PLAYER-PAYTON_II_GARY
-    attributes:
-      first_name: Gary
-      last_name: Payton II
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-GSW-PLAYER-PAYTON_II_GARY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-PAYTON_II_GARY
-  - type: Player
-    code: BKT-NBA-PLAYER-PODZIEMSKI_BRANDIN
-    attributes:
-      first_name: Brandin
-      last_name: Podziemski
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-GSW-PLAYER-PODZIEMSKI_BRANDIN
     attributes: {}
@@ -516,42 +206,11 @@ groups:
       captured on the stated date, not a complete season appearance union. Only the
       first two source-listed players are selected.
   records:
-  - type: Team
-    code: BKT-NBA-TEAM-HOU
-    attributes:
-      territory: Houston
-      mascot: Rockets
-      abbreviation: HOU
-    references: {}
-  - type: Campaign
-    code: BKT-NBA-SEASON_2025_2026-TEAM-HOU
-    attributes:
-      display_name: Houston Rockets
-      abbreviation: HOU
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 17
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: BKT-NBA-PLAYER-HOLIDAY_AARON
-    attributes:
-      first_name: Aaron
-      last_name: Holiday
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-HOU-PLAYER-HOLIDAY_AARON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-HOLIDAY_AARON
-  - type: Player
-    code: BKT-NBA-PLAYER-THOMPSON_AMEN
-    attributes:
-      first_name: Amen
-      last_name: Thompson
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-HOU-PLAYER-THOMPSON_AMEN
     attributes: {}
@@ -566,42 +225,11 @@ groups:
       captured on the stated date, not a complete season appearance union. Only the
       first two source-listed players are selected.
   records:
-  - type: Team
-    code: BKT-NBA-TEAM-IND
-    attributes:
-      territory: Indiana
-      mascot: Pacers
-      abbreviation: IND
-    references: {}
-  - type: Campaign
-    code: BKT-NBA-SEASON_2025_2026-TEAM-IND
-    attributes:
-      display_name: Indiana Pacers
-      abbreviation: IND
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 18
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: BKT-NBA-PLAYER-HALIBURTON_TYRESE
-    attributes:
-      first_name: Tyrese
-      last_name: Haliburton
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-IND-PLAYER-HALIBURTON_TYRESE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-HALIBURTON_TYRESE
-  - type: Player
-    code: BKT-NBA-PLAYER-TOPPIN_OBI
-    attributes:
-      first_name: Obi
-      last_name: Toppin
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-IND-PLAYER-TOPPIN_OBI
     attributes: {}
@@ -616,42 +244,11 @@ groups:
       captured on the stated date, not a complete season appearance union. Only the
       first two source-listed players are selected.
   records:
-  - type: Team
-    code: BKT-NBA-TEAM-LAC
-    attributes:
-      territory: Los Angeles
-      mascot: Clippers
-      abbreviation: LAC
-    references: {}
-  - type: Campaign
-    code: BKT-NBA-SEASON_2025_2026-TEAM-LAC
-    attributes:
-      display_name: Los Angeles Clippers
-      abbreviation: LAC
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 18
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: BKT-NBA-PLAYER-OMIER_NORCHAD
-    attributes:
-      first_name: Norchad
-      last_name: Omier
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAC-PLAYER-OMIER_NORCHAD
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-OMIER_NORCHAD
-  - type: Player
-    code: BKT-NBA-PLAYER-PEDULLA_SEAN
-    attributes:
-      first_name: Sean
-      last_name: Pedulla
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAC-PLAYER-PEDULLA_SEAN
     attributes: {}
@@ -666,42 +263,11 @@ groups:
       captured on the stated date, not a complete season appearance union. Only the
       first two source-listed players are selected.
   records:
-  - type: Team
-    code: BKT-NBA-TEAM-LAL
-    attributes:
-      territory: Los Angeles
-      mascot: Lakers
-      abbreviation: LAL
-    references: {}
-  - type: Campaign
-    code: BKT-NBA-SEASON_2025_2026-TEAM-LAL
-    attributes:
-      display_name: Los Angeles Lakers
-      abbreviation: LAL
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 17
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: BKT-NBA-PLAYER-THIERO_ADOU
-    attributes:
-      first_name: Adou
-      last_name: Thiero
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAL-PLAYER-THIERO_ADOU
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-THIERO_ADOU
-  - type: Player
-    code: BKT-NBA-PLAYER-VANDERBILT_JARRED
-    attributes:
-      first_name: Jarred
-      last_name: Vanderbilt
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAL-PLAYER-VANDERBILT_JARRED
     attributes: {}
@@ -716,42 +282,11 @@ groups:
       captured on the stated date, not a complete season appearance union. Only the
       first two source-listed players are selected.
   records:
-  - type: Team
-    code: BKT-NBA-TEAM-MEM
-    attributes:
-      territory: Memphis
-      mascot: Grizzlies
-      abbreviation: MEM
-    references: {}
-  - type: Campaign
-    code: BKT-NBA-SEASON_2025_2026-TEAM-MEM
-    attributes:
-      display_name: Memphis Grizzlies
-      abbreviation: MEM
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 18
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: BKT-NBA-PLAYER-MASHACK_JAHMAI
-    attributes:
-      first_name: Jahmai
-      last_name: Mashack
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MEM-PLAYER-MASHACK_JAHMAI
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MASHACK_JAHMAI
-  - type: Player
-    code: BKT-NBA-PLAYER-WELLS_JAYLEN
-    attributes:
-      first_name: Jaylen
-      last_name: Wells
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MEM-PLAYER-WELLS_JAYLEN
     attributes: {}
@@ -766,42 +301,11 @@ groups:
       captured on the stated date, not a complete season appearance union. Only the
       first two source-listed players are selected.
   records:
-  - type: Team
-    code: BKT-NBA-TEAM-MIA
-    attributes:
-      territory: Miami
-      mascot: Heat
-      abbreviation: MIA
-    references: {}
-  - type: Campaign
-    code: BKT-NBA-SEASON_2025_2026-TEAM-MIA
-    attributes:
-      display_name: Miami Heat
-      abbreviation: MIA
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 17
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: BKT-NBA-PLAYER-FONTECCHIO_SIMONE
-    attributes:
-      first_name: Simone
-      last_name: Fontecchio
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIA-PLAYER-FONTECCHIO_SIMONE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-FONTECCHIO_SIMONE
-  - type: Player
-    code: BKT-NBA-PLAYER-KEELS_TREVOR
-    attributes:
-      first_name: Trevor
-      last_name: Keels
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIA-PLAYER-KEELS_TREVOR
     attributes: {}
@@ -816,42 +320,11 @@ groups:
       captured on the stated date, not a complete season appearance union. Only the
       first two source-listed players are selected.
   records:
-  - type: Team
-    code: BKT-NBA-TEAM-MIL
-    attributes:
-      territory: Milwaukee
-      mascot: Bucks
-      abbreviation: MIL
-    references: {}
-  - type: Campaign
-    code: BKT-NBA-SEASON_2025_2026-TEAM-MIL
-    attributes:
-      display_name: Milwaukee Bucks
-      abbreviation: MIL
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 17
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: BKT-NBA-PLAYER-SIMS_JERICHO
-    attributes:
-      first_name: Jericho
-      last_name: Sims
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIL-PLAYER-SIMS_JERICHO
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SIMS_JERICHO
-  - type: Player
-    code: BKT-NBA-PLAYER-TURNER_MYLES
-    attributes:
-      first_name: Myles
-      last_name: Turner
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIL-PLAYER-TURNER_MYLES
     attributes: {}
@@ -866,42 +339,11 @@ groups:
       captured on the stated date, not a complete season appearance union. Only the
       first two source-listed players are selected.
   records:
-  - type: Team
-    code: BKT-NBA-TEAM-MIN
-    attributes:
-      territory: Minnesota
-      mascot: Timberwolves
-      abbreviation: MIN
-    references: {}
-  - type: Campaign
-    code: BKT-NBA-SEASON_2025_2026-TEAM-MIN
-    attributes:
-      display_name: Minnesota Timberwolves
-      abbreviation: MIN
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 18
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: BKT-NBA-PLAYER-DIVINCENZO_DONTE
-    attributes:
-      first_name: Donte
-      last_name: DiVincenzo
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIN-PLAYER-DIVINCENZO_DONTE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-DIVINCENZO_DONTE
-  - type: Player
-    code: BKT-NBA-PLAYER-SHANNON_JR_TERRENCE
-    attributes:
-      first_name: Terrence
-      last_name: Shannon Jr.
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIN-PLAYER-SHANNON_JR_TERRENCE
     attributes: {}
@@ -916,42 +358,11 @@ groups:
       captured on the stated date, not a complete season appearance union. Only the
       first two source-listed players are selected.
   records:
-  - type: Team
-    code: BKT-NBA-TEAM-NOP
-    attributes:
-      territory: New Orleans
-      mascot: Pelicans
-      abbreviation: NOP
-    references: {}
-  - type: Campaign
-    code: BKT-NBA-SEASON_2025_2026-TEAM-NOP
-    attributes:
-      display_name: New Orleans Pelicans
-      abbreviation: NOP
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 18
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: BKT-NBA-PLAYER-ODURO_JOSH
-    attributes:
-      first_name: Josh
-      last_name: Oduro
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NOP-PLAYER-ODURO_JOSH
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-ODURO_JOSH
-  - type: Player
-    code: BKT-NBA-PLAYER-FEARS_JEREMIAH
-    attributes:
-      first_name: Jeremiah
-      last_name: Fears
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NOP-PLAYER-FEARS_JEREMIAH
     attributes: {}
@@ -966,68 +377,16 @@ groups:
       captured on the stated date, not a complete season appearance union. Every source-listed
       player is selected.
   records:
-  - type: Campaign
-    code: BKT-NBA-SEASON_2025_2026-TEAM-NYK
-    attributes:
-      display_name: New York Knicks
-      abbreviation: NYK
-      details:
-        roster_coverage: complete_source_listing
-        source_player_count: 18
-        selected_player_count: 18
-    references: {}
-  - type: Player
-    code: BKT-NBA-PLAYER-CLARKSON_JORDAN
-    attributes:
-      first_name: Jordan
-      last_name: Clarkson
-      photo_urls:
-      - https://cdn.nba.com/headshots/nba/latest/1040x760/203903.png
-    references:
-      sport: SPORT-BKT
-    source:
-      url: https://www.nba.com/player/203903
-      captured_on: '2026-10-21'
-      note: Official NBA photo URL verified as an image response. Player identity
-        comes from the recorded NBA source_key.
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-CLARKSON_JORDAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-CLARKSON_JORDAN
-  - type: Player
-    code: BKT-NBA-PLAYER-JONES_DILLON
-    attributes:
-      first_name: Dillon
-      last_name: Jones
-      photo_urls:
-      - https://cdn.nba.com/headshots/nba/latest/1040x760/1641794.png
-    references:
-      sport: SPORT-BKT
-    source:
-      url: https://www.nba.com/player/1641794
-      captured_on: '2026-10-21'
-      note: Official NBA photo URL verified as an image response. Player identity
-        comes from the recorded NBA source_key.
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-JONES_DILLON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-JONES_DILLON
-  - type: Player
-    code: BKT-NBA-PLAYER-MCBRIDE_MILES
-    attributes:
-      first_name: Miles
-      last_name: McBride
-      photo_urls:
-      - https://cdn.nba.com/headshots/nba/latest/1040x760/1630540.png
-    references:
-      sport: SPORT-BKT
-    source:
-      url: https://www.nba.com/player/1630540
-      captured_on: '2026-10-21'
-      note: Official NBA photo URL verified as an image response. Player identity
-        comes from the recorded NBA source_key.
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-MCBRIDE_MILES
     attributes: {}
@@ -1038,267 +397,71 @@ groups:
     attributes: {}
     references:
       player: BKT-NBA-LAL-2017-HART_JOSH
-  - type: Player
-    code: BKT-NBA-PLAYER-DADIET_PACOME
-    attributes:
-      first_name: Pacôme
-      last_name: Dadiet
-      photo_urls:
-      - https://cdn.nba.com/headshots/nba/latest/1040x760/1642359.png
-    references:
-      sport: SPORT-BKT
-    source:
-      url: https://www.nba.com/player/1642359
-      captured_on: '2026-10-21'
-      note: Official NBA photo URL verified as an image response. Player identity
-        comes from the recorded NBA source_key.
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-DADIET_PACOME
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-DADIET_PACOME
-  - type: Player
-    code: BKT-NBA-PLAYER-ALVARADO_JOSE
-    attributes:
-      first_name: Jose
-      last_name: Alvarado
-      photo_urls:
-      - https://cdn.nba.com/headshots/nba/latest/1040x760/1630631.png
-    references:
-      sport: SPORT-BKT
-    source:
-      url: https://www.nba.com/player/1630631
-      captured_on: '2026-10-21'
-      note: Official NBA photo URL verified as an image response. Player identity
-        comes from the recorded NBA source_key.
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-ALVARADO_JOSE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-ALVARADO_JOSE
-  - type: Player
-    code: BKT-NBA-PLAYER-ANUNOBY_OG
-    attributes:
-      first_name: OG
-      last_name: Anunoby
-      photo_urls:
-      - https://cdn.nba.com/headshots/nba/latest/1040x760/1628384.png
-    references:
-      sport: SPORT-BKT
-    source:
-      url: https://www.nba.com/player/1628384
-      captured_on: '2026-10-21'
-      note: Official NBA photo URL verified as an image response. Player identity
-        comes from the recorded NBA source_key.
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-ANUNOBY_OG
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-ANUNOBY_OG
-  - type: Player
-    code: BKT-NBA-PLAYER-MCCULLAR_JR_KEVIN
-    attributes:
-      first_name: Kevin
-      last_name: McCullar Jr.
-      photo_urls:
-      - https://cdn.nba.com/headshots/nba/latest/1040x760/1641755.png
-    references:
-      sport: SPORT-BKT
-    source:
-      url: https://www.nba.com/player/1641755
-      captured_on: '2026-10-21'
-      note: Official NBA photo URL verified as an image response. Player identity
-        comes from the recorded NBA source_key.
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-MCCULLAR_JR_KEVIN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MCCULLAR_JR_KEVIN
-  - type: Player
-    code: BKT-NBA-PLAYER-BRUNSON_JALEN
-    attributes:
-      first_name: Jalen
-      last_name: Brunson
-      photo_urls:
-      - https://cdn.nba.com/headshots/nba/latest/1040x760/1628973.png
-    references:
-      sport: SPORT-BKT
-    source:
-      url: https://www.nba.com/player/1628973
-      captured_on: '2026-10-21'
-      note: Official NBA photo URL verified as an image response. Player identity
-        comes from the recorded NBA source_key.
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-BRUNSON_JALEN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BRUNSON_JALEN
-  - type: Player
-    code: BKT-NBA-PLAYER-KOLEK_TYLER
-    attributes:
-      first_name: Tyler
-      last_name: Kolek
-      photo_urls:
-      - https://cdn.nba.com/headshots/nba/latest/1040x760/1642278.png
-    references:
-      sport: SPORT-BKT
-    source:
-      url: https://www.nba.com/player/1642278
-      captured_on: '2026-10-21'
-      note: Official NBA photo URL verified as an image response. Player identity
-        comes from the recorded NBA source_key.
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-KOLEK_TYLER
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-KOLEK_TYLER
-  - type: Player
-    code: BKT-NBA-PLAYER-SOCHAN_JEREMY
-    attributes:
-      first_name: Jeremy
-      last_name: Sochan
-      photo_urls:
-      - https://cdn.nba.com/headshots/nba/latest/1040x760/1631110.png
-    references:
-      sport: SPORT-BKT
-    source:
-      url: https://www.nba.com/player/1631110
-      captured_on: '2026-10-21'
-      note: Official NBA photo URL verified as an image response. Player identity
-        comes from the recorded NBA source_key.
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-SOCHAN_JEREMY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SOCHAN_JEREMY
-  - type: Player
-    code: BKT-NBA-PLAYER-ROBINSON_MITCHELL
-    attributes:
-      first_name: Mitchell
-      last_name: Robinson
-      photo_urls:
-      - https://cdn.nba.com/headshots/nba/latest/1040x760/1629011.png
-    references:
-      sport: SPORT-BKT
-    source:
-      url: https://www.nba.com/player/1629011
-      captured_on: '2026-10-21'
-      note: Official NBA photo URL verified as an image response. Player identity
-        comes from the recorded NBA source_key.
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-ROBINSON_MITCHELL
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-ROBINSON_MITCHELL
-  - type: Player
-    code: BKT-NBA-PLAYER-BRIDGES_MIKAL
-    attributes:
-      first_name: Mikal
-      last_name: Bridges
-      photo_urls:
-      - https://cdn.nba.com/headshots/nba/latest/1040x760/1628969.png
-    references:
-      sport: SPORT-BKT
-    source:
-      url: https://www.nba.com/player/1628969
-      captured_on: '2026-10-21'
-      note: Official NBA photo URL verified as an image response. Player identity
-        comes from the recorded NBA source_key.
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-BRIDGES_MIKAL
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BRIDGES_MIKAL
-  - type: Player
-    code: BKT-NBA-PLAYER-TOWNS_KARL_ANTHONY
-    attributes:
-      first_name: Karl-Anthony
-      last_name: Towns
-      photo_urls:
-      - https://cdn.nba.com/headshots/nba/latest/1040x760/1626157.png
-    references:
-      sport: SPORT-BKT
-    source:
-      url: https://www.nba.com/player/1626157
-      captured_on: '2026-10-21'
-      note: Official NBA photo URL verified as an image response. Player identity
-        comes from the recorded NBA source_key.
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-TOWNS_KARL_ANTHONY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-TOWNS_KARL_ANTHONY
-  - type: Player
-    code: BKT-NBA-PLAYER-SHAMET_LANDRY
-    attributes:
-      first_name: Landry
-      last_name: Shamet
-      photo_urls:
-      - https://cdn.nba.com/headshots/nba/latest/1040x760/1629013.png
-    references:
-      sport: SPORT-BKT
-    source:
-      url: https://www.nba.com/player/1629013
-      captured_on: '2026-10-21'
-      note: Official NBA photo URL verified as an image response. Player identity
-        comes from the recorded NBA source_key.
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-SHAMET_LANDRY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SHAMET_LANDRY
-  - type: Player
-    code: BKT-NBA-PLAYER-JEMISON_III_TREY
-    attributes:
-      first_name: Trey
-      last_name: Jemison III
-      photo_urls:
-      - https://cdn.nba.com/headshots/nba/latest/1040x760/1641998.png
-    references:
-      sport: SPORT-BKT
-    source:
-      url: https://www.nba.com/player/1641998
-      captured_on: '2026-10-21'
-      note: Official NBA photo URL verified as an image response. Player identity
-        comes from the recorded NBA source_key.
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-JEMISON_III_TREY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-JEMISON_III_TREY
-  - type: Player
-    code: BKT-NBA-PLAYER-DIAWARA_MOHAMED
-    attributes:
-      first_name: Mohamed
-      last_name: Diawara
-      photo_urls:
-      - https://cdn.nba.com/headshots/nba/latest/1040x760/1642885.png
-    references:
-      sport: SPORT-BKT
-    source:
-      url: https://www.nba.com/player/1642885
-      captured_on: '2026-10-21'
-      note: Official NBA photo URL verified as an image response. Player identity
-        comes from the recorded NBA source_key.
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-DIAWARA_MOHAMED
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-DIAWARA_MOHAMED
-  - type: Player
-    code: BKT-NBA-PLAYER-HUKPORTI_ARIEL
-    attributes:
-      first_name: Ariel
-      last_name: Hukporti
-      photo_urls:
-      - https://cdn.nba.com/headshots/nba/latest/1040x760/1630574.png
-    references:
-      sport: SPORT-BKT
-    source:
-      url: https://www.nba.com/player/1630574
-      captured_on: '2026-10-21'
-      note: Official NBA photo URL verified as an image response. Player identity
-        comes from the recorded NBA source_key.
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NYK-PLAYER-HUKPORTI_ARIEL
     attributes: {}
@@ -1313,42 +476,11 @@ groups:
       captured on the stated date, not a complete season appearance union. Only the
       first two source-listed players are selected.
   records:
-  - type: Team
-    code: BKT-NBA-TEAM-OKC
-    attributes:
-      territory: Oklahoma City
-      mascot: Thunder
-      abbreviation: OKC
-    references: {}
-  - type: Campaign
-    code: BKT-NBA-SEASON_2025_2026-TEAM-OKC
-    attributes:
-      display_name: Oklahoma City Thunder
-      abbreviation: OKC
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 18
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: BKT-NBA-PLAYER-GILGEOUS_ALEXANDER_SHAI
-    attributes:
-      first_name: Shai
-      last_name: Gilgeous-Alexander
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-OKC-PLAYER-GILGEOUS_ALEXANDER_SHAI
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-GILGEOUS_ALEXANDER_SHAI
-  - type: Player
-    code: BKT-NBA-PLAYER-MCCAIN_JARED
-    attributes:
-      first_name: Jared
-      last_name: McCain
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-OKC-PLAYER-MCCAIN_JARED
     attributes: {}
@@ -1363,42 +495,11 @@ groups:
       captured on the stated date, not a complete season appearance union. Only the
       first two source-listed players are selected.
   records:
-  - type: Team
-    code: BKT-NBA-TEAM-ORL
-    attributes:
-      territory: Orlando
-      mascot: Magic
-      abbreviation: ORL
-    references: {}
-  - type: Campaign
-    code: BKT-NBA-SEASON_2025_2026-TEAM-ORL
-    attributes:
-      display_name: Orlando Magic
-      abbreviation: ORL
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 17
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: BKT-NBA-PLAYER-MORALES_ALEX
-    attributes:
-      first_name: Alex
-      last_name: Morales
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ORL-PLAYER-MORALES_ALEX
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MORALES_ALEX
-  - type: Player
-    code: BKT-NBA-PLAYER-BLACK_ANTHONY
-    attributes:
-      first_name: Anthony
-      last_name: Black
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ORL-PLAYER-BLACK_ANTHONY
     attributes: {}
@@ -1413,42 +514,11 @@ groups:
       captured on the stated date, not a complete season appearance union. Only the
       first two source-listed players are selected.
   records:
-  - type: Team
-    code: BKT-NBA-TEAM-PHI
-    attributes:
-      territory: Philadelphia
-      mascot: 76ers
-      abbreviation: PHI
-    references: {}
-  - type: Campaign
-    code: BKT-NBA-SEASON_2025_2026-TEAM-PHI
-    attributes:
-      display_name: Philadelphia 76ers
-      abbreviation: PHI
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 17
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: BKT-NBA-PLAYER-MAXEY_TYRESE
-    attributes:
-      first_name: Tyrese
-      last_name: Maxey
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHI-PLAYER-MAXEY_TYRESE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MAXEY_TYRESE
-  - type: Player
-    code: BKT-NBA-PLAYER-DRUMMOND_ANDRE
-    attributes:
-      first_name: Andre
-      last_name: Drummond
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHI-PLAYER-DRUMMOND_ANDRE
     attributes: {}
@@ -1463,42 +533,11 @@ groups:
       captured on the stated date, not a complete season appearance union. Only the
       first two source-listed players are selected.
   records:
-  - type: Team
-    code: BKT-NBA-TEAM-PHX
-    attributes:
-      territory: Phoenix
-      mascot: Suns
-      abbreviation: PHX
-    references: {}
-  - type: Campaign
-    code: BKT-NBA-SEASON_2025_2026-TEAM-PHX
-    attributes:
-      display_name: Phoenix Suns
-      abbreviation: PHX
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 18
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: BKT-NBA-PLAYER-O_NEALE_ROYCE
-    attributes:
-      first_name: Royce
-      last_name: O'Neale
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHX-PLAYER-O_NEALE_ROYCE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-O_NEALE_ROYCE
-  - type: Player
-    code: BKT-NBA-PLAYER-DUNN_RYAN
-    attributes:
-      first_name: Ryan
-      last_name: Dunn
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHX-PLAYER-DUNN_RYAN
     attributes: {}
@@ -1513,35 +552,11 @@ groups:
       captured on the stated date, not a complete season appearance union. Only the
       first two source-listed players are selected.
   records:
-  - type: Campaign
-    code: BKT-NBA-SEASON_2025_2026-TEAM-POR
-    attributes:
-      display_name: Portland Trail Blazers
-      abbreviation: POR
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 18
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: BKT-NBA-PLAYER-KENT_JAYSON
-    attributes:
-      first_name: Jayson
-      last_name: Kent
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-POR-PLAYER-KENT_JAYSON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-KENT_JAYSON
-  - type: Player
-    code: BKT-NBA-PLAYER-HENDERSON_SCOOT
-    attributes:
-      first_name: Scoot
-      last_name: Henderson
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-POR-PLAYER-HENDERSON_SCOOT
     attributes: {}
@@ -1556,42 +571,11 @@ groups:
       captured on the stated date, not a complete season appearance union. Only the
       first two source-listed players are selected.
   records:
-  - type: Team
-    code: BKT-NBA-TEAM-SAC
-    attributes:
-      territory: Sacramento
-      mascot: Kings
-      abbreviation: SAC
-    references: {}
-  - type: Campaign
-    code: BKT-NBA-SEASON_2025_2026-TEAM-SAC
-    attributes:
-      display_name: Sacramento Kings
-      abbreviation: SAC
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 18
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: BKT-NBA-PLAYER-MONK_MALIK
-    attributes:
-      first_name: Malik
-      last_name: Monk
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAC-PLAYER-MONK_MALIK
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MONK_MALIK
-  - type: Player
-    code: BKT-NBA-PLAYER-CLIFFORD_NIQUE
-    attributes:
-      first_name: Nique
-      last_name: Clifford
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAC-PLAYER-CLIFFORD_NIQUE
     attributes: {}
@@ -1606,42 +590,11 @@ groups:
       captured on the stated date, not a complete season appearance union. Only the
       first two source-listed players are selected.
   records:
-  - type: Team
-    code: BKT-NBA-TEAM-SAS
-    attributes:
-      territory: San Antonio
-      mascot: Spurs
-      abbreviation: SAS
-    references: {}
-  - type: Campaign
-    code: BKT-NBA-SEASON_2025_2026-TEAM-SAS
-    attributes:
-      display_name: San Antonio Spurs
-      abbreviation: SAS
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 18
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: BKT-NBA-PLAYER-MCLAUGHLIN_JORDAN
-    attributes:
-      first_name: Jordan
-      last_name: McLaughlin
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAS-PLAYER-MCLAUGHLIN_JORDAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MCLAUGHLIN_JORDAN
-  - type: Player
-    code: BKT-NBA-PLAYER-WEMBANYAMA_VICTOR
-    attributes:
-      first_name: Victor
-      last_name: Wembanyama
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAS-PLAYER-WEMBANYAMA_VICTOR
     attributes: {}
@@ -1656,42 +609,11 @@ groups:
       captured on the stated date, not a complete season appearance union. Only the
       first two source-listed players are selected.
   records:
-  - type: Team
-    code: BKT-NBA-TEAM-TOR
-    attributes:
-      territory: Toronto
-      mascot: Raptors
-      abbreviation: TOR
-    references: {}
-  - type: Campaign
-    code: BKT-NBA-SEASON_2025_2026-TEAM-TOR
-    attributes:
-      display_name: Toronto Raptors
-      abbreviation: TOR
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 17
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: BKT-NBA-PLAYER-LAWSON_A_J
-    attributes:
-      first_name: A.J.
-      last_name: Lawson
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-TOR-PLAYER-LAWSON_A_J
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-LAWSON_A_J
-  - type: Player
-    code: BKT-NBA-PLAYER-DICK_GRADEY
-    attributes:
-      first_name: Gradey
-      last_name: Dick
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-TOR-PLAYER-DICK_GRADEY
     attributes: {}
@@ -1706,42 +628,11 @@ groups:
       captured on the stated date, not a complete season appearance union. Only the
       first two source-listed players are selected.
   records:
-  - type: Team
-    code: BKT-NBA-TEAM-UTA
-    attributes:
-      territory: Utah
-      mascot: Jazz
-      abbreviation: UTA
-    references: {}
-  - type: Campaign
-    code: BKT-NBA-SEASON_2025_2026-TEAM-UTA
-    attributes:
-      display_name: Utah Jazz
-      abbreviation: UTA
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 18
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: BKT-NBA-PLAYER-GRAY_HAYDEN
-    attributes:
-      first_name: Hayden
-      last_name: Gray
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-UTA-PLAYER-GRAY_HAYDEN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-GRAY_HAYDEN
-  - type: Player
-    code: BKT-NBA-PLAYER-HINSON_BLAKE
-    attributes:
-      first_name: Blake
-      last_name: Hinson
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-UTA-PLAYER-HINSON_BLAKE
     attributes: {}
@@ -1756,42 +647,11 @@ groups:
       captured on the stated date, not a complete season appearance union. Only the
       first two source-listed players are selected.
   records:
-  - type: Team
-    code: BKT-NBA-TEAM-WAS
-    attributes:
-      territory: Washington
-      mascot: Wizards
-      abbreviation: WAS
-    references: {}
-  - type: Campaign
-    code: BKT-NBA-SEASON_2025_2026-TEAM-WAS
-    attributes:
-      display_name: Washington Wizards
-      abbreviation: WAS
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 18
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: BKT-NBA-PLAYER-REESE_JULIAN
-    attributes:
-      first_name: Julian
-      last_name: Reese
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-WAS-PLAYER-REESE_JULIAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-REESE_JULIAN
-  - type: Player
-    code: BKT-NBA-PLAYER-COULIBALY_BILAL
-    attributes:
-      first_name: Bilal
-      last_name: Coulibaly
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-WAS-PLAYER-COULIBALY_BILAL
     attributes: {}

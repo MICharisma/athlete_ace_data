@@ -1,0 +1,455 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Campaign
+  code: HCK-NHL-SEASON_2015_2016-TEAM-ANA
+  attributes:
+    display_name: Anaheim Ducks
+    abbreviation: ANA
+  references:
+    team: HCK-NHL-TEAM-ANA
+    season: HCK-NHL-SEASON_2015_2016
+    division: HCK-NHL-DIVISION-PACIFIC_DIVISION
+    conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2016&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: HCK-NHL-SEASON_2015_2016-TEAM-ARI
+  attributes:
+    display_name: Arizona Coyotes
+    abbreviation: ARI
+  references:
+    team: HCK-NHL-TEAM-ARI
+    season: HCK-NHL-SEASON_2015_2016
+    division: HCK-NHL-DIVISION-PACIFIC_DIVISION
+    conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2016&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: HCK-NHL-SEASON_2015_2016-TEAM-BOS
+  attributes:
+    display_name: Boston Bruins
+    abbreviation: BOS
+  references:
+    team: HCK-NHL-TEAM-BOS
+    season: HCK-NHL-SEASON_2015_2016
+    division: HCK-NHL-DIVISION-ATLANTIC_DIVISION
+    conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2016&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: HCK-NHL-SEASON_2015_2016-TEAM-BUF
+  attributes:
+    display_name: Buffalo Sabres
+    abbreviation: BUF
+  references:
+    team: HCK-NHL-TEAM-BUF
+    season: HCK-NHL-SEASON_2015_2016
+    division: HCK-NHL-DIVISION-ATLANTIC_DIVISION
+    conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2016&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: HCK-NHL-SEASON_2015_2016-TEAM-CAR
+  attributes:
+    display_name: Carolina Hurricanes
+    abbreviation: CAR
+  references:
+    team: HCK-NHL-TEAM-CAR
+    season: HCK-NHL-SEASON_2015_2016
+    division: HCK-NHL-DIVISION-METROPOLITAN_DIVISION
+    conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2016&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: HCK-NHL-SEASON_2015_2016-TEAM-CBJ
+  attributes:
+    display_name: Columbus Blue Jackets
+    abbreviation: CBJ
+  references:
+    team: HCK-NHL-TEAM-CBJ
+    season: HCK-NHL-SEASON_2015_2016
+    division: HCK-NHL-DIVISION-METROPOLITAN_DIVISION
+    conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2016&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: HCK-NHL-SEASON_2015_2016-TEAM-CGY
+  attributes:
+    display_name: Calgary Flames
+    abbreviation: CGY
+  references:
+    team: HCK-NHL-TEAM-CGY
+    season: HCK-NHL-SEASON_2015_2016
+    division: HCK-NHL-DIVISION-PACIFIC_DIVISION
+    conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2016&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: HCK-NHL-SEASON_2015_2016-TEAM-CHI
+  attributes:
+    display_name: Chicago Blackhawks
+    abbreviation: CHI
+  references:
+    team: HCK-NHL-TEAM-CHI
+    season: HCK-NHL-SEASON_2015_2016
+    division: HCK-NHL-DIVISION-CENTRAL_DIVISION
+    conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2016&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: HCK-NHL-SEASON_2015_2016-TEAM-COL
+  attributes:
+    display_name: Colorado Avalanche
+    abbreviation: COL
+  references:
+    team: HCK-NHL-TEAM-COL
+    season: HCK-NHL-SEASON_2015_2016
+    division: HCK-NHL-DIVISION-CENTRAL_DIVISION
+    conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2016&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: HCK-NHL-SEASON_2015_2016-TEAM-DAL
+  attributes:
+    display_name: Dallas Stars
+    abbreviation: DAL
+  references:
+    team: HCK-NHL-TEAM-DAL
+    season: HCK-NHL-SEASON_2015_2016
+    division: HCK-NHL-DIVISION-CENTRAL_DIVISION
+    conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2016&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: HCK-NHL-SEASON_2015_2016-TEAM-DET
+  attributes:
+    display_name: Detroit Red Wings
+    abbreviation: DET
+  references:
+    team: HCK-NHL-TEAM-DET
+    season: HCK-NHL-SEASON_2015_2016
+    division: HCK-NHL-DIVISION-ATLANTIC_DIVISION
+    conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2016&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: HCK-NHL-SEASON_2015_2016-TEAM-EDM
+  attributes:
+    display_name: Edmonton Oilers
+    abbreviation: EDM
+  references:
+    team: HCK-NHL-TEAM-EDM
+    season: HCK-NHL-SEASON_2015_2016
+    division: HCK-NHL-DIVISION-PACIFIC_DIVISION
+    conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2016&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: HCK-NHL-SEASON_2015_2016-TEAM-FLA
+  attributes:
+    display_name: Florida Panthers
+    abbreviation: FLA
+  references:
+    team: HCK-NHL-TEAM-FLA
+    season: HCK-NHL-SEASON_2015_2016
+    division: HCK-NHL-DIVISION-ATLANTIC_DIVISION
+    conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2016&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: HCK-NHL-SEASON_2015_2016-TEAM-LAK
+  attributes:
+    display_name: Los Angeles Kings
+    abbreviation: LAK
+  references:
+    team: HCK-NHL-TEAM-LAK
+    season: HCK-NHL-SEASON_2015_2016
+    division: HCK-NHL-DIVISION-PACIFIC_DIVISION
+    conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2016&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: HCK-NHL-SEASON_2015_2016-TEAM-MIN
+  attributes:
+    display_name: Minnesota Wild
+    abbreviation: MIN
+  references:
+    team: HCK-NHL-TEAM-MIN
+    season: HCK-NHL-SEASON_2015_2016
+    division: HCK-NHL-DIVISION-CENTRAL_DIVISION
+    conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2016&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: HCK-NHL-SEASON_2015_2016-TEAM-MTL
+  attributes:
+    display_name: Montreal Canadiens
+    abbreviation: MTL
+  references:
+    team: HCK-NHL-TEAM-MTL
+    season: HCK-NHL-SEASON_2015_2016
+    division: HCK-NHL-DIVISION-ATLANTIC_DIVISION
+    conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2016&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: HCK-NHL-SEASON_2015_2016-TEAM-NJD
+  attributes:
+    display_name: New Jersey Devils
+    abbreviation: NJD
+  references:
+    team: HCK-NHL-TEAM-NJD
+    season: HCK-NHL-SEASON_2015_2016
+    division: HCK-NHL-DIVISION-METROPOLITAN_DIVISION
+    conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2016&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: HCK-NHL-SEASON_2015_2016-TEAM-NSH
+  attributes:
+    display_name: Nashville Predators
+    abbreviation: NSH
+  references:
+    team: HCK-NHL-TEAM-NSH
+    season: HCK-NHL-SEASON_2015_2016
+    division: HCK-NHL-DIVISION-CENTRAL_DIVISION
+    conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2016&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: HCK-NHL-SEASON_2015_2016-TEAM-NYI
+  attributes:
+    display_name: New York Islanders
+    abbreviation: NYI
+  references:
+    team: HCK-NHL-TEAM-NYI
+    season: HCK-NHL-SEASON_2015_2016
+    division: HCK-NHL-DIVISION-METROPOLITAN_DIVISION
+    conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2016&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: HCK-NHL-SEASON_2015_2016-TEAM-NYR
+  attributes:
+    display_name: New York Rangers
+    abbreviation: NYR
+  references:
+    team: HCK-NHL-TEAM-NYR
+    season: HCK-NHL-SEASON_2015_2016
+    division: HCK-NHL-DIVISION-METROPOLITAN_DIVISION
+    conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2016&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: HCK-NHL-SEASON_2015_2016-TEAM-OTT
+  attributes:
+    display_name: Ottawa Senators
+    abbreviation: OTT
+  references:
+    team: HCK-NHL-TEAM-OTT
+    season: HCK-NHL-SEASON_2015_2016
+    division: HCK-NHL-DIVISION-ATLANTIC_DIVISION
+    conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2016&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: HCK-NHL-SEASON_2015_2016-TEAM-PHI
+  attributes:
+    display_name: Philadelphia Flyers
+    abbreviation: PHI
+  references:
+    team: HCK-NHL-TEAM-PHI
+    season: HCK-NHL-SEASON_2015_2016
+    division: HCK-NHL-DIVISION-METROPOLITAN_DIVISION
+    conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2016&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: HCK-NHL-SEASON_2015_2016-TEAM-PIT
+  attributes:
+    display_name: Pittsburgh Penguins
+    abbreviation: PIT
+  references:
+    team: HCK-NHL-TEAM-PIT
+    season: HCK-NHL-SEASON_2015_2016
+    division: HCK-NHL-DIVISION-METROPOLITAN_DIVISION
+    conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2016&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: HCK-NHL-SEASON_2015_2016-TEAM-SJS
+  attributes:
+    display_name: San Jose Sharks
+    abbreviation: SJS
+  references:
+    team: HCK-NHL-TEAM-SJS
+    season: HCK-NHL-SEASON_2015_2016
+    division: HCK-NHL-DIVISION-PACIFIC_DIVISION
+    conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2016&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: HCK-NHL-SEASON_2015_2016-TEAM-STL
+  attributes:
+    display_name: St. Louis Blues
+    abbreviation: STL
+  references:
+    team: HCK-NHL-TEAM-STL
+    season: HCK-NHL-SEASON_2015_2016
+    division: HCK-NHL-DIVISION-CENTRAL_DIVISION
+    conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2016&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: HCK-NHL-SEASON_2015_2016-TEAM-TBL
+  attributes:
+    display_name: Tampa Bay Lightning
+    abbreviation: TBL
+  references:
+    team: HCK-NHL-TEAM-TBL
+    season: HCK-NHL-SEASON_2015_2016
+    division: HCK-NHL-DIVISION-ATLANTIC_DIVISION
+    conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2016&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: HCK-NHL-SEASON_2015_2016-TEAM-TOR
+  attributes:
+    display_name: Toronto Maple Leafs
+    abbreviation: TOR
+  references:
+    team: HCK-NHL-TEAM-TOR
+    season: HCK-NHL-SEASON_2015_2016
+    division: HCK-NHL-DIVISION-ATLANTIC_DIVISION
+    conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2016&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: HCK-NHL-SEASON_2015_2016-TEAM-VAN
+  attributes:
+    display_name: Vancouver Canucks
+    abbreviation: VAN
+  references:
+    team: HCK-NHL-TEAM-VAN
+    season: HCK-NHL-SEASON_2015_2016
+    division: HCK-NHL-DIVISION-PACIFIC_DIVISION
+    conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2016&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: HCK-NHL-SEASON_2015_2016-TEAM-WPG
+  attributes:
+    display_name: Winnipeg Jets
+    abbreviation: WPG
+  references:
+    team: HCK-NHL-TEAM-WPG
+    season: HCK-NHL-SEASON_2015_2016
+    division: HCK-NHL-DIVISION-CENTRAL_DIVISION
+    conference: HCK-NHL-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2016&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: HCK-NHL-SEASON_2015_2016-TEAM-WSH
+  attributes:
+    display_name: Washington Capitals
+    abbreviation: WSH
+  references:
+    team: HCK-NHL-TEAM-WSH
+    season: HCK-NHL-SEASON_2015_2016
+    division: HCK-NHL-DIVISION-METROPOLITAN_DIVISION
+    conference: HCK-NHL-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/hockey/nhl/standings?season=2016&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.

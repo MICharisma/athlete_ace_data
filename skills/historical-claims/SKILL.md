@@ -62,4 +62,4 @@ Never infer the contracting Organization from today's team affiliation, corporat
 
 ## References
 
-The application's `docs/roster-history-proposal.md`, `docs/jersey-numbers.md`, `docs/league-memberships.md`, `docs/competition-games.md`. Worked examples: `yaml/participation/nhl_leddy_history.yaml`, `yaml/nba_hart_2022_2023.yaml`, `yaml/nfl_sanders_2019.yaml`, `yaml/epl_fulham_promotion.yaml`.
+The application's `docs/roster-history-proposal.md`, `docs/jersey-numbers.md`, `docs/league-memberships.md`, `docs/competition-games.md`. Worked examples: `yaml/participation/nhl_leddy_history.yaml`, `yaml/nba_hart_2022_2023.yaml`, `yaml/nfl_sanders_2019.yaml`. Identities they reference live in `yaml/catalog/`.

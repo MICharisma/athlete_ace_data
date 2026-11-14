@@ -1,0 +1,56 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-IGOE_CONNOR
+  aliases:
+  - BKT-ESPN-PLAYER_5313686
+  attributes:
+    first_name: Connor
+    last_name: Igoe
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5313686.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/171/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-IMEGWU_IAN
+  aliases:
+  - BKT-ESPN-PLAYER_5175897
+  attributes:
+    first_name: Ian
+    last_name: Imegwu
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5175897.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/172/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-IWANONKIW_TY
+  aliases:
+  - BKT-ESPN-PLAYER_5241719
+  attributes:
+    first_name: Ty
+    last_name: Iwanonkiw
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5241719.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/172/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.

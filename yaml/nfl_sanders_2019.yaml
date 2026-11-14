@@ -5,7 +5,8 @@ catalog: ALA
 source:
   url: https://www.denverbroncos.com/news/broncos-agree-trade-emmanuel-sanders-to-49ers-draft-picks
   published_on: '2019-10-22'
-  note: 'Sample 2019 season union: retain Denver and San Francisco memberships; not a complete roster.'
+  note: 'Sample 2019 season union: retain Denver and San Francisco memberships; not
+    a complete roster.'
 scope:
   sport: SPORT-FTB
   league: FTB-LEAGUE-NFL
@@ -14,14 +15,6 @@ groups:
 - scope:
     team: FTB-NFL-TEAM-DEN
   records:
-  - type: Campaign
-    code: FTB-NFL-SEASON_2019-TEAM-DEN
-    attributes:
-      display_name: Denver Broncos
-      territory: Denver
-      mascot: Broncos
-      abbreviation: DEN
-    references: {}
   - type: Activation
     code: FTB-NFL-SEASON_2019-TEAM-DEN-PLAYER-SANDERS_EMMANUEL
     attributes: {}
@@ -30,14 +23,6 @@ groups:
 - scope:
     team: FTB-NFL-TEAM-SF
   records:
-  - type: Campaign
-    code: FTB-NFL-SEASON_2019-TEAM-SF
-    attributes:
-      display_name: San Francisco 49ers
-      territory: San Francisco
-      mascot: 49ers
-      abbreviation: SF
-    references: {}
   - type: Activation
     code: FTB-NFL-SEASON_2019-TEAM-SF-PLAYER-SANDERS_EMMANUEL
     attributes: {}

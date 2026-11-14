@@ -7,8 +7,8 @@ one canonical file under yaml/catalog/, computed from its code. Batches hold
 observations (rosters, numbers, games, results, titles) and reference
 identities without defining them. See CONTRIBUTING.md, "Library layout".
 
-Report mode (default) prints the findings and exits 0. --strict exits 1 when
-there are any, for use once the library has been restructured.
+Prints the findings and exits 0; --strict exits 1 when there are any.
+validate_seeds.py runs it strictly on the whole library.
 """
 
 import argparse
@@ -44,49 +44,49 @@ def canonical_path(record_type, code):
     """The catalog file that owns an identity record, or None for an observation."""
     parts = code.split("-")
     if record_type == "Year":
-        return f"{CATALOG}/years.yaml"
+        return f"{CATALOG}/years.yml"
     if record_type in ("Country", "State", "City"):
-        return f"{CATALOG}/places/{parts[1]}.yaml"
+        return f"{CATALOG}/places/{parts[1]}.yml"
     if record_type == "Stadium":
-        return f"{CATALOG}/venues/{parts[1]}.yaml"
+        return f"{CATALOG}/venues/{parts[1]}.yml"
     if record_type == "Federation":
-        return f"{CATALOG}/federations.yaml"
+        return f"{CATALOG}/federations.yml"
     if record_type == "Sport":
-        return f"{CATALOG}/{parts[1]}/sport.yaml"
+        return f"{CATALOG}/{parts[1]}/sport.yml"
     if record_type == "Position":
-        return f"{CATALOG}/{parts[0]}/positions.yaml"
+        return f"{CATALOG}/{parts[0]}/positions.yml"
     if record_type == "Figure":
-        return f"{CATALOG}/figures/{initial(parts[-1])}.yaml"
+        return f"{CATALOG}/figures/{initial(parts[-1])}.yml"
     if record_type == "League":
         if len(parts) != 3 or parts[1] != "LEAGUE":
             raise UnplacedCode(code)
-        return f"{CATALOG}/{parts[0]}/{parts[2]}/league.yaml"
+        return f"{CATALOG}/{parts[0]}/{parts[2]}/league.yml"
     if record_type in ("Conference", "Division"):
         sport, league = league_parts(code)[:2]
-        return f"{CATALOG}/{sport}/{league}/league.yaml"
+        return f"{CATALOG}/{sport}/{league}/league.yml"
     if record_type == "Team":
         if len(parts) >= 3 and parts[1] == "CLUB":  # Clubs shared across competitions.
-            return f"{CATALOG}/{parts[0]}/clubs.yaml"
+            return f"{CATALOG}/{parts[0]}/clubs.yml"
         if len(parts) >= 4 and parts[2] == "TEAM":
-            return f"{CATALOG}/{parts[0]}/{parts[1]}/teams.yaml"
+            return f"{CATALOG}/{parts[0]}/{parts[1]}/teams.yml"
         raise UnplacedCode(code)
     if record_type == "Organization":
         if len(parts) >= 4 and parts[2] == "ORG":
-            return f"{CATALOG}/{parts[0]}/{parts[1]}/organizations.yaml"
-        return f"{CATALOG}/organizations.yaml"
+            return f"{CATALOG}/{parts[0]}/{parts[1]}/organizations.yml"
+        return f"{CATALOG}/organizations.yml"
     if record_type == "Season":
         if len(parts) != 3 or not parts[2].startswith("SEASON_"):
             raise UnplacedCode(code)
-        return f"{CATALOG}/{parts[0]}/{parts[1]}/seasons.yaml"
+        return f"{CATALOG}/{parts[0]}/{parts[1]}/seasons.yml"
     if record_type == "Campaign":
         if len(parts) < 5 or not parts[2].startswith("SEASON_") or parts[3] != "TEAM":
             raise UnplacedCode(code)
-        return f"{CATALOG}/{parts[0]}/{parts[1]}/campaigns/{parts[2].removeprefix('SEASON_')}.yaml"
+        return f"{CATALOG}/{parts[0]}/{parts[1]}/campaigns/{parts[2].removeprefix('SEASON_')}.yml"
     if record_type == "Player":
         if len(parts) == 2:  # A sport-less person code such as PLAYER-KERR_STEVE.
-            return f"{CATALOG}/players/{initial(parts[1])}.yaml"
+            return f"{CATALOG}/players/{initial(parts[1])}.yml"
         sport, league = league_parts(code)[:2]
-        return f"{CATALOG}/{sport}/{league}/players/{initial(parts[-1])}.yaml"
+        return f"{CATALOG}/{sport}/{league}/players/{initial(parts[-1])}.yml"
     return None
 
 

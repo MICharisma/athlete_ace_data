@@ -1,0 +1,170 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Team
+  code: MOT-F1-TEAM-ALPINE
+  aliases:
+  - MOT-JOLPICA-CONSTRUCTOR_ALPINE
+  attributes:
+    mascot: Alpine F1 Team
+  references:
+    league: MOT-LEAGUE-F1
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Team
+  code: MOT-F1-TEAM-ASTON_MARTIN
+  aliases:
+  - MOT-JOLPICA-CONSTRUCTOR_ASTON_MARTIN
+  attributes:
+    mascot: Aston Martin
+  references:
+    league: MOT-LEAGUE-F1
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Team
+  code: MOT-F1-TEAM-AUDI
+  aliases:
+  - MOT-JOLPICA-CONSTRUCTOR_AUDI
+  attributes:
+    mascot: Audi
+  references:
+    league: MOT-LEAGUE-F1
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Team
+  code: MOT-F1-TEAM-CADILLAC
+  aliases:
+  - MOT-JOLPICA-CONSTRUCTOR_CADILLAC
+  attributes:
+    mascot: Cadillac F1 Team
+  references:
+    league: MOT-LEAGUE-F1
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Team
+  code: MOT-F1-TEAM-FERRARI
+  aliases:
+  - MOT-JOLPICA-CONSTRUCTOR_FERRARI
+  attributes:
+    mascot: Ferrari
+  references:
+    league: MOT-LEAGUE-F1
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Team
+  code: MOT-F1-TEAM-HAAS
+  aliases:
+  - MOT-JOLPICA-CONSTRUCTOR_HAAS
+  attributes:
+    mascot: Haas F1 Team
+  references:
+    league: MOT-LEAGUE-F1
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Team
+  code: MOT-F1-TEAM-MCLAREN
+  aliases:
+  - MOT-JOLPICA-CONSTRUCTOR_MCLAREN
+  attributes:
+    mascot: McLaren
+  references:
+    league: MOT-LEAGUE-F1
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Team
+  code: MOT-F1-TEAM-MERCEDES
+  aliases:
+  - MOT-JOLPICA-CONSTRUCTOR_MERCEDES
+  attributes:
+    mascot: Mercedes
+  references:
+    league: MOT-LEAGUE-F1
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Team
+  code: MOT-F1-TEAM-RB
+  aliases:
+  - MOT-JOLPICA-CONSTRUCTOR_RB
+  attributes:
+    mascot: RB F1 Team
+  references:
+    league: MOT-LEAGUE-F1
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Team
+  code: MOT-F1-TEAM-RED_BULL
+  aliases:
+  - MOT-JOLPICA-CONSTRUCTOR_RED_BULL
+  attributes:
+    mascot: Red Bull
+  references:
+    league: MOT-LEAGUE-F1
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Team
+  code: MOT-F1-TEAM-WILLIAMS
+  aliases:
+  - MOT-JOLPICA-CONSTRUCTOR_WILLIAMS
+  attributes:
+    mascot: Williams
+  references:
+    league: MOT-LEAGUE-F1
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.

@@ -1,0 +1,201 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Stadium
+  code: STADIUM-GB-ENG-BIRMINGHAM-VILLA_PARK
+  attributes:
+    name: Villa Park
+  references:
+    city: CITY-GB-ENG-BIRMINGHAM
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/366/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: Stadium
+  code: STADIUM-GB-ENG-BOURNEMOUTH-VITALITY_STADIUM
+  attributes:
+    name: Vitality Stadium
+  references:
+    city: CITY-GB-ENG-BOURNEMOUTH
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/362/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: Stadium
+  code: STADIUM-GB-ENG-BRENTFORD-GTECH_COMMUNITY_STADIUM
+  attributes:
+    name: Gtech Community Stadium
+  references:
+    city: CITY-GB-ENG-BRENTFORD
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/359/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: Stadium
+  code: STADIUM-GB-ENG-COVENTRY-COVENTRY_BUILDING_SOCIETY_ARENA
+  attributes:
+    name: Coventry Building Society Arena
+  references:
+    city: CITY-GB-ENG-COVENTRY
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/393/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: Stadium
+  code: STADIUM-GB-ENG-FALMER-AMERICAN_EXPRESS_STADIUM
+  attributes:
+    name: American Express Stadium
+  references:
+    city: CITY-GB-ENG-FALMER
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/361/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: Stadium
+  code: STADIUM-GB-ENG-HULL-THE_MKM_STADIUM
+  attributes:
+    name: The MKM Stadium
+  references:
+    city: CITY-GB-ENG-HULL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/360/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: Stadium
+  code: STADIUM-GB-ENG-IPSWICH-PORTMAN_ROAD
+  attributes:
+    name: Portman Road
+  references:
+    city: CITY-GB-ENG-IPSWICH
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/393/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: Stadium
+  code: STADIUM-GB-ENG-LEEDS-ELLAND_ROAD
+  attributes:
+    name: Elland Road
+  references:
+    city: CITY-GB-ENG-LEEDS
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/363/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: Stadium
+  code: STADIUM-GB-ENG-LIVERPOOL-ANFIELD
+  attributes:
+    name: Anfield
+  references:
+    city: CITY-GB-ENG-LIVERPOOL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/382/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: Stadium
+  code: STADIUM-GB-ENG-LIVERPOOL-HILL_DICKINSON_STADIUM
+  attributes:
+    name: Hill Dickinson Stadium
+  references:
+    city: CITY-GB-ENG-LIVERPOOL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/384/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: Stadium
+  code: STADIUM-GB-ENG-LONDON-CRAVEN_COTTAGE
+  attributes:
+    name: Craven Cottage
+  references:
+    city: CITY-GB-ENG-LONDON
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/393/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: Stadium
+  code: STADIUM-GB-ENG-LONDON-EMIRATES_STADIUM
+  attributes:
+    name: Emirates Stadium
+  references:
+    city: CITY-GB-ENG-LONDON
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/364/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: Stadium
+  code: STADIUM-GB-ENG-LONDON-SELHURST_PARK
+  attributes:
+    name: Selhurst Park
+  references:
+    city: CITY-GB-ENG-LONDON
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/393/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: Stadium
+  code: STADIUM-GB-ENG-LONDON-STAMFORD_BRIDGE
+  attributes:
+    name: Stamford Bridge
+  references:
+    city: CITY-GB-ENG-LONDON
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/370/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: Stadium
+  code: STADIUM-GB-ENG-LONDON-TOTTENHAM_HOTSPUR_STADIUM
+  attributes:
+    name: Tottenham Hotspur Stadium
+  references:
+    city: CITY-GB-ENG-LONDON
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/388/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: Stadium
+  code: STADIUM-GB-ENG-MANCHESTER-ETIHAD_STADIUM
+  attributes:
+    name: Etihad Stadium
+  references:
+    city: CITY-GB-ENG-MANCHESTER
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/393/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: Stadium
+  code: STADIUM-GB-ENG-MANCHESTER-OLD_TRAFFORD
+  attributes:
+    name: Old Trafford
+  references:
+    city: CITY-GB-ENG-MANCHESTER
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/368/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: Stadium
+  code: STADIUM-GB-ENG-NEWCASTLE_UPON_TYNE-ST_JAMES_PARK
+  attributes:
+    name: St. James' Park
+  references:
+    city: CITY-GB-ENG-NEWCASTLE_UPON_TYNE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/367/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: Stadium
+  code: STADIUM-GB-ENG-SILVERSTONE-SILVERSTONE_CIRCUIT
+  attributes:
+    name: Silverstone Circuit
+    url: https://en.wikipedia.org/wiki/Silverstone_Circuit
+  references:
+    city: CITY-GB-ENG-SILVERSTONE
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/silverstone.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Stadium
+  code: STADIUM-GB-ENG-SUNDERLAND-STADIUM_OF_LIGHT
+  attributes:
+    name: Stadium of Light
+  references:
+    city: CITY-GB-ENG-SUNDERLAND
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/373/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: Stadium
+  code: STADIUM-GB-ENG-WEST_BRIDGFORD-THE_CITY_GROUND
+  attributes:
+    name: The City Ground
+  references:
+    city: CITY-GB-ENG-WEST_BRIDGFORD
+  source:
+    url: https://www.premierleague.com/en/news/4725666
+    captured_on: '2026-10-27'
+    note: The Premier League guide places the stadium in West Bridgford, south of
+      Nottingham.

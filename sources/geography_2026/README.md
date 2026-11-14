@@ -1,6 +1,6 @@
 # Home venue geography, captured 27 October 2026
 
-`home_venues.json` records 174 team listings for NBA and NHL 2026/27, NFL, MLB and MLS 2026, and EPL 2026/27. `venues.json` is the reviewed identity and locality registry. `bindings.json` and `yaml/coverage_2026/geography.yaml` are generated from those inputs by `scripts/build_geography_2026.rb`.
+`home_venues.json` records 174 team listings for NBA and NHL 2026/27, NFL, MLB and MLS 2026, and EPL 2026/27. `venues.json` is the reviewed identity and locality registry. `bindings.json` and the places and stadiums in `yaml/catalog/places/` and `yaml/catalog/venues/` are generated from those inputs by `scripts/build_geography_2026.rb`.
 
 ## Sources and meaning
 

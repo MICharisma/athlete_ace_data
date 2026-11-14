@@ -1,0 +1,22 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-EISENDRATH_BEN
+  aliases:
+  - BKT-ESPN-PLAYER_5241725
+  attributes:
+    first_name: Ben
+    last_name: Eisendrath
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5241725.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/108/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.

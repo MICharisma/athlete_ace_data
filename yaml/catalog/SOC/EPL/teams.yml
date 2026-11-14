@@ -1,0 +1,301 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Team
+  code: SOC-EPL-TEAM-ARS
+  attributes:
+    mascot: Arsenal
+    abbreviation: ARS
+  references: {}
+  scope:
+    league: SOC-LEAGUE-EPL
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+- type: Team
+  code: SOC-EPL-TEAM-AVL
+  attributes:
+    mascot: Aston Villa
+    abbreviation: AVL
+  references: {}
+  scope:
+    league: SOC-LEAGUE-EPL
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+- type: Team
+  code: SOC-EPL-TEAM-BHA
+  attributes:
+    mascot: Brighton & Hove Albion
+    abbreviation: BHA
+  references: {}
+  scope:
+    league: SOC-LEAGUE-EPL
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+- type: Team
+  code: SOC-EPL-TEAM-BOU
+  attributes:
+    mascot: AFC Bournemouth
+    abbreviation: BOU
+  references: {}
+  scope:
+    league: SOC-LEAGUE-EPL
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+- type: Team
+  code: SOC-EPL-TEAM-BRE
+  attributes:
+    mascot: Brentford
+    abbreviation: BRE
+  references: {}
+  scope:
+    league: SOC-LEAGUE-EPL
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+- type: Team
+  code: SOC-EPL-TEAM-BUR
+  attributes:
+    mascot: Burnley
+    abbreviation: BUR
+  references: {}
+  scope:
+    league: SOC-LEAGUE-EPL
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+- type: Team
+  code: SOC-EPL-TEAM-CHE
+  attributes:
+    mascot: Chelsea
+    abbreviation: CHE
+  references: {}
+  scope:
+    league: SOC-LEAGUE-EPL
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+- type: Team
+  code: SOC-EPL-TEAM-COV
+  attributes:
+    mascot: Coventry City
+    abbreviation: COV
+  references:
+    league: SOC-LEAGUE-EPL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/388/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-EPL-TEAM-CRY
+  attributes:
+    mascot: Crystal Palace
+    abbreviation: CRY
+  references: {}
+  scope:
+    league: SOC-LEAGUE-EPL
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+- type: Team
+  code: SOC-EPL-TEAM-EVE
+  attributes:
+    mascot: Everton
+    abbreviation: EVE
+  references: {}
+  scope:
+    league: SOC-LEAGUE-EPL
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+- type: Team
+  code: SOC-EPL-TEAM-FUL
+  attributes:
+    mascot: Fulham
+    abbreviation: FUL
+  references: {}
+  scope:
+    league: SOC-LEAGUE-EPL
+  source:
+    url: https://www.premierleague.com/en/news/2567479
+    note: 'Same Fulham club: Championship 2021_2022 and promoted Premier League 2022_2023;
+      no full roster asserted.'
+    published_on: '2022-04-19'
+- type: Team
+  code: SOC-EPL-TEAM-HUL
+  attributes:
+    mascot: Hull City
+    abbreviation: HUL
+  references:
+    league: SOC-LEAGUE-EPL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/306/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-EPL-TEAM-IPS
+  attributes:
+    mascot: Ipswich Town
+    abbreviation: IPS
+  references:
+    league: SOC-LEAGUE-EPL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/373/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-EPL-TEAM-LEE
+  attributes:
+    mascot: Leeds United
+    abbreviation: LEE
+  references: {}
+  scope:
+    league: SOC-LEAGUE-EPL
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+- type: Team
+  code: SOC-EPL-TEAM-LIV
+  attributes:
+    mascot: Liverpool
+    abbreviation: LIV
+  references: {}
+  scope:
+    league: SOC-LEAGUE-EPL
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+- type: Team
+  code: SOC-EPL-TEAM-MCI
+  attributes:
+    mascot: Manchester City
+    abbreviation: MCI
+  references: {}
+  scope:
+    league: SOC-LEAGUE-EPL
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+- type: Team
+  code: SOC-EPL-TEAM-MUN
+  attributes:
+    mascot: Manchester United
+    abbreviation: MUN
+  references: {}
+  scope:
+    league: SOC-LEAGUE-EPL
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+- type: Team
+  code: SOC-EPL-TEAM-NEW
+  attributes:
+    mascot: Newcastle United
+    abbreviation: NEW
+  references: {}
+  scope:
+    league: SOC-LEAGUE-EPL
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+- type: Team
+  code: SOC-EPL-TEAM-NFO
+  attributes:
+    mascot: Nottingham Forest
+    abbreviation: NFO
+  references: {}
+  scope:
+    league: SOC-LEAGUE-EPL
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+- type: Team
+  code: SOC-EPL-TEAM-SUN
+  attributes:
+    mascot: Sunderland
+    abbreviation: SUN
+  references: {}
+  scope:
+    league: SOC-LEAGUE-EPL
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+- type: Team
+  code: SOC-EPL-TEAM-TOT
+  attributes:
+    mascot: Tottenham Hotspur
+    abbreviation: TOT
+  references: {}
+  scope:
+    league: SOC-LEAGUE-EPL
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+- type: Team
+  code: SOC-EPL-TEAM-WHU
+  attributes:
+    mascot: West Ham United
+    abbreviation: WHU
+  references: {}
+  scope:
+    league: SOC-LEAGUE-EPL
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+- type: Team
+  code: SOC-EPL-TEAM-WOL
+  attributes:
+    mascot: Wolverhampton Wanderers
+    abbreviation: WOL
+  references: {}
+  scope:
+    league: SOC-LEAGUE-EPL
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.

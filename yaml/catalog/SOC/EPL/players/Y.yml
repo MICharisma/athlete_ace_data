@@ -1,0 +1,95 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: SOC-EPL-PLAYER-YALCOUYE_MALICK
+  aliases:
+  - SOC-ESPN-PLAYER_359097
+  attributes:
+    first_name: Malick
+    last_name: Yalcouyé
+    birthdate: '2005-11-18'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/331/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-YARMOLIUK_YEHOR
+  aliases:
+  - SOC-ESPN-PLAYER_342029
+  attributes:
+    first_name: Yehor
+    last_name: Yarmoliuk
+    birthdate: '2004-03-01'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/337/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-YATES_RYAN
+  aliases:
+  - SOC-ESPN-PLAYER_241253
+  attributes:
+    first_name: Ryan
+    last_name: Yates
+    birthdate: '1997-11-21'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/393/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-YIRENKYI_CALEB
+  aliases:
+  - SOC-ESPN-PLAYER_387659
+  attributes:
+    first_name: Caleb
+    last_name: Yirenkyi
+    birthdate: '2006-01-15'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/388/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-YOHANNA_ZADOK
+  aliases:
+  - SOC-ESPN-PLAYER_407059
+  attributes:
+    first_name: Zadok
+    last_name: Yohanna
+    birthdate: '2007-06-29'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/331/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-YORO_LENY
+  aliases:
+  - SOC-ESPN-PLAYER_340206
+  attributes:
+    first_name: Leny
+    last_name: Yoro
+    birthdate: '2005-11-13'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/360/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.

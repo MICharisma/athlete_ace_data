@@ -1,0 +1,45 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: City
+  code: CITY-AT-6-SPIELBERG
+  attributes:
+    name: Spielberg
+  references:
+    state: STATE-AT-6
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/red_bull_ring.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Country
+  code: COUNTRY-AT
+  attributes:
+    name: Austria
+    abbreviation: AT
+  references: {}
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:AT
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: State
+  code: STATE-AT-6
+  attributes:
+    name: Styria
+    abbreviation: '6'
+  references:
+    country: COUNTRY-AT
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:AT
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.

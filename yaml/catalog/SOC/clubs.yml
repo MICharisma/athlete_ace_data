@@ -1,0 +1,377 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Team
+  code: SOC-CLUB-ESPN_102
+  attributes:
+    mascot: Villarreal
+    abbreviation: VIL
+  references:
+    league: SOC-LEAGUE-UCL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/102/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-CLUB-ESPN_104
+  attributes:
+    mascot: AS Roma
+    abbreviation: ROMA
+  references:
+    league: SOC-LEAGUE-UCL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/104/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-CLUB-ESPN_1068
+  attributes:
+    mascot: Atlético Madrid
+    abbreviation: ATM
+  references:
+    league: SOC-LEAGUE-UCL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/1068/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-CLUB-ESPN_110
+  attributes:
+    mascot: Internazionale
+    abbreviation: INT
+  references:
+    league: SOC-LEAGUE-UCL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/110/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-CLUB-ESPN_114
+  attributes:
+    mascot: Napoli
+    abbreviation: NAP
+  references:
+    league: SOC-LEAGUE-UCL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/114/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-CLUB-ESPN_11420
+  attributes:
+    mascot: RB Leipzig
+    abbreviation: RBL
+  references:
+    league: SOC-LEAGUE-UCL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/11420/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-CLUB-ESPN_124
+  attributes:
+    mascot: Borussia Dortmund
+    abbreviation: DOR
+  references:
+    league: SOC-LEAGUE-UCL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/124/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-CLUB-ESPN_132
+  attributes:
+    mascot: Bayern Munich
+    abbreviation: MUN
+  references:
+    league: SOC-LEAGUE-UCL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/132/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-CLUB-ESPN_134
+  attributes:
+    mascot: VfB Stuttgart
+    abbreviation: VFB
+  references:
+    league: SOC-LEAGUE-UCL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/134/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-CLUB-ESPN_142
+  attributes:
+    mascot: Feyenoord Rotterdam
+    abbreviation: FEY
+  references:
+    league: SOC-LEAGUE-UCL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/142/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-CLUB-ESPN_148
+  attributes:
+    mascot: PSV Eindhoven
+    abbreviation: PSV
+  references:
+    league: SOC-LEAGUE-UCL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/148/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-CLUB-ESPN_160
+  attributes:
+    mascot: Paris Saint-Germain
+    abbreviation: PSG
+  references:
+    league: SOC-LEAGUE-UCL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/160/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-CLUB-ESPN_166
+  attributes:
+    mascot: Lille
+    abbreviation: LILL
+  references:
+    league: SOC-LEAGUE-UCL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/166/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-CLUB-ESPN_175
+  attributes:
+    mascot: Lens
+    abbreviation: RCL
+  references:
+    league: SOC-LEAGUE-UCL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/175/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-CLUB-ESPN_21922
+  attributes:
+    mascot: Sabah FK
+    abbreviation: SAB
+  references:
+    league: SOC-LEAGUE-UCL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/21922/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-CLUB-ESPN_2250
+  attributes:
+    mascot: Sporting CP
+    abbreviation: SCP
+  references:
+    league: SOC-LEAGUE-UCL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/2250/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-CLUB-ESPN_244
+  attributes:
+    mascot: Real Betis
+    abbreviation: BET
+  references:
+    league: SOC-LEAGUE-UCL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/244/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-CLUB-ESPN_2572
+  attributes:
+    mascot: Como
+    abbreviation: COMO
+  references:
+    league: SOC-LEAGUE-UCL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/2572/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-CLUB-ESPN_2980
+  attributes:
+    mascot: Bodo/Glimt
+    abbreviation: BODO
+  references:
+    league: SOC-LEAGUE-UCL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/2980/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-CLUB-ESPN_432
+  attributes:
+    mascot: Galatasaray
+    abbreviation: GAL
+  references:
+    league: SOC-LEAGUE-UCL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/432/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-CLUB-ESPN_436
+  attributes:
+    mascot: Fenerbahce
+    abbreviation: FEN
+  references:
+    league: SOC-LEAGUE-UCL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/436/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-CLUB-ESPN_437
+  attributes:
+    mascot: FC Porto
+    abbreviation: FCP
+  references:
+    league: SOC-LEAGUE-UCL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/437/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-CLUB-ESPN_4411
+  attributes:
+    mascot: LASK Linz
+    abbreviation: LAS
+  references:
+    league: SOC-LEAGUE-UCL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/4411/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-CLUB-ESPN_493
+  attributes:
+    mascot: Shakhtar Donetsk
+    abbreviation: SHK
+  references:
+    league: SOC-LEAGUE-UCL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/493/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-CLUB-ESPN_494
+  attributes:
+    mascot: Slavia Prague
+    abbreviation: SLP
+  references:
+    league: SOC-LEAGUE-UCL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/494/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-CLUB-ESPN_510
+  attributes:
+    mascot: Viking FK
+    abbreviation: VFK
+  references:
+    league: SOC-LEAGUE-UCL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/510/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-CLUB-ESPN_521
+  attributes:
+    mascot: Slovan Bratislava
+    abbreviation: SLB
+  references:
+    league: SOC-LEAGUE-UCL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/521/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-CLUB-ESPN_570
+  attributes:
+    mascot: Club Brugge
+    abbreviation: BRU
+  references:
+    league: SOC-LEAGUE-UCL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/570/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-CLUB-ESPN_83
+  attributes:
+    mascot: Barcelona
+    abbreviation: BAR
+  references:
+    league: SOC-LEAGUE-UCL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/83/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-CLUB-ESPN_86
+  attributes:
+    mascot: Real Madrid
+    abbreviation: RMA
+  references:
+    league: SOC-LEAGUE-UCL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/86/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Team
+  code: SOC-CLUB-ESPN_887
+  attributes:
+    mascot: AEK Athens
+    abbreviation: AEK
+  references:
+    league: SOC-LEAGUE-UCL
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/887/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.

@@ -1,0 +1,52 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: League
+  code: SOC-LEAGUE-MLS
+  attributes:
+    name: Major League Soccer
+    abbreviation: MLS
+  references:
+    sport: SPORT-SOC
+    jurisdiction: COUNTRY-US
+  source: {}
+- type: Conference
+  code: SOC-MLS-CONFERENCE-EASTERN_CONFERENCE
+  attributes:
+    name: Eastern Conference
+    abbreviation: East
+  references:
+    league: SOC-LEAGUE-MLS
+  source:
+    note: Legacy JSON catalog
+    path: sports/soccer/USA/MLS
+- type: Conference
+  code: SOC-MLS-CONFERENCE-WESTERN_CONFERENCE
+  attributes:
+    name: Western Conference
+    abbreviation: West
+  references:
+    league: SOC-LEAGUE-MLS
+  source:
+    note: Legacy JSON catalog
+    path: sports/soccer/USA/MLS
+- type: Division
+  code: SOC-MLS-DIVISION-EAST
+  attributes:
+    name: East
+  references:
+    conference: SOC-MLS-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    note: Legacy JSON catalog
+    path: sports/soccer/USA/MLS
+- type: Division
+  code: SOC-MLS-DIVISION-WEST
+  attributes:
+    name: West
+  references:
+    conference: SOC-MLS-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    note: Legacy JSON catalog
+    path: sports/soccer/USA/MLS

@@ -1,0 +1,159 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: SOC-EPL-PLAYER-VALDIMARSSON_HAKON
+  aliases:
+  - SOC-ESPN-PLAYER_311527
+  attributes:
+    first_name: Hákon
+    last_name: Valdimarsson
+    birthdate: '2001-10-13'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/337/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-VAN_DEN_BERG_SEPP
+  aliases:
+  - SOC-ESPN-PLAYER_270507
+  attributes:
+    first_name: Sepp
+    last_name: van den Berg
+    birthdate: '2001-12-20'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/337/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-VAN_DE_VEN_MICKY
+  aliases:
+  - SOC-ESPN-PLAYER_296512
+  attributes:
+    first_name: Micky
+    last_name: van de Ven
+    birthdate: '2001-04-19'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/367/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-VAN_DIJK_VIRGIL
+  aliases:
+  - SOC-ESPN-PLAYER_157892
+  attributes:
+    first_name: Virgil
+    last_name: van Dijk
+    birthdate: '1991-07-08'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/364/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-VAN_EWIJK_MILAN
+  aliases:
+  - SOC-ESPN-PLAYER_281139
+  attributes:
+    first_name: Milan
+    last_name: van Ewijk
+    birthdate: '2000-09-08'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/281139.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/388/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-VAN_HECKE_JAN_PAUL
+  aliases:
+  - SOC-ESPN-PLAYER_282583
+  attributes:
+    first_name: Jan Paul
+    last_name: van Hecke
+    birthdate: '2000-06-08'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/282583.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/367/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-VAZ_ROBINIO
+  aliases:
+  - SOC-ESPN-PLAYER_377894
+  attributes:
+    first_name: Robinio
+    last_name: Vaz
+    birthdate: '2007-02-17'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/306/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-VERBRUGGEN_BART
+  aliases:
+  - SOC-ESPN-PLAYER_291609
+  attributes:
+    first_name: Bart
+    last_name: Verbruggen
+    birthdate: '2002-08-18'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/331/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-VITOR_REIS
+  aliases:
+  - SOC-ESPN-PLAYER_361434
+  attributes:
+    first_name: Vitor Reis
+    last_name: ''
+    birthdate: '2006-01-12'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/382/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-VUSKOVIC_LUKA
+  aliases:
+  - SOC-ESPN-PLAYER_364962
+  attributes:
+    first_name: Luka
+    last_name: Vuskovic
+    birthdate: '2007-02-24'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/331/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.

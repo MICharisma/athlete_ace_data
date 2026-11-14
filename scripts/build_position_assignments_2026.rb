@@ -2,6 +2,7 @@ require "fileutils"
 require "json"
 require "yaml"
 require_relative "../../../../lib/micharisma_seeders/lib/micharisma_seeders"
+require_relative "lib/seed_catalog"
 
 # Builds baseball and football position vocabularies, then attaches each
 # player's source-listed 2026 roster position to the roster entries already
@@ -58,6 +59,7 @@ class PositionAssignments2026Builder
 
   def initialize(check: false)
     @check = check
+    @writer = SeedCatalog::Writer.new(check: check)
     registry = MICharismaSeeders::SequenceRegistry.read(File.join(ROOT, "yaml/entity_sequences.yaml"))
     reader = MICharismaSeeders::Reader.new(registry: registry)
     paths = Dir.glob(File.join(ROOT, "yaml/**/*.{yaml,yml,json}"))
@@ -72,13 +74,7 @@ class PositionAssignments2026Builder
   end
 
   def write(path, document)
-    contents = YAML.dump(JSON.parse(JSON.generate(document)))
-    if @check
-      raise "Generated file differs: #{path}" unless File.file?(path) && File.read(path, encoding: "UTF-8") == contents
-    else
-      FileUtils.mkdir_p(File.dirname(path))
-      File.write(path, contents)
-    end
+    @writer.write_batch(path, document) # Identities go to the catalog.
   end
 
   def envelope(source, records)
@@ -143,6 +139,7 @@ class PositionAssignments2026Builder
   def run
     vocabularies = VOCABULARIES.to_h { |sport, spec| [ sport, build_vocabulary(sport, spec) ] }
     SELECTIONS.each { |feed, (sport, _league, _teams)| build_assignments(feed, vocabularies.fetch(sport)) }
+    @writer.finish(codes_path: File.join(ROOT, "sources/position_assignments_2026/catalog_codes.json"))
     report = JSON.pretty_generate(@report) + "\n"
     if @check
       raise "Generated report differs" unless File.file?(REPORT) && File.read(REPORT, encoding: "UTF-8") == report

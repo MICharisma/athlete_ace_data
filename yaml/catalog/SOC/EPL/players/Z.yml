@@ -1,0 +1,82 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: SOC-EPL-PLAYER-ZAMBRANO_OSCAR
+  aliases:
+  - SOC-ESPN-PLAYER_328740
+  attributes:
+    first_name: Óscar
+    last_name: Zambrano
+    birthdate: '2004-04-20'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/306/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-ZEPA_MACAULEY
+  aliases:
+  - SOC-ESPN-PLAYER_392697
+  attributes:
+    first_name: Macauley
+    last_name: Zepa
+    birthdate: '2008-07-07'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/370/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-ZETTERER_MICHAEL
+  aliases:
+  - SOC-ESPN-PLAYER_184550
+  attributes:
+    first_name: Michael
+    last_name: Zetterer
+    birthdate: '1995-07-12'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/184550.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/357/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-ZIRKZEE_JOSHUA
+  aliases:
+  - SOC-ESPN-PLAYER_276327
+  attributes:
+    first_name: Joshua
+    last_name: Zirkzee
+    birthdate: '2001-05-22'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/360/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-ZUBIMENDI_MARTIN
+  aliases:
+  - SOC-ESPN-PLAYER_287266
+  attributes:
+    first_name: Martín
+    last_name: Zubimendi
+    birthdate: '1999-02-02'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/359/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.

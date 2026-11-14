@@ -16,42 +16,11 @@ groups:
       NHL's archived club statistics; no contract or exact membership dates are asserted.
       Only the first two source-listed players are selected.
   records:
-  - type: Team
-    code: HCK-NHL-TEAM-ANA
-    attributes:
-      territory: Anaheim
-      mascot: Ducks
-      abbreviation: ANA
-    references: {}
-  - type: Campaign
-    code: HCK-NHL-SEASON_2025_2026-TEAM-ANA
-    attributes:
-      display_name: Anaheim Ducks
-      abbreviation: ANA
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 32
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: HCK-NHL-PLAYER-KILLORN_ALEX
-    attributes:
-      first_name: Alex
-      last_name: Killorn
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-ANA-PLAYER-KILLORN_ALEX
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-KILLORN_ALEX
-  - type: Player
-    code: HCK-NHL-PLAYER-CARLSON_JOHN
-    attributes:
-      first_name: John
-      last_name: Carlson
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-ANA-PLAYER-CARLSON_JOHN
     attributes: {}
@@ -66,42 +35,11 @@ groups:
       NHL's archived club statistics; no contract or exact membership dates are asserted.
       Only the first two source-listed players are selected.
   records:
-  - type: Team
-    code: HCK-NHL-TEAM-BOS
-    attributes:
-      territory: Boston
-      mascot: Bruins
-      abbreviation: BOS
-    references: {}
-  - type: Campaign
-    code: HCK-NHL-SEASON_2025_2026-TEAM-BOS
-    attributes:
-      display_name: Boston Bruins
-      abbreviation: BOS
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 35
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: HCK-NHL-PLAYER-KURALY_SEAN
-    attributes:
-      first_name: Sean
-      last_name: Kuraly
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-BOS-PLAYER-KURALY_SEAN
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-KURALY_SEAN
-  - type: Player
-    code: HCK-NHL-PLAYER-LINDHOLM_HAMPUS
-    attributes:
-      first_name: Hampus
-      last_name: Lindholm
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-BOS-PLAYER-LINDHOLM_HAMPUS
     attributes: {}
@@ -116,42 +54,11 @@ groups:
       NHL's archived club statistics; no contract or exact membership dates are asserted.
       Only the first two source-listed players are selected.
   records:
-  - type: Team
-    code: HCK-NHL-TEAM-BUF
-    attributes:
-      territory: Buffalo
-      mascot: Sabres
-      abbreviation: BUF
-    references: {}
-  - type: Campaign
-    code: HCK-NHL-SEASON_2025_2026-TEAM-BUF
-    attributes:
-      display_name: Buffalo Sabres
-      abbreviation: BUF
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 36
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: HCK-NHL-PLAYER-SCHENN_LUKE
-    attributes:
-      first_name: Luke
-      last_name: Schenn
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-BUF-PLAYER-SCHENN_LUKE
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-SCHENN_LUKE
-  - type: Player
-    code: HCK-NHL-PLAYER-ZUCKER_JASON
-    attributes:
-      first_name: Jason
-      last_name: Zucker
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-BUF-PLAYER-ZUCKER_JASON
     attributes: {}
@@ -166,42 +73,11 @@ groups:
       NHL's archived club statistics; no contract or exact membership dates are asserted.
       Only the first two source-listed players are selected.
   records:
-  - type: Team
-    code: HCK-NHL-TEAM-CAR
-    attributes:
-      territory: Carolina
-      mascot: Hurricanes
-      abbreviation: CAR
-    references: {}
-  - type: Campaign
-    code: HCK-NHL-SEASON_2025_2026-TEAM-CAR
-    attributes:
-      display_name: Carolina Hurricanes
-      abbreviation: CAR
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 34
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: HCK-NHL-PLAYER-STAAL_JORDAN
-    attributes:
-      first_name: Jordan
-      last_name: Staal
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-CAR-PLAYER-STAAL_JORDAN
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-STAAL_JORDAN
-  - type: Player
-    code: HCK-NHL-PLAYER-DESLAURIERS_NICOLAS
-    attributes:
-      first_name: Nicolas
-      last_name: Deslauriers
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-CAR-PLAYER-DESLAURIERS_NICOLAS
     attributes: {}
@@ -216,42 +92,11 @@ groups:
       NHL's archived club statistics; no contract or exact membership dates are asserted.
       Only the first two source-listed players are selected.
   records:
-  - type: Team
-    code: HCK-NHL-TEAM-CBJ
-    attributes:
-      territory: Columbus
-      mascot: Blue Jackets
-      abbreviation: CBJ
-    references: {}
-  - type: Campaign
-    code: HCK-NHL-SEASON_2025_2026-TEAM-CBJ
-    attributes:
-      display_name: Columbus Blue Jackets
-      abbreviation: CBJ
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 32
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: HCK-NHL-PLAYER-SMITH_BRENDAN
-    attributes:
-      first_name: Brendan
-      last_name: Smith
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-CBJ-PLAYER-SMITH_BRENDAN
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-SMITH_BRENDAN
-  - type: Player
-    code: HCK-NHL-PLAYER-COYLE_CHARLIE
-    attributes:
-      first_name: Charlie
-      last_name: Coyle
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-CBJ-PLAYER-COYLE_CHARLIE
     attributes: {}
@@ -266,42 +111,11 @@ groups:
       NHL's archived club statistics; no contract or exact membership dates are asserted.
       Only the first two source-listed players are selected.
   records:
-  - type: Team
-    code: HCK-NHL-TEAM-CGY
-    attributes:
-      territory: Calgary
-      mascot: Flames
-      abbreviation: CGY
-    references: {}
-  - type: Campaign
-    code: HCK-NHL-SEASON_2025_2026-TEAM-CGY
-    attributes:
-      display_name: Calgary Flames
-      abbreviation: CGY
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 41
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: HCK-NHL-PLAYER-BACKLUND_MIKAEL
-    attributes:
-      first_name: Mikael
-      last_name: Backlund
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-CGY-PLAYER-BACKLUND_MIKAEL
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-BACKLUND_MIKAEL
-  - type: Player
-    code: HCK-NHL-PLAYER-KADRI_NAZEM
-    attributes:
-      first_name: Nazem
-      last_name: Kadri
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-CGY-PLAYER-KADRI_NAZEM
     attributes: {}
@@ -316,42 +130,11 @@ groups:
       NHL's archived club statistics; no contract or exact membership dates are asserted.
       Only the first two source-listed players are selected.
   records:
-  - type: Team
-    code: HCK-NHL-TEAM-CHI
-    attributes:
-      territory: Chicago
-      mascot: Blackhawks
-      abbreviation: CHI
-    references: {}
-  - type: Campaign
-    code: HCK-NHL-SEASON_2025_2026-TEAM-CHI
-    attributes:
-      display_name: Chicago Blackhawks
-      abbreviation: CHI
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 32
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: HCK-NHL-PLAYER-FOLIGNO_NICK
-    attributes:
-      first_name: Nick
-      last_name: Foligno
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-CHI-PLAYER-FOLIGNO_NICK
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-FOLIGNO_NICK
-  - type: Player
-    code: HCK-NHL-PLAYER-MURPHY_CONNOR
-    attributes:
-      first_name: Connor
-      last_name: Murphy
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-CHI-PLAYER-MURPHY_CONNOR
     attributes: {}
@@ -366,30 +149,6 @@ groups:
       NHL's archived club statistics; no contract or exact membership dates are asserted.
       Only the first two source-listed players are selected.
   records:
-  - type: Team
-    code: HCK-NHL-TEAM-COL
-    attributes:
-      territory: Colorado
-      mascot: Avalanche
-      abbreviation: COL
-    references: {}
-  - type: Campaign
-    code: HCK-NHL-SEASON_2025_2026-TEAM-COL
-    attributes:
-      display_name: Colorado Avalanche
-      abbreviation: COL
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 36
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: HCK-NHL-PLAYER-BURNS_BRENT
-    attributes:
-      first_name: Brent
-      last_name: Burns
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-COL-PLAYER-BURNS_BRENT
     attributes: {}
@@ -409,42 +168,11 @@ groups:
       NHL's archived club statistics; no contract or exact membership dates are asserted.
       Only the first two source-listed players are selected.
   records:
-  - type: Team
-    code: HCK-NHL-TEAM-DAL
-    attributes:
-      territory: Dallas
-      mascot: Stars
-      abbreviation: DAL
-    references: {}
-  - type: Campaign
-    code: HCK-NHL-SEASON_2025_2026-TEAM-DAL
-    attributes:
-      display_name: Dallas Stars
-      abbreviation: DAL
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 30
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: HCK-NHL-PLAYER-BENN_JAMIE
-    attributes:
-      first_name: Jamie
-      last_name: Benn
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-DAL-PLAYER-BENN_JAMIE
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-BENN_JAMIE
-  - type: Player
-    code: HCK-NHL-PLAYER-MYERS_TYLER
-    attributes:
-      first_name: Tyler
-      last_name: Myers
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-DAL-PLAYER-MYERS_TYLER
     attributes: {}
@@ -459,35 +187,11 @@ groups:
       NHL's archived club statistics; no contract or exact membership dates are asserted.
       Only the first two source-listed players are selected.
   records:
-  - type: Campaign
-    code: HCK-NHL-SEASON_2025_2026-TEAM-DET
-    attributes:
-      display_name: Detroit Red Wings
-      abbreviation: DET
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 31
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: HCK-NHL-PLAYER-VAN_RIEMSDYK_JAMES
-    attributes:
-      first_name: James
-      last_name: van Riemsdyk
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-DET-PLAYER-VAN_RIEMSDYK_JAMES
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-VAN_RIEMSDYK_JAMES
-  - type: Player
-    code: HCK-NHL-PLAYER-PERRON_DAVID
-    attributes:
-      first_name: David
-      last_name: Perron
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-DET-PLAYER-PERRON_DAVID
     attributes: {}
@@ -502,42 +206,11 @@ groups:
       NHL's archived club statistics; no contract or exact membership dates are asserted.
       Only the first two source-listed players are selected.
   records:
-  - type: Team
-    code: HCK-NHL-TEAM-EDM
-    attributes:
-      territory: Edmonton
-      mascot: Oilers
-      abbreviation: EDM
-    references: {}
-  - type: Campaign
-    code: HCK-NHL-SEASON_2025_2026-TEAM-EDM
-    attributes:
-      display_name: Edmonton Oilers
-      abbreviation: EDM
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 38
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: HCK-NHL-PLAYER-HENRIQUE_ADAM
-    attributes:
-      first_name: Adam
-      last_name: Henrique
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-EDM-PLAYER-HENRIQUE_ADAM
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-HENRIQUE_ADAM
-  - type: Player
-    code: HCK-NHL-PLAYER-EKHOLM_MATTIAS
-    attributes:
-      first_name: Mattias
-      last_name: Ekholm
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-EDM-PLAYER-EKHOLM_MATTIAS
     attributes: {}
@@ -552,42 +225,11 @@ groups:
       NHL's archived club statistics; no contract or exact membership dates are asserted.
       Only the first two source-listed players are selected.
   records:
-  - type: Team
-    code: HCK-NHL-TEAM-FLA
-    attributes:
-      territory: Florida
-      mascot: Panthers
-      abbreviation: FLA
-    references: {}
-  - type: Campaign
-    code: HCK-NHL-SEASON_2025_2026-TEAM-FLA
-    attributes:
-      display_name: Florida Panthers
-      abbreviation: FLA
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 38
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: HCK-NHL-PLAYER-MARCHAND_BRAD
-    attributes:
-      first_name: Brad
-      last_name: Marchand
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-FLA-PLAYER-MARCHAND_BRAD
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-MARCHAND_BRAD
-  - type: Player
-    code: HCK-NHL-PLAYER-PETRY_JEFF
-    attributes:
-      first_name: Jeff
-      last_name: Petry
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-FLA-PLAYER-PETRY_JEFF
     attributes: {}
@@ -602,42 +244,11 @@ groups:
       NHL's archived club statistics; no contract or exact membership dates are asserted.
       Only the first two source-listed players are selected.
   records:
-  - type: Team
-    code: HCK-NHL-TEAM-LAK
-    attributes:
-      territory: Los Angeles
-      mascot: Kings
-      abbreviation: LAK
-    references: {}
-  - type: Campaign
-    code: HCK-NHL-SEASON_2025_2026-TEAM-LAK
-    attributes:
-      display_name: Los Angeles Kings
-      abbreviation: LAK
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 32
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: HCK-NHL-PLAYER-PERRY_COREY
-    attributes:
-      first_name: Corey
-      last_name: Perry
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-LAK-PLAYER-PERRY_COREY
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-PERRY_COREY
-  - type: Player
-    code: HCK-NHL-PLAYER-KOPITAR_ANZE
-    attributes:
-      first_name: Anze
-      last_name: Kopitar
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-LAK-PLAYER-KOPITAR_ANZE
     attributes: {}
@@ -652,23 +263,6 @@ groups:
       NHL's archived club statistics; no contract or exact membership dates are asserted.
       Only the first two source-listed players are selected.
   records:
-  - type: Team
-    code: HCK-NHL-TEAM-MIN
-    attributes:
-      territory: Minnesota
-      mascot: Wild
-      abbreviation: MIN
-    references: {}
-  - type: Campaign
-    code: HCK-NHL-SEASON_2025_2026-TEAM-MIN
-    attributes:
-      display_name: Minnesota Wild
-      abbreviation: MIN
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 38
-        selected_player_count: 2
-    references: {}
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-MIN-PLAYER-FOLIGNO_NICK
     attributes: {}
@@ -688,42 +282,11 @@ groups:
       NHL's archived club statistics; no contract or exact membership dates are asserted.
       Only the first two source-listed players are selected.
   records:
-  - type: Team
-    code: HCK-NHL-TEAM-MTL
-    attributes:
-      territory: Montréal
-      mascot: Canadiens
-      abbreviation: MTL
-    references: {}
-  - type: Campaign
-    code: HCK-NHL-SEASON_2025_2026-TEAM-MTL
-    attributes:
-      display_name: Montréal Canadiens
-      abbreviation: MTL
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 32
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: HCK-NHL-PLAYER-GALLAGHER_BRENDAN
-    attributes:
-      first_name: Brendan
-      last_name: Gallagher
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-MTL-PLAYER-GALLAGHER_BRENDAN
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-GALLAGHER_BRENDAN
-  - type: Player
-    code: HCK-NHL-PLAYER-DANAULT_PHILLIP
-    attributes:
-      first_name: Phillip
-      last_name: Danault
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-MTL-PLAYER-DANAULT_PHILLIP
     attributes: {}
@@ -738,42 +301,11 @@ groups:
       NHL's archived club statistics; no contract or exact membership dates are asserted.
       Only the first two source-listed players are selected.
   records:
-  - type: Team
-    code: HCK-NHL-TEAM-NJD
-    attributes:
-      territory: New Jersey
-      mascot: Devils
-      abbreviation: NJD
-    references: {}
-  - type: Campaign
-    code: HCK-NHL-SEASON_2025_2026-TEAM-NJD
-    attributes:
-      display_name: New Jersey Devils
-      abbreviation: NJD
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 38
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: HCK-NHL-PLAYER-DADONOV_EVGENII
-    attributes:
-      first_name: Evgenii
-      last_name: Dadonov
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-NJD-PLAYER-DADONOV_EVGENII
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-DADONOV_EVGENII
-  - type: Player
-    code: HCK-NHL-PLAYER-DILLON_BRENDEN
-    attributes:
-      first_name: Brenden
-      last_name: Dillon
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-NJD-PLAYER-DILLON_BRENDEN
     attributes: {}
@@ -788,42 +320,11 @@ groups:
       NHL's archived club statistics; no contract or exact membership dates are asserted.
       Only the first two source-listed players are selected.
   records:
-  - type: Team
-    code: HCK-NHL-TEAM-NSH
-    attributes:
-      territory: Nashville
-      mascot: Predators
-      abbreviation: NSH
-    references: {}
-  - type: Campaign
-    code: HCK-NHL-SEASON_2025_2026-TEAM-NSH
-    attributes:
-      display_name: Nashville Predators
-      abbreviation: NSH
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 32
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: HCK-NHL-PLAYER-STAMKOS_STEVEN
-    attributes:
-      first_name: Steven
-      last_name: Stamkos
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-NSH-PLAYER-STAMKOS_STEVEN
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-STAMKOS_STEVEN
-  - type: Player
-    code: HCK-NHL-PLAYER-JOSI_ROMAN
-    attributes:
-      first_name: Roman
-      last_name: Josi
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-NSH-PLAYER-JOSI_ROMAN
     attributes: {}
@@ -838,42 +339,11 @@ groups:
       NHL's archived club statistics; no contract or exact membership dates are asserted.
       Only the first two source-listed players are selected.
   records:
-  - type: Team
-    code: HCK-NHL-TEAM-NYI
-    attributes:
-      territory: New York
-      mascot: Islanders
-      abbreviation: NYI
-    references: {}
-  - type: Campaign
-    code: HCK-NHL-SEASON_2025_2026-TEAM-NYI
-    attributes:
-      display_name: New York Islanders
-      abbreviation: NYI
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 34
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: HCK-NHL-PLAYER-PALMIERI_KYLE
-    attributes:
-      first_name: Kyle
-      last_name: Palmieri
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-NYI-PLAYER-PALMIERI_KYLE
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-PALMIERI_KYLE
-  - type: Player
-    code: HCK-NHL-PLAYER-SCHENN_BRAYDEN
-    attributes:
-      first_name: Brayden
-      last_name: Schenn
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-NYI-PLAYER-SCHENN_BRAYDEN
     attributes: {}
@@ -888,42 +358,11 @@ groups:
       NHL's archived club statistics; no contract or exact membership dates are asserted.
       Only the first two source-listed players are selected.
   records:
-  - type: Team
-    code: HCK-NHL-TEAM-NYR
-    attributes:
-      territory: New York
-      mascot: Rangers
-      abbreviation: NYR
-    references: {}
-  - type: Campaign
-    code: HCK-NHL-SEASON_2025_2026-TEAM-NYR
-    attributes:
-      display_name: New York Rangers
-      abbreviation: NYR
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 38
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: HCK-NHL-PLAYER-DOWLING_JUSTIN
-    attributes:
-      first_name: Justin
-      last_name: Dowling
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-NYR-PLAYER-DOWLING_JUSTIN
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-DOWLING_JUSTIN
-  - type: Player
-    code: HCK-NHL-PLAYER-CARRICK_SAM
-    attributes:
-      first_name: Sam
-      last_name: Carrick
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-NYR-PLAYER-CARRICK_SAM
     attributes: {}
@@ -938,30 +377,6 @@ groups:
       NHL's archived club statistics; no contract or exact membership dates are asserted.
       Only the first two source-listed players are selected.
   records:
-  - type: Team
-    code: HCK-NHL-TEAM-OTT
-    attributes:
-      territory: Ottawa
-      mascot: Senators
-      abbreviation: OTT
-    references: {}
-  - type: Campaign
-    code: HCK-NHL-SEASON_2025_2026-TEAM-OTT
-    attributes:
-      display_name: Ottawa Senators
-      abbreviation: OTT
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 37
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: HCK-NHL-PLAYER-GIROUX_CLAUDE
-    attributes:
-      first_name: Claude
-      last_name: Giroux
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-OTT-PLAYER-GIROUX_CLAUDE
     attributes: {}
@@ -981,35 +396,11 @@ groups:
       NHL's archived club statistics; no contract or exact membership dates are asserted.
       Only the first two source-listed players are selected.
   records:
-  - type: Team
-    code: HCK-NHL-TEAM-PHI
-    attributes:
-      territory: Philadelphia
-      mascot: Flyers
-      abbreviation: PHI
-    references: {}
-  - type: Campaign
-    code: HCK-NHL-SEASON_2025_2026-TEAM-PHI
-    attributes:
-      display_name: Philadelphia Flyers
-      abbreviation: PHI
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 39
-        selected_player_count: 2
-    references: {}
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-PHI-PLAYER-DESLAURIERS_NICOLAS
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-DESLAURIERS_NICOLAS
-  - type: Player
-    code: HCK-NHL-PLAYER-WILSON_GARRETT
-    attributes:
-      first_name: Garrett
-      last_name: Wilson
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-PHI-PLAYER-WILSON_GARRETT
     attributes: {}
@@ -1024,42 +415,11 @@ groups:
       NHL's archived club statistics; no contract or exact membership dates are asserted.
       Only the first two source-listed players are selected.
   records:
-  - type: Team
-    code: HCK-NHL-TEAM-PIT
-    attributes:
-      territory: Pittsburgh
-      mascot: Penguins
-      abbreviation: PIT
-    references: {}
-  - type: Campaign
-    code: HCK-NHL-SEASON_2025_2026-TEAM-PIT
-    attributes:
-      display_name: Pittsburgh Penguins
-      abbreviation: PIT
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 44
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: HCK-NHL-PLAYER-MALKIN_EVGENI
-    attributes:
-      first_name: Evgeni
-      last_name: Malkin
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-PIT-PLAYER-MALKIN_EVGENI
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-MALKIN_EVGENI
-  - type: Player
-    code: HCK-NHL-PLAYER-CROSBY_SIDNEY
-    attributes:
-      first_name: Sidney
-      last_name: Crosby
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-PIT-PLAYER-CROSBY_SIDNEY
     attributes: {}
@@ -1074,42 +434,11 @@ groups:
       NHL's archived club statistics; no contract or exact membership dates are asserted.
       Only the first two source-listed players are selected.
   records:
-  - type: Team
-    code: HCK-NHL-TEAM-SEA
-    attributes:
-      territory: Seattle
-      mascot: Kraken
-      abbreviation: SEA
-    references: {}
-  - type: Campaign
-    code: HCK-NHL-SEASON_2025_2026-TEAM-SEA
-    attributes:
-      display_name: Seattle Kraken
-      abbreviation: SEA
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 32
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: HCK-NHL-PLAYER-EBERLE_JORDAN
-    attributes:
-      first_name: Jordan
-      last_name: Eberle
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-SEA-PLAYER-EBERLE_JORDAN
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-EBERLE_JORDAN
-  - type: Player
-    code: HCK-NHL-PLAYER-SCHWARTZ_JADEN
-    attributes:
-      first_name: Jaden
-      last_name: Schwartz
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-SEA-PLAYER-SCHWARTZ_JADEN
     attributes: {}
@@ -1124,30 +453,6 @@ groups:
       NHL's archived club statistics; no contract or exact membership dates are asserted.
       Only the first two source-listed players are selected.
   records:
-  - type: Team
-    code: HCK-NHL-TEAM-SJS
-    attributes:
-      territory: San Jose
-      mascot: Sharks
-      abbreviation: SJS
-    references: {}
-  - type: Campaign
-    code: HCK-NHL-SEASON_2025_2026-TEAM-SJS
-    attributes:
-      display_name: San Jose Sharks
-      abbreviation: SJS
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 32
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: HCK-NHL-PLAYER-REAVES_RYAN
-    attributes:
-      first_name: Ryan
-      last_name: Reaves
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-SJS-PLAYER-REAVES_RYAN
     attributes: {}
@@ -1167,424 +472,176 @@ groups:
       NHL's archived club statistics; no contract or exact membership dates are asserted.
       Every source-listed player is selected.
   records:
-  - type: Campaign
-    code: HCK-NHL-SEASON_2025_2026-TEAM-STL
-    attributes:
-      display_name: St. Louis Blues
-      abbreviation: STL
-      details:
-        roster_coverage: complete_source_listing
-        source_player_count: 35
-        selected_player_count: 35
-    references: {}
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-SCHENN_BRAYDEN
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-SCHENN_BRAYDEN
-  - type: Player
-    code: HCK-NHL-PLAYER-HOLL_JUSTIN
-    attributes:
-      first_name: Justin
-      last_name: Holl
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-HOLL_JUSTIN
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-HOLL_JUSTIN
-  - type: Player
-    code: HCK-NHL-PLAYER-FAULK_JUSTIN
-    attributes:
-      first_name: Justin
-      last_name: Faulk
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-FAULK_JUSTIN
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-FAULK_JUSTIN
-  - type: Player
-    code: HCK-NHL-PLAYER-BJUGSTAD_NICK
-    attributes:
-      first_name: Nick
-      last_name: Bjugstad
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-BJUGSTAD_NICK
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-BJUGSTAD_NICK
-  - type: Player
-    code: HCK-NHL-PLAYER-FOWLER_CAM
-    attributes:
-      first_name: Cam
-      last_name: Fowler
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-FOWLER_CAM
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-FOWLER_CAM
-  - type: Player
-    code: HCK-NHL-PLAYER-PARAYKO_COLTON
-    attributes:
-      first_name: Colton
-      last_name: Parayko
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-PARAYKO_COLTON
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-PARAYKO_COLTON
-  - type: Player
-    code: HCK-NHL-PLAYER-SUNDQVIST_OSKAR
-    attributes:
-      first_name: Oskar
-      last_name: Sundqvist
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-SUNDQVIST_OSKAR
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-SUNDQVIST_OSKAR
-  - type: Player
-    code: HCK-NHL-PLAYER-BUCHNEVICH_PAVEL
-    attributes:
-      first_name: Pavel
-      last_name: Buchnevich
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-BUCHNEVICH_PAVEL
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-BUCHNEVICH_PAVEL
-  - type: Player
-    code: HCK-NHL-PLAYER-DROUIN_JONATHAN
-    attributes:
-      first_name: Jonathan
-      last_name: Drouin
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-DROUIN_JONATHAN
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-DROUIN_JONATHAN
-  - type: Player
-    code: HCK-NHL-PLAYER-WALKER_NATHAN
-    attributes:
-      first_name: Nathan
-      last_name: Walker
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-WALKER_NATHAN
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-WALKER_NATHAN
-  - type: Player
-    code: HCK-NHL-PLAYER-FABBRI_ROBBY
-    attributes:
-      first_name: Robby
-      last_name: Fabbri
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-FABBRI_ROBBY
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-FABBRI_ROBBY
-  - type: Player
-    code: HCK-NHL-PLAYER-JOSEPH_MATHIEU
-    attributes:
-      first_name: Mathieu
-      last_name: Joseph
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-JOSEPH_MATHIEU
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-JOSEPH_MATHIEU
-  - type: Player
-    code: HCK-NHL-PLAYER-KYROU_JORDAN
-    attributes:
-      first_name: Jordan
-      last_name: Kyrou
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-KYROU_JORDAN
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-KYROU_JORDAN
-  - type: Player
-    code: HCK-NHL-PLAYER-LUFF_MATT
-    attributes:
-      first_name: Matt
-      last_name: Luff
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-LUFF_MATT
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-LUFF_MATT
-  - type: Player
-    code: HCK-NHL-PLAYER-THOMAS_ROBERT
-    attributes:
-      first_name: Robert
-      last_name: Thomas
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-THOMAS_ROBERT
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-THOMAS_ROBERT
-  - type: Player
-    code: HCK-NHL-PLAYER-TEXIER_ALEXANDRE
-    attributes:
-      first_name: Alexandre
-      last_name: Texier
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-TEXIER_ALEXANDRE
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-TEXIER_ALEXANDRE
-  - type: Player
-    code: HCK-NHL-PLAYER-TOROPCHENKO_ALEXEY
-    attributes:
-      first_name: Alexey
-      last_name: Toropchenko
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-TOROPCHENKO_ALEXEY
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-TOROPCHENKO_ALEXEY
-  - type: Player
-    code: HCK-NHL-PLAYER-SUTER_PIUS
-    attributes:
-      first_name: Pius
-      last_name: Suter
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-SUTER_PIUS
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-SUTER_PIUS
-  - type: Player
-    code: HCK-NHL-PLAYER-TUCKER_TYLER
-    attributes:
-      first_name: Tyler
-      last_name: Tucker
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-TUCKER_TYLER
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-TUCKER_TYLER
-  - type: Player
-    code: HCK-NHL-PLAYER-BERGGREN_JONATAN
-    attributes:
-      first_name: Jonatan
-      last_name: Berggren
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-BERGGREN_JONATAN
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-BERGGREN_JONATAN
-  - type: Player
-    code: HCK-NHL-PLAYER-MCGING_HUGH
-    attributes:
-      first_name: Hugh
-      last_name: McGing
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-MCGING_HUGH
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-MCGING_HUGH
-  - type: Player
-    code: HCK-NHL-PLAYER-BROBERG_PHILIP
-    attributes:
-      first_name: Philip
-      last_name: Broberg
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-BROBERG_PHILIP
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-BROBERG_PHILIP
-  - type: Player
-    code: HCK-NHL-PLAYER-SKINNER_HUNTER
-    attributes:
-      first_name: Hunter
-      last_name: Skinner
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-SKINNER_HUNTER
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-SKINNER_HUNTER
-  - type: Player
-    code: HCK-NHL-PLAYER-HOLLOWAY_DYLAN
-    attributes:
-      first_name: Dylan
-      last_name: Holloway
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-HOLLOWAY_DYLAN
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-HOLLOWAY_DYLAN
-  - type: Player
-    code: HCK-NHL-PLAYER-NEIGHBOURS_JAKE
-    attributes:
-      first_name: Jake
-      last_name: Neighbours
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-NEIGHBOURS_JAKE
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-NEIGHBOURS_JAKE
-  - type: Player
-    code: HCK-NHL-PLAYER-FINLEY_JACK
-    attributes:
-      first_name: Jack
-      last_name: Finley
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-FINLEY_JACK
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-FINLEY_JACK
-  - type: Player
-    code: HCK-NHL-PLAYER-KESSEL_MATTHEW
-    attributes:
-      first_name: Matthew
-      last_name: Kessel
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-KESSEL_MATTHEW
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-KESSEL_MATTHEW
-  - type: Player
-    code: HCK-NHL-PLAYER-MAILLOUX_LOGAN
-    attributes:
-      first_name: Logan
-      last_name: Mailloux
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-MAILLOUX_LOGAN
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-MAILLOUX_LOGAN
-  - type: Player
-    code: HCK-NHL-PLAYER-KASKIMAKI_ALEKSANTERI
-    attributes:
-      first_name: Aleksanteri
-      last_name: Kaskimaki
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-KASKIMAKI_ALEKSANTERI
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-KASKIMAKI_ALEKSANTERI
-  - type: Player
-    code: HCK-NHL-PLAYER-SNUGGERUD_JIMMY
-    attributes:
-      first_name: Jimmy
-      last_name: Snuggerud
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-SNUGGERUD_JIMMY
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-SNUGGERUD_JIMMY
-  - type: Player
-    code: HCK-NHL-PLAYER-DVORSKY_DALIBOR
-    attributes:
-      first_name: Dalibor
-      last_name: Dvorsky
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-DVORSKY_DALIBOR
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-DVORSKY_DALIBOR
-  - type: Player
-    code: HCK-NHL-PLAYER-LINDSTEIN_THEO
-    attributes:
-      first_name: Theo
-      last_name: Lindstein
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-LINDSTEIN_THEO
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-LINDSTEIN_THEO
-  - type: Player
-    code: HCK-NHL-PLAYER-STENBERG_OTTO
-    attributes:
-      first_name: Otto
-      last_name: Stenberg
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-STENBERG_OTTO
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-STENBERG_OTTO
-  - type: Player
-    code: HCK-NHL-PLAYER-BINNINGTON_JORDAN
-    attributes:
-      first_name: Jordan
-      last_name: Binnington
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-BINNINGTON_JORDAN
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-BINNINGTON_JORDAN
-  - type: Player
-    code: HCK-NHL-PLAYER-HOFER_JOEL
-    attributes:
-      first_name: Joel
-      last_name: Hofer
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-STL-PLAYER-HOFER_JOEL
     attributes: {}
@@ -1599,35 +656,11 @@ groups:
       NHL's archived club statistics; no contract or exact membership dates are asserted.
       Only the first two source-listed players are selected.
   records:
-  - type: Team
-    code: HCK-NHL-TEAM-TBL
-    attributes:
-      territory: Tampa Bay
-      mascot: Lightning
-      abbreviation: TBL
-    references: {}
-  - type: Campaign
-    code: HCK-NHL-SEASON_2025_2026-TEAM-TBL
-    attributes:
-      display_name: Tampa Bay Lightning
-      abbreviation: TBL
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 36
-        selected_player_count: 2
-    references: {}
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-TBL-PLAYER-PERRY_COREY
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-PERRY_COREY
-  - type: Player
-    code: HCK-NHL-PLAYER-MCDONAGH_RYAN
-    attributes:
-      first_name: Ryan
-      last_name: McDonagh
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-TBL-PLAYER-MCDONAGH_RYAN
     attributes: {}
@@ -1642,42 +675,11 @@ groups:
       NHL's archived club statistics; no contract or exact membership dates are asserted.
       Only the first two source-listed players are selected.
   records:
-  - type: Team
-    code: HCK-NHL-TEAM-TOR
-    attributes:
-      territory: Toronto
-      mascot: Maple Leafs
-      abbreviation: TOR
-    references: {}
-  - type: Campaign
-    code: HCK-NHL-SEASON_2025_2026-TEAM-TOR
-    attributes:
-      display_name: Toronto Maple Leafs
-      abbreviation: TOR
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 38
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: HCK-NHL-PLAYER-TAVARES_JOHN
-    attributes:
-      first_name: John
-      last_name: Tavares
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-TOR-PLAYER-TAVARES_JOHN
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-TAVARES_JOHN
-  - type: Player
-    code: HCK-NHL-PLAYER-EKMAN_LARSSON_OLIVER
-    attributes:
-      first_name: Oliver
-      last_name: Ekman-Larsson
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-TOR-PLAYER-EKMAN_LARSSON_OLIVER
     attributes: {}
@@ -1692,42 +694,11 @@ groups:
       NHL's archived club statistics; no contract or exact membership dates are asserted.
       Only the first two source-listed players are selected.
   records:
-  - type: Team
-    code: HCK-NHL-TEAM-UTA
-    attributes:
-      territory: Utah
-      mascot: Mammoth
-      abbreviation: UTA
-    references: {}
-  - type: Campaign
-    code: HCK-NHL-SEASON_2025_2026-TEAM-UTA
-    attributes:
-      display_name: Utah Mammoth
-      abbreviation: UTA
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 29
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: HCK-NHL-PLAYER-COLE_IAN
-    attributes:
-      first_name: Ian
-      last_name: Cole
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-UTA-PLAYER-COLE_IAN
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-COLE_IAN
-  - type: Player
-    code: HCK-NHL-PLAYER-AGOZZINO_ANDREW
-    attributes:
-      first_name: Andrew
-      last_name: Agozzino
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-UTA-PLAYER-AGOZZINO_ANDREW
     attributes: {}
@@ -1742,35 +713,11 @@ groups:
       NHL's archived club statistics; no contract or exact membership dates are asserted.
       Only the first two source-listed players are selected.
   records:
-  - type: Team
-    code: HCK-NHL-TEAM-VAN
-    attributes:
-      territory: Vancouver
-      mascot: Canucks
-      abbreviation: VAN
-    references: {}
-  - type: Campaign
-    code: HCK-NHL-SEASON_2025_2026-TEAM-VAN
-    attributes:
-      display_name: Vancouver Canucks
-      abbreviation: VAN
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 40
-        selected_player_count: 2
-    references: {}
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-VAN-PLAYER-MYERS_TYLER
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-MYERS_TYLER
-  - type: Player
-    code: HCK-NHL-PLAYER-KANE_EVANDER
-    attributes:
-      first_name: Evander
-      last_name: Kane
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-VAN-PLAYER-KANE_EVANDER
     attributes: {}
@@ -1785,42 +732,11 @@ groups:
       NHL's archived club statistics; no contract or exact membership dates are asserted.
       Only the first two source-listed players are selected.
   records:
-  - type: Team
-    code: HCK-NHL-TEAM-VGK
-    attributes:
-      territory: Vegas
-      mascot: Golden Knights
-      abbreviation: VGK
-    references: {}
-  - type: Campaign
-    code: HCK-NHL-SEASON_2025_2026-TEAM-VGK
-    attributes:
-      display_name: Vegas Golden Knights
-      abbreviation: VGK
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 35
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: HCK-NHL-PLAYER-MCNABB_BRAYDEN
-    attributes:
-      first_name: Brayden
-      last_name: McNabb
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-VGK-PLAYER-MCNABB_BRAYDEN
     attributes: {}
     references:
       player: HCK-NHL-PLAYER-MCNABB_BRAYDEN
-  - type: Player
-    code: HCK-NHL-PLAYER-SMITH_REILLY
-    attributes:
-      first_name: Reilly
-      last_name: Smith
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-VGK-PLAYER-SMITH_REILLY
     attributes: {}
@@ -1835,30 +751,6 @@ groups:
       NHL's archived club statistics; no contract or exact membership dates are asserted.
       Only the first two source-listed players are selected.
   records:
-  - type: Team
-    code: HCK-NHL-TEAM-WPG
-    attributes:
-      territory: Winnipeg
-      mascot: Jets
-      abbreviation: WPG
-    references: {}
-  - type: Campaign
-    code: HCK-NHL-SEASON_2025_2026-TEAM-WPG
-    attributes:
-      display_name: Winnipeg Jets
-      abbreviation: WPG
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 35
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: HCK-NHL-PLAYER-TOEWS_JONATHAN
-    attributes:
-      first_name: Jonathan
-      last_name: Toews
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-WPG-PLAYER-TOEWS_JONATHAN
     attributes: {}
@@ -1878,30 +770,6 @@ groups:
       NHL's archived club statistics; no contract or exact membership dates are asserted.
       Only the first two source-listed players are selected.
   records:
-  - type: Team
-    code: HCK-NHL-TEAM-WSH
-    attributes:
-      territory: Washington
-      mascot: Capitals
-      abbreviation: WSH
-    references: {}
-  - type: Campaign
-    code: HCK-NHL-SEASON_2025_2026-TEAM-WSH
-    attributes:
-      display_name: Washington Capitals
-      abbreviation: WSH
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 32
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: HCK-NHL-PLAYER-OVECHKIN_ALEX
-    attributes:
-      first_name: Alex
-      last_name: Ovechkin
-    references:
-      sport: SPORT-HCK
   - type: Activation
     code: HCK-NHL-SEASON_2025_2026-TEAM-WSH-PLAYER-OVECHKIN_ALEX
     attributes: {}

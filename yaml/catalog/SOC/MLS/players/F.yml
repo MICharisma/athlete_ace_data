@@ -1,0 +1,547 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: SOC-MLS-PLAYER-FADAL_ALI
+  aliases:
+  - SOC-ESPN-PLAYER_377767
+  attributes:
+    first_name: Ali
+    last_name: Fadal
+    birthdate: '2004-01-14'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/184/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FAELLO_CONNOR
+  aliases:
+  - SOC-ESPN-PLAYER_3143898
+  attributes:
+    first_name: Connor
+    last_name: Faello
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/190/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FAGUNDEZ_DIEGO
+  aliases:
+  - SOC-ESPN-PLAYER_156187
+  attributes:
+    first_name: Diego
+    last_name: Fagundez
+    birthdate: '1995-02-14'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/156187.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/189/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FALCON_MAXIMILIANO
+  aliases:
+  - SOC-ESPN-PLAYER_310279
+  attributes:
+    first_name: Maximiliano
+    last_name: Falcón
+    birthdate: '1997-05-01'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/20232/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FALL_FALLOU
+  aliases:
+  - SOC-ESPN-PLAYER_355253
+  attributes:
+    first_name: Fallou
+    last_name: Fall
+    birthdate: '2006-03-08'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/21812/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FALL_MAMADOU
+  aliases:
+  - SOC-ESPN-PLAYER_387925
+  attributes:
+    first_name: Mamadou
+    last_name: Fall
+    birthdate: '2002-11-21'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/21812/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FARNOS_ARNAU
+  aliases:
+  - SOC-ESPN-PLAYER_421313
+  attributes:
+    first_name: Arnau
+    last_name: Farnós
+    birthdate: '2003-01-18'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/17606/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FARRAR_CHARLIE
+  aliases:
+  - SOC-ESPN-PLAYER_3123563
+  attributes:
+    first_name: Charlie
+    last_name: Farrar
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/20906/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FARRELL_ANDREW
+  aliases:
+  - SOC-ESPN-PLAYER_183796
+  attributes:
+    first_name: Andrew
+    last_name: Farrell
+    birthdate: '1992-04-02'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/183796.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/189/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FARRINGTON_LOGAN
+  aliases:
+  - SOC-ESPN-PLAYER_348870
+  attributes:
+    first_name: Logan
+    last_name: Farrington
+    birthdate: '2001-12-14'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/185/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FARR_JORDAN
+  aliases:
+  - SOC-ESPN-PLAYER_271514
+  attributes:
+    first_name: Jordan
+    last_name: Farr
+    birthdate: '1994-10-05'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/193/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FARSI_MOHAMED
+  aliases:
+  - SOC-ESPN-PLAYER_317021
+  attributes:
+    first_name: Mohamed
+    last_name: Farsi
+    birthdate: '1999-12-16'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/317021.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/183/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FEINGOLD_ILAY
+  aliases:
+  - SOC-ESPN-PLAYER_343191
+  attributes:
+    first_name: Ilay
+    last_name: Feingold
+    birthdate: '2004-08-23'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/189/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FERNANDEZ_NICK
+  aliases:
+  - SOC-ESPN-PLAYER_400722
+  attributes:
+    first_name: Nick
+    last_name: Fernandez
+    birthdate: '2001-12-22'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/191/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FERNANDEZ_NICOLAS
+  aliases:
+  - SOC-ESPN-PLAYER_108107
+  attributes:
+    first_name: Nicolás
+    last_name: Fernández
+    birthdate: '2000-01-11'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/17606/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FERNANDEZ_OMIR
+  aliases:
+  - SOC-ESPN-PLAYER_252818
+  attributes:
+    first_name: Omir
+    last_name: Fernández
+    birthdate: '1999-02-08'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/252818.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/9723/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FERREE_DURAN
+  aliases:
+  - SOC-ESPN-PLAYER_336963
+  attributes:
+    first_name: Duran
+    last_name: Ferree
+    birthdate: '2006-09-28'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/22529/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FERREIRA_JESUS
+  aliases:
+  - SOC-ESPN-PLAYER_251571
+  attributes:
+    first_name: Jesús
+    last_name: Ferreira
+    birthdate: '2000-12-24'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/251571.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/9726/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FISHER_REID
+  aliases:
+  - SOC-ESPN-PLAYER_381755
+  attributes:
+    first_name: Reid
+    last_name: Fisher
+    birthdate: '2004-05-26'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/7318/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FLAX_COOPER
+  aliases:
+  - SOC-ESPN-PLAYER_301472
+  attributes:
+    first_name: Cooper
+    last_name: Flax
+    birthdate: '2004-01-21'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/17606/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FLETCHER_KRISTIAN
+  aliases:
+  - SOC-ESPN-PLAYER_340690
+  attributes:
+    first_name: Kristian
+    last_name: Fletcher
+    birthdate: '2005-08-06'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/340690.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/18267/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FLORIANI_MAX
+  aliases:
+  - SOC-ESPN-PLAYER_331616
+  attributes:
+    first_name: Max
+    last_name: Floriani
+    birthdate: '2003-02-06'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/191/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FLOWERS_BENJAMIN
+  aliases:
+  - SOC-ESPN-PLAYER_3111228
+  attributes:
+    first_name: Benjamin
+    last_name: Flowers
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/185/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FOFANA_MAMADOU
+  aliases:
+  - SOC-ESPN-PLAYER_164551
+  attributes:
+    first_name: Mamadou
+    last_name: Fofana
+    birthdate: '1998-01-21'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/189/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FORSBERG_EMIL
+  aliases:
+  - SOC-ESPN-PLAYER_148641
+  attributes:
+    first_name: Emil
+    last_name: Forsberg
+    birthdate: '1991-10-23'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/190/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FORTUNE_JAY
+  aliases:
+  - SOC-ESPN-PLAYER_304153
+  attributes:
+    first_name: Jay
+    last_name: Fortune
+    birthdate: '2002-12-30'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/304153.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/18418/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FORY_JIMER
+  aliases:
+  - SOC-ESPN-PLAYER_301463
+  attributes:
+    first_name: Jimer
+    last_name: Fory
+    birthdate: '2002-05-24'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/9723/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FOSTER_LYLE
+  aliases:
+  - SOC-ESPN-PLAYER_264751
+  attributes:
+    first_name: Lyle
+    last_name: Foster
+    birthdate: '2000-09-03'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/6077/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FRANCO_ANDRE
+  aliases:
+  - SOC-ESPN-PLAYER_321363
+  attributes:
+    first_name: André
+    last_name: Franco
+    birthdate: '1998-04-12'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/182/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FRANKLIN_KOBE
+  aliases:
+  - SOC-ESPN-PLAYER_298072
+  attributes:
+    first_name: Kobe
+    last_name: Franklin
+    birthdate: '2003-05-10'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/7318/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FRAY_IAN
+  aliases:
+  - SOC-ESPN-PLAYER_316269
+  attributes:
+    first_name: Ian
+    last_name: Fray
+    birthdate: '2002-08-31'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/316269.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/20232/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FREDERICK_WAYNE
+  aliases:
+  - SOC-ESPN-PLAYER_380600
+  attributes:
+    first_name: Wayne
+    last_name: Frederick
+    birthdate: '2004-06-13'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/184/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FREESE_MATT
+  aliases:
+  - SOC-ESPN-PLAYER_252974
+  attributes:
+    first_name: Matt
+    last_name: Freese
+    birthdate: '1998-09-02'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/252974.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/17606/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FREI_STEFAN
+  aliases:
+  - SOC-ESPN-PLAYER_131979
+  attributes:
+    first_name: Stefan
+    last_name: Frei
+    birthdate: '1986-04-20'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/131979.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/9726/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-FURUHASHI_KYOGO
+  aliases:
+  - SOC-ESPN-PLAYER_276904
+  attributes:
+    first_name: Kyogo
+    last_name: Furuhashi
+    birthdate: '1995-01-20'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/187/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.

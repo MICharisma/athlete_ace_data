@@ -2,6 +2,7 @@ require "fileutils"
 require "json"
 require "yaml"
 require_relative "../../../../lib/micharisma_seeders/lib/micharisma_seeders"
+require_relative "lib/seed_catalog"
 
 # Builds the 2026-27 Ivy League basketball manifests offline from the
 # captures in sources/ncaa_ivy_2026. Men's and women's programs are separate
@@ -20,6 +21,7 @@ class NcaaIvy2026Builder
 
   def initialize(check: false)
     @check = check
+    @writer = SeedCatalog::Writer.new(check: check)
     registry = MICharismaSeeders::SequenceRegistry.read(File.join(ROOT, "yaml/entity_sequences.yaml"))
     reader = MICharismaSeeders::Reader.new(registry: registry)
     paths = Dir.glob(File.join(ROOT, "yaml/**/*.{yaml,yml,json}")).reject { |path| path.include?("/ncaa_ivy_2026/") || path.end_with?("entity_sequences.yaml") }
@@ -42,13 +44,7 @@ class NcaaIvy2026Builder
   end
 
   def write(path, document)
-    contents = YAML.dump(JSON.parse(JSON.generate(document)))
-    if @check
-      raise "Generated file differs: #{path}" unless File.file?(path) && File.read(path, encoding: "UTF-8") == contents
-    else
-      FileUtils.mkdir_p(File.dirname(path))
-      File.write(path, contents)
-    end
+    @writer.write_batch(path, document) # Identities go to the catalog.
   end
 
   def build(feed)
@@ -145,6 +141,7 @@ class NcaaIvy2026Builder
 
   def run
     FEEDS.each { |feed| build(feed) }
+    @writer.finish(codes_path: File.join(SOURCES, "catalog_codes.json"))
     @report["identity_bindings"].sort_by! { |row| [ row.fetch("league"), row.fetch("source_id").to_i ] }
     report = JSON.pretty_generate(@report) + "\n"
     path = File.join(SOURCES, "report.json")

@@ -1,0 +1,45 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: City
+  code: CITY-JP-24-SUZUKA
+  attributes:
+    name: Suzuka
+  references:
+    state: STATE-JP-24
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/suzuka.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Country
+  code: COUNTRY-JP
+  attributes:
+    name: Japan
+    abbreviation: JP
+  references: {}
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:JP
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: State
+  code: STATE-JP-24
+  attributes:
+    name: Mie
+    abbreviation: '24'
+  references:
+    country: COUNTRY-JP
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:JP
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.

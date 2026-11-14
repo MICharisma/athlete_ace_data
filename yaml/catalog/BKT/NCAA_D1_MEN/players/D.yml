@@ -1,0 +1,124 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-DABO_N_FAMARA
+  aliases:
+  - BKT-ESPN-PLAYER_5175857
+  attributes:
+    first_name: N'famara
+    last_name: Dabo
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5175857.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/225/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-DAVIS_CARSON
+  aliases:
+  - BKT-ESPN-PLAYER_5460043
+  attributes:
+    first_name: Carson
+    last_name: Davis
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5460043.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/172/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-DAVIS_DALEN
+  aliases:
+  - BKT-ESPN-PLAYER_5177175
+  attributes:
+    first_name: Dalen
+    last_name: Davis
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5177175.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/163/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-DEGRAAF_WYATT
+  aliases:
+  - BKT-ESPN-PLAYER_5241709
+  attributes:
+    first_name: Wyatt
+    last_name: DeGraaf
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5241709.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/225/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-DOWDELL_DUTCH
+  aliases:
+  - BKT-ESPN-PLAYER_5241729
+  attributes:
+    first_name: Dutch
+    last_name: Dowdell
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5241729.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/108/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-DREZNER_JONAH
+  aliases:
+  - BKT-ESPN-PLAYER_5312600
+  attributes:
+    first_name: Jonah
+    last_name: Drezner
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5312600.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/225/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-DROR_AVNER
+  aliases:
+  - BKT-ESPN-PLAYER_5313719
+  attributes:
+    first_name: Avner
+    last_name: Dror
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5313719.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/108/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.

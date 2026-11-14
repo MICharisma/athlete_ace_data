@@ -1,0 +1,1136 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: HCK-NHL-PLAYER-KADRI_NAZEM
+  attributes:
+    first_name: Nazem
+    last_name: Kadri
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/CGY/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Player
+  code: HCK-NHL-PLAYER-KAISER_WYATT
+  attributes:
+    first_name: Wyatt
+    last_name: Kaiser
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/CHI/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KAKKO_KAAPO
+  attributes:
+    first_name: Kaapo
+    last_name: Kakko
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/SEA/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KALIYEV_ARTHUR
+  attributes:
+    first_name: Arthur
+    last_name: Kaliyev
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/OTT/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KAMPF_DAVID
+  attributes:
+    first_name: David
+    last_name: Kampf
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/VAN/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KANE_EVANDER
+  attributes:
+    first_name: Evander
+    last_name: Kane
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/VAN/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Player
+  code: HCK-NHL-PLAYER-KANE_PATRICK
+  attributes:
+    first_name: Patrick
+    last_name: Kane
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/DET/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KANTSEROV_ROMAN
+  aliases:
+  - HCK-NHL-PLAYER_8484390
+  attributes:
+    first_name: Roman
+    last_name: Kantserov
+    birthdate: '2004-09-20'
+    photo_urls:
+    - https://assets.nhle.com/mugs/nhl/20262027/CHI/8484390.png
+  references:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/roster/CHI/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Player
+  code: HCK-NHL-PLAYER-KAPANEN_KASPERI
+  attributes:
+    first_name: Kasperi
+    last_name: Kapanen
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/EDM/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KAPANEN_OLIVER
+  attributes:
+    first_name: Oliver
+    last_name: Kapanen
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/MTL/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KAPRIZOV_KIRILL
+  attributes:
+    first_name: Kirill
+    last_name: Kaprizov
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/MIN/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KARLSSON_ERIK
+  attributes:
+    first_name: Erik
+    last_name: Karlsson
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/PIT/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KARLSSON_LINUS
+  attributes:
+    first_name: Linus
+    last_name: Karlsson
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/VAN/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KARLSSON_WILLIAM
+  attributes:
+    first_name: William
+    last_name: Karlsson
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/VGK/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KARTYE_TYE
+  attributes:
+    first_name: Tye
+    last_name: Kartye
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/NYR/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KASKIMAKI_ALEKSANTERI
+  attributes:
+    first_name: Aleksanteri
+    last_name: Kaskimaki
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/STL/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected.
+- type: Player
+  code: HCK-NHL-PLAYER-KASPER_MARCO
+  attributes:
+    first_name: Marco
+    last_name: Kasper
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/DET/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KASTELIC_MARK
+  attributes:
+    first_name: Mark
+    last_name: Kastelic
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/BOS/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KATCHOUK_BORIS
+  attributes:
+    first_name: Boris
+    last_name: Katchouk
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/TBL/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KELLER_CLAYTON
+  attributes:
+    first_name: Clayton
+    last_name: Keller
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/UTA/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KELLY_PARKER
+  attributes:
+    first_name: Parker
+    last_name: Kelly
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/COL/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KEMELL_JOAKIM
+  attributes:
+    first_name: Joakim
+    last_name: Kemell
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/NSH/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KEMPE_ADRIAN
+  attributes:
+    first_name: Adrian
+    last_name: Kempe
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/LAK/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KERFOOT_ALEXANDER
+  attributes:
+    first_name: Alexander
+    last_name: Kerfoot
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/UTA/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KERINS_RORY
+  attributes:
+    first_name: Rory
+    last_name: Kerins
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/CGY/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KESSELRING_MICHAEL
+  attributes:
+    first_name: Michael
+    last_name: Kesselring
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/BUF/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KESSEL_MATTHEW
+  attributes:
+    first_name: Matthew
+    last_name: Kessel
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/STL/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected.
+- type: Player
+  code: HCK-NHL-PLAYER-KHUSNUTDINOV_MARAT
+  attributes:
+    first_name: Marat
+    last_name: Khusnutdinov
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/BOS/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KIERSTED_MATT
+  attributes:
+    first_name: Matt
+    last_name: Kiersted
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/MIN/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KILLORN_ALEX
+  attributes:
+    first_name: Alex
+    last_name: Killorn
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/ANA/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Player
+  code: HCK-NHL-PLAYER-KINDEL_BEN
+  attributes:
+    first_name: Ben
+    last_name: Kindel
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/PIT/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KIRKLAND_JUSTIN
+  attributes:
+    first_name: Justin
+    last_name: Kirkland
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/CGY/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KIVIRANTA_JOEL
+  attributes:
+    first_name: Joel
+    last_name: Kiviranta
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/COL/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KLAPKA_ADAM
+  attributes:
+    first_name: Adam
+    last_name: Klapka
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/CGY/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KLEPOV_NIKITA
+  aliases:
+  - HCK-NHL-PLAYER_8486052
+  attributes:
+    first_name: Nikita
+    last_name: Klepov
+    birthdate: '2008-06-27'
+    photo_urls:
+    - https://assets.nhle.com/mugs/nhl/20262027/ANA/8486052.png
+  references:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/roster/ANA/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Player
+  code: HCK-NHL-PLAYER-KLEVEN_TYLER
+  attributes:
+    first_name: Tyler
+    last_name: Kleven
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/OTT/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KLINGBERG_JOHN
+  attributes:
+    first_name: John
+    last_name: Klingberg
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/SJS/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KNIES_MATTHEW
+  attributes:
+    first_name: Matthew
+    last_name: Knies
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/TOR/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KNIGHT_SPENCER
+  attributes:
+    first_name: Spencer
+    last_name: Knight
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/CHI/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KNUBLE_COLE
+  aliases:
+  - HCK-NHL-PLAYER_8483787
+  attributes:
+    first_name: Cole
+    last_name: Knuble
+    birthdate: '2004-07-01'
+    photo_urls:
+    - https://assets.nhle.com/mugs/nhl/20262027/PHI/8483787.png
+  references:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/roster/PHI/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Player
+  code: HCK-NHL-PLAYER-KOCHETKOV_PYOTR
+  attributes:
+    first_name: Pyotr
+    last_name: Kochetkov
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/CAR/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KOEPKE_COLE
+  attributes:
+    first_name: Cole
+    last_name: Koepke
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/WPG/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KOIVUNEN_VILLE
+  attributes:
+    first_name: Ville
+    last_name: Koivunen
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/PIT/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KOKKO_NIKKE
+  attributes:
+    first_name: Nikke
+    last_name: Kokko
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/SEA/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KOLESAR_KEEGAN
+  attributes:
+    first_name: Keegan
+    last_name: Kolesar
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/VGK/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KOLOSOV_ALEKSEI
+  attributes:
+    first_name: Aleksei
+    last_name: Kolosov
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/PHI/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KOLYACHONOK_VLADISLAV
+  attributes:
+    first_name: Vladislav
+    last_name: Kolyachonok
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/BOS/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KONECNY_TRAVIS
+  attributes:
+    first_name: Travis
+    last_name: Konecny
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/PHI/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KOPITAR_ANZE
+  attributes:
+    first_name: Anze
+    last_name: Kopitar
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/LAK/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Player
+  code: HCK-NHL-PLAYER-KOPPANEN_JOONA
+  attributes:
+    first_name: Joona
+    last_name: Koppanen
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/PIT/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KORCHINSKI_KEVIN
+  attributes:
+    first_name: Kevin
+    last_name: Korchinski
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/CHI/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KORCZAK_KAEDAN
+  attributes:
+    first_name: Kaedan
+    last_name: Korczak
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/VGK/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KORPISALO_JOONAS
+  attributes:
+    first_name: Joonas
+    last_name: Korpisalo
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/BOS/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KOTKANIEMI_JESPERI
+  attributes:
+    first_name: Jesperi
+    last_name: Kotkaniemi
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/CAR/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KOVACEVIC_JOHNATHAN
+  attributes:
+    first_name: Johnathan
+    last_name: Kovacevic
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/NJD/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KOZAK_TYSON
+  attributes:
+    first_name: Tyson
+    last_name: Kozak
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/BUF/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KREBS_PEYTON
+  attributes:
+    first_name: Peyton
+    last_name: Krebs
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/BUF/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KREIDER_CHRIS
+  attributes:
+    first_name: Chris
+    last_name: Kreider
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/ANA/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KUCHEROV_NIKITA
+  attributes:
+    first_name: Nikita
+    last_name: Kucherov
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/TBL/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KUDRYAVTSEV_KIRILL
+  attributes:
+    first_name: Kirill
+    last_name: Kudryavtsev
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/VAN/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KUEMPER_DARCY
+  attributes:
+    first_name: Darcy
+    last_name: Kuemper
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/LAK/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KULAK_BRETT
+  attributes:
+    first_name: Brett
+    last_name: Kulak
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/COL/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KULICH_JIRI
+  attributes:
+    first_name: Jiri
+    last_name: Kulich
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/BUF/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KULIKOV_DMITRY
+  attributes:
+    first_name: Dmitry
+    last_name: Kulikov
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/FLA/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KUNIN_LUKE
+  attributes:
+    first_name: Luke
+    last_name: Kunin
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/FLA/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KUNTAR_TREVOR
+  attributes:
+    first_name: Trevor
+    last_name: Kuntar
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/BUF/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KURALY_SEAN
+  attributes:
+    first_name: Sean
+    last_name: Kuraly
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/BOS/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Only the first two source-listed players are selected.
+- type: Player
+  code: HCK-NHL-PLAYER-KURASHEV_PHILIPP
+  attributes:
+    first_name: Philipp
+    last_name: Kurashev
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/SJS/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KUZMENKO_ANDREI
+  attributes:
+    first_name: Andrei
+    last_name: Kuzmenko
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/LAK/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KUZNETSOV_YAN
+  attributes:
+    first_name: Yan
+    last_name: Kuznetsov
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/CGY/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected. Additional definitions supplement the
+      existing catalog; existing rows are not replaced.
+- type: Player
+  code: HCK-NHL-PLAYER-KYROU_JORDAN
+  attributes:
+    first_name: Jordan
+    last_name: Kyrou
+  references:
+    sport: SPORT-HCK
+  scope:
+    sport: SPORT-HCK
+  source:
+    url: https://api-web.nhle.com/v1/club-stats/STL/20252026/2
+    captured_on: '2026-10-05'
+    note: All skaters and goalies with 2025_2026 regular-season appearances in the
+      NHL's archived club statistics; no contract or exact membership dates are asserted.
+      Every source-listed player is selected.

@@ -1,0 +1,484 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Team
+  code: FTB-NFL-TEAM-ARI
+  attributes:
+    territory: Arizona
+    mascot: Cardinals
+    abbreviation: ARI
+  references: {}
+  scope:
+    league: FTB-LEAGUE-NFL
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/arizona-cardinals
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Team
+  code: FTB-NFL-TEAM-ATL
+  attributes:
+    territory: Atlanta
+    mascot: Falcons
+    abbreviation: ATL
+  references: {}
+  scope:
+    league: FTB-LEAGUE-NFL
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/atlanta-falcons
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Team
+  code: FTB-NFL-TEAM-BAL
+  attributes:
+    territory: Baltimore
+    mascot: Ravens
+    abbreviation: BAL
+  references: {}
+  scope:
+    league: FTB-LEAGUE-NFL
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/baltimore-ravens
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Team
+  code: FTB-NFL-TEAM-BUF
+  attributes:
+    territory: Buffalo
+    mascot: Bills
+    abbreviation: BUF
+  references: {}
+  scope:
+    league: FTB-LEAGUE-NFL
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/buffalo-bills
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Team
+  code: FTB-NFL-TEAM-CAR
+  attributes:
+    territory: Carolina
+    mascot: Panthers
+    abbreviation: CAR
+  references: {}
+  scope:
+    league: FTB-LEAGUE-NFL
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/carolina-panthers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Team
+  code: FTB-NFL-TEAM-CHI
+  attributes:
+    territory: Chicago
+    mascot: Bears
+    abbreviation: CHI
+  references: {}
+  scope:
+    league: FTB-LEAGUE-NFL
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/chicago-bears
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Team
+  code: FTB-NFL-TEAM-CIN
+  attributes:
+    territory: Cincinnati
+    mascot: Bengals
+    abbreviation: CIN
+  references: {}
+  scope:
+    league: FTB-LEAGUE-NFL
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/cincinnati-bengals
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Team
+  code: FTB-NFL-TEAM-CLE
+  attributes:
+    territory: Cleveland
+    mascot: Browns
+    abbreviation: CLE
+  references: {}
+  scope:
+    league: FTB-LEAGUE-NFL
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/cleveland-browns
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Team
+  code: FTB-NFL-TEAM-DAL
+  attributes:
+    territory: Dallas
+    mascot: Cowboys
+    abbreviation: DAL
+  references: {}
+  scope:
+    league: FTB-LEAGUE-NFL
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/dallas-cowboys
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Team
+  code: FTB-NFL-TEAM-DEN
+  attributes:
+    territory: Denver
+    mascot: Broncos
+    abbreviation: DEN
+  references: {}
+  scope:
+    league: FTB-LEAGUE-NFL
+  source:
+    url: https://www.denverbroncos.com/news/broncos-agree-trade-emmanuel-sanders-to-49ers-draft-picks
+    note: 'Sample 2019 season union: retain Denver and San Francisco memberships;
+      not a complete roster.'
+    published_on: '2019-10-22'
+- type: Team
+  code: FTB-NFL-TEAM-DET
+  attributes:
+    territory: Detroit
+    mascot: Lions
+    abbreviation: DET
+  references: {}
+  scope:
+    league: FTB-LEAGUE-NFL
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/detroit-lions
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Team
+  code: FTB-NFL-TEAM-GB
+  attributes:
+    territory: Green Bay
+    mascot: Packers
+    abbreviation: GB
+  references: {}
+  scope:
+    league: FTB-LEAGUE-NFL
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/green-bay-packers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Team
+  code: FTB-NFL-TEAM-HOU
+  attributes:
+    territory: Houston
+    mascot: Texans
+    abbreviation: HOU
+  references: {}
+  scope:
+    league: FTB-LEAGUE-NFL
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/houston-texans
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Team
+  code: FTB-NFL-TEAM-IND
+  attributes:
+    territory: Indianapolis
+    mascot: Colts
+    abbreviation: IND
+  references: {}
+  scope:
+    league: FTB-LEAGUE-NFL
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/indianapolis-colts
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Team
+  code: FTB-NFL-TEAM-JAX
+  attributes:
+    territory: Jacksonville
+    mascot: Jaguars
+    abbreviation: JAX
+  references: {}
+  scope:
+    league: FTB-LEAGUE-NFL
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/jacksonville-jaguars
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Team
+  code: FTB-NFL-TEAM-KC
+  attributes:
+    territory: Kansas City
+    mascot: Chiefs
+    abbreviation: KC
+  references: {}
+  scope:
+    league: FTB-LEAGUE-NFL
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/kansas-city-chiefs
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Team
+  code: FTB-NFL-TEAM-LAC
+  attributes:
+    territory: Los Angeles
+    mascot: Chargers
+    abbreviation: LAC
+  references: {}
+  scope:
+    league: FTB-LEAGUE-NFL
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/los-angeles-chargers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Team
+  code: FTB-NFL-TEAM-LAR
+  attributes:
+    territory: Los Angeles
+    mascot: Rams
+    abbreviation: LAR
+  references: {}
+  scope:
+    league: FTB-LEAGUE-NFL
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/los-angeles-rams
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Team
+  code: FTB-NFL-TEAM-MIA
+  attributes:
+    territory: Miami
+    mascot: Dolphins
+    abbreviation: MIA
+  references: {}
+  scope:
+    league: FTB-LEAGUE-NFL
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/miami-dolphins
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Team
+  code: FTB-NFL-TEAM-MIN
+  attributes:
+    territory: Minnesota
+    mascot: Vikings
+    abbreviation: MIN
+  references: {}
+  scope:
+    league: FTB-LEAGUE-NFL
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/minnesota-vikings
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Team
+  code: FTB-NFL-TEAM-NE
+  attributes:
+    territory: New England
+    mascot: Patriots
+    abbreviation: NE
+  references: {}
+  scope:
+    league: FTB-LEAGUE-NFL
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/new-england-patriots
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Team
+  code: FTB-NFL-TEAM-NO
+  attributes:
+    territory: New Orleans
+    mascot: Saints
+    abbreviation: 'NO'
+  references: {}
+  scope:
+    league: FTB-LEAGUE-NFL
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/new-orleans-saints
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Team
+  code: FTB-NFL-TEAM-NYG
+  attributes:
+    territory: New York
+    mascot: Giants
+    abbreviation: NYG
+  references: {}
+  scope:
+    league: FTB-LEAGUE-NFL
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/new-york-giants
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Team
+  code: FTB-NFL-TEAM-NYJ
+  attributes:
+    territory: New York
+    mascot: Jets
+    abbreviation: NYJ
+  references: {}
+  scope:
+    league: FTB-LEAGUE-NFL
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/new-york-jets
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Team
+  code: FTB-NFL-TEAM-PHI
+  attributes:
+    territory: Philadelphia
+    mascot: Eagles
+    abbreviation: PHI
+  references: {}
+  scope:
+    league: FTB-LEAGUE-NFL
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/philadelphia-eagles
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Team
+  code: FTB-NFL-TEAM-PIT
+  attributes:
+    territory: Pittsburgh
+    mascot: Steelers
+    abbreviation: PIT
+  references: {}
+  scope:
+    league: FTB-LEAGUE-NFL
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/pittsburgh-steelers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Team
+  code: FTB-NFL-TEAM-RAIDERS
+  aliases:
+  - FTB-NFL-TEAM-LV
+  - FTB-NFL-TEAM-OAK
+  attributes:
+    territory: Las Vegas
+    mascot: Raiders
+    abbreviation: LV
+  references: {}
+  scope:
+    league: FTB-LEAGUE-NFL
+  source:
+    url: https://www.raiders.com/news/las-vegas-raiders-silver-and-black-officially-welcomed-to-the-silver-state
+    note: Same Raiders franchise, with separate Oakland 2019 and Las Vegas 2020 annual
+      display attributes.
+    published_on: '2020-01-22'
+- type: Team
+  code: FTB-NFL-TEAM-SEA
+  attributes:
+    territory: Seattle
+    mascot: Seahawks
+    abbreviation: SEA
+  references: {}
+  scope:
+    league: FTB-LEAGUE-NFL
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/seattle-seahawks
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Team
+  code: FTB-NFL-TEAM-SF
+  attributes:
+    territory: San Francisco
+    mascot: 49ers
+    abbreviation: SF
+  references: {}
+  scope:
+    league: FTB-LEAGUE-NFL
+  source:
+    url: https://www.49ers.com/video/49ers-live-update-49ers-acquire-wr-emmanuel-sanders
+    note: Stable team identity used by the Sanders transfer sample.
+    published_on: '2019-10-22'
+- type: Team
+  code: FTB-NFL-TEAM-TB
+  attributes:
+    territory: Tampa Bay
+    mascot: Buccaneers
+    abbreviation: TB
+  references: {}
+  scope:
+    league: FTB-LEAGUE-NFL
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/tampa-bay-buccaneers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Team
+  code: FTB-NFL-TEAM-TEN
+  attributes:
+    territory: Tennessee
+    mascot: Titans
+    abbreviation: TEN
+  references: {}
+  scope:
+    league: FTB-LEAGUE-NFL
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/tennessee-titans
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Team
+  code: FTB-NFL-TEAM-WAS
+  attributes:
+    territory: Washington
+    mascot: Commanders
+    abbreviation: WAS
+  references: {}
+  scope:
+    league: FTB-LEAGUE-NFL
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/washington-commanders
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.

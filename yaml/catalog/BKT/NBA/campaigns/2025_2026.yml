@@ -1,0 +1,605 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Campaign
+  code: BKT-NBA-SEASON_2025_2026-TEAM-ATL
+  attributes:
+    display_name: Atlanta Hawks
+    abbreviation: ATL
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 18
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: BKT-NBA-TEAM-ATL
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2025
+  source:
+    url: https://pdfroster.nba.com/atlanta-hawks/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Campaign
+  code: BKT-NBA-SEASON_2025_2026-TEAM-BKN
+  attributes:
+    display_name: Brooklyn Nets
+    abbreviation: BKN
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 18
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: BKT-NBA-TEAM-BKN
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2025
+  source:
+    url: https://pdfroster.nba.com/brooklyn-nets/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Campaign
+  code: BKT-NBA-SEASON_2025_2026-TEAM-BOS
+  attributes:
+    display_name: Boston Celtics
+    abbreviation: BOS
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 16
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: BKT-NBA-TEAM-BOS
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2025
+  source:
+    url: https://pdfroster.nba.com/boston-celtics/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Campaign
+  code: BKT-NBA-SEASON_2025_2026-TEAM-CHA
+  attributes:
+    display_name: Charlotte Hornets
+    abbreviation: CHA
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 18
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: BKT-NBA-TEAM-CHA
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2025
+  source:
+    url: https://pdfroster.nba.com/charlotte-hornets/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Campaign
+  code: BKT-NBA-SEASON_2025_2026-TEAM-CHI
+  attributes:
+    display_name: Chicago Bulls
+    abbreviation: CHI
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 18
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: BKT-NBA-TEAM-CHI
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2025
+  source:
+    url: https://pdfroster.nba.com/chicago-bulls/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Campaign
+  code: BKT-NBA-SEASON_2025_2026-TEAM-CLE
+  attributes:
+    display_name: Cleveland Cavaliers
+    abbreviation: CLE
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 18
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: BKT-NBA-TEAM-CLE
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2025
+  source:
+    url: https://pdfroster.nba.com/cleveland-cavaliers/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Campaign
+  code: BKT-NBA-SEASON_2025_2026-TEAM-DAL
+  attributes:
+    display_name: Dallas Mavericks
+    abbreviation: DAL
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 18
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: BKT-NBA-TEAM-DAL
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2025
+  source:
+    url: https://pdfroster.nba.com/dallas-mavericks/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Campaign
+  code: BKT-NBA-SEASON_2025_2026-TEAM-DEN
+  attributes:
+    display_name: Denver Nuggets
+    abbreviation: DEN
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 18
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: BKT-NBA-TEAM-DEN
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2025
+  source:
+    url: https://pdfroster.nba.com/denver-nuggets/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Campaign
+  code: BKT-NBA-SEASON_2025_2026-TEAM-DET
+  attributes:
+    display_name: Detroit Pistons
+    abbreviation: DET
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 17
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: BKT-NBA-TEAM-DET
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2025
+  source:
+    url: https://pdfroster.nba.com/detroit-pistons/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Campaign
+  code: BKT-NBA-SEASON_2025_2026-TEAM-GSW
+  attributes:
+    display_name: Golden State Warriors
+    abbreviation: GSW
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 18
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: BKT-NBA-TEAM-GSW
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2025
+  source:
+    url: https://pdfroster.nba.com/golden-state-warriors/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Campaign
+  code: BKT-NBA-SEASON_2025_2026-TEAM-HOU
+  attributes:
+    display_name: Houston Rockets
+    abbreviation: HOU
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 17
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: BKT-NBA-TEAM-HOU
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2025
+  source:
+    url: https://pdfroster.nba.com/houston-rockets/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Campaign
+  code: BKT-NBA-SEASON_2025_2026-TEAM-IND
+  attributes:
+    display_name: Indiana Pacers
+    abbreviation: IND
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 18
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: BKT-NBA-TEAM-IND
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2025
+  source:
+    url: https://pdfroster.nba.com/indiana-pacers/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Campaign
+  code: BKT-NBA-SEASON_2025_2026-TEAM-LAC
+  attributes:
+    display_name: Los Angeles Clippers
+    abbreviation: LAC
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 18
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: BKT-NBA-TEAM-LAC
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2025
+  source:
+    url: https://pdfroster.nba.com/los-angeles-clippers/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Campaign
+  code: BKT-NBA-SEASON_2025_2026-TEAM-LAL
+  attributes:
+    display_name: Los Angeles Lakers
+    abbreviation: LAL
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 17
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: BKT-NBA-TEAM-LAL
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2025
+  source:
+    url: https://pdfroster.nba.com/los-angeles-lakers/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Campaign
+  code: BKT-NBA-SEASON_2025_2026-TEAM-MEM
+  attributes:
+    display_name: Memphis Grizzlies
+    abbreviation: MEM
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 18
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: BKT-NBA-TEAM-MEM
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2025
+  source:
+    url: https://pdfroster.nba.com/memphis-grizzlies/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Campaign
+  code: BKT-NBA-SEASON_2025_2026-TEAM-MIA
+  attributes:
+    display_name: Miami Heat
+    abbreviation: MIA
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 17
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: BKT-NBA-TEAM-MIA
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2025
+  source:
+    url: https://pdfroster.nba.com/miami-heat/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Campaign
+  code: BKT-NBA-SEASON_2025_2026-TEAM-MIL
+  attributes:
+    display_name: Milwaukee Bucks
+    abbreviation: MIL
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 17
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: BKT-NBA-TEAM-MIL
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2025
+  source:
+    url: https://pdfroster.nba.com/milwaukee-bucks/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Campaign
+  code: BKT-NBA-SEASON_2025_2026-TEAM-MIN
+  attributes:
+    display_name: Minnesota Timberwolves
+    abbreviation: MIN
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 18
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: BKT-NBA-TEAM-MIN
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2025
+  source:
+    url: https://pdfroster.nba.com/minnesota-timberwolves/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Campaign
+  code: BKT-NBA-SEASON_2025_2026-TEAM-NOP
+  attributes:
+    display_name: New Orleans Pelicans
+    abbreviation: NOP
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 18
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: BKT-NBA-TEAM-NOP
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2025
+  source:
+    url: https://pdfroster.nba.com/new-orleans-pelicans/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Campaign
+  code: BKT-NBA-SEASON_2025_2026-TEAM-NYK
+  attributes:
+    display_name: New York Knicks
+    abbreviation: NYK
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 18
+      selected_player_count: 18
+  references: {}
+  scope:
+    team: BKT-NBA-TEAM-NYK
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2025
+  source:
+    url: https://pdfroster.nba.com/new-york-knicks/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected.
+- type: Campaign
+  code: BKT-NBA-SEASON_2025_2026-TEAM-OKC
+  attributes:
+    display_name: Oklahoma City Thunder
+    abbreviation: OKC
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 18
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: BKT-NBA-TEAM-OKC
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2025
+  source:
+    url: https://pdfroster.nba.com/oklahoma-city-thunder/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Campaign
+  code: BKT-NBA-SEASON_2025_2026-TEAM-ORL
+  attributes:
+    display_name: Orlando Magic
+    abbreviation: ORL
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 17
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: BKT-NBA-TEAM-ORL
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2025
+  source:
+    url: https://pdfroster.nba.com/orlando-magic/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Campaign
+  code: BKT-NBA-SEASON_2025_2026-TEAM-PHI
+  attributes:
+    display_name: Philadelphia 76ers
+    abbreviation: PHI
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 17
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: BKT-NBA-TEAM-PHI
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2025
+  source:
+    url: https://pdfroster.nba.com/philadelphia-76ers/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Campaign
+  code: BKT-NBA-SEASON_2025_2026-TEAM-PHX
+  attributes:
+    display_name: Phoenix Suns
+    abbreviation: PHX
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 18
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: BKT-NBA-TEAM-PHX
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2025
+  source:
+    url: https://pdfroster.nba.com/phoenix-suns/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Campaign
+  code: BKT-NBA-SEASON_2025_2026-TEAM-POR
+  attributes:
+    display_name: Portland Trail Blazers
+    abbreviation: POR
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 18
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: BKT-NBA-TEAM-POR
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2025
+  source:
+    url: https://pdfroster.nba.com/portland-trailblazers/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Campaign
+  code: BKT-NBA-SEASON_2025_2026-TEAM-SAC
+  attributes:
+    display_name: Sacramento Kings
+    abbreviation: SAC
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 18
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: BKT-NBA-TEAM-SAC
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2025
+  source:
+    url: https://pdfroster.nba.com/sacramento-kings/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Campaign
+  code: BKT-NBA-SEASON_2025_2026-TEAM-SAS
+  attributes:
+    display_name: San Antonio Spurs
+    abbreviation: SAS
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 18
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: BKT-NBA-TEAM-SAS
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2025
+  source:
+    url: https://pdfroster.nba.com/san-antonio-spurs/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Campaign
+  code: BKT-NBA-SEASON_2025_2026-TEAM-TOR
+  attributes:
+    display_name: Toronto Raptors
+    abbreviation: TOR
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 17
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: BKT-NBA-TEAM-TOR
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2025
+  source:
+    url: https://pdfroster.nba.com/toronto-raptors/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Campaign
+  code: BKT-NBA-SEASON_2025_2026-TEAM-UTA
+  attributes:
+    display_name: Utah Jazz
+    abbreviation: UTA
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 18
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: BKT-NBA-TEAM-UTA
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2025
+  source:
+    url: https://pdfroster.nba.com/utah-jazz/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Campaign
+  code: BKT-NBA-SEASON_2025_2026-TEAM-WAS
+  attributes:
+    display_name: Washington Wizards
+    abbreviation: WAS
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 18
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: BKT-NBA-TEAM-WAS
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2025
+  source:
+    url: https://pdfroster.nba.com/washington-wizards/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.

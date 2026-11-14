@@ -1,0 +1,80 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: BSB-MLB-PLAYER-ZEFERJAHN_RYAN
+  aliases:
+  - BSB-MLB-PLAYER_666171
+  attributes:
+    first_name: Ryan
+    last_name: Zeferjahn
+    birthdate: '1998-02-28'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/108/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Player
+  code: BSB-MLB-PLAYER-ZERPA_ANGEL
+  aliases:
+  - BSB-MLB-PLAYER_672582
+  attributes:
+    first_name: Angel
+    last_name: Zerpa
+    birthdate: '1999-09-27'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/158/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Player
+  code: BSB-MLB-PLAYER-ZIMMERMANN_BRUCE
+  aliases:
+  - BSB-MLB-PLAYER_669145
+  attributes:
+    first_name: Bruce
+    last_name: Zimmermann
+    birthdate: '1995-02-09'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/138/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Player
+  code: BSB-MLB-PLAYER-ZUBER_TYLER
+  aliases:
+  - BSB-MLB-PLAYER_676604
+  attributes:
+    first_name: Tyler
+    last_name: Zuber
+    birthdate: '1995-06-16'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/146/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Player
+  code: BSB-MLB-PLAYER-ZUNIGA_GUILLERMO
+  aliases:
+  - BSB-MLB-PLAYER_670871
+  attributes:
+    first_name: Guillermo
+    last_name: Zuñiga
+    birthdate: '1998-10-10'
+  references:
+    sport: SPORT-BSB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.

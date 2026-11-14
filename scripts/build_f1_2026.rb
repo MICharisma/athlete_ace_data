@@ -2,6 +2,7 @@ require "fileutils"
 require "json"
 require "yaml"
 require_relative "../../../../lib/micharisma_seeders/lib/micharisma_seeders"
+require_relative "lib/seed_catalog"
 
 # Builds the 2026 Formula One manifests offline from sources/f1_2026:
 #   season.json    Jolpica-F1 capture (calendar, circuits, constructors, drivers, results)
@@ -20,6 +21,7 @@ class F12026Builder
 
   def initialize(check: false)
     @check = check
+    @writer = SeedCatalog::Writer.new(check: check)
     @capture = read("season.json")
     @circuits = read("circuits.json")
     registry = MICharismaSeeders::SequenceRegistry.read(File.join(ROOT, "yaml/entity_sequences.yaml"))
@@ -52,19 +54,13 @@ class F12026Builder
 
   def write(name, records, source:)
     document = { "format" => "micharisma-seeds/v1", "namespace" => "MIC", "catalog" => "ALA", "source" => source, "records" => records }
-    contents = YAML.dump(JSON.parse(JSON.generate(document)))
-    path = File.join(OUTPUT, name)
-    if @check
-      raise "Generated file differs: #{path}" unless File.file?(path) && File.read(path, encoding: "UTF-8") == contents
-    else
-      FileUtils.mkdir_p(OUTPUT)
-      File.write(path, contents)
-    end
+    @writer.write_batch(File.join(OUTPUT, name), document) # Identities go to the catalog.
   end
 
-  # New records only: an existing place keeps its own definition and values.
+  # Every record this batch owns, whether or not the catalog already has it:
+  # the catalog writer merges equal definitions, so output never depends on
+  # catalog state. Places owned elsewhere (Canada, Texas, Austin) are only referenced.
   def add_new(records, row)
-    return if @known.key?(row.fetch("code"))
     prior = records.find { |other| other.fetch("code") == row.fetch("code") }
     return if prior == row # A second circuit in the same country or subdivision.
     raise "#{row.fetch('code')} is defined twice with different values" if prior
@@ -95,11 +91,11 @@ class F12026Builder
       country = @circuits.fetch("provider_countries").fetch(circuit.fetch("country"), nil) || @circuits.fetch("countries").key(circuit.fetch("country"))
       raise "#{circuit.fetch('circuit_id')}: provider country #{circuit.fetch('country')} disagrees with review #{review.fetch('country')}" unless country == review.fetch("country")
       country_code = "COUNTRY-#{country}"
-      unless @known[country_code] == "Country"
+      if @circuits.fetch("countries").key?(country)
         add_new(records, record("Country", country_code, { "name" => @circuits.fetch("countries").fetch(country), "abbreviation" => country }, {}, source: { "url" => "#{iso}#{country}" }))
       end
       state = "STATE-#{country}-#{review.fetch('subdivision')}"
-      unless @known[state] == "State"
+      if review.key?("subdivision_name")
         add_new(records, record("State", state, { "name" => review.fetch("subdivision_name"), "abbreviation" => review.fetch("subdivision") },
           { "country" => country_code }, source: { "url" => "#{iso}#{country}" }))
       end
@@ -110,10 +106,9 @@ class F12026Builder
         raise "#{city} is not in #{state}" unless city.start_with?("CITY-#{country}-#{review.fetch('subdivision')}-")
       else
         city = "CITY-#{country}-#{review.fetch('subdivision')}-#{token(circuit.fetch('locality'))}"
-        add_new(records, record("City", city, { "name" => circuit.fetch("locality") }, { "state" => state }, source: circuit_source)) unless @known[city] == "City"
+        add_new(records, record("City", city, { "name" => circuit.fetch("locality") }, { "state" => state }, source: circuit_source))
       end
       stadium = "STADIUM-#{city.delete_prefix('CITY-')}-#{token(circuit.fetch('name'))}"
-      raise "#{stadium} already exists in the catalog" if @known.key?(stadium)
       add_new(records, record("Stadium", stadium, { "name" => circuit.fetch("name"), "url" => circuit.fetch("url") }, { "city" => city }, source: circuit_source))
       @stadiums[circuit.fetch("circuit_id")] = stadium
     end
@@ -242,6 +237,7 @@ class F12026Builder
     foundation
     season
     races
+    @writer.finish(codes_path: File.join(SOURCES, "catalog_codes.json"))
     report = JSON.pretty_generate(@report) + "\n"
     path = File.join(SOURCES, "report.json")
     if @check

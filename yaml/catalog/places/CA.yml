@@ -1,0 +1,121 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: City
+  code: CITY-CA-AB-CALGARY
+  attributes:
+    name: Calgary
+  references:
+    state: STATE-CA-AB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/4/schedule?season=2027&seasontype=2
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-CA-AB-EDMONTON
+  attributes:
+    name: Edmonton
+  references:
+    state: STATE-CA-AB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/30/schedule?season=2027&seasontype=2
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-CA-BC-VANCOUVER
+  attributes:
+    name: Vancouver
+  references:
+    state: STATE-CA-BC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/18267/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-CA-MB-WINNIPEG
+  attributes:
+    name: Winnipeg
+  references:
+    state: STATE-CA-MB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/23/schedule?season=2027&seasontype=2
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-CA-ON-OTTAWA
+  attributes:
+    name: Ottawa
+  references:
+    state: STATE-CA-ON
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/19/schedule?season=2027&seasontype=2
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-CA-ON-TORONTO
+  attributes:
+    name: Toronto
+  references:
+    state: STATE-CA-ON
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-CA-QC-MONTREAL
+  attributes:
+    name: Montréal
+  references:
+    state: STATE-CA-QC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/17362/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: Country
+  code: COUNTRY-CA
+  attributes:
+    name: Canada
+    abbreviation: CA
+  references: {}
+  source:
+    url: https://www.canada.ca/
+- type: State
+  code: STATE-CA-AB
+  attributes:
+    name: Alberta
+    abbreviation: AB
+  references:
+    country: COUNTRY-CA
+  source:
+    url: https://www.canadapost-postescanada.ca/cpc/en/support/articles/addressing-guidelines/symbols-and-abbreviations.page
+- type: State
+  code: STATE-CA-BC
+  attributes:
+    name: British Columbia
+    abbreviation: BC
+  references:
+    country: COUNTRY-CA
+  source:
+    url: https://www.canadapost-postescanada.ca/cpc/en/support/articles/addressing-guidelines/symbols-and-abbreviations.page
+- type: State
+  code: STATE-CA-MB
+  attributes:
+    name: Manitoba
+    abbreviation: MB
+  references:
+    country: COUNTRY-CA
+  source:
+    url: https://www.canadapost-postescanada.ca/cpc/en/support/articles/addressing-guidelines/symbols-and-abbreviations.page
+- type: State
+  code: STATE-CA-ON
+  attributes:
+    name: Ontario
+    abbreviation: 'ON'
+  references:
+    country: COUNTRY-CA
+  source:
+    url: https://www.canadapost-postescanada.ca/cpc/en/support/articles/addressing-guidelines/symbols-and-abbreviations.page
+- type: State
+  code: STATE-CA-QC
+  attributes:
+    name: Quebec
+    abbreviation: QC
+  references:
+    country: COUNTRY-CA
+  source:
+    url: https://www.canadapost-postescanada.ca/cpc/en/support/articles/addressing-guidelines/symbols-and-abbreviations.page

@@ -1,0 +1,218 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: SOC-UCL-PLAYER-ZABARNYI_ILLIA
+  aliases:
+  - SOC-ESPN-PLAYER_304503
+  attributes:
+    first_name: Illia
+    last_name: Zabarnyi
+    birthdate: '2002-09-01'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/160/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-ZAGADOU_DAN_AXEL
+  aliases:
+  - SOC-ESPN-PLAYER_258870
+  attributes:
+    first_name: Dan-Axel
+    last_name: Zagadou
+    birthdate: '1999-06-03'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/134/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-ZAIRE_EMERY_WARREN
+  aliases:
+  - SOC-ESPN-PLAYER_345581
+  attributes:
+    first_name: Warren
+    last_name: Zaïre-Emery
+    birthdate: '2006-03-08'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/160/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-ZALAZAR_RODRIGO
+  aliases:
+  - SOC-ESPN-PLAYER_287494
+  attributes:
+    first_name: Rodrigo
+    last_name: Zalazar
+    birthdate: '1999-08-12'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/2250/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-ZECHIEL_GJIVAI
+  aliases:
+  - SOC-ESPN-PLAYER_365021
+  attributes:
+    first_name: Gjivai
+    last_name: Zechiël
+    birthdate: '2004-06-01'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/365021.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/142/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-ZEDADKA_AKIM
+  aliases:
+  - SOC-ESPN-PLAYER_204778
+  attributes:
+    first_name: Akim
+    last_name: Zedadka
+    birthdate: '1995-05-30'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/21922/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-ZEKRI_MONCEF
+  aliases:
+  - SOC-ESPN-PLAYER_403413
+  attributes:
+    first_name: Moncef
+    last_name: Zekri
+    birthdate: '2008-09-20'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/2250/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-ZEZELJ_NENO
+  aliases:
+  - SOC-ESPN-PLAYER_3122117
+  attributes:
+    first_name: Neno
+    last_name: Žeželj
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/134/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-ZIELINSKI_PIOTR
+  aliases:
+  - SOC-ESPN-PLAYER_177782
+  attributes:
+    first_name: Piotr
+    last_name: Zielinski
+    birthdate: '1994-05-20'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/110/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-ZIMA_DAVID
+  aliases:
+  - SOC-ESPN-PLAYER_290116
+  attributes:
+    first_name: David
+    last_name: Zima
+    birthdate: '2000-11-08'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/494/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-ZINGERLE_LEOPOLD
+  aliases:
+  - SOC-ESPN-PLAYER_200079
+  attributes:
+    first_name: Leopold
+    last_name: Zingerle
+    birthdate: '1994-04-10'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/11420/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-ZINHAGEL_JIVAYNO
+  aliases:
+  - SOC-ESPN-PLAYER_406923
+  attributes:
+    first_name: Jivayno
+    last_name: Zinhagel
+    birthdate: '2009-04-18'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/406923.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/142/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-ZINI
+  aliases:
+  - SOC-ESPN-PLAYER_297754
+  attributes:
+    first_name: Zini
+    last_name: ''
+    birthdate: '2002-07-03'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/887/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-ZUBKOV_OLEKSANDR
+  aliases:
+  - SOC-ESPN-PLAYER_228267
+  attributes:
+    first_name: Oleksandr
+    last_name: Zubkov
+    birthdate: '1996-08-03'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/887/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.

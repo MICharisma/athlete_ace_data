@@ -1,0 +1,18 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Season
+  code: BKT-NCAA_D1_MEN-SEASON_2026_2027
+  attributes:
+    label: '2026_2027'
+  references:
+    league: BKT-LEAGUE-NCAA_D1_MEN
+    year: YEAR-2026
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/groups
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.

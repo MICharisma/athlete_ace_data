@@ -1,0 +1,20 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: SOC-EPL-PLAYER-XHAKA_GRANIT
+  aliases:
+  - SOC-ESPN-PLAYER_149981
+  attributes:
+    first_name: Granit
+    last_name: Xhaka
+    birthdate: '1992-09-27'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/366/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.

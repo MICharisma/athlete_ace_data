@@ -1,0 +1,109 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: BKT-NBA-PLAYER-QUAINTANCE_JAYDEN
+  aliases:
+  - BKT-ESPN-PLAYER_5101845
+  attributes:
+    first_name: Jayden
+    last_name: Quaintance
+    birthdate: '2007-07-11'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nba/players/full/5101845.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/24/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: BKT-NBA-PLAYER-QUEEN_DERIK
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_QUEENDE01
+  - BKT-ESPN-PLAYER_4869780
+  attributes:
+    first_name: Derik
+    last_name: Queen
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/new-orleans-pelicans/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-QUEEN_TREVELIN
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_QUEENTR01
+  attributes:
+    first_name: Trevelin
+    last_name: Queen
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://www.basketball-reference.com/leagues/NBA_2024_per_game.html
+    captured_on: '2026-10-26'
+    note: Complete regular-season and playoff appearance union by team, retaining
+      trade-side memberships. Excludes roster members with no recorded appearances
+      and does not establish jersey-number periods.
+- type: Player
+  code: BKT-NBA-PLAYER-QUETA_NEEMIAS
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_QUETANE01
+  - BKT-ESPN-PLAYER_4397424
+  attributes:
+    first_name: Neemias
+    last_name: Queta
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/boston-celtics/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-QUICKLEY_IMMANUEL
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_QUICKIM01
+  - BKT-ESPN-PLAYER_4395724
+  attributes:
+    first_name: Immanuel
+    last_name: Quickley
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/toronto-raptors/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-QUINONES_LESTER
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_QUINOLE01
+  attributes:
+    first_name: Lester
+    last_name: Quiñones
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://www.basketball-reference.com/leagues/NBA_2024_per_game.html
+    captured_on: '2026-10-26'
+    note: Complete regular-season and playoff appearance union by team, retaining
+      trade-side memberships. Excludes roster members with no recorded appearances
+      and does not establish jersey-number periods.

@@ -1,0 +1,54 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: SOC-MLS-PLAYER-QASIM_AHMED
+  aliases:
+  - SOC-ESPN-PLAYER_313976
+  attributes:
+    first_name: Ahmed
+    last_name: Qasim
+    birthdate: '2003-07-12'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/18986/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-QUINONES_NELSON
+  aliases:
+  - SOC-ESPN-PLAYER_323247
+  attributes:
+    first_name: Nelson
+    last_name: Quiñones
+    birthdate: '2002-08-20'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/323247.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/6077/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-QUINTON_PHILIP
+  aliases:
+  - SOC-ESPN-PLAYER_294874
+  attributes:
+    first_name: Philip
+    last_name: Quinton
+    birthdate: '1999-11-16'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/294874.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/4771/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.

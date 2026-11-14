@@ -1,0 +1,73 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: FTB-NFL-PLAYER-QUEEN_PATRICK
+  aliases:
+  - FTB-ESPN-PLAYER_4242207
+  attributes:
+    first_name: Patrick
+    last_name: Queen
+    birthdate: '1999-08-13'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4242207.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/23/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-QUESSENBERRY_DAVID
+  aliases:
+  - FTB-ESPN-PLAYER_15946
+  attributes:
+    first_name: David
+    last_name: Quessenberry
+    birthdate: '1990-08-24'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/15946.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/14/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-QUINN_TJ
+  aliases:
+  - FTB-ESPN-PLAYER_4684030
+  attributes:
+    first_name: TJ
+    last_name: Quinn
+    birthdate: '2003-04-15'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4684030.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/1/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-QUITORIANO_TEAGAN
+  aliases:
+  - FTB-ESPN-PLAYER_4374045
+  attributes:
+    first_name: Teagan
+    last_name: Quitoriano
+    birthdate: '2000-03-15'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4374045.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/22/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.

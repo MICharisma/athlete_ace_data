@@ -1,0 +1,207 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: BKT-NCAA_D1_WOMEN-PLAYER-CARSON_SIERRA
+  aliases:
+  - BKT-ESPN-PLAYER_5176431
+  attributes:
+    first_name: Sierra
+    last_name: Carson
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5176431.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/teams/159/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_WOMEN-PLAYER-CEASER_ASANI
+  aliases:
+  - BKT-ESPN-PLAYER_5241849
+  attributes:
+    first_name: Asani
+    last_name: Ceaser
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5241849.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/teams/108/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_WOMEN-PLAYER-CHAPMAN_MARISA
+  aliases:
+  - BKT-ESPN-PLAYER_5241582
+  attributes:
+    first_name: Marisa
+    last_name: Chapman
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5241582.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/teams/43/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_WOMEN-PLAYER-CHATIRA_LYDIA
+  aliases:
+  - BKT-ESPN-PLAYER_5241850
+  attributes:
+    first_name: Lydia
+    last_name: Chatira
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5241850.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/teams/108/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_WOMEN-PLAYER-CHEA_ASHLEY
+  aliases:
+  - BKT-ESPN-PLAYER_5176454
+  attributes:
+    first_name: Ashley
+    last_name: Chea
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5176454.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/teams/163/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_WOMEN-PLAYER-CHEN_AUDREY
+  aliases:
+  - BKT-ESPN-PLAYER_5241811
+  attributes:
+    first_name: Audrey
+    last_name: Chen
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5241811.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/teams/172/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_WOMEN-PLAYER-CHILDERS_ASHLEY
+  aliases:
+  - BKT-ESPN-PLAYER_5313304
+  attributes:
+    first_name: Ashley
+    last_name: Childers
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5313304.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/teams/172/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_WOMEN-PLAYER-CHINN_WILLA
+  aliases:
+  - BKT-ESPN-PLAYER_5313306
+  attributes:
+    first_name: Willa
+    last_name: Chinn
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5313306.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/teams/172/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_WOMEN-PLAYER-CLIMENHAGE_CHARLOTTE
+  aliases:
+  - BKT-ESPN-PLAYER_5177257
+  attributes:
+    first_name: Charlotte
+    last_name: Climenhage
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5177257.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/teams/225/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_WOMEN-PLAYER-COLLINS_KATIE
+  aliases:
+  - BKT-ESPN-PLAYER_5241866
+  attributes:
+    first_name: Katie
+    last_name: Collins
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5241866.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/teams/219/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_WOMEN-PLAYER-CRUZ_IZZY
+  aliases:
+  - BKT-ESPN-PLAYER_5460925
+  attributes:
+    first_name: Izzy
+    last_name: Cruz
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/womens-college-basketball/players/full/5460925.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/teams/159/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_WOMEN-PLAYER-CURTIS_JAYAH
+  aliases:
+  - BKT-ESPN-PLAYER_5461419
+  attributes:
+    first_name: Jayah
+    last_name: Curtis
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/teams/219/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.

@@ -3,6 +3,7 @@ require "fileutils"
 require "json"
 require "yaml"
 require_relative "../../../../lib/micharisma_seeders/lib/micharisma_seeders"
+require_relative "lib/seed_catalog"
 
 class Sports2026Builder
   ROOT = File.expand_path("..", __dir__)
@@ -22,6 +23,7 @@ class Sports2026Builder
 
   def initialize(check: false)
     @check = check
+    @writer = SeedCatalog::Writer.new(check: check)
     @output = File.join(ROOT, "yaml/coverage_2026")
     registry = MICharismaSeeders::SequenceRegistry.read(File.join(ROOT, "yaml/entity_sequences.yaml"))
     reader = MICharismaSeeders::Reader.new(registry: registry)
@@ -87,13 +89,7 @@ class Sports2026Builder
   def write(name, records, source: {})
     path = File.join(@output, "#{name}.yaml")
     document = { "format" => "micharisma-seeds/v1", "namespace" => "MIC", "catalog" => "ALA", "source" => source, "records" => records }
-    contents = YAML.dump(JSON.parse(JSON.generate(document)))
-    if @check
-      raise "Generated file differs: #{path}" unless File.file?(path) && File.read(path) == contents
-    else
-      FileUtils.mkdir_p(@output)
-      File.write(path, contents)
-    end
+    @writer.write_batch(path, document) # Identities go to the catalog.
   end
 
   def source_for(capture, team)
@@ -109,6 +105,14 @@ class Sports2026Builder
     if @providers.key?(key)
       @identity_report[key] ||= { "provider" => provider, "sport" => sport, "source_id" => id, "code" => @providers.fetch(key), "basis" => "existing_official_provider_id" }
       return @providers.fetch(key)
+    end
+    # A provider ID already bound in the catalog names its player outright.
+    bound = @known["#{sport}-#{token(provider)}-PLAYER_#{token(id)}"]
+    if bound
+      @providers[key] = bound
+      @claims[[ provider, sport, bound ]] = id
+      @identity_report[key] = { "provider" => provider, "sport" => sport, "source_id" => id, "code" => bound, "basis" => "existing_official_provider_id" }
+      return bound
     end
 
     names = @names[[ "SPORT-#{sport}", name_key(player.fetch("first_name"), player.fetch("last_name")) ]]
@@ -238,6 +242,7 @@ class Sports2026Builder
     end
     write("numbers", numbers)
     write("identities", @records.values)
+    @writer.finish(codes_path: File.join(ROOT, "sources/coverage_2026/catalog_codes.json"))
     report = JSON.pretty_generate({ "coverage" => @summaries, "number_assignments" => numbers.size, "number_conflicts" => conflicts,
       "identity_bindings" => @identity_report.values.sort_by { |row| [ row.fetch("sport"), row.fetch("provider"), row.fetch("source_id") ] } }) + "\n"
     report_path = File.join(ROOT, "sources/coverage_2026/report.json")

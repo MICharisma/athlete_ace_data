@@ -1,0 +1,73 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-RAFIQ_MATEEN
+  aliases:
+  - BKT-ESPN-PLAYER_5241717
+  attributes:
+    first_name: Mateen
+    last_name: Rafiq
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5241717.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/172/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-RITTER_MASON
+  aliases:
+  - BKT-ESPN-PLAYER_5241715
+  attributes:
+    first_name: Mason
+    last_name: Ritter
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5241715.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/171/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-ROCHESTER_DAVID
+  aliases:
+  - BKT-ESPN-PLAYER_5241711
+  attributes:
+    first_name: David
+    last_name: Rochester
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5241711.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/225/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-ROMANELLI_NICOLO
+  aliases:
+  - BKT-ESPN-PLAYER_5175886
+  attributes:
+    first_name: Nicolo
+    last_name: Romanelli
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5175886.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/171/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.

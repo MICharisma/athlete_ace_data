@@ -1,0 +1,581 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Campaign
+  code: HCK-NHL-SEASON_2026_2027-TEAM-ANA
+  attributes:
+    display_name: Anaheim Ducks
+    abbreviation: ANA
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 24
+      roster_meaning: Complete official season roster listing captured on 2026-10-26;
+        not an appearance union.
+  references:
+    team: HCK-NHL-TEAM-ANA
+    season: HCK-NHL-SEASON_2026_2027
+  source:
+    url: https://api-web.nhle.com/v1/roster/ANA/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Campaign
+  code: HCK-NHL-SEASON_2026_2027-TEAM-BOS
+  attributes:
+    display_name: Boston Bruins
+    abbreviation: BOS
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 23
+      roster_meaning: Complete official season roster listing captured on 2026-10-26;
+        not an appearance union.
+  references:
+    team: HCK-NHL-TEAM-BOS
+    season: HCK-NHL-SEASON_2026_2027
+  source:
+    url: https://api-web.nhle.com/v1/roster/BOS/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Campaign
+  code: HCK-NHL-SEASON_2026_2027-TEAM-BUF
+  attributes:
+    display_name: Buffalo Sabres
+    abbreviation: BUF
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 27
+      roster_meaning: Complete official season roster listing captured on 2026-10-26;
+        not an appearance union.
+  references:
+    team: HCK-NHL-TEAM-BUF
+    season: HCK-NHL-SEASON_2026_2027
+  source:
+    url: https://api-web.nhle.com/v1/roster/BUF/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Campaign
+  code: HCK-NHL-SEASON_2026_2027-TEAM-CAR
+  attributes:
+    display_name: Carolina Hurricanes
+    abbreviation: CAR
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 24
+      roster_meaning: Complete official season roster listing captured on 2026-10-26;
+        not an appearance union.
+  references:
+    team: HCK-NHL-TEAM-CAR
+    season: HCK-NHL-SEASON_2026_2027
+  source:
+    url: https://api-web.nhle.com/v1/roster/CAR/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Campaign
+  code: HCK-NHL-SEASON_2026_2027-TEAM-CBJ
+  attributes:
+    display_name: Columbus Blue Jackets
+    abbreviation: CBJ
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 24
+      roster_meaning: Complete official season roster listing captured on 2026-10-26;
+        not an appearance union.
+  references:
+    team: HCK-NHL-TEAM-CBJ
+    season: HCK-NHL-SEASON_2026_2027
+  source:
+    url: https://api-web.nhle.com/v1/roster/CBJ/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Campaign
+  code: HCK-NHL-SEASON_2026_2027-TEAM-CGY
+  attributes:
+    display_name: Calgary Flames
+    abbreviation: CGY
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 25
+      roster_meaning: Complete official season roster listing captured on 2026-10-26;
+        not an appearance union.
+  references:
+    team: HCK-NHL-TEAM-CGY
+    season: HCK-NHL-SEASON_2026_2027
+  source:
+    url: https://api-web.nhle.com/v1/roster/CGY/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Campaign
+  code: HCK-NHL-SEASON_2026_2027-TEAM-CHI
+  attributes:
+    display_name: Chicago Blackhawks
+    abbreviation: CHI
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 24
+      roster_meaning: Complete official season roster listing captured on 2026-10-26;
+        not an appearance union.
+  references:
+    team: HCK-NHL-TEAM-CHI
+    season: HCK-NHL-SEASON_2026_2027
+  source:
+    url: https://api-web.nhle.com/v1/roster/CHI/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Campaign
+  code: HCK-NHL-SEASON_2026_2027-TEAM-COL
+  attributes:
+    display_name: Colorado Avalanche
+    abbreviation: COL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 22
+      roster_meaning: Complete official season roster listing captured on 2026-10-26;
+        not an appearance union.
+  references:
+    team: HCK-NHL-TEAM-COL
+    season: HCK-NHL-SEASON_2026_2027
+  source:
+    url: https://api-web.nhle.com/v1/roster/COL/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Campaign
+  code: HCK-NHL-SEASON_2026_2027-TEAM-DAL
+  attributes:
+    display_name: Dallas Stars
+    abbreviation: DAL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 26
+      roster_meaning: Complete official season roster listing captured on 2026-10-26;
+        not an appearance union.
+  references:
+    team: HCK-NHL-TEAM-DAL
+    season: HCK-NHL-SEASON_2026_2027
+  source:
+    url: https://api-web.nhle.com/v1/roster/DAL/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Campaign
+  code: HCK-NHL-SEASON_2026_2027-TEAM-DET
+  attributes:
+    display_name: Detroit Red Wings
+    abbreviation: DET
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 25
+      roster_meaning: Complete official season roster listing captured on 2026-10-26;
+        not an appearance union.
+  references:
+    team: HCK-NHL-TEAM-DET
+    season: HCK-NHL-SEASON_2026_2027
+  source:
+    url: https://api-web.nhle.com/v1/roster/DET/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Campaign
+  code: HCK-NHL-SEASON_2026_2027-TEAM-EDM
+  attributes:
+    display_name: Edmonton Oilers
+    abbreviation: EDM
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 29
+      roster_meaning: Complete official season roster listing captured on 2026-10-26;
+        not an appearance union.
+  references:
+    team: HCK-NHL-TEAM-EDM
+    season: HCK-NHL-SEASON_2026_2027
+  source:
+    url: https://api-web.nhle.com/v1/roster/EDM/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Campaign
+  code: HCK-NHL-SEASON_2026_2027-TEAM-FLA
+  attributes:
+    display_name: Florida Panthers
+    abbreviation: FLA
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 26
+      roster_meaning: Complete official season roster listing captured on 2026-10-26;
+        not an appearance union.
+  references:
+    team: HCK-NHL-TEAM-FLA
+    season: HCK-NHL-SEASON_2026_2027
+  source:
+    url: https://api-web.nhle.com/v1/roster/FLA/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Campaign
+  code: HCK-NHL-SEASON_2026_2027-TEAM-LAK
+  attributes:
+    display_name: Los Angeles Kings
+    abbreviation: LAK
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 25
+      roster_meaning: Complete official season roster listing captured on 2026-10-26;
+        not an appearance union.
+  references:
+    team: HCK-NHL-TEAM-LAK
+    season: HCK-NHL-SEASON_2026_2027
+  source:
+    url: https://api-web.nhle.com/v1/roster/LAK/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Campaign
+  code: HCK-NHL-SEASON_2026_2027-TEAM-MIN
+  attributes:
+    display_name: Minnesota Wild
+    abbreviation: MIN
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 27
+      roster_meaning: Complete official season roster listing captured on 2026-10-26;
+        not an appearance union.
+  references:
+    team: HCK-NHL-TEAM-MIN
+    season: HCK-NHL-SEASON_2026_2027
+  source:
+    url: https://api-web.nhle.com/v1/roster/MIN/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Campaign
+  code: HCK-NHL-SEASON_2026_2027-TEAM-MTL
+  attributes:
+    display_name: Montréal Canadiens
+    abbreviation: MTL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 25
+      roster_meaning: Complete official season roster listing captured on 2026-10-26;
+        not an appearance union.
+  references:
+    team: HCK-NHL-TEAM-MTL
+    season: HCK-NHL-SEASON_2026_2027
+  source:
+    url: https://api-web.nhle.com/v1/roster/MTL/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Campaign
+  code: HCK-NHL-SEASON_2026_2027-TEAM-NJD
+  attributes:
+    display_name: New Jersey Devils
+    abbreviation: NJD
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 23
+      roster_meaning: Complete official season roster listing captured on 2026-10-26;
+        not an appearance union.
+  references:
+    team: HCK-NHL-TEAM-NJD
+    season: HCK-NHL-SEASON_2026_2027
+  source:
+    url: https://api-web.nhle.com/v1/roster/NJD/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Campaign
+  code: HCK-NHL-SEASON_2026_2027-TEAM-NSH
+  attributes:
+    display_name: Nashville Predators
+    abbreviation: NSH
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 24
+      roster_meaning: Complete official season roster listing captured on 2026-10-26;
+        not an appearance union.
+  references:
+    team: HCK-NHL-TEAM-NSH
+    season: HCK-NHL-SEASON_2026_2027
+  source:
+    url: https://api-web.nhle.com/v1/roster/NSH/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Campaign
+  code: HCK-NHL-SEASON_2026_2027-TEAM-NYI
+  attributes:
+    display_name: New York Islanders
+    abbreviation: NYI
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 26
+      roster_meaning: Complete official season roster listing captured on 2026-10-26;
+        not an appearance union.
+  references:
+    team: HCK-NHL-TEAM-NYI
+    season: HCK-NHL-SEASON_2026_2027
+  source:
+    url: https://api-web.nhle.com/v1/roster/NYI/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Campaign
+  code: HCK-NHL-SEASON_2026_2027-TEAM-NYR
+  attributes:
+    display_name: New York Rangers
+    abbreviation: NYR
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 26
+      roster_meaning: Complete official season roster listing captured on 2026-10-26;
+        not an appearance union.
+  references:
+    team: HCK-NHL-TEAM-NYR
+    season: HCK-NHL-SEASON_2026_2027
+  source:
+    url: https://api-web.nhle.com/v1/roster/NYR/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Campaign
+  code: HCK-NHL-SEASON_2026_2027-TEAM-OTT
+  attributes:
+    display_name: Ottawa Senators
+    abbreviation: OTT
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 25
+      roster_meaning: Complete official season roster listing captured on 2026-10-26;
+        not an appearance union.
+  references:
+    team: HCK-NHL-TEAM-OTT
+    season: HCK-NHL-SEASON_2026_2027
+  source:
+    url: https://api-web.nhle.com/v1/roster/OTT/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Campaign
+  code: HCK-NHL-SEASON_2026_2027-TEAM-PHI
+  attributes:
+    display_name: Philadelphia Flyers
+    abbreviation: PHI
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 27
+      roster_meaning: Complete official season roster listing captured on 2026-10-26;
+        not an appearance union.
+  references:
+    team: HCK-NHL-TEAM-PHI
+    season: HCK-NHL-SEASON_2026_2027
+  source:
+    url: https://api-web.nhle.com/v1/roster/PHI/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Campaign
+  code: HCK-NHL-SEASON_2026_2027-TEAM-PIT
+  attributes:
+    display_name: Pittsburgh Penguins
+    abbreviation: PIT
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 28
+      roster_meaning: Complete official season roster listing captured on 2026-10-26;
+        not an appearance union.
+  references:
+    team: HCK-NHL-TEAM-PIT
+    season: HCK-NHL-SEASON_2026_2027
+  source:
+    url: https://api-web.nhle.com/v1/roster/PIT/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Campaign
+  code: HCK-NHL-SEASON_2026_2027-TEAM-SEA
+  attributes:
+    display_name: Seattle Kraken
+    abbreviation: SEA
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 26
+      roster_meaning: Complete official season roster listing captured on 2026-10-26;
+        not an appearance union.
+  references:
+    team: HCK-NHL-TEAM-SEA
+    season: HCK-NHL-SEASON_2026_2027
+  source:
+    url: https://api-web.nhle.com/v1/roster/SEA/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Campaign
+  code: HCK-NHL-SEASON_2026_2027-TEAM-SJS
+  attributes:
+    display_name: San Jose Sharks
+    abbreviation: SJS
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 23
+      roster_meaning: Complete official season roster listing captured on 2026-10-26;
+        not an appearance union.
+  references:
+    team: HCK-NHL-TEAM-SJS
+    season: HCK-NHL-SEASON_2026_2027
+  source:
+    url: https://api-web.nhle.com/v1/roster/SJS/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Campaign
+  code: HCK-NHL-SEASON_2026_2027-TEAM-STL
+  attributes:
+    display_name: St. Louis Blues
+    abbreviation: STL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 26
+      roster_meaning: Complete official season roster listing captured on 2026-10-26;
+        not an appearance union.
+  references:
+    team: HCK-NHL-TEAM-STL
+    season: HCK-NHL-SEASON_2026_2027
+  source:
+    url: https://api-web.nhle.com/v1/roster/STL/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Campaign
+  code: HCK-NHL-SEASON_2026_2027-TEAM-TBL
+  attributes:
+    display_name: Tampa Bay Lightning
+    abbreviation: TBL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 24
+      roster_meaning: Complete official season roster listing captured on 2026-10-26;
+        not an appearance union.
+  references:
+    team: HCK-NHL-TEAM-TBL
+    season: HCK-NHL-SEASON_2026_2027
+  source:
+    url: https://api-web.nhle.com/v1/roster/TBL/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Campaign
+  code: HCK-NHL-SEASON_2026_2027-TEAM-TOR
+  attributes:
+    display_name: Toronto Maple Leafs
+    abbreviation: TOR
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 27
+      roster_meaning: Complete official season roster listing captured on 2026-10-26;
+        not an appearance union.
+  references:
+    team: HCK-NHL-TEAM-TOR
+    season: HCK-NHL-SEASON_2026_2027
+  source:
+    url: https://api-web.nhle.com/v1/roster/TOR/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Campaign
+  code: HCK-NHL-SEASON_2026_2027-TEAM-UTA
+  attributes:
+    display_name: Utah Mammoth
+    abbreviation: UTA
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 24
+      roster_meaning: Complete official season roster listing captured on 2026-10-26;
+        not an appearance union.
+  references:
+    team: HCK-NHL-TEAM-UTA
+    season: HCK-NHL-SEASON_2026_2027
+  source:
+    url: https://api-web.nhle.com/v1/roster/UTA/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Campaign
+  code: HCK-NHL-SEASON_2026_2027-TEAM-VAN
+  attributes:
+    display_name: Vancouver Canucks
+    abbreviation: VAN
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 24
+      roster_meaning: Complete official season roster listing captured on 2026-10-26;
+        not an appearance union.
+  references:
+    team: HCK-NHL-TEAM-VAN
+    season: HCK-NHL-SEASON_2026_2027
+  source:
+    url: https://api-web.nhle.com/v1/roster/VAN/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Campaign
+  code: HCK-NHL-SEASON_2026_2027-TEAM-VGK
+  attributes:
+    display_name: Vegas Golden Knights
+    abbreviation: VGK
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 24
+      roster_meaning: Complete official season roster listing captured on 2026-10-26;
+        not an appearance union.
+  references:
+    team: HCK-NHL-TEAM-VGK
+    season: HCK-NHL-SEASON_2026_2027
+  source:
+    url: https://api-web.nhle.com/v1/roster/VGK/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Campaign
+  code: HCK-NHL-SEASON_2026_2027-TEAM-WPG
+  attributes:
+    display_name: Winnipeg Jets
+    abbreviation: WPG
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 25
+      roster_meaning: Complete official season roster listing captured on 2026-10-26;
+        not an appearance union.
+  references:
+    team: HCK-NHL-TEAM-WPG
+    season: HCK-NHL-SEASON_2026_2027
+  source:
+    url: https://api-web.nhle.com/v1/roster/WPG/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.
+- type: Campaign
+  code: HCK-NHL-SEASON_2026_2027-TEAM-WSH
+  attributes:
+    display_name: Washington Capitals
+    abbreviation: WSH
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 26
+      roster_meaning: Complete official season roster listing captured on 2026-10-26;
+        not an appearance union.
+  references:
+    team: HCK-NHL-TEAM-WSH
+    season: HCK-NHL-SEASON_2026_2027
+  source:
+    url: https://api-web.nhle.com/v1/roster/WSH/20262027
+    captured_on: '2026-10-26'
+    note: Complete official season roster listing captured on 2026-10-26; not an appearance
+      union.

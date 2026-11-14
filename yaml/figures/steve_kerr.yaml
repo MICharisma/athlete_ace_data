@@ -1,53 +1,37 @@
+---
 format: micharisma-seeds/v1
 namespace: MIC
 catalog: ALA
 records:
-  - type: Player
-    code: PLAYER-KERR_STEVE
-    attributes:
-      active: false
-    references:
-      sport: SPORT-BKT
-      figure: FIGURE-KERR_STEVE
-  - type: Figure
-    code: FIGURE-KERR_STEVE
-    attributes:
-      name: Steve Kerr
-      first_name: Steve
-      last_name: Kerr
-  - type: Organization
-    code: ORGANIZATION-TNT
-    attributes:
-      name: TNT
-      description: Television network identified in Steve Kerr's broadcasting biography.
-  - type: StaffTenure
-    code: APPOINTMENT-KERR_STEVE-TNT-2003
-    attributes:
-      role: broadcaster
-      title: Broadcast analyst
-      start_date: '2003'
-      source:
-        url: https://nbacoaches.com/steve-kerr/
-        title: Steve Kerr biography, NBA Coaches Association
-        captured_on: '2026-10-25'
-      details:
-        coverage: NBA
-        note: The source dates his initial broadcasting role to 2003. It does not date its end or distinguish later return tenures.
-    references:
-      figure: FIGURE-KERR_STEVE
-      organization: ORGANIZATION-TNT
-  - type: StaffTenure
-    code: APPOINTMENT-KERR_STEVE-GSW-2014_05_19
-    attributes:
-      role: coach
-      title: Head coach
-      start_date: '2014-05-19'
-      ongoing: true
-      source:
-        url: https://nbacoaches.com/steve-kerr/
-        title: Steve Kerr biography, NBA Coaches Association
-        captured_on: '2026-10-25'
-    references:
-      figure: FIGURE-KERR_STEVE
-      organization: BKT-NBA-ORG-GSW
-      team: BKT-NBA-TEAM-GSW
+- type: StaffTenure
+  code: APPOINTMENT-KERR_STEVE-TNT-2003
+  attributes:
+    role: broadcaster
+    title: Broadcast analyst
+    start_date: '2003'
+    source:
+      url: https://nbacoaches.com/steve-kerr/
+      title: Steve Kerr biography, NBA Coaches Association
+      captured_on: '2026-10-25'
+    details:
+      coverage: NBA
+      note: The source dates his initial broadcasting role to 2003. It does not date
+        its end or distinguish later return tenures.
+  references:
+    figure: FIGURE-KERR_STEVE
+    organization: ORGANIZATION-TNT
+- type: StaffTenure
+  code: APPOINTMENT-KERR_STEVE-GSW-2014_05_19
+  attributes:
+    role: coach
+    title: Head coach
+    start_date: '2014-05-19'
+    ongoing: true
+    source:
+      url: https://nbacoaches.com/steve-kerr/
+      title: Steve Kerr biography, NBA Coaches Association
+      captured_on: '2026-10-25'
+  references:
+    figure: FIGURE-KERR_STEVE
+    organization: BKT-NBA-ORG-GSW
+    team: BKT-NBA-TEAM-GSW

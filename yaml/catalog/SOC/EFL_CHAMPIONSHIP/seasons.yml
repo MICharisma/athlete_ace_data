@@ -1,0 +1,18 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Season
+  code: SOC-EFL_CHAMPIONSHIP-SEASON_2021_2022
+  attributes:
+    label: '2021_2022'
+  references:
+    year: YEAR-2021
+  scope:
+    league: SOC-LEAGUE-EFL_CHAMPIONSHIP
+  source:
+    url: https://www.premierleague.com/en/news/2567479
+    published_on: '2022-04-19'
+    note: 'Same Fulham club: Championship 2021_2022 and promoted Premier League 2022_2023;
+      no full roster asserted.'

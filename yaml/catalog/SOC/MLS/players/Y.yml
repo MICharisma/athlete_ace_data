@@ -1,0 +1,165 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: SOC-MLS-PLAYER-YANEZ_ZIDANE
+  aliases:
+  - SOC-ESPN-PLAYER_378653
+  attributes:
+    first_name: Zidane
+    last_name: Yañez
+    birthdate: '2008-01-26'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/18986/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-YAPI_DARREN
+  aliases:
+  - SOC-ESPN-PLAYER_304623
+  attributes:
+    first_name: Darren
+    last_name: Yapi
+    birthdate: '2004-11-19'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/304623.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/184/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-YARBROUGH_WILLIAM
+  aliases:
+  - SOC-ESPN-PLAYER_174703
+  attributes:
+    first_name: William
+    last_name: Yarbrough
+    birthdate: '1989-03-20'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/174703.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/7318/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-YAZBEK_PATRICK
+  aliases:
+  - SOC-ESPN-PLAYER_315524
+  attributes:
+    first_name: Patrick
+    last_name: Yazbek
+    birthdate: '2002-04-05'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/18986/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-YEBOAH_KELVIN
+  aliases:
+  - SOC-ESPN-PLAYER_289941
+  attributes:
+    first_name: Kelvin
+    last_name: Yeboah
+    birthdate: '2000-05-06'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/17362/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-YEDLIN_DEANDRE
+  aliases:
+  - SOC-ESPN-PLAYER_183778
+  attributes:
+    first_name: DeAndre
+    last_name: Yedlin
+    birthdate: '1993-07-09'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/183778.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/4771/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-YOSHIDA_MAYA
+  aliases:
+  - SOC-ESPN-PLAYER_105803
+  attributes:
+    first_name: Maya
+    last_name: Yoshida
+    birthdate: '1988-08-24'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/187/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-YOW_GRIFFIN
+  aliases:
+  - SOC-ESPN-PLAYER_286757
+  attributes:
+    first_name: Griffin
+    last_name: Yow
+    birthdate: '2002-09-25'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/286757.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/189/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-YUEILL_JACKSON
+  aliases:
+  - SOC-ESPN-PLAYER_251806
+  attributes:
+    first_name: Jackson
+    last_name: Yueill
+    birthdate: '1997-03-19'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/251806.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/189/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-YUSUF_ALHASSAN
+  aliases:
+  - SOC-ESPN-PLAYER_276684
+  attributes:
+    first_name: Alhassan
+    last_name: Yusuf
+    birthdate: '2000-07-18'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/189/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.

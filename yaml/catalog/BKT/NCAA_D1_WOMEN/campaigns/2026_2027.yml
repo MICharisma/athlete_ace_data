@@ -1,0 +1,197 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Campaign
+  code: BKT-NCAA_D1_WOMEN-SEASON_2026_2027-TEAM-BRWN
+  attributes:
+    display_name: Brown Bears
+    abbreviation: BRWN
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 16
+      roster_meaning: Complete ESPN season roster listing captured on 2026-11-13,
+        checked against the school's official 2026-27 roster page. Not an appearance
+        union or an NCAA eligibility certification.
+      official_check:
+        url: https://brownbears.com/sports/womens-basketball/roster/2026-27
+        status: espn_names_on_page
+  references:
+    team: BKT-NCAA_D1_WOMEN-TEAM-BRWN
+    season: BKT-NCAA_D1_WOMEN-SEASON_2026_2027
+    conference: BKT-NCAA_D1_WOMEN-CONFERENCE-IVY_LEAGUE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/teams/225/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Campaign
+  code: BKT-NCAA_D1_WOMEN-SEASON_2026_2027-TEAM-COLU
+  attributes:
+    display_name: Columbia Lions
+    abbreviation: COLU
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 14
+      roster_meaning: Complete ESPN season roster listing captured on 2026-11-13,
+        checked against the school's official 2026-27 roster page. Not an appearance
+        union or an NCAA eligibility certification.
+      official_check:
+        url: https://gocolumbialions.com/sports/womens-basketball/roster/2026-27
+        status: espn_names_on_page
+  references:
+    team: BKT-NCAA_D1_WOMEN-TEAM-COLU
+    season: BKT-NCAA_D1_WOMEN-SEASON_2026_2027
+    conference: BKT-NCAA_D1_WOMEN-CONFERENCE-IVY_LEAGUE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/teams/171/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Campaign
+  code: BKT-NCAA_D1_WOMEN-SEASON_2026_2027-TEAM-COR
+  attributes:
+    display_name: Cornell Big Red
+    abbreviation: COR
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 16
+      roster_meaning: Complete ESPN season roster listing captured on 2026-11-13,
+        checked against the school's official 2026-27 roster page. Not an appearance
+        union or an NCAA eligibility certification.
+      official_check:
+        url: https://cornellbigred.com/sports/womens-basketball/roster/2026-27
+        status: compared_both_directions
+  references:
+    team: BKT-NCAA_D1_WOMEN-TEAM-COR
+    season: BKT-NCAA_D1_WOMEN-SEASON_2026_2027
+    conference: BKT-NCAA_D1_WOMEN-CONFERENCE-IVY_LEAGUE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/teams/172/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Campaign
+  code: BKT-NCAA_D1_WOMEN-SEASON_2026_2027-TEAM-DART
+  attributes:
+    display_name: Dartmouth Big Green
+    abbreviation: DART
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 16
+      roster_meaning: Complete ESPN season roster listing captured on 2026-11-13,
+        checked against the school's official 2026-27 roster page. Not an appearance
+        union or an NCAA eligibility certification.
+      official_check:
+        url: https://dartmouthsports.com/sports/womens-basketball/roster/2026-27
+        status: espn_names_on_page
+  references:
+    team: BKT-NCAA_D1_WOMEN-TEAM-DART
+    season: BKT-NCAA_D1_WOMEN-SEASON_2026_2027
+    conference: BKT-NCAA_D1_WOMEN-CONFERENCE-IVY_LEAGUE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/teams/159/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Campaign
+  code: BKT-NCAA_D1_WOMEN-SEASON_2026_2027-TEAM-HARV
+  attributes:
+    display_name: Harvard Crimson
+    abbreviation: HARV
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 15
+      roster_meaning: Complete ESPN season roster listing captured on 2026-11-13,
+        checked against the school's official 2026-27 roster page. Not an appearance
+        union or an NCAA eligibility certification.
+      official_check:
+        url: https://gocrimson.com/sports/womens-basketball/roster/2026-27
+        status: unavailable
+  references:
+    team: BKT-NCAA_D1_WOMEN-TEAM-HARV
+    season: BKT-NCAA_D1_WOMEN-SEASON_2026_2027
+    conference: BKT-NCAA_D1_WOMEN-CONFERENCE-IVY_LEAGUE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/teams/108/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Campaign
+  code: BKT-NCAA_D1_WOMEN-SEASON_2026_2027-TEAM-PENN
+  attributes:
+    display_name: Penn Quakers
+    abbreviation: PENN
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 16
+      roster_meaning: Complete ESPN season roster listing captured on 2026-11-13,
+        checked against the school's official 2026-27 roster page. Not an appearance
+        union or an NCAA eligibility certification.
+      official_check:
+        url: https://pennathletics.com/sports/womens-basketball/roster/2026-27
+        status: compared_both_directions
+  references:
+    team: BKT-NCAA_D1_WOMEN-TEAM-PENN
+    season: BKT-NCAA_D1_WOMEN-SEASON_2026_2027
+    conference: BKT-NCAA_D1_WOMEN-CONFERENCE-IVY_LEAGUE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/teams/219/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Campaign
+  code: BKT-NCAA_D1_WOMEN-SEASON_2026_2027-TEAM-PRIN
+  attributes:
+    display_name: Princeton Tigers
+    abbreviation: PRIN
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 14
+      roster_meaning: Complete ESPN season roster listing captured on 2026-11-13,
+        checked against the school's official 2026-27 roster page. Not an appearance
+        union or an NCAA eligibility certification.
+      official_check:
+        url: https://goprincetontigers.com/sports/womens-basketball/roster/2026-27
+        status: espn_names_on_page
+  references:
+    team: BKT-NCAA_D1_WOMEN-TEAM-PRIN
+    season: BKT-NCAA_D1_WOMEN-SEASON_2026_2027
+    conference: BKT-NCAA_D1_WOMEN-CONFERENCE-IVY_LEAGUE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/teams/163/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Campaign
+  code: BKT-NCAA_D1_WOMEN-SEASON_2026_2027-TEAM-YALE
+  attributes:
+    display_name: Yale Bulldogs
+    abbreviation: YALE
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 19
+      roster_meaning: Complete ESPN season roster listing captured on 2026-11-13,
+        checked against the school's official 2026-27 roster page. Not an appearance
+        union or an NCAA eligibility certification.
+      official_check:
+        url: https://yalebulldogs.com/sports/womens-basketball/roster/2026-27
+        status: compared_both_directions
+  references:
+    team: BKT-NCAA_D1_WOMEN-TEAM-YALE
+    season: BKT-NCAA_D1_WOMEN-SEASON_2026_2027
+    conference: BKT-NCAA_D1_WOMEN-CONFERENCE-IVY_LEAGUE
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/teams/43/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.

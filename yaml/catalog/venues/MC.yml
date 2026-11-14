@@ -1,0 +1,19 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Stadium
+  code: STADIUM-MC-MC-MONTE_CARLO-CIRCUIT_DE_MONACO
+  attributes:
+    name: Circuit de Monaco
+    url: https://en.wikipedia.org/wiki/Circuit_de_Monaco
+  references:
+    city: CITY-MC-MC-MONTE_CARLO
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/monaco.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.

@@ -84,7 +84,9 @@ class Geography2026Builder
     raise "Duplicate team or campaign bindings" unless bindings.map { |row| row.fetch("team") }.uniq.size == 174 && bindings.map { |row| row.fetch("campaign") }.uniq.size == 174
     records = @records.values.sort_by { |row| [ %w[Country State City Stadium].index(row.fetch("type")), row.fetch("code") ] }
     document = { "format" => "micharisma-seeds/v1", "namespace" => "MIC", "catalog" => "ALA", "records" => records }
-    write("yaml/coverage_2026/geography.yaml", YAML.dump(JSON.parse(JSON.generate(document))))
+    writer = SeedCatalog::Writer.new(check: @check)
+    writer.write_batch(File.join(ROOT, "yaml/coverage_2026/geography.yaml"), document) # All places: they go to the catalog.
+    writer.finish(codes_path: File.join(ROOT, "sources/coverage_2026/catalog_codes_geography.json"))
     report = { "as_of" => as_of, "counts" => records.group_by { |row| row.fetch("type") }.transform_values(&:size), "teams" => bindings }
     write("sources/geography_2026/bindings.json", JSON.pretty_generate(report) + "\n")
     puts JSON.generate(report.fetch("counts").merge("home_venue_bindings" => bindings.size))

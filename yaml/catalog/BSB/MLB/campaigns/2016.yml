@@ -1,0 +1,455 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Campaign
+  code: BSB-MLB-SEASON_2016-TEAM-ATH
+  attributes:
+    display_name: Oakland Athletics
+    abbreviation: OAK
+  references:
+    team: BSB-MLB-TEAM-ATH
+    season: BSB-MLB-SEASON_2016
+    division: BSB-MLB-DIVISION-AL_WEST
+    conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2016
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BSB-MLB-SEASON_2016-TEAM-ATL
+  attributes:
+    display_name: Atlanta Braves
+    abbreviation: ATL
+  references:
+    team: BSB-MLB-TEAM-ATL
+    season: BSB-MLB-SEASON_2016
+    division: BSB-MLB-DIVISION-NL_EAST
+    conference: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2016
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BSB-MLB-SEASON_2016-TEAM-AZ
+  attributes:
+    display_name: Arizona Diamondbacks
+    abbreviation: AZ
+  references:
+    team: BSB-MLB-TEAM-AZ
+    season: BSB-MLB-SEASON_2016
+    division: BSB-MLB-DIVISION-NL_WEST
+    conference: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2016
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BSB-MLB-SEASON_2016-TEAM-BAL
+  attributes:
+    display_name: Baltimore Orioles
+    abbreviation: BAL
+  references:
+    team: BSB-MLB-TEAM-BAL
+    season: BSB-MLB-SEASON_2016
+    division: BSB-MLB-DIVISION-AL_EAST
+    conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2016
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BSB-MLB-SEASON_2016-TEAM-BOS
+  attributes:
+    display_name: Boston Red Sox
+    abbreviation: BOS
+  references:
+    team: BSB-MLB-TEAM-BOS
+    season: BSB-MLB-SEASON_2016
+    division: BSB-MLB-DIVISION-AL_EAST
+    conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2016
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BSB-MLB-SEASON_2016-TEAM-CHC
+  attributes:
+    display_name: Chicago Cubs
+    abbreviation: CHC
+  references:
+    team: BSB-MLB-TEAM-CHC
+    season: BSB-MLB-SEASON_2016
+    division: BSB-MLB-DIVISION-NL_CENTRAL
+    conference: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2016
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BSB-MLB-SEASON_2016-TEAM-CIN
+  attributes:
+    display_name: Cincinnati Reds
+    abbreviation: CIN
+  references:
+    team: BSB-MLB-TEAM-CIN
+    season: BSB-MLB-SEASON_2016
+    division: BSB-MLB-DIVISION-NL_CENTRAL
+    conference: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2016
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BSB-MLB-SEASON_2016-TEAM-CLE
+  attributes:
+    display_name: Cleveland Indians
+    abbreviation: CLE
+  references:
+    team: BSB-MLB-TEAM-CLE
+    season: BSB-MLB-SEASON_2016
+    division: BSB-MLB-DIVISION-AL_CENTRAL
+    conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2016
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BSB-MLB-SEASON_2016-TEAM-COL
+  attributes:
+    display_name: Colorado Rockies
+    abbreviation: COL
+  references:
+    team: BSB-MLB-TEAM-COL
+    season: BSB-MLB-SEASON_2016
+    division: BSB-MLB-DIVISION-NL_WEST
+    conference: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2016
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BSB-MLB-SEASON_2016-TEAM-CWS
+  attributes:
+    display_name: Chicago White Sox
+    abbreviation: CWS
+  references:
+    team: BSB-MLB-TEAM-CWS
+    season: BSB-MLB-SEASON_2016
+    division: BSB-MLB-DIVISION-AL_CENTRAL
+    conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2016
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BSB-MLB-SEASON_2016-TEAM-DET
+  attributes:
+    display_name: Detroit Tigers
+    abbreviation: DET
+  references:
+    team: BSB-MLB-TEAM-DET
+    season: BSB-MLB-SEASON_2016
+    division: BSB-MLB-DIVISION-AL_CENTRAL
+    conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2016
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BSB-MLB-SEASON_2016-TEAM-HOU
+  attributes:
+    display_name: Houston Astros
+    abbreviation: HOU
+  references:
+    team: BSB-MLB-TEAM-HOU
+    season: BSB-MLB-SEASON_2016
+    division: BSB-MLB-DIVISION-AL_WEST
+    conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2016
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BSB-MLB-SEASON_2016-TEAM-KC
+  attributes:
+    display_name: Kansas City Royals
+    abbreviation: KC
+  references:
+    team: BSB-MLB-TEAM-KC
+    season: BSB-MLB-SEASON_2016
+    division: BSB-MLB-DIVISION-AL_CENTRAL
+    conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2016
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BSB-MLB-SEASON_2016-TEAM-LAA
+  attributes:
+    display_name: Los Angeles Angels
+    abbreviation: LAA
+  references:
+    team: BSB-MLB-TEAM-LAA
+    season: BSB-MLB-SEASON_2016
+    division: BSB-MLB-DIVISION-AL_WEST
+    conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2016
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BSB-MLB-SEASON_2016-TEAM-LAD
+  attributes:
+    display_name: Los Angeles Dodgers
+    abbreviation: LAD
+  references:
+    team: BSB-MLB-TEAM-LAD
+    season: BSB-MLB-SEASON_2016
+    division: BSB-MLB-DIVISION-NL_WEST
+    conference: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2016
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BSB-MLB-SEASON_2016-TEAM-MIA
+  attributes:
+    display_name: Miami Marlins
+    abbreviation: MIA
+  references:
+    team: BSB-MLB-TEAM-MIA
+    season: BSB-MLB-SEASON_2016
+    division: BSB-MLB-DIVISION-NL_EAST
+    conference: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2016
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BSB-MLB-SEASON_2016-TEAM-MIL
+  attributes:
+    display_name: Milwaukee Brewers
+    abbreviation: MIL
+  references:
+    team: BSB-MLB-TEAM-MIL
+    season: BSB-MLB-SEASON_2016
+    division: BSB-MLB-DIVISION-NL_CENTRAL
+    conference: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2016
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BSB-MLB-SEASON_2016-TEAM-MIN
+  attributes:
+    display_name: Minnesota Twins
+    abbreviation: MIN
+  references:
+    team: BSB-MLB-TEAM-MIN
+    season: BSB-MLB-SEASON_2016
+    division: BSB-MLB-DIVISION-AL_CENTRAL
+    conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2016
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BSB-MLB-SEASON_2016-TEAM-NYM
+  attributes:
+    display_name: New York Mets
+    abbreviation: NYM
+  references:
+    team: BSB-MLB-TEAM-NYM
+    season: BSB-MLB-SEASON_2016
+    division: BSB-MLB-DIVISION-NL_EAST
+    conference: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2016
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BSB-MLB-SEASON_2016-TEAM-NYY
+  attributes:
+    display_name: New York Yankees
+    abbreviation: NYY
+  references:
+    team: BSB-MLB-TEAM-NYY
+    season: BSB-MLB-SEASON_2016
+    division: BSB-MLB-DIVISION-AL_EAST
+    conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2016
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BSB-MLB-SEASON_2016-TEAM-PHI
+  attributes:
+    display_name: Philadelphia Phillies
+    abbreviation: PHI
+  references:
+    team: BSB-MLB-TEAM-PHI
+    season: BSB-MLB-SEASON_2016
+    division: BSB-MLB-DIVISION-NL_EAST
+    conference: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2016
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BSB-MLB-SEASON_2016-TEAM-PIT
+  attributes:
+    display_name: Pittsburgh Pirates
+    abbreviation: PIT
+  references:
+    team: BSB-MLB-TEAM-PIT
+    season: BSB-MLB-SEASON_2016
+    division: BSB-MLB-DIVISION-NL_CENTRAL
+    conference: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2016
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BSB-MLB-SEASON_2016-TEAM-SD
+  attributes:
+    display_name: San Diego Padres
+    abbreviation: SD
+  references:
+    team: BSB-MLB-TEAM-SD
+    season: BSB-MLB-SEASON_2016
+    division: BSB-MLB-DIVISION-NL_WEST
+    conference: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2016
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BSB-MLB-SEASON_2016-TEAM-SEA
+  attributes:
+    display_name: Seattle Mariners
+    abbreviation: SEA
+  references:
+    team: BSB-MLB-TEAM-SEA
+    season: BSB-MLB-SEASON_2016
+    division: BSB-MLB-DIVISION-AL_WEST
+    conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2016
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BSB-MLB-SEASON_2016-TEAM-SF
+  attributes:
+    display_name: San Francisco Giants
+    abbreviation: SF
+  references:
+    team: BSB-MLB-TEAM-SF
+    season: BSB-MLB-SEASON_2016
+    division: BSB-MLB-DIVISION-NL_WEST
+    conference: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2016
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BSB-MLB-SEASON_2016-TEAM-STL
+  attributes:
+    display_name: St. Louis Cardinals
+    abbreviation: STL
+  references:
+    team: BSB-MLB-TEAM-STL
+    season: BSB-MLB-SEASON_2016
+    division: BSB-MLB-DIVISION-NL_CENTRAL
+    conference: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2016
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BSB-MLB-SEASON_2016-TEAM-TB
+  attributes:
+    display_name: Tampa Bay Rays
+    abbreviation: TB
+  references:
+    team: BSB-MLB-TEAM-TB
+    season: BSB-MLB-SEASON_2016
+    division: BSB-MLB-DIVISION-AL_EAST
+    conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2016
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BSB-MLB-SEASON_2016-TEAM-TEX
+  attributes:
+    display_name: Texas Rangers
+    abbreviation: TEX
+  references:
+    team: BSB-MLB-TEAM-TEX
+    season: BSB-MLB-SEASON_2016
+    division: BSB-MLB-DIVISION-AL_WEST
+    conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2016
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BSB-MLB-SEASON_2016-TEAM-TOR
+  attributes:
+    display_name: Toronto Blue Jays
+    abbreviation: TOR
+  references:
+    team: BSB-MLB-TEAM-TOR
+    season: BSB-MLB-SEASON_2016
+    division: BSB-MLB-DIVISION-AL_EAST
+    conference: BSB-MLB-CONFERENCE-AMERICAN_LEAGUE
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2016
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BSB-MLB-SEASON_2016-TEAM-WSH
+  attributes:
+    display_name: Washington Nationals
+    abbreviation: WSH
+  references:
+    team: BSB-MLB-TEAM-WSH
+    season: BSB-MLB-SEASON_2016
+    division: BSB-MLB-DIVISION-NL_EAST
+    conference: BSB-MLB-CONFERENCE-NATIONAL_LEAGUE
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2016
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.

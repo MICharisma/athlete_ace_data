@@ -1,0 +1,80 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: SOC-MLS-PLAYER-ULRICH_LUCA
+  aliases:
+  - SOC-ESPN-PLAYER_403710
+  attributes:
+    first_name: Luca
+    last_name: Ulrich
+    birthdate: '2003-03-17'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/191/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-URHOGHIDE_OSAZE
+  aliases:
+  - SOC-ESPN-PLAYER_268731
+  attributes:
+    first_name: Osaze
+    last_name: Urhoghide
+    birthdate: '2000-07-04'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/185/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-URKIDI_IAN
+  aliases:
+  - SOC-ESPN-PLAYER_399971
+  attributes:
+    first_name: Ian
+    last_name: Urkidi
+    birthdate: '2007-02-21'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/20232/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-UZCATEGUI_RAFAEL
+  aliases:
+  - SOC-ESPN-PLAYER_362911
+  attributes:
+    first_name: Rafael
+    last_name: Uzcátegui
+    birthdate: '2004-10-04'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/10739/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-UZUNI_MYRTO
+  aliases:
+  - SOC-ESPN-PLAYER_275500
+  attributes:
+    first_name: Myrto
+    last_name: Uzuni
+    birthdate: '1995-05-31'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/20906/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.

@@ -1,0 +1,117 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Team
+  code: BKT-NCAA_D1_MEN-TEAM-BRWN
+  attributes:
+    territory: Brown
+    mascot: Bears
+    abbreviation: BRWN
+  references:
+    league: BKT-LEAGUE-NCAA_D1_MEN
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/225/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Team
+  code: BKT-NCAA_D1_MEN-TEAM-COLU
+  attributes:
+    territory: Columbia
+    mascot: Lions
+    abbreviation: COLU
+  references:
+    league: BKT-LEAGUE-NCAA_D1_MEN
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/171/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Team
+  code: BKT-NCAA_D1_MEN-TEAM-COR
+  attributes:
+    territory: Cornell
+    mascot: Big Red
+    abbreviation: COR
+  references:
+    league: BKT-LEAGUE-NCAA_D1_MEN
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/172/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Team
+  code: BKT-NCAA_D1_MEN-TEAM-DART
+  attributes:
+    territory: Dartmouth
+    mascot: Big Green
+    abbreviation: DART
+  references:
+    league: BKT-LEAGUE-NCAA_D1_MEN
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/159/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Team
+  code: BKT-NCAA_D1_MEN-TEAM-HARV
+  attributes:
+    territory: Harvard
+    mascot: Crimson
+    abbreviation: HARV
+  references:
+    league: BKT-LEAGUE-NCAA_D1_MEN
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/108/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Team
+  code: BKT-NCAA_D1_MEN-TEAM-PENN
+  attributes:
+    territory: Penn
+    mascot: Quakers
+    abbreviation: PENN
+  references:
+    league: BKT-LEAGUE-NCAA_D1_MEN
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/219/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Team
+  code: BKT-NCAA_D1_MEN-TEAM-PRIN
+  attributes:
+    territory: Princeton
+    mascot: Tigers
+    abbreviation: PRIN
+  references:
+    league: BKT-LEAGUE-NCAA_D1_MEN
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/163/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Team
+  code: BKT-NCAA_D1_MEN-TEAM-YALE
+  attributes:
+    territory: Yale
+    mascot: Bulldogs
+    abbreviation: YALE
+  references:
+    league: BKT-LEAGUE-NCAA_D1_MEN
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/43/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.

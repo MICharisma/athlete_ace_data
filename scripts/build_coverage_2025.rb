@@ -5,6 +5,7 @@ require "json"
 require "net/http"
 require "nokogiri"
 require "yaml"
+require_relative "lib/seed_catalog"
 
 class Coverage2025
   ROOT = File.expand_path("..", __dir__)
@@ -187,9 +188,9 @@ class Coverage2025
     document = JSON.parse(File.read(CAPTURE))
     photo_capture = JSON.parse(File.read(File.join(ROOT, "sources/nba_player_photos.json")))
     photos = photo_capture.fetch("players").to_h { |player| [player.fetch("source_key"), player] }
-    existing = Dir.glob(File.join(ROOT, "yaml/*.yaml")).reject { |path| path.end_with?("entity_sequences.yaml") }.flat_map do |path|
-      YAML.safe_load_file(path).fetch("groups").flat_map { |group| group.fetch("records", []) }
-    end
+    # The catalog holds every identity, including the pilot's preferred codes and aliases.
+    existing = Dir.glob(File.join(SeedCatalog::LIBRARY, SeedCatalog::CATALOG, "**/*.yml")).flat_map { |path| YAML.safe_load_file(path).fetch("records") }
+    writer = SeedCatalog::Writer.new(check: ARGV.include?("--check"))
     known = existing.each_with_object({}) { |row, memo| ([row.fetch("code")] + row.fetch("aliases", [])).each { |code| memo[code] = row.fetch("code") } }
     identities = {}
     summaries = {}
@@ -247,10 +248,11 @@ class Coverage2025
       end
       manifest = { "format" => "micharisma-seeds/v1", "namespace" => "MIC", "catalog" => "ALA",
         "scope" => { "sport" => "SPORT-#{config.fetch(:sport)}", "league" => "#{config.fetch(:sport)}-LEAGUE-#{league}", "year" => "YEAR-2025" }, "groups" => groups }
-      File.write(File.join(OUTPUT, "#{league.downcase}.yaml"), YAML.dump(manifest))
+      writer.write_batch(File.join(OUTPUT, "#{league.downcase}.yaml"), manifest) # Identities go to the catalog.
       summaries[league] = { teams: groups.size, memberships: groups.sum { |group| group.fetch("records").count { |row| row.fetch("type") == "Activation" } },
         full_roster: config.fetch(:full), full_roster_players: selected_teams.find { |team| team.fetch("abbreviation") == config.fetch(:full) }&.fetch("players")&.size }
     end
+    writer.finish(codes_path: File.join(ROOT, "sources/coverage_2025/catalog_codes.json"))
     puts JSON.pretty_generate(summaries)
   end
 end

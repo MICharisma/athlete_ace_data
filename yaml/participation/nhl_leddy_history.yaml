@@ -1,165 +1,159 @@
+---
 format: micharisma-seeds/v1
 namespace: MIC
 catalog: ALA
 groups:
-  - source:
-      url: https://www.nhl.com/blues/news/blues-acquire-leddy-witkowski-from-red-wings-332085830
-      published_on: "2022-03-21"
-    records:
-      - type: Transaction
-        code: HCK-NHL-TRANSACTION-DET_STL_TRADE_2022_03_21
-        attributes:
-          kind: trade
-          effective_on: "2022-03-21"
-          details:
-            player_coverage: partial
-            note: Only Leddy's movement is modeled; the announcement also names Witkowski, Walman, Sundqvist, and a draft pick.
-      - type: TransactionPlayer
-        code: HCK-NHL-TRANSACTION-DET_STL_TRADE_2022_03_21-PLAYER-LEDDY_NICK
-        references:
-          event: HCK-NHL-TRANSACTION-DET_STL_TRADE_2022_03_21
-          player: HCK-NHL-CHI-2010-LEDDY_NICK
-          from_organization: HCK-NHL-ORG-DET
-          to_organization: HCK-NHL-ORG-STL
-          from_team: HCK-NHL-TEAM-DET
-          to_team: HCK-NHL-TEAM-STL
-      - type: Stint
-        code: HCK-NHL-STINT-STL_LEDDY_NICK_2022_03_21
-        attributes:
-          start_date: "2022-03-21"
-          details:
-            note: Acquisition establishes the start; the end is unknown. The later extension is a separate agreement, not this stint's original contract.
-        references:
-          player: HCK-NHL-CHI-2010-LEDDY_NICK
-          team: HCK-NHL-TEAM-STL
-          start_transaction: HCK-NHL-TRANSACTION-DET_STL_TRADE_2022_03_21
-  - source:
-      url: https://www.nhl.com/blues/news/leddy-agrees-to-4-year-deal-with-blues-334956344
-      published_on: "2022-07-13"
-    records:
-      - type: Transaction
-        code: HCK-NHL-TRANSACTION-STL_LEDDY_EXTENSION_2022_07_13
-        attributes:
-          kind: contract_extension
-          effective_on: "2022-07-13"
-      - type: TransactionPlayer
-        code: HCK-NHL-TRANSACTION-STL_LEDDY_EXTENSION_2022_07_13-PLAYER-LEDDY_NICK
-        references:
-          event: HCK-NHL-TRANSACTION-STL_LEDDY_EXTENSION_2022_07_13
-          player: HCK-NHL-CHI-2010-LEDDY_NICK
-          to_organization: HCK-NHL-ORG-STL
-      - type: Contract
-        code: HCK-NHL-CONTRACT-STL_LEDDY_NICK_EXTENSION_2022_07_13
-        attributes:
-          total_dollar_value: 16000000
-          details:
-            term_years: 4
-            announced_on: "2022-07-13"
-            source:
-              url: https://www.nhl.com/blues/news/leddy-agrees-to-4-year-deal-with-blues-334956344
-              published_on: "2022-07-13"
-            note: Exact contractual start and end dates are not established by this announcement.
-        references:
-          player: HCK-NHL-CHI-2010-LEDDY_NICK
-          organization: HCK-NHL-ORG-STL
-  - source:
-      url: https://api-web.nhle.com/v1/gamecenter/2021021008/boxscore
-      captured_on: "2026-10-06"
-      note: Archived regular-season game; selected Leddy statistics only. Starter status is unknown.
-    records:
-      - type: Campaign
-        code: HCK-NHL-SEASON_2021_2022-TEAM-WSH
-        attributes:
-          display_name: Washington Capitals
-          abbreviation: WSH
-        references:
-          team: HCK-NHL-TEAM-WSH
-          season: HCK-NHL-SEASON_2021_2022
-      - type: Contest
-        code: HCK-NHL-GAME-STL_WSH_2022_03_22
-        attributes:
-          kind: game
-          name: St. Louis Blues at Washington Capitals
-          begin_date: "2022-03-22"
-          end_date: "2022-03-22"
-          details:
-            source_game_id: 2021021008
-            home_team: WSH
-            away_team: STL
-            home_goals: 2
-            away_goals: 5
-            source:
-              url: https://api-web.nhle.com/v1/gamecenter/2021021008/boxscore
-        references:
-          context: HCK-LEAGUE-NHL
-          season: HCK-NHL-SEASON_2021_2022
-          champion: HCK-NHL-TEAM-STL
-      - type: Contestant
-        code: HCK-NHL-GAME-STL_WSH_2022_03_22-TEAM-STL
-        attributes:
-          placing: 1
-          wins: 1
-          losses: 0
-        references:
-          contest: HCK-NHL-GAME-STL_WSH_2022_03_22
-          campaign: HCK-NHL-SEASON_2021_2022-TEAM-STL
-      - type: Contestant
-        code: HCK-NHL-GAME-STL_WSH_2022_03_22-TEAM-WSH
-        attributes:
-          placing: 2
-          wins: 0
-          losses: 1
-        references:
-          contest: HCK-NHL-GAME-STL_WSH_2022_03_22
-          campaign: HCK-NHL-SEASON_2021_2022-TEAM-WSH
-      - type: Appearance
-        code: HCK-NHL-GAME-STL_WSH_2022_03_22-PLAYER-LEDDY_NICK
-        attributes:
-          jersey_number: "4"
-          statistics: {goals: 0, assists: 0, points: 0, shots_on_goal: 2, time_on_ice: "20:50"}
-        references:
-          player: HCK-NHL-CHI-2010-LEDDY_NICK
-          contestant: HCK-NHL-GAME-STL_WSH_2022_03_22-TEAM-STL
-          stint: HCK-NHL-STINT-STL_LEDDY_NICK_2022_03_21
-  - source:
-      url: https://www.nhl.com/blues/news/blues-reveal-23-man-roster-for-opening-night-336237668
-      published_on: "2022-10-11"
-      note: Partial two-player sample from the club's published opening-night roster.
-    records:
-      - type: Campaign
-        code: HCK-NHL-SEASON_2022_2023-TEAM-STL
-        attributes:
-          display_name: St. Louis Blues
-          abbreviation: STL
-        references:
-          team: HCK-NHL-TEAM-STL
-          season: HCK-NHL-SEASON_2022_2023
-      - type: Activation
-        code: HCK-NHL-SEASON_2022_2023-TEAM-STL-PLAYER-LEDDY_NICK
-        references:
-          player: HCK-NHL-CHI-2010-LEDDY_NICK
-          campaign: HCK-NHL-SEASON_2022_2023-TEAM-STL
-      - type: Activation
-        code: HCK-NHL-SEASON_2022_2023-TEAM-STL-PLAYER-BINNINGTON_JORDAN
-        references:
-          player: HCK-NHL-PLAYER-BINNINGTON_JORDAN
-          campaign: HCK-NHL-SEASON_2022_2023-TEAM-STL
-      - type: Roster
-        code: HCK-NHL-SEASON_2022_2023-TEAM-STL-ROSTER-OPENING_NIGHT_2022_10_15
-        attributes:
-          kind: opening_night_roster
-          effective_on: "2022-10-15"
-          coverage: partial
-          details: {selected_player_count: 2}
-        references:
-          campaign: HCK-NHL-SEASON_2022_2023-TEAM-STL
-      - type: RosterEntry
-        code: HCK-NHL-SEASON_2022_2023-TEAM-STL-ROSTER-OPENING_NIGHT_2022_10_15-PLAYER-LEDDY_NICK
-        references:
-          roster: HCK-NHL-SEASON_2022_2023-TEAM-STL-ROSTER-OPENING_NIGHT_2022_10_15
-          player: HCK-NHL-CHI-2010-LEDDY_NICK
-      - type: RosterEntry
-        code: HCK-NHL-SEASON_2022_2023-TEAM-STL-ROSTER-OPENING_NIGHT_2022_10_15-PLAYER-BINNINGTON_JORDAN
-        references:
-          roster: HCK-NHL-SEASON_2022_2023-TEAM-STL-ROSTER-OPENING_NIGHT_2022_10_15
-          player: HCK-NHL-PLAYER-BINNINGTON_JORDAN
+- source:
+    url: https://www.nhl.com/blues/news/blues-acquire-leddy-witkowski-from-red-wings-332085830
+    published_on: '2022-03-21'
+  records:
+  - type: Transaction
+    code: HCK-NHL-TRANSACTION-DET_STL_TRADE_2022_03_21
+    attributes:
+      kind: trade
+      effective_on: '2022-03-21'
+      details:
+        player_coverage: partial
+        note: Only Leddy's movement is modeled; the announcement also names Witkowski,
+          Walman, Sundqvist, and a draft pick.
+  - type: TransactionPlayer
+    code: HCK-NHL-TRANSACTION-DET_STL_TRADE_2022_03_21-PLAYER-LEDDY_NICK
+    references:
+      event: HCK-NHL-TRANSACTION-DET_STL_TRADE_2022_03_21
+      player: HCK-NHL-CHI-2010-LEDDY_NICK
+      from_organization: HCK-NHL-ORG-DET
+      to_organization: HCK-NHL-ORG-STL
+      from_team: HCK-NHL-TEAM-DET
+      to_team: HCK-NHL-TEAM-STL
+  - type: Stint
+    code: HCK-NHL-STINT-STL_LEDDY_NICK_2022_03_21
+    attributes:
+      start_date: '2022-03-21'
+      details:
+        note: Acquisition establishes the start; the end is unknown. The later extension
+          is a separate agreement, not this stint's original contract.
+    references:
+      player: HCK-NHL-CHI-2010-LEDDY_NICK
+      team: HCK-NHL-TEAM-STL
+      start_transaction: HCK-NHL-TRANSACTION-DET_STL_TRADE_2022_03_21
+- source:
+    url: https://www.nhl.com/blues/news/leddy-agrees-to-4-year-deal-with-blues-334956344
+    published_on: '2022-07-13'
+  records:
+  - type: Transaction
+    code: HCK-NHL-TRANSACTION-STL_LEDDY_EXTENSION_2022_07_13
+    attributes:
+      kind: contract_extension
+      effective_on: '2022-07-13'
+  - type: TransactionPlayer
+    code: HCK-NHL-TRANSACTION-STL_LEDDY_EXTENSION_2022_07_13-PLAYER-LEDDY_NICK
+    references:
+      event: HCK-NHL-TRANSACTION-STL_LEDDY_EXTENSION_2022_07_13
+      player: HCK-NHL-CHI-2010-LEDDY_NICK
+      to_organization: HCK-NHL-ORG-STL
+  - type: Contract
+    code: HCK-NHL-CONTRACT-STL_LEDDY_NICK_EXTENSION_2022_07_13
+    attributes:
+      total_dollar_value: 16000000
+      details:
+        term_years: 4
+        announced_on: '2022-07-13'
+        source:
+          url: https://www.nhl.com/blues/news/leddy-agrees-to-4-year-deal-with-blues-334956344
+          published_on: '2022-07-13'
+        note: Exact contractual start and end dates are not established by this announcement.
+    references:
+      player: HCK-NHL-CHI-2010-LEDDY_NICK
+      organization: HCK-NHL-ORG-STL
+- source:
+    url: https://api-web.nhle.com/v1/gamecenter/2021021008/boxscore
+    captured_on: '2026-10-06'
+    note: Archived regular-season game; selected Leddy statistics only. Starter status
+      is unknown.
+  records:
+  - type: Contest
+    code: HCK-NHL-GAME-STL_WSH_2022_03_22
+    attributes:
+      kind: game
+      name: St. Louis Blues at Washington Capitals
+      begin_date: '2022-03-22'
+      end_date: '2022-03-22'
+      details:
+        source_game_id: 2021021008
+        home_team: WSH
+        away_team: STL
+        home_goals: 2
+        away_goals: 5
+        source:
+          url: https://api-web.nhle.com/v1/gamecenter/2021021008/boxscore
+    references:
+      context: HCK-LEAGUE-NHL
+      season: HCK-NHL-SEASON_2021_2022
+      champion: HCK-NHL-TEAM-STL
+  - type: Contestant
+    code: HCK-NHL-GAME-STL_WSH_2022_03_22-TEAM-STL
+    attributes:
+      placing: 1
+      wins: 1
+      losses: 0
+    references:
+      contest: HCK-NHL-GAME-STL_WSH_2022_03_22
+      campaign: HCK-NHL-SEASON_2021_2022-TEAM-STL
+  - type: Contestant
+    code: HCK-NHL-GAME-STL_WSH_2022_03_22-TEAM-WSH
+    attributes:
+      placing: 2
+      wins: 0
+      losses: 1
+    references:
+      contest: HCK-NHL-GAME-STL_WSH_2022_03_22
+      campaign: HCK-NHL-SEASON_2021_2022-TEAM-WSH
+  - type: Appearance
+    code: HCK-NHL-GAME-STL_WSH_2022_03_22-PLAYER-LEDDY_NICK
+    attributes:
+      jersey_number: '4'
+      statistics:
+        goals: 0
+        assists: 0
+        points: 0
+        shots_on_goal: 2
+        time_on_ice: '20:50'
+    references:
+      player: HCK-NHL-CHI-2010-LEDDY_NICK
+      contestant: HCK-NHL-GAME-STL_WSH_2022_03_22-TEAM-STL
+      stint: HCK-NHL-STINT-STL_LEDDY_NICK_2022_03_21
+- source:
+    url: https://www.nhl.com/blues/news/blues-reveal-23-man-roster-for-opening-night-336237668
+    published_on: '2022-10-11'
+    note: Partial two-player sample from the club's published opening-night roster.
+  records:
+  - type: Activation
+    code: HCK-NHL-SEASON_2022_2023-TEAM-STL-PLAYER-LEDDY_NICK
+    references:
+      player: HCK-NHL-CHI-2010-LEDDY_NICK
+      campaign: HCK-NHL-SEASON_2022_2023-TEAM-STL
+  - type: Activation
+    code: HCK-NHL-SEASON_2022_2023-TEAM-STL-PLAYER-BINNINGTON_JORDAN
+    references:
+      player: HCK-NHL-PLAYER-BINNINGTON_JORDAN
+      campaign: HCK-NHL-SEASON_2022_2023-TEAM-STL
+  - type: Roster
+    code: HCK-NHL-SEASON_2022_2023-TEAM-STL-ROSTER-OPENING_NIGHT_2022_10_15
+    attributes:
+      kind: opening_night_roster
+      effective_on: '2022-10-15'
+      coverage: partial
+      details:
+        selected_player_count: 2
+    references:
+      campaign: HCK-NHL-SEASON_2022_2023-TEAM-STL
+  - type: RosterEntry
+    code: HCK-NHL-SEASON_2022_2023-TEAM-STL-ROSTER-OPENING_NIGHT_2022_10_15-PLAYER-LEDDY_NICK
+    references:
+      roster: HCK-NHL-SEASON_2022_2023-TEAM-STL-ROSTER-OPENING_NIGHT_2022_10_15
+      player: HCK-NHL-CHI-2010-LEDDY_NICK
+  - type: RosterEntry
+    code: HCK-NHL-SEASON_2022_2023-TEAM-STL-ROSTER-OPENING_NIGHT_2022_10_15-PLAYER-BINNINGTON_JORDAN
+    references:
+      roster: HCK-NHL-SEASON_2022_2023-TEAM-STL-ROSTER-OPENING_NIGHT_2022_10_15
+      player: HCK-NHL-PLAYER-BINNINGTON_JORDAN

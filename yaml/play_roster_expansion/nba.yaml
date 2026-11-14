@@ -17,208 +17,96 @@ groups:
       player is selected. Additional definitions supplement the existing catalog;
       existing rows are not replaced.
   records:
-  - type: Player
-    code: BKT-NBA-PLAYER-KUMINGA_JONATHAN
-    attributes:
-      first_name: Jonathan
-      last_name: Kuminga
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ATL-PLAYER-KUMINGA_JONATHAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-KUMINGA_JONATHAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-ATL
-  - type: Player
-    code: BKT-NBA-PLAYER-JOHNSON_JALEN
-    attributes:
-      first_name: Jalen
-      last_name: Johnson
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ATL-PLAYER-JOHNSON_JALEN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-JOHNSON_JALEN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-ATL
-  - type: Player
-    code: BKT-NBA-PLAYER-WALLACE_KEATON
-    attributes:
-      first_name: Keaton
-      last_name: Wallace
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ATL-PLAYER-WALLACE_KEATON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WALLACE_KEATON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-ATL
-  - type: Player
-    code: BKT-NBA-PLAYER-MCCOLLUM_CJ
-    attributes:
-      first_name: CJ
-      last_name: McCollum
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ATL-PLAYER-MCCOLLUM_CJ
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MCCOLLUM_CJ
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-ATL
-  - type: Player
-    code: BKT-NBA-PLAYER-VINCENT_GABE
-    attributes:
-      first_name: Gabe
-      last_name: Vincent
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ATL-PLAYER-VINCENT_GABE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-VINCENT_GABE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-ATL
-  - type: Player
-    code: BKT-NBA-PLAYER-DANIELS_DYSON
-    attributes:
-      first_name: Dyson
-      last_name: Daniels
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ATL-PLAYER-DANIELS_DYSON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-DANIELS_DYSON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-ATL
-  - type: Player
-    code: BKT-NBA-PLAYER-ALEXANDER_WALKER_NICKEIL
-    attributes:
-      first_name: Nickeil
-      last_name: Alexander-Walker
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ATL-PLAYER-ALEXANDER_WALKER_NICKEIL
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-ALEXANDER_WALKER_NICKEIL
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-ATL
-  - type: Player
-    code: BKT-NBA-PLAYER-HIELD_BUDDY
-    attributes:
-      first_name: Buddy
-      last_name: Hield
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ATL-PLAYER-HIELD_BUDDY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-HIELD_BUDDY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-ATL
-  - type: Player
-    code: BKT-NBA-PLAYER-RISACHER_ZACCHARIE
-    attributes:
-      first_name: Zaccharie
-      last_name: Risacher
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ATL-PLAYER-RISACHER_ZACCHARIE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-RISACHER_ZACCHARIE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-ATL
-  - type: Player
-    code: BKT-NBA-PLAYER-KOLOKO_CHRISTIAN
-    attributes:
-      first_name: Christian
-      last_name: Koloko
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ATL-PLAYER-KOLOKO_CHRISTIAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-KOLOKO_CHRISTIAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-ATL
-  - type: Player
-    code: BKT-NBA-PLAYER-BRADLEY_TONY
-    attributes:
-      first_name: Tony
-      last_name: Bradley
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ATL-PLAYER-BRADLEY_TONY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BRADLEY_TONY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-ATL
-  - type: Player
-    code: BKT-NBA-PLAYER-NEWELL_ASA
-    attributes:
-      first_name: Asa
-      last_name: Newell
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ATL-PLAYER-NEWELL_ASA
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-NEWELL_ASA
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-ATL
-  - type: Player
-    code: BKT-NBA-PLAYER-OKONGWU_ONYEKA
-    attributes:
-      first_name: Onyeka
-      last_name: Okongwu
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ATL-PLAYER-OKONGWU_ONYEKA
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-OKONGWU_ONYEKA
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-ATL
-  - type: Player
-    code: BKT-NBA-PLAYER-GUEYE_MOUHAMED
-    attributes:
-      first_name: Mouhamed
-      last_name: Gueye
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ATL-PLAYER-GUEYE_MOUHAMED
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-GUEYE_MOUHAMED
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-ATL
-  - type: Player
-    code: BKT-NBA-PLAYER-KISPERT_COREY
-    attributes:
-      first_name: Corey
-      last_name: Kispert
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ATL-PLAYER-KISPERT_COREY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-KISPERT_COREY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-ATL
-  - type: Player
-    code: BKT-NBA-PLAYER-LANDALE_JOCK
-    attributes:
-      first_name: Jock
-      last_name: Landale
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ATL-PLAYER-LANDALE_JOCK
     attributes: {}
@@ -235,208 +123,96 @@ groups:
       player is selected. Additional definitions supplement the existing catalog;
       existing rows are not replaced.
   records:
-  - type: Player
-    code: BKT-NBA-PLAYER-WOLF_DANNY
-    attributes:
-      first_name: Danny
-      last_name: Wolf
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BKN-PLAYER-WOLF_DANNY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WOLF_DANNY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-BKN
-  - type: Player
-    code: BKT-NBA-PLAYER-POWELL_DRAKE
-    attributes:
-      first_name: Drake
-      last_name: Powell
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BKN-PLAYER-POWELL_DRAKE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-POWELL_DRAKE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-BKN
-  - type: Player
-    code: BKT-NBA-PLAYER-DEMIN_EGOR
-    attributes:
-      first_name: Egor
-      last_name: Dëmin
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BKN-PLAYER-DEMIN_EGOR
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-DEMIN_EGOR
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-BKN
-  - type: Player
-    code: BKT-NBA-PLAYER-LIDDELL_E_J
-    attributes:
-      first_name: E.J.
-      last_name: Liddell
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BKN-PLAYER-LIDDELL_E_J
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-LIDDELL_E_J
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-BKN
-  - type: Player
-    code: BKT-NBA-PLAYER-ETIENNE_TYSON
-    attributes:
-      first_name: Tyson
-      last_name: Etienne
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BKN-PLAYER-ETIENNE_TYSON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-ETIENNE_TYSON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-BKN
-  - type: Player
-    code: BKT-NBA-PLAYER-MANN_TERANCE
-    attributes:
-      first_name: Terance
-      last_name: Mann
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BKN-PLAYER-MANN_TERANCE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MANN_TERANCE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-BKN
-  - type: Player
-    code: BKT-NBA-PLAYER-PORTER_JR_MICHAEL
-    attributes:
-      first_name: Michael
-      last_name: Porter Jr.
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BKN-PLAYER-PORTER_JR_MICHAEL
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-PORTER_JR_MICHAEL
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-BKN
-  - type: Player
-    code: BKT-NBA-PLAYER-SMITH_MALACHI
-    attributes:
-      first_name: Malachi
-      last_name: Smith
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BKN-PLAYER-SMITH_MALACHI
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SMITH_MALACHI
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-BKN
-  - type: Player
-    code: BKT-NBA-PLAYER-SHARPE_DAY_RON
-    attributes:
-      first_name: Day'Ron
-      last_name: Sharpe
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BKN-PLAYER-SHARPE_DAY_RON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SHARPE_DAY_RON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-BKN
-  - type: Player
-    code: BKT-NBA-PLAYER-CLOWNEY_NOAH
-    attributes:
-      first_name: Noah
-      last_name: Clowney
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BKN-PLAYER-CLOWNEY_NOAH
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-CLOWNEY_NOAH
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-BKN
-  - type: Player
-    code: BKT-NBA-PLAYER-WILSON_JALEN
-    attributes:
-      first_name: Jalen
-      last_name: Wilson
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BKN-PLAYER-WILSON_JALEN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WILSON_JALEN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-BKN
-  - type: Player
-    code: BKT-NBA-PLAYER-AGBAJI_OCHAI
-    attributes:
-      first_name: Ochai
-      last_name: Agbaji
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BKN-PLAYER-AGBAJI_OCHAI
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-AGBAJI_OCHAI
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-BKN
-  - type: Player
-    code: BKT-NBA-PLAYER-JOHNSON_CHANEY
-    attributes:
-      first_name: Chaney
-      last_name: Johnson
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BKN-PLAYER-JOHNSON_CHANEY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-JOHNSON_CHANEY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-BKN
-  - type: Player
-    code: BKT-NBA-PLAYER-CLAXTON_NIC
-    attributes:
-      first_name: Nic
-      last_name: Claxton
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BKN-PLAYER-CLAXTON_NIC
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-CLAXTON_NIC
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-BKN
-  - type: Player
-    code: BKT-NBA-PLAYER-SARAF_BEN
-    attributes:
-      first_name: Ben
-      last_name: Saraf
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BKN-PLAYER-SARAF_BEN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SARAF_BEN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-BKN
-  - type: Player
-    code: BKT-NBA-PLAYER-TRAORE_NOLAN
-    attributes:
-      first_name: Nolan
-      last_name: Traore
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BKN-PLAYER-TRAORE_NOLAN
     attributes: {}
@@ -453,182 +229,84 @@ groups:
       player is selected. Additional definitions supplement the existing catalog;
       existing rows are not replaced.
   records:
-  - type: Player
-    code: BKT-NBA-PLAYER-BROWN_JAYLEN
-    attributes:
-      first_name: Jaylen
-      last_name: Brown
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BOS-PLAYER-BROWN_JAYLEN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BROWN_JAYLEN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-BOS
-  - type: Player
-    code: BKT-NBA-PLAYER-TONJE_JOHN
-    attributes:
-      first_name: John
-      last_name: Tonje
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BOS-PLAYER-TONJE_JOHN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-TONJE_JOHN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-BOS
-  - type: Player
-    code: BKT-NBA-PLAYER-WHITE_DERRICK
-    attributes:
-      first_name: Derrick
-      last_name: White
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BOS-PLAYER-WHITE_DERRICK
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WHITE_DERRICK
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-BOS
-  - type: Player
-    code: BKT-NBA-PLAYER-PRITCHARD_PAYTON
-    attributes:
-      first_name: Payton
-      last_name: Pritchard
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BOS-PLAYER-PRITCHARD_PAYTON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-PRITCHARD_PAYTON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-BOS
-  - type: Player
-    code: BKT-NBA-PLAYER-HARPER_JR_RON
-    attributes:
-      first_name: Ron
-      last_name: Harper Jr.
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BOS-PLAYER-HARPER_JR_RON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-HARPER_JR_RON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-BOS
-  - type: Player
-    code: BKT-NBA-PLAYER-WALSH_JORDAN
-    attributes:
-      first_name: Jordan
-      last_name: Walsh
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BOS-PLAYER-WALSH_JORDAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WALSH_JORDAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-BOS
-  - type: Player
-    code: BKT-NBA-PLAYER-GONZALEZ_HUGO
-    attributes:
-      first_name: Hugo
-      last_name: González
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BOS-PLAYER-GONZALEZ_HUGO
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-GONZALEZ_HUGO
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-BOS
-  - type: Player
-    code: BKT-NBA-PLAYER-HAUSER_SAM
-    attributes:
-      first_name: Sam
-      last_name: Hauser
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BOS-PLAYER-HAUSER_SAM
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-HAUSER_SAM
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-BOS
-  - type: Player
-    code: BKT-NBA-PLAYER-SHULGA_MAX
-    attributes:
-      first_name: Max
-      last_name: Shulga
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BOS-PLAYER-SHULGA_MAX
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SHULGA_MAX
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-BOS
-  - type: Player
-    code: BKT-NBA-PLAYER-BANTON_DALANO
-    attributes:
-      first_name: Dalano
-      last_name: Banton
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BOS-PLAYER-BANTON_DALANO
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BANTON_DALANO
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-BOS
-  - type: Player
-    code: BKT-NBA-PLAYER-GARZA_LUKA
-    attributes:
-      first_name: Luka
-      last_name: Garza
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BOS-PLAYER-GARZA_LUKA
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-GARZA_LUKA
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-BOS
-  - type: Player
-    code: BKT-NBA-PLAYER-SCHEIERMAN_BAYLOR
-    attributes:
-      first_name: Baylor
-      last_name: Scheierman
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BOS-PLAYER-SCHEIERMAN_BAYLOR
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SCHEIERMAN_BAYLOR
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-BOS
-  - type: Player
-    code: BKT-NBA-PLAYER-WILLIAMS_AMARI
-    attributes:
-      first_name: Amari
-      last_name: Williams
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BOS-PLAYER-WILLIAMS_AMARI
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WILLIAMS_AMARI
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-BOS
-  - type: Player
-    code: BKT-NBA-PLAYER-QUETA_NEEMIAS
-    attributes:
-      first_name: Neemias
-      last_name: Queta
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-BOS-PLAYER-QUETA_NEEMIAS
     attributes: {}
@@ -645,208 +323,96 @@ groups:
       player is selected. Additional definitions supplement the existing catalog;
       existing rows are not replaced.
   records:
-  - type: Player
-    code: BKT-NBA-PLAYER-WILLIAMS_GRANT
-    attributes:
-      first_name: Grant
-      last_name: Williams
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHA-PLAYER-WILLIAMS_GRANT
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WILLIAMS_GRANT
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CHA
-  - type: Player
-    code: BKT-NBA-PLAYER-WHITE_COBY
-    attributes:
-      first_name: Coby
-      last_name: White
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHA-PLAYER-WHITE_COBY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WHITE_COBY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CHA
-  - type: Player
-    code: BKT-NBA-PLAYER-JAMES_SION
-    attributes:
-      first_name: Sion
-      last_name: James
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHA-PLAYER-JAMES_SION
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-JAMES_SION
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CHA
-  - type: Player
-    code: BKT-NBA-PLAYER-KNUEPPEL_KON
-    attributes:
-      first_name: Kon
-      last_name: Knueppel
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHA-PLAYER-KNUEPPEL_KON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-KNUEPPEL_KON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CHA
-  - type: Player
-    code: BKT-NBA-PLAYER-GREEN_JOSH
-    attributes:
-      first_name: Josh
-      last_name: Green
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHA-PLAYER-GREEN_JOSH
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-GREEN_JOSH
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CHA
-  - type: Player
-    code: BKT-NBA-PLAYER-KALKBRENNER_RYAN
-    attributes:
-      first_name: Ryan
-      last_name: Kalkbrenner
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHA-PLAYER-KALKBRENNER_RYAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-KALKBRENNER_RYAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CHA
-  - type: Player
-    code: BKT-NBA-PLAYER-REEVES_ANTONIO
-    attributes:
-      first_name: Antonio
-      last_name: Reeves
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHA-PLAYER-REEVES_ANTONIO
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-REEVES_ANTONIO
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CHA
-  - type: Player
-    code: BKT-NBA-PLAYER-DIABATE_MOUSSA
-    attributes:
-      first_name: Moussa
-      last_name: Diabaté
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHA-PLAYER-DIABATE_MOUSSA
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-DIABATE_MOUSSA
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CHA
-  - type: Player
-    code: BKT-NBA-PLAYER-HALL_PJ
-    attributes:
-      first_name: PJ
-      last_name: Hall
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHA-PLAYER-HALL_PJ
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-HALL_PJ
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CHA
-  - type: Player
-    code: BKT-NBA-PLAYER-EVBUOMWAN_TOSAN
-    attributes:
-      first_name: Tosan
-      last_name: Evbuomwan
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHA-PLAYER-EVBUOMWAN_TOSAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-EVBUOMWAN_TOSAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CHA
-  - type: Player
-    code: BKT-NBA-PLAYER-CONNAUGHTON_PAT
-    attributes:
-      first_name: Pat
-      last_name: Connaughton
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHA-PLAYER-CONNAUGHTON_PAT
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-CONNAUGHTON_PAT
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CHA
-  - type: Player
-    code: BKT-NBA-PLAYER-MANN_TRE
-    attributes:
-      first_name: Tre
-      last_name: Mann
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHA-PLAYER-MANN_TRE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MANN_TRE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CHA
-  - type: Player
-    code: BKT-NBA-PLAYER-MILLER_BRANDON
-    attributes:
-      first_name: Brandon
-      last_name: Miller
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHA-PLAYER-MILLER_BRANDON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MILLER_BRANDON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CHA
-  - type: Player
-    code: BKT-NBA-PLAYER-TILLMAN_XAVIER
-    attributes:
-      first_name: Xavier
-      last_name: Tillman
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHA-PLAYER-TILLMAN_XAVIER
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-TILLMAN_XAVIER
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CHA
-  - type: Player
-    code: BKT-NBA-PLAYER-SALAUN_TIDJANE
-    attributes:
-      first_name: Tidjane
-      last_name: Salaün
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHA-PLAYER-SALAUN_TIDJANE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SALAUN_TIDJANE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CHA
-  - type: Player
-    code: BKT-NBA-PLAYER-MCNEELEY_LIAM
-    attributes:
-      first_name: Liam
-      last_name: McNeeley
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHA-PLAYER-MCNEELEY_LIAM
     attributes: {}
@@ -863,208 +429,96 @@ groups:
       player is selected. Additional definitions supplement the existing catalog;
       existing rows are not replaced.
   records:
-  - type: Player
-    code: BKT-NBA-PLAYER-MCCLUNG_MAC
-    attributes:
-      first_name: Mac
-      last_name: McClung
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHI-PLAYER-MCCLUNG_MAC
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MCCLUNG_MAC
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CHI
-  - type: Player
-    code: BKT-NBA-PLAYER-DILLINGHAM_ROB
-    attributes:
-      first_name: Rob
-      last_name: Dillingham
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHI-PLAYER-DILLINGHAM_ROB
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-DILLINGHAM_ROB
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CHI
-  - type: Player
-    code: BKT-NBA-PLAYER-KAWAMURA_YUKI
-    attributes:
-      first_name: Yuki
-      last_name: Kawamura
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHI-PLAYER-KAWAMURA_YUKI
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-KAWAMURA_YUKI
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CHI
-  - type: Player
-    code: BKT-NBA-PLAYER-MILLER_LEONARD
-    attributes:
-      first_name: Leonard
-      last_name: Miller
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHI-PLAYER-MILLER_LEONARD
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MILLER_LEONARD
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CHI
-  - type: Player
-    code: BKT-NBA-PLAYER-COLLINS_ZACH
-    attributes:
-      first_name: Zach
-      last_name: Collins
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHI-PLAYER-COLLINS_ZACH
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-COLLINS_ZACH
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CHI
-  - type: Player
-    code: BKT-NBA-PLAYER-RICHARDS_NICK
-    attributes:
-      first_name: Nick
-      last_name: Richards
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHI-PLAYER-RICHARDS_NICK
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-RICHARDS_NICK
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CHI
-  - type: Player
-    code: BKT-NBA-PLAYER-BUZELIS_MATAS
-    attributes:
-      first_name: Matas
-      last_name: Buzelis
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHI-PLAYER-BUZELIS_MATAS
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BUZELIS_MATAS
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CHI
-  - type: Player
-    code: BKT-NBA-PLAYER-GUEYE_MOUHAMADOU
-    attributes:
-      first_name: Mouhamadou
-      last_name: Gueye
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHI-PLAYER-GUEYE_MOUHAMADOU
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-GUEYE_MOUHAMADOU
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CHI
-  - type: Player
-    code: BKT-NBA-PLAYER-SIMONS_ANFERNEE
-    attributes:
-      first_name: Anfernee
-      last_name: Simons
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHI-PLAYER-SIMONS_ANFERNEE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SIMONS_ANFERNEE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CHI
-  - type: Player
-    code: BKT-NBA-PLAYER-ESSENGUE_NOA
-    attributes:
-      first_name: Noa
-      last_name: Essengue
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHI-PLAYER-ESSENGUE_NOA
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-ESSENGUE_NOA
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CHI
-  - type: Player
-    code: BKT-NBA-PLAYER-SMITH_JALEN
-    attributes:
-      first_name: Jalen
-      last_name: Smith
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHI-PLAYER-SMITH_JALEN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SMITH_JALEN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CHI
-  - type: Player
-    code: BKT-NBA-PLAYER-YABUSELE_GUERSCHON
-    attributes:
-      first_name: Guerschon
-      last_name: Yabusele
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHI-PLAYER-YABUSELE_GUERSCHON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-YABUSELE_GUERSCHON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CHI
-  - type: Player
-    code: BKT-NBA-PLAYER-JONES_TRE
-    attributes:
-      first_name: Tre
-      last_name: Jones
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHI-PLAYER-JONES_TRE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-JONES_TRE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CHI
-  - type: Player
-    code: BKT-NBA-PLAYER-OKORO_ISAAC
-    attributes:
-      first_name: Isaac
-      last_name: Okoro
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHI-PLAYER-OKORO_ISAAC
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-OKORO_ISAAC
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CHI
-  - type: Player
-    code: BKT-NBA-PLAYER-WILLIAMS_PATRICK
-    attributes:
-      first_name: Patrick
-      last_name: Williams
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHI-PLAYER-WILLIAMS_PATRICK
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WILLIAMS_PATRICK
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CHI
-  - type: Player
-    code: BKT-NBA-PLAYER-OLBRICH_LACHLAN
-    attributes:
-      first_name: Lachlan
-      last_name: Olbrich
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CHI-PLAYER-OLBRICH_LACHLAN
     attributes: {}
@@ -1081,208 +535,96 @@ groups:
       player is selected. Additional definitions supplement the existing catalog;
       existing rows are not replaced.
   records:
-  - type: Player
-    code: BKT-NBA-PLAYER-BRYANT_THOMAS
-    attributes:
-      first_name: Thomas
-      last_name: Bryant
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CLE-PLAYER-BRYANT_THOMAS
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BRYANT_THOMAS
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CLE
-  - type: Player
-    code: BKT-NBA-PLAYER-MOBLEY_EVAN
-    attributes:
-      first_name: Evan
-      last_name: Mobley
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CLE-PLAYER-MOBLEY_EVAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MOBLEY_EVAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CLE
-  - type: Player
-    code: BKT-NBA-PLAYER-MERRILL_SAM
-    attributes:
-      first_name: Sam
-      last_name: Merrill
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CLE-PLAYER-MERRILL_SAM
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MERRILL_SAM
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CLE
-  - type: Player
-    code: BKT-NBA-PLAYER-SCHRODER_DENNIS
-    attributes:
-      first_name: Dennis
-      last_name: Schröder
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CLE-PLAYER-SCHRODER_DENNIS
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SCHRODER_DENNIS
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CLE
-  - type: Player
-    code: BKT-NBA-PLAYER-PORTER_JR_CRAIG
-    attributes:
-      first_name: Craig
-      last_name: Porter Jr.
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CLE-PLAYER-PORTER_JR_CRAIG
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-PORTER_JR_CRAIG
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CLE
-  - type: Player
-    code: BKT-NBA-PLAYER-MINIX_RILEY
-    attributes:
-      first_name: Riley
-      last_name: Minix
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CLE-PLAYER-MINIX_RILEY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MINIX_RILEY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CLE
-  - type: Player
-    code: BKT-NBA-PLAYER-ELLIS_KEON
-    attributes:
-      first_name: Keon
-      last_name: Ellis
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CLE-PLAYER-ELLIS_KEON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-ELLIS_KEON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CLE
-  - type: Player
-    code: BKT-NBA-PLAYER-TYSON_JAYLON
-    attributes:
-      first_name: Jaylon
-      last_name: Tyson
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CLE-PLAYER-TYSON_JAYLON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-TYSON_JAYLON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CLE
-  - type: Player
-    code: BKT-NBA-PLAYER-ENARUNA_TRISTAN
-    attributes:
-      first_name: Tristan
-      last_name: Enaruna
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CLE-PLAYER-ENARUNA_TRISTAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-ENARUNA_TRISTAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CLE
-  - type: Player
-    code: BKT-NBA-PLAYER-NANCE_JR_LARRY
-    attributes:
-      first_name: Larry
-      last_name: Nance Jr.
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CLE-PLAYER-NANCE_JR_LARRY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-NANCE_JR_LARRY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CLE
-  - type: Player
-    code: BKT-NBA-PLAYER-PROCTOR_TYRESE
-    attributes:
-      first_name: Tyrese
-      last_name: Proctor
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CLE-PLAYER-PROCTOR_TYRESE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-PROCTOR_TYRESE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CLE
-  - type: Player
-    code: BKT-NBA-PLAYER-ALLEN_JARRETT
-    attributes:
-      first_name: Jarrett
-      last_name: Allen
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CLE-PLAYER-ALLEN_JARRETT
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-ALLEN_JARRETT
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CLE
-  - type: Player
-    code: BKT-NBA-PLAYER-WADE_DEAN
-    attributes:
-      first_name: Dean
-      last_name: Wade
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CLE-PLAYER-WADE_DEAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WADE_DEAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CLE
-  - type: Player
-    code: BKT-NBA-PLAYER-SARR_OLIVIER
-    attributes:
-      first_name: Olivier
-      last_name: Sarr
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CLE-PLAYER-SARR_OLIVIER
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SARR_OLIVIER
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CLE
-  - type: Player
-    code: BKT-NBA-PLAYER-TOMLIN_NAE_QWAN
-    attributes:
-      first_name: Nae'Qwan
-      last_name: Tomlin
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CLE-PLAYER-TOMLIN_NAE_QWAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-TOMLIN_NAE_QWAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-CLE
-  - type: Player
-    code: BKT-NBA-PLAYER-MITCHELL_DONOVAN
-    attributes:
-      first_name: Donovan
-      last_name: Mitchell
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-CLE-PLAYER-MITCHELL_DONOVAN
     attributes: {}
@@ -1299,208 +641,96 @@ groups:
       player is selected. Additional definitions supplement the existing catalog;
       existing rows are not replaced.
   records:
-  - type: Player
-    code: BKT-NBA-PLAYER-LIVELY_II_DERECK
-    attributes:
-      first_name: Dereck
-      last_name: Lively II
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DAL-PLAYER-LIVELY_II_DERECK
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-LIVELY_II_DERECK
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DAL
-  - type: Player
-    code: BKT-NBA-PLAYER-POWELL_DWIGHT
-    attributes:
-      first_name: Dwight
-      last_name: Powell
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DAL-PLAYER-POWELL_DWIGHT
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-POWELL_DWIGHT
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DAL
-  - type: Player
-    code: BKT-NBA-PLAYER-JOHNSON_AJ
-    attributes:
-      first_name: AJ
-      last_name: Johnson
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DAL-PLAYER-JOHNSON_AJ
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-JOHNSON_AJ
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DAL
-  - type: Player
-    code: BKT-NBA-PLAYER-NEMBHARD_RYAN
-    attributes:
-      first_name: Ryan
-      last_name: Nembhard
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DAL-PLAYER-NEMBHARD_RYAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-NEMBHARD_RYAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DAL
-  - type: Player
-    code: BKT-NBA-PLAYER-WILLIAMS_BRANDON
-    attributes:
-      first_name: Brandon
-      last_name: Williams
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DAL-PLAYER-WILLIAMS_BRANDON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WILLIAMS_BRANDON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DAL
-  - type: Player
-    code: BKT-NBA-PLAYER-IRVING_KYRIE
-    attributes:
-      first_name: Kyrie
-      last_name: Irving
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DAL-PLAYER-IRVING_KYRIE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-IRVING_KYRIE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DAL
-  - type: Player
-    code: BKT-NBA-PLAYER-MARSHALL_NAJI
-    attributes:
-      first_name: Naji
-      last_name: Marshall
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DAL-PLAYER-MARSHALL_NAJI
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MARSHALL_NAJI
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DAL
-  - type: Player
-    code: BKT-NBA-PLAYER-MARTIN_CALEB
-    attributes:
-      first_name: Caleb
-      last_name: Martin
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DAL-PLAYER-MARTIN_CALEB
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MARTIN_CALEB
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DAL
-  - type: Player
-    code: BKT-NBA-PLAYER-MIDDLETON_KHRIS
-    attributes:
-      first_name: Khris
-      last_name: Middleton
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DAL-PLAYER-MIDDLETON_KHRIS
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MIDDLETON_KHRIS
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DAL
-  - type: Player
-    code: BKT-NBA-PLAYER-GAFFORD_DANIEL
-    attributes:
-      first_name: Daniel
-      last_name: Gafford
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DAL-PLAYER-GAFFORD_DANIEL
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-GAFFORD_DANIEL
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DAL
-  - type: Player
-    code: BKT-NBA-PLAYER-SMITH_TYLER
-    attributes:
-      first_name: Tyler
-      last_name: Smith
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DAL-PLAYER-SMITH_TYLER
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SMITH_TYLER
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DAL
-  - type: Player
-    code: BKT-NBA-PLAYER-WASHINGTON_P_J
-    attributes:
-      first_name: P.J.
-      last_name: Washington
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DAL-PLAYER-WASHINGTON_P_J
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WASHINGTON_P_J
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DAL
-  - type: Player
-    code: BKT-NBA-PLAYER-CISSE_MOUSSA
-    attributes:
-      first_name: Moussa
-      last_name: Cisse
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DAL-PLAYER-CISSE_MOUSSA
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-CISSE_MOUSSA
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DAL
-  - type: Player
-    code: BKT-NBA-PLAYER-THOMPSON_KLAY
-    attributes:
-      first_name: Klay
-      last_name: Thompson
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DAL-PLAYER-THOMPSON_KLAY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-THOMPSON_KLAY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DAL
-  - type: Player
-    code: BKT-NBA-PLAYER-FLAGG_COOPER
-    attributes:
-      first_name: Cooper
-      last_name: Flagg
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DAL-PLAYER-FLAGG_COOPER
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-FLAGG_COOPER
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DAL
-  - type: Player
-    code: BKT-NBA-PLAYER-BAGLEY_III_MARVIN
-    attributes:
-      first_name: Marvin
-      last_name: Bagley III
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DAL-PLAYER-BAGLEY_III_MARVIN
     attributes: {}
@@ -1517,208 +747,96 @@ groups:
       player is selected. Additional definitions supplement the existing catalog;
       existing rows are not replaced.
   records:
-  - type: Player
-    code: BKT-NBA-PLAYER-STRAWTHER_JULIAN
-    attributes:
-      first_name: Julian
-      last_name: Strawther
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DEN-PLAYER-STRAWTHER_JULIAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-STRAWTHER_JULIAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DEN
-  - type: Player
-    code: BKT-NBA-PLAYER-JONES_TYUS
-    attributes:
-      first_name: Tyus
-      last_name: Jones
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DEN-PLAYER-JONES_TYUS
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-JONES_TYUS
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DEN
-  - type: Player
-    code: BKT-NBA-PLAYER-WATSON_PEYTON
-    attributes:
-      first_name: Peyton
-      last_name: Watson
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DEN-PLAYER-WATSON_PEYTON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WATSON_PEYTON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DEN
-  - type: Player
-    code: BKT-NBA-PLAYER-HARDAWAY_JR_TIM
-    attributes:
-      first_name: Tim
-      last_name: Hardaway Jr.
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DEN-PLAYER-HARDAWAY_JR_TIM
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-HARDAWAY_JR_TIM
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DEN
-  - type: Player
-    code: BKT-NBA-PLAYER-BROWN_BRUCE
-    attributes:
-      first_name: Bruce
-      last_name: Brown
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DEN-PLAYER-BROWN_BRUCE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BROWN_BRUCE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DEN
-  - type: Player
-    code: BKT-NBA-PLAYER-HOLMES_II_DARON
-    attributes:
-      first_name: DaRon
-      last_name: Holmes II
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DEN-PLAYER-HOLMES_II_DARON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-HOLMES_II_DARON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DEN
-  - type: Player
-    code: BKT-NBA-PLAYER-JOKIC_NIKOLA
-    attributes:
-      first_name: Nikola
-      last_name: Jokić
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DEN-PLAYER-JOKIC_NIKOLA
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-JOKIC_NIKOLA
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DEN
-  - type: Player
-    code: BKT-NBA-PLAYER-VALANCIUNAS_JONAS
-    attributes:
-      first_name: Jonas
-      last_name: Valančiūnas
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DEN-PLAYER-VALANCIUNAS_JONAS
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-VALANCIUNAS_JONAS
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DEN
-  - type: Player
-    code: BKT-NBA-PLAYER-JONES_SPENCER
-    attributes:
-      first_name: Spencer
-      last_name: Jones
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DEN-PLAYER-JONES_SPENCER
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-JONES_SPENCER
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DEN
-  - type: Player
-    code: BKT-NBA-PLAYER-NNAJI_ZEKE
-    attributes:
-      first_name: Zeke
-      last_name: Nnaji
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DEN-PLAYER-NNAJI_ZEKE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-NNAJI_ZEKE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DEN
-  - type: Player
-    code: BKT-NBA-PLAYER-JOHNSON_CAMERON
-    attributes:
-      first_name: Cameron
-      last_name: Johnson
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DEN-PLAYER-JOHNSON_CAMERON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-JOHNSON_CAMERON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DEN
-  - type: Player
-    code: BKT-NBA-PLAYER-PICKETT_JALEN
-    attributes:
-      first_name: Jalen
-      last_name: Pickett
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DEN-PLAYER-PICKETT_JALEN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-PICKETT_JALEN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DEN
-  - type: Player
-    code: BKT-NBA-PLAYER-SIMPSON_KJ
-    attributes:
-      first_name: KJ
-      last_name: Simpson
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DEN-PLAYER-SIMPSON_KJ
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SIMPSON_KJ
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DEN
-  - type: Player
-    code: BKT-NBA-PLAYER-MURRAY_JAMAL
-    attributes:
-      first_name: Jamal
-      last_name: Murray
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DEN-PLAYER-MURRAY_JAMAL
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MURRAY_JAMAL
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DEN
-  - type: Player
-    code: BKT-NBA-PLAYER-GORDON_AARON
-    attributes:
-      first_name: Aaron
-      last_name: Gordon
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DEN-PLAYER-GORDON_AARON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-GORDON_AARON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DEN
-  - type: Player
-    code: BKT-NBA-PLAYER-RODDY_DAVID
-    attributes:
-      first_name: David
-      last_name: Roddy
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DEN-PLAYER-RODDY_DAVID
     attributes: {}
@@ -1735,195 +853,90 @@ groups:
       player is selected. Additional definitions supplement the existing catalog;
       existing rows are not replaced.
   records:
-  - type: Player
-    code: BKT-NBA-PLAYER-JONES_ISAAC
-    attributes:
-      first_name: Isaac
-      last_name: Jones
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DET-PLAYER-JONES_ISAAC
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-JONES_ISAAC
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DET
-  - type: Player
-    code: BKT-NBA-PLAYER-HOLLAND_II_RONALD
-    attributes:
-      first_name: Ronald
-      last_name: Holland II
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DET-PLAYER-HOLLAND_II_RONALD
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-HOLLAND_II_RONALD
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DET
-  - type: Player
-    code: BKT-NBA-PLAYER-REED_PAUL
-    attributes:
-      first_name: Paul
-      last_name: Reed
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DET-PLAYER-REED_PAUL
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-REED_PAUL
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DET
-  - type: Player
-    code: BKT-NBA-PLAYER-LEVERT_CARIS
-    attributes:
-      first_name: Caris
-      last_name: LeVert
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DET-PLAYER-LEVERT_CARIS
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-LEVERT_CARIS
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DET
-  - type: Player
-    code: BKT-NBA-PLAYER-THOMPSON_AUSAR
-    attributes:
-      first_name: Ausar
-      last_name: Thompson
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DET-PLAYER-THOMPSON_AUSAR
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-THOMPSON_AUSAR
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DET
-  - type: Player
-    code: BKT-NBA-PLAYER-HARRIS_TOBIAS
-    attributes:
-      first_name: Tobias
-      last_name: Harris
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DET-PLAYER-HARRIS_TOBIAS
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-HARRIS_TOBIAS
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DET
-  - type: Player
-    code: BKT-NBA-PLAYER-MOORE_JR_WENDELL
-    attributes:
-      first_name: Wendell
-      last_name: Moore Jr.
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DET-PLAYER-MOORE_JR_WENDELL
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MOORE_JR_WENDELL
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DET
-  - type: Player
-    code: BKT-NBA-PLAYER-LANIER_CHAZ
-    attributes:
-      first_name: Chaz
-      last_name: Lanier
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DET-PLAYER-LANIER_CHAZ
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-LANIER_CHAZ
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DET
-  - type: Player
-    code: BKT-NBA-PLAYER-JENKINS_DANISS
-    attributes:
-      first_name: Daniss
-      last_name: Jenkins
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DET-PLAYER-JENKINS_DANISS
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-JENKINS_DANISS
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DET
-  - type: Player
-    code: BKT-NBA-PLAYER-SASSER_MARCUS
-    attributes:
-      first_name: Marcus
-      last_name: Sasser
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DET-PLAYER-SASSER_MARCUS
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SASSER_MARCUS
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DET
-  - type: Player
-    code: BKT-NBA-PLAYER-HUERTER_KEVIN
-    attributes:
-      first_name: Kevin
-      last_name: Huerter
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DET-PLAYER-HUERTER_KEVIN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-HUERTER_KEVIN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DET
-  - type: Player
-    code: BKT-NBA-PLAYER-STEWART_ISAIAH
-    attributes:
-      first_name: Isaiah
-      last_name: Stewart
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DET-PLAYER-STEWART_ISAIAH
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-STEWART_ISAIAH
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DET
-  - type: Player
-    code: BKT-NBA-PLAYER-GREEN_JAVONTE
-    attributes:
-      first_name: Javonte
-      last_name: Green
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DET-PLAYER-GREEN_JAVONTE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-GREEN_JAVONTE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DET
-  - type: Player
-    code: BKT-NBA-PLAYER-SMITH_TOLU
-    attributes:
-      first_name: Tolu
-      last_name: Smith
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DET-PLAYER-SMITH_TOLU
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SMITH_TOLU
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-DET
-  - type: Player
-    code: BKT-NBA-PLAYER-ROBINSON_DUNCAN
-    attributes:
-      first_name: Duncan
-      last_name: Robinson
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-DET-PLAYER-ROBINSON_DUNCAN
     attributes: {}
@@ -1940,208 +953,96 @@ groups:
       player is selected. Additional definitions supplement the existing catalog;
       existing rows are not replaced.
   records:
-  - type: Player
-    code: BKT-NBA-PLAYER-RICHARD_WILL
-    attributes:
-      first_name: Will
-      last_name: Richard
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-GSW-PLAYER-RICHARD_WILL
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-RICHARD_WILL
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-GSW
-  - type: Player
-    code: BKT-NBA-PLAYER-MOODY_MOSES
-    attributes:
-      first_name: Moses
-      last_name: Moody
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-GSW-PLAYER-MOODY_MOSES
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MOODY_MOSES
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-GSW
-  - type: Player
-    code: BKT-NBA-PLAYER-PORZINGIS_KRISTAPS
-    attributes:
-      first_name: Kristaps
-      last_name: Porziņģis
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-GSW-PLAYER-PORZINGIS_KRISTAPS
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-PORZINGIS_KRISTAPS
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-GSW
-  - type: Player
-    code: BKT-NBA-PLAYER-MELTON_DE_ANTHONY
-    attributes:
-      first_name: De'Anthony
-      last_name: Melton
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-GSW-PLAYER-MELTON_DE_ANTHONY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MELTON_DE_ANTHONY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-GSW
-  - type: Player
-    code: BKT-NBA-PLAYER-BUTLER_III_JIMMY
-    attributes:
-      first_name: Jimmy
-      last_name: Butler III
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-GSW-PLAYER-BUTLER_III_JIMMY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BUTLER_III_JIMMY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-GSW
-  - type: Player
-    code: BKT-NBA-PLAYER-SANTOS_GUI
-    attributes:
-      first_name: Gui
-      last_name: Santos
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-GSW-PLAYER-SANTOS_GUI
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SANTOS_GUI
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-GSW
-  - type: Player
-    code: BKT-NBA-PLAYER-CRYER_LJ
-    attributes:
-      first_name: LJ
-      last_name: Cryer
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-GSW-PLAYER-CRYER_LJ
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-CRYER_LJ
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-GSW
-  - type: Player
-    code: BKT-NBA-PLAYER-WILLIAMS_NATE
-    attributes:
-      first_name: Nate
-      last_name: Williams
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-GSW-PLAYER-WILLIAMS_NATE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WILLIAMS_NATE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-GSW
-  - type: Player
-    code: BKT-NBA-PLAYER-HORFORD_AL
-    attributes:
-      first_name: Al
-      last_name: Horford
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-GSW-PLAYER-HORFORD_AL
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-HORFORD_AL
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-GSW
-  - type: Player
-    code: BKT-NBA-PLAYER-POST_QUINTEN
-    attributes:
-      first_name: Quinten
-      last_name: Post
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-GSW-PLAYER-POST_QUINTEN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-POST_QUINTEN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-GSW
-  - type: Player
-    code: BKT-NBA-PLAYER-GREEN_DRAYMOND
-    attributes:
-      first_name: Draymond
-      last_name: Green
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-GSW-PLAYER-GREEN_DRAYMOND
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-GREEN_DRAYMOND
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-GSW
-  - type: Player
-    code: BKT-NBA-PLAYER-BASSEY_CHARLES
-    attributes:
-      first_name: Charles
-      last_name: Bassey
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-GSW-PLAYER-BASSEY_CHARLES
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BASSEY_CHARLES
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-GSW
-  - type: Player
-    code: BKT-NBA-PLAYER-CURRY_STEPHEN
-    attributes:
-      first_name: Stephen
-      last_name: Curry
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-GSW-PLAYER-CURRY_STEPHEN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-CURRY_STEPHEN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-GSW
-  - type: Player
-    code: BKT-NBA-PLAYER-CURRY_SETH
-    attributes:
-      first_name: Seth
-      last_name: Curry
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-GSW-PLAYER-CURRY_SETH
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-CURRY_SETH
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-GSW
-  - type: Player
-    code: BKT-NBA-PLAYER-LEONS_MALEVY
-    attributes:
-      first_name: Malevy
-      last_name: Leons
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-GSW-PLAYER-LEONS_MALEVY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-LEONS_MALEVY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-GSW
-  - type: Player
-    code: BKT-NBA-PLAYER-SPENCER_PAT
-    attributes:
-      first_name: Pat
-      last_name: Spencer
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-GSW-PLAYER-SPENCER_PAT
     attributes: {}
@@ -2158,195 +1059,90 @@ groups:
       player is selected. Additional definitions supplement the existing catalog;
       existing rows are not replaced.
   records:
-  - type: Player
-    code: BKT-NBA-PLAYER-FINNEY_SMITH_DORIAN
-    attributes:
-      first_name: Dorian
-      last_name: Finney-Smith
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-HOU-PLAYER-FINNEY_SMITH_DORIAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-FINNEY_SMITH_DORIAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-HOU
-  - type: Player
-    code: BKT-NBA-PLAYER-DAVISON_JD
-    attributes:
-      first_name: JD
-      last_name: Davison
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-HOU-PLAYER-DAVISON_JD
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-DAVISON_JD
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-HOU
-  - type: Player
-    code: BKT-NBA-PLAYER-VANVLEET_FRED
-    attributes:
-      first_name: Fred
-      last_name: VanVleet
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-HOU-PLAYER-VANVLEET_FRED
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-VANVLEET_FRED
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-HOU
-  - type: Player
-    code: BKT-NBA-PLAYER-DURANT_KEVIN
-    attributes:
-      first_name: Kevin
-      last_name: Durant
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-HOU-PLAYER-DURANT_KEVIN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-DURANT_KEVIN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-HOU
-  - type: Player
-    code: BKT-NBA-PLAYER-TATE_JAE_SEAN
-    attributes:
-      first_name: Jae'Sean
-      last_name: Tate
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-HOU-PLAYER-TATE_JAE_SEAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-TATE_JAE_SEAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-HOU
-  - type: Player
-    code: BKT-NBA-PLAYER-SMITH_JR_JABARI
-    attributes:
-      first_name: Jabari
-      last_name: Smith Jr.
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-HOU-PLAYER-SMITH_JR_JABARI
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SMITH_JR_JABARI
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-HOU
-  - type: Player
-    code: BKT-NBA-PLAYER-ADAMS_STEVEN
-    attributes:
-      first_name: Steven
-      last_name: Adams
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-HOU-PLAYER-ADAMS_STEVEN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-ADAMS_STEVEN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-HOU
-  - type: Player
-    code: BKT-NBA-PLAYER-NEWTON_TRISTEN
-    attributes:
-      first_name: Tristen
-      last_name: Newton
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-HOU-PLAYER-NEWTON_TRISTEN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-NEWTON_TRISTEN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-HOU
-  - type: Player
-    code: BKT-NBA-PLAYER-SHEPPARD_REED
-    attributes:
-      first_name: Reed
-      last_name: Sheppard
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-HOU-PLAYER-SHEPPARD_REED
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SHEPPARD_REED
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-HOU
-  - type: Player
-    code: BKT-NBA-PLAYER-EASON_TARI
-    attributes:
-      first_name: Tari
-      last_name: Eason
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-HOU-PLAYER-EASON_TARI
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-EASON_TARI
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-HOU
-  - type: Player
-    code: BKT-NBA-PLAYER-OKOGIE_JOSH
-    attributes:
-      first_name: Josh
-      last_name: Okogie
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-HOU-PLAYER-OKOGIE_JOSH
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-OKOGIE_JOSH
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-HOU
-  - type: Player
-    code: BKT-NBA-PLAYER-CRAWFORD_ISAIAH
-    attributes:
-      first_name: Isaiah
-      last_name: Crawford
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-HOU-PLAYER-CRAWFORD_ISAIAH
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-CRAWFORD_ISAIAH
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-HOU
-  - type: Player
-    code: BKT-NBA-PLAYER-SENGUN_ALPEREN
-    attributes:
-      first_name: Alperen
-      last_name: Sengun
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-HOU-PLAYER-SENGUN_ALPEREN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SENGUN_ALPEREN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-HOU
-  - type: Player
-    code: BKT-NBA-PLAYER-CAPELA_CLINT
-    attributes:
-      first_name: Clint
-      last_name: Capela
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-HOU-PLAYER-CAPELA_CLINT
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-CAPELA_CLINT
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-HOU
-  - type: Player
-    code: BKT-NBA-PLAYER-GREEN_JEFF
-    attributes:
-      first_name: Jeff
-      last_name: Green
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-HOU-PLAYER-GREEN_JEFF
     attributes: {}
@@ -2363,208 +1159,96 @@ groups:
       player is selected. Additional definitions supplement the existing catalog;
       existing rows are not replaced.
   records:
-  - type: Player
-    code: BKT-NBA-PLAYER-NEMBHARD_ANDREW
-    attributes:
-      first_name: Andrew
-      last_name: Nembhard
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-IND-PLAYER-NEMBHARD_ANDREW
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-NEMBHARD_ANDREW
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-IND
-  - type: Player
-    code: BKT-NBA-PLAYER-PETER_TAELON
-    attributes:
-      first_name: Taelon
-      last_name: Peter
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-IND-PLAYER-PETER_TAELON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-PETER_TAELON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-IND
-  - type: Player
-    code: BKT-NBA-PLAYER-WALKER_JARACE
-    attributes:
-      first_name: Jarace
-      last_name: Walker
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-IND-PLAYER-WALKER_JARACE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WALKER_JARACE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-IND
-  - type: Player
-    code: BKT-NBA-PLAYER-JONES_KAM
-    attributes:
-      first_name: Kam
-      last_name: Jones
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-IND-PLAYER-JONES_KAM
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-JONES_KAM
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-IND
-  - type: Player
-    code: BKT-NBA-PLAYER-MCCONNELL_T_J
-    attributes:
-      first_name: T.J.
-      last_name: McConnell
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-IND-PLAYER-MCCONNELL_T_J
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MCCONNELL_T_J
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-IND
-  - type: Player
-    code: BKT-NBA-PLAYER-POTTER_MICAH
-    attributes:
-      first_name: Micah
-      last_name: Potter
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-IND-PLAYER-POTTER_MICAH
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-POTTER_MICAH
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-IND
-  - type: Player
-    code: BKT-NBA-PLAYER-FURPHY_JOHNNY
-    attributes:
-      first_name: Johnny
-      last_name: Furphy
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-IND-PLAYER-FURPHY_JOHNNY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-FURPHY_JOHNNY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-IND
-  - type: Player
-    code: BKT-NBA-PLAYER-SLAWSON_JALEN
-    attributes:
-      first_name: Jalen
-      last_name: Slawson
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-IND-PLAYER-SLAWSON_JALEN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SLAWSON_JALEN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-IND
-  - type: Player
-    code: BKT-NBA-PLAYER-NESMITH_AARON
-    attributes:
-      first_name: Aaron
-      last_name: Nesmith
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-IND-PLAYER-NESMITH_AARON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-NESMITH_AARON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-IND
-  - type: Player
-    code: BKT-NBA-PLAYER-BROWN_KOBE
-    attributes:
-      first_name: Kobe
-      last_name: Brown
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-IND-PLAYER-BROWN_KOBE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BROWN_KOBE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-IND
-  - type: Player
-    code: BKT-NBA-PLAYER-SHEPPARD_BEN
-    attributes:
-      first_name: Ben
-      last_name: Sheppard
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-IND-PLAYER-SHEPPARD_BEN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SHEPPARD_BEN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-IND
-  - type: Player
-    code: BKT-NBA-PLAYER-JACKSON_QUENTON
-    attributes:
-      first_name: Quenton
-      last_name: Jackson
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-IND-PLAYER-JACKSON_QUENTON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-JACKSON_QUENTON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-IND
-  - type: Player
-    code: BKT-NBA-PLAYER-HUFF_JAY
-    attributes:
-      first_name: Jay
-      last_name: Huff
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-IND-PLAYER-HUFF_JAY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-HUFF_JAY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-IND
-  - type: Player
-    code: BKT-NBA-PLAYER-ZUBAC_IVICA
-    attributes:
-      first_name: Ivica
-      last_name: Zubac
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-IND-PLAYER-ZUBAC_IVICA
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-ZUBAC_IVICA
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-IND
-  - type: Player
-    code: BKT-NBA-PLAYER-SIAKAM_PASCAL
-    attributes:
-      first_name: Pascal
-      last_name: Siakam
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-IND-PLAYER-SIAKAM_PASCAL
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SIAKAM_PASCAL
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-IND
-  - type: Player
-    code: BKT-NBA-PLAYER-THOMPSON_ETHAN
-    attributes:
-      first_name: Ethan
-      last_name: Thompson
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-IND-PLAYER-THOMPSON_ETHAN
     attributes: {}
@@ -2581,208 +1265,96 @@ groups:
       player is selected. Additional definitions supplement the existing catalog;
       existing rows are not replaced.
   records:
-  - type: Player
-    code: BKT-NBA-PLAYER-BEAL_BRADLEY
-    attributes:
-      first_name: Bradley
-      last_name: Beal
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAC-PLAYER-BEAL_BRADLEY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BEAL_BRADLEY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-LAC
-  - type: Player
-    code: BKT-NBA-PLAYER-LEONARD_KAWHI
-    attributes:
-      first_name: Kawhi
-      last_name: Leonard
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAC-PLAYER-LEONARD_KAWHI
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-LEONARD_KAWHI
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-LAC
-  - type: Player
-    code: BKT-NBA-PLAYER-SANDERS_KOBE
-    attributes:
-      first_name: Kobe
-      last_name: Sanders
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAC-PLAYER-SANDERS_KOBE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SANDERS_KOBE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-LAC
-  - type: Player
-    code: BKT-NBA-PLAYER-JONES_JR_DERRICK
-    attributes:
-      first_name: Derrick
-      last_name: Jones Jr.
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAC-PLAYER-JONES_JR_DERRICK
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-JONES_JR_DERRICK
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-LAC
-  - type: Player
-    code: BKT-NBA-PLAYER-BOGDANOVIC_BOGDAN
-    attributes:
-      first_name: Bogdan
-      last_name: Bogdanović
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAC-PLAYER-BOGDANOVIC_BOGDAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BOGDANOVIC_BOGDAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-LAC
-  - type: Player
-    code: BKT-NBA-PLAYER-DUNN_KRIS
-    attributes:
-      first_name: Kris
-      last_name: Dunn
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAC-PLAYER-DUNN_KRIS
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-DUNN_KRIS
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-LAC
-  - type: Player
-    code: BKT-NBA-PLAYER-MATHURIN_BENNEDICT
-    attributes:
-      first_name: Bennedict
-      last_name: Mathurin
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAC-PLAYER-MATHURIN_BENNEDICT
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MATHURIN_BENNEDICT
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-LAC
-  - type: Player
-    code: BKT-NBA-PLAYER-GARLAND_DARIUS
-    attributes:
-      first_name: Darius
-      last_name: Garland
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAC-PLAYER-GARLAND_DARIUS
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-GARLAND_DARIUS
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-LAC
-  - type: Player
-    code: BKT-NBA-PLAYER-LOPEZ_BROOK
-    attributes:
-      first_name: Brook
-      last_name: Lopez
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAC-PLAYER-LOPEZ_BROOK
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-LOPEZ_BROOK
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-LAC
-  - type: Player
-    code: BKT-NBA-PLAYER-CHRISTIE_CAM
-    attributes:
-      first_name: Cam
-      last_name: Christie
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAC-PLAYER-CHRISTIE_CAM
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-CHRISTIE_CAM
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-LAC
-  - type: Player
-    code: BKT-NBA-PLAYER-WASHINGTON_JR_TYTY
-    attributes:
-      first_name: TyTy
-      last_name: Washington Jr.
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAC-PLAYER-WASHINGTON_JR_TYTY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WASHINGTON_JR_TYTY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-LAC
-  - type: Player
-    code: BKT-NBA-PLAYER-KONAN_NIEDERHAUSER_YANIC
-    attributes:
-      first_name: Yanic
-      last_name: Konan Niederhäuser
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAC-PLAYER-KONAN_NIEDERHAUSER_YANIC
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-KONAN_NIEDERHAUSER_YANIC
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-LAC
-  - type: Player
-    code: BKT-NBA-PLAYER-COLLINS_JOHN
-    attributes:
-      first_name: John
-      last_name: Collins
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAC-PLAYER-COLLINS_JOHN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-COLLINS_JOHN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-LAC
-  - type: Player
-    code: BKT-NBA-PLAYER-MILLER_JORDAN
-    attributes:
-      first_name: Jordan
-      last_name: Miller
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAC-PLAYER-MILLER_JORDAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MILLER_JORDAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-LAC
-  - type: Player
-    code: BKT-NBA-PLAYER-JACKSON_ISAIAH
-    attributes:
-      first_name: Isaiah
-      last_name: Jackson
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAC-PLAYER-JACKSON_ISAIAH
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-JACKSON_ISAIAH
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-LAC
-  - type: Player
-    code: BKT-NBA-PLAYER-BATUM_NICOLAS
-    attributes:
-      first_name: Nicolas
-      last_name: Batum
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAC-PLAYER-BATUM_NICOLAS
     attributes: {}
@@ -2799,195 +1371,90 @@ groups:
       player is selected. Additional definitions supplement the existing catalog;
       existing rows are not replaced.
   records:
-  - type: Player
-    code: BKT-NBA-PLAYER-KNECHT_DALTON
-    attributes:
-      first_name: Dalton
-      last_name: Knecht
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAL-PLAYER-KNECHT_DALTON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-KNECHT_DALTON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-LAL
-  - type: Player
-    code: BKT-NBA-PLAYER-AYTON_DEANDRE
-    attributes:
-      first_name: Deandre
-      last_name: Ayton
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAL-PLAYER-AYTON_DEANDRE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-AYTON_DEANDRE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-LAL
-  - type: Player
-    code: BKT-NBA-PLAYER-JAMES_BRONNY
-    attributes:
-      first_name: Bronny
-      last_name: James
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAL-PLAYER-JAMES_BRONNY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-JAMES_BRONNY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-LAL
-  - type: Player
-    code: BKT-NBA-PLAYER-KENNARD_LUKE
-    attributes:
-      first_name: Luke
-      last_name: Kennard
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAL-PLAYER-KENNARD_LUKE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-KENNARD_LUKE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-LAL
-  - type: Player
-    code: BKT-NBA-PLAYER-HAYES_JAXSON
-    attributes:
-      first_name: Jaxson
-      last_name: Hayes
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAL-PLAYER-HAYES_JAXSON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-HAYES_JAXSON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-LAL
-  - type: Player
-    code: BKT-NBA-PLAYER-LARAVIA_JAKE
-    attributes:
-      first_name: Jake
-      last_name: LaRavia
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAL-PLAYER-LARAVIA_JAKE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-LARAVIA_JAKE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-LAL
-  - type: Player
-    code: BKT-NBA-PLAYER-KLEBER_MAXI
-    attributes:
-      first_name: Maxi
-      last_name: Kleber
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAL-PLAYER-KLEBER_MAXI
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-KLEBER_MAXI
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-LAL
-  - type: Player
-    code: BKT-NBA-PLAYER-REAVES_AUSTIN
-    attributes:
-      first_name: Austin
-      last_name: Reaves
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAL-PLAYER-REAVES_AUSTIN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-REAVES_AUSTIN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-LAL
-  - type: Player
-    code: BKT-NBA-PLAYER-TIMME_DREW
-    attributes:
-      first_name: Drew
-      last_name: Timme
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAL-PLAYER-TIMME_DREW
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-TIMME_DREW
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-LAL
-  - type: Player
-    code: BKT-NBA-PLAYER-SMITH_JR_NICK
-    attributes:
-      first_name: Nick
-      last_name: Smith Jr.
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAL-PLAYER-SMITH_JR_NICK
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SMITH_JR_NICK
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-LAL
-  - type: Player
-    code: BKT-NBA-PLAYER-JAMES_LEBRON
-    attributes:
-      first_name: LeBron
-      last_name: James
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAL-PLAYER-JAMES_LEBRON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-JAMES_LEBRON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-LAL
-  - type: Player
-    code: BKT-NBA-PLAYER-HACHIMURA_RUI
-    attributes:
-      first_name: Rui
-      last_name: Hachimura
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAL-PLAYER-HACHIMURA_RUI
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-HACHIMURA_RUI
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-LAL
-  - type: Player
-    code: BKT-NBA-PLAYER-MANON_CHRIS
-    attributes:
-      first_name: Chris
-      last_name: Mañon
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAL-PLAYER-MANON_CHRIS
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MANON_CHRIS
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-LAL
-  - type: Player
-    code: BKT-NBA-PLAYER-SMART_MARCUS
-    attributes:
-      first_name: Marcus
-      last_name: Smart
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAL-PLAYER-SMART_MARCUS
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SMART_MARCUS
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-LAL
-  - type: Player
-    code: BKT-NBA-PLAYER-DONCIC_LUKA
-    attributes:
-      first_name: Luka
-      last_name: Dončić
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-LAL-PLAYER-DONCIC_LUKA
     attributes: {}
@@ -3004,208 +1471,96 @@ groups:
       player is selected. Additional definitions supplement the existing catalog;
       existing rows are not replaced.
   records:
-  - type: Player
-    code: BKT-NBA-PLAYER-PIPPEN_JR_SCOTTY
-    attributes:
-      first_name: Scotty
-      last_name: Pippen Jr.
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MEM-PLAYER-PIPPEN_JR_SCOTTY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-PIPPEN_JR_SCOTTY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MEM
-  - type: Player
-    code: BKT-NBA-PLAYER-JEROME_TY
-    attributes:
-      first_name: Ty
-      last_name: Jerome
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MEM-PLAYER-JEROME_TY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-JEROME_TY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MEM
-  - type: Player
-    code: BKT-NBA-PLAYER-CALDWELL_POPE_KENTAVIOUS
-    attributes:
-      first_name: Kentavious
-      last_name: Caldwell-Pope
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MEM-PLAYER-CALDWELL_POPE_KENTAVIOUS
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-CALDWELL_POPE_KENTAVIOUS
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MEM
-  - type: Player
-    code: BKT-NBA-PLAYER-CLAYTON_JR_WALTER
-    attributes:
-      first_name: Walter
-      last_name: Clayton Jr.
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MEM-PLAYER-CLAYTON_JR_WALTER
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-CLAYTON_JR_WALTER
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MEM
-  - type: Player
-    code: BKT-NBA-PLAYER-ALDAMA_SANTI
-    attributes:
-      first_name: Santi
-      last_name: Aldama
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MEM-PLAYER-ALDAMA_SANTI
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-ALDAMA_SANTI
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MEM
-  - type: Player
-    code: BKT-NBA-PLAYER-SMALL_JAVON
-    attributes:
-      first_name: Javon
-      last_name: Small
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MEM-PLAYER-SMALL_JAVON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SMALL_JAVON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MEM
-  - type: Player
-    code: BKT-NBA-PLAYER-MORANT_JA
-    attributes:
-      first_name: Ja
-      last_name: Morant
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MEM-PLAYER-MORANT_JA
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MORANT_JA
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MEM
-  - type: Player
-    code: BKT-NBA-PLAYER-EDEY_ZACH
-    attributes:
-      first_name: Zach
-      last_name: Edey
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MEM-PLAYER-EDEY_ZACH
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-EDEY_ZACH
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MEM
-  - type: Player
-    code: BKT-NBA-PLAYER-CLARKE_BRANDON
-    attributes:
-      first_name: Brandon
-      last_name: Clarke
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MEM-PLAYER-CLARKE_BRANDON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-CLARKE_BRANDON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MEM
-  - type: Player
-    code: BKT-NBA-PLAYER-PROSPER_OLIVIER_MAXENCE
-    attributes:
-      first_name: Olivier-Maxence
-      last_name: Prosper
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MEM-PLAYER-PROSPER_OLIVIER_MAXENCE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-PROSPER_OLIVIER_MAXENCE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MEM
-  - type: Player
-    code: BKT-NBA-PLAYER-RUPERT_RAYAN
-    attributes:
-      first_name: Rayan
-      last_name: Rupert
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MEM-PLAYER-RUPERT_RAYAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-RUPERT_RAYAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MEM
-  - type: Player
-    code: BKT-NBA-PLAYER-HENDRICKS_TAYLOR
-    attributes:
-      first_name: Taylor
-      last_name: Hendricks
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MEM-PLAYER-HENDRICKS_TAYLOR
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-HENDRICKS_TAYLOR
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MEM
-  - type: Player
-    code: BKT-NBA-PLAYER-COWARD_CEDRIC
-    attributes:
-      first_name: Cedric
-      last_name: Coward
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MEM-PLAYER-COWARD_CEDRIC
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-COWARD_CEDRIC
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MEM
-  - type: Player
-    code: BKT-NBA-PLAYER-SPENCER_CAM
-    attributes:
-      first_name: Cam
-      last_name: Spencer
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MEM-PLAYER-SPENCER_CAM
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SPENCER_CAM
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MEM
-  - type: Player
-    code: BKT-NBA-PLAYER-JACKSON_GG
-    attributes:
-      first_name: GG
-      last_name: Jackson
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MEM-PLAYER-JACKSON_GG
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-JACKSON_GG
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MEM
-  - type: Player
-    code: BKT-NBA-PLAYER-GIBSON_TAJ
-    attributes:
-      first_name: Taj
-      last_name: Gibson
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MEM-PLAYER-GIBSON_TAJ
     attributes: {}
@@ -3222,195 +1577,90 @@ groups:
       player is selected. Additional definitions supplement the existing catalog;
       existing rows are not replaced.
   records:
-  - type: Player
-    code: BKT-NBA-PLAYER-JOVIC_NIKOLA
-    attributes:
-      first_name: Nikola
-      last_name: Jović
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIA-PLAYER-JOVIC_NIKOLA
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-JOVIC_NIKOLA
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIA
-  - type: Player
-    code: BKT-NBA-PLAYER-WARE_KEL_EL
-    attributes:
-      first_name: Kel'el
-      last_name: Ware
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIA-PLAYER-WARE_KEL_EL
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WARE_KEL_EL
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIA
-  - type: Player
-    code: BKT-NBA-PLAYER-LARSSON_PELLE
-    attributes:
-      first_name: Pelle
-      last_name: Larsson
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIA-PLAYER-LARSSON_PELLE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-LARSSON_PELLE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIA
-  - type: Player
-    code: BKT-NBA-PLAYER-JAQUEZ_JR_JAIME
-    attributes:
-      first_name: Jaime
-      last_name: Jaquez Jr.
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIA-PLAYER-JAQUEZ_JR_JAIME
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-JAQUEZ_JR_JAIME
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIA
-  - type: Player
-    code: BKT-NBA-PLAYER-SMITH_DRU
-    attributes:
-      first_name: Dru
-      last_name: Smith
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIA-PLAYER-SMITH_DRU
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SMITH_DRU
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIA
-  - type: Player
-    code: BKT-NBA-PLAYER-ADEBAYO_BAM
-    attributes:
-      first_name: Bam
-      last_name: Adebayo
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIA-PLAYER-ADEBAYO_BAM
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-ADEBAYO_BAM
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIA
-  - type: Player
-    code: BKT-NBA-PLAYER-HERRO_TYLER
-    attributes:
-      first_name: Tyler
-      last_name: Herro
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIA-PLAYER-HERRO_TYLER
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-HERRO_TYLER
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIA
-  - type: Player
-    code: BKT-NBA-PLAYER-GARDNER_MYRON
-    attributes:
-      first_name: Myron
-      last_name: Gardner
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIA-PLAYER-GARDNER_MYRON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-GARDNER_MYRON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIA
-  - type: Player
-    code: BKT-NBA-PLAYER-JOHNSON_KESHAD
-    attributes:
-      first_name: Keshad
-      last_name: Johnson
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIA-PLAYER-JOHNSON_KESHAD
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-JOHNSON_KESHAD
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIA
-  - type: Player
-    code: BKT-NBA-PLAYER-YOUNG_JAHMIR
-    attributes:
-      first_name: Jahmir
-      last_name: Young
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIA-PLAYER-YOUNG_JAHMIR
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-YOUNG_JAHMIR
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIA
-  - type: Player
-    code: BKT-NBA-PLAYER-WIGGINS_ANDREW
-    attributes:
-      first_name: Andrew
-      last_name: Wiggins
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIA-PLAYER-WIGGINS_ANDREW
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WIGGINS_ANDREW
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIA
-  - type: Player
-    code: BKT-NBA-PLAYER-POWELL_NORMAN
-    attributes:
-      first_name: Norman
-      last_name: Powell
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIA-PLAYER-POWELL_NORMAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-POWELL_NORMAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIA
-  - type: Player
-    code: BKT-NBA-PLAYER-JAKUCIONIS_KASPARAS
-    attributes:
-      first_name: Kasparas
-      last_name: Jakučionis
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIA-PLAYER-JAKUCIONIS_KASPARAS
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-JAKUCIONIS_KASPARAS
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIA
-  - type: Player
-    code: BKT-NBA-PLAYER-MITCHELL_DAVION
-    attributes:
-      first_name: Davion
-      last_name: Mitchell
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIA-PLAYER-MITCHELL_DAVION
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MITCHELL_DAVION
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIA
-  - type: Player
-    code: BKT-NBA-PLAYER-GOLDIN_VLADISLAV
-    attributes:
-      first_name: Vladislav
-      last_name: Goldin
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIA-PLAYER-GOLDIN_VLADISLAV
     attributes: {}
@@ -3427,195 +1677,90 @@ groups:
       player is selected. Additional definitions supplement the existing catalog;
       existing rows are not replaced.
   records:
-  - type: Player
-    code: BKT-NBA-PLAYER-TRENT_JR_GARY
-    attributes:
-      first_name: Gary
-      last_name: Trent Jr.
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIL-PLAYER-TRENT_JR_GARY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-TRENT_JR_GARY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIL
-  - type: Player
-    code: BKT-NBA-PLAYER-PORTER_JR_KEVIN
-    attributes:
-      first_name: Kevin
-      last_name: Porter Jr.
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIL-PLAYER-PORTER_JR_KEVIN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-PORTER_JR_KEVIN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIL
-  - type: Player
-    code: BKT-NBA-PLAYER-PORTIS_BOBBY
-    attributes:
-      first_name: Bobby
-      last_name: Portis
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIL-PLAYER-PORTIS_BOBBY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-PORTIS_BOBBY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIL
-  - type: Player
-    code: BKT-NBA-PLAYER-HARRIS_GARY
-    attributes:
-      first_name: Gary
-      last_name: Harris
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIL-PLAYER-HARRIS_GARY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-HARRIS_GARY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIL
-  - type: Player
-    code: BKT-NBA-PLAYER-PRINCE_TAUREAN
-    attributes:
-      first_name: Taurean
-      last_name: Prince
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIL-PLAYER-PRINCE_TAUREAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-PRINCE_TAUREAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIL
-  - type: Player
-    code: BKT-NBA-PLAYER-ROLLINS_RYAN
-    attributes:
-      first_name: Ryan
-      last_name: Rollins
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIL-PLAYER-ROLLINS_RYAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-ROLLINS_RYAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIL
-  - type: Player
-    code: BKT-NBA-PLAYER-KUZMA_KYLE
-    attributes:
-      first_name: Kyle
-      last_name: Kuzma
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIL-PLAYER-KUZMA_KYLE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-KUZMA_KYLE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIL
-  - type: Player
-    code: BKT-NBA-PLAYER-GREEN_AJ
-    attributes:
-      first_name: AJ
-      last_name: Green
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIL-PLAYER-GREEN_AJ
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-GREEN_AJ
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIL
-  - type: Player
-    code: BKT-NBA-PLAYER-DIENG_OUSMANE
-    attributes:
-      first_name: Ousmane
-      last_name: Dieng
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIL-PLAYER-DIENG_OUSMANE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-DIENG_OUSMANE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIL
-  - type: Player
-    code: BKT-NBA-PLAYER-ANTETOKOUNMPO_ALEX
-    attributes:
-      first_name: Alex
-      last_name: Antetokounmpo
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIL-PLAYER-ANTETOKOUNMPO_ALEX
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-ANTETOKOUNMPO_ALEX
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIL
-  - type: Player
-    code: BKT-NBA-PLAYER-RYAN_CORMAC
-    attributes:
-      first_name: Cormac
-      last_name: Ryan
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIL-PLAYER-RYAN_CORMAC
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-RYAN_CORMAC
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIL
-  - type: Player
-    code: BKT-NBA-PLAYER-ANTETOKOUNMPO_GIANNIS
-    attributes:
-      first_name: Giannis
-      last_name: Antetokounmpo
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIL-PLAYER-ANTETOKOUNMPO_GIANNIS
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-ANTETOKOUNMPO_GIANNIS
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIL
-  - type: Player
-    code: BKT-NBA-PLAYER-NANCE_PETE
-    attributes:
-      first_name: Pete
-      last_name: Nance
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIL-PLAYER-NANCE_PETE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-NANCE_PETE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIL
-  - type: Player
-    code: BKT-NBA-PLAYER-ANTETOKOUNMPO_THANASIS
-    attributes:
-      first_name: Thanasis
-      last_name: Antetokounmpo
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIL-PLAYER-ANTETOKOUNMPO_THANASIS
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-ANTETOKOUNMPO_THANASIS
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIL
-  - type: Player
-    code: BKT-NBA-PLAYER-JACKSON_JR_ANDRE
-    attributes:
-      first_name: Andre
-      last_name: Jackson Jr.
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIL-PLAYER-JACKSON_JR_ANDRE
     attributes: {}
@@ -3632,208 +1777,96 @@ groups:
       player is selected. Additional definitions supplement the existing catalog;
       existing rows are not replaced.
   records:
-  - type: Player
-    code: BKT-NBA-PLAYER-MCDANIELS_JADEN
-    attributes:
-      first_name: Jaden
-      last_name: McDaniels
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIN-PLAYER-MCDANIELS_JADEN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MCDANIELS_JADEN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIN
-  - type: Player
-    code: BKT-NBA-PLAYER-PHILLIPS_JULIAN
-    attributes:
-      first_name: Julian
-      last_name: Phillips
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIN-PLAYER-PHILLIPS_JULIAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-PHILLIPS_JULIAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIN
-  - type: Player
-    code: BKT-NBA-PLAYER-EDWARDS_ANTHONY
-    attributes:
-      first_name: Anthony
-      last_name: Edwards
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIN-PLAYER-EDWARDS_ANTHONY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-EDWARDS_ANTHONY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIN
-  - type: Player
-    code: BKT-NBA-PLAYER-INGLES_JOE
-    attributes:
-      first_name: Joe
-      last_name: Ingles
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIN-PLAYER-INGLES_JOE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-INGLES_JOE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIN
-  - type: Player
-    code: BKT-NBA-PLAYER-HYLAND_BONES
-    attributes:
-      first_name: Bones
-      last_name: Hyland
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIN-PLAYER-HYLAND_BONES
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-HYLAND_BONES
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIN
-  - type: Player
-    code: BKT-NBA-PLAYER-CONLEY_MIKE
-    attributes:
-      first_name: Mike
-      last_name: Conley
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIN-PLAYER-CONLEY_MIKE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-CONLEY_MIKE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIN
-  - type: Player
-    code: BKT-NBA-PLAYER-REID_NAZ
-    attributes:
-      first_name: Naz
-      last_name: Reid
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIN-PLAYER-REID_NAZ
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-REID_NAZ
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIN
-  - type: Player
-    code: BKT-NBA-PLAYER-ANDERSON_KYLE
-    attributes:
-      first_name: Kyle
-      last_name: Anderson
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIN-PLAYER-ANDERSON_KYLE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-ANDERSON_KYLE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIN
-  - type: Player
-    code: BKT-NBA-PLAYER-DOSUNMU_AYO
-    attributes:
-      first_name: Ayo
-      last_name: Dosunmu
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIN-PLAYER-DOSUNMU_AYO
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-DOSUNMU_AYO
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIN
-  - type: Player
-    code: BKT-NBA-PLAYER-PULLIN_ZYON
-    attributes:
-      first_name: Zyon
-      last_name: Pullin
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIN-PLAYER-PULLIN_ZYON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-PULLIN_ZYON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIN
-  - type: Player
-    code: BKT-NBA-PLAYER-BERINGER_JOAN
-    attributes:
-      first_name: Joan
-      last_name: Beringer
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIN-PLAYER-BERINGER_JOAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BERINGER_JOAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIN
-  - type: Player
-    code: BKT-NBA-PLAYER-CLARK_JAYLEN
-    attributes:
-      first_name: Jaylen
-      last_name: Clark
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIN-PLAYER-CLARK_JAYLEN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-CLARK_JAYLEN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIN
-  - type: Player
-    code: BKT-NBA-PLAYER-FREEMAN_ENRIQUE
-    attributes:
-      first_name: Enrique
-      last_name: Freeman
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIN-PLAYER-FREEMAN_ENRIQUE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-FREEMAN_ENRIQUE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIN
-  - type: Player
-    code: BKT-NBA-PLAYER-GOBERT_RUDY
-    attributes:
-      first_name: Rudy
-      last_name: Gobert
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIN-PLAYER-GOBERT_RUDY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-GOBERT_RUDY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIN
-  - type: Player
-    code: BKT-NBA-PLAYER-RANDLE_JULIUS
-    attributes:
-      first_name: Julius
-      last_name: Randle
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIN-PLAYER-RANDLE_JULIUS
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-RANDLE_JULIUS
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-MIN
-  - type: Player
-    code: BKT-NBA-PLAYER-ZIKARSKY_ROCCO
-    attributes:
-      first_name: Rocco
-      last_name: Zikarsky
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-MIN-PLAYER-ZIKARSKY_ROCCO
     attributes: {}
@@ -3850,208 +1883,96 @@ groups:
       player is selected. Additional definitions supplement the existing catalog;
       existing rows are not replaced.
   records:
-  - type: Player
-    code: BKT-NBA-PLAYER-WILLIAMSON_ZION
-    attributes:
-      first_name: Zion
-      last_name: Williamson
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NOP-PLAYER-WILLIAMSON_ZION
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WILLIAMSON_ZION
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-NOP
-  - type: Player
-    code: BKT-NBA-PLAYER-JONES_HERBERT
-    attributes:
-      first_name: Herbert
-      last_name: Jones
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NOP-PLAYER-JONES_HERBERT
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-JONES_HERBERT
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-NOP
-  - type: Player
-    code: BKT-NBA-PLAYER-POOLE_JORDAN
-    attributes:
-      first_name: Jordan
-      last_name: Poole
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NOP-PLAYER-POOLE_JORDAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-POOLE_JORDAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-NOP
-  - type: Player
-    code: BKT-NBA-PLAYER-DICKINSON_HUNTER
-    attributes:
-      first_name: Hunter
-      last_name: Dickinson
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NOP-PLAYER-DICKINSON_HUNTER
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-DICKINSON_HUNTER
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-NOP
-  - type: Player
-    code: BKT-NBA-PLAYER-MURRAY_DEJOUNTE
-    attributes:
-      first_name: Dejounte
-      last_name: Murray
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NOP-PLAYER-MURRAY_DEJOUNTE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MURRAY_DEJOUNTE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-NOP
-  - type: Player
-    code: BKT-NBA-PLAYER-JORDAN_DEANDRE
-    attributes:
-      first_name: DeAndre
-      last_name: Jordan
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NOP-PLAYER-JORDAN_DEANDRE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-JORDAN_DEANDRE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-NOP
-  - type: Player
-    code: BKT-NBA-PLAYER-MCGOWENS_BRYCE
-    attributes:
-      first_name: Bryce
-      last_name: McGowens
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NOP-PLAYER-MCGOWENS_BRYCE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MCGOWENS_BRYCE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-NOP
-  - type: Player
-    code: BKT-NBA-PLAYER-PEAVY_MICAH
-    attributes:
-      first_name: Micah
-      last_name: Peavy
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NOP-PLAYER-PEAVY_MICAH
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-PEAVY_MICAH
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-NOP
-  - type: Player
-    code: BKT-NBA-PLAYER-MATKOVIC_KARLO
-    attributes:
-      first_name: Karlo
-      last_name: Matković
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NOP-PLAYER-MATKOVIC_KARLO
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MATKOVIC_KARLO
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-NOP
-  - type: Player
-    code: BKT-NBA-PLAYER-MISSI_YVES
-    attributes:
-      first_name: Yves
-      last_name: Missi
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NOP-PLAYER-MISSI_YVES
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MISSI_YVES
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-NOP
-  - type: Player
-    code: BKT-NBA-PLAYER-QUEEN_DERIK
-    attributes:
-      first_name: Derik
-      last_name: Queen
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NOP-PLAYER-QUEEN_DERIK
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-QUEEN_DERIK
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-NOP
-  - type: Player
-    code: BKT-NBA-PLAYER-ALEXANDER_TREY
-    attributes:
-      first_name: Trey
-      last_name: Alexander
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NOP-PLAYER-ALEXANDER_TREY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-ALEXANDER_TREY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-NOP
-  - type: Player
-    code: BKT-NBA-PLAYER-HAWKINS_JORDAN
-    attributes:
-      first_name: Jordan
-      last_name: Hawkins
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NOP-PLAYER-HAWKINS_JORDAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-HAWKINS_JORDAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-NOP
-  - type: Player
-    code: BKT-NBA-PLAYER-MURPHY_III_TREY
-    attributes:
-      first_name: Trey
-      last_name: Murphy III
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NOP-PLAYER-MURPHY_III_TREY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MURPHY_III_TREY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-NOP
-  - type: Player
-    code: BKT-NBA-PLAYER-BEY_SADDIQ
-    attributes:
-      first_name: Saddiq
-      last_name: Bey
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NOP-PLAYER-BEY_SADDIQ
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BEY_SADDIQ
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-NOP
-  - type: Player
-    code: BKT-NBA-PLAYER-LOONEY_KEVON
-    attributes:
-      first_name: Kevon
-      last_name: Looney
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-NOP-PLAYER-LOONEY_KEVON
     attributes: {}
@@ -4068,208 +1989,96 @@ groups:
       player is selected. Additional definitions supplement the existing catalog;
       existing rows are not replaced.
   records:
-  - type: Player
-    code: BKT-NBA-PLAYER-DORT_LUGUENTZ
-    attributes:
-      first_name: Luguentz
-      last_name: Dort
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-OKC-PLAYER-DORT_LUGUENTZ
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-DORT_LUGUENTZ
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-OKC
-  - type: Player
-    code: BKT-NBA-PLAYER-WILLIAMS_JAYLIN
-    attributes:
-      first_name: Jaylin
-      last_name: Williams
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-OKC-PLAYER-WILLIAMS_JAYLIN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WILLIAMS_JAYLIN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-OKC
-  - type: Player
-    code: BKT-NBA-PLAYER-HOLMGREN_CHET
-    attributes:
-      first_name: Chet
-      last_name: Holmgren
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-OKC-PLAYER-HOLMGREN_CHET
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-HOLMGREN_CHET
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-OKC
-  - type: Player
-    code: BKT-NBA-PLAYER-WILLIAMS_JALEN
-    attributes:
-      first_name: Jalen
-      last_name: Williams
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-OKC-PLAYER-WILLIAMS_JALEN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WILLIAMS_JALEN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-OKC
-  - type: Player
-    code: BKT-NBA-PLAYER-CARUSO_ALEX
-    attributes:
-      first_name: Alex
-      last_name: Caruso
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-OKC-PLAYER-CARUSO_ALEX
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-CARUSO_ALEX
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-OKC
-  - type: Player
-    code: BKT-NBA-PLAYER-JOE_ISAIAH
-    attributes:
-      first_name: Isaiah
-      last_name: Joe
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-OKC-PLAYER-JOE_ISAIAH
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-JOE_ISAIAH
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-OKC
-  - type: Player
-    code: BKT-NBA-PLAYER-SORBER_THOMAS
-    attributes:
-      first_name: Thomas
-      last_name: Sorber
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-OKC-PLAYER-SORBER_THOMAS
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SORBER_THOMAS
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-OKC
-  - type: Player
-    code: BKT-NBA-PLAYER-SANDFORT_PAYTON
-    attributes:
-      first_name: Payton
-      last_name: Sandfort
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-OKC-PLAYER-SANDFORT_PAYTON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SANDFORT_PAYTON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-OKC
-  - type: Player
-    code: BKT-NBA-PLAYER-CARLSON_BRANDEN
-    attributes:
-      first_name: Branden
-      last_name: Carlson
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-OKC-PLAYER-CARLSON_BRANDEN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-CARLSON_BRANDEN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-OKC
-  - type: Player
-    code: BKT-NBA-PLAYER-WIGGINS_AARON
-    attributes:
-      first_name: Aaron
-      last_name: Wiggins
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-OKC-PLAYER-WIGGINS_AARON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WIGGINS_AARON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-OKC
-  - type: Player
-    code: BKT-NBA-PLAYER-WALLACE_CASON
-    attributes:
-      first_name: Cason
-      last_name: Wallace
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-OKC-PLAYER-WALLACE_CASON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WALLACE_CASON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-OKC
-  - type: Player
-    code: BKT-NBA-PLAYER-BARNHIZER_BROOKS
-    attributes:
-      first_name: Brooks
-      last_name: Barnhizer
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-OKC-PLAYER-BARNHIZER_BROOKS
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BARNHIZER_BROOKS
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-OKC
-  - type: Player
-    code: BKT-NBA-PLAYER-MITCHELL_AJAY
-    attributes:
-      first_name: Ajay
-      last_name: Mitchell
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-OKC-PLAYER-MITCHELL_AJAY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MITCHELL_AJAY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-OKC
-  - type: Player
-    code: BKT-NBA-PLAYER-WILLIAMS_KENRICH
-    attributes:
-      first_name: Kenrich
-      last_name: Williams
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-OKC-PLAYER-WILLIAMS_KENRICH
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WILLIAMS_KENRICH
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-OKC
-  - type: Player
-    code: BKT-NBA-PLAYER-TOPIC_NIKOLA
-    attributes:
-      first_name: Nikola
-      last_name: Topić
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-OKC-PLAYER-TOPIC_NIKOLA
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-TOPIC_NIKOLA
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-OKC
-  - type: Player
-    code: BKT-NBA-PLAYER-HARTENSTEIN_ISAIAH
-    attributes:
-      first_name: Isaiah
-      last_name: Hartenstein
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-OKC-PLAYER-HARTENSTEIN_ISAIAH
     attributes: {}
@@ -4286,195 +2095,90 @@ groups:
       player is selected. Additional definitions supplement the existing catalog;
       existing rows are not replaced.
   records:
-  - type: Player
-    code: BKT-NBA-PLAYER-ISAAC_JONATHAN
-    attributes:
-      first_name: Jonathan
-      last_name: Isaac
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ORL-PLAYER-ISAAC_JONATHAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-ISAAC_JONATHAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-ORL
-  - type: Player
-    code: BKT-NBA-PLAYER-CARTER_JEVON
-    attributes:
-      first_name: Jevon
-      last_name: Carter
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ORL-PLAYER-CARTER_JEVON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-CARTER_JEVON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-ORL
-  - type: Player
-    code: BKT-NBA-PLAYER-BANE_DESMOND
-    attributes:
-      first_name: Desmond
-      last_name: Bane
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ORL-PLAYER-BANE_DESMOND
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BANE_DESMOND
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-ORL
-  - type: Player
-    code: BKT-NBA-PLAYER-SUGGS_JALEN
-    attributes:
-      first_name: Jalen
-      last_name: Suggs
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ORL-PLAYER-SUGGS_JALEN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SUGGS_JALEN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-ORL
-  - type: Player
-    code: BKT-NBA-PLAYER-BANCHERO_PAOLO
-    attributes:
-      first_name: Paolo
-      last_name: Banchero
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ORL-PLAYER-BANCHERO_PAOLO
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BANCHERO_PAOLO
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-ORL
-  - type: Player
-    code: BKT-NBA-PLAYER-CAIN_JAMAL
-    attributes:
-      first_name: Jamal
-      last_name: Cain
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ORL-PLAYER-CAIN_JAMAL
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-CAIN_JAMAL
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-ORL
-  - type: Player
-    code: BKT-NBA-PLAYER-RICHARDSON_JASE
-    attributes:
-      first_name: Jase
-      last_name: Richardson
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ORL-PLAYER-RICHARDSON_JASE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-RICHARDSON_JASE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-ORL
-  - type: Player
-    code: BKT-NBA-PLAYER-HOWARD_JETT
-    attributes:
-      first_name: Jett
-      last_name: Howard
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ORL-PLAYER-HOWARD_JETT
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-HOWARD_JETT
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-ORL
-  - type: Player
-    code: BKT-NBA-PLAYER-CASTLETON_COLIN
-    attributes:
-      first_name: Colin
-      last_name: Castleton
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ORL-PLAYER-CASTLETON_COLIN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-CASTLETON_COLIN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-ORL
-  - type: Player
-    code: BKT-NBA-PLAYER-WAGNER_MORITZ
-    attributes:
-      first_name: Moritz
-      last_name: Wagner
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ORL-PLAYER-WAGNER_MORITZ
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WAGNER_MORITZ
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-ORL
-  - type: Player
-    code: BKT-NBA-PLAYER-WAGNER_FRANZ
-    attributes:
-      first_name: Franz
-      last_name: Wagner
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ORL-PLAYER-WAGNER_FRANZ
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WAGNER_FRANZ
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-ORL
-  - type: Player
-    code: BKT-NBA-PLAYER-DA_SILVA_TRISTAN
-    attributes:
-      first_name: Tristan
-      last_name: da Silva
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ORL-PLAYER-DA_SILVA_TRISTAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-DA_SILVA_TRISTAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-ORL
-  - type: Player
-    code: BKT-NBA-PLAYER-CARTER_JR_WENDELL
-    attributes:
-      first_name: Wendell
-      last_name: Carter Jr.
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ORL-PLAYER-CARTER_JR_WENDELL
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-CARTER_JR_WENDELL
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-ORL
-  - type: Player
-    code: BKT-NBA-PLAYER-BITADZE_GOGA
-    attributes:
-      first_name: Goga
-      last_name: Bitadze
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ORL-PLAYER-BITADZE_GOGA
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BITADZE_GOGA
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-ORL
-  - type: Player
-    code: BKT-NBA-PLAYER-PENDA_NOAH
-    attributes:
-      first_name: Noah
-      last_name: Penda
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-ORL-PLAYER-PENDA_NOAH
     attributes: {}
@@ -4491,195 +2195,90 @@ groups:
       player is selected. Additional definitions supplement the existing catalog;
       existing rows are not replaced.
   records:
-  - type: Player
-    code: BKT-NBA-PLAYER-GRIMES_QUENTIN
-    attributes:
-      first_name: Quentin
-      last_name: Grimes
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHI-PLAYER-GRIMES_QUENTIN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-GRIMES_QUENTIN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-PHI
-  - type: Player
-    code: BKT-NBA-PLAYER-LOWRY_KYLE
-    attributes:
-      first_name: Kyle
-      last_name: Lowry
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHI-PLAYER-LOWRY_KYLE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-LOWRY_KYLE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-PHI
-  - type: Player
-    code: BKT-NBA-PLAYER-GEORGE_PAUL
-    attributes:
-      first_name: Paul
-      last_name: George
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHI-PLAYER-GEORGE_PAUL
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-GEORGE_PAUL
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-PHI
-  - type: Player
-    code: BKT-NBA-PLAYER-OUBRE_JR_KELLY
-    attributes:
-      first_name: Kelly
-      last_name: Oubre Jr.
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHI-PLAYER-OUBRE_JR_KELLY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-OUBRE_JR_KELLY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-PHI
-  - type: Player
-    code: BKT-NBA-PLAYER-EDWARDS_JUSTIN
-    attributes:
-      first_name: Justin
-      last_name: Edwards
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHI-PLAYER-EDWARDS_JUSTIN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-EDWARDS_JUSTIN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-PHI
-  - type: Player
-    code: BKT-NBA-PLAYER-WATFORD_TRENDON
-    attributes:
-      first_name: Trendon
-      last_name: Watford
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHI-PLAYER-WATFORD_TRENDON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WATFORD_TRENDON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-PHI
-  - type: Player
-    code: BKT-NBA-PLAYER-TERRY_DALEN
-    attributes:
-      first_name: Dalen
-      last_name: Terry
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHI-PLAYER-TERRY_DALEN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-TERRY_DALEN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-PHI
-  - type: Player
-    code: BKT-NBA-PLAYER-BEAUCHAMP_MARJON
-    attributes:
-      first_name: MarJon
-      last_name: Beauchamp
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHI-PLAYER-BEAUCHAMP_MARJON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BEAUCHAMP_MARJON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-PHI
-  - type: Player
-    code: BKT-NBA-PLAYER-EMBIID_JOEL
-    attributes:
-      first_name: Joel
-      last_name: Embiid
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHI-PLAYER-EMBIID_JOEL
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-EMBIID_JOEL
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-PHI
-  - type: Player
-    code: BKT-NBA-PLAYER-BROOME_JOHNI
-    attributes:
-      first_name: Johni
-      last_name: Broome
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHI-PLAYER-BROOME_JOHNI
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BROOME_JOHNI
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-PHI
-  - type: Player
-    code: BKT-NBA-PLAYER-MARTIN_TYRESE
-    attributes:
-      first_name: Tyrese
-      last_name: Martin
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHI-PLAYER-MARTIN_TYRESE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MARTIN_TYRESE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-PHI
-  - type: Player
-    code: BKT-NBA-PLAYER-BARLOW_DOMINICK
-    attributes:
-      first_name: Dominick
-      last_name: Barlow
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHI-PLAYER-BARLOW_DOMINICK
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BARLOW_DOMINICK
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-PHI
-  - type: Player
-    code: BKT-NBA-PLAYER-BONA_ADEM
-    attributes:
-      first_name: Adem
-      last_name: Bona
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHI-PLAYER-BONA_ADEM
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BONA_ADEM
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-PHI
-  - type: Player
-    code: BKT-NBA-PLAYER-WALKER_JABARI
-    attributes:
-      first_name: Jabari
-      last_name: Walker
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHI-PLAYER-WALKER_JABARI
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WALKER_JABARI
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-PHI
-  - type: Player
-    code: BKT-NBA-PLAYER-EDGECOMBE_VJ
-    attributes:
-      first_name: VJ
-      last_name: Edgecombe
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHI-PLAYER-EDGECOMBE_VJ
     attributes: {}
@@ -4696,208 +2295,96 @@ groups:
       player is selected. Additional definitions supplement the existing catalog;
       existing rows are not replaced.
   records:
-  - type: Player
-    code: BKT-NBA-PLAYER-BOOKER_DEVIN
-    attributes:
-      first_name: Devin
-      last_name: Booker
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHX-PLAYER-BOOKER_DEVIN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BOOKER_DEVIN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-PHX
-  - type: Player
-    code: BKT-NBA-PLAYER-COFFEY_AMIR
-    attributes:
-      first_name: Amir
-      last_name: Coffey
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHX-PLAYER-COFFEY_AMIR
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-COFFEY_AMIR
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-PHX
-  - type: Player
-    code: BKT-NBA-PLAYER-BROOKS_DILLON
-    attributes:
-      first_name: Dillon
-      last_name: Brooks
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHX-PLAYER-BROOKS_DILLON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BROOKS_DILLON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-PHX
-  - type: Player
-    code: BKT-NBA-PLAYER-GREEN_JALEN
-    attributes:
-      first_name: Jalen
-      last_name: Green
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHX-PLAYER-GREEN_JALEN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-GREEN_JALEN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-PHX
-  - type: Player
-    code: BKT-NBA-PLAYER-HIGHSMITH_HAYWOOD
-    attributes:
-      first_name: Haywood
-      last_name: Highsmith
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHX-PLAYER-HIGHSMITH_HAYWOOD
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-HIGHSMITH_HAYWOOD
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-PHX
-  - type: Player
-    code: BKT-NBA-PLAYER-ALLEN_GRAYSON
-    attributes:
-      first_name: Grayson
-      last_name: Allen
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHX-PLAYER-ALLEN_GRAYSON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-ALLEN_GRAYSON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-PHX
-  - type: Player
-    code: BKT-NBA-PLAYER-MALUACH_KHAMAN
-    attributes:
-      first_name: Khaman
-      last_name: Maluach
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHX-PLAYER-MALUACH_KHAMAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MALUACH_KHAMAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-PHX
-  - type: Player
-    code: BKT-NBA-PLAYER-IGHODARO_OSO
-    attributes:
-      first_name: Oso
-      last_name: Ighodaro
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHX-PLAYER-IGHODARO_OSO
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-IGHODARO_OSO
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-PHX
-  - type: Player
-    code: BKT-NBA-PLAYER-GILLESPIE_COLLIN
-    attributes:
-      first_name: Collin
-      last_name: Gillespie
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHX-PLAYER-GILLESPIE_COLLIN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-GILLESPIE_COLLIN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-PHX
-  - type: Player
-    code: BKT-NBA-PLAYER-BREA_KOBY
-    attributes:
-      first_name: Koby
-      last_name: Brea
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHX-PLAYER-BREA_KOBY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BREA_KOBY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-PHX
-  - type: Player
-    code: BKT-NBA-PLAYER-WILLIAMS_MARK
-    attributes:
-      first_name: Mark
-      last_name: Williams
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHX-PLAYER-WILLIAMS_MARK
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WILLIAMS_MARK
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-PHX
-  - type: Player
-    code: BKT-NBA-PLAYER-BOUYEA_JAMAREE
-    attributes:
-      first_name: Jamaree
-      last_name: Bouyea
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHX-PLAYER-BOUYEA_JAMAREE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BOUYEA_JAMAREE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-PHX
-  - type: Player
-    code: BKT-NBA-PLAYER-LIVERS_ISAIAH
-    attributes:
-      first_name: Isaiah
-      last_name: Livers
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHX-PLAYER-LIVERS_ISAIAH
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-LIVERS_ISAIAH
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-PHX
-  - type: Player
-    code: BKT-NBA-PLAYER-FLEMING_RASHEER
-    attributes:
-      first_name: Rasheer
-      last_name: Fleming
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHX-PLAYER-FLEMING_RASHEER
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-FLEMING_RASHEER
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-PHX
-  - type: Player
-    code: BKT-NBA-PLAYER-HUNTLEY_CJ
-    attributes:
-      first_name: CJ
-      last_name: Huntley
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHX-PLAYER-HUNTLEY_CJ
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-HUNTLEY_CJ
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-PHX
-  - type: Player
-    code: BKT-NBA-PLAYER-GOODWIN_JORDAN
-    attributes:
-      first_name: Jordan
-      last_name: Goodwin
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-PHX-PLAYER-GOODWIN_JORDAN
     attributes: {}
@@ -4914,208 +2401,96 @@ groups:
       player is selected. Additional definitions supplement the existing catalog;
       existing rows are not replaced.
   records:
-  - type: Player
-    code: BKT-NBA-PLAYER-LILLARD_DAMIAN
-    attributes:
-      first_name: Damian
-      last_name: Lillard
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-POR-PLAYER-LILLARD_DAMIAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-LILLARD_DAMIAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-POR
-  - type: Player
-    code: BKT-NBA-PLAYER-WESLEY_BLAKE
-    attributes:
-      first_name: Blake
-      last_name: Wesley
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-POR-PLAYER-WESLEY_BLAKE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WESLEY_BLAKE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-POR
-  - type: Player
-    code: BKT-NBA-PLAYER-LOVE_CALEB
-    attributes:
-      first_name: Caleb
-      last_name: Love
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-POR-PLAYER-LOVE_CALEB
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-LOVE_CALEB
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-POR
-  - type: Player
-    code: BKT-NBA-PLAYER-YOUNGBLOOD_CHRIS
-    attributes:
-      first_name: Chris
-      last_name: Youngblood
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-POR-PLAYER-YOUNGBLOOD_CHRIS
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-YOUNGBLOOD_CHRIS
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-POR
-  - type: Player
-    code: BKT-NBA-PLAYER-THYBULLE_MATISSE
-    attributes:
-      first_name: Matisse
-      last_name: Thybulle
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-POR-PLAYER-THYBULLE_MATISSE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-THYBULLE_MATISSE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-POR
-  - type: Player
-    code: BKT-NBA-PLAYER-HOLIDAY_JRUE
-    attributes:
-      first_name: Jrue
-      last_name: Holiday
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-POR-PLAYER-HOLIDAY_JRUE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-HOLIDAY_JRUE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-POR
-  - type: Player
-    code: BKT-NBA-PLAYER-AVDIJA_DENI
-    attributes:
-      first_name: Deni
-      last_name: Avdija
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-POR-PLAYER-AVDIJA_DENI
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-AVDIJA_DENI
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-POR
-  - type: Player
-    code: BKT-NBA-PLAYER-GRANT_JERAMI
-    attributes:
-      first_name: Jerami
-      last_name: Grant
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-POR-PLAYER-GRANT_JERAMI
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-GRANT_JERAMI
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-POR
-  - type: Player
-    code: BKT-NBA-PLAYER-HANSEN_YANG
-    attributes:
-      first_name: Yang
-      last_name: Hansen
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-POR-PLAYER-HANSEN_YANG
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-HANSEN_YANG
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-POR
-  - type: Player
-    code: BKT-NBA-PLAYER-SHARPE_SHAEDON
-    attributes:
-      first_name: Shaedon
-      last_name: Sharpe
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-POR-PLAYER-SHARPE_SHAEDON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SHARPE_SHAEDON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-POR
-  - type: Player
-    code: BKT-NBA-PLAYER-CLINGAN_DONOVAN
-    attributes:
-      first_name: Donovan
-      last_name: Clingan
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-POR-PLAYER-CLINGAN_DONOVAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-CLINGAN_DONOVAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-POR
-  - type: Player
-    code: BKT-NBA-PLAYER-MURRAY_KRIS
-    attributes:
-      first_name: Kris
-      last_name: Murray
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-POR-PLAYER-MURRAY_KRIS
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MURRAY_KRIS
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-POR
-  - type: Player
-    code: BKT-NBA-PLAYER-KREJCI_VIT
-    attributes:
-      first_name: Vít
-      last_name: Krejčí
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-POR-PLAYER-KREJCI_VIT
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-KREJCI_VIT
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-POR
-  - type: Player
-    code: BKT-NBA-PLAYER-CAMARA_TOUMANI
-    attributes:
-      first_name: Toumani
-      last_name: Camara
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-POR-PLAYER-CAMARA_TOUMANI
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-CAMARA_TOUMANI
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-POR
-  - type: Player
-    code: BKT-NBA-PLAYER-WILLIAMS_III_ROBERT
-    attributes:
-      first_name: Robert
-      last_name: Williams III
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-POR-PLAYER-WILLIAMS_III_ROBERT
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WILLIAMS_III_ROBERT
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-POR
-  - type: Player
-    code: BKT-NBA-PLAYER-CISSOKO_SIDY
-    attributes:
-      first_name: Sidy
-      last_name: Cissoko
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-POR-PLAYER-CISSOKO_SIDY
     attributes: {}
@@ -5132,208 +2507,96 @@ groups:
       player is selected. Additional definitions supplement the existing catalog;
       existing rows are not replaced.
   records:
-  - type: Player
-    code: BKT-NBA-PLAYER-HAYES_KILLIAN
-    attributes:
-      first_name: Killian
-      last_name: Hayes
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAC-PLAYER-HAYES_KILLIAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-HAYES_KILLIAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-SAC
-  - type: Player
-    code: BKT-NBA-PLAYER-MCDERMOTT_DOUG
-    attributes:
-      first_name: Doug
-      last_name: McDermott
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAC-PLAYER-MCDERMOTT_DOUG
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MCDERMOTT_DOUG
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-SAC
-  - type: Player
-    code: BKT-NBA-PLAYER-LAVINE_ZACH
-    attributes:
-      first_name: Zach
-      last_name: LaVine
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAC-PLAYER-LAVINE_ZACH
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-LAVINE_ZACH
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-SAC
-  - type: Player
-    code: BKT-NBA-PLAYER-ACHIUWA_PRECIOUS
-    attributes:
-      first_name: Precious
-      last_name: Achiuwa
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAC-PLAYER-ACHIUWA_PRECIOUS
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-ACHIUWA_PRECIOUS
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-SAC
-  - type: Player
-    code: BKT-NBA-PLAYER-DEROZAN_DEMAR
-    attributes:
-      first_name: DeMar
-      last_name: DeRozan
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAC-PLAYER-DEROZAN_DEMAR
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-DEROZAN_DEMAR
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-SAC
-  - type: Player
-    code: BKT-NBA-PLAYER-SABONIS_DOMANTAS
-    attributes:
-      first_name: Domantas
-      last_name: Sabonis
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAC-PLAYER-SABONIS_DOMANTAS
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SABONIS_DOMANTAS
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-SAC
-  - type: Player
-    code: BKT-NBA-PLAYER-MURRAY_KEEGAN
-    attributes:
-      first_name: Keegan
-      last_name: Murray
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAC-PLAYER-MURRAY_KEEGAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MURRAY_KEEGAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-SAC
-  - type: Player
-    code: BKT-NBA-PLAYER-HUNTER_DE_ANDRE
-    attributes:
-      first_name: De'Andre
-      last_name: Hunter
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAC-PLAYER-HUNTER_DE_ANDRE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-HUNTER_DE_ANDRE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-SAC
-  - type: Player
-    code: BKT-NBA-PLAYER-WESTBROOK_RUSSELL
-    attributes:
-      first_name: Russell
-      last_name: Westbrook
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAC-PLAYER-WESTBROOK_RUSSELL
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WESTBROOK_RUSSELL
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-SAC
-  - type: Player
-    code: BKT-NBA-PLAYER-EUBANKS_DREW
-    attributes:
-      first_name: Drew
-      last_name: Eubanks
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAC-PLAYER-EUBANKS_DREW
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-EUBANKS_DREW
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-SAC
-  - type: Player
-    code: BKT-NBA-PLAYER-CARTER_DEVIN
-    attributes:
-      first_name: Devin
-      last_name: Carter
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAC-PLAYER-CARTER_DEVIN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-CARTER_DEVIN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-SAC
-  - type: Player
-    code: BKT-NBA-PLAYER-BALDWIN_JR_PATRICK
-    attributes:
-      first_name: Patrick
-      last_name: Baldwin Jr.
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAC-PLAYER-BALDWIN_JR_PATRICK
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BALDWIN_JR_PATRICK
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-SAC
-  - type: Player
-    code: BKT-NBA-PLAYER-STEVENS_ISAIAH
-    attributes:
-      first_name: Isaiah
-      last_name: Stevens
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAC-PLAYER-STEVENS_ISAIAH
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-STEVENS_ISAIAH
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-SAC
-  - type: Player
-    code: BKT-NBA-PLAYER-PLOWDEN_DAEQWON
-    attributes:
-      first_name: Daeqwon
-      last_name: Plowden
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAC-PLAYER-PLOWDEN_DAEQWON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-PLOWDEN_DAEQWON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-SAC
-  - type: Player
-    code: BKT-NBA-PLAYER-CARDWELL_DYLAN
-    attributes:
-      first_name: Dylan
-      last_name: Cardwell
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAC-PLAYER-CARDWELL_DYLAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-CARDWELL_DYLAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-SAC
-  - type: Player
-    code: BKT-NBA-PLAYER-RAYNAUD_MAXIME
-    attributes:
-      first_name: Maxime
-      last_name: Raynaud
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAC-PLAYER-RAYNAUD_MAXIME
     attributes: {}
@@ -5350,208 +2613,96 @@ groups:
       player is selected. Additional definitions supplement the existing catalog;
       existing rows are not replaced.
   records:
-  - type: Player
-    code: BKT-NBA-PLAYER-HARPER_DYLAN
-    attributes:
-      first_name: Dylan
-      last_name: Harper
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAS-PLAYER-HARPER_DYLAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-HARPER_DYLAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-SAS
-  - type: Player
-    code: BKT-NBA-PLAYER-JOHNSON_KELDON
-    attributes:
-      first_name: Keldon
-      last_name: Johnson
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAS-PLAYER-JOHNSON_KELDON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-JOHNSON_KELDON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-SAS
-  - type: Player
-    code: BKT-NBA-PLAYER-FOX_DE_AARON
-    attributes:
-      first_name: De'Aaron
-      last_name: Fox
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAS-PLAYER-FOX_DE_AARON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-FOX_DE_AARON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-SAS
-  - type: Player
-    code: BKT-NBA-PLAYER-CASTLE_STEPHON
-    attributes:
-      first_name: Stephon
-      last_name: Castle
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAS-PLAYER-CASTLE_STEPHON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-CASTLE_STEPHON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-SAS
-  - type: Player
-    code: BKT-NBA-PLAYER-KORNET_LUKE
-    attributes:
-      first_name: Luke
-      last_name: Kornet
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAS-PLAYER-KORNET_LUKE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-KORNET_LUKE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-SAS
-  - type: Player
-    code: BKT-NBA-PLAYER-OLYNYK_KELLY
-    attributes:
-      first_name: Kelly
-      last_name: Olynyk
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAS-PLAYER-OLYNYK_KELLY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-OLYNYK_KELLY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-SAS
-  - type: Player
-    code: BKT-NBA-PLAYER-BRYANT_CARTER
-    attributes:
-      first_name: Carter
-      last_name: Bryant
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAS-PLAYER-BRYANT_CARTER
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BRYANT_CARTER
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-SAS
-  - type: Player
-    code: BKT-NBA-PLAYER-MILLER_EMANUEL
-    attributes:
-      first_name: Emanuel
-      last_name: Miller
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAS-PLAYER-MILLER_EMANUEL
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MILLER_EMANUEL
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-SAS
-  - type: Player
-    code: BKT-NBA-PLAYER-BIYOMBO_BISMACK
-    attributes:
-      first_name: Bismack
-      last_name: Biyombo
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAS-PLAYER-BIYOMBO_BISMACK
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BIYOMBO_BISMACK
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-SAS
-  - type: Player
-    code: BKT-NBA-PLAYER-VASSELL_DEVIN
-    attributes:
-      first_name: Devin
-      last_name: Vassell
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAS-PLAYER-VASSELL_DEVIN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-VASSELL_DEVIN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-SAS
-  - type: Player
-    code: BKT-NBA-PLAYER-JONES_GARCIA_DAVID
-    attributes:
-      first_name: David
-      last_name: Jones Garcia
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAS-PLAYER-JONES_GARCIA_DAVID
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-JONES_GARCIA_DAVID
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-SAS
-  - type: Player
-    code: BKT-NBA-PLAYER-CHAMPAGNIE_JULIAN
-    attributes:
-      first_name: Julian
-      last_name: Champagnie
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAS-PLAYER-CHAMPAGNIE_JULIAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-CHAMPAGNIE_JULIAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-SAS
-  - type: Player
-    code: BKT-NBA-PLAYER-BARNES_HARRISON
-    attributes:
-      first_name: Harrison
-      last_name: Barnes
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAS-PLAYER-BARNES_HARRISON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BARNES_HARRISON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-SAS
-  - type: Player
-    code: BKT-NBA-PLAYER-WATERS_III_LINDY
-    attributes:
-      first_name: Lindy
-      last_name: Waters III
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAS-PLAYER-WATERS_III_LINDY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WATERS_III_LINDY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-SAS
-  - type: Player
-    code: BKT-NBA-PLAYER-PLUMLEE_MASON
-    attributes:
-      first_name: Mason
-      last_name: Plumlee
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAS-PLAYER-PLUMLEE_MASON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-PLUMLEE_MASON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-SAS
-  - type: Player
-    code: BKT-NBA-PLAYER-INGRAM_HARRISON
-    attributes:
-      first_name: Harrison
-      last_name: Ingram
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-SAS-PLAYER-INGRAM_HARRISON
     attributes: {}
@@ -5568,195 +2719,90 @@ groups:
       player is selected. Additional definitions supplement the existing catalog;
       existing rows are not replaced.
   records:
-  - type: Player
-    code: BKT-NBA-PLAYER-MOGBO_JONATHAN
-    attributes:
-      first_name: Jonathan
-      last_name: Mogbo
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-TOR-PLAYER-MOGBO_JONATHAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MOGBO_JONATHAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-TOR
-  - type: Player
-    code: BKT-NBA-PLAYER-INGRAM_BRANDON
-    attributes:
-      first_name: Brandon
-      last_name: Ingram
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-TOR-PLAYER-INGRAM_BRANDON
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-INGRAM_BRANDON
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-TOR
-  - type: Player
-    code: BKT-NBA-PLAYER-BARNES_SCOTTIE
-    attributes:
-      first_name: Scottie
-      last_name: Barnes
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-TOR-PLAYER-BARNES_SCOTTIE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BARNES_SCOTTIE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-TOR
-  - type: Player
-    code: BKT-NBA-PLAYER-QUICKLEY_IMMANUEL
-    attributes:
-      first_name: Immanuel
-      last_name: Quickley
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-TOR-PLAYER-QUICKLEY_IMMANUEL
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-QUICKLEY_IMMANUEL
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-TOR
-  - type: Player
-    code: BKT-NBA-PLAYER-BARRETT_RJ
-    attributes:
-      first_name: RJ
-      last_name: Barrett
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-TOR-PLAYER-BARRETT_RJ
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BARRETT_RJ
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-TOR
-  - type: Player
-    code: BKT-NBA-PLAYER-MURRAY_BOYLES_COLLIN
-    attributes:
-      first_name: Collin
-      last_name: Murray-Boyles
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-TOR-PLAYER-MURRAY_BOYLES_COLLIN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MURRAY_BOYLES_COLLIN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-TOR
-  - type: Player
-    code: BKT-NBA-PLAYER-WALTER_JA_KOBE
-    attributes:
-      first_name: Ja'Kobe
-      last_name: Walter
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-TOR-PLAYER-WALTER_JA_KOBE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WALTER_JA_KOBE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-TOR
-  - type: Player
-    code: BKT-NBA-PLAYER-TEMPLE_GARRETT
-    attributes:
-      first_name: Garrett
-      last_name: Temple
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-TOR-PLAYER-TEMPLE_GARRETT
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-TEMPLE_GARRETT
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-TOR
-  - type: Player
-    code: BKT-NBA-PLAYER-POELTL_JAKOB
-    attributes:
-      first_name: Jakob
-      last_name: Poeltl
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-TOR-PLAYER-POELTL_JAKOB
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-POELTL_JAKOB
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-TOR
-  - type: Player
-    code: BKT-NBA-PLAYER-SHEAD_JAMAL
-    attributes:
-      first_name: Jamal
-      last_name: Shead
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-TOR-PLAYER-SHEAD_JAMAL
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SHEAD_JAMAL
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-TOR
-  - type: Player
-    code: BKT-NBA-PLAYER-HEPBURN_CHUCKY
-    attributes:
-      first_name: Chucky
-      last_name: Hepburn
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-TOR-PLAYER-HEPBURN_CHUCKY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-HEPBURN_CHUCKY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-TOR
-  - type: Player
-    code: BKT-NBA-PLAYER-JACKSON_DAVIS_TRAYCE
-    attributes:
-      first_name: Trayce
-      last_name: Jackson-Davis
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-TOR-PLAYER-JACKSON_DAVIS_TRAYCE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-JACKSON_DAVIS_TRAYCE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-TOR
-  - type: Player
-    code: BKT-NBA-PLAYER-MAMUKELASHVILI_SANDRO
-    attributes:
-      first_name: Sandro
-      last_name: Mamukelashvili
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-TOR-PLAYER-MAMUKELASHVILI_SANDRO
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MAMUKELASHVILI_SANDRO
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-TOR
-  - type: Player
-    code: BKT-NBA-PLAYER-MARTIN_ALIJAH
-    attributes:
-      first_name: Alijah
-      last_name: Martin
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-TOR-PLAYER-MARTIN_ALIJAH
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MARTIN_ALIJAH
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-TOR
-  - type: Player
-    code: BKT-NBA-PLAYER-BATTLE_JAMISON
-    attributes:
-      first_name: Jamison
-      last_name: Battle
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-TOR-PLAYER-BATTLE_JAMISON
     attributes: {}
@@ -5773,208 +2819,96 @@ groups:
       player is selected. Additional definitions supplement the existing catalog;
       existing rows are not replaced.
   records:
-  - type: Player
-    code: BKT-NBA-PLAYER-GEORGE_KEYONTE
-    attributes:
-      first_name: Keyonte
-      last_name: George
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-UTA-PLAYER-GEORGE_KEYONTE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-GEORGE_KEYONTE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-UTA
-  - type: Player
-    code: BKT-NBA-PLAYER-WILLIAMS_CODY
-    attributes:
-      first_name: Cody
-      last_name: Williams
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-UTA-PLAYER-WILLIAMS_CODY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WILLIAMS_CODY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-UTA
-  - type: Player
-    code: BKT-NBA-PLAYER-COLLIER_ISAIAH
-    attributes:
-      first_name: Isaiah
-      last_name: Collier
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-UTA-PLAYER-COLLIER_ISAIAH
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-COLLIER_ISAIAH
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-UTA
-  - type: Player
-    code: BKT-NBA-PLAYER-MYKHAILIUK_SVI
-    attributes:
-      first_name: Svi
-      last_name: Mykhailiuk
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-UTA-PLAYER-MYKHAILIUK_SVI
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MYKHAILIUK_SVI
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-UTA
-  - type: Player
-    code: BKT-NBA-PLAYER-HARKLESS_ELIJAH
-    attributes:
-      first_name: Elijah
-      last_name: Harkless
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-UTA-PLAYER-HARKLESS_ELIJAH
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-HARKLESS_ELIJAH
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-UTA
-  - type: Player
-    code: BKT-NBA-PLAYER-BAILEY_ACE
-    attributes:
-      first_name: Ace
-      last_name: Bailey
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-UTA-PLAYER-BAILEY_ACE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BAILEY_ACE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-UTA
-  - type: Player
-    code: BKT-NBA-PLAYER-JACKSON_JR_JAREN
-    attributes:
-      first_name: Jaren
-      last_name: Jackson Jr.
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-UTA-PLAYER-JACKSON_JR_JAREN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-JACKSON_JR_JAREN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-UTA
-  - type: Player
-    code: BKT-NBA-PLAYER-MBENG_BEZ
-    attributes:
-      first_name: Bez
-      last_name: Mbeng
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-UTA-PLAYER-MBENG_BEZ
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MBENG_BEZ
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-UTA
-  - type: Player
-    code: BKT-NBA-PLAYER-FILIPOWSKI_KYLE
-    attributes:
-      first_name: Kyle
-      last_name: Filipowski
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-UTA-PLAYER-FILIPOWSKI_KYLE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-FILIPOWSKI_KYLE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-UTA
-  - type: Player
-    code: BKT-NBA-PLAYER-MARKKANEN_LAURI
-    attributes:
-      first_name: Lauri
-      last_name: Markkanen
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-UTA-PLAYER-MARKKANEN_LAURI
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-MARKKANEN_LAURI
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-UTA
-  - type: Player
-    code: BKT-NBA-PLAYER-KESSLER_WALKER
-    attributes:
-      first_name: Walker
-      last_name: Kessler
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-UTA-PLAYER-KESSLER_WALKER
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-KESSLER_WALKER
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-UTA
-  - type: Player
-    code: BKT-NBA-PLAYER-SENSABAUGH_BRICE
-    attributes:
-      first_name: Brice
-      last_name: Sensabaugh
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-UTA-PLAYER-SENSABAUGH_BRICE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SENSABAUGH_BRICE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-UTA
-  - type: Player
-    code: BKT-NBA-PLAYER-NURKIC_JUSUF
-    attributes:
-      first_name: Jusuf
-      last_name: Nurkić
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-UTA-PLAYER-NURKIC_JUSUF
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-NURKIC_JUSUF
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-UTA
-  - type: Player
-    code: BKT-NBA-PLAYER-TSHIEBWE_OSCAR
-    attributes:
-      first_name: Oscar
-      last_name: Tshiebwe
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-UTA-PLAYER-TSHIEBWE_OSCAR
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-TSHIEBWE_OSCAR
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-UTA
-  - type: Player
-    code: BKT-NBA-PLAYER-LOVE_KEVIN
-    attributes:
-      first_name: Kevin
-      last_name: Love
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-UTA-PLAYER-LOVE_KEVIN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-LOVE_KEVIN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-UTA
-  - type: Player
-    code: BKT-NBA-PLAYER-KONCHAR_JOHN
-    attributes:
-      first_name: John
-      last_name: Konchar
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-UTA-PLAYER-KONCHAR_JOHN
     attributes: {}
@@ -5991,208 +2925,96 @@ groups:
       player is selected. Additional definitions supplement the existing catalog;
       existing rows are not replaced.
   records:
-  - type: Player
-    code: BKT-NBA-PLAYER-VUKCEVIC_TRISTAN
-    attributes:
-      first_name: Tristan
-      last_name: Vukcevic
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-WAS-PLAYER-VUKCEVIC_TRISTAN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-VUKCEVIC_TRISTAN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-WAS
-  - type: Player
-    code: BKT-NBA-PLAYER-WHITMORE_CAM
-    attributes:
-      first_name: Cam
-      last_name: Whitmore
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-WAS-PLAYER-WHITMORE_CAM
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WHITMORE_CAM
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-WAS
-  - type: Player
-    code: BKT-NBA-PLAYER-YOUNG_TRAE
-    attributes:
-      first_name: Trae
-      last_name: Young
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-WAS-PLAYER-YOUNG_TRAE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-YOUNG_TRAE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-WAS
-  - type: Player
-    code: BKT-NBA-PLAYER-RUSSELL_D_ANGELO
-    attributes:
-      first_name: D'Angelo
-      last_name: Russell
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-WAS-PLAYER-RUSSELL_D_ANGELO
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-RUSSELL_D_ANGELO
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-WAS
-  - type: Player
-    code: BKT-NBA-PLAYER-WATKINS_JAMIR
-    attributes:
-      first_name: Jamir
-      last_name: Watkins
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-WAS-PLAYER-WATKINS_JAMIR
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-WATKINS_JAMIR
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-WAS
-  - type: Player
-    code: BKT-NBA-PLAYER-CARRINGTON_BUB
-    attributes:
-      first_name: Bub
-      last_name: Carrington
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-WAS-PLAYER-CARRINGTON_BUB
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-CARRINGTON_BUB
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-WAS
-  - type: Player
-    code: BKT-NBA-PLAYER-HARDY_JADEN
-    attributes:
-      first_name: Jaden
-      last_name: Hardy
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-WAS-PLAYER-HARDY_JADEN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-HARDY_JADEN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-WAS
-  - type: Player
-    code: BKT-NBA-PLAYER-CHAMPAGNIE_JUSTIN
-    attributes:
-      first_name: Justin
-      last_name: Champagnie
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-WAS-PLAYER-CHAMPAGNIE_JUSTIN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-CHAMPAGNIE_JUSTIN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-WAS
-  - type: Player
-    code: BKT-NBA-PLAYER-JOHNSON_TRE
-    attributes:
-      first_name: Tre
-      last_name: Johnson
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-WAS-PLAYER-JOHNSON_TRE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-JOHNSON_TRE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-WAS
-  - type: Player
-    code: BKT-NBA-PLAYER-BLACK_LEAKY
-    attributes:
-      first_name: Leaky
-      last_name: Black
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-WAS-PLAYER-BLACK_LEAKY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-BLACK_LEAKY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-WAS
-  - type: Player
-    code: BKT-NBA-PLAYER-COOPER_SHARIFE
-    attributes:
-      first_name: Sharife
-      last_name: Cooper
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-WAS-PLAYER-COOPER_SHARIFE
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-COOPER_SHARIFE
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-WAS
-  - type: Player
-    code: BKT-NBA-PLAYER-GILL_ANTHONY
-    attributes:
-      first_name: Anthony
-      last_name: Gill
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-WAS-PLAYER-GILL_ANTHONY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-GILL_ANTHONY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-WAS
-  - type: Player
-    code: BKT-NBA-PLAYER-GEORGE_KYSHAWN
-    attributes:
-      first_name: Kyshawn
-      last_name: George
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-WAS-PLAYER-GEORGE_KYSHAWN
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-GEORGE_KYSHAWN
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-WAS
-  - type: Player
-    code: BKT-NBA-PLAYER-SARR_ALEX
-    attributes:
-      first_name: Alex
-      last_name: Sarr
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-WAS-PLAYER-SARR_ALEX
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-SARR_ALEX
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-WAS
-  - type: Player
-    code: BKT-NBA-PLAYER-DAVIS_ANTHONY
-    attributes:
-      first_name: Anthony
-      last_name: Davis
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-WAS-PLAYER-DAVIS_ANTHONY
     attributes: {}
     references:
       player: BKT-NBA-PLAYER-DAVIS_ANTHONY
       campaign: BKT-NBA-SEASON_2025_2026-TEAM-WAS
-  - type: Player
-    code: BKT-NBA-PLAYER-RILEY_WILL
-    attributes:
-      first_name: Will
-      last_name: Riley
-    references:
-      sport: SPORT-BKT
   - type: Activation
     code: BKT-NBA-SEASON_2025_2026-TEAM-WAS-PLAYER-RILEY_WILL
     attributes: {}

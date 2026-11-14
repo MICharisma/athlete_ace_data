@@ -1,0 +1,156 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-PANZINI_GIOACCHINO
+  aliases:
+  - BKT-ESPN-PLAYER_5241716
+  attributes:
+    first_name: Gioacchino
+    last_name: Panzini
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5241716.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/172/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-PARAGON_LUKE
+  aliases:
+  - BKT-ESPN-PLAYER_5175854
+  attributes:
+    first_name: Luke
+    last_name: Paragon
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5175854.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/225/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-PARRISH_KENAN
+  aliases:
+  - BKT-ESPN-PLAYER_5241726
+  attributes:
+    first_name: Kenan
+    last_name: Parrish
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5241726.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/108/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-PEREIRA_MICHAEL
+  aliases:
+  - BKT-ESPN-PLAYER_5459463
+  attributes:
+    first_name: Michael
+    last_name: Pereira
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5459463.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/219/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-PITTS_PAYTON
+  aliases:
+  - BKT-ESPN-PLAYER_5175956
+  attributes:
+    first_name: Payton
+    last_name: Pitts
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5175956.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/108/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-POLLACK_JAKE
+  aliases:
+  - BKT-ESPN-PLAYER_5460682
+  attributes:
+    first_name: Jake
+    last_name: Pollack
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/159/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-POLONOWSKI_NIKLAS
+  aliases:
+  - BKT-ESPN-PLAYER_5182416
+  attributes:
+    first_name: Niklas
+    last_name: Polonowski
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5182416.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/219/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-POWER_TJ
+  aliases:
+  - BKT-ESPN-PLAYER_4684843
+  attributes:
+    first_name: TJ
+    last_name: Power
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/4684843.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/219/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-PRATT_JOSH
+  aliases:
+  - BKT-ESPN-PLAYER_5458785
+  attributes:
+    first_name: Josh
+    last_name: Pratt
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5458785.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/171/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.

@@ -1,0 +1,780 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: BKT-NBA-PLAYER-PAUL_CHRIS
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_PAULCH01
+  attributes:
+    first_name: Chris
+    last_name: Paul
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://www.basketball-reference.com/leagues/NBA_2024_per_game.html
+    captured_on: '2026-10-26'
+    note: Complete regular-season and playoff appearance union by team, retaining
+      trade-side memberships. Excludes roster members with no recorded appearances
+      and does not establish jersey-number periods.
+- type: Player
+  code: BKT-NBA-PLAYER-PAYNE_CAMERON
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_PAYNECA01
+  attributes:
+    first_name: Cameron
+    last_name: Payne
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://www.basketball-reference.com/leagues/NBA_2024_per_game.html
+    captured_on: '2026-10-26'
+    note: Complete regular-season and playoff appearance union by team, retaining
+      trade-side memberships. Excludes roster members with no recorded appearances
+      and does not establish jersey-number periods.
+- type: Player
+  code: BKT-NBA-PLAYER-PAYTON_ELFRID
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_PAYTOEL01
+  attributes:
+    first_name: Elfrid
+    last_name: Payton
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://www.basketball-reference.com/leagues/NBA_2025_per_game.html
+    captured_on: '2026-10-26'
+    note: Complete regular-season and playoff appearance union by team, retaining
+      trade-side memberships. Excludes roster members with no recorded appearances
+      and does not establish jersey-number periods.
+- type: Player
+  code: BKT-NBA-PLAYER-PAYTON_II_GARY
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_PAYTOGA02
+  - BKT-ESPN-PLAYER_3134903
+  attributes:
+    first_name: Gary
+    last_name: Payton II
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/golden-state-warriors/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Player
+  code: BKT-NBA-PLAYER-PEAT_KOA
+  aliases:
+  - BKT-ESPN-PLAYER_5041953
+  attributes:
+    first_name: Koa
+    last_name: Peat
+    birthdate: '2007-01-20'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nba/players/full/5041953.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/21/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: BKT-NBA-PLAYER-PEAVY_MICAH
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_PEAVYMI01
+  - BKT-ESPN-PLAYER_4432185
+  attributes:
+    first_name: Micah
+    last_name: Peavy
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/new-orleans-pelicans/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-PEDULLA_SEAN
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_PEDULSE01
+  - BKT-ESPN-PLAYER_4709131
+  attributes:
+    first_name: Sean
+    last_name: Pedulla
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/los-angeles-clippers/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Player
+  code: BKT-NBA-PLAYER-PENDA_NOAH
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_PENDANO01
+  - BKT-ESPN-PLAYER_5214637
+  attributes:
+    first_name: Noah
+    last_name: Penda
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/orlando-magic/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-PEREIRA_MAOZINHA
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_PEREIMA01
+  attributes:
+    first_name: Mãozinha
+    last_name: Pereira
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://www.basketball-reference.com/leagues/NBA_2024_per_game.html
+    captured_on: '2026-10-26'
+    note: Complete regular-season and playoff appearance union by team, retaining
+      trade-side memberships. Excludes roster members with no recorded appearances
+      and does not establish jersey-number periods.
+- type: Player
+  code: BKT-NBA-PLAYER-PETERSON_DARRYN
+  aliases:
+  - BKT-ESPN-PLAYER_5041955
+  attributes:
+    first_name: Darryn
+    last_name: Peterson
+    birthdate: '2007-01-17'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nba/players/full/5041955.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/26/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: BKT-NBA-PLAYER-PETERSON_DREW
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_PETERDR01
+  attributes:
+    first_name: Drew
+    last_name: Peterson
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://www.basketball-reference.com/leagues/NBA_2024_per_game.html
+    captured_on: '2026-10-26'
+    note: Complete regular-season and playoff appearance union by team, retaining
+      trade-side memberships. Excludes roster members with no recorded appearances
+      and does not establish jersey-number periods.
+- type: Player
+  code: BKT-NBA-PLAYER-PETER_TAELON
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_PETERTA01
+  attributes:
+    first_name: Taelon
+    last_name: Peter
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/indiana-pacers/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-PETRUSEV_FILIP
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_PETRUFI01
+  attributes:
+    first_name: Filip
+    last_name: Petrušev
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://www.basketball-reference.com/leagues/NBA_2024_per_game.html
+    captured_on: '2026-10-26'
+    note: Complete regular-season and playoff appearance union by team, retaining
+      trade-side memberships. Excludes roster members with no recorded appearances
+      and does not establish jersey-number periods.
+- type: Player
+  code: BKT-NBA-PLAYER-PHILLIPS_JULIAN
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_PHILLJU01
+  - BKT-ESPN-PLAYER_5105553
+  attributes:
+    first_name: Julian
+    last_name: Phillips
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/minnesota-timberwolves/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-PHILON_JR_LABARON
+  aliases:
+  - BKT-ESPN-PLAYER_4873090
+  attributes:
+    first_name: Labaron
+    last_name: Philon Jr.
+    birthdate: '2005-11-24'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nba/players/full/4873090.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/20/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: BKT-NBA-PLAYER-PICKETT_JALEN
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_PICKEJA02
+  - BKT-ESPN-PLAYER_4398390
+  attributes:
+    first_name: Jalen
+    last_name: Pickett
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/denver-nuggets/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-PIERRE_JR_JARON
+  aliases:
+  - BKT-ESPN-PLAYER_4703115
+  attributes:
+    first_name: Jaron
+    last_name: Pierre Jr.
+    birthdate: '2002-07-12'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nba/players/full/4703115.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/3/roster?season=2027
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: BKT-NBA-PLAYER-PIPPEN_JR_SCOTTY
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_PIPPESC02
+  - BKT-ESPN-PLAYER_4431785
+  attributes:
+    first_name: Scotty
+    last_name: Pippen Jr.
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/memphis-grizzlies/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-PLOWDEN_DAEQWON
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_PLOWDDA01
+  - BKT-ESPN-PLAYER_4279318
+  attributes:
+    first_name: Daeqwon
+    last_name: Plowden
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/sacramento-kings/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-PLUMLEE_MASON
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_PLUMLMA01
+  attributes:
+    first_name: Mason
+    last_name: Plumlee
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/san-antonio-spurs/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-PODZIEMSKI_BRANDIN
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_PODZIBR01
+  - BKT-ESPN-PLAYER_4709138
+  attributes:
+    first_name: Brandin
+    last_name: Podziemski
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/golden-state-warriors/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Player
+  code: BKT-NBA-PLAYER-POELTL_JAKOB
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_POELTJA01
+  - BKT-ESPN-PLAYER_3134908
+  attributes:
+    first_name: Jakob
+    last_name: Poeltl
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/toronto-raptors/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-POKUSEVSKI_ALEKSEJ
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_POKUSAL01
+  attributes:
+    first_name: Aleksej
+    last_name: Pokusevski
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://www.basketball-reference.com/leagues/NBA_2024_per_game.html
+    captured_on: '2026-10-26'
+    note: Complete regular-season and playoff appearance union by team, retaining
+      trade-side memberships. Excludes roster members with no recorded appearances
+      and does not establish jersey-number periods.
+- type: Player
+  code: BKT-NBA-PLAYER-POOLE_JORDAN
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_POOLEJO01
+  - BKT-ESPN-PLAYER_4277956
+  attributes:
+    first_name: Jordan
+    last_name: Poole
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/new-orleans-pelicans/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-PORTER_JONTAY
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_PORTEJO01
+  attributes:
+    first_name: Jontay
+    last_name: Porter
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://www.basketball-reference.com/leagues/NBA_2024_per_game.html
+    captured_on: '2026-10-26'
+    note: Complete regular-season and playoff appearance union by team, retaining
+      trade-side memberships. Excludes roster members with no recorded appearances
+      and does not establish jersey-number periods.
+- type: Player
+  code: BKT-NBA-PLAYER-PORTER_JR_CRAIG
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_PORTECR01
+  - BKT-ESPN-PLAYER_4701233
+  attributes:
+    first_name: Craig
+    last_name: Porter Jr.
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/cleveland-cavaliers/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-PORTER_JR_KEVIN
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_PORTEKE02
+  attributes:
+    first_name: Kevin
+    last_name: Porter Jr.
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/milwaukee-bucks/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-PORTER_JR_MICHAEL
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_PORTEMI01
+  - BKT-ESPN-PLAYER_4278104
+  attributes:
+    first_name: Michael
+    last_name: Porter Jr.
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/brooklyn-nets/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-PORTER_JR_OTTO
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_PORTEOT01
+  attributes:
+    first_name: Otto
+    last_name: Porter Jr.
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://www.basketball-reference.com/leagues/NBA_2024_per_game.html
+    captured_on: '2026-10-26'
+    note: Complete regular-season and playoff appearance union by team, retaining
+      trade-side memberships. Excludes roster members with no recorded appearances
+      and does not establish jersey-number periods.
+- type: Player
+  code: BKT-NBA-PLAYER-PORTIS_BOBBY
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_PORTIBO01
+  - BKT-ESPN-PLAYER_3064482
+  attributes:
+    first_name: Bobby
+    last_name: Portis
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/milwaukee-bucks/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-PORZINGIS_KRISTAPS
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_PORZIKR01
+  - BKT-ESPN-PLAYER_3102531
+  attributes:
+    first_name: Kristaps
+    last_name: Porziņģis
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/golden-state-warriors/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-POST_QUINTEN
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_POSTQU01
+  - BKT-ESPN-PLAYER_4593016
+  attributes:
+    first_name: Quinten
+    last_name: Post
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/golden-state-warriors/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-POTTER_MICAH
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_POTTEMI01
+  - BKT-ESPN-PLAYER_4066399
+  attributes:
+    first_name: Micah
+    last_name: Potter
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/indiana-pacers/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-POULAKIDAS_JOHN
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_POULAJO01
+  attributes:
+    first_name: John
+    last_name: Poulakidas
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/dallas-mavericks/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Player
+  code: BKT-NBA-PLAYER-POWELL_DRAKE
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_POWELDR01
+  - BKT-ESPN-PLAYER_5037873
+  attributes:
+    first_name: Drake
+    last_name: Powell
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/brooklyn-nets/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-POWELL_DWIGHT
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_POWELDW01
+  attributes:
+    first_name: Dwight
+    last_name: Powell
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/dallas-mavericks/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-POWELL_NORMAN
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_POWELNO01
+  - BKT-ESPN-PLAYER_2595516
+  attributes:
+    first_name: Norman
+    last_name: Powell
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/miami-heat/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-PRESTON_JASON
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_PRESTJA01
+  attributes:
+    first_name: Jason
+    last_name: Preston
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://www.basketball-reference.com/leagues/NBA_2024_per_game.html
+    captured_on: '2026-10-26'
+    note: Complete regular-season and playoff appearance union by team, retaining
+      trade-side memberships. Excludes roster members with no recorded appearances
+      and does not establish jersey-number periods.
+- type: Player
+  code: BKT-NBA-PLAYER-PRIMO_JOSHUA
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_PRIMOJO01
+  attributes:
+    first_name: Joshua
+    last_name: Primo
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://www.basketball-reference.com/leagues/NBA_2024_per_game.html
+    captured_on: '2026-10-26'
+    note: Complete regular-season and playoff appearance union by team, retaining
+      trade-side memberships. Excludes roster members with no recorded appearances
+      and does not establish jersey-number periods.
+- type: Player
+  code: BKT-NBA-PLAYER-PRINCE_TAUREAN
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_PRINCTA02
+  - BKT-ESPN-PLAYER_2990962
+  attributes:
+    first_name: Taurean
+    last_name: Prince
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/milwaukee-bucks/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-PRITCHARD_PAYTON
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_PRITCPA01
+  - BKT-ESPN-PLAYER_4066354
+  attributes:
+    first_name: Payton
+    last_name: Pritchard
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/boston-celtics/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-PROCTOR_TYRESE
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_PROCTTY01
+  - BKT-ESPN-PLAYER_5023693
+  attributes:
+    first_name: Tyrese
+    last_name: Proctor
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/cleveland-cavaliers/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-PROSPER_OLIVIER_MAXENCE
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_PROSPOL01
+  - BKT-ESPN-PLAYER_4595400
+  attributes:
+    first_name: Olivier-Maxence
+    last_name: Prosper
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/memphis-grizzlies/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.
+- type: Player
+  code: BKT-NBA-PLAYER-PULLIN_ZYON
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_PULLIZY01
+  - BKT-ESPN-PLAYER_4592979
+  attributes:
+    first_name: Zyon
+    last_name: Pullin
+  references:
+    sport: SPORT-BKT
+  scope:
+    sport: SPORT-BKT
+  source:
+    url: https://pdfroster.nba.com/minnesota-timberwolves/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Every source-listed
+      player is selected. Additional definitions supplement the existing catalog;
+      existing rows are not replaced.

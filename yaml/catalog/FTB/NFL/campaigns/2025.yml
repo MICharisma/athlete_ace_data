@@ -1,0 +1,645 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Campaign
+  code: FTB-NFL-SEASON_2025-TEAM-ARI
+  attributes:
+    display_name: Arizona Cardinals
+    abbreviation: ARI
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 113
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: FTB-NFL-TEAM-ARI
+    league: FTB-LEAGUE-NFL
+    year: YEAR-2025
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/arizona-cardinals
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Campaign
+  code: FTB-NFL-SEASON_2025-TEAM-ATL
+  attributes:
+    display_name: Atlanta Falcons
+    abbreviation: ATL
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 97
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: FTB-NFL-TEAM-ATL
+    league: FTB-LEAGUE-NFL
+    year: YEAR-2025
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/atlanta-falcons
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Campaign
+  code: FTB-NFL-SEASON_2025-TEAM-BAL
+  attributes:
+    display_name: Baltimore Ravens
+    abbreviation: BAL
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 92
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: FTB-NFL-TEAM-BAL
+    league: FTB-LEAGUE-NFL
+    year: YEAR-2025
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/baltimore-ravens
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Campaign
+  code: FTB-NFL-SEASON_2025-TEAM-BUF
+  attributes:
+    display_name: Buffalo Bills
+    abbreviation: BUF
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 98
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: FTB-NFL-TEAM-BUF
+    league: FTB-LEAGUE-NFL
+    year: YEAR-2025
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/buffalo-bills
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Campaign
+  code: FTB-NFL-SEASON_2025-TEAM-CAR
+  attributes:
+    display_name: Carolina Panthers
+    abbreviation: CAR
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 94
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: FTB-NFL-TEAM-CAR
+    league: FTB-LEAGUE-NFL
+    year: YEAR-2025
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/carolina-panthers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Campaign
+  code: FTB-NFL-SEASON_2025-TEAM-CHI
+  attributes:
+    display_name: Chicago Bears
+    abbreviation: CHI
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 90
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: FTB-NFL-TEAM-CHI
+    league: FTB-LEAGUE-NFL
+    year: YEAR-2025
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/chicago-bears
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Campaign
+  code: FTB-NFL-SEASON_2025-TEAM-CIN
+  attributes:
+    display_name: Cincinnati Bengals
+    abbreviation: CIN
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 87
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: FTB-NFL-TEAM-CIN
+    league: FTB-LEAGUE-NFL
+    year: YEAR-2025
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/cincinnati-bengals
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Campaign
+  code: FTB-NFL-SEASON_2025-TEAM-CLE
+  attributes:
+    display_name: Cleveland Browns
+    abbreviation: CLE
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 107
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: FTB-NFL-TEAM-CLE
+    league: FTB-LEAGUE-NFL
+    year: YEAR-2025
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/cleveland-browns
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Campaign
+  code: FTB-NFL-SEASON_2025-TEAM-DAL
+  attributes:
+    display_name: Dallas Cowboys
+    abbreviation: DAL
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 90
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: FTB-NFL-TEAM-DAL
+    league: FTB-LEAGUE-NFL
+    year: YEAR-2025
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/dallas-cowboys
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Campaign
+  code: FTB-NFL-SEASON_2025-TEAM-DEN
+  attributes:
+    display_name: Denver Broncos
+    abbreviation: DEN
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 95
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: FTB-NFL-TEAM-DEN
+    league: FTB-LEAGUE-NFL
+    year: YEAR-2025
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/denver-broncos
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Campaign
+  code: FTB-NFL-SEASON_2025-TEAM-DET
+  attributes:
+    display_name: Detroit Lions
+    abbreviation: DET
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 105
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: FTB-NFL-TEAM-DET
+    league: FTB-LEAGUE-NFL
+    year: YEAR-2025
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/detroit-lions
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Campaign
+  code: FTB-NFL-SEASON_2025-TEAM-GB
+  attributes:
+    display_name: Green Bay Packers
+    abbreviation: GB
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 96
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: FTB-NFL-TEAM-GB
+    league: FTB-LEAGUE-NFL
+    year: YEAR-2025
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/green-bay-packers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Campaign
+  code: FTB-NFL-SEASON_2025-TEAM-HOU
+  attributes:
+    display_name: Houston Texans
+    abbreviation: HOU
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 102
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: FTB-NFL-TEAM-HOU
+    league: FTB-LEAGUE-NFL
+    year: YEAR-2025
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/houston-texans
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Campaign
+  code: FTB-NFL-SEASON_2025-TEAM-IND
+  attributes:
+    display_name: Indianapolis Colts
+    abbreviation: IND
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 105
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: FTB-NFL-TEAM-IND
+    league: FTB-LEAGUE-NFL
+    year: YEAR-2025
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/indianapolis-colts
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Campaign
+  code: FTB-NFL-SEASON_2025-TEAM-JAX
+  attributes:
+    display_name: Jacksonville Jaguars
+    abbreviation: JAX
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 86
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: FTB-NFL-TEAM-JAX
+    league: FTB-LEAGUE-NFL
+    year: YEAR-2025
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/jacksonville-jaguars
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Campaign
+  code: FTB-NFL-SEASON_2025-TEAM-KC
+  attributes:
+    display_name: Kansas City Chiefs
+    abbreviation: KC
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 90
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: FTB-NFL-TEAM-KC
+    league: FTB-LEAGUE-NFL
+    year: YEAR-2025
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/kansas-city-chiefs
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Campaign
+  code: FTB-NFL-SEASON_2025-TEAM-LAC
+  attributes:
+    display_name: Los Angeles Chargers
+    abbreviation: LAC
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 99
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: FTB-NFL-TEAM-LAC
+    league: FTB-LEAGUE-NFL
+    year: YEAR-2025
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/los-angeles-chargers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Campaign
+  code: FTB-NFL-SEASON_2025-TEAM-LAR
+  attributes:
+    display_name: Los Angeles Rams
+    abbreviation: LAR
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 83
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: FTB-NFL-TEAM-LAR
+    league: FTB-LEAGUE-NFL
+    year: YEAR-2025
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/los-angeles-rams
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Campaign
+  code: FTB-NFL-SEASON_2025-TEAM-MIA
+  attributes:
+    display_name: Miami Dolphins
+    abbreviation: MIA
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 99
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: FTB-NFL-TEAM-MIA
+    league: FTB-LEAGUE-NFL
+    year: YEAR-2025
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/miami-dolphins
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Campaign
+  code: FTB-NFL-SEASON_2025-TEAM-MIN
+  attributes:
+    display_name: Minnesota Vikings
+    abbreviation: MIN
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 91
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: FTB-NFL-TEAM-MIN
+    league: FTB-LEAGUE-NFL
+    year: YEAR-2025
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/minnesota-vikings
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Campaign
+  code: FTB-NFL-SEASON_2025-TEAM-NE
+  attributes:
+    display_name: New England Patriots
+    abbreviation: NE
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 108
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: FTB-NFL-TEAM-NE
+    league: FTB-LEAGUE-NFL
+    year: YEAR-2025
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/new-england-patriots
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Campaign
+  code: FTB-NFL-SEASON_2025-TEAM-NO
+  attributes:
+    display_name: New Orleans Saints
+    abbreviation: 'NO'
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 96
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: FTB-NFL-TEAM-NO
+    league: FTB-LEAGUE-NFL
+    year: YEAR-2025
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/new-orleans-saints
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Campaign
+  code: FTB-NFL-SEASON_2025-TEAM-NYG
+  attributes:
+    display_name: New York Giants
+    abbreviation: NYG
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 102
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: FTB-NFL-TEAM-NYG
+    league: FTB-LEAGUE-NFL
+    year: YEAR-2025
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/new-york-giants
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Campaign
+  code: FTB-NFL-SEASON_2025-TEAM-NYJ
+  attributes:
+    display_name: New York Jets
+    abbreviation: NYJ
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 106
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: FTB-NFL-TEAM-NYJ
+    league: FTB-LEAGUE-NFL
+    year: YEAR-2025
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/new-york-jets
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Campaign
+  code: FTB-NFL-SEASON_2025-TEAM-PHI
+  attributes:
+    display_name: Philadelphia Eagles
+    abbreviation: PHI
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 92
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: FTB-NFL-TEAM-PHI
+    league: FTB-LEAGUE-NFL
+    year: YEAR-2025
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/philadelphia-eagles
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Campaign
+  code: FTB-NFL-SEASON_2025-TEAM-PIT
+  attributes:
+    display_name: Pittsburgh Steelers
+    abbreviation: PIT
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 109
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: FTB-NFL-TEAM-PIT
+    league: FTB-LEAGUE-NFL
+    year: YEAR-2025
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/pittsburgh-steelers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Campaign
+  code: FTB-NFL-SEASON_2025-TEAM-RAIDERS
+  attributes:
+    display_name: Las Vegas Raiders
+    abbreviation: LV
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 88
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: FTB-NFL-TEAM-RAIDERS
+    league: FTB-LEAGUE-NFL
+    year: YEAR-2025
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/las-vegas-raiders
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Campaign
+  code: FTB-NFL-SEASON_2025-TEAM-SEA
+  attributes:
+    display_name: Seattle Seahawks
+    abbreviation: SEA
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 94
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: FTB-NFL-TEAM-SEA
+    league: FTB-LEAGUE-NFL
+    year: YEAR-2025
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/seattle-seahawks
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Campaign
+  code: FTB-NFL-SEASON_2025-TEAM-SF
+  attributes:
+    display_name: San Francisco 49ers
+    abbreviation: SF
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 101
+      selected_player_count: 101
+  references: {}
+  scope:
+    team: FTB-NFL-TEAM-SF
+    league: FTB-LEAGUE-NFL
+    year: YEAR-2025
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/san-francisco-49ers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Every
+      source-listed player is selected.
+- type: Campaign
+  code: FTB-NFL-SEASON_2025-TEAM-TB
+  attributes:
+    display_name: Tampa Bay Buccaneers
+    abbreviation: TB
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 90
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: FTB-NFL-TEAM-TB
+    league: FTB-LEAGUE-NFL
+    year: YEAR-2025
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/tampa-bay-buccaneers
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Campaign
+  code: FTB-NFL-SEASON_2025-TEAM-TEN
+  attributes:
+    display_name: Tennessee Titans
+    abbreviation: TEN
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 101
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: FTB-NFL-TEAM-TEN
+    league: FTB-LEAGUE-NFL
+    year: YEAR-2025
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/tennessee-titans
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.
+- type: Campaign
+  code: FTB-NFL-SEASON_2025-TEAM-WAS
+  attributes:
+    display_name: Washington Commanders
+    abbreviation: WAS
+    details:
+      roster_coverage: two_player_sample
+      source_player_count: 96
+      selected_player_count: 2
+  references: {}
+  scope:
+    team: FTB-NFL-TEAM-WAS
+    league: FTB-LEAGUE-NFL
+    year: YEAR-2025
+  source:
+    url: https://www.nfl.com/sitemap/html/rosters/2025/washington-commanders
+    captured_on: '2026-10-05'
+    note: All names on NFL.com's 2025 roster sitemap, including its reserve/offseason
+      listings where present; no active-game status or appearances are asserted. Only
+      the first two source-listed players are selected.

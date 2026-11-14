@@ -1,0 +1,500 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: SOC-EPL-PLAYER-CAICEDO_MOISES
+  aliases:
+  - SOC-ESPN-PLAYER_289877
+  attributes:
+    first_name: Moisés
+    last_name: Caicedo
+    birthdate: '2001-11-02'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/363/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-CAIRNEY_TOM
+  aliases:
+  - SOC-ESPN-PLAYER_140033
+  attributes:
+    first_name: Tom
+    last_name: Cairney
+    birthdate: '1991-01-20'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/370/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-CAIRNS_ALEX
+  aliases:
+  - SOC-ESPN-PLAYER_164148
+  attributes:
+    first_name: Alex
+    last_name: Cairns
+    birthdate: '1993-01-04'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/357/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-CALAFIORI_RICCARDO
+  aliases:
+  - SOC-ESPN-PLAYER_298329
+  attributes:
+    first_name: Riccardo
+    last_name: Calafiori
+  references:
+    sport: SPORT-SOC
+  scope:
+    sport: SPORT-SOC
+  source:
+    url: https://www.premierleague.com/en/news/4407896
+    captured_on: '2026-10-05'
+    note: Registered senior squad after the summer 2025 window; excludes the separate
+      U21 list. Only the first two source-listed players are selected.
+- type: Player
+  code: SOC-EPL-PLAYER-CALVERT_LEWIN_DOMINIC
+  aliases:
+  - SOC-ESPN-PLAYER_197717
+  attributes:
+    first_name: Dominic
+    last_name: Calvert-Lewin
+    birthdate: '1997-03-16'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/357/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-CANVOT_JAYDEE
+  aliases:
+  - SOC-ESPN-PLAYER_386252
+  attributes:
+    first_name: Jaydee
+    last_name: Canvot
+    birthdate: '2006-07-29'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/384/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-CARVALHO_FABIO
+  aliases:
+  - SOC-ESPN-PLAYER_231049
+  attributes:
+    first_name: Fábio
+    last_name: Carvalho
+    birthdate: '2002-08-30'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/337/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-CASH_MATTY
+  aliases:
+  - SOC-ESPN-PLAYER_234698
+  attributes:
+    first_name: Matty
+    last_name: Cash
+    birthdate: '1997-08-07'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/362/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-CASTAGNE_TIMOTHY
+  aliases:
+  - SOC-ESPN-PLAYER_197163
+  attributes:
+    first_name: Timothy
+    last_name: Castagne
+    birthdate: '1995-12-05'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/370/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-CHABOT_MAX_EDGAR
+  aliases:
+  - SOC-ESPN-PLAYER_413855
+  attributes:
+    first_name: Max-Edgar
+    last_name: Chabot
+    birthdate: '2008-04-01'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/382/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-CHADWICK_RHYS
+  aliases:
+  - SOC-ESPN-PLAYER_407584
+  attributes:
+    first_name: Rhys
+    last_name: Chadwick
+    birthdate: '2007-02-19'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/357/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-CHAMBERS_LUKE
+  aliases:
+  - SOC-ESPN-PLAYER_32572
+  attributes:
+    first_name: Luke
+    last_name: Chambers
+    birthdate: '2004-06-24'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/364/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-CHARLES_SHEA
+  aliases:
+  - SOC-ESPN-PLAYER_324164
+  attributes:
+    first_name: Shea
+    last_name: Charles
+    birthdate: '2003-11-05'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/370/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-CHAVARRIA_PEP
+  aliases:
+  - SOC-ESPN-PLAYER_300331
+  attributes:
+    first_name: Pep
+    last_name: Chavarría
+    birthdate: '1998-04-10'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/363/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-CHERIF_SIDIKI
+  aliases:
+  - SOC-ESPN-PLAYER_366817
+  attributes:
+    first_name: Sidiki
+    last_name: Cherif
+    birthdate: '2006-12-15'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/388/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-CHERKI_RAYAN
+  aliases:
+  - SOC-ESPN-PLAYER_298008
+  attributes:
+    first_name: Rayan
+    last_name: Cherki
+    birthdate: '2003-08-17'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/382/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-CHIESA_FEDERICO
+  aliases:
+  - SOC-ESPN-PLAYER_234306
+  attributes:
+    first_name: Federico
+    last_name: Chiesa
+    birthdate: '1997-10-25'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/364/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-CHILWELL_BEN
+  aliases:
+  - SOC-ESPN-PLAYER_225426
+  attributes:
+    first_name: Ben
+    last_name: Chilwell
+    birthdate: '1996-12-21'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/384/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-CHO_MOHAMED_ALI
+  aliases:
+  - SOC-ESPN-PLAYER_306557
+  attributes:
+    first_name: Mohamed-Ali
+    last_name: Cho
+    birthdate: '2004-01-19'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/306/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-CHRISTIE_RYAN
+  aliases:
+  - SOC-ESPN-PLAYER_93435
+  attributes:
+    first_name: Ryan
+    last_name: Christie
+    birthdate: '1995-02-22'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/349/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-CISSE_MODOU
+  aliases:
+  - SOC-ESPN-PLAYER_392682
+  attributes:
+    first_name: Modou
+    last_name: Cissé
+    birthdate: '2005-08-04'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/362/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-CLARKE_JACK
+  aliases:
+  - SOC-ESPN-PLAYER_269343
+  attributes:
+    first_name: Jack
+    last_name: Clarke
+    birthdate: '2000-11-23'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/373/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-COLLINS_NATHAN
+  aliases:
+  - SOC-ESPN-PLAYER_279780
+  attributes:
+    first_name: Nathan
+    last_name: Collins
+    birthdate: '2001-04-30'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/337/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-COLWILL_LEVI
+  aliases:
+  - SOC-ESPN-PLAYER_296410
+  attributes:
+    first_name: Levi
+    last_name: Colwill
+    birthdate: '2003-02-26'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/363/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-COMPTON_MATTHEW_CHARLES
+  aliases:
+  - SOC-ESPN-PLAYER_3132863
+  attributes:
+    first_name: Matthew Charles
+    last_name: Compton
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/373/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-COOK_LEWIS
+  aliases:
+  - SOC-ESPN-PLAYER_223452
+  attributes:
+    first_name: Lewis
+    last_name: Cook
+    birthdate: '1997-02-03'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/349/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-COSTINHA
+  aliases:
+  - SOC-ESPN-PLAYER_274285
+  attributes:
+    first_name: Costinha
+    last_name: ''
+    birthdate: '2000-03-26'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/331/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-COYLE_LEWIE
+  aliases:
+  - SOC-ESPN-PLAYER_231826
+  attributes:
+    first_name: Lewie
+    last_name: Coyle
+    birthdate: '1995-10-15'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/306/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-CRESSWELL_ALFIE
+  aliases:
+  - SOC-ESPN-PLAYER_408489
+  attributes:
+    first_name: Alfie
+    last_name: Cresswell
+    birthdate: '2007-07-15'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/357/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-CROOKS_MATT
+  aliases:
+  - SOC-ESPN-PLAYER_153613
+  attributes:
+    first_name: Matt
+    last_name: Crooks
+    birthdate: '1994-01-20'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/306/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-CUENCA_JORGE
+  aliases:
+  - SOC-ESPN-PLAYER_252031
+  attributes:
+    first_name: Jorge
+    last_name: Cuenca
+    birthdate: '1999-11-17'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/370/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-CUNHA_JAIR
+  aliases:
+  - SOC-ESPN-PLAYER_338876
+  attributes:
+    first_name: Jair
+    last_name: Cunha
+    birthdate: '2005-03-07'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/393/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-EPL-PLAYER-CUNHA_MATHEUS
+  aliases:
+  - SOC-ESPN-PLAYER_259902
+  attributes:
+    first_name: Matheus
+    last_name: Cunha
+    birthdate: '1999-05-27'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/360/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.

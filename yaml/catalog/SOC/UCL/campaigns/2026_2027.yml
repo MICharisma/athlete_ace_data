@@ -1,0 +1,653 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-ARS
+  attributes:
+    display_name: Arsenal
+    abbreviation: ARS
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 29
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-EPL-TEAM-ARS
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/359/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-AVL
+  attributes:
+    display_name: Aston Villa
+    abbreviation: AVL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 29
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-EPL-TEAM-AVL
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/362/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-LIV
+  attributes:
+    display_name: Liverpool
+    abbreviation: LIV
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 34
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-EPL-TEAM-LIV
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/364/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-MCI
+  attributes:
+    display_name: Manchester City
+    abbreviation: MNC
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 27
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-EPL-TEAM-MCI
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/382/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-MUN
+  attributes:
+    display_name: Manchester United
+    abbreviation: MAN
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 33
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-EPL-TEAM-MUN
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/360/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-SOC-CLUB-ESPN_102
+  attributes:
+    display_name: Villarreal
+    abbreviation: VIL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 28
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-CLUB-ESPN_102
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/102/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-SOC-CLUB-ESPN_104
+  attributes:
+    display_name: AS Roma
+    abbreviation: ROMA
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 28
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-CLUB-ESPN_104
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/104/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-SOC-CLUB-ESPN_1068
+  attributes:
+    display_name: Atlético Madrid
+    abbreviation: ATM
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 29
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-CLUB-ESPN_1068
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/1068/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-SOC-CLUB-ESPN_110
+  attributes:
+    display_name: Internazionale
+    abbreviation: INT
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 31
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-CLUB-ESPN_110
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/110/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-SOC-CLUB-ESPN_114
+  attributes:
+    display_name: Napoli
+    abbreviation: NAP
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 28
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-CLUB-ESPN_114
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/114/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-SOC-CLUB-ESPN_11420
+  attributes:
+    display_name: RB Leipzig
+    abbreviation: RBL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 29
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-CLUB-ESPN_11420
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/11420/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-SOC-CLUB-ESPN_124
+  attributes:
+    display_name: Borussia Dortmund
+    abbreviation: DOR
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 32
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-CLUB-ESPN_124
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/124/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-SOC-CLUB-ESPN_132
+  attributes:
+    display_name: Bayern Munich
+    abbreviation: MUN
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 29
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-CLUB-ESPN_132
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/132/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-SOC-CLUB-ESPN_134
+  attributes:
+    display_name: VfB Stuttgart
+    abbreviation: VFB
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 58
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-CLUB-ESPN_134
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/134/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-SOC-CLUB-ESPN_142
+  attributes:
+    display_name: Feyenoord Rotterdam
+    abbreviation: FEY
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 33
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-CLUB-ESPN_142
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/142/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-SOC-CLUB-ESPN_148
+  attributes:
+    display_name: PSV Eindhoven
+    abbreviation: PSV
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 31
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-CLUB-ESPN_148
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/148/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-SOC-CLUB-ESPN_160
+  attributes:
+    display_name: Paris Saint-Germain
+    abbreviation: PSG
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 26
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-CLUB-ESPN_160
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/160/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-SOC-CLUB-ESPN_166
+  attributes:
+    display_name: Lille
+    abbreviation: LILL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 28
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-CLUB-ESPN_166
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/166/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-SOC-CLUB-ESPN_175
+  attributes:
+    display_name: Lens
+    abbreviation: RCL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 30
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-CLUB-ESPN_175
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/175/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-SOC-CLUB-ESPN_21922
+  attributes:
+    display_name: Sabah FK
+    abbreviation: SAB
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 32
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-CLUB-ESPN_21922
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/21922/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-SOC-CLUB-ESPN_2250
+  attributes:
+    display_name: Sporting CP
+    abbreviation: SCP
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 31
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-CLUB-ESPN_2250
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/2250/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-SOC-CLUB-ESPN_244
+  attributes:
+    display_name: Real Betis
+    abbreviation: BET
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 28
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-CLUB-ESPN_244
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/244/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-SOC-CLUB-ESPN_2572
+  attributes:
+    display_name: Como
+    abbreviation: COMO
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 28
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-CLUB-ESPN_2572
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/2572/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-SOC-CLUB-ESPN_2980
+  attributes:
+    display_name: Bodo/Glimt
+    abbreviation: BODO
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 36
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-CLUB-ESPN_2980
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/2980/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-SOC-CLUB-ESPN_432
+  attributes:
+    display_name: Galatasaray
+    abbreviation: GAL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 34
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-CLUB-ESPN_432
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/432/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-SOC-CLUB-ESPN_436
+  attributes:
+    display_name: Fenerbahce
+    abbreviation: FEN
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 28
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-CLUB-ESPN_436
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/436/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-SOC-CLUB-ESPN_437
+  attributes:
+    display_name: FC Porto
+    abbreviation: FCP
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 34
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-CLUB-ESPN_437
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/437/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-SOC-CLUB-ESPN_4411
+  attributes:
+    display_name: LASK Linz
+    abbreviation: LAS
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 29
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-CLUB-ESPN_4411
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/4411/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-SOC-CLUB-ESPN_493
+  attributes:
+    display_name: Shakhtar Donetsk
+    abbreviation: SHK
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 33
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-CLUB-ESPN_493
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/493/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-SOC-CLUB-ESPN_494
+  attributes:
+    display_name: Slavia Prague
+    abbreviation: SLP
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 37
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-CLUB-ESPN_494
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/494/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-SOC-CLUB-ESPN_510
+  attributes:
+    display_name: Viking FK
+    abbreviation: VFK
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 40
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-CLUB-ESPN_510
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/510/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-SOC-CLUB-ESPN_521
+  attributes:
+    display_name: Slovan Bratislava
+    abbreviation: SLB
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 36
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-CLUB-ESPN_521
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/521/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-SOC-CLUB-ESPN_570
+  attributes:
+    display_name: Club Brugge
+    abbreviation: BRU
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 32
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-CLUB-ESPN_570
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/570/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-SOC-CLUB-ESPN_83
+  attributes:
+    display_name: Barcelona
+    abbreviation: BAR
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 32
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-CLUB-ESPN_83
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/83/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-SOC-CLUB-ESPN_86
+  attributes:
+    display_name: Real Madrid
+    abbreviation: RMA
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 36
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-CLUB-ESPN_86
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/86/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Campaign
+  code: SOC-UCL-SEASON_2026_2027-TEAM-SOC-CLUB-ESPN_887
+  attributes:
+    display_name: AEK Athens
+    abbreviation: AEK
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 32
+      roster_meaning: Complete source-listed season roster captured on 2026-10-26;
+        not a complete historical season union or a competition registration certification.
+  references:
+    team: SOC-CLUB-ESPN_887
+    season: SOC-UCL-SEASON_2026_2027
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/887/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.

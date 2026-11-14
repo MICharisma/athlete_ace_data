@@ -3,6 +3,7 @@
 require "yaml"
 require "json"
 require "fileutils"
+require_relative "lib/seed_catalog"
 
 root = File.expand_path("..", __dir__)
 output = File.join(root, "yaml/participation")
@@ -10,12 +11,19 @@ FileUtils.mkdir_p(output)
 capture = JSON.parse(File.read(File.join(root, "sources/coverage_2025.json")))
 sources = capture.fetch("teams").to_h { |team| [ [ team.fetch("league"), team.fetch("abbreviation") ], team ] }
 organizations, rosters = [], []
+check = ARGV.delete("--check")
+abort "Usage: ruby scripts/build_participation.rb [--check]" unless ARGV.empty?
+# Campaigns live in the catalog; the 2025 coverage files hold each team's activations.
+campaigns = Dir.glob(File.join(SeedCatalog::LIBRARY, SeedCatalog::CATALOG, "*/*/campaigns/2025*.yml")).flat_map { |path| YAML.safe_load_file(path).fetch("records") }
 Dir.glob(File.join(root, "yaml/coverage_2025/*.yaml")).sort.each do |path|
   manifest = YAML.safe_load_file(path)
   league = File.basename(path, ".yaml").upcase
   manifest.fetch("groups").each do |group|
     team_code = group.fetch("scope").fetch("team")
-    campaign = group.fetch("records").find { |record| record.fetch("type") == "Campaign" }
+    prefix = team_code.split("-TEAM-").first
+    matches = campaigns.select { |record| record.fetch("code").match?(/\A#{prefix}-SEASON_2025(_2026)?-TEAM-#{team_code.split("-TEAM-").last}\z/) }
+    raise "Expected one 2025 campaign for #{team_code}, found #{matches.size}" unless matches.one?
+    campaign = matches.first
     team = sources.fetch([ league, campaign.fetch("attributes").fetch("abbreviation") ])
     organization_code = team_code.sub("-TEAM-", "-ORG-")
     source = group.fetch("source")
@@ -47,8 +55,9 @@ Dir.glob(File.join(root, "yaml/coverage_2025/*.yaml")).sort.each do |path|
   end
 end
 header = { "format" => "micharisma-seeds/v1", "namespace" => "MIC", "catalog" => "ALA" }
-# Copy shared objects so Psych emits no anchors/aliases, which the safe reader rejects.
-File.write(File.join(output, "organizations.yaml"), YAML.dump(JSON.parse(JSON.generate(header.merge("groups" => organizations)))))
-File.write(File.join(output, "rosters_2025.yaml"), YAML.dump(JSON.parse(JSON.generate(header.merge("groups" => rosters)))))
+writer = SeedCatalog::Writer.new(check: check)
+writer.write_batch(File.join(output, "organizations.yaml"), header.merge("groups" => organizations)) # Organizations go to the catalog.
+writer.write_batch(File.join(output, "rosters_2025.yaml"), header.merge("groups" => rosters))
+writer.finish(codes_path: File.join(root, "sources/participation/catalog_codes.json"))
 puts JSON.generate(organizations: organizations.size, affiliations: organizations.size, rosters: rosters.size,
   roster_entries: rosters.sum { |group| group.fetch("records").size - 1 })

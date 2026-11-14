@@ -33,7 +33,7 @@ The three outdoor venues were already bound to their home teams as alternative h
 
 ## Outputs
 
-- `yaml/nhl_venues_2026/geography.yaml` adds the two countries, two subdivisions, two cities and two stadiums as normal catalog records.
+- The builder adds the two countries, two subdivisions, two cities and two stadiums to their catalog files (`yaml/catalog/places/FI.yml`, `DE.yml`; `yaml/catalog/venues/FI.yml`, `DE.yml`). The batch has no manifest of its own.
 - `bindings.json` binds every game to a stadium and names its home and away entries. `Seeds::GameVenueImporter` applies it during `db:seed`, after the library import. It fills a missing venue or side, leaves existing equal values alone, and reports different values without overwriting them, like the home-venue enrichment. Bindings are used instead of venue references on the game records because the games were seeded before venues existed. Adding references to them would make every game a replay conflict.
 
 The builder fails if:

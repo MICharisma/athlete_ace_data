@@ -16,42 +16,11 @@ groups:
       listings where present; no active-game status or appearances are asserted. Only
       the first two source-listed players are selected.
   records:
-  - type: Team
-    code: FTB-NFL-TEAM-ARI
-    attributes:
-      territory: Arizona
-      mascot: Cardinals
-      abbreviation: ARI
-    references: {}
-  - type: Campaign
-    code: FTB-NFL-SEASON_2025-TEAM-ARI
-    attributes:
-      display_name: Arizona Cardinals
-      abbreviation: ARI
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 113
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: FTB-NFL-PLAYER-ADAMS_ISAIAH
-    attributes:
-      first_name: Isaiah
-      last_name: Adams
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-ARI-PLAYER-ADAMS_ISAIAH
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-ADAMS_ISAIAH
-  - type: Player
-    code: FTB-NFL-PLAYER-ANUSIEM_CHIGOZIE
-    attributes:
-      first_name: Chigozie
-      last_name: Anusiem
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-ARI-PLAYER-ANUSIEM_CHIGOZIE
     attributes: {}
@@ -66,42 +35,11 @@ groups:
       listings where present; no active-game status or appearances are asserted. Only
       the first two source-listed players are selected.
   records:
-  - type: Team
-    code: FTB-NFL-TEAM-ATL
-    attributes:
-      territory: Atlanta
-      mascot: Falcons
-      abbreviation: ATL
-    references: {}
-  - type: Campaign
-    code: FTB-NFL-SEASON_2025-TEAM-ATL
-    attributes:
-      display_name: Atlanta Falcons
-      abbreviation: ATL
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 97
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: FTB-NFL-PLAYER-AGNEW_JAMAL
-    attributes:
-      first_name: Jamal
-      last_name: Agnew
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-ATL-PLAYER-AGNEW_JAMAL
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-AGNEW_JAMAL
-  - type: Player
-    code: FTB-NFL-PLAYER-ALLGEIER_TYLER
-    attributes:
-      first_name: Tyler
-      last_name: Allgeier
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-ATL-PLAYER-ALLGEIER_TYLER
     attributes: {}
@@ -116,42 +54,11 @@ groups:
       listings where present; no active-game status or appearances are asserted. Only
       the first two source-listed players are selected.
   records:
-  - type: Team
-    code: FTB-NFL-TEAM-BAL
-    attributes:
-      territory: Baltimore
-      mascot: Ravens
-      abbreviation: BAL
-    references: {}
-  - type: Campaign
-    code: FTB-NFL-SEASON_2025-TEAM-BAL
-    attributes:
-      display_name: Baltimore Ravens
-      abbreviation: BAL
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 92
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: FTB-NFL-PLAYER-ALEXANDER_JAIRE
-    attributes:
-      first_name: Jaire
-      last_name: Alexander
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-BAL-PLAYER-ALEXANDER_JAIRE
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-ALEXANDER_JAIRE
-  - type: Player
-    code: FTB-NFL-PLAYER-ALI_RASHEEN
-    attributes:
-      first_name: Rasheen
-      last_name: Ali
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-BAL-PLAYER-ALI_RASHEEN
     attributes: {}
@@ -166,42 +73,11 @@ groups:
       listings where present; no active-game status or appearances are asserted. Only
       the first two source-listed players are selected.
   records:
-  - type: Team
-    code: FTB-NFL-TEAM-BUF
-    attributes:
-      territory: Buffalo
-      mascot: Bills
-      abbreviation: BUF
-    references: {}
-  - type: Campaign
-    code: FTB-NFL-SEASON_2025-TEAM-BUF
-    attributes:
-      display_name: Buffalo Bills
-      abbreviation: BUF
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 98
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: FTB-NFL-PLAYER-AKINGBESOTE_TOMMY
-    attributes:
-      first_name: Tommy
-      last_name: Akingbesote
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-BUF-PLAYER-AKINGBESOTE_TOMMY
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-AKINGBESOTE_TOMMY
-  - type: Player
-    code: FTB-NFL-PLAYER-ALLEN_JOSH
-    attributes:
-      first_name: Josh
-      last_name: Allen
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-BUF-PLAYER-ALLEN_JOSH
     attributes: {}
@@ -216,35 +92,11 @@ groups:
       listings where present; no active-game status or appearances are asserted. Only
       the first two source-listed players are selected.
   records:
-  - type: Team
-    code: FTB-NFL-TEAM-CAR
-    attributes:
-      territory: Carolina
-      mascot: Panthers
-      abbreviation: CAR
-    references: {}
-  - type: Campaign
-    code: FTB-NFL-SEASON_2025-TEAM-CAR
-    attributes:
-      display_name: Carolina Panthers
-      abbreviation: CAR
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 94
-        selected_player_count: 2
-    references: {}
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-CAR-PLAYER-AKINGBESOTE_TOMMY
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-AKINGBESOTE_TOMMY
-  - type: Player
-    code: FTB-NFL-PLAYER-AUMAVAE_POPO
-    attributes:
-      first_name: Popo
-      last_name: Aumavae
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-CAR-PLAYER-AUMAVAE_POPO
     attributes: {}
@@ -259,42 +111,11 @@ groups:
       listings where present; no active-game status or appearances are asserted. Only
       the first two source-listed players are selected.
   records:
-  - type: Team
-    code: FTB-NFL-TEAM-CHI
-    attributes:
-      territory: Chicago
-      mascot: Bears
-      abbreviation: CHI
-    references: {}
-  - type: Campaign
-    code: FTB-NFL-SEASON_2025-TEAM-CHI
-    attributes:
-      display_name: Chicago Bears
-      abbreviation: CHI
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 90
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: FTB-NFL-PLAYER-ALEXANDER_MAURICE
-    attributes:
-      first_name: Maurice
-      last_name: Alexander
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-CHI-PLAYER-ALEXANDER_MAURICE
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-ALEXANDER_MAURICE
-  - type: Player
-    code: FTB-NFL-PLAYER-AMEGADJIE_KIRAN
-    attributes:
-      first_name: Kiran
-      last_name: Amegadjie
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-CHI-PLAYER-AMEGADJIE_KIRAN
     attributes: {}
@@ -309,42 +130,11 @@ groups:
       listings where present; no active-game status or appearances are asserted. Only
       the first two source-listed players are selected.
   records:
-  - type: Team
-    code: FTB-NFL-TEAM-CIN
-    attributes:
-      territory: Cincinnati
-      mascot: Bengals
-      abbreviation: CIN
-    references: {}
-  - type: Campaign
-    code: FTB-NFL-SEASON_2025-TEAM-CIN
-    attributes:
-      display_name: Cincinnati Bengals
-      abbreviation: CIN
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 87
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: FTB-NFL-PLAYER-ALL_ERICK
-    attributes:
-      first_name: Erick
-      last_name: All
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-CIN-PLAYER-ALL_ERICK
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-ALL_ERICK
-  - type: Player
-    code: FTB-NFL-PLAYER-ANDERSON_LIAM
-    attributes:
-      first_name: Liam
-      last_name: Anderson
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-CIN-PLAYER-ANDERSON_LIAM
     attributes: {}
@@ -359,42 +149,11 @@ groups:
       listings where present; no active-game status or appearances are asserted. Only
       the first two source-listed players are selected.
   records:
-  - type: Team
-    code: FTB-NFL-TEAM-CLE
-    attributes:
-      territory: Cleveland
-      mascot: Browns
-      abbreviation: CLE
-    references: {}
-  - type: Campaign
-    code: FTB-NFL-SEASON_2025-TEAM-CLE
-    attributes:
-      display_name: Cleveland Browns
-      abbreviation: CLE
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 107
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: FTB-NFL-PLAYER-ASANTE_EUGENE
-    attributes:
-      first_name: Eugene
-      last_name: Asante
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-CLE-PLAYER-ASANTE_EUGENE
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-ASANTE_EUGENE
-  - type: Player
-    code: FTB-NFL-PLAYER-AVERY_TRE
-    attributes:
-      first_name: Tre
-      last_name: Avery
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-CLE-PLAYER-AVERY_TRE
     attributes: {}
@@ -409,42 +168,11 @@ groups:
       listings where present; no active-game status or appearances are asserted. Only
       the first two source-listed players are selected.
   records:
-  - type: Team
-    code: FTB-NFL-TEAM-DAL
-    attributes:
-      territory: Dallas
-      mascot: Cowboys
-      abbreviation: DAL
-    references: {}
-  - type: Campaign
-    code: FTB-NFL-SEASON_2025-TEAM-DAL
-    attributes:
-      display_name: Dallas Cowboys
-      abbreviation: DAL
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 90
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: FTB-NFL-PLAYER-ABANIKANDA_ISRAEL
-    attributes:
-      first_name: Israel
-      last_name: Abanikanda
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-DAL-PLAYER-ABANIKANDA_ISRAEL
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-ABANIKANDA_ISRAEL
-  - type: Player
-    code: FTB-NFL-PLAYER-ADENIJI_HAKEEM
-    attributes:
-      first_name: Hakeem
-      last_name: Adeniji
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-DAL-PLAYER-ADENIJI_HAKEEM
     attributes: {}
@@ -459,35 +187,11 @@ groups:
       listings where present; no active-game status or appearances are asserted. Only
       the first two source-listed players are selected.
   records:
-  - type: Campaign
-    code: FTB-NFL-SEASON_2025-TEAM-DEN
-    attributes:
-      display_name: Denver Broncos
-      abbreviation: DEN
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 95
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: FTB-NFL-PLAYER-ABRAMS_DRAINE_KRIS
-    attributes:
-      first_name: Kris
-      last_name: Abrams-Draine
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-DEN-PLAYER-ABRAMS_DRAINE_KRIS
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-ABRAMS_DRAINE_KRIS
-  - type: Player
-    code: FTB-NFL-PLAYER-ADKINS_NATE
-    attributes:
-      first_name: Nate
-      last_name: Adkins
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-DEN-PLAYER-ADKINS_NATE
     attributes: {}
@@ -502,42 +206,11 @@ groups:
       listings where present; no active-game status or appearances are asserted. Only
       the first two source-listed players are selected.
   records:
-  - type: Team
-    code: FTB-NFL-TEAM-DET
-    attributes:
-      territory: Detroit
-      mascot: Lions
-      abbreviation: DET
-    references: {}
-  - type: Campaign
-    code: FTB-NFL-SEASON_2025-TEAM-DET
-    attributes:
-      display_name: Detroit Lions
-      abbreviation: DET
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 105
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: FTB-NFL-PLAYER-ADAMS_MYLES
-    attributes:
-      first_name: Myles
-      last_name: Adams
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-DET-PLAYER-ADAMS_MYLES
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-ADAMS_MYLES
-  - type: Player
-    code: FTB-NFL-PLAYER-ALLEN_KYLE
-    attributes:
-      first_name: Kyle
-      last_name: Allen
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-DET-PLAYER-ALLEN_KYLE
     attributes: {}
@@ -552,35 +225,11 @@ groups:
       listings where present; no active-game status or appearances are asserted. Only
       the first two source-listed players are selected.
   records:
-  - type: Team
-    code: FTB-NFL-TEAM-GB
-    attributes:
-      territory: Green Bay
-      mascot: Packers
-      abbreviation: GB
-    references: {}
-  - type: Campaign
-    code: FTB-NFL-SEASON_2025-TEAM-GB
-    attributes:
-      display_name: Green Bay Packers
-      abbreviation: GB
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 96
-        selected_player_count: 2
-    references: {}
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-GB-PLAYER-ABANIKANDA_ISRAEL
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-ABANIKANDA_ISRAEL
-  - type: Player
-    code: FTB-NFL-PLAYER-ALEXANDRE_DESLIN
-    attributes:
-      first_name: Deslin
-      last_name: Alexandre
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-GB-PLAYER-ALEXANDRE_DESLIN
     attributes: {}
@@ -595,42 +244,11 @@ groups:
       listings where present; no active-game status or appearances are asserted. Only
       the first two source-listed players are selected.
   records:
-  - type: Team
-    code: FTB-NFL-TEAM-HOU
-    attributes:
-      territory: Houston
-      mascot: Texans
-      abbreviation: HOU
-    references: {}
-  - type: Campaign
-    code: FTB-NFL-SEASON_2025-TEAM-HOU
-    attributes:
-      display_name: Houston Texans
-      abbreviation: HOU
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 102
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: FTB-NFL-PLAYER-AL_SHAAIR_AZEEZ
-    attributes:
-      first_name: Azeez
-      last_name: Al-Shaair
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-HOU-PLAYER-AL_SHAAIR_AZEEZ
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-AL_SHAAIR_AZEEZ
-  - type: Player
-    code: FTB-NFL-PLAYER-ANDERSON_JR_WILL
-    attributes:
-      first_name: Will
-      last_name: Anderson Jr.
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-HOU-PLAYER-ANDERSON_JR_WILL
     attributes: {}
@@ -645,42 +263,11 @@ groups:
       listings where present; no active-game status or appearances are asserted. Only
       the first two source-listed players are selected.
   records:
-  - type: Team
-    code: FTB-NFL-TEAM-IND
-    attributes:
-      territory: Indianapolis
-      mascot: Colts
-      abbreviation: IND
-    references: {}
-  - type: Campaign
-    code: FTB-NFL-SEASON_2025-TEAM-IND
-    attributes:
-      display_name: Indianapolis Colts
-      abbreviation: IND
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 105
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: FTB-NFL-PLAYER-ABDULLAH_AMEER
-    attributes:
-      first_name: Ameer
-      last_name: Abdullah
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-IND-PLAYER-ABDULLAH_AMEER
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-ABDULLAH_AMEER
-  - type: Player
-    code: FTB-NFL-PLAYER-ADEBAWORE_ADETOMIWA
-    attributes:
-      first_name: Adetomiwa
-      last_name: Adebawore
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-IND-PLAYER-ADEBAWORE_ADETOMIWA
     attributes: {}
@@ -695,42 +282,11 @@ groups:
       listings where present; no active-game status or appearances are asserted. Only
       the first two source-listed players are selected.
   records:
-  - type: Team
-    code: FTB-NFL-TEAM-JAX
-    attributes:
-      territory: Jacksonville
-      mascot: Jaguars
-      abbreviation: JAX
-    references: {}
-  - type: Campaign
-    code: FTB-NFL-SEASON_2025-TEAM-JAX
-    attributes:
-      display_name: Jacksonville Jaguars
-      abbreviation: JAX
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 86
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: FTB-NFL-PLAYER-ABDULLAH_YASIR
-    attributes:
-      first_name: Yasir
-      last_name: Abdullah
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-JAX-PLAYER-ABDULLAH_YASIR
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-ABDULLAH_YASIR
-  - type: Player
-    code: FTB-NFL-PLAYER-AKINS_JORDAN
-    attributes:
-      first_name: Jordan
-      last_name: Akins
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-JAX-PLAYER-AKINS_JORDAN
     attributes: {}
@@ -745,42 +301,11 @@ groups:
       listings where present; no active-game status or appearances are asserted. Only
       the first two source-listed players are selected.
   records:
-  - type: Team
-    code: FTB-NFL-TEAM-KC
-    attributes:
-      territory: Kansas City
-      mascot: Chiefs
-      abbreviation: KC
-    references: {}
-  - type: Campaign
-    code: FTB-NFL-SEASON_2025-TEAM-KC
-    attributes:
-      display_name: Kansas City Chiefs
-      abbreviation: KC
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 90
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: FTB-NFL-PLAYER-ANUDIKE_UZOMAH_FELIX
-    attributes:
-      first_name: Felix
-      last_name: Anudike-Uzomah
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-KC-PLAYER-ANUDIKE_UZOMAH_FELIX
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-ANUDIKE_UZOMAH_FELIX
-  - type: Player
-    code: FTB-NFL-PLAYER-ARAIZA_MATT
-    attributes:
-      first_name: Matt
-      last_name: Araiza
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-KC-PLAYER-ARAIZA_MATT
     attributes: {}
@@ -795,42 +320,11 @@ groups:
       listings where present; no active-game status or appearances are asserted. Only
       the first two source-listed players are selected.
   records:
-  - type: Team
-    code: FTB-NFL-TEAM-LAC
-    attributes:
-      territory: Los Angeles
-      mascot: Chargers
-      abbreviation: LAC
-    references: {}
-  - type: Campaign
-    code: FTB-NFL-SEASON_2025-TEAM-LAC
-    attributes:
-      display_name: Los Angeles Chargers
-      abbreviation: LAC
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 99
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: FTB-NFL-PLAYER-ALLEN_KEENAN
-    attributes:
-      first_name: Keenan
-      last_name: Allen
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-LAC-PLAYER-ALLEN_KEENAN
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-ALLEN_KEENAN
-  - type: Player
-    code: FTB-NFL-PLAYER-ALT_JOE
-    attributes:
-      first_name: Joe
-      last_name: Alt
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-LAC-PLAYER-ALT_JOE
     attributes: {}
@@ -845,42 +339,11 @@ groups:
       listings where present; no active-game status or appearances are asserted. Only
       the first two source-listed players are selected.
   records:
-  - type: Team
-    code: FTB-NFL-TEAM-LAR
-    attributes:
-      territory: Los Angeles
-      mascot: Rams
-      abbreviation: LAR
-    references: {}
-  - type: Campaign
-    code: FTB-NFL-SEASON_2025-TEAM-LAR
-    attributes:
-      display_name: Los Angeles Rams
-      abbreviation: LAR
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 83
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: FTB-NFL-PLAYER-ADAMS_DAVANTE
-    attributes:
-      first_name: Davante
-      last_name: Adams
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-LAR-PLAYER-ADAMS_DAVANTE
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-ADAMS_DAVANTE
-  - type: Player
-    code: FTB-NFL-PLAYER-ALLEN_DAVIS
-    attributes:
-      first_name: Davis
-      last_name: Allen
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-LAR-PLAYER-ALLEN_DAVIS
     attributes: {}
@@ -895,23 +358,6 @@ groups:
       listings where present; no active-game status or appearances are asserted. Only
       the first two source-listed players are selected.
   records:
-  - type: Campaign
-    code: FTB-NFL-SEASON_2025-TEAM-RAIDERS
-    attributes:
-      display_name: Las Vegas Raiders
-      abbreviation: LV
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 88
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: FTB-NFL-PLAYER-ADAMS_JAMAL
-    attributes:
-      first_name: Jamal
-      last_name: Adams
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-RAIDERS-PLAYER-ADAMS_JAMAL
     attributes: {}
@@ -931,42 +377,11 @@ groups:
       listings where present; no active-game status or appearances are asserted. Only
       the first two source-listed players are selected.
   records:
-  - type: Team
-    code: FTB-NFL-TEAM-MIA
-    attributes:
-      territory: Miami
-      mascot: Dolphins
-      abbreviation: MIA
-    references: {}
-  - type: Campaign
-    code: FTB-NFL-SEASON_2025-TEAM-MIA
-    attributes:
-      display_name: Miami Dolphins
-      abbreviation: MIA
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 99
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: FTB-NFL-PLAYER-ACHANE_DE_VON
-    attributes:
-      first_name: De'Von
-      last_name: Achane
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-MIA-PLAYER-ACHANE_DE_VON
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-ACHANE_DE_VON
-  - type: Player
-    code: FTB-NFL-PLAYER-ARMSTRONG_CORNELL
-    attributes:
-      first_name: Cornell
-      last_name: Armstrong
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-MIA-PLAYER-ARMSTRONG_CORNELL
     attributes: {}
@@ -981,42 +396,11 @@ groups:
       listings where present; no active-game status or appearances are asserted. Only
       the first two source-listed players are selected.
   records:
-  - type: Team
-    code: FTB-NFL-TEAM-MIN
-    attributes:
-      territory: Minnesota
-      mascot: Vikings
-      abbreviation: MIN
-    references: {}
-  - type: Campaign
-    code: FTB-NFL-SEASON_2025-TEAM-MIN
-    attributes:
-      display_name: Minnesota Vikings
-      abbreviation: MIN
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 91
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: FTB-NFL-PLAYER-ADDISON_JORDAN
-    attributes:
-      first_name: Jordan
-      last_name: Addison
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-MIN-PLAYER-ADDISON_JORDAN
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-ADDISON_JORDAN
-  - type: Player
-    code: FTB-NFL-PLAYER-AKERS_CAM
-    attributes:
-      first_name: Cam
-      last_name: Akers
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-MIN-PLAYER-AKERS_CAM
     attributes: {}
@@ -1031,42 +415,11 @@ groups:
       listings where present; no active-game status or appearances are asserted. Only
       the first two source-listed players are selected.
   records:
-  - type: Team
-    code: FTB-NFL-TEAM-NE
-    attributes:
-      territory: New England
-      mascot: Patriots
-      abbreviation: NE
-    references: {}
-  - type: Campaign
-    code: FTB-NFL-SEASON_2025-TEAM-NE
-    attributes:
-      display_name: New England Patriots
-      abbreviation: NE
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 108
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: FTB-NFL-PLAYER-ASHBY_JULIAN
-    attributes:
-      first_name: Julian
-      last_name: Ashby
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-NE-PLAYER-ASHBY_JULIAN
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-ASHBY_JULIAN
-  - type: Player
-    code: FTB-NFL-PLAYER-AUSTIN_ALEX
-    attributes:
-      first_name: Alex
-      last_name: Austin
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-NE-PLAYER-AUSTIN_ALEX
     attributes: {}
@@ -1081,42 +434,11 @@ groups:
       listings where present; no active-game status or appearances are asserted. Only
       the first two source-listed players are selected.
   records:
-  - type: Team
-    code: FTB-NFL-TEAM-NO
-    attributes:
-      territory: New Orleans
-      mascot: Saints
-      abbreviation: 'NO'
-    references: {}
-  - type: Campaign
-    code: FTB-NFL-SEASON_2025-TEAM-NO
-    attributes:
-      display_name: New Orleans Saints
-      abbreviation: 'NO'
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 96
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: FTB-NFL-PLAYER-AMADI_UGO
-    attributes:
-      first_name: Ugo
-      last_name: Amadi
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-NO-PLAYER-AMADI_UGO
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-AMADI_UGO
-  - type: Player
-    code: FTB-NFL-PLAYER-AUSTIN_JR_KEVIN
-    attributes:
-      first_name: Kevin
-      last_name: Austin Jr.
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-NO-PLAYER-AUSTIN_JR_KEVIN
     attributes: {}
@@ -1131,42 +453,11 @@ groups:
       listings where present; no active-game status or appearances are asserted. Only
       the first two source-listed players are selected.
   records:
-  - type: Team
-    code: FTB-NFL-TEAM-NYG
-    attributes:
-      territory: New York
-      mascot: Giants
-      abbreviation: NYG
-    references: {}
-  - type: Campaign
-    code: FTB-NFL-SEASON_2025-TEAM-NYG
-    attributes:
-      display_name: New York Giants
-      abbreviation: NYG
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 102
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: FTB-NFL-PLAYER-ADEBO_PAULSON
-    attributes:
-      first_name: Paulson
-      last_name: Adebo
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-NYG-PLAYER-ADEBO_PAULSON
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-ADEBO_PAULSON
-  - type: Player
-    code: FTB-NFL-PLAYER-ALEXANDER_DARIUS
-    attributes:
-      first_name: Darius
-      last_name: Alexander
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-NYG-PLAYER-ALEXANDER_DARIUS
     attributes: {}
@@ -1181,42 +472,11 @@ groups:
       listings where present; no active-game status or appearances are asserted. Only
       the first two source-listed players are selected.
   records:
-  - type: Team
-    code: FTB-NFL-TEAM-NYJ
-    attributes:
-      territory: New York
-      mascot: Jets
-      abbreviation: NYJ
-    references: {}
-  - type: Campaign
-    code: FTB-NFL-SEASON_2025-TEAM-NYJ
-    attributes:
-      display_name: New York Jets
-      abbreviation: NYJ
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 106
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: FTB-NFL-PLAYER-ADAMS_TONY
-    attributes:
-      first_name: Tony
-      last_name: Adams
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-NYJ-PLAYER-ADAMS_TONY
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-ADAMS_TONY
-  - type: Player
-    code: FTB-NFL-PLAYER-ALLEN_BRAELON
-    attributes:
-      first_name: Braelon
-      last_name: Allen
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-NYJ-PLAYER-ALLEN_BRAELON
     attributes: {}
@@ -1231,30 +491,6 @@ groups:
       listings where present; no active-game status or appearances are asserted. Only
       the first two source-listed players are selected.
   records:
-  - type: Team
-    code: FTB-NFL-TEAM-PHI
-    attributes:
-      territory: Philadelphia
-      mascot: Eagles
-      abbreviation: PHI
-    references: {}
-  - type: Campaign
-    code: FTB-NFL-SEASON_2025-TEAM-PHI
-    attributes:
-      display_name: Philadelphia Eagles
-      abbreviation: PHI
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 92
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: FTB-NFL-PLAYER-ADOMITIS_CAL
-    attributes:
-      first_name: Cal
-      last_name: Adomitis
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-PHI-PLAYER-ADOMITIS_CAL
     attributes: {}
@@ -1274,35 +510,11 @@ groups:
       listings where present; no active-game status or appearances are asserted. Only
       the first two source-listed players are selected.
   records:
-  - type: Team
-    code: FTB-NFL-TEAM-PIT
-    attributes:
-      territory: Pittsburgh
-      mascot: Steelers
-      abbreviation: PIT
-    references: {}
-  - type: Campaign
-    code: FTB-NFL-SEASON_2025-TEAM-PIT
-    attributes:
-      display_name: Pittsburgh Steelers
-      abbreviation: PIT
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 109
-        selected_player_count: 2
-    references: {}
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-PIT-PLAYER-ADOMITIS_CAL
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-ADOMITIS_CAL
-  - type: Player
-    code: FTB-NFL-PLAYER-ANDERSON_CALVIN
-    attributes:
-      first_name: Calvin
-      last_name: Anderson
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-PIT-PLAYER-ANDERSON_CALVIN
     attributes: {}
@@ -1317,35 +529,11 @@ groups:
       listings where present; no active-game status or appearances are asserted. Only
       the first two source-listed players are selected.
   records:
-  - type: Team
-    code: FTB-NFL-TEAM-SEA
-    attributes:
-      territory: Seattle
-      mascot: Seahawks
-      abbreviation: SEA
-    references: {}
-  - type: Campaign
-    code: FTB-NFL-SEASON_2025-TEAM-SEA
-    attributes:
-      display_name: Seattle Seahawks
-      abbreviation: SEA
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 94
-        selected_player_count: 2
-    references: {}
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SEA-PLAYER-AKERS_CAM
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-AKERS_CAM
-  - type: Player
-    code: FTB-NFL-PLAYER-ARROYO_ELIJAH
-    attributes:
-      first_name: Elijah
-      last_name: Arroyo
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SEA-PLAYER-ARROYO_ELIJAH
     attributes: {}
@@ -1360,1223 +548,506 @@ groups:
       listings where present; no active-game status or appearances are asserted. Every
       source-listed player is selected.
   records:
-  - type: Campaign
-    code: FTB-NFL-SEASON_2025-TEAM-SF
-    attributes:
-      display_name: San Francisco 49ers
-      abbreviation: SF
-      details:
-        roster_coverage: complete_source_listing
-        source_player_count: 101
-        selected_player_count: 101
-    references: {}
-  - type: Player
-    code: FTB-NFL-PLAYER-AIYUK_BRANDON
-    attributes:
-      first_name: Brandon
-      last_name: Aiyuk
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-AIYUK_BRANDON
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-AIYUK_BRANDON
-  - type: Player
-    code: FTB-NFL-PLAYER-ALARCON_ISAAC
-    attributes:
-      first_name: Isaac
-      last_name: Alarcon
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-ALARCON_ISAAC
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-ALARCON_ISAAC
-  - type: Player
-    code: FTB-NFL-PLAYER-ANDERSON_EVAN
-    attributes:
-      first_name: Evan
-      last_name: Anderson
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-ANDERSON_EVAN
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-ANDERSON_EVAN
-  - type: Player
-    code: FTB-NFL-PLAYER-CHOSEN_ROBBIE
-    attributes:
-      first_name: Robbie
-      last_name: Chosen
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-CHOSEN_ROBBIE
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-CHOSEN_ROBBIE
-  - type: Player
-    code: FTB-NFL-PLAYER-APPLE_ELI
-    attributes:
-      first_name: Eli
-      last_name: Apple
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-APPLE_ELI
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-APPLE_ELI
-  - type: Player
-    code: FTB-NFL-PLAYER-BAKER_JAVON
-    attributes:
-      first_name: Javon
-      last_name: Baker
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-BAKER_JAVON
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-BAKER_JAVON
-  - type: Player
-    code: FTB-NFL-PLAYER-BARTCH_BEN
-    attributes:
-      first_name: Ben
-      last_name: Bartch
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-BARTCH_BEN
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-BARTCH_BEN
-  - type: Player
-    code: FTB-NFL-PLAYER-BEAL_JR_ROB
-    attributes:
-      first_name: Rob
-      last_name: Beal Jr.
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-BEAL_JR_ROB
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-BEAL_JR_ROB
-  - type: Player
-    code: FTB-NFL-PLAYER-BERGEN_JUNIOR
-    attributes:
-      first_name: Junior
-      last_name: Bergen
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-BERGEN_JUNIOR
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-BERGEN_JUNIOR
-  - type: Player
-    code: FTB-NFL-PLAYER-BETHUNE_TATUM
-    attributes:
-      first_name: Tatum
-      last_name: Bethune
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-BETHUNE_TATUM
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-BETHUNE_TATUM
-  - type: Player
-    code: FTB-NFL-PLAYER-BLANTON_STONE
-    attributes:
-      first_name: Stone
-      last_name: Blanton
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-BLANTON_STONE
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-BLANTON_STONE
-  - type: Player
-    code: FTB-NFL-PLAYER-BOLDEN_ISAIAH
-    attributes:
-      first_name: Isaiah
-      last_name: Bolden
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-BOLDEN_ISAIAH
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-BOLDEN_ISAIAH
-  - type: Player
-    code: FTB-NFL-PLAYER-BOSA_NICK
-    attributes:
-      first_name: Nick
-      last_name: Bosa
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-BOSA_NICK
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-BOSA_NICK
-  - type: Player
-    code: FTB-NFL-PLAYER-BOURNE_KENDRICK
-    attributes:
-      first_name: Kendrick
-      last_name: Bourne
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-BOURNE_KENDRICK
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-BOURNE_KENDRICK
-  - type: Player
-    code: FTB-NFL-PLAYER-BRADLEY_KING_WILL
-    attributes:
-      first_name: Will
-      last_name: Bradley-King
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-BRADLEY_KING_WILL
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-BRADLEY_KING_WILL
-  - type: Player
-    code: FTB-NFL-PLAYER-BRENDEL_JAKE
-    attributes:
-      first_name: Jake
-      last_name: Brendel
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-BRENDEL_JAKE
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-BRENDEL_JAKE
-  - type: Player
-    code: FTB-NFL-PLAYER-BROWN_JI_AYIR
-    attributes:
-      first_name: Ji'Ayir
-      last_name: Brown
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-BROWN_JI_AYIR
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-BROWN_JI_AYIR
-  - type: Player
-    code: FTB-NFL-PLAYER-BURFORD_SPENCER
-    attributes:
-      first_name: Spencer
-      last_name: Burford
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-BURFORD_SPENCER
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-BURFORD_SPENCER
-  - type: Player
-    code: FTB-NFL-PLAYER-CANTEEN_DERRICK
-    attributes:
-      first_name: Derrick
-      last_name: Canteen
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-CANTEEN_DERRICK
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-CANTEEN_DERRICK
-  - type: Player
-    code: FTB-NFL-PLAYER-COLBY_CONNOR
-    attributes:
-      first_name: Connor
-      last_name: Colby
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-COLBY_CONNOR
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-COLBY_CONNOR
-  - type: Player
-    code: FTB-NFL-PLAYER-COLLINS_ALFRED
-    attributes:
-      first_name: Alfred
-      last_name: Collins
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-COLLINS_ALFRED
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-COLLINS_ALFRED
-  - type: Player
-    code: FTB-NFL-PLAYER-COWING_JACOB
-    attributes:
-      first_name: Jacob
-      last_name: Cowing
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-COWING_JACOB
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-COWING_JACOB
-  - type: Player
-    code: FTB-NFL-PLAYER-DAVIS_KALIA
-    attributes:
-      first_name: Kalia
-      last_name: Davis
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-DAVIS_KALIA
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-DAVIS_KALIA
-  - type: Player
-    code: FTB-NFL-PLAYER-ELLIOTT_JORDAN
-    attributes:
-      first_name: Jordan
-      last_name: Elliott
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-ELLIOTT_JORDAN
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-ELLIOTT_JORDAN
-  - type: Player
-    code: FTB-NFL-PLAYER-FARMER_II_ANDREW
-    attributes:
-      first_name: Andrew
-      last_name: Farmer II
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-FARMER_II_ANDREW
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-FARMER_II_ANDREW
-  - type: Player
-    code: FTB-NFL-PLAYER-FARRELL_LUKE
-    attributes:
-      first_name: Luke
-      last_name: Farrell
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-FARRELL_LUKE
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-FARRELL_LUKE
-  - type: Player
-    code: FTB-NFL-PLAYER-FERRELL_CLELIN
-    attributes:
-      first_name: Clelin
-      last_name: Ferrell
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-FERRELL_CLELIN
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-FERRELL_CLELIN
-  - type: Player
-    code: FTB-NFL-PLAYER-FORREST_DARRICK
-    attributes:
-      first_name: Darrick
-      last_name: Forrest
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-FORREST_DARRICK
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-FORREST_DARRICK
-  - type: Player
-    code: FTB-NFL-PLAYER-GAGE_RUSSELL
-    attributes:
-      first_name: Russell
-      last_name: Gage
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-GAGE_RUSSELL
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-GAGE_RUSSELL
-  - type: Player
-    code: FTB-NFL-PLAYER-GAY_MATT
-    attributes:
-      first_name: Matt
-      last_name: Gay
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-GAY_MATT
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-GAY_MATT
-  - type: Player
-    code: FTB-NFL-PLAYER-GIFFORD_LUKE
-    attributes:
-      first_name: Luke
-      last_name: Gifford
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-GIFFORD_LUKE
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-GIFFORD_LUKE
-  - type: Player
-    code: FTB-NFL-PLAYER-GIPSON_TREVIS
-    attributes:
-      first_name: Trevis
-      last_name: Gipson
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-GIPSON_TREVIS
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-GIPSON_TREVIS
-  - type: Player
-    code: FTB-NFL-PLAYER-GIVENS_KEVIN
-    attributes:
-      first_name: Kevin
-      last_name: Givens
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-GIVENS_KEVIN
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-GIVENS_KEVIN
-  - type: Player
-    code: FTB-NFL-PLAYER-GRAHAM_JALEN
-    attributes:
-      first_name: Jalen
-      last_name: Graham
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-GRAHAM_JALEN
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-GRAHAM_JALEN
-  - type: Player
-    code: FTB-NFL-PLAYER-GREEN_RENARDO
-    attributes:
-      first_name: Renardo
-      last_name: Green
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-GREEN_RENARDO
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-GREEN_RENARDO
-  - type: Player
-    code: FTB-NFL-PLAYER-GROSS_MATOS_YETUR
-    attributes:
-      first_name: Yetur
-      last_name: Gross-Matos
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-GROSS_MATOS_YETUR
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-GROSS_MATOS_YETUR
-  - type: Player
-    code: FTB-NFL-PLAYER-GUERENDO_ISAAC
-    attributes:
-      first_name: Isaac
-      last_name: Guerendo
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-GUERENDO_ISAAC
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-GUERENDO_ISAAC
-  - type: Player
-    code: FTB-NFL-PLAYER-HECTOR_BRUCE
-    attributes:
-      first_name: Bruce
-      last_name: Hector
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-HECTOR_BRUCE
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-HECTOR_BRUCE
-  - type: Player
-    code: FTB-NFL-PLAYER-HENNESSY_MATT
-    attributes:
-      first_name: Matt
-      last_name: Hennessy
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-HENNESSY_MATT
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-HENNESSY_MATT
-  - type: Player
-    code: FTB-NFL-PLAYER-TOMLINSON_TRE
-    attributes:
-      first_name: Tre
-      last_name: Tomlinson
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-TOMLINSON_TRE
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-TOMLINSON_TRE
-  - type: Player
-    code: FTB-NFL-PLAYER-HUFF_BRYCE
-    attributes:
-      first_name: Bryce
-      last_name: Huff
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-HUFF_BRYCE
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-HUFF_BRYCE
-  - type: Player
-    code: FTB-NFL-PLAYER-JACKSON_TARRON
-    attributes:
-      first_name: Tarron
-      last_name: Jackson
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-JACKSON_TARRON
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-JACKSON_TARRON
-  - type: Player
-    code: FTB-NFL-PLAYER-JAMES_JORDAN
-    attributes:
-      first_name: Jordan
-      last_name: James
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-JAMES_JORDAN
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-JAMES_JORDAN
-  - type: Player
-    code: FTB-NFL-PLAYER-JEFFERSON_JORDAN
-    attributes:
-      first_name: Jordan
-      last_name: Jefferson
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-JEFFERSON_JORDAN
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-JEFFERSON_JORDAN
-  - type: Player
-    code: FTB-NFL-PLAYER-JENNINGS_JAUAN
-    attributes:
-      first_name: Jauan
-      last_name: Jennings
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-JENNINGS_JAUAN
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-JENNINGS_JAUAN
-  - type: Player
-    code: FTB-NFL-PLAYER-JONES_MAC
-    attributes:
-      first_name: Mac
-      last_name: Jones
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-JONES_MAC
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-JONES_MAC
-  - type: Player
-    code: FTB-NFL-PLAYER-JUSZCZYK_KYLE
-    attributes:
-      first_name: Kyle
-      last_name: Juszczyk
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-JUSZCZYK_KYLE
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-JUSZCZYK_KYLE
-  - type: Player
-    code: FTB-NFL-PLAYER-KENDRICKS_ERIC
-    attributes:
-      first_name: Eric
-      last_name: Kendricks
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-KENDRICKS_ERIC
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-KENDRICKS_ERIC
-  - type: Player
-    code: FTB-NFL-PLAYER-KITTLE_GEORGE
-    attributes:
-      first_name: George
-      last_name: Kittle
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-KITTLE_GEORGE
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-KITTLE_GEORGE
-  - type: Player
-    code: FTB-NFL-PLAYER-LENOIR_DEOMMODORE
-    attributes:
-      first_name: Deommodore
-      last_name: Lenoir
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-LENOIR_DEOMMODORE
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-LENOIR_DEOMMODORE
-  - type: Player
-    code: FTB-NFL-PLAYER-LUCAS_CHASE
-    attributes:
-      first_name: Chase
-      last_name: Lucas
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-LUCAS_CHASE
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-LUCAS_CHASE
-  - type: Player
-    code: FTB-NFL-PLAYER-LUTER_JR_DARRELL
-    attributes:
-      first_name: Darrell
-      last_name: Luter Jr.
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-LUTER_JR_DARRELL
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-LUTER_JR_DARRELL
-  - type: Player
-    code: FTB-NFL-PLAYER-MAHONEY_JAYLEN
-    attributes:
-      first_name: Jaylen
-      last_name: Mahoney
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-MAHONEY_JAYLEN
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-MAHONEY_JAYLEN
-  - type: Player
-    code: FTB-NFL-PLAYER-MARTIN_NICK
-    attributes:
-      first_name: Nick
-      last_name: Martin
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-MARTIN_NICK
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-MARTIN_NICK
-  - type: Player
-    code: FTB-NFL-PLAYER-MARTINEZ_ADRIAN
-    attributes:
-      first_name: Adrian
-      last_name: Martinez
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-MARTINEZ_ADRIAN
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-MARTINEZ_ADRIAN
-  - type: Player
-    code: FTB-NFL-PLAYER-MCCAFFREY_CHRISTIAN
-    attributes:
-      first_name: Christian
-      last_name: McCaffrey
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-MCCAFFREY_CHRISTIAN
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-MCCAFFREY_CHRISTIAN
-  - type: Player
-    code: FTB-NFL-PLAYER-MCCORMICK_SINCERE
-    attributes:
-      first_name: Sincere
-      last_name: McCormick
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-MCCORMICK_SINCERE
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-MCCORMICK_SINCERE
-  - type: Player
-    code: FTB-NFL-PLAYER-MCKIVITZ_COLTON
-    attributes:
-      first_name: Colton
-      last_name: McKivitz
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-MCKIVITZ_COLTON
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-MCKIVITZ_COLTON
-  - type: Player
-    code: FTB-NFL-PLAYER-MOODY_JAKE
-    attributes:
-      first_name: Jake
-      last_name: Moody
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-MOODY_JAKE
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-MOODY_JAKE
-  - type: Player
-    code: FTB-NFL-PLAYER-MOORE_SKYY
-    attributes:
-      first_name: Skyy
-      last_name: Moore
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-MOORE_SKYY
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-MOORE_SKYY
-  - type: Player
-    code: FTB-NFL-PLAYER-MORSTEAD_THOMAS
-    attributes:
-      first_name: Thomas
-      last_name: Morstead
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-MORSTEAD_THOMAS
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-MORSTEAD_THOMAS
-  - type: Player
-    code: FTB-NFL-PLAYER-MOSS_DREW
-    attributes:
-      first_name: Drew
-      last_name: Moss
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-MOSS_DREW
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-MOSS_DREW
-  - type: Player
-    code: FTB-NFL-PLAYER-MUSTAPHA_MALIK
-    attributes:
-      first_name: Malik
-      last_name: Mustapha
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-MUSTAPHA_MALIK
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-MUSTAPHA_MALIK
-  - type: Player
-    code: FTB-NFL-PLAYER-NEAL_SIRAN
-    attributes:
-      first_name: Siran
-      last_name: Neal
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-NEAL_SIRAN
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-NEAL_SIRAN
-  - type: Player
-    code: FTB-NFL-PLAYER-NUGENT_DRAKE
-    attributes:
-      first_name: Drake
-      last_name: Nugent
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-NUGENT_DRAKE
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-NUGENT_DRAKE
-  - type: Player
-    code: FTB-NFL-PLAYER-OKUAYINONU_SAM
-    attributes:
-      first_name: Sam
-      last_name: Okuayinonu
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-OKUAYINONU_SAM
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-OKUAYINONU_SAM
-  - type: Player
-    code: FTB-NFL-PLAYER-PARKER_BRANDON
-    attributes:
-      first_name: Brandon
-      last_name: Parker
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-PARKER_BRANDON
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-PARKER_BRANDON
-  - type: Player
-    code: FTB-NFL-PLAYER-PEARSALL_RICKY
-    attributes:
-      first_name: Ricky
-      last_name: Pearsall
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-PEARSALL_RICKY
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-PEARSALL_RICKY
-  - type: Player
-    code: FTB-NFL-PLAYER-PINEIRO_EDDY
-    attributes:
-      first_name: Eddy
-      last_name: Pineiro
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-PINEIRO_EDDY
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-PINEIRO_EDDY
-  - type: Player
-    code: FTB-NFL-PLAYER-PINNOCK_JASON
-    attributes:
-      first_name: Jason
-      last_name: Pinnock
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-PINNOCK_JASON
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-PINNOCK_JASON
-  - type: Player
-    code: FTB-NFL-PLAYER-PLEASANTS_AUSTEN
-    attributes:
-      first_name: Austen
-      last_name: Pleasants
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-PLEASANTS_AUSTEN
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-PLEASANTS_AUSTEN
-  - type: Player
-    code: FTB-NFL-PLAYER-PUNI_DOMINICK
-    attributes:
-      first_name: Dominick
-      last_name: Puni
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-PUNI_DOMINICK
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-PUNI_DOMINICK
-  - type: Player
-    code: FTB-NFL-PLAYER-PURDY_BROCK
-    attributes:
-      first_name: Brock
-      last_name: Purdy
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-PURDY_BROCK
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-PURDY_BROCK
-  - type: Player
-    code: FTB-NFL-PLAYER-ROBINSON_CURTIS
-    attributes:
-      first_name: Curtis
-      last_name: Robinson
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-ROBINSON_CURTIS
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-ROBINSON_CURTIS
-  - type: Player
-    code: FTB-NFL-PLAYER-ROBINSON_DEMARCUS
-    attributes:
-      first_name: Demarcus
-      last_name: Robinson
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-ROBINSON_DEMARCUS
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-ROBINSON_DEMARCUS
-  - type: Player
-    code: FTB-NFL-PLAYER-ROBINSON_JAKOB
-    attributes:
-      first_name: Jakob
-      last_name: Robinson
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-ROBINSON_JAKOB
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-ROBINSON_JAKOB
-  - type: Player
-    code: FTB-NFL-PLAYER-ROBINSON_BRIAN
-    attributes:
-      first_name: Brian
-      last_name: Robinson
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-ROBINSON_BRIAN
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-ROBINSON_BRIAN
-  - type: Player
-    code: FTB-NFL-PLAYER-ROURKE_KURTIS
-    attributes:
-      first_name: Kurtis
-      last_name: Rourke
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-ROURKE_KURTIS
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-ROURKE_KURTIS
-  - type: Player
-    code: FTB-NFL-PLAYER-RUCCI_HAYDEN
-    attributes:
-      first_name: Hayden
-      last_name: Rucci
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-RUCCI_HAYDEN
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-RUCCI_HAYDEN
-  - type: Player
-    code: FTB-NFL-PLAYER-SIGLE_MARQUES
-    attributes:
-      first_name: Marques
-      last_name: Sigle
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-SIGLE_MARQUES
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-SIGLE_MARQUES
-  - type: Player
-    code: FTB-NFL-PLAYER-STOUT_UPTON
-    attributes:
-      first_name: Upton
-      last_name: Stout
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-STOUT_UPTON
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-STOUT_UPTON
-  - type: Player
-    code: FTB-NFL-PLAYER-SWINSON_MESSIAH
-    attributes:
-      first_name: Messiah
-      last_name: Swinson
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-SWINSON_MESSIAH
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-SWINSON_MESSIAH
-  - type: Player
-    code: FTB-NFL-PLAYER-TAYLOR_PATRICK
-    attributes:
-      first_name: Patrick
-      last_name: Taylor
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-TAYLOR_PATRICK
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-TAYLOR_PATRICK
-  - type: Player
-    code: FTB-NFL-PLAYER-TAYLOR_TRENT
-    attributes:
-      first_name: Trent
-      last_name: Taylor
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-TAYLOR_TRENT
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-TAYLOR_TRENT
-  - type: Player
-    code: FTB-NFL-PLAYER-TONGES_JAKE
-    attributes:
-      first_name: Jake
-      last_name: Tonges
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-TONGES_JAKE
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-TONGES_JAKE
-  - type: Player
-    code: FTB-NFL-PLAYER-TURNER_MALIK
-    attributes:
-      first_name: Malik
-      last_name: Turner
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-TURNER_MALIK
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-TURNER_MALIK
-  - type: Player
-    code: FTB-NFL-PLAYER-VALDES_SCANTLING_MARQUEZ
-    attributes:
-      first_name: Marquez
-      last_name: Valdes-Scantling
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-VALDES_SCANTLING_MARQUEZ
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-VALDES_SCANTLING_MARQUEZ
-  - type: Player
-    code: FTB-NFL-PLAYER-VALDEZ_SEBASTIAN
-    attributes:
-      first_name: Sebastian
-      last_name: Valdez
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-VALDEZ_SEBASTIAN
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-VALDEZ_SEBASTIAN
-  - type: Player
-    code: FTB-NFL-PLAYER-WALLOW_GARRET
-    attributes:
-      first_name: Garret
-      last_name: Wallow
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-WALLOW_GARRET
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-WALLOW_GARRET
-  - type: Player
-    code: FTB-NFL-PLAYER-WARNER_FRED
-    attributes:
-      first_name: Fred
-      last_name: Warner
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-WARNER_FRED
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-WARNER_FRED
-  - type: Player
-    code: FTB-NFL-PLAYER-WATKINS_JORDAN
-    attributes:
-      first_name: Jordan
-      last_name: Watkins
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-WATKINS_JORDAN
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-WATKINS_JORDAN
-  - type: Player
-    code: FTB-NFL-PLAYER-WEEKS_JON
-    attributes:
-      first_name: Jon
-      last_name: Weeks
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-WEEKS_JON
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-WEEKS_JON
-  - type: Player
-    code: FTB-NFL-PLAYER-WEST_C_J
-    attributes:
-      first_name: C.J.
-      last_name: West
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-WEST_C_J
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-WEST_C_J
-  - type: Player
-    code: FTB-NFL-PLAYER-WHITE_KEION
-    attributes:
-      first_name: Keion
-      last_name: White
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-WHITE_KEION
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-WHITE_KEION
-  - type: Player
-    code: FTB-NFL-PLAYER-WHITE_KYZIR
-    attributes:
-      first_name: Kyzir
-      last_name: White
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-WHITE_KYZIR
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-WHITE_KYZIR
-  - type: Player
-    code: FTB-NFL-PLAYER-WILLIAMS_MYKEL
-    attributes:
-      first_name: Mykel
-      last_name: Williams
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-WILLIAMS_MYKEL
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-WILLIAMS_MYKEL
-  - type: Player
-    code: FTB-NFL-PLAYER-WILLIAMS_TRENT
-    attributes:
-      first_name: Trent
-      last_name: Williams
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-WILLIAMS_TRENT
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-WILLIAMS_TRENT
-  - type: Player
-    code: FTB-NFL-PLAYER-WILLIS_BRAYDEN
-    attributes:
-      first_name: Brayden
-      last_name: Willis
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-WILLIS_BRAYDEN
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-WILLIS_BRAYDEN
-  - type: Player
-    code: FTB-NFL-PLAYER-WINTERS_DEE
-    attributes:
-      first_name: Dee
-      last_name: Winters
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-WINTERS_DEE
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-WINTERS_DEE
-  - type: Player
-    code: FTB-NFL-PLAYER-ZAKELJ_NICK
-    attributes:
-      first_name: Nick
-      last_name: Zakelj
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-ZAKELJ_NICK
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-ZAKELJ_NICK
-  - type: Player
-    code: FTB-NFL-PLAYER-ZIERER_KILIAN
-    attributes:
-      first_name: Kilian
-      last_name: Zierer
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-SF-PLAYER-ZIERER_KILIAN
     attributes: {}
@@ -2591,42 +1062,11 @@ groups:
       listings where present; no active-game status or appearances are asserted. Only
       the first two source-listed players are selected.
   records:
-  - type: Team
-    code: FTB-NFL-TEAM-TB
-    attributes:
-      territory: Tampa Bay
-      mascot: Buccaneers
-      abbreviation: TB
-    references: {}
-  - type: Campaign
-    code: FTB-NFL-SEASON_2025-TEAM-TB
-    attributes:
-      display_name: Tampa Bay Buccaneers
-      abbreviation: TB
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 90
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: FTB-NFL-PLAYER-BANKS_MARCUS
-    attributes:
-      first_name: Marcus
-      last_name: Banks
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-TB-PLAYER-BANKS_MARCUS
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-BANKS_MARCUS
-  - type: Player
-    code: FTB-NFL-PLAYER-BARNHART_KARSEN
-    attributes:
-      first_name: Karsen
-      last_name: Barnhart
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-TB-PLAYER-BARNHART_KARSEN
     attributes: {}
@@ -2641,42 +1081,11 @@ groups:
       listings where present; no active-game status or appearances are asserted. Only
       the first two source-listed players are selected.
   records:
-  - type: Team
-    code: FTB-NFL-TEAM-TEN
-    attributes:
-      territory: Tennessee
-      mascot: Titans
-      abbreviation: TEN
-    references: {}
-  - type: Campaign
-    code: FTB-NFL-SEASON_2025-TEAM-TEN
-    attributes:
-      display_name: Tennessee Titans
-      abbreviation: TEN
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 101
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: FTB-NFL-PLAYER-AGOHA_DAVID
-    attributes:
-      first_name: David
-      last_name: Agoha
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-TEN-PLAYER-AGOHA_DAVID
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-AGOHA_DAVID
-  - type: Player
-    code: FTB-NFL-PLAYER-ALLEN_BRANDON
-    attributes:
-      first_name: Brandon
-      last_name: Allen
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-TEN-PLAYER-ALLEN_BRANDON
     attributes: {}
@@ -2691,42 +1100,11 @@ groups:
       listings where present; no active-game status or appearances are asserted. Only
       the first two source-listed players are selected.
   records:
-  - type: Team
-    code: FTB-NFL-TEAM-WAS
-    attributes:
-      territory: Washington
-      mascot: Commanders
-      abbreviation: WAS
-    references: {}
-  - type: Campaign
-    code: FTB-NFL-SEASON_2025-TEAM-WAS
-    attributes:
-      display_name: Washington Commanders
-      abbreviation: WAS
-      details:
-        roster_coverage: two_player_sample
-        source_player_count: 96
-        selected_player_count: 2
-    references: {}
-  - type: Player
-    code: FTB-NFL-PLAYER-ALLEGRETTI_NICK
-    attributes:
-      first_name: Nick
-      last_name: Allegretti
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-WAS-PLAYER-ALLEGRETTI_NICK
     attributes: {}
     references:
       player: FTB-NFL-PLAYER-ALLEGRETTI_NICK
-  - type: Player
-    code: FTB-NFL-PLAYER-AMOS_TREY
-    attributes:
-      first_name: Trey
-      last_name: Amos
-    references:
-      sport: SPORT-FTB
   - type: Activation
     code: FTB-NFL-SEASON_2025-TEAM-WAS-PLAYER-AMOS_TREY
     attributes: {}

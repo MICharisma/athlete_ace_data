@@ -1,0 +1,45 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: City
+  code: CITY-QA-ZA-LUSAIL
+  attributes:
+    name: Lusail
+  references:
+    state: STATE-QA-ZA
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/losail.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Country
+  code: COUNTRY-QA
+  attributes:
+    name: Qatar
+    abbreviation: QA
+  references: {}
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:QA
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: State
+  code: STATE-QA-ZA
+  attributes:
+    name: Al Daayen
+    abbreviation: ZA
+  references:
+    country: COUNTRY-QA
+  source:
+    url: https://www.iso.org/obp/ui/#iso:code:3166:QA
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.

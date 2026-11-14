@@ -22,7 +22,7 @@ An assignment says which position the source roster listed for the player that s
 
 ## Vocabularies
 
-`yaml/positions/baseball.yaml` and `yaml/positions/football.yaml` are AthleteAce's position lists for those sports. The abbreviations match the source rosters. The names and groupings are curated:
+`yaml/catalog/BSB/positions.yml` and `yaml/catalog/FTB/positions.yml` are AthleteAce's position lists for those sports. The abbreviations match the source rosters. The names and groupings are curated:
 
 - **Baseball:** IF groups 1B/2B/3B/SS, and OF groups LF/CF/RF. P, C, DH and TWP have no parent group.
 - **Football:**

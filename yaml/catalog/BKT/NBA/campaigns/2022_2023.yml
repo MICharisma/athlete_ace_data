@@ -1,0 +1,467 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Campaign
+  code: BKT-NBA-SEASON_2022_2023-TEAM-ATL
+  attributes:
+    display_name: Atlanta Hawks
+    abbreviation: ATL
+  references:
+    team: BKT-NBA-TEAM-ATL
+    season: BKT-NBA-SEASON_2022_2023
+    division: BKT-NBA-DIVISION-SOUTHEAST_DIVISION
+    conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2023&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2022_2023-TEAM-BKN
+  attributes:
+    display_name: Brooklyn Nets
+    abbreviation: BKN
+  references:
+    team: BKT-NBA-TEAM-BKN
+    season: BKT-NBA-SEASON_2022_2023
+    division: BKT-NBA-DIVISION-ATLANTIC_DIVISION
+    conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2023&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2022_2023-TEAM-BOS
+  attributes:
+    display_name: Boston Celtics
+    abbreviation: BOS
+  references:
+    team: BKT-NBA-TEAM-BOS
+    season: BKT-NBA-SEASON_2022_2023
+    division: BKT-NBA-DIVISION-ATLANTIC_DIVISION
+    conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2023&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2022_2023-TEAM-CHA
+  attributes:
+    display_name: Charlotte Hornets
+    abbreviation: CHA
+  references:
+    team: BKT-NBA-TEAM-CHA
+    season: BKT-NBA-SEASON_2022_2023
+    division: BKT-NBA-DIVISION-SOUTHEAST_DIVISION
+    conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2023&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2022_2023-TEAM-CHI
+  attributes:
+    display_name: Chicago Bulls
+    abbreviation: CHI
+  references:
+    team: BKT-NBA-TEAM-CHI
+    season: BKT-NBA-SEASON_2022_2023
+    division: BKT-NBA-DIVISION-CENTRAL_DIVISION
+    conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2023&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2022_2023-TEAM-CLE
+  attributes:
+    display_name: Cleveland Cavaliers
+    abbreviation: CLE
+  references:
+    team: BKT-NBA-TEAM-CLE
+    season: BKT-NBA-SEASON_2022_2023
+    division: BKT-NBA-DIVISION-CENTRAL_DIVISION
+    conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2023&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2022_2023-TEAM-DAL
+  attributes:
+    display_name: Dallas Mavericks
+    abbreviation: DAL
+  references:
+    team: BKT-NBA-TEAM-DAL
+    season: BKT-NBA-SEASON_2022_2023
+    division: BKT-NBA-DIVISION-SOUTHWEST_DIVISION
+    conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2023&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2022_2023-TEAM-DEN
+  attributes:
+    display_name: Denver Nuggets
+    abbreviation: DEN
+  references:
+    team: BKT-NBA-TEAM-DEN
+    season: BKT-NBA-SEASON_2022_2023
+    division: BKT-NBA-DIVISION-NORTHWEST_DIVISION
+    conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2023&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2022_2023-TEAM-DET
+  attributes:
+    display_name: Detroit Pistons
+    abbreviation: DET
+  references:
+    team: BKT-NBA-TEAM-DET
+    season: BKT-NBA-SEASON_2022_2023
+    division: BKT-NBA-DIVISION-CENTRAL_DIVISION
+    conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2023&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2022_2023-TEAM-GSW
+  attributes:
+    display_name: Golden State Warriors
+    abbreviation: GSW
+  references:
+    team: BKT-NBA-TEAM-GSW
+    season: BKT-NBA-SEASON_2022_2023
+    division: BKT-NBA-DIVISION-PACIFIC_DIVISION
+    conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2023&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2022_2023-TEAM-HOU
+  attributes:
+    display_name: Houston Rockets
+    abbreviation: HOU
+  references:
+    team: BKT-NBA-TEAM-HOU
+    season: BKT-NBA-SEASON_2022_2023
+    division: BKT-NBA-DIVISION-SOUTHWEST_DIVISION
+    conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2023&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2022_2023-TEAM-IND
+  attributes:
+    display_name: Indiana Pacers
+    abbreviation: IND
+  references:
+    team: BKT-NBA-TEAM-IND
+    season: BKT-NBA-SEASON_2022_2023
+    division: BKT-NBA-DIVISION-CENTRAL_DIVISION
+    conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2023&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2022_2023-TEAM-LAC
+  attributes:
+    display_name: LA Clippers
+    abbreviation: LAC
+  references:
+    team: BKT-NBA-TEAM-LAC
+    season: BKT-NBA-SEASON_2022_2023
+    division: BKT-NBA-DIVISION-PACIFIC_DIVISION
+    conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2023&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2022_2023-TEAM-LAL
+  attributes:
+    display_name: Los Angeles Lakers
+    abbreviation: LAL
+  references:
+    team: BKT-NBA-TEAM-LAL
+    season: BKT-NBA-SEASON_2022_2023
+    division: BKT-NBA-DIVISION-PACIFIC_DIVISION
+    conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2023&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2022_2023-TEAM-MEM
+  attributes:
+    display_name: Memphis Grizzlies
+    abbreviation: MEM
+  references:
+    team: BKT-NBA-TEAM-MEM
+    season: BKT-NBA-SEASON_2022_2023
+    division: BKT-NBA-DIVISION-SOUTHWEST_DIVISION
+    conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2023&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2022_2023-TEAM-MIA
+  attributes:
+    display_name: Miami Heat
+    abbreviation: MIA
+  references:
+    team: BKT-NBA-TEAM-MIA
+    season: BKT-NBA-SEASON_2022_2023
+    division: BKT-NBA-DIVISION-SOUTHEAST_DIVISION
+    conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2023&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2022_2023-TEAM-MIL
+  attributes:
+    display_name: Milwaukee Bucks
+    abbreviation: MIL
+  references:
+    team: BKT-NBA-TEAM-MIL
+    season: BKT-NBA-SEASON_2022_2023
+    division: BKT-NBA-DIVISION-CENTRAL_DIVISION
+    conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2023&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2022_2023-TEAM-MIN
+  attributes:
+    display_name: Minnesota Timberwolves
+    abbreviation: MIN
+  references:
+    team: BKT-NBA-TEAM-MIN
+    season: BKT-NBA-SEASON_2022_2023
+    division: BKT-NBA-DIVISION-NORTHWEST_DIVISION
+    conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2023&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2022_2023-TEAM-NOP
+  attributes:
+    display_name: New Orleans Pelicans
+    abbreviation: NOP
+  references:
+    team: BKT-NBA-TEAM-NOP
+    season: BKT-NBA-SEASON_2022_2023
+    division: BKT-NBA-DIVISION-SOUTHWEST_DIVISION
+    conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2023&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2022_2023-TEAM-NYK
+  attributes:
+    display_name: New York Knicks
+    abbreviation: NYK
+    territory: New York
+    mascot: Knicks
+  references:
+    team: BKT-NBA-TEAM-NYK
+    season: BKT-NBA-SEASON_2022_2023
+    division: BKT-NBA-DIVISION-ATLANTIC_DIVISION
+    conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  scope:
+    team: BKT-NBA-TEAM-NYK
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2022
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2023&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2022_2023-TEAM-OKC
+  attributes:
+    display_name: Oklahoma City Thunder
+    abbreviation: OKC
+  references:
+    team: BKT-NBA-TEAM-OKC
+    season: BKT-NBA-SEASON_2022_2023
+    division: BKT-NBA-DIVISION-NORTHWEST_DIVISION
+    conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2023&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2022_2023-TEAM-ORL
+  attributes:
+    display_name: Orlando Magic
+    abbreviation: ORL
+  references:
+    team: BKT-NBA-TEAM-ORL
+    season: BKT-NBA-SEASON_2022_2023
+    division: BKT-NBA-DIVISION-SOUTHEAST_DIVISION
+    conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2023&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2022_2023-TEAM-PHI
+  attributes:
+    display_name: Philadelphia 76ers
+    abbreviation: PHI
+  references:
+    team: BKT-NBA-TEAM-PHI
+    season: BKT-NBA-SEASON_2022_2023
+    division: BKT-NBA-DIVISION-ATLANTIC_DIVISION
+    conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2023&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2022_2023-TEAM-PHX
+  attributes:
+    display_name: Phoenix Suns
+    abbreviation: PHX
+  references:
+    team: BKT-NBA-TEAM-PHX
+    season: BKT-NBA-SEASON_2022_2023
+    division: BKT-NBA-DIVISION-PACIFIC_DIVISION
+    conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2023&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2022_2023-TEAM-POR
+  attributes:
+    display_name: Portland Trail Blazers
+    abbreviation: POR
+    territory: Portland
+    mascot: Trail Blazers
+  references:
+    team: BKT-NBA-TEAM-POR
+    season: BKT-NBA-SEASON_2022_2023
+    division: BKT-NBA-DIVISION-NORTHWEST_DIVISION
+    conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  scope:
+    team: BKT-NBA-TEAM-POR
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2022
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2023&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2022_2023-TEAM-SAC
+  attributes:
+    display_name: Sacramento Kings
+    abbreviation: SAC
+  references:
+    team: BKT-NBA-TEAM-SAC
+    season: BKT-NBA-SEASON_2022_2023
+    division: BKT-NBA-DIVISION-PACIFIC_DIVISION
+    conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2023&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2022_2023-TEAM-SAS
+  attributes:
+    display_name: San Antonio Spurs
+    abbreviation: SAS
+  references:
+    team: BKT-NBA-TEAM-SAS
+    season: BKT-NBA-SEASON_2022_2023
+    division: BKT-NBA-DIVISION-SOUTHWEST_DIVISION
+    conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2023&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2022_2023-TEAM-TOR
+  attributes:
+    display_name: Toronto Raptors
+    abbreviation: TOR
+  references:
+    team: BKT-NBA-TEAM-TOR
+    season: BKT-NBA-SEASON_2022_2023
+    division: BKT-NBA-DIVISION-ATLANTIC_DIVISION
+    conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2023&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2022_2023-TEAM-UTA
+  attributes:
+    display_name: Utah Jazz
+    abbreviation: UTA
+  references:
+    team: BKT-NBA-TEAM-UTA
+    season: BKT-NBA-SEASON_2022_2023
+    division: BKT-NBA-DIVISION-NORTHWEST_DIVISION
+    conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2023&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.
+- type: Campaign
+  code: BKT-NBA-SEASON_2022_2023-TEAM-WAS
+  attributes:
+    display_name: Washington Wizards
+    abbreviation: WAS
+  references:
+    team: BKT-NBA-TEAM-WAS
+    season: BKT-NBA-SEASON_2022_2023
+    division: BKT-NBA-DIVISION-SOUTHEAST_DIVISION
+    conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2023&level=3
+    captured_on: '2026-11-13'
+    note: Complete annual league/conference/division classification. No player roster,
+      game participation, or exact affiliation dates are asserted.

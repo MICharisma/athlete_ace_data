@@ -1,0 +1,129 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: League
+  code: FTB-LEAGUE-NFL
+  attributes:
+    name: National Football League
+    abbreviation: NFL
+  references:
+    sport: SPORT-FTB
+    jurisdiction: COUNTRY-US
+  scope:
+    sport: SPORT-FTB
+  source:
+    url: https://www.nfl.com/standings/league/2025/REG
+    note: Official league identity and completed-season standings; pilot definitions
+      only.
+- type: Conference
+  code: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  attributes:
+    name: American Football Conference
+    abbreviation: AFC
+    logo_url: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/American_Football_Conference_logo.svg/1200px-American_Football_Conference_logo.svg.png
+  references:
+    league: FTB-LEAGUE-NFL
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Conference
+  code: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  attributes:
+    name: National Football Conference
+    abbreviation: NFC
+    logo_url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/National_Football_Conference_logo.svg/1200px-National_Football_Conference_logo.svg.png
+  references:
+    league: FTB-LEAGUE-NFL
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Division
+  code: FTB-NFL-DIVISION-AFC_EAST
+  attributes:
+    name: AFC East
+    abbreviation: AFCE
+    logo_url: https://content.sportslogos.net/logos/7/6446/full/7425_afc_east-primary-2023.png
+  references:
+    conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Division
+  code: FTB-NFL-DIVISION-AFC_NORTH
+  attributes:
+    name: AFC North
+    abbreviation: AFCN
+    logo_url: https://content.sportslogos.net/logos/7/6447/full/7426_afc_north-primary-2023.png
+  references:
+    conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Division
+  code: FTB-NFL-DIVISION-AFC_SOUTH
+  attributes:
+    name: AFC South
+    abbreviation: AFCS
+    logo_url: https://content.sportslogos.net/logos/7/6448/full/7427_afc_south-primary-2023.png
+  references:
+    conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Division
+  code: FTB-NFL-DIVISION-AFC_WEST
+  attributes:
+    name: AFC West
+    abbreviation: AFCW
+    logo_url: https://content.sportslogos.net/logos/7/6449/full/7428_afc_west-primary-2023.png
+  references:
+    conference: FTB-NFL-CONFERENCE-AMERICAN_FOOTBALL_CONFERENCE
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Division
+  code: FTB-NFL-DIVISION-NFC_EAST
+  attributes:
+    name: NFC East
+    abbreviation: NFCE
+    logo_url: https://content.sportslogos.net/logos/7/6450/full/7429_nfc_east-primary-2023.png
+  references:
+    conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Division
+  code: FTB-NFL-DIVISION-NFC_NORTH
+  attributes:
+    name: NFC North
+    abbreviation: NFCN
+    logo_url: https://content.sportslogos.net/logos/7/6451/full/7430_nfc_north-primary-2023.png
+  references:
+    conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Division
+  code: FTB-NFL-DIVISION-NFC_SOUTH
+  attributes:
+    name: NFC South
+    abbreviation: NFCS
+    logo_url: https://content.sportslogos.net/logos/7/6452/full/7431_nfc_south-primary-2023.png
+  references:
+    conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL
+- type: Division
+  code: FTB-NFL-DIVISION-NFC_WEST
+  attributes:
+    name: NFC West
+    abbreviation: NFCW
+    logo_url: https://content.sportslogos.net/logos/7/6453/full/7432_nfc_west-primary-2023.png
+  references:
+    conference: FTB-NFL-CONFERENCE-NATIONAL_FOOTBALL_CONFERENCE
+  source:
+    note: Legacy JSON catalog
+    path: sports/football/USA/NFL

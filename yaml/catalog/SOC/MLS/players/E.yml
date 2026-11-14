@@ -1,0 +1,306 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: SOC-MLS-PLAYER-EBOBISSE_JEREMY
+  aliases:
+  - SOC-ESPN-PLAYER_251805
+  attributes:
+    first_name: Jeremy
+    last_name: Ebobisse
+    birthdate: '1997-02-14'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/251805.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/18966/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-ECHENIQUE_ENDER
+  aliases:
+  - SOC-ESPN-PLAYER_361138
+  attributes:
+    first_name: Ender
+    last_name: Echenique
+    birthdate: '2004-04-02'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/18267/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-EDELMAN_DANIEL
+  aliases:
+  - SOC-ESPN-PLAYER_304164
+  attributes:
+    first_name: Daniel
+    last_name: Edelman
+    birthdate: '2003-04-28'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/304164.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/21812/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-EDWARDS_EARL
+  aliases:
+  - SOC-ESPN-PLAYER_216999
+  attributes:
+    first_name: Earl
+    last_name: Edwards
+    birthdate: '1992-01-24'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/216999.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/191/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-EDWARDS_MATT
+  aliases:
+  - SOC-ESPN-PLAYER_138636
+  attributes:
+    first_name: Matt
+    last_name: Edwards
+    birthdate: '2003-02-17'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/18418/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-EDWARDS_RAHEEM
+  aliases:
+  - SOC-ESPN-PLAYER_237164
+  attributes:
+    first_name: Raheem
+    last_name: Edwards
+    birthdate: '2002-08-14'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/237164.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/7318/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-ELGERSMA_TROY
+  aliases:
+  - SOC-ESPN-PLAYER_421655
+  attributes:
+    first_name: Troy
+    last_name: Elgersma
+    birthdate: '2004-05-17'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/187/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-ELLIOTT_JACK
+  aliases:
+  - SOC-ESPN-PLAYER_233813
+  attributes:
+    first_name: Jack
+    last_name: Elliott
+    birthdate: '1995-08-25'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/233813.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/182/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-ELLIS_JUSTIN
+  aliases:
+  - SOC-ESPN-PLAYER_403425
+  attributes:
+    first_name: Justin
+    last_name: Ellis
+    birthdate: '2007-05-14'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/12011/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-ELLOUMI_RAYAN
+  aliases:
+  - SOC-ESPN-PLAYER_405591
+  attributes:
+    first_name: Rayan
+    last_name: Elloumi
+    birthdate: '2007-09-17'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/9727/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-EMBOLO_BREEL
+  aliases:
+  - SOC-ESPN-PLAYER_202099
+  attributes:
+    first_name: Breel
+    last_name: Embolo
+    birthdate: '1997-02-14'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/18418/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-ENELI_EMEKA
+  aliases:
+  - SOC-ESPN-PLAYER_296109
+  attributes:
+    first_name: Emeka
+    last_name: Eneli
+    birthdate: '1999-10-18'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/4771/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-ENGEL_LUKAS
+  aliases:
+  - SOC-ESPN-PLAYER_311520
+  attributes:
+    first_name: Lukas
+    last_name: Engel
+    birthdate: '1998-12-14'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/4771/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-ENNALI_LAWRENCE
+  aliases:
+  - SOC-ESPN-PLAYER_323199
+  attributes:
+    first_name: Lawrence
+    last_name: Ennali
+    birthdate: '2002-03-07'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/6077/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-ERB_LOGAN
+  aliases:
+  - SOC-ESPN-PLAYER_416548
+  attributes:
+    first_name: Logan
+    last_name: Erb
+    birthdate: '2004-01-07'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/6077/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-ESCOBAR_OLGER
+  aliases:
+  - SOC-ESPN-PLAYER_377044
+  attributes:
+    first_name: Olger
+    last_name: Escobar
+    birthdate: '2006-09-11'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/9720/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-ESPINOZA_CRISTIAN
+  aliases:
+  - SOC-ESPN-PLAYER_73200
+  attributes:
+    first_name: Cristian
+    last_name: Espinoza
+    birthdate: '1995-04-03'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/73200.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/18986/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-ETIENNE_JR_DERRICK
+  aliases:
+  - SOC-ESPN-PLAYER_231098
+  attributes:
+    first_name: Derrick
+    last_name: Etienne Jr.
+    birthdate: '1996-11-25'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/231098.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/7318/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-MLS-PLAYER-EVANDER
+  aliases:
+  - SOC-ESPN-PLAYER_86436
+  attributes:
+    first_name: Evander
+    last_name: ''
+    birthdate: '1998-06-09'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/86436.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/18267/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.

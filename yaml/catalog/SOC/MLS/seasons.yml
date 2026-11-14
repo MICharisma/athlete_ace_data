@@ -1,0 +1,13 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Season
+  code: SOC-MLS-SEASON_2026
+  attributes:
+    label: '2026'
+  references:
+    league: SOC-LEAGUE-MLS
+    year: YEAR-2026
+  source: {}

@@ -1,0 +1,243 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: FTB-NFL-PLAYER-YANKOFF_COLSON
+  aliases:
+  - FTB-ESPN-PLAYER_4361088
+  attributes:
+    first_name: Colson
+    last_name: Yankoff
+    birthdate: '2000-03-01'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4361088.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/28/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-YASSMIN_THOMAS
+  aliases:
+  - FTB-ESPN-PLAYER_4361027
+  attributes:
+    first_name: Thomas
+    last_name: Yassmin
+    birthdate: '1999-10-21'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4361027.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/9/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-YA_SIN_ROCK
+  aliases:
+  - FTB-ESPN-PLAYER_3910229
+  attributes:
+    first_name: Rock
+    last_name: Ya-Sin
+    birthdate: '1996-05-23'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3910229.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/8/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-YEAST_RUSS
+  aliases:
+  - FTB-ESPN-PLAYER_4240071
+  attributes:
+    first_name: Russ
+    last_name: Yeast
+    birthdate: '1999-05-08'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4240071.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/4/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-YEBOAH_KENNY
+  aliases:
+  - FTB-ESPN-PLAYER_4044144
+  attributes:
+    first_name: Kenny
+    last_name: Yeboah
+    birthdate: '1998-10-30'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4044144.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/22/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-YIADOM_ISAAC
+  aliases:
+  - FTB-ESPN-PLAYER_3122797
+  attributes:
+    first_name: Isaac
+    last_name: Yiadom
+    birthdate: '1996-02-20'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/3122797.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/28/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-YOUNG_BRYCE
+  aliases:
+  - FTB-ESPN-PLAYER_4685720
+  attributes:
+    first_name: Bryce
+    last_name: Young
+    birthdate: '2001-07-25'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4685720.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/29/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-YOUNG_BYRON
+  aliases:
+  - FTB-ESPN-PLAYER_4875196
+  attributes:
+    first_name: Byron
+    last_name: Young
+    birthdate: '1998-03-13'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4875196.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/14/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-YOUNG_BYRON_SOURCE_ESPN_4567123
+  aliases:
+  - FTB-ESPN-PLAYER_4567123
+  attributes:
+    first_name: Byron
+    last_name: Young
+    birthdate: '2000-11-10'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4567123.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/21/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-YOUNG_CHASE
+  aliases:
+  - FTB-ESPN-PLAYER_4241986
+  attributes:
+    first_name: Chase
+    last_name: Young
+    birthdate: '1999-04-14'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4241986.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/18/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-YOUNG_COLBIE
+  aliases:
+  - FTB-ESPN-PLAYER_5092508
+  attributes:
+    first_name: Colbie
+    last_name: Young
+    birthdate: '2002-07-24'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/5092508.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/4/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-YOUNG_DAREKE
+  aliases:
+  - FTB-ESPN-PLAYER_4401805
+  attributes:
+    first_name: Dareke
+    last_name: Young
+    birthdate: '1999-06-04'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4401805.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/13/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-YOUNG_ZION
+  aliases:
+  - FTB-ESPN-PLAYER_4839501
+  attributes:
+    first_name: Zion
+    last_name: Young
+    birthdate: '2004-03-18'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4839501.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/33/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: FTB-NFL-PLAYER-YUROSEK_BEN
+  aliases:
+  - FTB-ESPN-PLAYER_4433959
+  attributes:
+    first_name: Ben
+    last_name: Yurosek
+    birthdate: '2002-03-17'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/nfl/players/full/4433959.png
+  references:
+    sport: SPORT-FTB
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/16/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.

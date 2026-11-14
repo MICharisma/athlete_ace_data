@@ -1,0 +1,20 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: BKT-NBA-PLAYER-UMUDE_STANLEY
+  aliases:
+  - BKT-BASKETBALL_REFERENCE-PLAYER_UMUDEST01
+  attributes:
+    first_name: Stanley
+    last_name: Umude
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://www.basketball-reference.com/leagues/NBA_2024_per_game.html
+    captured_on: '2026-10-26'
+    note: Complete regular-season and playoff appearance union by team, retaining
+      trade-side memberships. Excludes roster members with no recorded appearances
+      and does not establish jersey-number periods.

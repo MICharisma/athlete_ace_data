@@ -1,0 +1,20 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: League
+  code: SOC-LEAGUE-EFL_CHAMPIONSHIP
+  attributes:
+    name: EFL Championship
+    abbreviation: EFL_CHAMPIONSHIP
+  references:
+    sport: SPORT-SOC
+    jurisdiction: COUNTRY-GB
+  scope:
+    sport: SPORT-SOC
+  source:
+    url: https://www.premierleague.com/en/news/2567479
+    note: Official account identifies Championship promotion into the Premier League;
+      secondary league included only for Fulham history.
+    published_on: '2022-04-19'

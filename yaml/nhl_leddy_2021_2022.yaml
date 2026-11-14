@@ -5,7 +5,8 @@ catalog: ALA
 source:
   url: https://www.nhl.com/blues/news/blues-acquire-leddy-witkowski-from-red-wings-332085830
   published_on: '2022-03-21'
-  note: 'Sample 2021_2022 season union: retain Detroit and St. Louis memberships; not a complete roster.'
+  note: 'Sample 2021_2022 season union: retain Detroit and St. Louis memberships;
+    not a complete roster.'
 scope:
   sport: SPORT-HCK
   league: HCK-LEAGUE-NHL
@@ -14,14 +15,6 @@ groups:
 - scope:
     team: HCK-NHL-TEAM-DET
   records:
-  - type: Campaign
-    code: HCK-NHL-SEASON_2021_2022-TEAM-DET
-    attributes:
-      display_name: Detroit Red Wings
-      territory: Detroit
-      mascot: Red Wings
-      abbreviation: DET
-    references: {}
   - type: Activation
     code: HCK-NHL-SEASON_2021_2022-TEAM-DET-PLAYER-LEDDY_NICK
     attributes: {}
@@ -30,14 +23,6 @@ groups:
 - scope:
     team: HCK-NHL-TEAM-STL
   records:
-  - type: Campaign
-    code: HCK-NHL-SEASON_2021_2022-TEAM-STL
-    attributes:
-      display_name: St. Louis Blues
-      territory: St. Louis
-      mascot: Blues
-      abbreviation: STL
-    references: {}
   - type: Activation
     code: HCK-NHL-SEASON_2021_2022-TEAM-STL-PLAYER-LEDDY_NICK
     attributes: {}

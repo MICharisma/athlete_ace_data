@@ -1,0 +1,22 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: MOT-F1-PLAYER-VERSTAPPEN_MAX
+  aliases:
+  - MOT-JOLPICA-DRIVER_MAX_VERSTAPPEN
+  attributes:
+    first_name: Max
+    last_name: Verstappen
+    birthdate: '1997-09-30'
+  references:
+    sport: SPORT-MOT
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.

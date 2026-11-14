@@ -31,12 +31,9 @@ class Divisions2026Builder
     document = { "format" => "micharisma-seeds/v1", "namespace" => "MIC", "catalog" => "ALA",
       "source" => { "note" => "Current conference and division alignment carried over from the legacy JSON catalog onto 2026 team identities." },
       "records" => records }
-    contents = YAML.dump(JSON.parse(JSON.generate(document)))
-    if @check
-      raise "Generated file differs: #{path}" unless File.file?(path) && File.read(path) == contents
-    else
-      File.write(path, contents)
-    end
+    writer = SeedCatalog::Writer.new(check: @check)
+    writer.write_batch(path, document) # Conferences and divisions go to the catalog.
+    writer.finish(codes_path: File.join(ROOT, "sources/coverage_2026/catalog_codes_divisions.json"))
     puts JSON.generate(records.group_by { |record| record.fetch("type") }.transform_values(&:size))
   end
 

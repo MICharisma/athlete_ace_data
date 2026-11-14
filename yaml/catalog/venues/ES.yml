@@ -1,0 +1,33 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Stadium
+  code: STADIUM-ES-CT-BARCELONA-CIRCUIT_DE_BARCELONA_CATALUNYA
+  attributes:
+    name: Circuit de Barcelona-Catalunya
+    url: https://en.wikipedia.org/wiki/Circuit_de_Barcelona-Catalunya
+  references:
+    city: CITY-ES-CT-BARCELONA
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/catalunya.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Stadium
+  code: STADIUM-ES-MD-MADRID-MADRING
+  attributes:
+    name: Madring
+    url: https://en.wikipedia.org/wiki/Madring
+  references:
+    city: CITY-ES-MD-MADRID
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/madring.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.

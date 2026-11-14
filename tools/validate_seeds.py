@@ -107,7 +107,7 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("paths", nargs="*", type=Path, default=[ROOT / "yaml"])
     parser.add_argument("--registry", type=Path, default=ROOT / "yaml" / "entity_sequences.yaml")
-    parser.add_argument("--layout", choices=("report", "strict", "off"), default="report",
+    parser.add_argument("--layout", choices=("strict", "report", "off"), default="strict",
                         help="library layout lint when validating the whole library (see tools/seed_layout.py)")
     args = parser.parse_args(argv)
     registry_schema = validator("entity-sequences.schema.json")

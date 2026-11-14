@@ -11,6 +11,7 @@ class ChampionshipHistoryBuilder
 
   def initialize(check: false, source: File.join(ROOT, "sources/championship_history"), output: File.join(ROOT, "yaml/championship_history"))
     @check, @source, @output = check, source, output
+    @writer = SeedCatalog::Writer.new(check: check)
     registry = MICharismaSeeders::SequenceRegistry.read(File.join(ROOT, "yaml/entity_sequences.yaml"))
     reader = MICharismaSeeders::Reader.new(registry: registry)
     paths = Dir.glob(File.join(ROOT, "yaml/**/*.{yaml,yml,json}")).reject { |path| path.include?("/championship_history/") || path.end_with?("entity_sequences.yaml") }
@@ -127,6 +128,7 @@ class ChampionshipHistoryBuilder
     write("anchors.yml", anchors.values.sort_by { |row| row.fetch("code") })
     write("campaigns.yml", campaigns.sort_by { |row| row.fetch("code") })
     write("championships.yml", championships)
+    @writer.finish(codes_path: File.join(@source, "catalog_codes.json"))
     puts JSON.generate(anchors: anchors.size, campaigns: campaigns.size, championships: championships.size / 4)
   end
 
@@ -190,14 +192,7 @@ class ChampionshipHistoryBuilder
 
   def write(name, records)
     document = { "format" => "micharisma-seeds/v1", "namespace" => "MIC", "catalog" => "ALA", "records" => records }
-    contents = YAML.dump(JSON.parse(JSON.generate(document)))
-    path = File.join(@output, name)
-    if @check
-      raise "Generated file differs: #{path}" unless File.file?(path) && File.read(path) == contents
-    else
-      FileUtils.mkdir_p(@output)
-      File.write(path, contents)
-    end
+    @writer.write_batch(File.join(@output, name), document) # Identities go to the catalog.
   end
 end
 

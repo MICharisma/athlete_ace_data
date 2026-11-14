@@ -1,0 +1,163 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: City
+  code: CITY-GB-ENG-BIRMINGHAM
+  attributes:
+    name: Birmingham
+  references:
+    state: STATE-GB-ENG
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/366/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-GB-ENG-BOURNEMOUTH
+  attributes:
+    name: Bournemouth
+  references:
+    state: STATE-GB-ENG
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/362/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-GB-ENG-BRENTFORD
+  attributes:
+    name: Brentford
+  references:
+    state: STATE-GB-ENG
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/359/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-GB-ENG-COVENTRY
+  attributes:
+    name: Coventry
+  references:
+    state: STATE-GB-ENG
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/393/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-GB-ENG-FALMER
+  attributes:
+    name: Falmer
+  references:
+    state: STATE-GB-ENG
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/361/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-GB-ENG-HULL
+  attributes:
+    name: Hull
+  references:
+    state: STATE-GB-ENG
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/360/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-GB-ENG-IPSWICH
+  attributes:
+    name: Ipswich
+  references:
+    state: STATE-GB-ENG
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/393/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-GB-ENG-LEEDS
+  attributes:
+    name: Leeds
+  references:
+    state: STATE-GB-ENG
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/363/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-GB-ENG-LIVERPOOL
+  attributes:
+    name: Liverpool
+  references:
+    state: STATE-GB-ENG
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/382/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-GB-ENG-LONDON
+  attributes:
+    name: London
+  references:
+    state: STATE-GB-ENG
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/364/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-GB-ENG-MANCHESTER
+  attributes:
+    name: Manchester
+  references:
+    state: STATE-GB-ENG
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/368/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-GB-ENG-NEWCASTLE_UPON_TYNE
+  attributes:
+    name: Newcastle upon Tyne
+  references:
+    state: STATE-GB-ENG
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/367/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-GB-ENG-SILVERSTONE
+  attributes:
+    name: Silverstone
+  references:
+    state: STATE-GB-ENG
+  source:
+    url: https://api.jolpi.ca/ergast/f1/circuits/silverstone.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: City
+  code: CITY-GB-ENG-SUNDERLAND
+  attributes:
+    name: Sunderland
+  references:
+    state: STATE-GB-ENG
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/373/schedule?season=2026
+    captured_on: '2026-10-27'
+- type: City
+  code: CITY-GB-ENG-WEST_BRIDGFORD
+  attributes:
+    name: West Bridgford
+  references:
+    state: STATE-GB-ENG
+  source:
+    url: https://www.premierleague.com/en/news/4725666
+    captured_on: '2026-10-27'
+    note: The Premier League guide places the stadium in West Bridgford, south of
+      Nottingham.
+- type: Country
+  code: COUNTRY-GB
+  attributes:
+    name: United Kingdom
+    abbreviation: GB
+  references: {}
+  source:
+    url: https://www.gov.uk/
+- type: State
+  code: STATE-GB-ENG
+  attributes:
+    name: England
+    abbreviation: ENG
+  references:
+    country: COUNTRY-GB
+  source:
+    url: https://www.ons.gov.uk/methodology/geography/ukgeographies/administrativegeography/england

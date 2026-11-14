@@ -1,0 +1,83 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Season
+  code: BSB-MLB-SEASON_2016
+  attributes:
+    label: '2016'
+  references:
+    league: BSB-LEAGUE-MLB
+    year: YEAR-2016
+- type: Season
+  code: BSB-MLB-SEASON_2017
+  attributes:
+    label: '2017'
+  references:
+    league: BSB-LEAGUE-MLB
+    year: YEAR-2017
+- type: Season
+  code: BSB-MLB-SEASON_2018
+  attributes:
+    label: '2018'
+  references:
+    league: BSB-LEAGUE-MLB
+    year: YEAR-2018
+- type: Season
+  code: BSB-MLB-SEASON_2019
+  attributes:
+    label: '2019'
+  references:
+    league: BSB-LEAGUE-MLB
+    year: YEAR-2019
+- type: Season
+  code: BSB-MLB-SEASON_2020
+  attributes:
+    label: '2020'
+  references:
+    league: BSB-LEAGUE-MLB
+    year: YEAR-2020
+- type: Season
+  code: BSB-MLB-SEASON_2021
+  attributes:
+    label: '2021'
+  references:
+    league: BSB-LEAGUE-MLB
+    year: YEAR-2021
+- type: Season
+  code: BSB-MLB-SEASON_2022
+  attributes:
+    label: '2022'
+  references:
+    league: BSB-LEAGUE-MLB
+    year: YEAR-2022
+- type: Season
+  code: BSB-MLB-SEASON_2023
+  attributes:
+    label: '2023'
+  references:
+    league: BSB-LEAGUE-MLB
+    year: YEAR-2023
+- type: Season
+  code: BSB-MLB-SEASON_2024
+  attributes:
+    label: '2024'
+  references:
+    league: BSB-LEAGUE-MLB
+    year: YEAR-2024
+- type: Season
+  code: BSB-MLB-SEASON_2025
+  attributes:
+    label: '2025'
+  references:
+    league: BSB-LEAGUE-MLB
+    year: YEAR-2025
+- type: Season
+  code: BSB-MLB-SEASON_2026
+  attributes:
+    label: '2026'
+  references:
+    league: BSB-LEAGUE-MLB
+    year: YEAR-2026
+  source: {}

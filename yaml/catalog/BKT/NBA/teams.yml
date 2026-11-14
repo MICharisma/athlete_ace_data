@@ -1,0 +1,452 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Team
+  code: BKT-NBA-TEAM-ATL
+  attributes:
+    territory: Atlanta
+    mascot: Hawks
+    abbreviation: ATL
+  references: {}
+  scope:
+    league: BKT-LEAGUE-NBA
+  source:
+    url: https://pdfroster.nba.com/atlanta-hawks/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Team
+  code: BKT-NBA-TEAM-BKN
+  attributes:
+    territory: Brooklyn
+    mascot: Nets
+    abbreviation: BKN
+  references: {}
+  scope:
+    league: BKT-LEAGUE-NBA
+  source:
+    url: https://pdfroster.nba.com/brooklyn-nets/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Team
+  code: BKT-NBA-TEAM-BOS
+  attributes:
+    territory: Boston
+    mascot: Celtics
+    abbreviation: BOS
+  references: {}
+  scope:
+    league: BKT-LEAGUE-NBA
+  source:
+    url: https://pdfroster.nba.com/boston-celtics/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Team
+  code: BKT-NBA-TEAM-CHA
+  attributes:
+    territory: Charlotte
+    mascot: Hornets
+    abbreviation: CHA
+  references: {}
+  scope:
+    league: BKT-LEAGUE-NBA
+  source:
+    url: https://pdfroster.nba.com/charlotte-hornets/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Team
+  code: BKT-NBA-TEAM-CHI
+  attributes:
+    territory: Chicago
+    mascot: Bulls
+    abbreviation: CHI
+  references: {}
+  scope:
+    league: BKT-LEAGUE-NBA
+  source:
+    url: https://pdfroster.nba.com/chicago-bulls/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Team
+  code: BKT-NBA-TEAM-CLE
+  attributes:
+    territory: Cleveland
+    mascot: Cavaliers
+    abbreviation: CLE
+  references: {}
+  scope:
+    league: BKT-LEAGUE-NBA
+  source:
+    url: https://pdfroster.nba.com/cleveland-cavaliers/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Team
+  code: BKT-NBA-TEAM-DAL
+  attributes:
+    territory: Dallas
+    mascot: Mavericks
+    abbreviation: DAL
+  references: {}
+  scope:
+    league: BKT-LEAGUE-NBA
+  source:
+    url: https://pdfroster.nba.com/dallas-mavericks/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Team
+  code: BKT-NBA-TEAM-DEN
+  attributes:
+    territory: Denver
+    mascot: Nuggets
+    abbreviation: DEN
+  references: {}
+  scope:
+    league: BKT-LEAGUE-NBA
+  source:
+    url: https://pdfroster.nba.com/denver-nuggets/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Team
+  code: BKT-NBA-TEAM-DET
+  attributes:
+    territory: Detroit
+    mascot: Pistons
+    abbreviation: DET
+  references: {}
+  scope:
+    league: BKT-LEAGUE-NBA
+  source:
+    url: https://pdfroster.nba.com/detroit-pistons/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Team
+  code: BKT-NBA-TEAM-GSW
+  attributes:
+    territory: Golden State
+    mascot: Warriors
+    abbreviation: GSW
+  references: {}
+  scope:
+    league: BKT-LEAGUE-NBA
+  source:
+    url: https://pdfroster.nba.com/golden-state-warriors/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Team
+  code: BKT-NBA-TEAM-HOU
+  attributes:
+    territory: Houston
+    mascot: Rockets
+    abbreviation: HOU
+  references: {}
+  scope:
+    league: BKT-LEAGUE-NBA
+  source:
+    url: https://pdfroster.nba.com/houston-rockets/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Team
+  code: BKT-NBA-TEAM-IND
+  attributes:
+    territory: Indiana
+    mascot: Pacers
+    abbreviation: IND
+  references: {}
+  scope:
+    league: BKT-LEAGUE-NBA
+  source:
+    url: https://pdfroster.nba.com/indiana-pacers/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Team
+  code: BKT-NBA-TEAM-LAC
+  attributes:
+    territory: Los Angeles
+    mascot: Clippers
+    abbreviation: LAC
+  references: {}
+  scope:
+    league: BKT-LEAGUE-NBA
+  source:
+    url: https://pdfroster.nba.com/los-angeles-clippers/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Team
+  code: BKT-NBA-TEAM-LAL
+  attributes:
+    territory: Los Angeles
+    mascot: Lakers
+    abbreviation: LAL
+  references: {}
+  scope:
+    league: BKT-LEAGUE-NBA
+  source:
+    url: https://pdfroster.nba.com/los-angeles-lakers/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Team
+  code: BKT-NBA-TEAM-MEM
+  attributes:
+    territory: Memphis
+    mascot: Grizzlies
+    abbreviation: MEM
+  references: {}
+  scope:
+    league: BKT-LEAGUE-NBA
+  source:
+    url: https://pdfroster.nba.com/memphis-grizzlies/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Team
+  code: BKT-NBA-TEAM-MIA
+  attributes:
+    territory: Miami
+    mascot: Heat
+    abbreviation: MIA
+  references: {}
+  scope:
+    league: BKT-LEAGUE-NBA
+  source:
+    url: https://pdfroster.nba.com/miami-heat/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Team
+  code: BKT-NBA-TEAM-MIL
+  attributes:
+    territory: Milwaukee
+    mascot: Bucks
+    abbreviation: MIL
+  references: {}
+  scope:
+    league: BKT-LEAGUE-NBA
+  source:
+    url: https://pdfroster.nba.com/milwaukee-bucks/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Team
+  code: BKT-NBA-TEAM-MIN
+  attributes:
+    territory: Minnesota
+    mascot: Timberwolves
+    abbreviation: MIN
+  references: {}
+  scope:
+    league: BKT-LEAGUE-NBA
+  source:
+    url: https://pdfroster.nba.com/minnesota-timberwolves/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Team
+  code: BKT-NBA-TEAM-NOP
+  attributes:
+    territory: New Orleans
+    mascot: Pelicans
+    abbreviation: NOP
+  references: {}
+  scope:
+    league: BKT-LEAGUE-NBA
+  source:
+    url: https://pdfroster.nba.com/new-orleans-pelicans/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Team
+  code: BKT-NBA-TEAM-NYK
+  attributes:
+    territory: New York
+    mascot: Knicks
+    abbreviation: NYK
+  references: {}
+  scope:
+    league: BKT-LEAGUE-NBA
+  source:
+    url: https://www.nba.com/knicks/news/new-york-knicks-acquire-josh-hart
+    note: 'Sample 2022_2023 season union: retain Portland and New York memberships;
+      not a complete roster.'
+    published_on: '2023-02-09'
+- type: Team
+  code: BKT-NBA-TEAM-OKC
+  attributes:
+    territory: Oklahoma City
+    mascot: Thunder
+    abbreviation: OKC
+  references: {}
+  scope:
+    league: BKT-LEAGUE-NBA
+  source:
+    url: https://pdfroster.nba.com/oklahoma-city-thunder/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Team
+  code: BKT-NBA-TEAM-ORL
+  attributes:
+    territory: Orlando
+    mascot: Magic
+    abbreviation: ORL
+  references: {}
+  scope:
+    league: BKT-LEAGUE-NBA
+  source:
+    url: https://pdfroster.nba.com/orlando-magic/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Team
+  code: BKT-NBA-TEAM-PHI
+  attributes:
+    territory: Philadelphia
+    mascot: 76ers
+    abbreviation: PHI
+  references: {}
+  scope:
+    league: BKT-LEAGUE-NBA
+  source:
+    url: https://pdfroster.nba.com/philadelphia-76ers/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Team
+  code: BKT-NBA-TEAM-PHX
+  attributes:
+    territory: Phoenix
+    mascot: Suns
+    abbreviation: PHX
+  references: {}
+  scope:
+    league: BKT-LEAGUE-NBA
+  source:
+    url: https://pdfroster.nba.com/phoenix-suns/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Team
+  code: BKT-NBA-TEAM-POR
+  attributes:
+    territory: Portland
+    mascot: Trail Blazers
+    abbreviation: POR
+  references: {}
+  scope:
+    league: BKT-LEAGUE-NBA
+  source:
+    url: https://www.nba.com/blazers/news/portland-completes-multi-team-trade
+    note: Stable team identity used by the Hart transfer sample.
+    published_on: '2023-02-09'
+- type: Team
+  code: BKT-NBA-TEAM-SAC
+  attributes:
+    territory: Sacramento
+    mascot: Kings
+    abbreviation: SAC
+  references: {}
+  scope:
+    league: BKT-LEAGUE-NBA
+  source:
+    url: https://pdfroster.nba.com/sacramento-kings/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Team
+  code: BKT-NBA-TEAM-SAS
+  attributes:
+    territory: San Antonio
+    mascot: Spurs
+    abbreviation: SAS
+  references: {}
+  scope:
+    league: BKT-LEAGUE-NBA
+  source:
+    url: https://pdfroster.nba.com/san-antonio-spurs/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Team
+  code: BKT-NBA-TEAM-TOR
+  attributes:
+    territory: Toronto
+    mascot: Raptors
+    abbreviation: TOR
+  references: {}
+  scope:
+    league: BKT-LEAGUE-NBA
+  source:
+    url: https://pdfroster.nba.com/toronto-raptors/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Team
+  code: BKT-NBA-TEAM-UTA
+  attributes:
+    territory: Utah
+    mascot: Jazz
+    abbreviation: UTA
+  references: {}
+  scope:
+    league: BKT-LEAGUE-NBA
+  source:
+    url: https://pdfroster.nba.com/utah-jazz/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.
+- type: Team
+  code: BKT-NBA-TEAM-WAS
+  attributes:
+    territory: Washington
+    mascot: Wizards
+    abbreviation: WAS
+  references: {}
+  scope:
+    league: BKT-LEAGUE-NBA
+  source:
+    url: https://pdfroster.nba.com/washington-wizards/
+    captured_on: '2026-10-05'
+    note: All names on the NBA director face sheet labeled 2025 season; a roster listing
+      captured on the stated date, not a complete season appearance union. Only the
+      first two source-listed players are selected.

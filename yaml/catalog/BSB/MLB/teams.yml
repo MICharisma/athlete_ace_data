@@ -1,0 +1,395 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Team
+  code: BSB-MLB-TEAM-ATH
+  attributes:
+    territory: Oakland
+    mascot: Athletics
+    abbreviation: ATH
+  references:
+    league: BSB-LEAGUE-MLB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/133/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Team
+  code: BSB-MLB-TEAM-ATL
+  attributes:
+    territory: Atlanta
+    mascot: Braves
+    abbreviation: ATL
+  references:
+    league: BSB-LEAGUE-MLB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/144/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Team
+  code: BSB-MLB-TEAM-AZ
+  attributes:
+    territory: Arizona
+    mascot: Diamondbacks
+    abbreviation: AZ
+  references:
+    league: BSB-LEAGUE-MLB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/109/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Team
+  code: BSB-MLB-TEAM-BAL
+  attributes:
+    territory: Baltimore
+    mascot: Orioles
+    abbreviation: BAL
+  references:
+    league: BSB-LEAGUE-MLB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/110/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Team
+  code: BSB-MLB-TEAM-BOS
+  attributes:
+    territory: Boston
+    mascot: Red Sox
+    abbreviation: BOS
+  references:
+    league: BSB-LEAGUE-MLB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/111/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Team
+  code: BSB-MLB-TEAM-CHC
+  attributes:
+    territory: Chicago
+    mascot: Cubs
+    abbreviation: CHC
+  references:
+    league: BSB-LEAGUE-MLB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/112/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Team
+  code: BSB-MLB-TEAM-CIN
+  attributes:
+    territory: Cincinnati
+    mascot: Reds
+    abbreviation: CIN
+  references:
+    league: BSB-LEAGUE-MLB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/113/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Team
+  code: BSB-MLB-TEAM-CLE
+  attributes:
+    territory: Cleveland
+    mascot: Guardians
+    abbreviation: CLE
+  references:
+    league: BSB-LEAGUE-MLB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/114/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Team
+  code: BSB-MLB-TEAM-COL
+  attributes:
+    territory: Colorado
+    mascot: Rockies
+    abbreviation: COL
+  references:
+    league: BSB-LEAGUE-MLB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/115/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Team
+  code: BSB-MLB-TEAM-CWS
+  attributes:
+    territory: Chicago
+    mascot: White Sox
+    abbreviation: CWS
+  references:
+    league: BSB-LEAGUE-MLB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/145/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Team
+  code: BSB-MLB-TEAM-DET
+  attributes:
+    territory: Detroit
+    mascot: Tigers
+    abbreviation: DET
+  references:
+    league: BSB-LEAGUE-MLB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/116/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Team
+  code: BSB-MLB-TEAM-HOU
+  attributes:
+    territory: Houston
+    mascot: Astros
+    abbreviation: HOU
+  references:
+    league: BSB-LEAGUE-MLB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/117/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Team
+  code: BSB-MLB-TEAM-KC
+  attributes:
+    territory: Kansas City
+    mascot: Royals
+    abbreviation: KC
+  references:
+    league: BSB-LEAGUE-MLB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/118/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Team
+  code: BSB-MLB-TEAM-LAA
+  attributes:
+    territory: Los Angeles
+    mascot: Angels
+    abbreviation: LAA
+  references:
+    league: BSB-LEAGUE-MLB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/108/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Team
+  code: BSB-MLB-TEAM-LAD
+  attributes:
+    territory: Los Angeles
+    mascot: Dodgers
+    abbreviation: LAD
+  references:
+    league: BSB-LEAGUE-MLB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Team
+  code: BSB-MLB-TEAM-MIA
+  attributes:
+    territory: Miami
+    mascot: Marlins
+    abbreviation: MIA
+  references:
+    league: BSB-LEAGUE-MLB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/146/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Team
+  code: BSB-MLB-TEAM-MIL
+  attributes:
+    territory: Milwaukee
+    mascot: Brewers
+    abbreviation: MIL
+  references:
+    league: BSB-LEAGUE-MLB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/158/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Team
+  code: BSB-MLB-TEAM-MIN
+  attributes:
+    territory: Minnesota
+    mascot: Twins
+    abbreviation: MIN
+  references:
+    league: BSB-LEAGUE-MLB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/142/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Team
+  code: BSB-MLB-TEAM-NYM
+  attributes:
+    territory: New York
+    mascot: Mets
+    abbreviation: NYM
+  references:
+    league: BSB-LEAGUE-MLB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Team
+  code: BSB-MLB-TEAM-NYY
+  attributes:
+    territory: New York
+    mascot: Yankees
+    abbreviation: NYY
+  references:
+    league: BSB-LEAGUE-MLB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/147/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Team
+  code: BSB-MLB-TEAM-PHI
+  attributes:
+    territory: Philadelphia
+    mascot: Phillies
+    abbreviation: PHI
+  references:
+    league: BSB-LEAGUE-MLB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/143/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Team
+  code: BSB-MLB-TEAM-PIT
+  attributes:
+    territory: Pittsburgh
+    mascot: Pirates
+    abbreviation: PIT
+  references:
+    league: BSB-LEAGUE-MLB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/134/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Team
+  code: BSB-MLB-TEAM-SD
+  attributes:
+    territory: San Diego
+    mascot: Padres
+    abbreviation: SD
+  references:
+    league: BSB-LEAGUE-MLB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/135/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Team
+  code: BSB-MLB-TEAM-SEA
+  attributes:
+    territory: Seattle
+    mascot: Mariners
+    abbreviation: SEA
+  references:
+    league: BSB-LEAGUE-MLB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/136/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Team
+  code: BSB-MLB-TEAM-SF
+  attributes:
+    territory: San Francisco
+    mascot: Giants
+    abbreviation: SF
+  references:
+    league: BSB-LEAGUE-MLB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/137/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Team
+  code: BSB-MLB-TEAM-STL
+  attributes:
+    territory: St. Louis
+    mascot: Cardinals
+    abbreviation: STL
+  references:
+    league: BSB-LEAGUE-MLB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/138/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Team
+  code: BSB-MLB-TEAM-TB
+  attributes:
+    territory: Tampa Bay
+    mascot: Rays
+    abbreviation: TB
+  references:
+    league: BSB-LEAGUE-MLB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/139/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Team
+  code: BSB-MLB-TEAM-TEX
+  attributes:
+    territory: Texas
+    mascot: Rangers
+    abbreviation: TEX
+  references:
+    league: BSB-LEAGUE-MLB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/140/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Team
+  code: BSB-MLB-TEAM-TOR
+  attributes:
+    territory: Toronto
+    mascot: Blue Jays
+    abbreviation: TOR
+  references:
+    league: BSB-LEAGUE-MLB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/141/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Team
+  code: BSB-MLB-TEAM-WSH
+  attributes:
+    territory: Washington
+    mascot: Nationals
+    abbreviation: WSH
+  references:
+    league: BSB-LEAGUE-MLB
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/120/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.

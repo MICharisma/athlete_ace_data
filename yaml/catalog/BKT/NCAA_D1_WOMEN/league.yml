@@ -1,0 +1,33 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: League
+  code: BKT-LEAGUE-NCAA_D1_WOMEN
+  attributes:
+    name: NCAA Division I Women's Basketball
+    abbreviation: NCAA D1 Women
+    url: https://www.ncaa.com/
+  references:
+    sport: SPORT-BKT
+    jurisdiction: COUNTRY-US
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/groups
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Conference
+  code: BKT-NCAA_D1_WOMEN-CONFERENCE-IVY_LEAGUE
+  attributes:
+    name: Ivy League
+    abbreviation: Ivy
+  references:
+    league: BKT-LEAGUE-NCAA_D1_WOMEN
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/womens-college-basketball/groups
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.

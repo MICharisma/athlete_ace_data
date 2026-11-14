@@ -1,0 +1,124 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-ABALOS_JAX
+  aliases:
+  - BKT-ESPN-PLAYER_5313690
+  attributes:
+    first_name: Jax
+    last_name: Abalos
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5313690.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/172/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-ABDULLAHI_MALIK
+  aliases:
+  - BKT-ESPN-PLAYER_5174791
+  attributes:
+    first_name: Malik
+    last_name: Abdullahi
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5174791.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/163/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-ABUSARA_NIKOLA
+  aliases:
+  - BKT-ESPN-PLAYER_5175921
+  attributes:
+    first_name: Nikola
+    last_name: Abusara
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5175921.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/159/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-ACE_NASTESKI_LUCA
+  aliases:
+  - BKT-ESPN-PLAYER_5175955
+  attributes:
+    first_name: Luca
+    last_name: Ace-Nasteski
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5175955.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/108/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-ADIGUN_JULIAN
+  aliases:
+  - BKT-ESPN-PLAYER_5309815
+  attributes:
+    first_name: Julian
+    last_name: Adigun
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5309815.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/108/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-ALDRICH_III_CJ
+  aliases:
+  - BKT-ESPN-PLAYER_5460680
+  attributes:
+    first_name: CJ
+    last_name: Aldrich III
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5460680.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/159/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-ALTMAN_RYAN
+  aliases:
+  - BKT-ESPN-PLAYER_5314645
+  attributes:
+    first_name: Ryan
+    last_name: Altman
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5314645.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/219/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.

@@ -1,0 +1,899 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: SOC-UCL-PLAYER-DAHMAN_ELIAS
+  aliases:
+  - SOC-ESPN-PLAYER_3139071
+  attributes:
+    first_name: Elias
+    last_name: Dahman
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/510/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DALAND_JESPER
+  aliases:
+  - SOC-ESPN-PLAYER_300089
+  attributes:
+    first_name: Jesper
+    last_name: Daland
+    birthdate: '2000-01-06'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/510/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DAMS_MATTEO
+  aliases:
+  - SOC-ESPN-PLAYER_331153
+  attributes:
+    first_name: Matteo
+    last_name: Dams
+    birthdate: '2004-03-09'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/570/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DANEK_KRYSTOF
+  aliases:
+  - SOC-ESPN-PLAYER_306899
+  attributes:
+    first_name: Krystof
+    last_name: Danek
+    birthdate: '2003-01-05'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/4411/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DASHDAMIROV_RAHMAN
+  aliases:
+  - SOC-ESPN-PLAYER_290642
+  attributes:
+    first_name: Rahman
+    last_name: Dashdamirov
+    birthdate: '1999-10-20'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/21922/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DAVID_JONATHAN
+  aliases:
+  - SOC-ESPN-PLAYER_273499
+  attributes:
+    first_name: Jonathan
+    last_name: David
+    birthdate: '2000-01-14'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/1068/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DAVIES_ALPHONSO
+  aliases:
+  - SOC-ESPN-PLAYER_236721
+  attributes:
+    first_name: Alphonso
+    last_name: Davies
+    birthdate: '2000-11-02'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/236721.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/132/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DA_CUNHA_LUCAS
+  aliases:
+  - SOC-ESPN-PLAYER_291285
+  attributes:
+    first_name: Lucas
+    last_name: Da Cunha
+    birthdate: '2001-06-09'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/2572/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DEBAST_ZENO
+  aliases:
+  - SOC-ESPN-PLAYER_314473
+  attributes:
+    first_name: Zeno
+    last_name: Debast
+    birthdate: '2003-10-24'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/2250/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DEIJL_MATS
+  aliases:
+  - SOC-ESPN-PLAYER_218529
+  attributes:
+    first_name: Mats
+    last_name: Deijl
+    birthdate: '1997-07-15'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/218529.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/142/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DELIGIANNIDIS_THEODORIS
+  aliases:
+  - SOC-ESPN-PLAYER_3145424
+  attributes:
+    first_name: Theodoris
+    last_name: Deligiannidis
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/142/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DEMBELE_OUSMANE
+  aliases:
+  - SOC-ESPN-PLAYER_229744
+  attributes:
+    first_name: Ousmane
+    last_name: Dembélé
+    birthdate: '1997-05-15'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/160/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DEMIROVIC_ERMEDIN
+  aliases:
+  - SOC-ESPN-PLAYER_269136
+  attributes:
+    first_name: Ermedin
+    last_name: Demirovic
+    birthdate: '1998-03-25'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/134/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DEMIR_YIGIT
+  aliases:
+  - SOC-ESPN-PLAYER_340186
+  attributes:
+    first_name: Yiğit
+    last_name: Demir
+    birthdate: '2004-08-02'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/436/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DEOSSA_NELSON
+  aliases:
+  - SOC-ESPN-PLAYER_322908
+  attributes:
+    first_name: Nelson
+    last_name: Deossa
+    birthdate: '2000-02-06'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/244/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DERRY_JESSE
+  aliases:
+  - SOC-ESPN-PLAYER_373759
+  attributes:
+    first_name: Jesse
+    last_name: Derry
+    birthdate: '2007-06-30'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/2250/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DEST_SERGINO
+  aliases:
+  - SOC-ESPN-PLAYER_266291
+  attributes:
+    first_name: Sergiño
+    last_name: Dest
+    birthdate: '2000-11-03'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/266291.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/148/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DE_BRUYNE_KEVIN
+  aliases:
+  - SOC-ESPN-PLAYER_134947
+  attributes:
+    first_name: Kevin
+    last_name: De Bruyne
+    birthdate: '1991-06-28'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/114/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DE_CORTE_AXL
+  aliases:
+  - SOC-ESPN-PLAYER_356107
+  attributes:
+    first_name: Axl
+    last_name: De Corte
+    birthdate: '2006-03-24'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/570/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DE_JONG_FRENKIE
+  aliases:
+  - SOC-ESPN-PLAYER_219022
+  attributes:
+    first_name: Frenkie
+    last_name: de Jong
+    birthdate: '1997-05-12'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/83/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DE_MARZI_GIORGIO
+  aliases:
+  - SOC-ESPN-PLAYER_398120
+  attributes:
+    first_name: Giorgio
+    last_name: De Marzi
+    birthdate: '2007-04-18'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/104/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DE_OLIVEIRA_DANTAS_RYAN_ROBERTO
+  aliases:
+  - SOC-ESPN-PLAYER_417559
+  attributes:
+    first_name: Ryan Roberto
+    last_name: De Oliveira Dantas
+    birthdate: '2008-03-05'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/493/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DE_PABLO_ALVARO
+  aliases:
+  - SOC-ESPN-PLAYER_394885
+  attributes:
+    first_name: Álvaro
+    last_name: De Pablo
+    birthdate: '2002-08-07'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/244/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DE_PINA_DUARTE_DOS_SANTOS_ENZO
+  aliases:
+  - SOC-ESPN-PLAYER_401450
+  attributes:
+    first_name: Enzo
+    last_name: De Pina Duarte Dos Santos
+    birthdate: '2009-01-28'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/124/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DE_ROON_MARTEN
+  aliases:
+  - SOC-ESPN-PLAYER_146335
+  attributes:
+    first_name: Marten
+    last_name: de Roon
+    birthdate: '1991-03-29'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/104/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DIAKHON_MAMADOU
+  aliases:
+  - SOC-ESPN-PLAYER_362875
+  attributes:
+    first_name: Mamadou
+    last_name: Diakhon
+    birthdate: '2005-09-22'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/570/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DIAKITE_TOUMANI
+  aliases:
+  - SOC-ESPN-PLAYER_406125
+  attributes:
+    first_name: Toumani
+    last_name: Diakité
+    birthdate: '2006-01-19'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/494/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DIAOUNE_SORIBA
+  aliases:
+  - SOC-ESPN-PLAYER_400352
+  attributes:
+    first_name: Soriba
+    last_name: Diaoune
+    birthdate: '2007-08-14'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/166/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DIAO_ASSANE
+  aliases:
+  - SOC-ESPN-PLAYER_364742
+  attributes:
+    first_name: Assane
+    last_name: Diao
+    birthdate: '2005-09-07'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/2572/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DIARRA_GAOUSSOU
+  aliases:
+  - SOC-ESPN-PLAYER_402344
+  attributes:
+    first_name: Gaoussou
+    last_name: Diarra
+    birthdate: '2002-11-21'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/402344.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/142/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DIARRA_MOUSSA
+  aliases:
+  - SOC-ESPN-PLAYER_213535
+  attributes:
+    first_name: Moussa
+    last_name: Diarra
+    birthdate: '2002-01-20'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/175/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DIAS_RODRIGO
+  aliases:
+  - SOC-ESPN-PLAYER_416643
+  attributes:
+    first_name: Rodrigo
+    last_name: Dias
+    birthdate: '2005-07-12'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/2250/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DIATTA_ALASSANE
+  aliases:
+  - SOC-ESPN-PLAYER_396751
+  attributes:
+    first_name: Alassane
+    last_name: Diatta
+    birthdate: '2005-05-14'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/102/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DIAZ_BRAHIM
+  aliases:
+  - SOC-ESPN-PLAYER_246532
+  attributes:
+    first_name: Brahim
+    last_name: Díaz
+    birthdate: '1999-08-03'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/86/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DIAZ_LUIS
+  aliases:
+  - SOC-ESPN-PLAYER_257390
+  attributes:
+    first_name: Luis
+    last_name: Díaz
+    birthdate: '1997-01-13'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/132/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DIBANGO_YVAN
+  aliases:
+  - SOC-ESPN-PLAYER_365165
+  attributes:
+    first_name: Yvan
+    last_name: Dibango
+    birthdate: '2002-03-10'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/4411/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DIEHL_JUSTIN
+  aliases:
+  - SOC-ESPN-PLAYER_357684
+  attributes:
+    first_name: Justin
+    last_name: Diehl
+    birthdate: '2004-11-27'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/134/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DIGNE_LUCAS
+  aliases:
+  - SOC-ESPN-PLAYER_160115
+  attributes:
+    first_name: Lucas
+    last_name: Digne
+    birthdate: '1993-07-20'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/160/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DIMARCO_FEDERICO
+  aliases:
+  - SOC-ESPN-PLAYER_194748
+  attributes:
+    first_name: Federico
+    last_name: Dimarco
+    birthdate: '1997-11-10'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/110/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DIOMANDE_YAN
+  aliases:
+  - SOC-ESPN-PLAYER_402479
+  attributes:
+    first_name: Yan
+    last_name: Diomande
+    birthdate: '2006-11-14'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/86/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DIOUF_ANDY
+  aliases:
+  - SOC-ESPN-PLAYER_319167
+  attributes:
+    first_name: Andy
+    last_name: Diouf
+    birthdate: '2003-05-17'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/110/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DI_GENNARO_RAFFAELE
+  aliases:
+  - SOC-ESPN-PLAYER_181322
+  attributes:
+    first_name: Raffaele
+    last_name: Di Gennaro
+    birthdate: '1993-10-03'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/110/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DI_LORENZO_GIOVANNI
+  aliases:
+  - SOC-ESPN-PLAYER_155904
+  attributes:
+    first_name: Giovanni
+    last_name: Di Lorenzo
+    birthdate: '1993-08-04'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/114/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DI_NUNZIO_ALESSANDRO
+  aliases:
+  - SOC-ESPN-PLAYER_3098218
+  attributes:
+    first_name: Alessandro
+    last_name: Di Nunzio
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/104/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DOMCHAK_NAZAR
+  aliases:
+  - SOC-ESPN-PLAYER_412120
+  attributes:
+    first_name: Nazar
+    last_name: Domchak
+    birthdate: '2007-04-06'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/494/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DOMINGUEZ_JORGE
+  aliases:
+  - SOC-ESPN-PLAYER_354378
+  attributes:
+    first_name: Jorge
+    last_name: Domínguez
+    birthdate: '2009-12-21'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/1068/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DORGELES_NENE
+  aliases:
+  - SOC-ESPN-PLAYER_329486
+  attributes:
+    first_name: Nene
+    last_name: Dorgeles
+    birthdate: '2002-12-23'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/436/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DOSSENA_ALBERTO
+  aliases:
+  - SOC-ESPN-PLAYER_252372
+  attributes:
+    first_name: Alberto
+    last_name: Dossena
+    birthdate: '1998-10-13'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/2572/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DOUE_DESIRE
+  aliases:
+  - SOC-ESPN-PLAYER_336388
+  attributes:
+    first_name: Désiré
+    last_name: Doué
+    birthdate: '2005-06-03'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/160/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DOUMBIA_ISSA
+  aliases:
+  - SOC-ESPN-PLAYER_386592
+  attributes:
+    first_name: Issa
+    last_name: Doumbia
+    birthdate: '2003-10-16'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/2250/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DOUVIKAS_ANASTASIOS
+  aliases:
+  - SOC-ESPN-PLAYER_262071
+  attributes:
+    first_name: Anastasios
+    last_name: Douvikas
+    birthdate: '1999-08-02'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/262071.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/2572/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DRABAND_DOMINIK
+  aliases:
+  - SOC-ESPN-PLAYER_278013
+  attributes:
+    first_name: Dominik
+    last_name: Draband
+    birthdate: '1996-03-07'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/134/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DREWES_PATRICK
+  aliases:
+  - SOC-ESPN-PLAYER_174521
+  attributes:
+    first_name: Patrick
+    last_name: Drewes
+    birthdate: '1993-02-04'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/124/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DRIESSCHE_ARGUS
+  aliases:
+  - SOC-ESPN-PLAYER_371691
+  attributes:
+    first_name: Argus
+    last_name: Driessche
+    birthdate: '2007-04-22'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/570/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DRLJACA_STEFAN
+  aliases:
+  - SOC-ESPN-PLAYER_301319
+  attributes:
+    first_name: Stefan
+    last_name: Drljaca
+    birthdate: '1999-04-20'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/134/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DUMFRIES_DENZEL
+  aliases:
+  - SOC-ESPN-PLAYER_213248
+  attributes:
+    first_name: Denzel
+    last_name: Dumfries
+    birthdate: '1996-04-18'
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/soccer/players/full/213248.png
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/86/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DU_QUEIROZ
+  aliases:
+  - SOC-ESPN-PLAYER_321356
+  attributes:
+    first_name: Du Queiroz
+    last_name: ''
+    birthdate: '2000-01-07'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/21922/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-DYBALA_PAULO
+  aliases:
+  - SOC-ESPN-PLAYER_164839
+  attributes:
+    first_name: Paulo
+    last_name: Dybala
+    birthdate: '1993-11-15'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/104/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.
+- type: Player
+  code: SOC-UCL-PLAYER-D_AGOSTINO_NICHOLAS
+  aliases:
+  - SOC-ESPN-PLAYER_217096
+  attributes:
+    first_name: Nicholas
+    last_name: D'Agostino
+    birthdate: '1998-02-25'
+  references:
+    sport: SPORT-SOC
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/teams/510/roster?season=2026
+    captured_on: '2026-10-26'
+    note: Complete source-listed season roster captured on 2026-10-26; not a complete
+      historical season union or a competition registration certification.

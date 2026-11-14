@@ -1,0 +1,545 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Campaign
+  code: BSB-MLB-SEASON_2026-TEAM-ATH
+  attributes:
+    display_name: Athletics
+    abbreviation: ATH
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 60
+      roster_meaning: Complete official fullSeason roster inventory, including departed
+        players. Does not assert current active-roster status or dates of number assignments.
+  references:
+    team: BSB-MLB-TEAM-ATH
+    season: BSB-MLB-SEASON_2026
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/133/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Campaign
+  code: BSB-MLB-SEASON_2026-TEAM-ATL
+  attributes:
+    display_name: Atlanta Braves
+    abbreviation: ATL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 62
+      roster_meaning: Complete official fullSeason roster inventory, including departed
+        players. Does not assert current active-roster status or dates of number assignments.
+  references:
+    team: BSB-MLB-TEAM-ATL
+    season: BSB-MLB-SEASON_2026
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/144/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Campaign
+  code: BSB-MLB-SEASON_2026-TEAM-AZ
+  attributes:
+    display_name: Arizona Diamondbacks
+    abbreviation: AZ
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 56
+      roster_meaning: Complete official fullSeason roster inventory, including departed
+        players. Does not assert current active-roster status or dates of number assignments.
+  references:
+    team: BSB-MLB-TEAM-AZ
+    season: BSB-MLB-SEASON_2026
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/109/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Campaign
+  code: BSB-MLB-SEASON_2026-TEAM-BAL
+  attributes:
+    display_name: Baltimore Orioles
+    abbreviation: BAL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 60
+      roster_meaning: Complete official fullSeason roster inventory, including departed
+        players. Does not assert current active-roster status or dates of number assignments.
+  references:
+    team: BSB-MLB-TEAM-BAL
+    season: BSB-MLB-SEASON_2026
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/110/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Campaign
+  code: BSB-MLB-SEASON_2026-TEAM-BOS
+  attributes:
+    display_name: Boston Red Sox
+    abbreviation: BOS
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 56
+      roster_meaning: Complete official fullSeason roster inventory, including departed
+        players. Does not assert current active-roster status or dates of number assignments.
+  references:
+    team: BSB-MLB-TEAM-BOS
+    season: BSB-MLB-SEASON_2026
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/111/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Campaign
+  code: BSB-MLB-SEASON_2026-TEAM-CHC
+  attributes:
+    display_name: Chicago Cubs
+    abbreviation: CHC
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 62
+      roster_meaning: Complete official fullSeason roster inventory, including departed
+        players. Does not assert current active-roster status or dates of number assignments.
+  references:
+    team: BSB-MLB-TEAM-CHC
+    season: BSB-MLB-SEASON_2026
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/112/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Campaign
+  code: BSB-MLB-SEASON_2026-TEAM-CIN
+  attributes:
+    display_name: Cincinnati Reds
+    abbreviation: CIN
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 56
+      roster_meaning: Complete official fullSeason roster inventory, including departed
+        players. Does not assert current active-roster status or dates of number assignments.
+  references:
+    team: BSB-MLB-TEAM-CIN
+    season: BSB-MLB-SEASON_2026
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/113/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Campaign
+  code: BSB-MLB-SEASON_2026-TEAM-CLE
+  attributes:
+    display_name: Cleveland Guardians
+    abbreviation: CLE
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 47
+      roster_meaning: Complete official fullSeason roster inventory, including departed
+        players. Does not assert current active-roster status or dates of number assignments.
+  references:
+    team: BSB-MLB-TEAM-CLE
+    season: BSB-MLB-SEASON_2026
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/114/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Campaign
+  code: BSB-MLB-SEASON_2026-TEAM-COL
+  attributes:
+    display_name: Colorado Rockies
+    abbreviation: COL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 54
+      roster_meaning: Complete official fullSeason roster inventory, including departed
+        players. Does not assert current active-roster status or dates of number assignments.
+  references:
+    team: BSB-MLB-TEAM-COL
+    season: BSB-MLB-SEASON_2026
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/115/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Campaign
+  code: BSB-MLB-SEASON_2026-TEAM-CWS
+  attributes:
+    display_name: Chicago White Sox
+    abbreviation: CWS
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 58
+      roster_meaning: Complete official fullSeason roster inventory, including departed
+        players. Does not assert current active-roster status or dates of number assignments.
+  references:
+    team: BSB-MLB-TEAM-CWS
+    season: BSB-MLB-SEASON_2026
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/145/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Campaign
+  code: BSB-MLB-SEASON_2026-TEAM-DET
+  attributes:
+    display_name: Detroit Tigers
+    abbreviation: DET
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 54
+      roster_meaning: Complete official fullSeason roster inventory, including departed
+        players. Does not assert current active-roster status or dates of number assignments.
+  references:
+    team: BSB-MLB-TEAM-DET
+    season: BSB-MLB-SEASON_2026
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/116/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Campaign
+  code: BSB-MLB-SEASON_2026-TEAM-HOU
+  attributes:
+    display_name: Houston Astros
+    abbreviation: HOU
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 59
+      roster_meaning: Complete official fullSeason roster inventory, including departed
+        players. Does not assert current active-roster status or dates of number assignments.
+  references:
+    team: BSB-MLB-TEAM-HOU
+    season: BSB-MLB-SEASON_2026
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/117/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Campaign
+  code: BSB-MLB-SEASON_2026-TEAM-KC
+  attributes:
+    display_name: Kansas City Royals
+    abbreviation: KC
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 55
+      roster_meaning: Complete official fullSeason roster inventory, including departed
+        players. Does not assert current active-roster status or dates of number assignments.
+  references:
+    team: BSB-MLB-TEAM-KC
+    season: BSB-MLB-SEASON_2026
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/118/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Campaign
+  code: BSB-MLB-SEASON_2026-TEAM-LAA
+  attributes:
+    display_name: Los Angeles Angels
+    abbreviation: LAA
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 60
+      roster_meaning: Complete official fullSeason roster inventory, including departed
+        players. Does not assert current active-roster status or dates of number assignments.
+  references:
+    team: BSB-MLB-TEAM-LAA
+    season: BSB-MLB-SEASON_2026
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/108/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Campaign
+  code: BSB-MLB-SEASON_2026-TEAM-LAD
+  attributes:
+    display_name: Los Angeles Dodgers
+    abbreviation: LAD
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 53
+      roster_meaning: Complete official fullSeason roster inventory, including departed
+        players. Does not assert current active-roster status or dates of number assignments.
+  references:
+    team: BSB-MLB-TEAM-LAD
+    season: BSB-MLB-SEASON_2026
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Campaign
+  code: BSB-MLB-SEASON_2026-TEAM-MIA
+  attributes:
+    display_name: Miami Marlins
+    abbreviation: MIA
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 48
+      roster_meaning: Complete official fullSeason roster inventory, including departed
+        players. Does not assert current active-roster status or dates of number assignments.
+  references:
+    team: BSB-MLB-TEAM-MIA
+    season: BSB-MLB-SEASON_2026
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/146/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Campaign
+  code: BSB-MLB-SEASON_2026-TEAM-MIL
+  attributes:
+    display_name: Milwaukee Brewers
+    abbreviation: MIL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 56
+      roster_meaning: Complete official fullSeason roster inventory, including departed
+        players. Does not assert current active-roster status or dates of number assignments.
+  references:
+    team: BSB-MLB-TEAM-MIL
+    season: BSB-MLB-SEASON_2026
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/158/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Campaign
+  code: BSB-MLB-SEASON_2026-TEAM-MIN
+  attributes:
+    display_name: Minnesota Twins
+    abbreviation: MIN
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 56
+      roster_meaning: Complete official fullSeason roster inventory, including departed
+        players. Does not assert current active-roster status or dates of number assignments.
+  references:
+    team: BSB-MLB-TEAM-MIN
+    season: BSB-MLB-SEASON_2026
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/142/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Campaign
+  code: BSB-MLB-SEASON_2026-TEAM-NYM
+  attributes:
+    display_name: New York Mets
+    abbreviation: NYM
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 64
+      roster_meaning: Complete official fullSeason roster inventory, including departed
+        players. Does not assert current active-roster status or dates of number assignments.
+  references:
+    team: BSB-MLB-TEAM-NYM
+    season: BSB-MLB-SEASON_2026
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Campaign
+  code: BSB-MLB-SEASON_2026-TEAM-NYY
+  attributes:
+    display_name: New York Yankees
+    abbreviation: NYY
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 49
+      roster_meaning: Complete official fullSeason roster inventory, including departed
+        players. Does not assert current active-roster status or dates of number assignments.
+  references:
+    team: BSB-MLB-TEAM-NYY
+    season: BSB-MLB-SEASON_2026
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/147/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Campaign
+  code: BSB-MLB-SEASON_2026-TEAM-PHI
+  attributes:
+    display_name: Philadelphia Phillies
+    abbreviation: PHI
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 48
+      roster_meaning: Complete official fullSeason roster inventory, including departed
+        players. Does not assert current active-roster status or dates of number assignments.
+  references:
+    team: BSB-MLB-TEAM-PHI
+    season: BSB-MLB-SEASON_2026
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/143/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Campaign
+  code: BSB-MLB-SEASON_2026-TEAM-PIT
+  attributes:
+    display_name: Pittsburgh Pirates
+    abbreviation: PIT
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 53
+      roster_meaning: Complete official fullSeason roster inventory, including departed
+        players. Does not assert current active-roster status or dates of number assignments.
+  references:
+    team: BSB-MLB-TEAM-PIT
+    season: BSB-MLB-SEASON_2026
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/134/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Campaign
+  code: BSB-MLB-SEASON_2026-TEAM-SD
+  attributes:
+    display_name: San Diego Padres
+    abbreviation: SD
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 49
+      roster_meaning: Complete official fullSeason roster inventory, including departed
+        players. Does not assert current active-roster status or dates of number assignments.
+  references:
+    team: BSB-MLB-TEAM-SD
+    season: BSB-MLB-SEASON_2026
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/135/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Campaign
+  code: BSB-MLB-SEASON_2026-TEAM-SEA
+  attributes:
+    display_name: Seattle Mariners
+    abbreviation: SEA
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 53
+      roster_meaning: Complete official fullSeason roster inventory, including departed
+        players. Does not assert current active-roster status or dates of number assignments.
+  references:
+    team: BSB-MLB-TEAM-SEA
+    season: BSB-MLB-SEASON_2026
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/136/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Campaign
+  code: BSB-MLB-SEASON_2026-TEAM-SF
+  attributes:
+    display_name: San Francisco Giants
+    abbreviation: SF
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 71
+      roster_meaning: Complete official fullSeason roster inventory, including departed
+        players. Does not assert current active-roster status or dates of number assignments.
+  references:
+    team: BSB-MLB-TEAM-SF
+    season: BSB-MLB-SEASON_2026
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/137/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Campaign
+  code: BSB-MLB-SEASON_2026-TEAM-STL
+  attributes:
+    display_name: St. Louis Cardinals
+    abbreviation: STL
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 50
+      roster_meaning: Complete official fullSeason roster inventory, including departed
+        players. Does not assert current active-roster status or dates of number assignments.
+  references:
+    team: BSB-MLB-TEAM-STL
+    season: BSB-MLB-SEASON_2026
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/138/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Campaign
+  code: BSB-MLB-SEASON_2026-TEAM-TB
+  attributes:
+    display_name: Tampa Bay Rays
+    abbreviation: TB
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 53
+      roster_meaning: Complete official fullSeason roster inventory, including departed
+        players. Does not assert current active-roster status or dates of number assignments.
+  references:
+    team: BSB-MLB-TEAM-TB
+    season: BSB-MLB-SEASON_2026
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/139/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Campaign
+  code: BSB-MLB-SEASON_2026-TEAM-TEX
+  attributes:
+    display_name: Texas Rangers
+    abbreviation: TEX
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 55
+      roster_meaning: Complete official fullSeason roster inventory, including departed
+        players. Does not assert current active-roster status or dates of number assignments.
+  references:
+    team: BSB-MLB-TEAM-TEX
+    season: BSB-MLB-SEASON_2026
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/140/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Campaign
+  code: BSB-MLB-SEASON_2026-TEAM-TOR
+  attributes:
+    display_name: Toronto Blue Jays
+    abbreviation: TOR
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 63
+      roster_meaning: Complete official fullSeason roster inventory, including departed
+        players. Does not assert current active-roster status or dates of number assignments.
+  references:
+    team: BSB-MLB-TEAM-TOR
+    season: BSB-MLB-SEASON_2026
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/141/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.
+- type: Campaign
+  code: BSB-MLB-SEASON_2026-TEAM-WSH
+  attributes:
+    display_name: Washington Nationals
+    abbreviation: WSH
+    details:
+      roster_coverage: complete_source_listing
+      source_player_count: 60
+      roster_meaning: Complete official fullSeason roster inventory, including departed
+        players. Does not assert current active-roster status or dates of number assignments.
+  references:
+    team: BSB-MLB-TEAM-WSH
+    season: BSB-MLB-SEASON_2026
+  source:
+    url: https://statsapi.mlb.com/api/v1/teams/120/roster?rosterType=fullSeason&season=2026&hydrate=person
+    captured_on: '2026-10-26'
+    note: Complete official fullSeason roster inventory, including departed players.
+      Does not assert current active-roster status or dates of number assignments.

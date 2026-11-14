@@ -1,0 +1,13 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Sport
+  code: SPORT-HCK
+  attributes:
+    name: Hockey
+  references: {}
+  source:
+    url: https://records.nhl.com/standings/all-time-standings
+    note: Official league record archive through 2025-26; pilot definitions only.

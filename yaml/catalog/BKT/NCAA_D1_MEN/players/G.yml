@@ -1,0 +1,107 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-GARRETT_TYLER
+  aliases:
+  - BKT-ESPN-PLAYER_5313701
+  attributes:
+    first_name: Tyler
+    last_name: Garrett
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5313701.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/159/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-GEREMIA_CHASE
+  aliases:
+  - BKT-ESPN-PLAYER_5459459
+  attributes:
+    first_name: Chase
+    last_name: Geremia
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5459459.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/219/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-GERHART_AUGUSTUS
+  aliases:
+  - BKT-ESPN-PLAYER_5182415
+  attributes:
+    first_name: Augustus
+    last_name: Gerhart
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5182415.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/219/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-GIBSON_QUINN
+  aliases:
+  - BKT-ESPN-PLAYER_5460045
+  attributes:
+    first_name: Quinn
+    last_name: Gibson
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5460045.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/172/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-GLOGOVAC_DORIAN
+  aliases:
+  - BKT-ESPN-PLAYER_5317846
+  attributes:
+    first_name: Dorian
+    last_name: Glogovac
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5317846.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/219/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.
+- type: Player
+  code: BKT-NCAA_D1_MEN-PLAYER-GRIFFIN_ELIJAH
+  aliases:
+  - BKT-ESPN-PLAYER_5313689
+  attributes:
+    first_name: Elijah
+    last_name: Griffin
+    photo_urls:
+    - https://a.espncdn.com/i/headshots/mens-college-basketball/players/full/5313689.png
+  references:
+    sport: SPORT-BKT
+  source:
+    url: https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/172/roster?season=2027
+    captured_on: '2026-11-13'
+    note: Complete ESPN season roster listing captured on 2026-11-13, checked against
+      the school's official 2026-27 roster page. Not an appearance union or an NCAA
+      eligibility certification.

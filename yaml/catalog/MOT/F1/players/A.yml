@@ -1,0 +1,56 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Player
+  code: MOT-F1-PLAYER-ALBON_ALEXANDER
+  aliases:
+  - MOT-JOLPICA-DRIVER_ALBON
+  attributes:
+    first_name: Alexander
+    last_name: Albon
+    birthdate: '1996-03-23'
+  references:
+    sport: SPORT-MOT
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Player
+  code: MOT-F1-PLAYER-ALONSO_FERNANDO
+  aliases:
+  - MOT-JOLPICA-DRIVER_ALONSO
+  attributes:
+    first_name: Fernando
+    last_name: Alonso
+    birthdate: '1981-07-29'
+  references:
+    sport: SPORT-MOT
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.
+- type: Player
+  code: MOT-F1-PLAYER-ANTONELLI_ANDREA_KIMI
+  aliases:
+  - MOT-JOLPICA-DRIVER_ANTONELLI
+  attributes:
+    first_name: Andrea Kimi
+    last_name: Antonelli
+    birthdate: '2006-08-25'
+  references:
+    sport: SPORT-MOT
+  source:
+    url: https://api.jolpi.ca/ergast/f1/2026.json
+    captured_on: '2026-11-13'
+    note: Jolpica-F1 calendar, circuits, constructors and drivers for the 2026 season,
+      with every published race and sprint result as of the capture date. The driver
+      table includes practice and reserve drivers; only drivers with race or sprint
+      results are race entrants. Races after the capture date have no results.

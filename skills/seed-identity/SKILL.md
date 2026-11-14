@@ -76,4 +76,4 @@ Surface it rather than settle it: list the candidates, their evidence, and the p
 
 ## References
 
-The application's `docs/yaml-seed-library.md` (Figures and names, Optional lookup sequences) and `docs/entity-code-decisions.md`. Example: `yaml/figures/steve_kerr.yaml`, `yaml/nfl_raiders_city_history.yaml`.
+The application's `docs/yaml-seed-library.md` (Figures and names, Optional lookup sequences) and `docs/entity-code-decisions.md`. Examples: `yaml/figures/steve_kerr.yaml` (its Figure and Player are in `yaml/catalog/figures/K.yml` and `yaml/catalog/players/K.yml`) and the Raiders' aliases in `yaml/catalog/FTB/NFL/teams.yml`.
