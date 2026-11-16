@@ -1,10 +1,12 @@
 require "cgi"
 require "json"
+require "fileutils"
 
 root = File.expand_path("..", __dir__)
 entries = JSON.parse(File.read(File.join(root, "sources/coverage_2026/visual_assets.json")))
+media = JSON.parse(File.read(File.join(root, "sources/coverage_2026/media.json")))
 cards = entries.map do |entry|
-  path = CGI.escapeHTML(entry.fetch("path").delete_prefix("media/"))
+  path = CGI.escapeHTML("https://raw.githubusercontent.com/#{media.fetch('repository')}/#{media.fetch('commit')}/#{entry.fetch('path').delete_prefix('media/')}")
   name = CGI.escapeHTML(entry.fetch("name"))
   kind = CGI.escapeHTML(entry.fetch("kind"))
   picture = path.end_with?(".glb") ? %(<canvas data-model="#{path}" width="360" height="260" aria-label="#{name}"></canvas>) : %(<img src="#{path}" alt="#{name}" loading="lazy">)
@@ -49,5 +51,6 @@ html = <<~HTML
     })).then(()=>{document.querySelector('#status').textContent=models.length+' 3D files loaded and rendered.';document.documentElement.dataset.models='ready';}).catch(error=>{document.querySelector('#status').textContent=error.message;document.documentElement.dataset.models='failed';});
   </script></html>
 HTML
+FileUtils.mkdir_p File.join(root, "media")
 File.write(File.join(root, "media/index.html"), html)
 puts "Wrote #{entries.size} asset previews to media/index.html"

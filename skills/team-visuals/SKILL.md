@@ -11,7 +11,7 @@ Visuals are owners' works. We record where they came from and what they depict; 
 
 - `Logo` — periods may overlap; concurrent marks are intentional.
 - `UniformCampaign` — a design reused across seasons/competitions; `UniformPiece` names its components (no shared garment taxonomy).
-- `AssetRepresentation` — one canonical local file per owner, format, and view, with content type, byte size, and SHA-256.
+- `AssetRepresentation` — one canonical file per owner, format, and view, with content type, byte size, SHA-256, and pinned GitHub repository, commit, and path.
 - Team palette — primary/secondary colors; `text_color` is derived (white or near-black by contrast).
 
 Uniform designs and their nicknames are separate from jersey-number assignments.
@@ -29,19 +29,21 @@ Player headshots: record verified official URLs only (HEAD request returns an im
 - When a source is unavailable (NBA Store, LockerVision), the depiction stays schematic and the README says why.
 - Missing historical introduction dates stay unknown.
 
-## Local media workflow
+## Media ingestion workflow
 
-Files live under the data repository's ignored `media/` directory; manifests store references and checksums only.
+Files live in the independent public `MICharisma/athlete_ace_media` repository, which is not a submodule. Manifests retain original provenance and add `source.github` with `repository`, full 40-character `commit`, and relative `path`. The application's [seed media guide](../../../../../docs/seed-media.md) describes adding files. `canonical_path` remains a logical catalog path, not a runtime file location.
 
 ```sh
-mise exec -- ruby db/seeds/athlete_ace_data/scripts/build_visual_assets.rb --download
+mise exec -- bundle exec rails db:migrate
 mise exec -- bundle exec rails seeds:validate db:seed
 mise exec -- bundle exec rails seeds:assets:verify
 mise exec -- ruby db/seeds/athlete_ace_data/scripts/build_visual_assets.rb --check
 mise exec -- ruby db/seeds/athlete_ace_data/scripts/preview_visual_assets.rb
 ```
 
-`seeds:assets:verify` raises on missing, empty, resized, or changed files, or when nothing was imported.
+`db:seed` downloads pinned raw files into application Active Storage after importing the catalog. `seeds:assets:import` resumes ingestion separately. Replays verify stored files without fetching them from GitHub again. `seeds:assets:verify` raises on missing, empty, resized, or changed stored files, or when nothing was imported. A nonzero exit means the check failed.
+
+The pilot generator reads `sources/coverage_2026/media.json` offline, including its repository commit and per-file checksums. It does not download original provider URLs. The developer preview uses pinned raw URLs; the application serves stored copies. Docker builds contain no canonical media files.
 
 ## Palettes
 

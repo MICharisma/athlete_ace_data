@@ -1,7 +1,6 @@
 require "digest"
 require "fileutils"
 require "json"
-require "net/http"
 require "yaml"
 
 class VisualAssetPilot
@@ -16,11 +15,11 @@ class VisualAssetPilot
     "Third" => "https://media.d3.nhle.com/image/private/t_ratio1_1-size30/f_auto/prd/c2nzm1e6tp2apnmdr3o9.jpg"
   }.freeze
 
-  def initialize(check: false, download: false)
-    @check, @download = check, download
+  def initialize(check: false)
+    @check = check
     @records = []
     @gallery = []
-    FileUtils.mkdir_p(File.join(ROOT, "media/pilot")) unless check
+    @media = JSON.parse File.read(File.join(ROOT, "sources/coverage_2026/media.json"))
   end
 
   def add(type, code, attributes, references, source)
@@ -37,25 +36,17 @@ class VisualAssetPilot
 
   def asset(subject, filename, source:, bytes: nil, view: "default", depiction: "source_image")
     relative = "media/pilot/#{filename}"
-    path = File.join(ROOT, relative)
-    if bytes
-      save(path, bytes)
-    elsif @download
-      uri = URI(source.fetch("asset_url"))
-      response = Net::HTTP.start(uri.host, uri.port, use_ssl: true, open_timeout: 10, read_timeout: 30) do |http|
-        http.get(uri.request_uri, "User-Agent" => "Mozilla/5.0")
-      end
-      raise "HTTP #{response.code}: #{uri}" unless response.is_a?(Net::HTTPSuccess)
-      raise "Expected an image: #{uri}" unless response["content-type"].to_s.start_with?("image/")
-      save(path, response.body)
+    media_path = relative.delete_prefix "media/"
+    metadata = @media.fetch("files").fetch(media_path)
+    if bytes && (Digest::SHA256.hexdigest(bytes) != metadata.fetch("sha256") || bytes.bytesize != metadata.fetch("byte_size"))
+      raise "Generated file differs from pinned media: #{media_path}"
     end
-    raise "Missing local asset #{path}; run with --download" unless File.file?(path)
     format = File.extname(filename).delete_prefix(".")
     content_type = { "svg" => "image/svg+xml", "png" => "image/png", "jpg" => "image/jpeg", "webp" => "image/webp", "glb" => "model/gltf-binary" }.fetch(format)
     add("AssetRepresentation", "#{subject}-FILE-#{filename.upcase.gsub(/[^A-Z0-9]+/, '_')}", {
       "canonical_path" => relative, "file_format" => format, "content_type" => content_type, "view" => view,
-      "sha256" => Digest::SHA256.file(path).hexdigest, "byte_size" => File.size(path), "details" => { "depiction" => depiction }
-    }, { "subject" => subject }, source)
+      **metadata, "details" => { "depiction" => depiction }
+    }, { "subject" => subject }, source.merge("github" => @media.slice("repository", "commit").merge("path" => media_path)))
     relative
   end
 
@@ -151,7 +142,7 @@ class VisualAssetPilot
 end
 
 if $PROGRAM_NAME == __FILE__
-  check, download = ARGV.delete("--check"), ARGV.delete("--download")
-  abort "Usage: ruby scripts/build_visual_assets.rb [--download|--check]" unless ARGV.empty? && !(check && download)
-  VisualAssetPilot.new(check: check, download: download).run
+  check = ARGV.delete "--check"
+  abort "Usage: ruby scripts/build_visual_assets.rb [--check]" unless ARGV.empty?
+  VisualAssetPilot.new(check: check).run
 end
