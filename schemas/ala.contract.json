@@ -462,7 +462,8 @@
         }
       },
       "references": [
-        "league"
+        "league",
+        "primary_logo"
       ]
     },
     "Contest": {
@@ -709,7 +710,8 @@
       },
       "references": [
         "conference",
-        "league"
+        "league",
+        "primary_logo"
       ]
     },
     "Federation": {
@@ -819,7 +821,9 @@
         },
         "source": {}
       },
-      "references": []
+      "references": [
+        "primary_portrait"
+      ]
     },
     "FigureBusinessRelationship": {
       "attributes": {
@@ -1177,6 +1181,7 @@
       },
       "references": [
         "jurisdiction",
+        "primary_logo",
         "sport"
       ]
     },
@@ -1224,7 +1229,7 @@
         }
       },
       "references": [
-        "team"
+        "owner"
       ]
     },
     "Membership": {
@@ -1791,7 +1796,9 @@
           ]
         }
       },
-      "references": []
+      "references": [
+        "primary_logo"
+      ]
     },
     "Stadium": {
       "attributes": {
@@ -2082,6 +2089,7 @@
       },
       "references": [
         "league",
+        "primary_logo",
         "stadium"
       ]
     },

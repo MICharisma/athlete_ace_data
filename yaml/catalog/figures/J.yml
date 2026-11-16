@@ -4,6 +4,14 @@ namespace: MIC
 catalog: ALA
 records:
 - type: Figure
+  code: FIGURE-BKT-NBA-PLAYER-JAMES_LEBRON
+  attributes:
+    first_name: LeBron
+    last_name: James
+  references: {}
+  source:
+    url: https://www.nba.com/player/2544/lebron-james
+- type: Figure
   code: FIGURE-JACKSON_PHIL
   attributes:
     name: Phil Jackson

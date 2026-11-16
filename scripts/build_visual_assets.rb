@@ -86,7 +86,7 @@ class VisualAssetPilot
   def logo(team, name, role, filename, asset_url, url)
     code = "#{team}-LOGO-#{role.upcase}"
     source = { "url" => url, "asset_url" => asset_url, "captured_on" => AS_OF }
-    add("Logo", code, { "name" => name, "role" => role, "ongoing" => true }, { "team" => team }, source)
+    add("Logo", code, { "name" => name, "role" => role, "ongoing" => true }, { "owner" => team }, source)
     path = asset(code, filename, source: source)
     @gallery << { "name" => name, "path" => path, "kind" => "Logo" }
   end

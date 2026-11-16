@@ -812,6 +812,9 @@
               "properties": {
                 "league": {
                   "$ref": "#/$defs/reference"
+                },
+                "primary_logo": {
+                  "$ref": "#/$defs/reference"
                 }
               },
               "required": [],
@@ -1175,6 +1178,9 @@
                 },
                 "league": {
                   "$ref": "#/$defs/reference"
+                },
+                "primary_logo": {
+                  "$ref": "#/$defs/reference"
                 }
               },
               "required": [],
@@ -1315,7 +1321,11 @@
             },
             "references": {
               "type": "object",
-              "properties": {},
+              "properties": {
+                "primary_portrait": {
+                  "$ref": "#/$defs/reference"
+                }
+              },
               "required": [],
               "additionalProperties": false
             }
@@ -1770,6 +1780,9 @@
                 "jurisdiction": {
                   "$ref": "#/$defs/reference"
                 },
+                "primary_logo": {
+                  "$ref": "#/$defs/reference"
+                },
                 "sport": {
                   "$ref": "#/$defs/reference"
                 }
@@ -1834,7 +1847,7 @@
             "references": {
               "type": "object",
               "properties": {
-                "team": {
+                "owner": {
                   "$ref": "#/$defs/reference"
                 }
               },
@@ -2682,7 +2695,11 @@
             },
             "references": {
               "type": "object",
-              "properties": {},
+              "properties": {
+                "primary_logo": {
+                  "$ref": "#/$defs/reference"
+                }
+              },
               "required": [],
               "additionalProperties": false
             }
@@ -3068,6 +3085,9 @@
               "type": "object",
               "properties": {
                 "league": {
+                  "$ref": "#/$defs/reference"
+                },
+                "primary_logo": {
                   "$ref": "#/$defs/reference"
                 },
                 "stadium": {

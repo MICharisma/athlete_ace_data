@@ -10,7 +10,7 @@ records:
     role: primary
     ongoing: true
   references:
-    team: BKT-NBA-TEAM-NYK
+    owner: BKT-NBA-TEAM-NYK
   source:
     url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/18/roster?season=2027
     asset_url: https://a.espncdn.com/i/teamlogos/nba/500/ny.png
@@ -43,7 +43,7 @@ records:
     role: secondary
     ongoing: true
   references:
-    team: BKT-NBA-TEAM-NYK
+    owner: BKT-NBA-TEAM-NYK
   source:
     url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/18/roster?season=2027
     asset_url: https://a.espncdn.com/guid/61719eb2-11c3-4e3d-90c3-0a1319fd850b/logos/secondary_logo_on_white_color.png
@@ -76,7 +76,7 @@ records:
     role: primary
     ongoing: true
   references:
-    team: HCK-NHL-TEAM-STL
+    owner: HCK-NHL-TEAM-STL
   source:
     url: https://www.nhl.com/blues/team/brand
     asset_url: https://assets.nhle.com/logos/nhl/svg/STL_light.svg
@@ -109,7 +109,7 @@ records:
     role: fleur
     ongoing: true
   references:
-    team: HCK-NHL-TEAM-STL
+    owner: HCK-NHL-TEAM-STL
   source:
     url: https://www.nhl.com/blues/team/brand
     asset_url: https://media.d3.nhle.com/image/private/t_ratio1_1-size30/f_auto/prd/i4bpk0uecfyexiy8wsdq.jpg
@@ -142,7 +142,7 @@ records:
     role: primary
     ongoing: true
   references:
-    team: SOC-EPL-TEAM-ARS
+    owner: SOC-EPL-TEAM-ARS
   source:
     url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/359
     asset_url: https://a.espncdn.com/i/teamlogos/soccer/500/359.png
