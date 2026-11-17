@@ -14,7 +14,9 @@ The team listing was captured October 26, 2026; this batch captures the referenc
 
 The Knicks default and secondary-on-white files matched the pilot URLs and SHA-256 checksums and reuse those two existing representations. All other requested files are pinned through `media.json`. The SVG remains the canonical source representation of the NBA mark; `renditions.json` separately records a PNG conversion for browser display, its source hash, conversion command, and media commit.
 
-No separate Eastern Conference or Atlantic Division logo appears in the captured team feed. This batch does not invent one or reuse a team logo to identify those entities. Their breadcrumbs keep the existing icon and text.
+The November 16 supplement in `conferences.json` adds the Eastern and Western Conference wordmarks from Wikimedia Commons. Both source pages attribute the artwork to NBA Media Central. The Eastern original URL returned HTTP 403 and was recorded as unavailable. The Commons originals were downloaded and checked separately. The capture records their exact URLs, sizes, checksums, and pinned media commit. It does not establish current use or introduction dates.
+
+No separate official mark was verified for any of the six NBA divisions. Their breadcrumbs keep the existing icon and text.
 
 ## Regeneration
 
@@ -33,8 +35,8 @@ mise exec -- ruby db/seeds/athlete_ace_data/scripts/build_nba_media.rb
 mise exec -- ruby db/seeds/athlete_ace_data/scripts/build_nba_media.rb --check
 ```
 
-`--check` must exit zero and report the record, reuse, and selection counts. A nonzero exit means the committed output differs. The generator writes observation records to `yaml/nba_media_2026/media.yml`, the Figure identity to its canonical catalog file, and the 32 primary selections to `primary.json`.
+`--check` must exit zero and report the record, reuse, and selection counts. A nonzero exit means the committed output differs. The generator writes observation records to `yaml/nba_media_2026/media.yml`, the Figure identity to its canonical catalog file, and the 34 primary selections to `primary.json`.
 
-After application migrations, import with `seeds:validate db:seed` and run `seeds:assets:verify` using the app's pinned Ruby. A replay must create zero records and report no seed conflicts. Primary selection replay must report all 32 unchanged. The complete library has 506 stored files after this batch, including the earlier 24 pilot files and the PNG rendition, with the two matching Knicks files reused.
+After application migrations, import with `seeds:validate db:seed` and run `seeds:assets:verify` using the app's pinned Ruby. A replay must create zero records and report no seed conflicts. Primary selection replay must report all 34 unchanged. The complete library has 508 stored files after the conference supplement, including the earlier 24 pilot files, the PNG rendition, and the two conference wordmarks, with the two matching Knicks files reused.
 
 Images and marks remain their owners' works. The metadata records provenance and does not assert a redistribution license.

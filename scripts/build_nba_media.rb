@@ -12,10 +12,11 @@ records = [{ "type" => "Figure", "code" => "FIGURE-BKT-NBA-PLAYER-JAMES_LEBRON",
   "source" => { "url" => "https://www.nba.com/player/2544/lebron-james" } }]
 selections = []
 renditions = JSON.parse File.read(File.join(root, "sources/nba_media_2026/renditions.json"))
-(capture.fetch("available") + renditions).each do |entry|
+conferences = JSON.parse File.read(File.join(root, "sources/nba_media_2026/conferences.json"))
+(capture.fetch("available") + renditions + conferences.fetch("available")).each do |entry|
   logo_code = entry["reuse_logo"] || entry.fetch("code")
   unless entry["reuse_representation"]
-    source = entry.slice "url", "asset_url", "captured_on", "generated_by", "derived_from"
+    source = entry.slice "url", "asset_url", "captured_on", "original_source", "generated_by", "derived_from"
     if entry.fetch("kind") == "logo"
       records << { "type" => "Logo", "code" => logo_code,
         "attributes" => entry.slice("name", "role"), "references" => { "owner" => entry.fetch("owner") }, "source" => source }
@@ -33,7 +34,7 @@ renditions = JSON.parse File.read(File.join(root, "sources/nba_media_2026/rendit
     selections << { "type" => "Figure", "code" => entry.fetch("owner"), "asset" => "#{entry.fetch('code')}-FILE-PNG" }
   end
 end
-raise "Expected 32 primary selections" unless selections.size == 32
+raise "Expected 34 primary selections" unless selections.size == 34
 writer = SeedCatalog::Writer.new check: check
 writer.write_batch File.join(root, "yaml/nba_media_2026/media.yml"), SeedCatalog::ENVELOPE.merge("records" => records.sort_by { |record| record.fetch("code") })
 writer.finish codes_path: File.join(root, "sources/nba_media_2026/catalog_codes.json")

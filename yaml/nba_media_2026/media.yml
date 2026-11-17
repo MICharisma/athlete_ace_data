@@ -59,6 +59,74 @@ records:
       commit: 1bdad3f0dda5fb60bec8f22a19fd159f7635cd7b
       path: nba/2026-11-15/BKT-LEAGUE-NBA/primary.svg
 - type: Logo
+  code: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE-LOGO-WORDMARK
+  attributes:
+    name: NBA Eastern Conference wordmark
+    role: primary
+  references:
+    owner: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  source:
+    url: https://commons.wikimedia.org/wiki/File:Eastern_Conference_(NBA)_logo_2018.png
+    asset_url: https://upload.wikimedia.org/wikipedia/commons/9/96/Eastern_Conference_%28NBA%29_logo_2018.png
+    captured_on: '2026-11-16'
+    original_source: https://mediacentral.nba.com/wp-content/uploads/logos/nba/Eastern_Conference.png
+- type: AssetRepresentation
+  code: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE-LOGO-WORDMARK-FILE-PNG
+  attributes:
+    file_format: png
+    view: default
+    content_type: image/png
+    sha256: 947c49b5b0218873ffdd57bdc51c94b3d4ee17cab2d709ce39c5e002a82c28f6
+    byte_size: 70391
+    canonical_path: media/nba/2026-11-16/BKT-NBA-CONFERENCE-EASTERN_CONFERENCE/wordmark.png
+    details:
+      depiction: source_image
+  references:
+    subject: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE-LOGO-WORDMARK
+  source:
+    url: https://commons.wikimedia.org/wiki/File:Eastern_Conference_(NBA)_logo_2018.png
+    asset_url: https://upload.wikimedia.org/wikipedia/commons/9/96/Eastern_Conference_%28NBA%29_logo_2018.png
+    captured_on: '2026-11-16'
+    original_source: https://mediacentral.nba.com/wp-content/uploads/logos/nba/Eastern_Conference.png
+    github:
+      repository: MICharisma/athlete_ace_media
+      commit: d3dd63e6fa6de937bce83ba16702bef4661af743
+      path: nba/2026-11-16/BKT-NBA-CONFERENCE-EASTERN_CONFERENCE/wordmark.png
+- type: Logo
+  code: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE-LOGO-WORDMARK
+  attributes:
+    name: NBA Western Conference wordmark
+    role: primary
+  references:
+    owner: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  source:
+    url: https://commons.wikimedia.org/wiki/File:Western_Conference_(NBA)_logo_2018.png
+    asset_url: https://upload.wikimedia.org/wikipedia/commons/4/45/Western_Conference_%28NBA%29_logo_2018.png
+    captured_on: '2026-11-16'
+    original_source: https://mediacentral.nba.com/wp-content/uploads/logos/nba/Western_Conference.png
+- type: AssetRepresentation
+  code: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE-LOGO-WORDMARK-FILE-PNG
+  attributes:
+    file_format: png
+    view: default
+    content_type: image/png
+    sha256: 113c5cb8eca85a8bb503fc6aad434b68828c559b1cd4fc3c1a8b51d1b6500ffb
+    byte_size: 70384
+    canonical_path: media/nba/2026-11-16/BKT-NBA-CONFERENCE-WESTERN_CONFERENCE/wordmark.png
+    details:
+      depiction: source_image
+  references:
+    subject: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE-LOGO-WORDMARK
+  source:
+    url: https://commons.wikimedia.org/wiki/File:Western_Conference_(NBA)_logo_2018.png
+    asset_url: https://upload.wikimedia.org/wikipedia/commons/4/45/Western_Conference_%28NBA%29_logo_2018.png
+    captured_on: '2026-11-16'
+    original_source: https://mediacentral.nba.com/wp-content/uploads/logos/nba/Western_Conference.png
+    github:
+      repository: MICharisma/athlete_ace_media
+      commit: d3dd63e6fa6de937bce83ba16702bef4661af743
+      path: nba/2026-11-16/BKT-NBA-CONFERENCE-WESTERN_CONFERENCE/wordmark.png
+- type: Logo
   code: BKT-NBA-TEAM-ATL-LOGO-DARK
   attributes:
     name: Atlanta Hawks dark logo
