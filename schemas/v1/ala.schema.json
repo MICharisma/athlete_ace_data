@@ -1924,6 +1924,29 @@
         {
           "properties": {
             "type": {
+              "const": "Nickname"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "text": {
+                  "type": "string"
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {},
+              "required": [],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
               "const": "Organization"
             },
             "attributes": {
@@ -3091,6 +3114,141 @@
                   "$ref": "#/$defs/reference"
                 },
                 "stadium": {
+                  "$ref": "#/$defs/reference"
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "TeamNaming"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "abbreviation": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "details": {},
+                "display_name": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "end_date": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "format": "date"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "source": {},
+                "start_date": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "format": "date"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "territory": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {
+                "nickname": {
+                  "$ref": "#/$defs/reference"
+                },
+                "team": {
+                  "$ref": "#/$defs/reference"
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            }
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "Tenancy"
+            },
+            "attributes": {
+              "type": "object",
+              "properties": {
+                "details": {},
+                "end_date": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "format": "date"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "role": {
+                  "type": "string"
+                },
+                "source": {},
+                "start_date": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "format": "date"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            },
+            "references": {
+              "type": "object",
+              "properties": {
+                "stadium": {
+                  "$ref": "#/$defs/reference"
+                },
+                "team": {
                   "$ref": "#/$defs/reference"
                 }
               },

@@ -1274,6 +1274,14 @@
         "team"
       ]
     },
+    "Nickname": {
+      "attributes": {
+        "text": {
+          "type": "string"
+        }
+      },
+      "references": []
+    },
     "Organization": {
       "attributes": {
         "abbreviation": {
@@ -2091,6 +2099,103 @@
         "league",
         "primary_logo",
         "stadium"
+      ]
+    },
+    "TeamNaming": {
+      "attributes": {
+        "abbreviation": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "details": {},
+        "display_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "end_date": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "source": {},
+        "start_date": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "territory": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "references": [
+        "nickname",
+        "team"
+      ]
+    },
+    "Tenancy": {
+      "attributes": {
+        "details": {},
+        "end_date": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "role": {
+          "type": "string"
+        },
+        "source": {},
+        "start_date": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "references": [
+        "stadium",
+        "team"
       ]
     },
     "TitleAward": {
