@@ -4,6 +4,21 @@ namespace: MIC
 catalog: ALA
 records:
 - type: Topic
+  code: TOPIC-COMMUNITY
+  attributes:
+    name: Community
+  references: {}
+- type: Topic
+  code: TOPIC-COMPOSURE
+  attributes:
+    name: Composure
+  references: {}
+- type: Topic
+  code: TOPIC-CONSISTENCY
+  attributes:
+    name: Consistency
+  references: {}
+- type: Topic
   code: TOPIC-CORE_VALUES
   attributes:
     name: Core values
@@ -14,12 +29,42 @@ records:
     name: Leadership
   references: {}
 - type: Topic
+  code: TOPIC-MENTAL_FITNESS
+  attributes:
+    name: Mental fitness
+  references: {}
+- type: Topic
+  code: TOPIC-MENTAL_HEALTH
+  attributes:
+    name: Mental health
+  references: {}
+- type: Topic
   code: TOPIC-MINDFULNESS
   attributes:
     name: Mindfulness
   references: {}
 - type: Topic
-  code: TOPIC-MENTAL_FITNESS
+  code: TOPIC-OWNERSHIP
   attributes:
-    name: Mental fitness
+    name: Ownership
+  references: {}
+- type: Topic
+  code: TOPIC-PURPOSE
+  attributes:
+    name: Purpose
+  references: {}
+- type: Topic
+  code: TOPIC-RESPECT
+  attributes:
+    name: Respect
+  references: {}
+- type: Topic
+  code: TOPIC-SLEEP
+  attributes:
+    name: Sleep
+  references: {}
+- type: Topic
+  code: TOPIC-TRUST
+  attributes:
+    name: Trust
   references: {}
