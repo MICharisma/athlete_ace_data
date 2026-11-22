@@ -4,6 +4,891 @@ namespace: MIC
 catalog: ALA
 records:
 - type: Contest
+  code: BKT-NBA-SEASON_2000_2001-CHAMPIONSHIP
+  attributes:
+    name: 2001 NBA championship
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2001
+      source:
+        url: https://www.nba.com/news/history-nba-champions
+        captured_on: '2026-11-22'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BKT-LEAGUE-NBA
+    season: BKT-NBA-SEASON_2000_2001
+    champion: BKT-NBA-TEAM-LAL
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2000_2001-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BKT-NBA-SEASON_2000_2001-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2000_2001-TEAM-LAL
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2000_2001-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BKT-NBA-SEASON_2000_2001-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2000_2001-TEAM-PHI
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BKT-NBA-SEASON_2000_2001-CHAMPIONSHIP-TITLE
+  attributes:
+    key: nba_championship
+    name: NBA championship
+  references:
+    contest: BKT-NBA-SEASON_2000_2001-CHAMPIONSHIP
+    winner: BKT-NBA-SEASON_2000_2001-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: BKT-NBA-SEASON_2001_2002-CHAMPIONSHIP
+  attributes:
+    name: 2002 NBA championship
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2002
+      source:
+        url: https://www.nba.com/news/history-nba-champions
+        captured_on: '2026-11-22'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BKT-LEAGUE-NBA
+    season: BKT-NBA-SEASON_2001_2002
+    champion: BKT-NBA-TEAM-LAL
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2001_2002-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BKT-NBA-SEASON_2001_2002-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2001_2002-TEAM-LAL
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2001_2002-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BKT-NBA-SEASON_2001_2002-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2001_2002-TEAM-BKN
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BKT-NBA-SEASON_2001_2002-CHAMPIONSHIP-TITLE
+  attributes:
+    key: nba_championship
+    name: NBA championship
+  references:
+    contest: BKT-NBA-SEASON_2001_2002-CHAMPIONSHIP
+    winner: BKT-NBA-SEASON_2001_2002-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: BKT-NBA-SEASON_2002_2003-CHAMPIONSHIP
+  attributes:
+    name: 2003 NBA championship
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2003
+      source:
+        url: https://www.nba.com/news/history-nba-champions
+        captured_on: '2026-11-22'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BKT-LEAGUE-NBA
+    season: BKT-NBA-SEASON_2002_2003
+    champion: BKT-NBA-TEAM-SAS
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2002_2003-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BKT-NBA-SEASON_2002_2003-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2002_2003-TEAM-SAS
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2002_2003-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BKT-NBA-SEASON_2002_2003-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2002_2003-TEAM-BKN
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BKT-NBA-SEASON_2002_2003-CHAMPIONSHIP-TITLE
+  attributes:
+    key: nba_championship
+    name: NBA championship
+  references:
+    contest: BKT-NBA-SEASON_2002_2003-CHAMPIONSHIP
+    winner: BKT-NBA-SEASON_2002_2003-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: BKT-NBA-SEASON_2003_2004-CHAMPIONSHIP
+  attributes:
+    name: 2004 NBA championship
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2004
+      source:
+        url: https://www.nba.com/news/history-nba-champions
+        captured_on: '2026-11-22'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BKT-LEAGUE-NBA
+    season: BKT-NBA-SEASON_2003_2004
+    champion: BKT-NBA-TEAM-DET
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2003_2004-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BKT-NBA-SEASON_2003_2004-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2003_2004-TEAM-DET
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2003_2004-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BKT-NBA-SEASON_2003_2004-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2003_2004-TEAM-LAL
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BKT-NBA-SEASON_2003_2004-CHAMPIONSHIP-TITLE
+  attributes:
+    key: nba_championship
+    name: NBA championship
+  references:
+    contest: BKT-NBA-SEASON_2003_2004-CHAMPIONSHIP
+    winner: BKT-NBA-SEASON_2003_2004-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: BKT-NBA-SEASON_2004_2005-CHAMPIONSHIP
+  attributes:
+    name: 2005 NBA championship
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2005
+      source:
+        url: https://www.nba.com/news/history-nba-champions
+        captured_on: '2026-11-22'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BKT-LEAGUE-NBA
+    season: BKT-NBA-SEASON_2004_2005
+    champion: BKT-NBA-TEAM-SAS
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2004_2005-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BKT-NBA-SEASON_2004_2005-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2004_2005-TEAM-SAS
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2004_2005-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BKT-NBA-SEASON_2004_2005-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2004_2005-TEAM-DET
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BKT-NBA-SEASON_2004_2005-CHAMPIONSHIP-TITLE
+  attributes:
+    key: nba_championship
+    name: NBA championship
+  references:
+    contest: BKT-NBA-SEASON_2004_2005-CHAMPIONSHIP
+    winner: BKT-NBA-SEASON_2004_2005-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: BKT-NBA-SEASON_2005_2006-CHAMPIONSHIP
+  attributes:
+    name: 2006 NBA championship
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2006
+      source:
+        url: https://www.nba.com/news/history-nba-champions
+        captured_on: '2026-11-22'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BKT-LEAGUE-NBA
+    season: BKT-NBA-SEASON_2005_2006
+    champion: BKT-NBA-TEAM-MIA
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2005_2006-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BKT-NBA-SEASON_2005_2006-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2005_2006-TEAM-MIA
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2005_2006-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BKT-NBA-SEASON_2005_2006-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2005_2006-TEAM-DAL
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BKT-NBA-SEASON_2005_2006-CHAMPIONSHIP-TITLE
+  attributes:
+    key: nba_championship
+    name: NBA championship
+  references:
+    contest: BKT-NBA-SEASON_2005_2006-CHAMPIONSHIP
+    winner: BKT-NBA-SEASON_2005_2006-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: BKT-NBA-SEASON_2006_2007-CHAMPIONSHIP
+  attributes:
+    name: 2007 NBA championship
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2007
+      source:
+        url: https://www.nba.com/news/history-nba-champions
+        captured_on: '2026-11-22'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BKT-LEAGUE-NBA
+    season: BKT-NBA-SEASON_2006_2007
+    champion: BKT-NBA-TEAM-SAS
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2006_2007-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BKT-NBA-SEASON_2006_2007-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2006_2007-TEAM-SAS
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2006_2007-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BKT-NBA-SEASON_2006_2007-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2006_2007-TEAM-CLE
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BKT-NBA-SEASON_2006_2007-CHAMPIONSHIP-TITLE
+  attributes:
+    key: nba_championship
+    name: NBA championship
+  references:
+    contest: BKT-NBA-SEASON_2006_2007-CHAMPIONSHIP
+    winner: BKT-NBA-SEASON_2006_2007-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: BKT-NBA-SEASON_2007_2008-CHAMPIONSHIP
+  attributes:
+    name: 2008 NBA championship
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2008
+      source:
+        url: https://www.nba.com/news/history-nba-champions
+        captured_on: '2026-11-22'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BKT-LEAGUE-NBA
+    season: BKT-NBA-SEASON_2007_2008
+    champion: BKT-NBA-TEAM-BOS
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2007_2008-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BKT-NBA-SEASON_2007_2008-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2007_2008-TEAM-BOS
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2007_2008-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BKT-NBA-SEASON_2007_2008-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2007_2008-TEAM-LAL
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BKT-NBA-SEASON_2007_2008-CHAMPIONSHIP-TITLE
+  attributes:
+    key: nba_championship
+    name: NBA championship
+  references:
+    contest: BKT-NBA-SEASON_2007_2008-CHAMPIONSHIP
+    winner: BKT-NBA-SEASON_2007_2008-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: BKT-NBA-SEASON_2008_2009-CHAMPIONSHIP
+  attributes:
+    name: 2009 NBA championship
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2009
+      source:
+        url: https://www.nba.com/news/history-nba-champions
+        captured_on: '2026-11-22'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BKT-LEAGUE-NBA
+    season: BKT-NBA-SEASON_2008_2009
+    champion: BKT-NBA-TEAM-LAL
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2008_2009-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BKT-NBA-SEASON_2008_2009-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2008_2009-TEAM-LAL
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2008_2009-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BKT-NBA-SEASON_2008_2009-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2008_2009-TEAM-ORL
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BKT-NBA-SEASON_2008_2009-CHAMPIONSHIP-TITLE
+  attributes:
+    key: nba_championship
+    name: NBA championship
+  references:
+    contest: BKT-NBA-SEASON_2008_2009-CHAMPIONSHIP
+    winner: BKT-NBA-SEASON_2008_2009-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: BKT-NBA-SEASON_2009_2010-CHAMPIONSHIP
+  attributes:
+    name: 2010 NBA championship
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2010
+      source:
+        url: https://www.nba.com/news/history-nba-champions
+        captured_on: '2026-11-22'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BKT-LEAGUE-NBA
+    season: BKT-NBA-SEASON_2009_2010
+    champion: BKT-NBA-TEAM-LAL
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2009_2010-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BKT-NBA-SEASON_2009_2010-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2009_2010-TEAM-LAL
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2009_2010-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BKT-NBA-SEASON_2009_2010-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2009_2010-TEAM-BOS
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BKT-NBA-SEASON_2009_2010-CHAMPIONSHIP-TITLE
+  attributes:
+    key: nba_championship
+    name: NBA championship
+  references:
+    contest: BKT-NBA-SEASON_2009_2010-CHAMPIONSHIP
+    winner: BKT-NBA-SEASON_2009_2010-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: BKT-NBA-SEASON_2010_2011-CHAMPIONSHIP
+  attributes:
+    name: 2011 NBA championship
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2011
+      source:
+        url: https://www.nba.com/news/history-nba-champions
+        captured_on: '2026-11-22'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BKT-LEAGUE-NBA
+    season: BKT-NBA-SEASON_2010_2011
+    champion: BKT-NBA-TEAM-DAL
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2010_2011-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BKT-NBA-SEASON_2010_2011-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2010_2011-TEAM-DAL
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2010_2011-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BKT-NBA-SEASON_2010_2011-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2010_2011-TEAM-MIA
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BKT-NBA-SEASON_2010_2011-CHAMPIONSHIP-TITLE
+  attributes:
+    key: nba_championship
+    name: NBA championship
+  references:
+    contest: BKT-NBA-SEASON_2010_2011-CHAMPIONSHIP
+    winner: BKT-NBA-SEASON_2010_2011-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: BKT-NBA-SEASON_2011_2012-CHAMPIONSHIP
+  attributes:
+    name: 2012 NBA championship
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2012
+      source:
+        url: https://www.nba.com/news/history-nba-champions
+        captured_on: '2026-11-22'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BKT-LEAGUE-NBA
+    season: BKT-NBA-SEASON_2011_2012
+    champion: BKT-NBA-TEAM-MIA
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2011_2012-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BKT-NBA-SEASON_2011_2012-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2011_2012-TEAM-MIA
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2011_2012-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BKT-NBA-SEASON_2011_2012-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2011_2012-TEAM-OKC
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BKT-NBA-SEASON_2011_2012-CHAMPIONSHIP-TITLE
+  attributes:
+    key: nba_championship
+    name: NBA championship
+  references:
+    contest: BKT-NBA-SEASON_2011_2012-CHAMPIONSHIP
+    winner: BKT-NBA-SEASON_2011_2012-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: BKT-NBA-SEASON_2012_2013-CHAMPIONSHIP
+  attributes:
+    name: 2013 NBA championship
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2013
+      source:
+        url: https://www.nba.com/news/history-nba-champions
+        captured_on: '2026-11-22'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BKT-LEAGUE-NBA
+    season: BKT-NBA-SEASON_2012_2013
+    champion: BKT-NBA-TEAM-MIA
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2012_2013-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BKT-NBA-SEASON_2012_2013-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2012_2013-TEAM-MIA
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2012_2013-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BKT-NBA-SEASON_2012_2013-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2012_2013-TEAM-SAS
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BKT-NBA-SEASON_2012_2013-CHAMPIONSHIP-TITLE
+  attributes:
+    key: nba_championship
+    name: NBA championship
+  references:
+    contest: BKT-NBA-SEASON_2012_2013-CHAMPIONSHIP
+    winner: BKT-NBA-SEASON_2012_2013-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: BKT-NBA-SEASON_2013_2014-CHAMPIONSHIP
+  attributes:
+    name: 2014 NBA championship
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2014
+      source:
+        url: https://www.nba.com/news/history-nba-champions
+        captured_on: '2026-11-22'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BKT-LEAGUE-NBA
+    season: BKT-NBA-SEASON_2013_2014
+    champion: BKT-NBA-TEAM-SAS
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2013_2014-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BKT-NBA-SEASON_2013_2014-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2013_2014-TEAM-SAS
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2013_2014-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BKT-NBA-SEASON_2013_2014-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2013_2014-TEAM-MIA
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BKT-NBA-SEASON_2013_2014-CHAMPIONSHIP-TITLE
+  attributes:
+    key: nba_championship
+    name: NBA championship
+  references:
+    contest: BKT-NBA-SEASON_2013_2014-CHAMPIONSHIP
+    winner: BKT-NBA-SEASON_2013_2014-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
+  code: BKT-NBA-SEASON_2014_2015-CHAMPIONSHIP
+  attributes:
+    name: 2015 NBA championship
+    kind: championship
+    details:
+      coverage: finalists_only
+      championship_year: 2015
+      source:
+        url: https://www.nba.com/news/history-nba-champions
+        captured_on: '2026-11-22'
+        note: Championship and finalists only; no complete playoff bracket or individual
+          games are asserted.
+  references:
+    context: BKT-LEAGUE-NBA
+    season: BKT-NBA-SEASON_2014_2015
+    champion: BKT-NBA-TEAM-GSW
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2014_2015-CHAMPIONSHIP-WINNER
+  attributes:
+    placing: 1
+  references:
+    contest: BKT-NBA-SEASON_2014_2015-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2014_2015-TEAM-GSW
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contestant
+  code: BKT-NBA-SEASON_2014_2015-CHAMPIONSHIP-RUNNER_UP
+  attributes:
+    placing: 2
+  references:
+    contest: BKT-NBA-SEASON_2014_2015-CHAMPIONSHIP
+    campaign: BKT-NBA-SEASON_2014_2015-TEAM-CLE
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: TitleAward
+  code: BKT-NBA-SEASON_2014_2015-CHAMPIONSHIP-TITLE
+  attributes:
+    key: nba_championship
+    name: NBA championship
+  references:
+    contest: BKT-NBA-SEASON_2014_2015-CHAMPIONSHIP
+    winner: BKT-NBA-SEASON_2014_2015-CHAMPIONSHIP-WINNER
+  source:
+    url: https://www.nba.com/news/history-nba-champions
+    captured_on: '2026-11-22'
+    note: Championship and finalists only; no complete playoff bracket or individual
+      games are asserted.
+- type: Contest
   code: BKT-NBA-SEASON_2015_2016-CHAMPIONSHIP
   attributes:
     name: 2016 NBA championship

@@ -1,0 +1,16 @@
+{
+  "meaning": "Reviewed season-bounded exceptions to the provider team-ID bindings. Each entry assigns a provider team ID to a different catalog team for the inclusive season starting years given.",
+  "overrides": [
+    {
+      "league": "NBA",
+      "source_id": "3",
+      "from": 2000,
+      "through": 2001,
+      "team": "BKT-NBA-TEAM-CHA",
+      "basis": "nba_official_franchise_history",
+      "url": "https://www.basketball-reference.com/teams/CHA/",
+      "observed_on": "2026-11-22",
+      "note": "ESPN's team 3 runs from the 1988-2002 Charlotte Hornets through today's Pelicans. The NBA's record, followed by Basketball Reference, places 1988-2002 with today's Charlotte franchise and starts New Orleans in 2002-03."
+    }
+  ]
+}

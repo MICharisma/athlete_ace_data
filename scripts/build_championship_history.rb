@@ -8,6 +8,14 @@ class ChampionshipHistoryBuilder
   SPORTS = { "NBA" => "BKT", "NFL" => "FTB", "NHL" => "HCK", "MLB" => "BSB" }.freeze
   TITLES = { "NBA" => [ "nba_championship", "NBA championship" ], "NFL" => [ "super_bowl", "Super Bowl" ],
     "NHL" => [ "stanley_cup", "Stanley Cup" ], "MLB" => [ "world_series", "World Series" ] }.freeze
+  # Championship years selected for each league; the alignment captures cover the same seasons.
+  WINDOWS = { "NBA" => 2001..2025, "NFL" => 2016..2025, "NHL" => 2016..2025, "MLB" => 2016..2025 }.freeze
+  # Divisions that no longer exist, reviewed from the season listings that use them.
+  RETIRED_DIVISIONS = {
+    "BKT-NBA-DIVISION-MIDWEST_DIVISION" => { "name" => "Midwest Division", "conference" => "BKT-NBA-CONFERENCE-WESTERN_CONFERENCE",
+      "source" => { "url" => "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2004&level=3", "captured_on" => "2026-11-22",
+        "note" => "Western Conference division in the captured listings through 2003-04; the 2004-05 listings replace it with the Northwest and Southwest divisions." } }
+  }.freeze
 
   def initialize(check: false, source: File.join(ROOT, "sources/championship_history"), output: File.join(ROOT, "yaml/championship_history"))
     @check, @source, @output = check, source, output
@@ -20,6 +28,7 @@ class ChampionshipHistoryBuilder
     @attributes = @existing.group_by(&:code).transform_values { |rows| rows.reduce({}) { |attrs, row| attrs.merge(row.attributes) } }
     @captures = SPORTS.keys.to_h { |league| [ league, JSON.parse(File.read(File.join(source, "#{league.downcase}_alignments.json"))) ] }
     @name_corrections = JSON.parse(File.read(File.join(source, "display_name_corrections.json"))).fetch("corrections")
+    @overrides = JSON.parse(File.read(File.join(source, "identity_overrides.json"))).fetch("overrides")
   end
 
   def prepare_ranges
@@ -36,16 +45,18 @@ class ChampionshipHistoryBuilder
       capture.fetch("seasons").each do |season|
         season.fetch("teams").each do |team|
           id = team.fetch("source_id")
-          code = current_codes[id]
+          override = override_for(league, id, season.fetch("start_year"))
+          code = override ? override.fetch("team") : current_codes[id]
           code = "HCK-NHL-TEAM-ARI" if league == "NHL" && id == "ARI"
           raise "Unreviewed #{league} team identity #{id}: #{team.fetch('name')}" unless code
 
-          bindings << { "league" => league, "source_id" => id, "team" => code,
-            "basis" => league == "NHL" ? "reviewed_official_abbreviation" : "existing_provider_team_id" }
+          unless override
+            bindings << { "league" => league, "source_id" => id, "team" => code,
+              "basis" => league == "NHL" ? "reviewed_official_abbreviation" : "existing_provider_team_id" }
+          end
           conference, division = classification_codes(league, season.fetch("start_year"), team)
-          abbreviation = Sports2026Builder::ABBREVIATIONS.fetch(league, {}).fetch(team.fetch("abbreviation"), team.fetch("abbreviation"))
           history[code] << { "year" => season.fetch("start_year"), "conference" => conference, "division" => division,
-            "display_name" => display_name(league, season.fetch("start_year"), team), "abbreviation" => abbreviation }
+            "display_name" => display_name(league, season.fetch("start_year"), team), "abbreviation" => abbreviation(league, season.fetch("start_year"), team) }
         end
       end
       history.sort.each do |team, years|
@@ -69,7 +80,7 @@ class ChampionshipHistoryBuilder
   def call
     document = YAML.safe_load(File.read(File.join(@source, "alignment_ranges.yml")))
     ranges = document.fetch("ranges")
-    bindings = document.fetch("team_bindings").to_h { |binding| [ [ binding.fetch("league"), binding.fetch("source_id") ], binding.fetch("team") ] }
+    @bindings = document.fetch("team_bindings").to_h { |binding| [ [ binding.fetch("league"), binding.fetch("source_id") ], binding.fetch("team") ] }
     anchors = {}
     campaigns = []
     pairs = {}
@@ -93,7 +104,10 @@ class ChampionshipHistoryBuilder
         anchors["YEAR-#{year}"] = record("Year", "YEAR-#{year}", { "number" => year })
         anchors[season_code] = record("Season", season_code, @attributes.fetch(season_code, {}).merge("label" => season.fetch("label")), { "league" => "#{SPORTS.fetch(league)}-LEAGUE-#{league}", "year" => "YEAR-#{year}" })
         division = range.fetch("division")
-        unless @known.key?(division)
+        if RETIRED_DIVISIONS.key?(division)
+          retired = RETIRED_DIVISIONS.fetch(division)
+          anchors[division] = record("Division", division, @attributes.fetch(division, {}).merge("name" => retired.fetch("name")), { "conference" => retired.fetch("conference") }).merge("source" => retired.fetch("source"))
+        elsif !@known.key?(division)
           raise "Unreviewed division #{division}" unless league == "NHL" && year == 2020 && !range["conference"]
 
           name = division.split("-").last.capitalize
@@ -103,9 +117,14 @@ class ChampionshipHistoryBuilder
         attributes = range.slice("display_name", "abbreviation").merge(@attributes.fetch(code, {}))
         references = { "team" => range.fetch("team"), "season" => season_code, "division" => division }
         references["conference"] = range["conference"] if range["conference"]
-        source = { "url" => season.fetch("url"), "captured_on" => capture.fetch("as_of"), "note" => capture.fetch("meaning") }
-        correction = @name_corrections.find { |entry| entry.fetch("league") == league && (entry.fetch("from")..entry.fetch("through")).cover?(year) && bindings.fetch([ league, entry.fetch("source_id") ]) == range.fetch("team") }
-        source["display_name_correction"] = correction.slice("url", "published_on", "note") if correction
+        source = { "url" => season.fetch("url"), "captured_on" => season.fetch("as_of", capture.fetch("as_of")), "note" => capture.fetch("meaning") }
+        correction = @name_corrections.find { |entry| entry.fetch("league") == league && (entry.fetch("from")..entry.fetch("through")).cover?(year) && team_for(league, entry.fetch("source_id"), year) == range.fetch("team") }
+        if correction
+          key = correction.key?("display_name") ? "display_name_correction" : "abbreviation_correction"
+          source[key] = correction.slice("url", "published_on", "observed_on", "note")
+        end
+        override = @overrides.find { |entry| entry.fetch("league") == league && (entry.fetch("from")..entry.fetch("through")).cover?(year) && entry.fetch("team") == range.fetch("team") }
+        source["identity_override"] = override.slice("basis", "url", "observed_on", "note") if override
         campaigns << record("Campaign", code, attributes, references).merge("source" => source)
         pairs[pair] = code
       end
@@ -113,14 +132,15 @@ class ChampionshipHistoryBuilder
     @captures.each do |league, capture|
       capture.fetch("seasons").each do |season|
         selected = ranges.select { |range| range.fetch("league") == league && (range.fetch("from")..range.fetch("through")).cover?(season.fetch("start_year")) }
-        expected = season.fetch("teams").map { |team| bindings.fetch([ league, team.fetch("source_id") ]) }
+        expected = season.fetch("teams").map { |team| team_for(league, team.fetch("source_id"), season.fetch("start_year")) }
         raise "Incomplete #{league} #{season.fetch('label')} alignment" unless selected.map { |range| range.fetch("team") }.sort == expected.sort
 
         season.fetch("teams").each do |team|
-          range = selected.find { |entry| entry.fetch("team") == bindings.fetch([ league, team.fetch("source_id") ]) }
+          range = selected.find { |entry| entry.fetch("team") == team_for(league, team.fetch("source_id"), season.fetch("start_year")) }
           expected_classification = classification_codes(league, season.fetch("start_year"), team)
           raise "Alignment differs from capture: #{range.fetch('team')} #{season.fetch('label')}" unless range.values_at("conference", "division") == expected_classification
           raise "Annual name differs from reviewed sources: #{range.fetch('team')} #{season.fetch('label')}" unless range.fetch("display_name") == display_name(league, season.fetch("start_year"), team)
+          raise "Annual abbreviation differs from reviewed sources: #{range.fetch('team')} #{season.fetch('label')}" unless range.fetch("abbreviation") == abbreviation(league, season.fetch("start_year"), team)
         end
       end
     end
@@ -135,10 +155,26 @@ class ChampionshipHistoryBuilder
   private
 
   def display_name(league, year, team)
-    correction = @name_corrections.find do |entry|
-      entry.fetch("league") == league && entry.fetch("source_id") == team.fetch("source_id") && (entry.fetch("from")..entry.fetch("through")).cover?(year)
-    end
-    correction ? correction.fetch("display_name") : team.fetch("name")
+    correction(league, year, team, "display_name") || team.fetch("name")
+  end
+
+  def abbreviation(league, year, team)
+    correction(league, year, team, "abbreviation") || Sports2026Builder::ABBREVIATIONS.fetch(league, {}).fetch(team.fetch("abbreviation"), team.fetch("abbreviation"))
+  end
+
+  def correction(league, year, team, field)
+    @name_corrections.find do |entry|
+      entry.fetch("league") == league && entry.fetch("source_id") == team.fetch("source_id") && (entry.fetch("from")..entry.fetch("through")).cover?(year) && entry.key?(field)
+    end&.fetch(field)
+  end
+
+  def override_for(league, source_id, year)
+    @overrides.find { |entry| entry.values_at("league", "source_id") == [ league, source_id ] && (entry.fetch("from")..entry.fetch("through")).cover?(year) }
+  end
+
+  def team_for(league, source_id, year)
+    override = override_for(league, source_id, year)
+    override ? override.fetch("team") : @bindings.fetch([ league, source_id ])
   end
 
   def classification_codes(league, year, team)
@@ -151,19 +187,20 @@ class ChampionshipHistoryBuilder
     division = team.fetch("division")
     division += " Division" if league == "NBA"
     division = division.sub("American League", "AL").sub("National League", "NL") if league == "MLB"
-    [ @known.fetch("#{prefix}-CONFERENCE-#{token(conference)}"), @known.fetch("#{prefix}-DIVISION-#{token(division)}") ]
+    division_code = "#{prefix}-DIVISION-#{token(division)}"
+    [ @known.fetch("#{prefix}-CONFERENCE-#{token(conference)}"), RETIRED_DIVISIONS.key?(division_code) ? division_code : @known.fetch(division_code) ]
   end
 
   def championship_records(pairs)
     capture = JSON.parse(File.read(File.join(@source, "championships.json")))
     rows = capture.fetch("championships")
-    SPORTS.each_key do |league|
+    WINDOWS.each do |league, window|
       years = rows.select { |row| row.fetch("league") == league }.map { |row| row.fetch("championship_year") }.sort
-      raise "Expected ten #{league} championships, 2016 through 2025" unless years == (2016..2025).to_a
+      raise "Expected one #{league} championship for each year #{window.first} through #{window.last}" unless years == window.to_a
     end
     rows.flat_map do |row|
       league = row.fetch("league")
-      source = { "url" => row.fetch("url"), "captured_on" => capture.fetch("as_of"), "note" => "Championship and finalists only; no complete playoff bracket or individual games are asserted." }
+      source = { "url" => row.fetch("url"), "captured_on" => row.fetch("captured_on", capture.fetch("as_of")), "note" => "Championship and finalists only; no complete playoff bracket or individual games are asserted." }
       winner_campaign = pairs.fetch([ row.fetch("winner"), row.fetch("start_year") ])
       runner_campaign = pairs.fetch([ row.fetch("runner_up"), row.fetch("start_year") ])
       raise "A championship needs two distinct finalists" if winner_campaign == runner_campaign

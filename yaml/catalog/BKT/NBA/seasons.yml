@@ -4,6 +4,111 @@ namespace: MIC
 catalog: ALA
 records:
 - type: Season
+  code: BKT-NBA-SEASON_2000_2001
+  attributes:
+    label: '2000_2001'
+  references:
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2000
+- type: Season
+  code: BKT-NBA-SEASON_2001_2002
+  attributes:
+    label: '2001_2002'
+  references:
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2001
+- type: Season
+  code: BKT-NBA-SEASON_2002_2003
+  attributes:
+    label: '2002_2003'
+  references:
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2002
+- type: Season
+  code: BKT-NBA-SEASON_2003_2004
+  attributes:
+    label: '2003_2004'
+  references:
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2003
+- type: Season
+  code: BKT-NBA-SEASON_2004_2005
+  attributes:
+    label: '2004_2005'
+  references:
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2004
+- type: Season
+  code: BKT-NBA-SEASON_2005_2006
+  attributes:
+    label: '2005_2006'
+  references:
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2005
+- type: Season
+  code: BKT-NBA-SEASON_2006_2007
+  attributes:
+    label: '2006_2007'
+  references:
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2006
+- type: Season
+  code: BKT-NBA-SEASON_2007_2008
+  attributes:
+    label: '2007_2008'
+  references:
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2007
+- type: Season
+  code: BKT-NBA-SEASON_2008_2009
+  attributes:
+    label: '2008_2009'
+  references:
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2008
+- type: Season
+  code: BKT-NBA-SEASON_2009_2010
+  attributes:
+    label: '2009_2010'
+  references:
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2009
+- type: Season
+  code: BKT-NBA-SEASON_2010_2011
+  attributes:
+    label: '2010_2011'
+  references:
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2010
+- type: Season
+  code: BKT-NBA-SEASON_2011_2012
+  attributes:
+    label: '2011_2012'
+  references:
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2011
+- type: Season
+  code: BKT-NBA-SEASON_2012_2013
+  attributes:
+    label: '2012_2013'
+  references:
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2012
+- type: Season
+  code: BKT-NBA-SEASON_2013_2014
+  attributes:
+    label: '2013_2014'
+  references:
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2013
+- type: Season
+  code: BKT-NBA-SEASON_2014_2015
+  attributes:
+    label: '2014_2015'
+  references:
+    league: BKT-LEAGUE-NBA
+    year: YEAR-2014
+- type: Season
   code: BKT-NBA-SEASON_2015_2016
   attributes:
     label: '2015_2016'

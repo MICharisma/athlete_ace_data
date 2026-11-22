@@ -505,7 +505,15 @@ team_bindings:
 ranges:
 - league: NBA
   team: BKT-NBA-TEAM-ATL
-  from: 2015
+  from: 2000
+  through: 2003
+  conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-CENTRAL_DIVISION
+  display_name: Atlanta Hawks
+  abbreviation: ATL
+- league: NBA
+  team: BKT-NBA-TEAM-ATL
+  from: 2004
   through: 2024
   conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
   division: BKT-NBA-DIVISION-SOUTHEAST_DIVISION
@@ -513,7 +521,15 @@ ranges:
   abbreviation: ATL
 - league: NBA
   team: BKT-NBA-TEAM-BKN
-  from: 2015
+  from: 2000
+  through: 2011
+  conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-ATLANTIC_DIVISION
+  display_name: New Jersey Nets
+  abbreviation: NJN
+- league: NBA
+  team: BKT-NBA-TEAM-BKN
+  from: 2012
   through: 2024
   conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
   division: BKT-NBA-DIVISION-ATLANTIC_DIVISION
@@ -521,7 +537,7 @@ ranges:
   abbreviation: BKN
 - league: NBA
   team: BKT-NBA-TEAM-BOS
-  from: 2015
+  from: 2000
   through: 2024
   conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
   division: BKT-NBA-DIVISION-ATLANTIC_DIVISION
@@ -529,7 +545,23 @@ ranges:
   abbreviation: BOS
 - league: NBA
   team: BKT-NBA-TEAM-CHA
-  from: 2015
+  from: 2000
+  through: 2001
+  conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-CENTRAL_DIVISION
+  display_name: Charlotte Hornets
+  abbreviation: CHH
+- league: NBA
+  team: BKT-NBA-TEAM-CHA
+  from: 2004
+  through: 2013
+  conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-SOUTHEAST_DIVISION
+  display_name: Charlotte Bobcats
+  abbreviation: CHA
+- league: NBA
+  team: BKT-NBA-TEAM-CHA
+  from: 2014
   through: 2024
   conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
   division: BKT-NBA-DIVISION-SOUTHEAST_DIVISION
@@ -537,7 +569,7 @@ ranges:
   abbreviation: CHA
 - league: NBA
   team: BKT-NBA-TEAM-CHI
-  from: 2015
+  from: 2000
   through: 2024
   conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
   division: BKT-NBA-DIVISION-CENTRAL_DIVISION
@@ -545,7 +577,7 @@ ranges:
   abbreviation: CHI
 - league: NBA
   team: BKT-NBA-TEAM-CLE
-  from: 2015
+  from: 2000
   through: 2024
   conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
   division: BKT-NBA-DIVISION-CENTRAL_DIVISION
@@ -553,7 +585,15 @@ ranges:
   abbreviation: CLE
 - league: NBA
   team: BKT-NBA-TEAM-DAL
-  from: 2015
+  from: 2000
+  through: 2003
+  conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-MIDWEST_DIVISION
+  display_name: Dallas Mavericks
+  abbreviation: DAL
+- league: NBA
+  team: BKT-NBA-TEAM-DAL
+  from: 2004
   through: 2024
   conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
   division: BKT-NBA-DIVISION-SOUTHWEST_DIVISION
@@ -561,7 +601,15 @@ ranges:
   abbreviation: DAL
 - league: NBA
   team: BKT-NBA-TEAM-DEN
-  from: 2015
+  from: 2000
+  through: 2003
+  conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-MIDWEST_DIVISION
+  display_name: Denver Nuggets
+  abbreviation: DEN
+- league: NBA
+  team: BKT-NBA-TEAM-DEN
+  from: 2004
   through: 2024
   conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
   division: BKT-NBA-DIVISION-NORTHWEST_DIVISION
@@ -569,7 +617,7 @@ ranges:
   abbreviation: DEN
 - league: NBA
   team: BKT-NBA-TEAM-DET
-  from: 2015
+  from: 2000
   through: 2024
   conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
   division: BKT-NBA-DIVISION-CENTRAL_DIVISION
@@ -577,7 +625,7 @@ ranges:
   abbreviation: DET
 - league: NBA
   team: BKT-NBA-TEAM-GSW
-  from: 2015
+  from: 2000
   through: 2024
   conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
   division: BKT-NBA-DIVISION-PACIFIC_DIVISION
@@ -585,7 +633,15 @@ ranges:
   abbreviation: GSW
 - league: NBA
   team: BKT-NBA-TEAM-HOU
-  from: 2015
+  from: 2000
+  through: 2003
+  conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-MIDWEST_DIVISION
+  display_name: Houston Rockets
+  abbreviation: HOU
+- league: NBA
+  team: BKT-NBA-TEAM-HOU
+  from: 2004
   through: 2024
   conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
   division: BKT-NBA-DIVISION-SOUTHWEST_DIVISION
@@ -593,7 +649,7 @@ ranges:
   abbreviation: HOU
 - league: NBA
   team: BKT-NBA-TEAM-IND
-  from: 2015
+  from: 2000
   through: 2024
   conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
   division: BKT-NBA-DIVISION-CENTRAL_DIVISION
@@ -601,7 +657,15 @@ ranges:
   abbreviation: IND
 - league: NBA
   team: BKT-NBA-TEAM-LAC
-  from: 2015
+  from: 2000
+  through: 2000
+  conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-PACIFIC_DIVISION
+  display_name: Los Angeles Clippers
+  abbreviation: LAC
+- league: NBA
+  team: BKT-NBA-TEAM-LAC
+  from: 2001
   through: 2024
   conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
   division: BKT-NBA-DIVISION-PACIFIC_DIVISION
@@ -609,7 +673,7 @@ ranges:
   abbreviation: LAC
 - league: NBA
   team: BKT-NBA-TEAM-LAL
-  from: 2015
+  from: 2000
   through: 2024
   conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
   division: BKT-NBA-DIVISION-PACIFIC_DIVISION
@@ -617,7 +681,23 @@ ranges:
   abbreviation: LAL
 - league: NBA
   team: BKT-NBA-TEAM-MEM
-  from: 2015
+  from: 2000
+  through: 2000
+  conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-MIDWEST_DIVISION
+  display_name: Vancouver Grizzlies
+  abbreviation: VAN
+- league: NBA
+  team: BKT-NBA-TEAM-MEM
+  from: 2001
+  through: 2003
+  conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-MIDWEST_DIVISION
+  display_name: Memphis Grizzlies
+  abbreviation: MEM
+- league: NBA
+  team: BKT-NBA-TEAM-MEM
+  from: 2004
   through: 2024
   conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
   division: BKT-NBA-DIVISION-SOUTHWEST_DIVISION
@@ -625,7 +705,15 @@ ranges:
   abbreviation: MEM
 - league: NBA
   team: BKT-NBA-TEAM-MIA
-  from: 2015
+  from: 2000
+  through: 2003
+  conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-ATLANTIC_DIVISION
+  display_name: Miami Heat
+  abbreviation: MIA
+- league: NBA
+  team: BKT-NBA-TEAM-MIA
+  from: 2004
   through: 2024
   conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
   division: BKT-NBA-DIVISION-SOUTHEAST_DIVISION
@@ -633,7 +721,7 @@ ranges:
   abbreviation: MIA
 - league: NBA
   team: BKT-NBA-TEAM-MIL
-  from: 2015
+  from: 2000
   through: 2024
   conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
   division: BKT-NBA-DIVISION-CENTRAL_DIVISION
@@ -641,7 +729,15 @@ ranges:
   abbreviation: MIL
 - league: NBA
   team: BKT-NBA-TEAM-MIN
-  from: 2015
+  from: 2000
+  through: 2003
+  conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-MIDWEST_DIVISION
+  display_name: Minnesota Timberwolves
+  abbreviation: MIN
+- league: NBA
+  team: BKT-NBA-TEAM-MIN
+  from: 2004
   through: 2024
   conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
   division: BKT-NBA-DIVISION-NORTHWEST_DIVISION
@@ -649,7 +745,39 @@ ranges:
   abbreviation: MIN
 - league: NBA
   team: BKT-NBA-TEAM-NOP
-  from: 2015
+  from: 2002
+  through: 2003
+  conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-CENTRAL_DIVISION
+  display_name: New Orleans Hornets
+  abbreviation: NOH
+- league: NBA
+  team: BKT-NBA-TEAM-NOP
+  from: 2004
+  through: 2004
+  conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-SOUTHWEST_DIVISION
+  display_name: New Orleans Hornets
+  abbreviation: NOH
+- league: NBA
+  team: BKT-NBA-TEAM-NOP
+  from: 2005
+  through: 2006
+  conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-SOUTHWEST_DIVISION
+  display_name: New Orleans/Oklahoma City Hornets
+  abbreviation: NOK
+- league: NBA
+  team: BKT-NBA-TEAM-NOP
+  from: 2007
+  through: 2012
+  conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-SOUTHWEST_DIVISION
+  display_name: New Orleans Hornets
+  abbreviation: NOH
+- league: NBA
+  team: BKT-NBA-TEAM-NOP
+  from: 2013
   through: 2024
   conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
   division: BKT-NBA-DIVISION-SOUTHWEST_DIVISION
@@ -657,7 +785,7 @@ ranges:
   abbreviation: NOP
 - league: NBA
   team: BKT-NBA-TEAM-NYK
-  from: 2015
+  from: 2000
   through: 2024
   conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
   division: BKT-NBA-DIVISION-ATLANTIC_DIVISION
@@ -665,7 +793,23 @@ ranges:
   abbreviation: NYK
 - league: NBA
   team: BKT-NBA-TEAM-OKC
-  from: 2015
+  from: 2000
+  through: 2003
+  conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-PACIFIC_DIVISION
+  display_name: Seattle SuperSonics
+  abbreviation: SEA
+- league: NBA
+  team: BKT-NBA-TEAM-OKC
+  from: 2004
+  through: 2007
+  conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-NORTHWEST_DIVISION
+  display_name: Seattle SuperSonics
+  abbreviation: SEA
+- league: NBA
+  team: BKT-NBA-TEAM-OKC
+  from: 2008
   through: 2024
   conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
   division: BKT-NBA-DIVISION-NORTHWEST_DIVISION
@@ -673,7 +817,15 @@ ranges:
   abbreviation: OKC
 - league: NBA
   team: BKT-NBA-TEAM-ORL
-  from: 2015
+  from: 2000
+  through: 2003
+  conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-ATLANTIC_DIVISION
+  display_name: Orlando Magic
+  abbreviation: ORL
+- league: NBA
+  team: BKT-NBA-TEAM-ORL
+  from: 2004
   through: 2024
   conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
   division: BKT-NBA-DIVISION-SOUTHEAST_DIVISION
@@ -681,7 +833,7 @@ ranges:
   abbreviation: ORL
 - league: NBA
   team: BKT-NBA-TEAM-PHI
-  from: 2015
+  from: 2000
   through: 2024
   conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
   division: BKT-NBA-DIVISION-ATLANTIC_DIVISION
@@ -689,7 +841,7 @@ ranges:
   abbreviation: PHI
 - league: NBA
   team: BKT-NBA-TEAM-PHX
-  from: 2015
+  from: 2000
   through: 2024
   conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
   division: BKT-NBA-DIVISION-PACIFIC_DIVISION
@@ -697,7 +849,15 @@ ranges:
   abbreviation: PHX
 - league: NBA
   team: BKT-NBA-TEAM-POR
-  from: 2015
+  from: 2000
+  through: 2003
+  conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-PACIFIC_DIVISION
+  display_name: Portland Trail Blazers
+  abbreviation: POR
+- league: NBA
+  team: BKT-NBA-TEAM-POR
+  from: 2004
   through: 2024
   conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
   division: BKT-NBA-DIVISION-NORTHWEST_DIVISION
@@ -705,7 +865,7 @@ ranges:
   abbreviation: POR
 - league: NBA
   team: BKT-NBA-TEAM-SAC
-  from: 2015
+  from: 2000
   through: 2024
   conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
   division: BKT-NBA-DIVISION-PACIFIC_DIVISION
@@ -713,7 +873,15 @@ ranges:
   abbreviation: SAC
 - league: NBA
   team: BKT-NBA-TEAM-SAS
-  from: 2015
+  from: 2000
+  through: 2003
+  conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-MIDWEST_DIVISION
+  display_name: San Antonio Spurs
+  abbreviation: SAS
+- league: NBA
+  team: BKT-NBA-TEAM-SAS
+  from: 2004
   through: 2024
   conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
   division: BKT-NBA-DIVISION-SOUTHWEST_DIVISION
@@ -721,7 +889,15 @@ ranges:
   abbreviation: SAS
 - league: NBA
   team: BKT-NBA-TEAM-TOR
-  from: 2015
+  from: 2000
+  through: 2003
+  conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-CENTRAL_DIVISION
+  display_name: Toronto Raptors
+  abbreviation: TOR
+- league: NBA
+  team: BKT-NBA-TEAM-TOR
+  from: 2004
   through: 2024
   conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
   division: BKT-NBA-DIVISION-ATLANTIC_DIVISION
@@ -729,7 +905,15 @@ ranges:
   abbreviation: TOR
 - league: NBA
   team: BKT-NBA-TEAM-UTA
-  from: 2015
+  from: 2000
+  through: 2003
+  conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-MIDWEST_DIVISION
+  display_name: Utah Jazz
+  abbreviation: UTA
+- league: NBA
+  team: BKT-NBA-TEAM-UTA
+  from: 2004
   through: 2024
   conference: BKT-NBA-CONFERENCE-WESTERN_CONFERENCE
   division: BKT-NBA-DIVISION-NORTHWEST_DIVISION
@@ -737,7 +921,15 @@ ranges:
   abbreviation: UTA
 - league: NBA
   team: BKT-NBA-TEAM-WAS
-  from: 2015
+  from: 2000
+  through: 2003
+  conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
+  division: BKT-NBA-DIVISION-ATLANTIC_DIVISION
+  display_name: Washington Wizards
+  abbreviation: WAS
+- league: NBA
+  team: BKT-NBA-TEAM-WAS
+  from: 2004
   through: 2024
   conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
   division: BKT-NBA-DIVISION-SOUTHEAST_DIVISION
