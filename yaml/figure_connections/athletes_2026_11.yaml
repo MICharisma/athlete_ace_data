@@ -1,0 +1,597 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+# Second Figure connections batch: athletes already in the catalog as Players.
+# Every claim cites public pages read on 2026-11-22; see the "Athletes batch"
+# section of sources/figure_connections/README.md. Claims import as pending and
+# need an admin's review before they are public.
+records:
+# Kevin Durant: a founding and an ownership stake.
+- type: FigureBusinessRelationship
+  code: BUSINESS_TIE-DURANT_KEVIN-THIRTY_FIVE_VENTURES-FOUNDED
+  attributes:
+    predicate: founded
+    context: Co-founded with his business partner Rich Kleiman. The source doesn't give a founding date.
+  references:
+    figure: FIGURE-BKT-NBA-PLAYER-DURANT_KEVIN
+    business: BUSINESS-THIRTY_FIVE_VENTURES
+- type: Attestation
+  code: ATTESTATION-DURANT_KEVIN-THIRTY_FIVE_VENTURES-UNION_RELEASE
+  attributes:
+    content_form: link
+    url: https://www.philadelphiaunion.com/news/kevin-durant-joins-philadelphia-union-investor-and-community-partner
+    source_title: Kevin Durant Joins the Philadelphia Union As Investor and Community Partner
+    publisher: Philadelphia Union
+    author_name: Philadelphia Union Communications
+    published_on: '2020-06-15'
+    excerpt: Co-founded by Kevin Durant and his business partner Rich Kleiman
+    locator: Paragraph describing Thirty Five Ventures
+    context: The club's release describes Thirty Five Ventures as co-founded by Durant and Kleiman.
+  references:
+    claim: BUSINESS_TIE-DURANT_KEVIN-THIRTY_FIVE_VENTURES-FOUNDED
+- type: FigureBusinessRelationship
+  code: BUSINESS_TIE-DURANT_KEVIN-PHILADELPHIA_UNION-OWNS-2020_06_15
+  attributes:
+    predicate: owns
+    start_date: '2020-06-15'
+    context: Bought a 5% ownership stake in the MLS club, with an option to buy another 5%. The deal included a marketing and community partnership with Thirty Five Ventures. The source doesn't say whether he still holds the stake or exercised the option.
+  references:
+    figure: FIGURE-BKT-NBA-PLAYER-DURANT_KEVIN
+    business: BUSINESS-PHILADELPHIA_UNION
+- type: Attestation
+  code: ATTESTATION-DURANT_KEVIN-PHILADELPHIA_UNION-UNION_RELEASE
+  attributes:
+    content_form: link
+    url: https://www.philadelphiaunion.com/news/kevin-durant-joins-philadelphia-union-investor-and-community-partner
+    source_title: Kevin Durant Joins the Philadelphia Union As Investor and Community Partner
+    publisher: Philadelphia Union
+    author_name: Philadelphia Union Communications
+    published_on: '2020-06-15'
+    excerpt: Durant has purchased a 5% ownership stake in the club
+    locator: Opening paragraph
+    context: The club's own announcement of the stake and the option to buy more.
+  references:
+    claim: BUSINESS_TIE-DURANT_KEVIN-PHILADELPHIA_UNION-OWNS-2020_06_15
+# Patrick Mahomes: part-owner of the Royals, and why in his own words.
+- type: FigureBusinessRelationship
+  code: BUSINESS_TIE-MAHOMES_PATRICK-KANSAS_CITY_ROYALS-OWNS-2020_07_28
+  attributes:
+    predicate: owns
+    start_date: '2020-07-28'
+    context: Joined the Royals' new ownership group under principal owner John Sherman. The size of his stake wasn't reported.
+  references:
+    figure: FIGURE-FTB-NFL-PLAYER-MAHOMES_PATRICK
+    business: BUSINESS-KANSAS_CITY_ROYALS
+- type: Attestation
+  code: ATTESTATION-MAHOMES_PATRICK-KANSAS_CITY_ROYALS-ESPN
+  attributes:
+    content_form: link
+    url: https://www.espn.com/mlb/story/_/id/29552843/kansas-city-chiefs-qb-patrick-mahomes-now-part-owner-royals
+    source_title: Kansas City Chiefs QB Patrick Mahomes now part owner of Royals
+    publisher: ESPN
+    author_name: ESPN News Services
+    published_on: '2020-07-28'
+    excerpt: has become a member of the new ownership group of the Kansas City Royals
+    locator: Opening paragraph
+    context: Reports the Royals' announcement of Mahomes's partial ownership, with AP contributing.
+  references:
+    claim: BUSINESS_TIE-MAHOMES_PATRICK-KANSAS_CITY_ROYALS-OWNS-2020_07_28
+- type: AttributedStatement
+  code: STATEMENT-MAHOMES_PATRICK-COMMUNITY-2020_07_28
+  attributes:
+    attribution_kind: direct_quote
+    text: I love this city and the people of this great town. This opportunity allows me to deepen my roots in this community, which is something I'm excited to do.
+    statement_date: '2020-07-28'
+    context: From his statement released by the Royals when he joined the ownership group.
+  references:
+    figure: FIGURE-FTB-NFL-PLAYER-MAHOMES_PATRICK
+    topic: TOPIC-COMMUNITY
+- type: Attestation
+  code: ATTESTATION-MAHOMES_PATRICK-COMMUNITY-ESPN
+  attributes:
+    content_form: link
+    url: https://www.espn.com/mlb/story/_/id/29552843/kansas-city-chiefs-qb-patrick-mahomes-now-part-owner-royals
+    source_title: Kansas City Chiefs QB Patrick Mahomes now part owner of Royals
+    publisher: ESPN
+    author_name: ESPN News Services
+    published_on: '2020-07-28'
+    excerpt: This opportunity allows me to deepen my roots in this community
+    context: ESPN quotes the statement the team released in Mahomes's name.
+  references:
+    claim: STATEMENT-MAHOMES_PATRICK-COMMUNITY-2020_07_28
+# LeBron James: Fenway Sports Group partner, an earlier Liverpool stake, and his
+# stated goal of owning an NBA team.
+- type: FigureBusinessRelationship
+  code: BUSINESS_TIE-JAMES_LEBRON-FENWAY_SPORTS_GROUP-OWNS-2021_03
+  attributes:
+    predicate: owns
+    start_date: '2021-03'
+    context: Joined Fenway Sports Group as a partner with Maverick Carter, giving him a stake in its subsidiaries, including the Boston Red Sox and Liverpool. The size of the stake wasn't reported.
+  references:
+    figure: FIGURE-BKT-NBA-PLAYER-JAMES_LEBRON
+    business: BUSINESS-FENWAY_SPORTS_GROUP
+- type: Attestation
+  code: ATTESTATION-JAMES_LEBRON-FENWAY_SPORTS_GROUP-ESPN
+  attributes:
+    content_form: link
+    url: https://www.espn.com/mlb/story/_/id/31076745/source-lebron-james-becomes-part-owner-boston-red-sox-joins-fenway-sports-group-partner
+    source_title: LeBron James becomes part owner of Boston Red Sox, joins Fenway Sports Group as partner
+    publisher: ESPN
+    author_name: Jeff Passan
+    published_on: '2021-03-16'
+    excerpt: giving him an ownership stake in its subsidiaries
+    locator: Opening paragraph
+    context: Reports James joining FSG as a partner and lists the subsidiaries.
+  references:
+    claim: BUSINESS_TIE-JAMES_LEBRON-FENWAY_SPORTS_GROUP-OWNS-2021_03
+- type: FigureBusinessRelationship
+  code: BUSINESS_TIE-JAMES_LEBRON-LIVERPOOL_FC-OWNS
+  attributes:
+    predicate: owns
+    context: ESPN reports that he already owned 2% of Liverpool before joining Fenway Sports Group, after joining FSG's investment for a reported $6.5 million. The source gives no start date and doesn't say what became of the direct stake.
+  references:
+    figure: FIGURE-BKT-NBA-PLAYER-JAMES_LEBRON
+    business: BUSINESS-LIVERPOOL_FC
+- type: Attestation
+  code: ATTESTATION-JAMES_LEBRON-LIVERPOOL_FC-ESPN
+  attributes:
+    content_form: link
+    url: https://www.espn.com/mlb/story/_/id/31076745/source-lebron-james-becomes-part-owner-boston-red-sox-joins-fenway-sports-group-partner
+    source_title: LeBron James becomes part owner of Boston Red Sox, joins Fenway Sports Group as partner
+    publisher: ESPN
+    author_name: Jeff Passan
+    published_on: '2021-03-16'
+    excerpt: James, 36, already owned 2% of Liverpool
+    locator: Second paragraph
+    context: States the Liverpool stake as of March 2021; a later paragraph reports the $6.5 million investment.
+  references:
+    claim: BUSINESS_TIE-JAMES_LEBRON-LIVERPOOL_FC-OWNS
+- type: AttributedStatement
+  code: STATEMENT-JAMES_LEBRON-OWNERSHIP-2021_03_16
+  attributes:
+    attribution_kind: direct_quote
+    text: My goal is to own an NBA franchise, and it will be sooner than later.
+    statement_date: '2021-03-16'
+    context: Said after a win over the Minnesota Timberwolves, the night his Fenway Sports Group partnership was reported.
+  references:
+    figure: FIGURE-BKT-NBA-PLAYER-JAMES_LEBRON
+    topic: TOPIC-OWNERSHIP
+- type: Attestation
+  code: ATTESTATION-JAMES_LEBRON-OWNERSHIP-ESPN
+  attributes:
+    content_form: link
+    url: https://www.espn.com/mlb/story/_/id/31076745/source-lebron-james-becomes-part-owner-boston-red-sox-joins-fenway-sports-group-partner
+    source_title: LeBron James becomes part owner of Boston Red Sox, joins Fenway Sports Group as partner
+    publisher: ESPN
+    author_name: Jeff Passan
+    published_on: '2021-03-16'
+    excerpt: My goal is to own an NBA franchise
+    context: ESPN quotes James directly ("James said Tuesday night").
+  references:
+    claim: STATEMENT-JAMES_LEBRON-OWNERSHIP-2021_03_16
+# Shohei Ohtani: a current sponsorship, extended this week.
+- type: FigureBusinessRelationship
+  code: BUSINESS_TIE-OHTANI_SHOHEI-NEW_BALANCE-SPONSORED_BY-2023
+  attributes:
+    predicate: sponsored_by
+    start_date: '2023'
+    temporal_state: reported_current
+    as_of_date: '2026-11-20'
+    context: Signed with New Balance in 2023. On 2026-11-20 the two announced an extension through the rest of his playing career, which also names New Balance's Sports Research Lab after him. Financial terms weren't reported.
+  references:
+    figure: FIGURE-BSB-MLB-PLAYER-OHTANI_SHOHEI
+    business: BUSINESS-NEW_BALANCE
+- type: Attestation
+  code: ATTESTATION-OHTANI_SHOHEI-NEW_BALANCE-ESPN_AP
+  attributes:
+    content_form: link
+    url: https://www.espn.com/mlb/story/_/id/50542241/shohei-ohtani-extends-new-balance-rest-playing-career
+    source_title: Shohei Ohtani extends deal with New Balance for remainder of playing career
+    publisher: ESPN (Associated Press)
+    author_name: Associated Press
+    published_on: '2026-11-20'
+    excerpt: signed with the footwear and apparel company in 2023
+    locator: Third paragraph
+    context: Establishes the 2023 start and the extension announced on 2026-11-20.
+  references:
+    claim: BUSINESS_TIE-OHTANI_SHOHEI-NEW_BALANCE-SPONSORED_BY-2023
+- type: AttributedStatement
+  code: STATEMENT-OHTANI_SHOHEI-TRUST-2026_11
+  attributes:
+    attribution_kind: direct_quote
+    text: There is a lot of trust in our relationship and I've always felt like a true partner whether I'm testing products, sharing feedback or helping shape new ideas.
+    statement_date: '2026-11'
+    context: From his statement on extending his New Balance contract.
+  references:
+    figure: FIGURE-BSB-MLB-PLAYER-OHTANI_SHOHEI
+    topic: TOPIC-TRUST
+- type: Attestation
+  code: ATTESTATION-OHTANI_SHOHEI-TRUST-ESPN_AP
+  attributes:
+    content_form: link
+    url: https://www.espn.com/mlb/story/_/id/50542241/shohei-ohtani-extends-new-balance-rest-playing-career
+    source_title: Shohei Ohtani extends deal with New Balance for remainder of playing career
+    publisher: ESPN (Associated Press)
+    author_name: Associated Press
+    published_on: '2026-11-20'
+    excerpt: There is a lot of trust in our relationship
+    context: AP quotes Ohtani's statement. It is a statement issued with a sponsor's announcement, not an interview.
+  references:
+    claim: STATEMENT-OHTANI_SHOHEI-TRUST-2026_11
+# Stephen Curry: a founding (his Under Armour sponsorship is in the pilot).
+- type: FigureBusinessRelationship
+  code: BUSINESS_TIE-CURRY_STEPHEN-UNANIMOUS_MEDIA-FOUNDED
+  attributes:
+    predicate: founded
+    context: Co-founded the production company to make content about sports, family and faith. AP called it newly formed in June 2019 but gave no founding date or co-founders.
+  references:
+    figure: FIGURE-BKT-NBA-PLAYER-CURRY_STEPHEN
+    business: BUSINESS-UNANIMOUS_MEDIA
+- type: Attestation
+  code: ATTESTATION-CURRY_STEPHEN-UNANIMOUS_MEDIA-AP
+  attributes:
+    content_form: link
+    url: https://www.cbsnews.com/detroit/news/stephen-curry-to-build-production-company/
+    source_title: Stephen Curry To Build Production Company
+    publisher: CBS Detroit (Associated Press)
+    author_name: Associated Press
+    published_on: '2019-06-27'
+    excerpt: Curry co-founded Unanimous Media to produce content focusing on sports, family and faith.
+    locator: Second paragraph
+    context: AP story republished by CBS Detroit.
+  references:
+    claim: BUSINESS_TIE-CURRY_STEPHEN-UNANIMOUS_MEDIA-FOUNDED
+- type: AttributedStatement
+  code: STATEMENT-CURRY_STEPHEN-PURPOSE-2019_06
+  attributes:
+    attribution_kind: attributed_paraphrase
+    text: Curry says he wants to uplift people who need to be uplifted.
+    statement_date: '2019-06'
+    context: AP quotes only the phrase "uplift people who need to be uplifted", so the rest is recorded as a paraphrase.
+  references:
+    figure: FIGURE-BKT-NBA-PLAYER-CURRY_STEPHEN
+    topic: TOPIC-PURPOSE
+- type: Attestation
+  code: ATTESTATION-CURRY_STEPHEN-PURPOSE-AP
+  attributes:
+    content_form: link
+    url: https://www.cbsnews.com/detroit/news/stephen-curry-to-build-production-company/
+    source_title: Stephen Curry To Build Production Company
+    publisher: CBS Detroit (Associated Press)
+    author_name: Associated Press
+    published_on: '2019-06-27'
+    excerpt: uplift people who need to be uplifted
+    context: The quoted phrase appears in the story about Unanimous Media; the article doesn't say where Curry said it.
+  references:
+    claim: STATEMENT-CURRY_STEPHEN-PURPOSE-2019_06
+# Sidney Crosby and Nathan MacKinnon: Tim Hortons campaigns.
+- type: FigureBusinessRelationship
+  code: BUSINESS_TIE-CROSBY_SIDNEY-TIM_HORTONS-PROMOTES
+  attributes:
+    predicate: promotes
+    context: Appeared in Tim Hortons campaigns announced in 2016 (a Tims Run video series with Nathan MacKinnon, which he described as teaming up "again") and 2023 (a TV commercial reuniting him with Rimouski Oceanic fans). The sources don't establish when the relationship began or whether it continues, or any payment terms.
+  references:
+    figure: FIGURE-HCK-NHL-PLAYER-CROSBY_SIDNEY
+    business: BUSINESS-TIM_HORTONS
+- type: Attestation
+  code: ATTESTATION-CROSBY_SIDNEY-TIM_HORTONS-RELEASE_2016
+  attributes:
+    content_form: link
+    url: https://www.newswire.ca/news-releases/tim-hortons-launches-new-sidney-crosby-and-nathan-mackinnon-online-video-series-in-celebration-of-2016-17-hockey-season-592549471.html
+    source_title: Tim Hortons® launches new Sidney Crosby and Nathan MacKinnon online video series in celebration of 2016-17 Hockey Season
+    publisher: Tim Hortons, distributed by CNW
+    author_name: Tim Hortons
+    published_on: '2016-09-07'
+    excerpt: team up with Tim Hortons again this year
+    locator: Crosby's quote, third paragraph
+    context: Tim Hortons' own release; Crosby's quoted words show a campaign before 2016.
+  references:
+    claim: BUSINESS_TIE-CROSBY_SIDNEY-TIM_HORTONS-PROMOTES
+- type: Attestation
+  code: ATTESTATION-CROSBY_SIDNEY-TIM_HORTONS-RELEASE_2023
+  attributes:
+    content_form: link
+    url: https://www.newswire.ca/news-releases/sidney-crosby-and-rimouski-oceanic-fans-reunite-to-relive-a-special-moment-with-tim-hortons-in-new-tv-commercial-861415255.html
+    source_title: Sidney Crosby and Rimouski Oceanic fans reunite to relive a special moment with Tim Hortons in new TV commercial
+    publisher: Tim Hortons, distributed by CNW
+    author_name: Tim Hortons
+    published_on: '2023-01-04'
+    excerpt: Tim Hortons reunited Sidney Crosby, his former junior hockey teammate Eric Neilson
+    locator: Opening paragraph
+    context: Tim Hortons' own release announcing the 2023 commercial.
+  references:
+    claim: BUSINESS_TIE-CROSBY_SIDNEY-TIM_HORTONS-PROMOTES
+- type: FigureBusinessRelationship
+  code: BUSINESS_TIE-MACKINNON_NATHAN-TIM_HORTONS-PROMOTES
+  attributes:
+    predicate: promotes
+    context: Featured with Sidney Crosby in a three-part Tims Run video series for the start of the 2016-17 season. The source doesn't establish other dates or any payment terms.
+  references:
+    figure: FIGURE-HCK-NHL-PLAYER-MACKINNON_NATHAN
+    business: BUSINESS-TIM_HORTONS
+- type: Attestation
+  code: ATTESTATION-MACKINNON_NATHAN-TIM_HORTONS-RELEASE_2016
+  attributes:
+    content_form: link
+    url: https://www.newswire.ca/news-releases/tim-hortons-launches-new-sidney-crosby-and-nathan-mackinnon-online-video-series-in-celebration-of-2016-17-hockey-season-592549471.html
+    source_title: Tim Hortons® launches new Sidney Crosby and Nathan MacKinnon online video series in celebration of 2016-17 Hockey Season
+    publisher: Tim Hortons, distributed by CNW
+    author_name: Tim Hortons
+    published_on: '2016-09-07'
+    excerpt: Colorado Avalanche® centre Nathan MacKinnon making a surprise Tims Run™
+    locator: Opening paragraph
+    context: Tim Hortons' own release naming MacKinnon in the series.
+  references:
+    claim: BUSINESS_TIE-MACKINNON_NATHAN-TIM_HORTONS-PROMOTES
+# Kevin Love: therapy after an in-game panic attack, in his own essay.
+- type: FigurePracticeRelationship
+  code: PRACTICE_TIE-LOVE_KEVIN-THERAPY
+  attributes:
+    predicate: participates_in
+    start_date: '2017-11'
+    interpretation: Love says he has "seen the power of saying things out loud in a setting like that."
+    context: After a panic attack during a game on November 5, 2017, the Cavaliers helped him find a therapist, whom he met a few times a month. He writes that he isn't telling everyone to see a therapist, so this is not recorded as a recommendation.
+  references:
+    figure: FIGURE-BKT-NBA-PLAYER-LOVE_KEVIN
+- type: PracticeConnection
+  code: PRACTICE_TIE-LOVE_KEVIN-THERAPY-PRACTICE-THERAPY
+  attributes: {}
+  references:
+    figure_practice_relationship: PRACTICE_TIE-LOVE_KEVIN-THERAPY
+    practice: PRACTICE-THERAPY
+- type: Attestation
+  code: ATTESTATION-LOVE_KEVIN-THERAPY-PLAYERS_TRIBUNE
+  attributes:
+    content_form: link
+    url: https://www.theplayerstribune.com/articles/kevin-love-everyone-is-going-through-something
+    source_title: Everyone Is Going Through Something
+    publisher: The Players' Tribune
+    author_name: Kevin Love
+    published_on: '2018-03-06'
+    excerpt: The Cavs helped me find a therapist, and I set up an appointment.
+    locator: Middle of the essay, after the panic attack
+    context: Love's first-person essay describes starting therapy and what it has meant to him.
+  references:
+    claim: PRACTICE_TIE-LOVE_KEVIN-THERAPY
+- type: AttributedStatement
+  code: STATEMENT-LOVE_KEVIN-MENTAL_HEALTH-2018_03_06
+  attributes:
+    attribution_kind: direct_quote
+    text: Everyone is going through something that we can't see.
+    statement_date: '2018-03-06'
+    context: The line he ends his essay on, written twice.
+  references:
+    figure: FIGURE-BKT-NBA-PLAYER-LOVE_KEVIN
+    topic: TOPIC-MENTAL_HEALTH
+- type: Attestation
+  code: ATTESTATION-LOVE_KEVIN-MENTAL_HEALTH-PLAYERS_TRIBUNE
+  attributes:
+    content_form: link
+    url: https://www.theplayerstribune.com/articles/kevin-love-everyone-is-going-through-something
+    source_title: Everyone Is Going Through Something
+    publisher: The Players' Tribune
+    author_name: Kevin Love
+    published_on: '2018-03-06'
+    excerpt: Everyone is going through something that we can’t see.
+    locator: Closing paragraphs
+    context: Love's own words in his first-person essay.
+  references:
+    claim: STATEMENT-LOVE_KEVIN-MENTAL_HEALTH-2018_03_06
+# DeMar DeRozan: the depression interview Love cites.
+- type: AttributedStatement
+  code: STATEMENT-DEROZAN_DEMAR-MENTAL_HEALTH-2018_02
+  attributes:
+    attribution_kind: direct_quote
+    text: It's one of them things that no matter how indestructible we look like we are, we're all human at the end of the day.
+    statement_date: '2018-02'
+    context: From his Toronto Star interview explaining a tweet about depression he posted during All-Star Weekend.
+  references:
+    figure: FIGURE-BKT-NBA-PLAYER-DEROZAN_DEMAR
+    topic: TOPIC-MENTAL_HEALTH
+- type: Attestation
+  code: ATTESTATION-DEROZAN_DEMAR-MENTAL_HEALTH-ESPN
+  attributes:
+    content_form: link
+    url: https://www.espn.com/nba/story/_/id/22582972/demar-derozan-toronto-raptors-depression-fight-all-human
+    source_title: Raptors' DeMar DeRozan opens up about bouts with depression
+    publisher: ESPN
+    published_on: '2018-02-26'
+    excerpt: we're all human at the end of the day
+    context: ESPN quotes the Toronto Star interview ("DeRozan told The Star"). The Star's own article wasn't read.
+  references:
+    claim: STATEMENT-DEROZAN_DEMAR-MENTAL_HEALTH-2018_02
+- type: AttributedStatement
+  code: STATEMENT-DEROZAN_DEMAR-RESPECT-2018_02
+  attributes:
+    attribution_kind: self_stated_value
+    text: You can be the smallest person off the street or you could be the biggest person in the world, I'm going to treat everybody the same, with respect.
+    statement_date: '2018-02'
+    context: He links it to his mother's advice never to make fun of anybody, because you never know what that person is going through.
+  references:
+    figure: FIGURE-BKT-NBA-PLAYER-DEROZAN_DEMAR
+    topic: TOPIC-RESPECT
+- type: Attestation
+  code: ATTESTATION-DEROZAN_DEMAR-RESPECT-ESPN
+  attributes:
+    content_form: link
+    url: https://www.espn.com/nba/story/_/id/22582972/demar-derozan-toronto-raptors-depression-fight-all-human
+    source_title: Raptors' DeMar DeRozan opens up about bouts with depression
+    publisher: ESPN
+    published_on: '2018-02-26'
+    excerpt: I'm going to treat everybody the same, with respect.
+    context: ESPN quotes the Toronto Star interview. DeRozan states the value in his own words.
+  references:
+    claim: STATEMENT-DEROZAN_DEMAR-RESPECT-2018_02
+# Jaylen Brown: one protocol, two meanings in his own words.
+- type: FigurePracticeRelationship
+  code: PRACTICE_TIE-BROWN_JAYLEN-UNDERWATER_TRAINING
+  attributes:
+    predicate: participates_in
+    start_date: '2022'
+    interpretation: Brown calls it "a way to mentally learn how to deal with anxiety" and says "the better you breathe, the better you do everything."
+    context: Offseason underwater workouts, first shared during the 2022 offseason and repeated in 2023 and 2024. He sought guidance from Laird Hamilton on oxygen deprivation.
+  references:
+    figure: FIGURE-BKT-NBA-PLAYER-BROWN_JAYLEN
+    protocol: PROTOCOL-WEIGHTED_UNDERWATER_TRAINING
+- type: PracticeConnection
+  code: PRACTICE_TIE-BROWN_JAYLEN-UNDERWATER_TRAINING-PRACTICE-ANXIETY_MANAGEMENT
+  attributes: {}
+  references:
+    figure_practice_relationship: PRACTICE_TIE-BROWN_JAYLEN-UNDERWATER_TRAINING
+    practice: PRACTICE-ANXIETY_MANAGEMENT
+- type: PracticeConnection
+  code: PRACTICE_TIE-BROWN_JAYLEN-UNDERWATER_TRAINING-PRACTICE-BREATHWORK
+  attributes: {}
+  references:
+    figure_practice_relationship: PRACTICE_TIE-BROWN_JAYLEN-UNDERWATER_TRAINING
+    practice: PRACTICE-BREATHWORK
+- type: Attestation
+  code: ATTESTATION-BROWN_JAYLEN-UNDERWATER_TRAINING-NBCSB
+  attributes:
+    content_form: link
+    url: https://www.nbcsportsboston.com/nba/boston-celtics/jaylen-brown-underwater-workouts-motivation/651151/
+    source_title: Jaylen shares great insight into his unique underwater workouts
+    publisher: NBC Sports Boston
+    author_name: Darren Hartwell
+    published_on: '2024-09-24'
+    excerpt: Brown first shared clips of his underwater workouts during the 2022 offseason
+    locator: After the Media Day quotes
+    context: Establishes the 2022 start and the method (holding his breath while lifting weights at the bottom of a pool), and quotes Brown on breathing at 2024 Celtics Media Day.
+  references:
+    claim: PRACTICE_TIE-BROWN_JAYLEN-UNDERWATER_TRAINING
+- type: Attestation
+  code: ATTESTATION-BROWN_JAYLEN-UNDERWATER_TRAINING-BOSTON_COM
+  attributes:
+    content_form: link
+    url: https://www.boston.com/sports/boston-celtics/2026/04/09/celtics-jaylen-brown-laird-hamilton-underwater-training-comments/
+    source_title: Jaylen Brown says underwater training with a surfing legend helped him deal with anxiety
+    publisher: Boston.com
+    author_name: Khari A. Thompson
+    published_on: '2026-04-09'
+    excerpt: It’s a way to mentally learn how to deal with anxiety
+    context: Relays Brown's quotes from an ESPN profile by Ramona Shelburne, which wasn't read directly. Supports the anxiety interpretation and describes sinking to the bottom of a pool with heavy weights.
+  references:
+    claim: PRACTICE_TIE-BROWN_JAYLEN-UNDERWATER_TRAINING
+- type: AttributedStatement
+  code: STATEMENT-BROWN_JAYLEN-COMPOSURE
+  attributes:
+    attribution_kind: direct_quote
+    text: The worst thing you can do is panic. That's in the water, but that's also in life.
+    context: On what underwater training taught him. Quoted from an ESPN profile published before April 2026; the interview date is unknown.
+  references:
+    figure: FIGURE-BKT-NBA-PLAYER-BROWN_JAYLEN
+    topic: TOPIC-COMPOSURE
+    figure_practice_relationship: PRACTICE_TIE-BROWN_JAYLEN-UNDERWATER_TRAINING
+- type: Attestation
+  code: ATTESTATION-BROWN_JAYLEN-COMPOSURE-BOSTON_COM
+  attributes:
+    content_form: link
+    url: https://www.boston.com/sports/boston-celtics/2026/04/09/celtics-jaylen-brown-laird-hamilton-underwater-training-comments/
+    source_title: Jaylen Brown says underwater training with a surfing legend helped him deal with anxiety
+    publisher: Boston.com
+    author_name: Khari A. Thompson
+    published_on: '2026-04-09'
+    excerpt: The worst thing you can do is panic. That’s in the water
+    context: Boston.com quotes Brown from the ESPN profile.
+  references:
+    claim: STATEMENT-BROWN_JAYLEN-COMPOSURE
+# Erling Haaland: two sleep protocols and what sleep means to him.
+- type: FigurePracticeRelationship
+  code: PRACTICE_TIE-HAALAND_ERLING-BLUE_LIGHT_GLASSES
+  attributes:
+    predicate: participates_in
+    interpretation: Haaland says "sleep is the most important thing in the world."
+    context: Wears blue light-blocking glasses for three hours before bed, described on Logan Paul's Impaulsive podcast as reported on 2023-08-31. The source doesn't say when he started.
+  references:
+    figure: FIGURE-SOC-EPL-PLAYER-HAALAND_ERLING
+    protocol: PROTOCOL-BLUE_LIGHT_GLASSES_BEFORE_BED
+- type: PracticeConnection
+  code: PRACTICE_TIE-HAALAND_ERLING-BLUE_LIGHT_GLASSES-PRACTICE-SLEEP
+  attributes: {}
+  references:
+    figure_practice_relationship: PRACTICE_TIE-HAALAND_ERLING-BLUE_LIGHT_GLASSES
+    practice: PRACTICE-SLEEP
+- type: Attestation
+  code: ATTESTATION-HAALAND_ERLING-BLUE_LIGHT_GLASSES-ITV
+  attributes:
+    content_form: link
+    url: https://www.itv.com/news/granada/2023-08-31/manchester-city-striker-erling-haaland-reveals-unusual-bedtime-routine
+    source_title: Manchester City striker Erling Haaland says he tapes his mouth shut at night
+    publisher: ITV News Granada
+    published_on: '2023-08-31'
+    excerpt: wears blue light-blocking glasses for three hours before going to bed
+    locator: Second paragraph
+    context: Reports what Haaland said on the podcast, with his quotes about sleep.
+  references:
+    claim: PRACTICE_TIE-HAALAND_ERLING-BLUE_LIGHT_GLASSES
+- type: FigurePracticeRelationship
+  code: PRACTICE_TIE-HAALAND_ERLING-MOUTH_TAPING
+  attributes:
+    predicate: participates_in
+    context: Sleeps with his mouth taped shut to breathe through his nose, as reported on 2023-08-31 from Logan Paul's Impaulsive podcast. ITV's report adds a warning that taping the mouth during sleep can be dangerous. The source doesn't say when he started.
+  references:
+    figure: FIGURE-SOC-EPL-PLAYER-HAALAND_ERLING
+    protocol: PROTOCOL-MOUTH_TAPING_DURING_SLEEP
+- type: PracticeConnection
+  code: PRACTICE_TIE-HAALAND_ERLING-MOUTH_TAPING-PRACTICE-SLEEP
+  attributes: {}
+  references:
+    figure_practice_relationship: PRACTICE_TIE-HAALAND_ERLING-MOUTH_TAPING
+    practice: PRACTICE-SLEEP
+- type: Attestation
+  code: ATTESTATION-HAALAND_ERLING-MOUTH_TAPING-ITV
+  attributes:
+    content_form: link
+    url: https://www.itv.com/news/granada/2023-08-31/manchester-city-striker-erling-haaland-reveals-unusual-bedtime-routine
+    source_title: Manchester City striker Erling Haaland says he tapes his mouth shut at night
+    publisher: ITV News Granada
+    published_on: '2023-08-31'
+    excerpt: he sleeps with his mouth taped shut at night
+    locator: Opening paragraph
+    context: Reports the habit and its stated purpose, maximising breathing through the nostrils, and adds a medical caution.
+  references:
+    claim: PRACTICE_TIE-HAALAND_ERLING-MOUTH_TAPING
+- type: AttributedStatement
+  code: STATEMENT-HAALAND_ERLING-SLEEP
+  attributes:
+    attribution_kind: direct_quote
+    text: I think sleep is the most important thing in the world.
+    context: On Logan Paul's Impaulsive podcast, as reported on 2023-08-31. The episode date isn't in the source.
+  references:
+    figure: FIGURE-SOC-EPL-PLAYER-HAALAND_ERLING
+    topic: TOPIC-SLEEP
+    figure_practice_relationship: PRACTICE_TIE-HAALAND_ERLING-BLUE_LIGHT_GLASSES
+- type: Attestation
+  code: ATTESTATION-HAALAND_ERLING-SLEEP-ITV
+  attributes:
+    content_form: link
+    url: https://www.itv.com/news/granada/2023-08-31/manchester-city-striker-erling-haaland-reveals-unusual-bedtime-routine
+    source_title: Manchester City striker Erling Haaland says he tapes his mouth shut at night
+    publisher: ITV News Granada
+    published_on: '2023-08-31'
+    excerpt: I think sleep is the most important thing in the world.
+    context: ITV quotes Haaland directly.
+  references:
+    claim: STATEMENT-HAALAND_ERLING-SLEEP
+- type: AttributedStatement
+  code: STATEMENT-HAALAND_ERLING-CONSISTENCY
+  attributes:
+    attribution_kind: direct_quote
+    text: Doing a lot of things is not good but doing small things every single day for a longer period really pays off.
+    context: Following his comments on sleep habits on Logan Paul's Impaulsive podcast, as reported on 2023-08-31.
+  references:
+    figure: FIGURE-SOC-EPL-PLAYER-HAALAND_ERLING
+    topic: TOPIC-CONSISTENCY
+- type: Attestation
+  code: ATTESTATION-HAALAND_ERLING-CONSISTENCY-ITV
+  attributes:
+    content_form: link
+    url: https://www.itv.com/news/granada/2023-08-31/manchester-city-striker-erling-haaland-reveals-unusual-bedtime-routine
+    source_title: Manchester City striker Erling Haaland says he tapes his mouth shut at night
+    publisher: ITV News Granada
+    published_on: '2023-08-31'
+    excerpt: doing small things every single day for a longer period really pays off
+    context: ITV quotes Haaland directly.
+  references:
+    claim: STATEMENT-HAALAND_ERLING-CONSISTENCY

@@ -4,6 +4,16 @@ namespace: MIC
 catalog: ALA
 records:
 - type: Practice
+  code: PRACTICE-ANXIETY_MANAGEMENT
+  attributes:
+    name: Anxiety management
+  references: {}
+- type: Practice
+  code: PRACTICE-BREATHWORK
+  attributes:
+    name: Breathwork
+  references: {}
+- type: Practice
   code: PRACTICE-MEDITATION
   attributes:
     name: Meditation
@@ -13,9 +23,37 @@ records:
   attributes:
     name: Mindfulness
   references: {}
+- type: Practice
+  code: PRACTICE-SLEEP
+  attributes:
+    name: Sleep
+  references: {}
+- type: Practice
+  code: PRACTICE-THERAPY
+  attributes:
+    name: Talk therapy
+  references: {}
+- type: Protocol
+  code: PROTOCOL-BLUE_LIGHT_GLASSES_BEFORE_BED
+  attributes:
+    name: Blue-light-blocking glasses before bed
+    routine: Wearing blue light-blocking glasses for three hours before going to bed.
+  references: {}
+- type: Protocol
+  code: PROTOCOL-MOUTH_TAPING_DURING_SLEEP
+  attributes:
+    name: Mouth taping during sleep
+    routine: Sleeping with the mouth taped shut to breathe through the nose.
+  references: {}
 - type: Protocol
   code: PROTOCOL-SILENT_BREATH_SITTING
   attributes:
     name: Silent group sitting
     routine: Players sit together in silence and monitor their breathing and passing thoughts.
+  references: {}
+- type: Protocol
+  code: PROTOCOL-WEIGHTED_UNDERWATER_TRAINING
+  attributes:
+    name: Weighted underwater training
+    routine: Holding the breath while lifting weights at the bottom of a pool, sinking with heavy weights before rising out of the water.
   references: {}
