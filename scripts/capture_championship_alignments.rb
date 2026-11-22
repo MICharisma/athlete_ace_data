@@ -6,6 +6,10 @@ require "optparse"
 
 class ChampionshipAlignmentCapture
   ROOT = File.expand_path("..", __dir__)
+  WINDOWS = { "NBA" => 2001..2025, "NFL" => 2016..2025, "NHL" => 2016..2025, "MLB" => 2016..2025 }.freeze
+  # ESPN omits season.year from these NBA listings; teams that existed only
+  # in that season confirm the response is historical, not current.
+  SEASON_MARKERS = { [ "NBA", 2001 ] => [ "Vancouver Grizzlies" ], [ "NBA", 2002 ] => [ "Memphis Grizzlies", "Charlotte Hornets" ] }.freeze
 
   def initialize(as_of:, leagues: %w[NBA NFL NHL MLB])
     @as_of = Date.iso8601(as_of).iso8601
@@ -16,14 +20,14 @@ class ChampionshipAlignmentCapture
   def call
     FileUtils.mkdir_p(@output)
     @leagues.each do |league|
-      seasons = (2016..2025).map do |awarded_year|
+      seasons = WINDOWS.fetch(league).map do |awarded_year|
         start_year = league == "MLB" ? awarded_year : awarded_year - 1
         url, teams = case league
         when "NBA", "NFL" then espn(league, start_year)
         when "NHL" then awarded_year == 2021 ? nhl(awarded_year) : espn(league, start_year)
         when "MLB" then mlb(start_year)
         end
-        expected = league == "NFL" ? 32 : league == "NHL" ? (start_year < 2017 ? 30 : start_year < 2021 ? 31 : 32) : 30
+        expected = expected_teams(league, start_year)
         raise "#{league} #{start_year}: expected #{expected} distinct teams" unless teams.size == expected && teams.map { |team| team.fetch("source_id") }.uniq.size == expected
 
         { "start_year" => start_year, "label" => %w[NBA NHL].include?(league) ? "#{start_year}_#{start_year + 1}" : start_year.to_s,
@@ -37,6 +41,15 @@ class ChampionshipAlignmentCapture
   end
 
   private
+
+  def expected_teams(league, start_year)
+    case league
+    when "NFL" then 32
+    when "NHL" then start_year < 2017 ? 30 : start_year < 2021 ? 31 : 32
+    when "NBA" then start_year < 2004 ? 29 : 30
+    else 30
+    end
+  end
 
   def get(url)
     uri = URI(url)
@@ -53,11 +66,10 @@ class ChampionshipAlignmentCapture
     year = league == "NFL" ? start_year : start_year + 1
     url = "https://site.web.api.espn.com/apis/v2/sports/#{sport}/#{league.downcase}/standings?season=#{year}&level=3"
     data = get(url)
-    raise "Wrong #{league} season: #{url}" unless data.fetch("season").fetch("year") == year
-
+    markers = SEASON_MARKERS[[ league, year ]]
     teams = data.fetch("children").flat_map do |conference|
       conference.fetch("children").flat_map do |division|
-        division.fetch("standings").fetch("entries").map do |entry|
+        division.fetch("standings", {}).fetch("entries", []).map do |entry|
           team = entry.fetch("team")
           abbreviation = team.fetch("abbreviation")
           abbreviation = { "LA" => "LAK", "NJ" => "NJD", "SJ" => "SJS", "TB" => "TBL", "UTAH" => "UTA" }.fetch(abbreviation, abbreviation) if league == "NHL"
@@ -66,6 +78,12 @@ class ChampionshipAlignmentCapture
             "conference" => conference.fetch("name"), "division" => division.fetch("name") }
         end
       end
+    end
+    if data.dig("season", "year")
+      raise "Wrong #{league} season: #{url}" unless data.dig("season", "year") == year
+    else
+      raise "#{league} #{year} omits its season and has no reviewed markers: #{url}" unless markers
+      raise "#{league} #{year} listing lacks #{markers.join(', ')}: #{url}" unless (markers - teams.map { |team| team.fetch("name") }).empty?
     end
     [ url, teams ]
   end

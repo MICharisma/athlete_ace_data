@@ -1,19 +1,19 @@
 # Championship history and annual alignments
 
-This batch records the NBA, NFL, NHL, and MLB championships awarded in 2016–2025. It includes 40 champions, 40 runners-up, and 1,232 annual team Campaigns. NBA and NHL seasons are labeled 2015_2016 through 2024_2025. NFL seasons are 2015 through 2024 because the Super Bowl follows the regular season. MLB seasons are 2016 through 2025.
+This batch records the NBA championships awarded in 2001–2025 and the NFL, NHL, and MLB championships awarded in 2016–2025. It includes 55 champions, 55 runners-up, and 1,678 annual team Campaigns. NBA seasons are labeled 2000_2001 through 2024_2025 and NHL seasons 2015_2016 through 2024_2025. NFL seasons are 2015 through 2024 because the Super Bowl follows the regular season. MLB seasons are 2016 through 2025.
 
 Each championship is a Contest with two placed Contestants and a TitleAward. The entries enumerate the finalists, not the whole playoff field. No individual Games, scores, appearances, player rosters, or exact affiliation dates are generated. Only NFL awards have exact dates in this capture. Other awards retain their championship year and season without an invented day. TitleAward is the award record; this batch does not populate the older Season.champion field.
 
 ## Sources and capture meaning
 
-Championship winners and runners-up were transcribed from these primary records on November 13, 2026:
+Championship winners and runners-up were transcribed from these primary records on November 13, 2026. The NBA titles of 2001–2015 were added from the same NBA page on November 22, 2026, and those rows carry their own `captured_on`:
 
 - [NBA champions](https://www.nba.com/news/history-nba-champions), with original split-year season labels.
 - [NHL 2026 Stanley Cup Final media guide](https://media.nhl.com/site/asset/public/ext/2025-26/2026StanleyCupFinal.pdf#page=43), page 43, “Stanley Cup Champions and Runners-Up.”
 - [Pro Football Hall of Fame Super Bowl history](https://www.profootballhof.com/football-history/hall-of-famers-in-the-super-bowl), including the game dates.
 - [MLB World Series history](https://www.mlb.com/postseason/history/world-series).
 
-`championships.json` preserves the selected facts, source URLs, capture date, championship year, and separate season starting year. It includes exactly ten awards per league. A later award on a source page does not extend the selected window.
+`championships.json` preserves the selected facts, source URLs, capture date, championship year, and separate season starting year. It includes one award per year in each league's window: 2001–2025 for the NBA and 2016–2025 for the others (`WINDOWS` in both scripts). A later or earlier award on a source page does not extend the selected window. The NBA page also lists the 2025–26 title; it is outside this batch's window and not yet in the catalog.
 
 The four `*_alignments.json` captures enumerate every team in each selected season and its recorded conference and division. NBA, NFL, and ordinary NHL seasons use ESPN's season-specific standings hierarchy. Returned season years and distinct team counts are checked. Historical NFL names, Vegas and Seattle expansion, and the separate Arizona and Utah teams provide checks against accidentally receiving current standings.
 
@@ -21,14 +21,28 @@ The NHL's own dated standings supply the temporary 2020–21 divisions, observed
 
 These are complete team classification lists for the selected seasons, not full player rosters or evidence of a classification's exact effective day. The records do not turn today's alignment into an unsupported claim about an earlier season.
 
+### NBA seasons 2000–01 through 2014–15
+
+These fifteen alignment listings come from the same ESPN endpoint, observed November 22, 2026, and carry a per-season `as_of`. The container that built the batch could not reach ESPN, so the listings were fetched in a browser and written in the capture's format; a SHA-256 over the canonical team lines matched the live responses for every season. `capture_championship_alignments.rb` now covers the same window and reproduces them.
+
+- The 2001 and 2002 responses omit `season.year`. The Vancouver Grizzlies (2000–01) and the Memphis Grizzlies with the Charlotte Hornets (2001–02) confirm they are historical listings; the capture script checks those markers (`SEASON_MARKERS`) instead of the echoed year. The other thirteen echo the requested year.
+- The 2003–04 response includes an empty Southeast group before the 2004 realignment; every team is under the old divisions. Seasons through 2003–04 have 29 teams, and Charlotte's 2004 expansion makes 30.
+- The Midwest Division, used through 2003–04, is a new retired Division identity under the Western Conference. The Atlantic, Central, and Pacific divisions keep their existing codes across the 2004 realignment; only their member lists change.
+- New Jersey becomes Brooklyn (2012–13), Seattle becomes Oklahoma City (2008–09), and Vancouver becomes Memphis (2001–02) on continuing team identities with the annual name on each Campaign.
+- **Charlotte, 2000–01 and 2001–02.** ESPN's team 3 runs from those Charlotte Hornets to today's Pelicans. The NBA's record, which [Basketball Reference](https://www.basketball-reference.com/teams/CHA/) follows, places the 1988–2002 Hornets with today's Charlotte franchise and starts New Orleans in 2002–03. The project owner chose the NBA's record on November 22, 2026. `identity_overrides.json` binds team 3 to `BKT-NBA-TEAM-CHA` for those two seasons, and the Campaigns cite the override.
+- Abbreviation and name corrections from Basketball Reference's franchise pages, in `display_name_corrections.json`: CHH for the 2000–02 Hornets (ESPN reuses CHA), NOH for New Orleans (2002–05, 2007–13), NOK and the full name New Orleans/Oklahoma City Hornets for 2005–07 (ESPN shortens it, with a stray line break in 2005–06), and NJN for New Jersey (ESPN gives NJ).
+- ESPN calls the Clippers "Los Angeles Clippers" in 2000–01 and "LA Clippers" afterwards; both are kept as listed.
+
+Known gaps: no Finals MVPs or other person-level honors, no playoff brackets or Finals games, no home venues or colors on the new Campaigns, and no NFL, NHL, or MLB titles before 2016.
+
 ## Inclusive year ranges
 
-`alignment_ranges.yml` compresses the captures into 194 reviewed ranges. `from` and `through` are inclusive season starting years. For example, the Knicks' ten annual classifications use one entry:
+`alignment_ranges.yml` compresses the captures into 218 reviewed ranges. `from` and `through` are inclusive season starting years. For example, the Knicks' twenty-five annual classifications use one entry:
 
 ```yaml
 league: NBA
 team: BKT-NBA-TEAM-NYK
-from: 2015
+from: 2000
 through: 2024
 conference: BKT-NBA-CONFERENCE-EASTERN_CONFERENCE
 division: BKT-NBA-DIVISION-ATLANTIC_DIVISION
@@ -36,7 +50,7 @@ display_name: New York Knicks
 abbreviation: NYK
 ```
 
-The builder expands that entry into ten ordinary Campaign definitions. The range file is generator input outside `yaml/`, not a new manifest-envelope syntax. No shared reader or schema extension is required.
+The builder expands that entry into twenty-five ordinary Campaign definitions. The range file is generator input outside `yaml/`, not a new manifest-envelope syntax. No shared reader or schema extension is required.
 
 Ranges split when a conference, division, annual name, or abbreviation changes. NHL expansion and the temporary 2020–21 divisions remain explicit. Four season-specific, conference-free Division records represent that temporary alignment. Normal divisions resume in 2021–22. Arizona's Coyotes and Utah's team have distinct identities. NFL relocations and renames retain their continuing team identities, with names recorded on annual Campaigns. Cleveland's historical Indians name and the Athletics' annual name are preserved.
 

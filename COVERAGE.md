@@ -32,12 +32,12 @@ Unknown facts stay empty rather than estimated. A batch can cover one layer for 
 
 ## Major league seasons
 
-Proposal: full coverage for every season since 2000 in the oldest leagues, and since founding for the younger ones; champions for every season ever, since each is one record. The catalog today has core coverage for one or two recent seasons per league, plus champions back to 2015–16.
+Proposal: full coverage for every season since 2000 in the oldest leagues, and since founding for the younger ones; champions for every season ever, since each is one record. The catalog today has core coverage for one or two recent seasons per league, plus champions back to 2015–16 (2000–01 for the NBA).
 
 | League | First season | Seasons through 2026 | Proposed full-coverage window | In the catalog now |
 | --- | --- | --- | --- | --- |
 | NFL | 1920 | 107 | 2000–2026 (27) | Teams 2015–2026; champions 2015–2024; complete rosters 2026 |
-| NBA | 1946–47 (as the BAA) | 81 | 2000–01 to 2026–27 (27) | Teams 2015–16 on; champions to 2024–25; complete rosters 2023–24, 2024–25, 2026–27 |
+| NBA | 1946–47 (as the BAA) | 81 | 2000–01 to 2026–27 (27) | Teams and annual alignments 2000–01 on; champions 2000–01 to 2024–25; complete rosters 2023–24, 2024–25, 2026–27 |
 | MLB | 1876 (National League) | 151 | 2000–2026 (27) | Teams 2016–2026; champions 2016–2025; complete rosters 2026 |
 | NHL | 1917–18 | 110 (2004–05 cancelled) | 2000–01 to 2026–27 (26 played) | Teams 2015–16 on; champions to 2024–25; complete rosters and full schedule with venues for 2026–27 |
 | Premier League | 1992–93 | 35 | Since founding (35) | Complete rosters 2026–27; two-player samples 2025–26 |

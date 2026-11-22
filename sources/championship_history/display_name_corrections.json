@@ -1,6 +1,6 @@
 {
   "as_of": "2026-11-13",
-  "meaning": "Reviewed annual display-name corrections. Raw provider captures remain unchanged. These do not change team identity or division classification.",
+  "meaning": "Reviewed annual display-name and abbreviation corrections. Raw provider captures remain unchanged. These do not change team identity or division classification.",
   "corrections": [
     {
       "league": "NFL",
@@ -21,6 +21,57 @@
       "url": "https://www.commanders.com/news/the-washington-football-team-is-now-the-washington-commanders",
       "published_on": "2022-02-02",
       "note": "Washington Football Team was replaced by Commanders in February 2022. The July 2020 announcement establishes its adoption for the 2020 season."
+    },
+    {
+      "league": "NBA",
+      "source_id": "3",
+      "from": 2000,
+      "through": 2001,
+      "abbreviation": "CHH",
+      "url": "https://www.basketball-reference.com/teams/CHA/",
+      "observed_on": "2026-11-22",
+      "note": "ESPN abbreviates the 1988-2002 Charlotte Hornets as CHA, the code the Bobcats used from 2004. Basketball Reference lists these seasons as CHH."
+    },
+    {
+      "league": "NBA",
+      "source_id": "3",
+      "from": 2002,
+      "through": 2004,
+      "abbreviation": "NOH",
+      "url": "https://www.basketball-reference.com/teams/NOP/",
+      "observed_on": "2026-11-22",
+      "note": "ESPN gives the city code NO. Basketball Reference lists the New Orleans Hornets seasons as NOH."
+    },
+    {
+      "league": "NBA",
+      "source_id": "3",
+      "from": 2005,
+      "through": 2006,
+      "display_name": "New Orleans/Oklahoma City Hornets",
+      "abbreviation": "NOK",
+      "url": "https://www.basketball-reference.com/teams/NOP/",
+      "observed_on": "2026-11-22",
+      "note": "ESPN shortens the name to NO/Oklahoma City Hornets, with a stray line break in 2005-06. Basketball Reference gives the full name and NOK for the two seasons played partly in Oklahoma City."
+    },
+    {
+      "league": "NBA",
+      "source_id": "3",
+      "from": 2007,
+      "through": 2012,
+      "abbreviation": "NOH",
+      "url": "https://www.basketball-reference.com/teams/NOP/",
+      "observed_on": "2026-11-22",
+      "note": "ESPN gives the city code NO. Basketball Reference lists the New Orleans Hornets seasons as NOH; the Pelicans name and NOP begin in 2013-14."
+    },
+    {
+      "league": "NBA",
+      "source_id": "17",
+      "from": 2000,
+      "through": 2011,
+      "abbreviation": "NJN",
+      "url": "https://www.basketball-reference.com/teams/NJN/",
+      "observed_on": "2026-11-22",
+      "note": "ESPN gives the state code NJ. Basketball Reference lists the New Jersey Nets seasons as NJN."
     }
   ]
 }

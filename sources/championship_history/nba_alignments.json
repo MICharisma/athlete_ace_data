@@ -4,6 +4,3250 @@
   "meaning": "Complete annual league/conference/division classification. No player roster, game participation, or exact affiliation dates are asserted.",
   "seasons": [
     {
+      "start_year": 2000,
+      "label": "2000_2001",
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2001&level=3",
+      "as_of": "2026-11-22",
+      "teams": [
+        {
+          "source_id": "1",
+          "name": "Atlanta Hawks",
+          "abbreviation": "ATL",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "10",
+          "name": "Houston Rockets",
+          "abbreviation": "HOU",
+          "conference": "Western Conference",
+          "division": "Midwest"
+        },
+        {
+          "source_id": "11",
+          "name": "Indiana Pacers",
+          "abbreviation": "IND",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "12",
+          "name": "Los Angeles Clippers",
+          "abbreviation": "LAC",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "13",
+          "name": "Los Angeles Lakers",
+          "abbreviation": "LAL",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "14",
+          "name": "Miami Heat",
+          "abbreviation": "MIA",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "15",
+          "name": "Milwaukee Bucks",
+          "abbreviation": "MIL",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "16",
+          "name": "Minnesota Timberwolves",
+          "abbreviation": "MIN",
+          "conference": "Western Conference",
+          "division": "Midwest"
+        },
+        {
+          "source_id": "17",
+          "name": "New Jersey Nets",
+          "abbreviation": "NJ",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "18",
+          "name": "New York Knicks",
+          "abbreviation": "NY",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "19",
+          "name": "Orlando Magic",
+          "abbreviation": "ORL",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "2",
+          "name": "Boston Celtics",
+          "abbreviation": "BOS",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "20",
+          "name": "Philadelphia 76ers",
+          "abbreviation": "PHI",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "21",
+          "name": "Phoenix Suns",
+          "abbreviation": "PHX",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "22",
+          "name": "Portland Trail Blazers",
+          "abbreviation": "POR",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "23",
+          "name": "Sacramento Kings",
+          "abbreviation": "SAC",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "24",
+          "name": "San Antonio Spurs",
+          "abbreviation": "SA",
+          "conference": "Western Conference",
+          "division": "Midwest"
+        },
+        {
+          "source_id": "25",
+          "name": "Seattle SuperSonics",
+          "abbreviation": "SEA",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "26",
+          "name": "Utah Jazz",
+          "abbreviation": "UTAH",
+          "conference": "Western Conference",
+          "division": "Midwest"
+        },
+        {
+          "source_id": "27",
+          "name": "Washington Wizards",
+          "abbreviation": "WSH",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "28",
+          "name": "Toronto Raptors",
+          "abbreviation": "TOR",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "29",
+          "name": "Vancouver Grizzlies",
+          "abbreviation": "VAN",
+          "conference": "Western Conference",
+          "division": "Midwest"
+        },
+        {
+          "source_id": "3",
+          "name": "Charlotte Hornets",
+          "abbreviation": "CHA",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "4",
+          "name": "Chicago Bulls",
+          "abbreviation": "CHI",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "5",
+          "name": "Cleveland Cavaliers",
+          "abbreviation": "CLE",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "6",
+          "name": "Dallas Mavericks",
+          "abbreviation": "DAL",
+          "conference": "Western Conference",
+          "division": "Midwest"
+        },
+        {
+          "source_id": "7",
+          "name": "Denver Nuggets",
+          "abbreviation": "DEN",
+          "conference": "Western Conference",
+          "division": "Midwest"
+        },
+        {
+          "source_id": "8",
+          "name": "Detroit Pistons",
+          "abbreviation": "DET",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "9",
+          "name": "Golden State Warriors",
+          "abbreviation": "GS",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        }
+      ],
+      "season_check": "The response omits season.year; Vancouver (2000-01) or Memphis with Charlotte (2001-02) confirms the historical listing."
+    },
+    {
+      "start_year": 2001,
+      "label": "2001_2002",
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2002&level=3",
+      "as_of": "2026-11-22",
+      "teams": [
+        {
+          "source_id": "1",
+          "name": "Atlanta Hawks",
+          "abbreviation": "ATL",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "10",
+          "name": "Houston Rockets",
+          "abbreviation": "HOU",
+          "conference": "Western Conference",
+          "division": "Midwest"
+        },
+        {
+          "source_id": "11",
+          "name": "Indiana Pacers",
+          "abbreviation": "IND",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "12",
+          "name": "LA Clippers",
+          "abbreviation": "LAC",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "13",
+          "name": "Los Angeles Lakers",
+          "abbreviation": "LAL",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "14",
+          "name": "Miami Heat",
+          "abbreviation": "MIA",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "15",
+          "name": "Milwaukee Bucks",
+          "abbreviation": "MIL",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "16",
+          "name": "Minnesota Timberwolves",
+          "abbreviation": "MIN",
+          "conference": "Western Conference",
+          "division": "Midwest"
+        },
+        {
+          "source_id": "17",
+          "name": "New Jersey Nets",
+          "abbreviation": "NJ",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "18",
+          "name": "New York Knicks",
+          "abbreviation": "NY",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "19",
+          "name": "Orlando Magic",
+          "abbreviation": "ORL",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "2",
+          "name": "Boston Celtics",
+          "abbreviation": "BOS",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "20",
+          "name": "Philadelphia 76ers",
+          "abbreviation": "PHI",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "21",
+          "name": "Phoenix Suns",
+          "abbreviation": "PHX",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "22",
+          "name": "Portland Trail Blazers",
+          "abbreviation": "POR",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "23",
+          "name": "Sacramento Kings",
+          "abbreviation": "SAC",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "24",
+          "name": "San Antonio Spurs",
+          "abbreviation": "SA",
+          "conference": "Western Conference",
+          "division": "Midwest"
+        },
+        {
+          "source_id": "25",
+          "name": "Seattle SuperSonics",
+          "abbreviation": "SEA",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "26",
+          "name": "Utah Jazz",
+          "abbreviation": "UTAH",
+          "conference": "Western Conference",
+          "division": "Midwest"
+        },
+        {
+          "source_id": "27",
+          "name": "Washington Wizards",
+          "abbreviation": "WSH",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "28",
+          "name": "Toronto Raptors",
+          "abbreviation": "TOR",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "29",
+          "name": "Memphis Grizzlies",
+          "abbreviation": "MEM",
+          "conference": "Western Conference",
+          "division": "Midwest"
+        },
+        {
+          "source_id": "3",
+          "name": "Charlotte Hornets",
+          "abbreviation": "CHA",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "4",
+          "name": "Chicago Bulls",
+          "abbreviation": "CHI",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "5",
+          "name": "Cleveland Cavaliers",
+          "abbreviation": "CLE",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "6",
+          "name": "Dallas Mavericks",
+          "abbreviation": "DAL",
+          "conference": "Western Conference",
+          "division": "Midwest"
+        },
+        {
+          "source_id": "7",
+          "name": "Denver Nuggets",
+          "abbreviation": "DEN",
+          "conference": "Western Conference",
+          "division": "Midwest"
+        },
+        {
+          "source_id": "8",
+          "name": "Detroit Pistons",
+          "abbreviation": "DET",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "9",
+          "name": "Golden State Warriors",
+          "abbreviation": "GS",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        }
+      ],
+      "season_check": "The response omits season.year; Vancouver (2000-01) or Memphis with Charlotte (2001-02) confirms the historical listing."
+    },
+    {
+      "start_year": 2002,
+      "label": "2002_2003",
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2003&level=3",
+      "as_of": "2026-11-22",
+      "teams": [
+        {
+          "source_id": "1",
+          "name": "Atlanta Hawks",
+          "abbreviation": "ATL",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "10",
+          "name": "Houston Rockets",
+          "abbreviation": "HOU",
+          "conference": "Western Conference",
+          "division": "Midwest"
+        },
+        {
+          "source_id": "11",
+          "name": "Indiana Pacers",
+          "abbreviation": "IND",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "12",
+          "name": "LA Clippers",
+          "abbreviation": "LAC",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "13",
+          "name": "Los Angeles Lakers",
+          "abbreviation": "LAL",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "14",
+          "name": "Miami Heat",
+          "abbreviation": "MIA",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "15",
+          "name": "Milwaukee Bucks",
+          "abbreviation": "MIL",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "16",
+          "name": "Minnesota Timberwolves",
+          "abbreviation": "MIN",
+          "conference": "Western Conference",
+          "division": "Midwest"
+        },
+        {
+          "source_id": "17",
+          "name": "New Jersey Nets",
+          "abbreviation": "NJ",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "18",
+          "name": "New York Knicks",
+          "abbreviation": "NY",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "19",
+          "name": "Orlando Magic",
+          "abbreviation": "ORL",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "2",
+          "name": "Boston Celtics",
+          "abbreviation": "BOS",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "20",
+          "name": "Philadelphia 76ers",
+          "abbreviation": "PHI",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "21",
+          "name": "Phoenix Suns",
+          "abbreviation": "PHX",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "22",
+          "name": "Portland Trail Blazers",
+          "abbreviation": "POR",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "23",
+          "name": "Sacramento Kings",
+          "abbreviation": "SAC",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "24",
+          "name": "San Antonio Spurs",
+          "abbreviation": "SA",
+          "conference": "Western Conference",
+          "division": "Midwest"
+        },
+        {
+          "source_id": "25",
+          "name": "Seattle SuperSonics",
+          "abbreviation": "SEA",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "26",
+          "name": "Utah Jazz",
+          "abbreviation": "UTAH",
+          "conference": "Western Conference",
+          "division": "Midwest"
+        },
+        {
+          "source_id": "27",
+          "name": "Washington Wizards",
+          "abbreviation": "WSH",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "28",
+          "name": "Toronto Raptors",
+          "abbreviation": "TOR",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "29",
+          "name": "Memphis Grizzlies",
+          "abbreviation": "MEM",
+          "conference": "Western Conference",
+          "division": "Midwest"
+        },
+        {
+          "source_id": "3",
+          "name": "New Orleans Hornets",
+          "abbreviation": "NO",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "4",
+          "name": "Chicago Bulls",
+          "abbreviation": "CHI",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "5",
+          "name": "Cleveland Cavaliers",
+          "abbreviation": "CLE",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "6",
+          "name": "Dallas Mavericks",
+          "abbreviation": "DAL",
+          "conference": "Western Conference",
+          "division": "Midwest"
+        },
+        {
+          "source_id": "7",
+          "name": "Denver Nuggets",
+          "abbreviation": "DEN",
+          "conference": "Western Conference",
+          "division": "Midwest"
+        },
+        {
+          "source_id": "8",
+          "name": "Detroit Pistons",
+          "abbreviation": "DET",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "9",
+          "name": "Golden State Warriors",
+          "abbreviation": "GS",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        }
+      ]
+    },
+    {
+      "start_year": 2003,
+      "label": "2003_2004",
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2004&level=3",
+      "as_of": "2026-11-22",
+      "teams": [
+        {
+          "source_id": "1",
+          "name": "Atlanta Hawks",
+          "abbreviation": "ATL",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "10",
+          "name": "Houston Rockets",
+          "abbreviation": "HOU",
+          "conference": "Western Conference",
+          "division": "Midwest"
+        },
+        {
+          "source_id": "11",
+          "name": "Indiana Pacers",
+          "abbreviation": "IND",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "12",
+          "name": "LA Clippers",
+          "abbreviation": "LAC",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "13",
+          "name": "Los Angeles Lakers",
+          "abbreviation": "LAL",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "14",
+          "name": "Miami Heat",
+          "abbreviation": "MIA",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "15",
+          "name": "Milwaukee Bucks",
+          "abbreviation": "MIL",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "16",
+          "name": "Minnesota Timberwolves",
+          "abbreviation": "MIN",
+          "conference": "Western Conference",
+          "division": "Midwest"
+        },
+        {
+          "source_id": "17",
+          "name": "New Jersey Nets",
+          "abbreviation": "NJ",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "18",
+          "name": "New York Knicks",
+          "abbreviation": "NY",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "19",
+          "name": "Orlando Magic",
+          "abbreviation": "ORL",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "2",
+          "name": "Boston Celtics",
+          "abbreviation": "BOS",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "20",
+          "name": "Philadelphia 76ers",
+          "abbreviation": "PHI",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "21",
+          "name": "Phoenix Suns",
+          "abbreviation": "PHX",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "22",
+          "name": "Portland Trail Blazers",
+          "abbreviation": "POR",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "23",
+          "name": "Sacramento Kings",
+          "abbreviation": "SAC",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "24",
+          "name": "San Antonio Spurs",
+          "abbreviation": "SA",
+          "conference": "Western Conference",
+          "division": "Midwest"
+        },
+        {
+          "source_id": "25",
+          "name": "Seattle SuperSonics",
+          "abbreviation": "SEA",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "26",
+          "name": "Utah Jazz",
+          "abbreviation": "UTAH",
+          "conference": "Western Conference",
+          "division": "Midwest"
+        },
+        {
+          "source_id": "27",
+          "name": "Washington Wizards",
+          "abbreviation": "WSH",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "28",
+          "name": "Toronto Raptors",
+          "abbreviation": "TOR",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "29",
+          "name": "Memphis Grizzlies",
+          "abbreviation": "MEM",
+          "conference": "Western Conference",
+          "division": "Midwest"
+        },
+        {
+          "source_id": "3",
+          "name": "New Orleans Hornets",
+          "abbreviation": "NO",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "4",
+          "name": "Chicago Bulls",
+          "abbreviation": "CHI",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "5",
+          "name": "Cleveland Cavaliers",
+          "abbreviation": "CLE",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "6",
+          "name": "Dallas Mavericks",
+          "abbreviation": "DAL",
+          "conference": "Western Conference",
+          "division": "Midwest"
+        },
+        {
+          "source_id": "7",
+          "name": "Denver Nuggets",
+          "abbreviation": "DEN",
+          "conference": "Western Conference",
+          "division": "Midwest"
+        },
+        {
+          "source_id": "8",
+          "name": "Detroit Pistons",
+          "abbreviation": "DET",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "9",
+          "name": "Golden State Warriors",
+          "abbreviation": "GS",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        }
+      ]
+    },
+    {
+      "start_year": 2004,
+      "label": "2004_2005",
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2005&level=3",
+      "as_of": "2026-11-22",
+      "teams": [
+        {
+          "source_id": "1",
+          "name": "Atlanta Hawks",
+          "abbreviation": "ATL",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "10",
+          "name": "Houston Rockets",
+          "abbreviation": "HOU",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "11",
+          "name": "Indiana Pacers",
+          "abbreviation": "IND",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "12",
+          "name": "LA Clippers",
+          "abbreviation": "LAC",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "13",
+          "name": "Los Angeles Lakers",
+          "abbreviation": "LAL",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "14",
+          "name": "Miami Heat",
+          "abbreviation": "MIA",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "15",
+          "name": "Milwaukee Bucks",
+          "abbreviation": "MIL",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "16",
+          "name": "Minnesota Timberwolves",
+          "abbreviation": "MIN",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "17",
+          "name": "New Jersey Nets",
+          "abbreviation": "NJ",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "18",
+          "name": "New York Knicks",
+          "abbreviation": "NY",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "19",
+          "name": "Orlando Magic",
+          "abbreviation": "ORL",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "2",
+          "name": "Boston Celtics",
+          "abbreviation": "BOS",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "20",
+          "name": "Philadelphia 76ers",
+          "abbreviation": "PHI",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "21",
+          "name": "Phoenix Suns",
+          "abbreviation": "PHX",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "22",
+          "name": "Portland Trail Blazers",
+          "abbreviation": "POR",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "23",
+          "name": "Sacramento Kings",
+          "abbreviation": "SAC",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "24",
+          "name": "San Antonio Spurs",
+          "abbreviation": "SA",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "25",
+          "name": "Seattle SuperSonics",
+          "abbreviation": "SEA",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "26",
+          "name": "Utah Jazz",
+          "abbreviation": "UTAH",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "27",
+          "name": "Washington Wizards",
+          "abbreviation": "WSH",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "28",
+          "name": "Toronto Raptors",
+          "abbreviation": "TOR",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "29",
+          "name": "Memphis Grizzlies",
+          "abbreviation": "MEM",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "3",
+          "name": "New Orleans Hornets",
+          "abbreviation": "NO",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "30",
+          "name": "Charlotte Bobcats",
+          "abbreviation": "CHA",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "4",
+          "name": "Chicago Bulls",
+          "abbreviation": "CHI",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "5",
+          "name": "Cleveland Cavaliers",
+          "abbreviation": "CLE",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "6",
+          "name": "Dallas Mavericks",
+          "abbreviation": "DAL",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "7",
+          "name": "Denver Nuggets",
+          "abbreviation": "DEN",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "8",
+          "name": "Detroit Pistons",
+          "abbreviation": "DET",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "9",
+          "name": "Golden State Warriors",
+          "abbreviation": "GS",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        }
+      ]
+    },
+    {
+      "start_year": 2005,
+      "label": "2005_2006",
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2006&level=3",
+      "as_of": "2026-11-22",
+      "teams": [
+        {
+          "source_id": "1",
+          "name": "Atlanta Hawks",
+          "abbreviation": "ATL",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "10",
+          "name": "Houston Rockets",
+          "abbreviation": "HOU",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "11",
+          "name": "Indiana Pacers",
+          "abbreviation": "IND",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "12",
+          "name": "LA Clippers",
+          "abbreviation": "LAC",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "13",
+          "name": "Los Angeles Lakers",
+          "abbreviation": "LAL",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "14",
+          "name": "Miami Heat",
+          "abbreviation": "MIA",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "15",
+          "name": "Milwaukee Bucks",
+          "abbreviation": "MIL",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "16",
+          "name": "Minnesota Timberwolves",
+          "abbreviation": "MIN",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "17",
+          "name": "New Jersey Nets",
+          "abbreviation": "NJ",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "18",
+          "name": "New York Knicks",
+          "abbreviation": "NY",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "19",
+          "name": "Orlando Magic",
+          "abbreviation": "ORL",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "2",
+          "name": "Boston Celtics",
+          "abbreviation": "BOS",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "20",
+          "name": "Philadelphia 76ers",
+          "abbreviation": "PHI",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "21",
+          "name": "Phoenix Suns",
+          "abbreviation": "PHX",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "22",
+          "name": "Portland Trail Blazers",
+          "abbreviation": "POR",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "23",
+          "name": "Sacramento Kings",
+          "abbreviation": "SAC",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "24",
+          "name": "San Antonio Spurs",
+          "abbreviation": "SA",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "25",
+          "name": "Seattle SuperSonics",
+          "abbreviation": "SEA",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "26",
+          "name": "Utah Jazz",
+          "abbreviation": "UTAH",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "27",
+          "name": "Washington Wizards",
+          "abbreviation": "WSH",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "28",
+          "name": "Toronto Raptors",
+          "abbreviation": "TOR",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "29",
+          "name": "Memphis Grizzlies",
+          "abbreviation": "MEM",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "3",
+          "name": "NO/Oklahoma City\r\n Hornets",
+          "abbreviation": "NO",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "30",
+          "name": "Charlotte Bobcats",
+          "abbreviation": "CHA",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "4",
+          "name": "Chicago Bulls",
+          "abbreviation": "CHI",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "5",
+          "name": "Cleveland Cavaliers",
+          "abbreviation": "CLE",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "6",
+          "name": "Dallas Mavericks",
+          "abbreviation": "DAL",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "7",
+          "name": "Denver Nuggets",
+          "abbreviation": "DEN",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "8",
+          "name": "Detroit Pistons",
+          "abbreviation": "DET",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "9",
+          "name": "Golden State Warriors",
+          "abbreviation": "GS",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        }
+      ]
+    },
+    {
+      "start_year": 2006,
+      "label": "2006_2007",
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2007&level=3",
+      "as_of": "2026-11-22",
+      "teams": [
+        {
+          "source_id": "1",
+          "name": "Atlanta Hawks",
+          "abbreviation": "ATL",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "10",
+          "name": "Houston Rockets",
+          "abbreviation": "HOU",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "11",
+          "name": "Indiana Pacers",
+          "abbreviation": "IND",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "12",
+          "name": "LA Clippers",
+          "abbreviation": "LAC",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "13",
+          "name": "Los Angeles Lakers",
+          "abbreviation": "LAL",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "14",
+          "name": "Miami Heat",
+          "abbreviation": "MIA",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "15",
+          "name": "Milwaukee Bucks",
+          "abbreviation": "MIL",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "16",
+          "name": "Minnesota Timberwolves",
+          "abbreviation": "MIN",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "17",
+          "name": "New Jersey Nets",
+          "abbreviation": "NJ",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "18",
+          "name": "New York Knicks",
+          "abbreviation": "NY",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "19",
+          "name": "Orlando Magic",
+          "abbreviation": "ORL",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "2",
+          "name": "Boston Celtics",
+          "abbreviation": "BOS",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "20",
+          "name": "Philadelphia 76ers",
+          "abbreviation": "PHI",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "21",
+          "name": "Phoenix Suns",
+          "abbreviation": "PHX",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "22",
+          "name": "Portland Trail Blazers",
+          "abbreviation": "POR",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "23",
+          "name": "Sacramento Kings",
+          "abbreviation": "SAC",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "24",
+          "name": "San Antonio Spurs",
+          "abbreviation": "SA",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "25",
+          "name": "Seattle SuperSonics",
+          "abbreviation": "SEA",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "26",
+          "name": "Utah Jazz",
+          "abbreviation": "UTAH",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "27",
+          "name": "Washington Wizards",
+          "abbreviation": "WSH",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "28",
+          "name": "Toronto Raptors",
+          "abbreviation": "TOR",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "29",
+          "name": "Memphis Grizzlies",
+          "abbreviation": "MEM",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "3",
+          "name": "NO/Oklahoma City Hornets",
+          "abbreviation": "NO",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "30",
+          "name": "Charlotte Bobcats",
+          "abbreviation": "CHA",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "4",
+          "name": "Chicago Bulls",
+          "abbreviation": "CHI",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "5",
+          "name": "Cleveland Cavaliers",
+          "abbreviation": "CLE",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "6",
+          "name": "Dallas Mavericks",
+          "abbreviation": "DAL",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "7",
+          "name": "Denver Nuggets",
+          "abbreviation": "DEN",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "8",
+          "name": "Detroit Pistons",
+          "abbreviation": "DET",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "9",
+          "name": "Golden State Warriors",
+          "abbreviation": "GS",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        }
+      ]
+    },
+    {
+      "start_year": 2007,
+      "label": "2007_2008",
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2008&level=3",
+      "as_of": "2026-11-22",
+      "teams": [
+        {
+          "source_id": "1",
+          "name": "Atlanta Hawks",
+          "abbreviation": "ATL",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "10",
+          "name": "Houston Rockets",
+          "abbreviation": "HOU",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "11",
+          "name": "Indiana Pacers",
+          "abbreviation": "IND",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "12",
+          "name": "LA Clippers",
+          "abbreviation": "LAC",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "13",
+          "name": "Los Angeles Lakers",
+          "abbreviation": "LAL",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "14",
+          "name": "Miami Heat",
+          "abbreviation": "MIA",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "15",
+          "name": "Milwaukee Bucks",
+          "abbreviation": "MIL",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "16",
+          "name": "Minnesota Timberwolves",
+          "abbreviation": "MIN",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "17",
+          "name": "New Jersey Nets",
+          "abbreviation": "NJ",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "18",
+          "name": "New York Knicks",
+          "abbreviation": "NY",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "19",
+          "name": "Orlando Magic",
+          "abbreviation": "ORL",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "2",
+          "name": "Boston Celtics",
+          "abbreviation": "BOS",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "20",
+          "name": "Philadelphia 76ers",
+          "abbreviation": "PHI",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "21",
+          "name": "Phoenix Suns",
+          "abbreviation": "PHX",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "22",
+          "name": "Portland Trail Blazers",
+          "abbreviation": "POR",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "23",
+          "name": "Sacramento Kings",
+          "abbreviation": "SAC",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "24",
+          "name": "San Antonio Spurs",
+          "abbreviation": "SA",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "25",
+          "name": "Seattle SuperSonics",
+          "abbreviation": "SEA",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "26",
+          "name": "Utah Jazz",
+          "abbreviation": "UTAH",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "27",
+          "name": "Washington Wizards",
+          "abbreviation": "WSH",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "28",
+          "name": "Toronto Raptors",
+          "abbreviation": "TOR",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "29",
+          "name": "Memphis Grizzlies",
+          "abbreviation": "MEM",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "3",
+          "name": "New Orleans Hornets",
+          "abbreviation": "NO",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "30",
+          "name": "Charlotte Bobcats",
+          "abbreviation": "CHA",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "4",
+          "name": "Chicago Bulls",
+          "abbreviation": "CHI",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "5",
+          "name": "Cleveland Cavaliers",
+          "abbreviation": "CLE",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "6",
+          "name": "Dallas Mavericks",
+          "abbreviation": "DAL",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "7",
+          "name": "Denver Nuggets",
+          "abbreviation": "DEN",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "8",
+          "name": "Detroit Pistons",
+          "abbreviation": "DET",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "9",
+          "name": "Golden State Warriors",
+          "abbreviation": "GS",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        }
+      ]
+    },
+    {
+      "start_year": 2008,
+      "label": "2008_2009",
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2009&level=3",
+      "as_of": "2026-11-22",
+      "teams": [
+        {
+          "source_id": "1",
+          "name": "Atlanta Hawks",
+          "abbreviation": "ATL",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "10",
+          "name": "Houston Rockets",
+          "abbreviation": "HOU",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "11",
+          "name": "Indiana Pacers",
+          "abbreviation": "IND",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "12",
+          "name": "LA Clippers",
+          "abbreviation": "LAC",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "13",
+          "name": "Los Angeles Lakers",
+          "abbreviation": "LAL",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "14",
+          "name": "Miami Heat",
+          "abbreviation": "MIA",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "15",
+          "name": "Milwaukee Bucks",
+          "abbreviation": "MIL",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "16",
+          "name": "Minnesota Timberwolves",
+          "abbreviation": "MIN",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "17",
+          "name": "New Jersey Nets",
+          "abbreviation": "NJ",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "18",
+          "name": "New York Knicks",
+          "abbreviation": "NY",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "19",
+          "name": "Orlando Magic",
+          "abbreviation": "ORL",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "2",
+          "name": "Boston Celtics",
+          "abbreviation": "BOS",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "20",
+          "name": "Philadelphia 76ers",
+          "abbreviation": "PHI",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "21",
+          "name": "Phoenix Suns",
+          "abbreviation": "PHX",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "22",
+          "name": "Portland Trail Blazers",
+          "abbreviation": "POR",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "23",
+          "name": "Sacramento Kings",
+          "abbreviation": "SAC",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "24",
+          "name": "San Antonio Spurs",
+          "abbreviation": "SA",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "25",
+          "name": "Oklahoma City Thunder",
+          "abbreviation": "OKC",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "26",
+          "name": "Utah Jazz",
+          "abbreviation": "UTAH",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "27",
+          "name": "Washington Wizards",
+          "abbreviation": "WSH",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "28",
+          "name": "Toronto Raptors",
+          "abbreviation": "TOR",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "29",
+          "name": "Memphis Grizzlies",
+          "abbreviation": "MEM",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "3",
+          "name": "New Orleans Hornets",
+          "abbreviation": "NO",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "30",
+          "name": "Charlotte Bobcats",
+          "abbreviation": "CHA",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "4",
+          "name": "Chicago Bulls",
+          "abbreviation": "CHI",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "5",
+          "name": "Cleveland Cavaliers",
+          "abbreviation": "CLE",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "6",
+          "name": "Dallas Mavericks",
+          "abbreviation": "DAL",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "7",
+          "name": "Denver Nuggets",
+          "abbreviation": "DEN",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "8",
+          "name": "Detroit Pistons",
+          "abbreviation": "DET",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "9",
+          "name": "Golden State Warriors",
+          "abbreviation": "GS",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        }
+      ]
+    },
+    {
+      "start_year": 2009,
+      "label": "2009_2010",
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2010&level=3",
+      "as_of": "2026-11-22",
+      "teams": [
+        {
+          "source_id": "1",
+          "name": "Atlanta Hawks",
+          "abbreviation": "ATL",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "10",
+          "name": "Houston Rockets",
+          "abbreviation": "HOU",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "11",
+          "name": "Indiana Pacers",
+          "abbreviation": "IND",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "12",
+          "name": "LA Clippers",
+          "abbreviation": "LAC",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "13",
+          "name": "Los Angeles Lakers",
+          "abbreviation": "LAL",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "14",
+          "name": "Miami Heat",
+          "abbreviation": "MIA",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "15",
+          "name": "Milwaukee Bucks",
+          "abbreviation": "MIL",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "16",
+          "name": "Minnesota Timberwolves",
+          "abbreviation": "MIN",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "17",
+          "name": "New Jersey Nets",
+          "abbreviation": "NJ",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "18",
+          "name": "New York Knicks",
+          "abbreviation": "NY",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "19",
+          "name": "Orlando Magic",
+          "abbreviation": "ORL",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "2",
+          "name": "Boston Celtics",
+          "abbreviation": "BOS",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "20",
+          "name": "Philadelphia 76ers",
+          "abbreviation": "PHI",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "21",
+          "name": "Phoenix Suns",
+          "abbreviation": "PHX",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "22",
+          "name": "Portland Trail Blazers",
+          "abbreviation": "POR",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "23",
+          "name": "Sacramento Kings",
+          "abbreviation": "SAC",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "24",
+          "name": "San Antonio Spurs",
+          "abbreviation": "SA",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "25",
+          "name": "Oklahoma City Thunder",
+          "abbreviation": "OKC",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "26",
+          "name": "Utah Jazz",
+          "abbreviation": "UTAH",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "27",
+          "name": "Washington Wizards",
+          "abbreviation": "WSH",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "28",
+          "name": "Toronto Raptors",
+          "abbreviation": "TOR",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "29",
+          "name": "Memphis Grizzlies",
+          "abbreviation": "MEM",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "3",
+          "name": "New Orleans Hornets",
+          "abbreviation": "NO",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "30",
+          "name": "Charlotte Bobcats",
+          "abbreviation": "CHA",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "4",
+          "name": "Chicago Bulls",
+          "abbreviation": "CHI",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "5",
+          "name": "Cleveland Cavaliers",
+          "abbreviation": "CLE",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "6",
+          "name": "Dallas Mavericks",
+          "abbreviation": "DAL",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "7",
+          "name": "Denver Nuggets",
+          "abbreviation": "DEN",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "8",
+          "name": "Detroit Pistons",
+          "abbreviation": "DET",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "9",
+          "name": "Golden State Warriors",
+          "abbreviation": "GS",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        }
+      ]
+    },
+    {
+      "start_year": 2010,
+      "label": "2010_2011",
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2011&level=3",
+      "as_of": "2026-11-22",
+      "teams": [
+        {
+          "source_id": "1",
+          "name": "Atlanta Hawks",
+          "abbreviation": "ATL",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "10",
+          "name": "Houston Rockets",
+          "abbreviation": "HOU",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "11",
+          "name": "Indiana Pacers",
+          "abbreviation": "IND",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "12",
+          "name": "LA Clippers",
+          "abbreviation": "LAC",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "13",
+          "name": "Los Angeles Lakers",
+          "abbreviation": "LAL",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "14",
+          "name": "Miami Heat",
+          "abbreviation": "MIA",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "15",
+          "name": "Milwaukee Bucks",
+          "abbreviation": "MIL",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "16",
+          "name": "Minnesota Timberwolves",
+          "abbreviation": "MIN",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "17",
+          "name": "New Jersey Nets",
+          "abbreviation": "NJ",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "18",
+          "name": "New York Knicks",
+          "abbreviation": "NY",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "19",
+          "name": "Orlando Magic",
+          "abbreviation": "ORL",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "2",
+          "name": "Boston Celtics",
+          "abbreviation": "BOS",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "20",
+          "name": "Philadelphia 76ers",
+          "abbreviation": "PHI",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "21",
+          "name": "Phoenix Suns",
+          "abbreviation": "PHX",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "22",
+          "name": "Portland Trail Blazers",
+          "abbreviation": "POR",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "23",
+          "name": "Sacramento Kings",
+          "abbreviation": "SAC",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "24",
+          "name": "San Antonio Spurs",
+          "abbreviation": "SA",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "25",
+          "name": "Oklahoma City Thunder",
+          "abbreviation": "OKC",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "26",
+          "name": "Utah Jazz",
+          "abbreviation": "UTAH",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "27",
+          "name": "Washington Wizards",
+          "abbreviation": "WSH",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "28",
+          "name": "Toronto Raptors",
+          "abbreviation": "TOR",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "29",
+          "name": "Memphis Grizzlies",
+          "abbreviation": "MEM",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "3",
+          "name": "New Orleans Hornets",
+          "abbreviation": "NO",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "30",
+          "name": "Charlotte Bobcats",
+          "abbreviation": "CHA",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "4",
+          "name": "Chicago Bulls",
+          "abbreviation": "CHI",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "5",
+          "name": "Cleveland Cavaliers",
+          "abbreviation": "CLE",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "6",
+          "name": "Dallas Mavericks",
+          "abbreviation": "DAL",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "7",
+          "name": "Denver Nuggets",
+          "abbreviation": "DEN",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "8",
+          "name": "Detroit Pistons",
+          "abbreviation": "DET",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "9",
+          "name": "Golden State Warriors",
+          "abbreviation": "GS",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        }
+      ]
+    },
+    {
+      "start_year": 2011,
+      "label": "2011_2012",
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2012&level=3",
+      "as_of": "2026-11-22",
+      "teams": [
+        {
+          "source_id": "1",
+          "name": "Atlanta Hawks",
+          "abbreviation": "ATL",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "10",
+          "name": "Houston Rockets",
+          "abbreviation": "HOU",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "11",
+          "name": "Indiana Pacers",
+          "abbreviation": "IND",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "12",
+          "name": "LA Clippers",
+          "abbreviation": "LAC",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "13",
+          "name": "Los Angeles Lakers",
+          "abbreviation": "LAL",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "14",
+          "name": "Miami Heat",
+          "abbreviation": "MIA",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "15",
+          "name": "Milwaukee Bucks",
+          "abbreviation": "MIL",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "16",
+          "name": "Minnesota Timberwolves",
+          "abbreviation": "MIN",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "17",
+          "name": "New Jersey Nets",
+          "abbreviation": "NJ",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "18",
+          "name": "New York Knicks",
+          "abbreviation": "NY",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "19",
+          "name": "Orlando Magic",
+          "abbreviation": "ORL",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "2",
+          "name": "Boston Celtics",
+          "abbreviation": "BOS",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "20",
+          "name": "Philadelphia 76ers",
+          "abbreviation": "PHI",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "21",
+          "name": "Phoenix Suns",
+          "abbreviation": "PHX",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "22",
+          "name": "Portland Trail Blazers",
+          "abbreviation": "POR",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "23",
+          "name": "Sacramento Kings",
+          "abbreviation": "SAC",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "24",
+          "name": "San Antonio Spurs",
+          "abbreviation": "SA",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "25",
+          "name": "Oklahoma City Thunder",
+          "abbreviation": "OKC",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "26",
+          "name": "Utah Jazz",
+          "abbreviation": "UTAH",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "27",
+          "name": "Washington Wizards",
+          "abbreviation": "WSH",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "28",
+          "name": "Toronto Raptors",
+          "abbreviation": "TOR",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "29",
+          "name": "Memphis Grizzlies",
+          "abbreviation": "MEM",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "3",
+          "name": "New Orleans Hornets",
+          "abbreviation": "NO",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "30",
+          "name": "Charlotte Bobcats",
+          "abbreviation": "CHA",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "4",
+          "name": "Chicago Bulls",
+          "abbreviation": "CHI",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "5",
+          "name": "Cleveland Cavaliers",
+          "abbreviation": "CLE",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "6",
+          "name": "Dallas Mavericks",
+          "abbreviation": "DAL",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "7",
+          "name": "Denver Nuggets",
+          "abbreviation": "DEN",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "8",
+          "name": "Detroit Pistons",
+          "abbreviation": "DET",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "9",
+          "name": "Golden State Warriors",
+          "abbreviation": "GS",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        }
+      ]
+    },
+    {
+      "start_year": 2012,
+      "label": "2012_2013",
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2013&level=3",
+      "as_of": "2026-11-22",
+      "teams": [
+        {
+          "source_id": "1",
+          "name": "Atlanta Hawks",
+          "abbreviation": "ATL",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "10",
+          "name": "Houston Rockets",
+          "abbreviation": "HOU",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "11",
+          "name": "Indiana Pacers",
+          "abbreviation": "IND",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "12",
+          "name": "LA Clippers",
+          "abbreviation": "LAC",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "13",
+          "name": "Los Angeles Lakers",
+          "abbreviation": "LAL",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "14",
+          "name": "Miami Heat",
+          "abbreviation": "MIA",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "15",
+          "name": "Milwaukee Bucks",
+          "abbreviation": "MIL",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "16",
+          "name": "Minnesota Timberwolves",
+          "abbreviation": "MIN",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "17",
+          "name": "Brooklyn Nets",
+          "abbreviation": "BKN",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "18",
+          "name": "New York Knicks",
+          "abbreviation": "NY",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "19",
+          "name": "Orlando Magic",
+          "abbreviation": "ORL",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "2",
+          "name": "Boston Celtics",
+          "abbreviation": "BOS",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "20",
+          "name": "Philadelphia 76ers",
+          "abbreviation": "PHI",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "21",
+          "name": "Phoenix Suns",
+          "abbreviation": "PHX",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "22",
+          "name": "Portland Trail Blazers",
+          "abbreviation": "POR",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "23",
+          "name": "Sacramento Kings",
+          "abbreviation": "SAC",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "24",
+          "name": "San Antonio Spurs",
+          "abbreviation": "SA",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "25",
+          "name": "Oklahoma City Thunder",
+          "abbreviation": "OKC",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "26",
+          "name": "Utah Jazz",
+          "abbreviation": "UTAH",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "27",
+          "name": "Washington Wizards",
+          "abbreviation": "WSH",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "28",
+          "name": "Toronto Raptors",
+          "abbreviation": "TOR",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "29",
+          "name": "Memphis Grizzlies",
+          "abbreviation": "MEM",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "3",
+          "name": "New Orleans Hornets",
+          "abbreviation": "NO",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "30",
+          "name": "Charlotte Bobcats",
+          "abbreviation": "CHA",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "4",
+          "name": "Chicago Bulls",
+          "abbreviation": "CHI",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "5",
+          "name": "Cleveland Cavaliers",
+          "abbreviation": "CLE",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "6",
+          "name": "Dallas Mavericks",
+          "abbreviation": "DAL",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "7",
+          "name": "Denver Nuggets",
+          "abbreviation": "DEN",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "8",
+          "name": "Detroit Pistons",
+          "abbreviation": "DET",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "9",
+          "name": "Golden State Warriors",
+          "abbreviation": "GS",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        }
+      ]
+    },
+    {
+      "start_year": 2013,
+      "label": "2013_2014",
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2014&level=3",
+      "as_of": "2026-11-22",
+      "teams": [
+        {
+          "source_id": "1",
+          "name": "Atlanta Hawks",
+          "abbreviation": "ATL",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "10",
+          "name": "Houston Rockets",
+          "abbreviation": "HOU",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "11",
+          "name": "Indiana Pacers",
+          "abbreviation": "IND",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "12",
+          "name": "LA Clippers",
+          "abbreviation": "LAC",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "13",
+          "name": "Los Angeles Lakers",
+          "abbreviation": "LAL",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "14",
+          "name": "Miami Heat",
+          "abbreviation": "MIA",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "15",
+          "name": "Milwaukee Bucks",
+          "abbreviation": "MIL",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "16",
+          "name": "Minnesota Timberwolves",
+          "abbreviation": "MIN",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "17",
+          "name": "Brooklyn Nets",
+          "abbreviation": "BKN",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "18",
+          "name": "New York Knicks",
+          "abbreviation": "NY",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "19",
+          "name": "Orlando Magic",
+          "abbreviation": "ORL",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "2",
+          "name": "Boston Celtics",
+          "abbreviation": "BOS",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "20",
+          "name": "Philadelphia 76ers",
+          "abbreviation": "PHI",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "21",
+          "name": "Phoenix Suns",
+          "abbreviation": "PHX",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "22",
+          "name": "Portland Trail Blazers",
+          "abbreviation": "POR",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "23",
+          "name": "Sacramento Kings",
+          "abbreviation": "SAC",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "24",
+          "name": "San Antonio Spurs",
+          "abbreviation": "SA",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "25",
+          "name": "Oklahoma City Thunder",
+          "abbreviation": "OKC",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "26",
+          "name": "Utah Jazz",
+          "abbreviation": "UTAH",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "27",
+          "name": "Washington Wizards",
+          "abbreviation": "WSH",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "28",
+          "name": "Toronto Raptors",
+          "abbreviation": "TOR",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "29",
+          "name": "Memphis Grizzlies",
+          "abbreviation": "MEM",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "3",
+          "name": "New Orleans Pelicans",
+          "abbreviation": "NO",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "30",
+          "name": "Charlotte Bobcats",
+          "abbreviation": "CHA",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "4",
+          "name": "Chicago Bulls",
+          "abbreviation": "CHI",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "5",
+          "name": "Cleveland Cavaliers",
+          "abbreviation": "CLE",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "6",
+          "name": "Dallas Mavericks",
+          "abbreviation": "DAL",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "7",
+          "name": "Denver Nuggets",
+          "abbreviation": "DEN",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "8",
+          "name": "Detroit Pistons",
+          "abbreviation": "DET",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "9",
+          "name": "Golden State Warriors",
+          "abbreviation": "GS",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        }
+      ]
+    },
+    {
+      "start_year": 2014,
+      "label": "2014_2015",
+      "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2015&level=3",
+      "as_of": "2026-11-22",
+      "teams": [
+        {
+          "source_id": "1",
+          "name": "Atlanta Hawks",
+          "abbreviation": "ATL",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "10",
+          "name": "Houston Rockets",
+          "abbreviation": "HOU",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "11",
+          "name": "Indiana Pacers",
+          "abbreviation": "IND",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "12",
+          "name": "LA Clippers",
+          "abbreviation": "LAC",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "13",
+          "name": "Los Angeles Lakers",
+          "abbreviation": "LAL",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "14",
+          "name": "Miami Heat",
+          "abbreviation": "MIA",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "15",
+          "name": "Milwaukee Bucks",
+          "abbreviation": "MIL",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "16",
+          "name": "Minnesota Timberwolves",
+          "abbreviation": "MIN",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "17",
+          "name": "Brooklyn Nets",
+          "abbreviation": "BKN",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "18",
+          "name": "New York Knicks",
+          "abbreviation": "NY",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "19",
+          "name": "Orlando Magic",
+          "abbreviation": "ORL",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "2",
+          "name": "Boston Celtics",
+          "abbreviation": "BOS",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "20",
+          "name": "Philadelphia 76ers",
+          "abbreviation": "PHI",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "21",
+          "name": "Phoenix Suns",
+          "abbreviation": "PHX",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "22",
+          "name": "Portland Trail Blazers",
+          "abbreviation": "POR",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "23",
+          "name": "Sacramento Kings",
+          "abbreviation": "SAC",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        },
+        {
+          "source_id": "24",
+          "name": "San Antonio Spurs",
+          "abbreviation": "SA",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "25",
+          "name": "Oklahoma City Thunder",
+          "abbreviation": "OKC",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "26",
+          "name": "Utah Jazz",
+          "abbreviation": "UTAH",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "27",
+          "name": "Washington Wizards",
+          "abbreviation": "WSH",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "28",
+          "name": "Toronto Raptors",
+          "abbreviation": "TOR",
+          "conference": "Eastern Conference",
+          "division": "Atlantic"
+        },
+        {
+          "source_id": "29",
+          "name": "Memphis Grizzlies",
+          "abbreviation": "MEM",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "3",
+          "name": "New Orleans Pelicans",
+          "abbreviation": "NO",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "30",
+          "name": "Charlotte Hornets",
+          "abbreviation": "CHA",
+          "conference": "Eastern Conference",
+          "division": "Southeast"
+        },
+        {
+          "source_id": "4",
+          "name": "Chicago Bulls",
+          "abbreviation": "CHI",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "5",
+          "name": "Cleveland Cavaliers",
+          "abbreviation": "CLE",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "6",
+          "name": "Dallas Mavericks",
+          "abbreviation": "DAL",
+          "conference": "Western Conference",
+          "division": "Southwest"
+        },
+        {
+          "source_id": "7",
+          "name": "Denver Nuggets",
+          "abbreviation": "DEN",
+          "conference": "Western Conference",
+          "division": "Northwest"
+        },
+        {
+          "source_id": "8",
+          "name": "Detroit Pistons",
+          "abbreviation": "DET",
+          "conference": "Eastern Conference",
+          "division": "Central"
+        },
+        {
+          "source_id": "9",
+          "name": "Golden State Warriors",
+          "abbreviation": "GS",
+          "conference": "Western Conference",
+          "division": "Pacific"
+        }
+      ]
+    },
+    {
       "start_year": 2015,
       "label": "2015_2016",
       "url": "https://site.web.api.espn.com/apis/v2/sports/basketball/nba/standings?season=2016&level=3",
