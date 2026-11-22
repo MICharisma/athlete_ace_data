@@ -49,11 +49,12 @@ The complete NBA batch is captured by `scripts/capture_nba_media.py` and generat
 
 ## Palettes
 
-Team colors currently come from the legacy `sports/*/USA/*` team JSON catalogs and are applied by palette enrichment during `db:seed`, matched by league-qualified entity code (never by name or abbreviation). Palette enrichment **refreshes** recorded colors on replay — an exception to the importer's preservation rule. Use official brand guides as the evidence for new colors and record the source. Teams without recorded palettes (EPL, Utah) render a neutral fallback; that is better than guessed colors.
+Team colors come from the legacy `sports/*/USA/*` team JSON catalogs and from `sports/soccer/united_kingdom/Premier_League/team_palettes.json`, and are applied by palette enrichment during `db:seed`, matched by league-qualified entity code (never by name or abbreviation). Palette enrichment **refreshes** recorded colors on replay — an exception to the importer's preservation rule. Use official brand guides as the evidence for new colors and record the source. When no brand guide publishes hex values, read them from the official crest or logo SVG served by the league, record its URL and checksum, and mark the primary/secondary choice as editorial (worked example: `sources/team_palettes_2026/README.md`). Teams without recorded palettes (currently Coventry City) render a neutral fallback; that is better than guessed colors. Keep palette-only files out of the `sports/**/teams.json` name: the legacy seeder loads every such file as teams.
 
 ## Mistakes we've made
 
 - Store and uniform API sources refused automated capture; Knicks garment depictions had to stay schematic.
+- The Premier League's `badges-alt` crests are an alternate set for dark backgrounds, and some are rasters; read colors from the full-colour `badges/t{id}.svg` set.
 
 ## References
 
