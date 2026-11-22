@@ -1,0 +1,13 @@
+meaning: Former team nicknames that no current team uses, reviewed so that scripts/build_team_namings.rb
+  can split a recorded Campaign display name into its territory and nickname. Each entry names the
+  Campaign display names it splits. A display name ending in no known nickname stays whole, such as
+  Athletics (2025), Utah Hockey Club and Washington Football Team.
+nicknames:
+- text: SuperSonics
+  splits: Seattle SuperSonics
+- text: Bobcats
+  splits: Charlotte Bobcats
+- text: Indians
+  splits: Cleveland Indians
+- text: Redskins
+  splits: Washington Redskins
