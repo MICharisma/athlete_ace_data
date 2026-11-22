@@ -21,9 +21,11 @@ class TeamNamingsBuilder
   attr_reader :unsplit
 
   def initialize(check: false, library: File.join(ROOT, "yaml"), output: File.join(ROOT, "yaml/team_namings/team_namings.yml"),
-    nicknames: File.join(ROOT, "sources/team_namings/nicknames.yml"), leagues: LEAGUES)
+    nicknames: File.join(ROOT, "sources/team_namings/nicknames.yml"), variants: File.join(ROOT, "sources/team_namings/spelling_variants.yml"), leagues: LEAGUES)
     @check, @output, @leagues = check, output, leagues
     @historical = File.file?(nicknames) ? YAML.safe_load(File.read(nicknames)).fetch("nicknames").map { it.fetch("text") } : []
+    @preferred = (File.file?(variants) ? YAML.safe_load(File.read(variants, encoding: "UTF-8")).fetch("variants") : [])
+      .flat_map { |entry| entry.fetch("spellings").map { [ it, entry.fetch("preferred") ] } }.to_h
     @writer = SeedCatalog::Writer.new(check: check)
     sequences = File.join(library, "entity_sequences.yaml")
     reader = MICharismaSeeders::Reader.new(registry: File.file?(sequences) ? MICharismaSeeders::SequenceRegistry.read(sequences) : nil)
@@ -56,9 +58,8 @@ class TeamNamingsBuilder
       runs = rows.sort_by { |_, campaign| start_of(seasons, campaign) }
         .chunk_while { |(_, a), (_, b)| name_key(a) == name_key(b) }.to_a
       runs.each_with_index.map do |run, index|
-        first, last = run.first.last, run.last.last
         following = runs[index + 1]
-        naming(team, first, last, seasons, following && start_of(seasons, following.first.last) - 1, nicknames)
+        naming(team, run.map(&:last), seasons, following && start_of(seasons, following.first.last) - 1, nicknames)
       end
     end
     write nicknames.values.sort_by { it.fetch("code") } + namings
@@ -70,11 +71,14 @@ class TeamNamingsBuilder
     Date.parse(seasons.dig(campaign.dig("references", "season"), "attributes", "start_date").to_s)
   end
 
+  # Reviewed spelling variants of one name share a naming.
   def name_key(campaign)
-    campaign.fetch("attributes").values_at("display_name", "abbreviation")
+    display_name, abbreviation = campaign.fetch("attributes").values_at("display_name", "abbreviation")
+    [ @preferred.fetch(display_name, display_name), abbreviation ]
   end
 
-  def naming(team, first, last, seasons, end_date, nicknames)
+  def naming(team, run, seasons, end_date, nicknames)
+    first, last = run.first, run.last
     display_name, abbreviation = name_key(first)
     territory, nickname = split(display_name)
     first_season, last_season = first.dig("references", "season"), last.dig("references", "season")
@@ -82,6 +86,8 @@ class TeamNamingsBuilder
     attributes["display_name"] = display_name unless nickname
     attributes["end_date"] = end_date.iso8601 if end_date
     attributes["details"] = { "bounds" => "season_level", "first_season" => first_season, "last_season" => last_season }
+    spellings = run.map { it.dig("attributes", "display_name") }.uniq
+    attributes["details"]["campaign_spellings"] = spellings.sort if spellings.size > 1
     attributes["source"] = { "note" => NOTE, "generator" => "scripts/build_team_namings.rb" }
     references = { "team" => team }
     if nickname

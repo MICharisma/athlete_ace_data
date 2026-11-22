@@ -7,3 +7,7 @@ A run of consecutive seasons under one display name and abbreviation becomes one
 The generator refuses to run while any of those seasons lacks a start date, or while a Campaign's display name is just its abbreviation. Unknown dates are never filled in.
 
 A display name splits into territory and nickname when it ends in a current team mascot or a former nickname listed in `nicknames.yml`. Other names stay whole as the naming's `display_name`, with no nickname.
+
+`spelling_variants.yml` lists display names that Campaigns spell differently for the same name, such as "Los Angeles Clippers" and "LA Clippers". Variants share one naming under the preferred spelling, and `details.campaign_spellings` lists every spelling its Campaigns used.
+
+Season start dates come from `sources/season_dates/`. On 22 November 2026 the generator produced 141 namings for 125 teams and 123 nicknames. Athletics (2025), Utah Hockey Club and Washington Football Team stay whole.

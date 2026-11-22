@@ -1,0 +1,2933 @@
+---
+format: micharisma-seeds/v1
+namespace: MIC
+catalog: ALA
+records:
+- type: Tenancy
+  code: BKT-NBA-TEAM-ATL-TENANCY-2026_10_24
+  attributes:
+    role: home
+    start_date: '2026-10-24'
+    details:
+      bounds: observed
+      season: BKT-NBA-SEASON_2026_2027
+      first_observed_event: '401909856'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/8/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BKT-NBA-TEAM-ATL
+    stadium: STADIUM-US-GA-ATLANTA-STATE_FARM_ARENA
+- type: Tenancy
+  code: BKT-NBA-TEAM-BKN-TENANCY-2026_10_21
+  attributes:
+    role: home
+    start_date: '2026-10-21'
+    details:
+      bounds: observed
+      season: BKT-NBA-SEASON_2026_2027
+      first_observed_event: '401909836'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/21/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BKT-NBA-TEAM-BKN
+    stadium: STADIUM-US-NY-NEW_YORK-BARCLAYS_CENTER
+- type: Tenancy
+  code: BKT-NBA-TEAM-BOS-TENANCY-2026_10_23
+  attributes:
+    role: home
+    start_date: '2026-10-23'
+    details:
+      bounds: observed
+      season: BKT-NBA-SEASON_2026_2027
+      first_observed_event: '401909095'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/7/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BKT-NBA-TEAM-BOS
+    stadium: STADIUM-US-MA-BOSTON-TD_GARDEN
+- type: Tenancy
+  code: BKT-NBA-TEAM-CHA-TENANCY-2026_10_23
+  attributes:
+    role: home
+    start_date: '2026-10-23'
+    details:
+      bounds: observed
+      season: BKT-NBA-SEASON_2026_2027
+      first_observed_event: '401909843'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/30/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BKT-NBA-TEAM-CHA
+    stadium: STADIUM-US-NC-CHARLOTTE-SPECTRUM_CENTER
+- type: Tenancy
+  code: BKT-NBA-TEAM-CHI-TENANCY-2026_10_24
+  attributes:
+    role: home
+    start_date: '2026-10-24'
+    details:
+      bounds: observed
+      season: BKT-NBA-SEASON_2026_2027
+      first_observed_event: '401909857'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/10/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BKT-NBA-TEAM-CHI
+    stadium: STADIUM-US-IL-CHICAGO-UNITED_CENTER
+- type: Tenancy
+  code: BKT-NBA-TEAM-CLE-TENANCY-2026_10_24
+  attributes:
+    role: home
+    start_date: '2026-10-24'
+    details:
+      bounds: observed
+      season: BKT-NBA-SEASON_2026_2027
+      first_observed_event: '401909854'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/6/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BKT-NBA-TEAM-CLE
+    stadium: STADIUM-US-OH-CLEVELAND-ROCKET_ARENA
+- type: Tenancy
+  code: BKT-NBA-TEAM-DAL-TENANCY-2026_10_24
+  attributes:
+    role: home
+    start_date: '2026-10-24'
+    details:
+      bounds: observed
+      season: BKT-NBA-SEASON_2026_2027
+      first_observed_event: '401909858'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/11/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BKT-NBA-TEAM-DAL
+    stadium: STADIUM-US-TX-DALLAS-AMERICAN_AIRLINES_CENTER
+- type: Tenancy
+  code: BKT-NBA-TEAM-DEN-TENANCY-2026_10_24
+  attributes:
+    role: home
+    start_date: '2026-10-24'
+    details:
+      bounds: observed
+      season: BKT-NBA-SEASON_2026_2027
+      first_observed_event: '401909859'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/16/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BKT-NBA-TEAM-DEN
+    stadium: STADIUM-US-CO-DENVER-BALL_ARENA
+- type: Tenancy
+  code: BKT-NBA-TEAM-DET-TENANCY-2026_10_20
+  attributes:
+    role: home
+    start_date: '2026-10-20'
+    details:
+      bounds: observed
+      season: BKT-NBA-SEASON_2026_2027
+      first_observed_event: '401909088'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/12/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BKT-NBA-TEAM-DET
+    stadium: STADIUM-US-MI-DETROIT-LITTLE_CAESARS_ARENA
+- type: Tenancy
+  code: BKT-NBA-TEAM-GSW-TENANCY-2026_10_23
+  attributes:
+    role: home
+    start_date: '2026-10-23'
+    details:
+      bounds: observed
+      season: BKT-NBA-SEASON_2026_2027
+      first_observed_event: '401909850'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/14/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BKT-NBA-TEAM-GSW
+    stadium: STADIUM-US-CA-SAN_FRANCISCO-CHASE_CENTER
+- type: Tenancy
+  code: BKT-NBA-TEAM-HOU-TENANCY-2026_10_21
+  attributes:
+    role: home
+    start_date: '2026-10-21'
+    details:
+      bounds: observed
+      season: BKT-NBA-SEASON_2026_2027
+      first_observed_event: '401909840'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/13/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BKT-NBA-TEAM-HOU
+    stadium: STADIUM-US-TX-HOUSTON-TOYOTA_CENTER_HOUSTON
+- type: Tenancy
+  code: BKT-NBA-TEAM-IND-TENANCY-2026_10_23
+  attributes:
+    role: home
+    start_date: '2026-10-23'
+    details:
+      bounds: observed
+      season: BKT-NBA-SEASON_2026_2027
+      first_observed_event: '401909844'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/18/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BKT-NBA-TEAM-IND
+    stadium: STADIUM-US-IN-INDIANAPOLIS-GAINBRIDGE_FIELDHOUSE
+- type: Tenancy
+  code: BKT-NBA-TEAM-LAC-TENANCY-2026_10_21
+  attributes:
+    role: home
+    start_date: '2026-10-21'
+    details:
+      bounds: observed
+      season: BKT-NBA-SEASON_2026_2027
+      first_observed_event: '401909842'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/15/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BKT-NBA-TEAM-LAC
+    stadium: STADIUM-US-CA-INGLEWOOD-INTUIT_DOME
+- type: Tenancy
+  code: BKT-NBA-TEAM-LAL-TENANCY-2026_10_21
+  attributes:
+    role: home
+    start_date: '2026-10-21'
+    details:
+      bounds: observed
+      season: BKT-NBA-SEASON_2026_2027
+      first_observed_event: '401909092'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/17/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BKT-NBA-TEAM-LAL
+    stadium: STADIUM-US-CA-LOS_ANGELES-CRYPTO_COM_ARENA
+- type: Tenancy
+  code: BKT-NBA-TEAM-MEM-TENANCY-2026_10_21
+  attributes:
+    role: home
+    start_date: '2026-10-21'
+    details:
+      bounds: observed
+      season: BKT-NBA-SEASON_2026_2027
+      first_observed_event: '401909838'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/30/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BKT-NBA-TEAM-MEM
+    stadium: STADIUM-US-TN-MEMPHIS-FEDEXFORUM
+- type: Tenancy
+  code: BKT-NBA-TEAM-MIA-TENANCY-2026_10_21
+  attributes:
+    role: home
+    start_date: '2026-10-21'
+    details:
+      bounds: observed
+      season: BKT-NBA-SEASON_2026_2027
+      first_observed_event: '401909091'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/22/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BKT-NBA-TEAM-MIA
+    stadium: STADIUM-US-FL-MIAMI-KASEYA_CENTER
+- type: Tenancy
+  code: BKT-NBA-TEAM-MIL-TENANCY-2026_10_23
+  attributes:
+    role: home
+    start_date: '2026-10-23'
+    details:
+      bounds: observed
+      season: BKT-NBA-SEASON_2026_2027
+      first_observed_event: '401909848'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/19/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BKT-NBA-TEAM-MIL
+    stadium: STADIUM-US-WI-MILWAUKEE-FISERV_FORUM
+- type: Tenancy
+  code: BKT-NBA-TEAM-MIN-TENANCY-2026_10_25
+  attributes:
+    role: home
+    start_date: '2026-10-25'
+    details:
+      bounds: observed
+      season: BKT-NBA-SEASON_2026_2027
+      first_observed_event: '401909864'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/20/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BKT-NBA-TEAM-MIN
+    stadium: STADIUM-US-MN-MINNEAPOLIS-TARGET_CENTER
+- type: Tenancy
+  code: BKT-NBA-TEAM-NOP-TENANCY-2026_10_21
+  attributes:
+    role: home
+    start_date: '2026-10-21'
+    details:
+      bounds: observed
+      season: BKT-NBA-SEASON_2026_2027
+      first_observed_event: '401909839'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/9/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BKT-NBA-TEAM-NOP
+    stadium: STADIUM-US-LA-NEW_ORLEANS-SMOOTHIE_KING_CENTER
+- type: Tenancy
+  code: BKT-NBA-TEAM-NYK-TENANCY-2026_10_20
+  attributes:
+    role: home
+    start_date: '2026-10-20'
+    details:
+      bounds: observed
+      season: BKT-NBA-SEASON_2026_2027
+      first_observed_event: '401909089'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/23/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BKT-NBA-TEAM-NYK
+    stadium: STADIUM-US-NY-NEW_YORK-MADISON_SQUARE_GARDEN
+- type: Tenancy
+  code: BKT-NBA-TEAM-OKC-TENANCY-2026_10_22
+  attributes:
+    role: home
+    start_date: '2026-10-22'
+    details:
+      bounds: observed
+      season: BKT-NBA-SEASON_2026_2027
+      first_observed_event: '401909094'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/29/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BKT-NBA-TEAM-OKC
+    stadium: STADIUM-US-OK-OKLAHOMA_CITY-PAYCOM_CENTER
+- type: Tenancy
+  code: BKT-NBA-TEAM-ORL-TENANCY-2026_10_21
+  attributes:
+    role: home
+    start_date: '2026-10-21'
+    details:
+      bounds: observed
+      season: BKT-NBA-SEASON_2026_2027
+      first_observed_event: '401909834'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/27/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BKT-NBA-TEAM-ORL
+    stadium: STADIUM-US-FL-ORLANDO-KIA_CENTER
+- type: Tenancy
+  code: BKT-NBA-TEAM-PHI-TENANCY-2026_10_22
+  attributes:
+    role: home
+    start_date: '2026-10-22'
+    details:
+      bounds: observed
+      season: BKT-NBA-SEASON_2026_2027
+      first_observed_event: '401909093'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/24/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BKT-NBA-TEAM-PHI
+    stadium: STADIUM-US-PA-PHILADELPHIA-XFINITY_MOBILE_ARENA
+- type: Tenancy
+  code: BKT-NBA-TEAM-PHX-TENANCY-2026_10_24
+  attributes:
+    role: home
+    start_date: '2026-10-24'
+    details:
+      bounds: observed
+      season: BKT-NBA-SEASON_2026_2027
+      first_observed_event: '401909860'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/28/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BKT-NBA-TEAM-PHX
+    stadium: STADIUM-US-AZ-PHOENIX-MORTGAGE_MATCHUP_CENTER
+- type: Tenancy
+  code: BKT-NBA-TEAM-POR-TENANCY-2026_10_21
+  attributes:
+    role: home
+    start_date: '2026-10-21'
+    details:
+      bounds: observed
+      season: BKT-NBA-SEASON_2026_2027
+      first_observed_event: '401909841'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/26/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BKT-NBA-TEAM-POR
+    stadium: STADIUM-US-OR-PORTLAND-MODA_CENTER
+- type: Tenancy
+  code: BKT-NBA-TEAM-SAC-TENANCY-2026_10_23
+  attributes:
+    role: home
+    start_date: '2026-10-23'
+    details:
+      bounds: observed
+      season: BKT-NBA-SEASON_2026_2027
+      first_observed_event: '401909852'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/25/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BKT-NBA-TEAM-SAC
+    stadium: STADIUM-US-CA-SACRAMENTO-GOLDEN_1_CENTER
+- type: Tenancy
+  code: BKT-NBA-TEAM-SAS-TENANCY-2026_10_20
+  attributes:
+    role: home
+    start_date: '2026-10-20'
+    details:
+      bounds: observed
+      season: BKT-NBA-SEASON_2026_2027
+      first_observed_event: '401909090'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/30/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BKT-NBA-TEAM-SAS
+    stadium: STADIUM-US-TX-SAN_ANTONIO-FROST_BANK_CENTER
+- type: Tenancy
+  code: BKT-NBA-TEAM-TOR-TENANCY-2026_10_21
+  attributes:
+    role: home
+    start_date: '2026-10-21'
+    details:
+      bounds: observed
+      season: BKT-NBA-SEASON_2026_2027
+      first_observed_event: '401909837'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/30/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BKT-NBA-TEAM-TOR
+    stadium: STADIUM-CA-ON-TORONTO-SCOTIABANK_ARENA
+- type: Tenancy
+  code: BKT-NBA-TEAM-UTA-TENANCY-2026_10_23
+  attributes:
+    role: home
+    start_date: '2026-10-23'
+    details:
+      bounds: observed
+      season: BKT-NBA-SEASON_2026_2027
+      first_observed_event: '401909849'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/30/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BKT-NBA-TEAM-UTA
+    stadium: STADIUM-US-UT-SALT_LAKE_CITY-DELTA_CENTER
+- type: Tenancy
+  code: BKT-NBA-TEAM-WAS-TENANCY-2026_10_21
+  attributes:
+    role: home
+    start_date: '2026-10-21'
+    details:
+      bounds: observed
+      season: BKT-NBA-SEASON_2026_2027
+      first_observed_event: '401909835'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/30/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BKT-NBA-TEAM-WAS
+    stadium: STADIUM-US-DC-WASHINGTON-CAPITAL_ONE_ARENA
+- type: Tenancy
+  code: BSB-MLB-TEAM-ATH-TENANCY-2026_03_25
+  attributes:
+    role: home
+    start_date: '2026-03-25'
+    details:
+      bounds: season_level
+      season: BSB-MLB-SEASON_2026
+    source:
+      url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BSB-MLB-TEAM-ATH
+    stadium: STADIUM-US-CA-WEST_SACRAMENTO-SUTTER_HEALTH_PARK
+- type: Tenancy
+  code: BSB-MLB-TEAM-ATL-TENANCY-2026_03_25
+  attributes:
+    role: home
+    start_date: '2026-03-25'
+    details:
+      bounds: season_level
+      season: BSB-MLB-SEASON_2026
+    source:
+      url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BSB-MLB-TEAM-ATL
+    stadium: STADIUM-US-GA-ATLANTA-TRUIST_PARK
+- type: Tenancy
+  code: BSB-MLB-TEAM-AZ-TENANCY-2026_03_25
+  attributes:
+    role: home
+    start_date: '2026-03-25'
+    details:
+      bounds: season_level
+      season: BSB-MLB-SEASON_2026
+    source:
+      url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BSB-MLB-TEAM-AZ
+    stadium: STADIUM-US-AZ-PHOENIX-CHASE_FIELD
+- type: Tenancy
+  code: BSB-MLB-TEAM-BAL-TENANCY-2026_03_25
+  attributes:
+    role: home
+    start_date: '2026-03-25'
+    details:
+      bounds: season_level
+      season: BSB-MLB-SEASON_2026
+    source:
+      url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BSB-MLB-TEAM-BAL
+    stadium: STADIUM-US-MD-BALTIMORE-ORIOLE_PARK_AT_CAMDEN_YARDS
+- type: Tenancy
+  code: BSB-MLB-TEAM-BOS-TENANCY-2026_03_25
+  attributes:
+    role: home
+    start_date: '2026-03-25'
+    details:
+      bounds: season_level
+      season: BSB-MLB-SEASON_2026
+    source:
+      url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BSB-MLB-TEAM-BOS
+    stadium: STADIUM-US-MA-BOSTON-FENWAY_PARK
+- type: Tenancy
+  code: BSB-MLB-TEAM-CHC-TENANCY-2026_03_25
+  attributes:
+    role: home
+    start_date: '2026-03-25'
+    details:
+      bounds: season_level
+      season: BSB-MLB-SEASON_2026
+    source:
+      url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BSB-MLB-TEAM-CHC
+    stadium: STADIUM-US-IL-CHICAGO-WRIGLEY_FIELD
+- type: Tenancy
+  code: BSB-MLB-TEAM-CIN-TENANCY-2026_03_25
+  attributes:
+    role: home
+    start_date: '2026-03-25'
+    details:
+      bounds: season_level
+      season: BSB-MLB-SEASON_2026
+    source:
+      url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BSB-MLB-TEAM-CIN
+    stadium: STADIUM-US-OH-CINCINNATI-GREAT_AMERICAN_BALL_PARK
+- type: Tenancy
+  code: BSB-MLB-TEAM-CLE-TENANCY-2026_03_25
+  attributes:
+    role: home
+    start_date: '2026-03-25'
+    details:
+      bounds: season_level
+      season: BSB-MLB-SEASON_2026
+    source:
+      url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BSB-MLB-TEAM-CLE
+    stadium: STADIUM-US-OH-CLEVELAND-PROGRESSIVE_FIELD
+- type: Tenancy
+  code: BSB-MLB-TEAM-COL-TENANCY-2026_03_25
+  attributes:
+    role: home
+    start_date: '2026-03-25'
+    details:
+      bounds: season_level
+      season: BSB-MLB-SEASON_2026
+    source:
+      url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BSB-MLB-TEAM-COL
+    stadium: STADIUM-US-CO-DENVER-COORS_FIELD
+- type: Tenancy
+  code: BSB-MLB-TEAM-CWS-TENANCY-2026_03_25
+  attributes:
+    role: home
+    start_date: '2026-03-25'
+    details:
+      bounds: season_level
+      season: BSB-MLB-SEASON_2026
+    source:
+      url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BSB-MLB-TEAM-CWS
+    stadium: STADIUM-US-IL-CHICAGO-RATE_FIELD
+- type: Tenancy
+  code: BSB-MLB-TEAM-DET-TENANCY-2026_03_25
+  attributes:
+    role: home
+    start_date: '2026-03-25'
+    details:
+      bounds: season_level
+      season: BSB-MLB-SEASON_2026
+    source:
+      url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BSB-MLB-TEAM-DET
+    stadium: STADIUM-US-MI-DETROIT-COMERICA_PARK
+- type: Tenancy
+  code: BSB-MLB-TEAM-HOU-TENANCY-2026_03_25
+  attributes:
+    role: home
+    start_date: '2026-03-25'
+    details:
+      bounds: season_level
+      season: BSB-MLB-SEASON_2026
+    source:
+      url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BSB-MLB-TEAM-HOU
+    stadium: STADIUM-US-TX-HOUSTON-DAIKIN_PARK
+- type: Tenancy
+  code: BSB-MLB-TEAM-KC-TENANCY-2026_03_25
+  attributes:
+    role: home
+    start_date: '2026-03-25'
+    details:
+      bounds: season_level
+      season: BSB-MLB-SEASON_2026
+    source:
+      url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BSB-MLB-TEAM-KC
+    stadium: STADIUM-US-MO-KANSAS_CITY-KAUFFMAN_STADIUM
+- type: Tenancy
+  code: BSB-MLB-TEAM-LAA-TENANCY-2026_03_25
+  attributes:
+    role: home
+    start_date: '2026-03-25'
+    details:
+      bounds: season_level
+      season: BSB-MLB-SEASON_2026
+    source:
+      url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BSB-MLB-TEAM-LAA
+    stadium: STADIUM-US-CA-ANAHEIM-ANGEL_STADIUM
+- type: Tenancy
+  code: BSB-MLB-TEAM-LAD-TENANCY-2026_03_25
+  attributes:
+    role: home
+    start_date: '2026-03-25'
+    details:
+      bounds: season_level
+      season: BSB-MLB-SEASON_2026
+    source:
+      url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BSB-MLB-TEAM-LAD
+    stadium: STADIUM-US-CA-LOS_ANGELES-UNIQLO_FIELD_AT_DODGER_STADIUM
+- type: Tenancy
+  code: BSB-MLB-TEAM-MIA-TENANCY-2026_03_25
+  attributes:
+    role: home
+    start_date: '2026-03-25'
+    details:
+      bounds: season_level
+      season: BSB-MLB-SEASON_2026
+    source:
+      url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BSB-MLB-TEAM-MIA
+    stadium: STADIUM-US-FL-MIAMI-LOANDEPOT_PARK
+- type: Tenancy
+  code: BSB-MLB-TEAM-MIL-TENANCY-2026_03_25
+  attributes:
+    role: home
+    start_date: '2026-03-25'
+    details:
+      bounds: season_level
+      season: BSB-MLB-SEASON_2026
+    source:
+      url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BSB-MLB-TEAM-MIL
+    stadium: STADIUM-US-WI-MILWAUKEE-AMERICAN_FAMILY_FIELD
+- type: Tenancy
+  code: BSB-MLB-TEAM-MIN-TENANCY-2026_03_25
+  attributes:
+    role: home
+    start_date: '2026-03-25'
+    details:
+      bounds: season_level
+      season: BSB-MLB-SEASON_2026
+    source:
+      url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BSB-MLB-TEAM-MIN
+    stadium: STADIUM-US-MN-MINNEAPOLIS-TARGET_FIELD
+- type: Tenancy
+  code: BSB-MLB-TEAM-NYM-TENANCY-2026_03_25
+  attributes:
+    role: home
+    start_date: '2026-03-25'
+    details:
+      bounds: season_level
+      season: BSB-MLB-SEASON_2026
+    source:
+      url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BSB-MLB-TEAM-NYM
+    stadium: STADIUM-US-NY-NEW_YORK-CITI_FIELD
+- type: Tenancy
+  code: BSB-MLB-TEAM-NYY-TENANCY-2026_03_25
+  attributes:
+    role: home
+    start_date: '2026-03-25'
+    details:
+      bounds: season_level
+      season: BSB-MLB-SEASON_2026
+    source:
+      url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BSB-MLB-TEAM-NYY
+    stadium: STADIUM-US-NY-NEW_YORK-YANKEE_STADIUM
+- type: Tenancy
+  code: BSB-MLB-TEAM-PHI-TENANCY-2026_03_25
+  attributes:
+    role: home
+    start_date: '2026-03-25'
+    details:
+      bounds: season_level
+      season: BSB-MLB-SEASON_2026
+    source:
+      url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BSB-MLB-TEAM-PHI
+    stadium: STADIUM-US-PA-PHILADELPHIA-CITIZENS_BANK_PARK
+- type: Tenancy
+  code: BSB-MLB-TEAM-PIT-TENANCY-2026_03_25
+  attributes:
+    role: home
+    start_date: '2026-03-25'
+    details:
+      bounds: season_level
+      season: BSB-MLB-SEASON_2026
+    source:
+      url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BSB-MLB-TEAM-PIT
+    stadium: STADIUM-US-PA-PITTSBURGH-PNC_PARK
+- type: Tenancy
+  code: BSB-MLB-TEAM-SD-TENANCY-2026_03_25
+  attributes:
+    role: home
+    start_date: '2026-03-25'
+    details:
+      bounds: season_level
+      season: BSB-MLB-SEASON_2026
+    source:
+      url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BSB-MLB-TEAM-SD
+    stadium: STADIUM-US-CA-SAN_DIEGO-PETCO_PARK
+- type: Tenancy
+  code: BSB-MLB-TEAM-SEA-TENANCY-2026_03_25
+  attributes:
+    role: home
+    start_date: '2026-03-25'
+    details:
+      bounds: season_level
+      season: BSB-MLB-SEASON_2026
+    source:
+      url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BSB-MLB-TEAM-SEA
+    stadium: STADIUM-US-WA-SEATTLE-T_MOBILE_PARK
+- type: Tenancy
+  code: BSB-MLB-TEAM-SF-TENANCY-2026_03_25
+  attributes:
+    role: home
+    start_date: '2026-03-25'
+    details:
+      bounds: season_level
+      season: BSB-MLB-SEASON_2026
+    source:
+      url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BSB-MLB-TEAM-SF
+    stadium: STADIUM-US-CA-SAN_FRANCISCO-ORACLE_PARK
+- type: Tenancy
+  code: BSB-MLB-TEAM-STL-TENANCY-2026_03_25
+  attributes:
+    role: home
+    start_date: '2026-03-25'
+    details:
+      bounds: season_level
+      season: BSB-MLB-SEASON_2026
+    source:
+      url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BSB-MLB-TEAM-STL
+    stadium: STADIUM-US-MO-ST_LOUIS-BUSCH_STADIUM
+- type: Tenancy
+  code: BSB-MLB-TEAM-TB-TENANCY-2026_03_25
+  attributes:
+    role: home
+    start_date: '2026-03-25'
+    details:
+      bounds: season_level
+      season: BSB-MLB-SEASON_2026
+    source:
+      url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BSB-MLB-TEAM-TB
+    stadium: STADIUM-US-FL-ST_PETERSBURG-TROPICANA_FIELD
+- type: Tenancy
+  code: BSB-MLB-TEAM-TEX-TENANCY-2026_03_25
+  attributes:
+    role: home
+    start_date: '2026-03-25'
+    details:
+      bounds: season_level
+      season: BSB-MLB-SEASON_2026
+    source:
+      url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BSB-MLB-TEAM-TEX
+    stadium: STADIUM-US-TX-ARLINGTON-GLOBE_LIFE_FIELD
+- type: Tenancy
+  code: BSB-MLB-TEAM-TOR-TENANCY-2026_03_25
+  attributes:
+    role: home
+    start_date: '2026-03-25'
+    details:
+      bounds: season_level
+      season: BSB-MLB-SEASON_2026
+    source:
+      url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BSB-MLB-TEAM-TOR
+    stadium: STADIUM-CA-ON-TORONTO-ROGERS_CENTRE
+- type: Tenancy
+  code: BSB-MLB-TEAM-WSH-TENANCY-2026_03_25
+  attributes:
+    role: home
+    start_date: '2026-03-25'
+    details:
+      bounds: season_level
+      season: BSB-MLB-SEASON_2026
+    source:
+      url: https://statsapi.mlb.com/api/v1/teams?sportId=1&season=2026&hydrate=venue(location,fieldInfo)
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: BSB-MLB-TEAM-WSH
+    stadium: STADIUM-US-DC-WASHINGTON-NATIONALS_PARK
+- type: Tenancy
+  code: FTB-NFL-TEAM-ARI-TENANCY-2026_09_20
+  attributes:
+    role: home
+    start_date: '2026-09-20'
+    details:
+      bounds: observed
+      season: FTB-NFL-SEASON_2026
+      first_observed_event: '401872943'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/29/schedule?season=2026&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: FTB-NFL-TEAM-ARI
+    stadium: STADIUM-US-AZ-GLENDALE-STATE_FARM_STADIUM
+- type: Tenancy
+  code: FTB-NFL-TEAM-ATL-TENANCY-2026_09_20
+  attributes:
+    role: home
+    start_date: '2026-09-20'
+    details:
+      bounds: observed
+      season: FTB-NFL-SEASON_2026
+      first_observed_event: '401872933'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/6/schedule?season=2026&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: FTB-NFL-TEAM-ATL
+    stadium: STADIUM-US-GA-ATLANTA-MERCEDES_BENZ_STADIUM
+- type: Tenancy
+  code: FTB-NFL-TEAM-BAL-TENANCY-2026_09_20
+  attributes:
+    role: home
+    start_date: '2026-09-20'
+    details:
+      bounds: observed
+      season: FTB-NFL-SEASON_2026
+      first_observed_event: '401872938'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/34/schedule?season=2026&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: FTB-NFL-TEAM-BAL
+    stadium: STADIUM-US-MD-BALTIMORE-M_T_BANK_STADIUM
+- type: Tenancy
+  code: FTB-NFL-TEAM-BUF-TENANCY-2026_09_17
+  attributes:
+    role: home
+    start_date: '2026-09-17'
+    details:
+      bounds: observed
+      season: FTB-NFL-SEASON_2026
+      first_observed_event: '401872932'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/8/schedule?season=2026&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: FTB-NFL-TEAM-BUF
+    stadium: STADIUM-US-NY-ORCHARD_PARK-HIGHMARK_STADIUM_2026
+- type: Tenancy
+  code: FTB-NFL-TEAM-CAR-TENANCY-2026_09_13
+  attributes:
+    role: home
+    start_date: '2026-09-13'
+    details:
+      bounds: observed
+      season: FTB-NFL-SEASON_2026
+      first_observed_event: '401872661'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/34/schedule?season=2026&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: FTB-NFL-TEAM-CAR
+    stadium: STADIUM-US-NC-CHARLOTTE-BANK_OF_AMERICA_STADIUM
+- type: Tenancy
+  code: FTB-NFL-TEAM-CHI-TENANCY-2026_09_20
+  attributes:
+    role: home
+    start_date: '2026-09-20'
+    details:
+      bounds: observed
+      season: FTB-NFL-SEASON_2026
+      first_observed_event: '401872937'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/9/schedule?season=2026&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: FTB-NFL-TEAM-CHI
+    stadium: STADIUM-US-IL-CHICAGO-SOLDIER_FIELD
+- type: Tenancy
+  code: FTB-NFL-TEAM-CIN-TENANCY-2026_09_13
+  attributes:
+    role: home
+    start_date: '2026-09-13'
+    details:
+      bounds: observed
+      season: FTB-NFL-SEASON_2026
+      first_observed_event: '401872925'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/10/schedule?season=2026&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: FTB-NFL-TEAM-CIN
+    stadium: STADIUM-US-OH-CINCINNATI-PAYCOR_STADIUM
+- type: Tenancy
+  code: FTB-NFL-TEAM-CLE-TENANCY-2026_09_27
+  attributes:
+    role: home
+    start_date: '2026-09-27'
+    details:
+      bounds: observed
+      season: FTB-NFL-SEASON_2026
+      first_observed_event: '401872949'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/11/schedule?season=2026&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: FTB-NFL-TEAM-CLE
+    stadium: STADIUM-US-OH-CLEVELAND-HUNTINGTON_BANK_FIELD
+- type: Tenancy
+  code: FTB-NFL-TEAM-DAL-TENANCY-2026_09_20
+  attributes:
+    role: home
+    start_date: '2026-09-20'
+    details:
+      bounds: observed
+      season: FTB-NFL-SEASON_2026
+      first_observed_event: '401872944'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/7/schedule?season=2026&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: FTB-NFL-TEAM-DAL
+    stadium: STADIUM-US-TX-ARLINGTON-AT_T_STADIUM
+- type: Tenancy
+  code: FTB-NFL-TEAM-DEN-TENANCY-2026_09_20
+  attributes:
+    role: home
+    start_date: '2026-09-20'
+    details:
+      bounds: observed
+      season: FTB-NFL-SEASON_2026
+      first_observed_event: '401872940'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/15/schedule?season=2026&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: FTB-NFL-TEAM-DEN
+    stadium: STADIUM-US-CO-DENVER-EMPOWER_FIELD_AT_MILE_HIGH
+- type: Tenancy
+  code: FTB-NFL-TEAM-DET-TENANCY-2026_09_13
+  attributes:
+    role: home
+    start_date: '2026-09-13'
+    details:
+      bounds: observed
+      season: FTB-NFL-SEASON_2026
+      first_observed_event: '401872923'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/14/schedule?season=2026&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: FTB-NFL-TEAM-DET
+    stadium: STADIUM-US-MI-DETROIT-FORD_FIELD
+- type: Tenancy
+  code: FTB-NFL-TEAM-GB-TENANCY-2026_09_24
+  attributes:
+    role: home
+    start_date: '2026-09-24'
+    details:
+      bounds: observed
+      season: FTB-NFL-SEASON_2026
+      first_observed_event: '401872948'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/16/schedule?season=2026&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: FTB-NFL-TEAM-GB
+    stadium: STADIUM-US-WI-GREEN_BAY-LAMBEAU_FIELD
+- type: Tenancy
+  code: FTB-NFL-TEAM-HOU-TENANCY-2026_09_13
+  attributes:
+    role: home
+    start_date: '2026-09-13'
+    details:
+      bounds: observed
+      season: FTB-NFL-SEASON_2026
+      first_observed_event: '401872660'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/34/schedule?season=2026&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: FTB-NFL-TEAM-HOU
+    stadium: STADIUM-US-TX-HOUSTON-RELIANT_STADIUM
+- type: Tenancy
+  code: FTB-NFL-TEAM-IND-TENANCY-2026_09_13
+  attributes:
+    role: home
+    start_date: '2026-09-13'
+    details:
+      bounds: observed
+      season: FTB-NFL-SEASON_2026
+      first_observed_event: '401872659'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/12/schedule?season=2026&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: FTB-NFL-TEAM-IND
+    stadium: STADIUM-US-IN-INDIANAPOLIS-LUCAS_OIL_STADIUM
+- type: Tenancy
+  code: FTB-NFL-TEAM-JAX-TENANCY-2026_09_13
+  attributes:
+    role: home
+    start_date: '2026-09-13'
+    details:
+      bounds: observed
+      season: FTB-NFL-SEASON_2026
+      first_observed_event: '401872922'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/33/schedule?season=2026&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: FTB-NFL-TEAM-JAX
+    stadium: STADIUM-US-FL-JACKSONVILLE-EVERBANK_STADIUM
+- type: Tenancy
+  code: FTB-NFL-TEAM-KC-TENANCY-2026_09_14
+  attributes:
+    role: home
+    start_date: '2026-09-14'
+    details:
+      bounds: observed
+      season: FTB-NFL-SEASON_2026
+      first_observed_event: '401872931'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/17/schedule?season=2026&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: FTB-NFL-TEAM-KC
+    stadium: STADIUM-US-MO-KANSAS_CITY-ARROWHEAD_STADIUM
+- type: Tenancy
+  code: FTB-NFL-TEAM-LAC-TENANCY-2026_09_13
+  attributes:
+    role: home
+    start_date: '2026-09-13'
+    details:
+      bounds: observed
+      season: FTB-NFL-SEASON_2026
+      first_observed_event: '401872926'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/28/schedule?season=2026&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: FTB-NFL-TEAM-LAC
+    stadium: STADIUM-US-CA-INGLEWOOD-SOFI_STADIUM
+- type: Tenancy
+  code: FTB-NFL-TEAM-LAR-TENANCY-2026_09_21
+  attributes:
+    role: home
+    start_date: '2026-09-21'
+    details:
+      bounds: observed
+      season: FTB-NFL-SEASON_2026
+      first_observed_event: '401872947'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/21/schedule?season=2026&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: FTB-NFL-TEAM-LAR
+    stadium: STADIUM-US-CA-INGLEWOOD-SOFI_STADIUM
+- type: Tenancy
+  code: FTB-NFL-TEAM-MIA-TENANCY-2026_09_27
+  attributes:
+    role: home
+    start_date: '2026-09-27'
+    details:
+      bounds: observed
+      season: FTB-NFL-SEASON_2026
+      first_observed_event: '401872952'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/20/schedule?season=2026&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: FTB-NFL-TEAM-MIA
+    stadium: STADIUM-US-FL-MIAMI_GARDENS-HARD_ROCK_STADIUM
+- type: Tenancy
+  code: FTB-NFL-TEAM-MIN-TENANCY-2026_09_13
+  attributes:
+    role: home
+    start_date: '2026-09-13'
+    details:
+      bounds: observed
+      season: FTB-NFL-SEASON_2026
+      first_observed_event: '401872927'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/22/schedule?season=2026&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: FTB-NFL-TEAM-MIN
+    stadium: STADIUM-US-MN-MINNEAPOLIS-U_S_BANK_STADIUM
+- type: Tenancy
+  code: FTB-NFL-TEAM-NE-TENANCY-2026_09_20
+  attributes:
+    role: home
+    start_date: '2026-09-20'
+    details:
+      bounds: observed
+      season: FTB-NFL-SEASON_2026
+      first_observed_event: '401872946'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/19/schedule?season=2026&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: FTB-NFL-TEAM-NE
+    stadium: STADIUM-US-MA-FOXBOROUGH-GILLETTE_STADIUM
+- type: Tenancy
+  code: FTB-NFL-TEAM-NO-TENANCY-2026_09_27
+  attributes:
+    role: home
+    start_date: '2026-09-27'
+    details:
+      bounds: observed
+      season: FTB-NFL-SEASON_2026
+      first_observed_event: '401872961'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/23/schedule?season=2026&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: FTB-NFL-TEAM-NO
+    stadium: STADIUM-US-LA-NEW_ORLEANS-CAESARS_SUPERDOME
+- type: Tenancy
+  code: FTB-NFL-TEAM-NYG-TENANCY-2026_09_13
+  attributes:
+    role: home
+    start_date: '2026-09-13'
+    details:
+      bounds: observed
+      season: FTB-NFL-SEASON_2026
+      first_observed_event: '401872930'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/24/schedule?season=2026&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: FTB-NFL-TEAM-NYG
+    stadium: STADIUM-US-NJ-EAST_RUTHERFORD-METLIFE_STADIUM
+- type: Tenancy
+  code: FTB-NFL-TEAM-NYJ-TENANCY-2026_09_20
+  attributes:
+    role: home
+    start_date: '2026-09-20'
+    details:
+      bounds: observed
+      season: FTB-NFL-SEASON_2026
+      first_observed_event: '401872936'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/26/schedule?season=2026&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: FTB-NFL-TEAM-NYJ
+    stadium: STADIUM-US-NJ-EAST_RUTHERFORD-METLIFE_STADIUM
+- type: Tenancy
+  code: FTB-NFL-TEAM-PHI-TENANCY-2026_09_13
+  attributes:
+    role: home
+    start_date: '2026-09-13'
+    details:
+      bounds: observed
+      season: FTB-NFL-SEASON_2026
+      first_observed_event: '401872929'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/25/schedule?season=2026&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: FTB-NFL-TEAM-PHI
+    stadium: STADIUM-US-PA-PHILADELPHIA-LINCOLN_FINANCIAL_FIELD
+- type: Tenancy
+  code: FTB-NFL-TEAM-PIT-TENANCY-2026_09_13
+  attributes:
+    role: home
+    start_date: '2026-09-13'
+    details:
+      bounds: observed
+      season: FTB-NFL-SEASON_2026
+      first_observed_event: '401872658'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/27/schedule?season=2026&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: FTB-NFL-TEAM-PIT
+    stadium: STADIUM-US-PA-PITTSBURGH-ACRISURE_STADIUM
+- type: Tenancy
+  code: FTB-NFL-TEAM-RAIDERS-TENANCY-2026_09_13
+  attributes:
+    role: home
+    start_date: '2026-09-13'
+    details:
+      bounds: observed
+      season: FTB-NFL-SEASON_2026
+      first_observed_event: '401872928'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/18/schedule?season=2026&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: FTB-NFL-TEAM-RAIDERS
+    stadium: STADIUM-US-NV-LAS_VEGAS-ALLEGIANT_STADIUM
+- type: Tenancy
+  code: FTB-NFL-TEAM-SEA-TENANCY-2026_09_09
+  attributes:
+    role: home
+    start_date: '2026-09-09'
+    details:
+      bounds: observed
+      season: FTB-NFL-SEASON_2026
+      first_observed_event: '401872656'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/34/schedule?season=2026&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: FTB-NFL-TEAM-SEA
+    stadium: STADIUM-US-WA-SEATTLE-LUMEN_FIELD
+- type: Tenancy
+  code: FTB-NFL-TEAM-SF-TENANCY-2026_09_20
+  attributes:
+    role: home
+    start_date: '2026-09-20'
+    details:
+      bounds: observed
+      season: FTB-NFL-SEASON_2026
+      first_observed_event: '401872942'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/30/schedule?season=2026&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: FTB-NFL-TEAM-SF
+    stadium: STADIUM-US-CA-SANTA_CLARA-LEVI_S_STADIUM
+- type: Tenancy
+  code: FTB-NFL-TEAM-TB-TENANCY-2026_09_20
+  attributes:
+    role: home
+    start_date: '2026-09-20'
+    details:
+      bounds: observed
+      season: FTB-NFL-SEASON_2026
+      first_observed_event: '401872935'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/34/schedule?season=2026&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: FTB-NFL-TEAM-TB
+    stadium: STADIUM-US-FL-TAMPA-RAYMOND_JAMES_STADIUM
+- type: Tenancy
+  code: FTB-NFL-TEAM-TEN-TENANCY-2026_09_13
+  attributes:
+    role: home
+    start_date: '2026-09-13'
+    details:
+      bounds: observed
+      season: FTB-NFL-SEASON_2026
+      first_observed_event: '401872924'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/13/schedule?season=2026&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: FTB-NFL-TEAM-TEN
+    stadium: STADIUM-US-TN-NASHVILLE-NISSAN_STADIUM
+- type: Tenancy
+  code: FTB-NFL-TEAM-WAS-TENANCY-2026_09_27
+  attributes:
+    role: home
+    start_date: '2026-09-27'
+    details:
+      bounds: observed
+      season: FTB-NFL-SEASON_2026
+      first_observed_event: '401872955'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/football/nfl/teams/34/schedule?season=2026&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: FTB-NFL-TEAM-WAS
+    stadium: STADIUM-US-MD-LANDOVER-NORTHWEST_STADIUM
+- type: Tenancy
+  code: HCK-NHL-TEAM-ANA-TENANCY-2026_10_04
+  attributes:
+    role: home
+    start_date: '2026-10-04'
+    details:
+      bounds: observed
+      season: HCK-NHL-SEASON_2026_2027
+      first_observed_event: '401891778'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/6/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: HCK-NHL-TEAM-ANA
+    stadium: STADIUM-US-CA-ANAHEIM-HONDA_CENTER
+- type: Tenancy
+  code: HCK-NHL-TEAM-BOS-TENANCY-2026_09_29
+  attributes:
+    role: home
+    start_date: '2026-09-29'
+    details:
+      bounds: observed
+      season: HCK-NHL-SEASON_2026_2027
+      first_observed_event: '401891774'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/17/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: HCK-NHL-TEAM-BOS
+    stadium: STADIUM-US-MA-BOSTON-TD_GARDEN
+- type: Tenancy
+  code: HCK-NHL-TEAM-BUF-TENANCY-2026_10_03
+  attributes:
+    role: home
+    start_date: '2026-10-03'
+    details:
+      bounds: observed
+      season: HCK-NHL-SEASON_2026_2027
+      first_observed_event: '401891776'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/5/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: HCK-NHL-TEAM-BUF
+    stadium: STADIUM-US-NY-BUFFALO-KEYBANK_CENTER
+- type: Tenancy
+  code: HCK-NHL-TEAM-CAR-TENANCY-2026_09_29
+  attributes:
+    role: home
+    start_date: '2026-09-29'
+    details:
+      bounds: observed
+      season: HCK-NHL-SEASON_2026_2027
+      first_observed_event: '401891773'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/9/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: HCK-NHL-TEAM-CAR
+    stadium: STADIUM-US-NC-RALEIGH-LENOVO_CENTER
+- type: Tenancy
+  code: HCK-NHL-TEAM-CBJ-TENANCY-2026_10_01
+  attributes:
+    role: home
+    start_date: '2026-10-01'
+    details:
+      bounds: observed
+      season: HCK-NHL-SEASON_2026_2027
+      first_observed_event: '401891781'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/3/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: HCK-NHL-TEAM-CBJ
+    stadium: STADIUM-US-OH-COLUMBUS-NATIONWIDE_ARENA
+- type: Tenancy
+  code: HCK-NHL-TEAM-CGY-TENANCY-2026_10_01
+  attributes:
+    role: home
+    start_date: '2026-10-01'
+    details:
+      bounds: observed
+      season: HCK-NHL-SEASON_2026_2027
+      first_observed_event: '401891777'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/4/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: HCK-NHL-TEAM-CGY
+    stadium: STADIUM-CA-AB-CALGARY-SCOTIABANK_SADDLEDOME
+- type: Tenancy
+  code: HCK-NHL-TEAM-CHI-TENANCY-2026_10_06
+  attributes:
+    role: home
+    start_date: '2026-10-06'
+    details:
+      bounds: observed
+      season: HCK-NHL-SEASON_2026_2027
+      first_observed_event: '401891779'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/26/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: HCK-NHL-TEAM-CHI
+    stadium: STADIUM-US-IL-CHICAGO-UNITED_CENTER
+- type: Tenancy
+  code: HCK-NHL-TEAM-COL-TENANCY-2026_09_30
+  attributes:
+    role: home
+    start_date: '2026-09-30'
+    details:
+      bounds: observed
+      season: HCK-NHL-SEASON_2026_2027
+      first_observed_event: '401891780'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/11/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: HCK-NHL-TEAM-COL
+    stadium: STADIUM-US-CO-DENVER-BALL_ARENA
+- type: Tenancy
+  code: HCK-NHL-TEAM-DAL-TENANCY-2026_10_02
+  attributes:
+    role: home
+    start_date: '2026-10-02'
+    details:
+      bounds: observed
+      season: HCK-NHL-SEASON_2026_2027
+      first_observed_event: '401891782'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/10/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: HCK-NHL-TEAM-DAL
+    stadium: STADIUM-US-TX-DALLAS-AMERICAN_AIRLINES_CENTER
+- type: Tenancy
+  code: HCK-NHL-TEAM-DET-TENANCY-2026_10_02
+  attributes:
+    role: home
+    start_date: '2026-10-02'
+    details:
+      bounds: observed
+      season: HCK-NHL-SEASON_2026_2027
+      first_observed_event: '401891803'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/15/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: HCK-NHL-TEAM-DET
+    stadium: STADIUM-US-MI-DETROIT-LITTLE_CAESARS_ARENA
+- type: Tenancy
+  code: HCK-NHL-TEAM-EDM-TENANCY-2026_09_29
+  attributes:
+    role: home
+    start_date: '2026-09-29'
+    details:
+      bounds: observed
+      season: HCK-NHL-SEASON_2026_2027
+      first_observed_event: '401891804'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/30/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: HCK-NHL-TEAM-EDM
+    stadium: STADIUM-CA-AB-EDMONTON-ROGERS_PLACE
+- type: Tenancy
+  code: HCK-NHL-TEAM-FLA-TENANCY-2026_10_10
+  attributes:
+    role: home
+    start_date: '2026-10-10'
+    details:
+      bounds: observed
+      season: HCK-NHL-SEASON_2026_2027
+      first_observed_event: '401891805'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/8/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: HCK-NHL-TEAM-FLA
+    stadium: STADIUM-US-FL-SUNRISE-AMERANT_BANK_ARENA
+- type: Tenancy
+  code: HCK-NHL-TEAM-LAK-TENANCY-2026_10_06
+  attributes:
+    role: home
+    start_date: '2026-10-06'
+    details:
+      bounds: observed
+      season: HCK-NHL-SEASON_2026_2027
+      first_observed_event: '401891806'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/16/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: HCK-NHL-TEAM-LAK
+    stadium: STADIUM-US-CA-LOS_ANGELES-CRYPTO_COM_ARENA
+- type: Tenancy
+  code: HCK-NHL-TEAM-MIN-TENANCY-2026_10_03
+  attributes:
+    role: home
+    start_date: '2026-10-03'
+    details:
+      bounds: observed
+      season: HCK-NHL-SEASON_2026_2027
+      first_observed_event: '401891814'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/12/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: HCK-NHL-TEAM-MIN
+    stadium: STADIUM-US-MN-SAINT_PAUL-GRAND_CASINO_ARENA
+- type: Tenancy
+  code: HCK-NHL-TEAM-MTL-TENANCY-2026_10_06
+  attributes:
+    role: home
+    start_date: '2026-10-06'
+    details:
+      bounds: observed
+      season: HCK-NHL-SEASON_2026_2027
+      first_observed_event: '401891815'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/27/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: HCK-NHL-TEAM-MTL
+    stadium: STADIUM-CA-QC-MONTREAL-BELL_CENTRE
+- type: Tenancy
+  code: HCK-NHL-TEAM-NJD-TENANCY-2026_10_01
+  attributes:
+    role: home
+    start_date: '2026-10-01'
+    details:
+      bounds: observed
+      season: HCK-NHL-SEASON_2026_2027
+      first_observed_event: '401891817'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/13/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: HCK-NHL-TEAM-NJD
+    stadium: STADIUM-US-NJ-NEWARK-PRUDENTIAL_CENTER
+- type: Tenancy
+  code: HCK-NHL-TEAM-NSH-TENANCY-2026_10_01
+  attributes:
+    role: home
+    start_date: '2026-10-01'
+    details:
+      bounds: observed
+      season: HCK-NHL-SEASON_2026_2027
+      first_observed_event: '401891816'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/14/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: HCK-NHL-TEAM-NSH
+    stadium: STADIUM-US-TN-NASHVILLE-BRIDGESTONE_ARENA
+- type: Tenancy
+  code: HCK-NHL-TEAM-NYI-TENANCY-2026_10_03
+  attributes:
+    role: home
+    start_date: '2026-10-03'
+    details:
+      bounds: observed
+      season: HCK-NHL-SEASON_2026_2027
+      first_observed_event: '401891818'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/124292/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: HCK-NHL-TEAM-NYI
+    stadium: STADIUM-US-NY-ELMONT-UBS_ARENA
+- type: Tenancy
+  code: HCK-NHL-TEAM-NYR-TENANCY-2026_10_01
+  attributes:
+    role: home
+    start_date: '2026-10-01'
+    details:
+      bounds: observed
+      season: HCK-NHL-SEASON_2026_2027
+      first_observed_event: '401891819'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/18/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: HCK-NHL-TEAM-NYR
+    stadium: STADIUM-US-NY-NEW_YORK-MADISON_SQUARE_GARDEN
+- type: Tenancy
+  code: HCK-NHL-TEAM-OTT-TENANCY-2026_10_08
+  attributes:
+    role: home
+    start_date: '2026-10-08'
+    details:
+      bounds: observed
+      season: HCK-NHL-SEASON_2026_2027
+      first_observed_event: '401891820'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/19/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: HCK-NHL-TEAM-OTT
+    stadium: STADIUM-CA-ON-OTTAWA-CANADIAN_TIRE_CENTRE
+- type: Tenancy
+  code: HCK-NHL-TEAM-PHI-TENANCY-2026_09_30
+  attributes:
+    role: home
+    start_date: '2026-09-30'
+    details:
+      bounds: observed
+      season: HCK-NHL-SEASON_2026_2027
+      first_observed_event: '401891821'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/129764/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: HCK-NHL-TEAM-PHI
+    stadium: STADIUM-US-PA-PHILADELPHIA-XFINITY_MOBILE_ARENA
+- type: Tenancy
+  code: HCK-NHL-TEAM-PIT-TENANCY-2026_10_03
+  attributes:
+    role: home
+    start_date: '2026-10-03'
+    details:
+      bounds: observed
+      season: HCK-NHL-SEASON_2026_2027
+      first_observed_event: '401891822'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/20/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: HCK-NHL-TEAM-PIT
+    stadium: STADIUM-US-PA-PITTSBURGH-PPG_PAINTS_ARENA
+- type: Tenancy
+  code: HCK-NHL-TEAM-SEA-TENANCY-2026_10_04
+  attributes:
+    role: home
+    start_date: '2026-10-04'
+    details:
+      bounds: observed
+      season: HCK-NHL-SEASON_2026_2027
+      first_observed_event: '401891824'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/21/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: HCK-NHL-TEAM-SEA
+    stadium: STADIUM-US-WA-SEATTLE-CLIMATE_PLEDGE_ARENA
+- type: Tenancy
+  code: HCK-NHL-TEAM-SJS-TENANCY-2026_10_01
+  attributes:
+    role: home
+    start_date: '2026-10-01'
+    details:
+      bounds: observed
+      season: HCK-NHL-SEASON_2026_2027
+      first_observed_event: '401891823'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/37/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: HCK-NHL-TEAM-SJS
+    stadium: STADIUM-US-CA-SAN_JOSE-SAP_CENTER_AT_SAN_JOSE
+- type: Tenancy
+  code: HCK-NHL-TEAM-STL-TENANCY-2026_10_08
+  attributes:
+    role: home
+    start_date: '2026-10-08'
+    details:
+      bounds: observed
+      season: HCK-NHL-SEASON_2026_2027
+      first_observed_event: '401891825'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/22/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: HCK-NHL-TEAM-STL
+    stadium: STADIUM-US-MO-ST_LOUIS-ENTERPRISE_CENTER
+- type: Tenancy
+  code: HCK-NHL-TEAM-TBL-TENANCY-2026_10_03
+  attributes:
+    role: home
+    start_date: '2026-10-03'
+    details:
+      bounds: observed
+      season: HCK-NHL-SEASON_2026_2027
+      first_observed_event: '401891826'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/28/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: HCK-NHL-TEAM-TBL
+    stadium: STADIUM-US-FL-TAMPA-BENCHMARK_INTERNATIONAL_ARENA
+- type: Tenancy
+  code: HCK-NHL-TEAM-TOR-TENANCY-2026_09_29
+  attributes:
+    role: home
+    start_date: '2026-09-29'
+    details:
+      bounds: observed
+      season: HCK-NHL-SEASON_2026_2027
+      first_observed_event: '401891827'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/23/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: HCK-NHL-TEAM-TOR
+    stadium: STADIUM-CA-ON-TORONTO-SCOTIABANK_ARENA
+- type: Tenancy
+  code: HCK-NHL-TEAM-UTA-TENANCY-2026_10_01
+  attributes:
+    role: home
+    start_date: '2026-10-01'
+    details:
+      bounds: observed
+      season: HCK-NHL-SEASON_2026_2027
+      first_observed_event: '401891828'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/23/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: HCK-NHL-TEAM-UTA
+    stadium: STADIUM-US-UT-SALT_LAKE_CITY-DELTA_CENTER
+- type: Tenancy
+  code: HCK-NHL-TEAM-VAN-TENANCY-2026_10_01
+  attributes:
+    role: home
+    start_date: '2026-10-01'
+    details:
+      bounds: observed
+      season: HCK-NHL-SEASON_2026_2027
+      first_observed_event: '401891829'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/23/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: HCK-NHL-TEAM-VAN
+    stadium: STADIUM-CA-BC-VANCOUVER-ROGERS_ARENA
+- type: Tenancy
+  code: HCK-NHL-TEAM-VGK-TENANCY-2026_09_29
+  attributes:
+    role: home
+    start_date: '2026-09-29'
+    details:
+      bounds: observed
+      season: HCK-NHL-SEASON_2026_2027
+      first_observed_event: '401891775'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/23/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: HCK-NHL-TEAM-VGK
+    stadium: STADIUM-US-NV-LAS_VEGAS-T_MOBILE_ARENA
+- type: Tenancy
+  code: HCK-NHL-TEAM-WPG-TENANCY-2026_10_02
+  attributes:
+    role: home
+    start_date: '2026-10-02'
+    details:
+      bounds: observed
+      season: HCK-NHL-SEASON_2026_2027
+      first_observed_event: '401891831'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/23/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: HCK-NHL-TEAM-WPG
+    stadium: STADIUM-CA-MB-WINNIPEG-CANADA_LIFE_CENTRE
+- type: Tenancy
+  code: HCK-NHL-TEAM-WSH-TENANCY-2026_10_07
+  attributes:
+    role: home
+    start_date: '2026-10-07'
+    details:
+      bounds: observed
+      season: HCK-NHL-SEASON_2026_2027
+      first_observed_event: '401891830'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/teams/23/schedule?season=2027&seasontype=2
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: HCK-NHL-TEAM-WSH
+    stadium: STADIUM-US-DC-WASHINGTON-CAPITAL_ONE_ARENA
+- type: Tenancy
+  code: SOC-EPL-TEAM-ARS-TENANCY-2026_08_21
+  attributes:
+    role: home
+    start_date: '2026-08-21'
+    details:
+      bounds: observed
+      season: SOC-EPL-SEASON_2026_2027
+      first_observed_event: '401879301'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/364/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-EPL-TEAM-ARS
+    stadium: STADIUM-GB-ENG-LONDON-EMIRATES_STADIUM
+- type: Tenancy
+  code: SOC-EPL-TEAM-AVL-TENANCY-2026_08_31
+  attributes:
+    role: home
+    start_date: '2026-08-31'
+    details:
+      bounds: observed
+      season: SOC-EPL-SEASON_2026_2027
+      first_observed_event: '401879295'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/366/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-EPL-TEAM-AVL
+    stadium: STADIUM-GB-ENG-BIRMINGHAM-VILLA_PARK
+- type: Tenancy
+  code: SOC-EPL-TEAM-BHA-TENANCY-2026_08_23
+  attributes:
+    role: home
+    start_date: '2026-08-23'
+    details:
+      bounds: observed
+      season: SOC-EPL-SEASON_2026_2027
+      first_observed_event: '401879297'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/361/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-EPL-TEAM-BHA
+    stadium: STADIUM-GB-ENG-FALMER-AMERICAN_EXPRESS_STADIUM
+- type: Tenancy
+  code: SOC-EPL-TEAM-BOU-TENANCY-2026_08_29
+  attributes:
+    role: home
+    start_date: '2026-08-29'
+    details:
+      bounds: observed
+      season: SOC-EPL-SEASON_2026_2027
+      first_observed_event: '401879296'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/362/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-EPL-TEAM-BOU
+    stadium: STADIUM-GB-ENG-BOURNEMOUTH-VITALITY_STADIUM
+- type: Tenancy
+  code: SOC-EPL-TEAM-BRE-TENANCY-2026_08_22
+  attributes:
+    role: home
+    start_date: '2026-08-22'
+    details:
+      bounds: observed
+      season: SOC-EPL-SEASON_2026_2027
+      first_observed_event: '401879321'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/359/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-EPL-TEAM-BRE
+    stadium: STADIUM-GB-ENG-BRENTFORD-GTECH_COMMUNITY_STADIUM
+- type: Tenancy
+  code: SOC-EPL-TEAM-CHE-TENANCY-2026_08_30
+  attributes:
+    role: home
+    start_date: '2026-08-30'
+    details:
+      bounds: observed
+      season: SOC-EPL-SEASON_2026_2027
+      first_observed_event: '401879317'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/370/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-EPL-TEAM-CHE
+    stadium: STADIUM-GB-ENG-LONDON-STAMFORD_BRIDGE
+- type: Tenancy
+  code: SOC-EPL-TEAM-COV-TENANCY-2026_08_29
+  attributes:
+    role: home
+    start_date: '2026-08-29'
+    details:
+      bounds: observed
+      season: SOC-EPL-SEASON_2026_2027
+      first_observed_event: '401879316'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/393/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-EPL-TEAM-COV
+    stadium: STADIUM-GB-ENG-COVENTRY-COVENTRY_BUILDING_SOCIETY_ARENA
+- type: Tenancy
+  code: SOC-EPL-TEAM-CRY-TENANCY-2026_08_28
+  attributes:
+    role: home
+    start_date: '2026-08-28'
+    details:
+      bounds: observed
+      season: SOC-EPL-SEASON_2026_2027
+      first_observed_event: '401879294'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/393/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-EPL-TEAM-CRY
+    stadium: STADIUM-GB-ENG-LONDON-SELHURST_PARK
+- type: Tenancy
+  code: SOC-EPL-TEAM-EVE-TENANCY-2026_08_22
+  attributes:
+    role: home
+    start_date: '2026-08-22'
+    details:
+      bounds: observed
+      season: SOC-EPL-SEASON_2026_2027
+      first_observed_event: '401879300'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/384/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-EPL-TEAM-EVE
+    stadium: STADIUM-GB-ENG-LIVERPOOL-HILL_DICKINSON_STADIUM
+- type: Tenancy
+  code: SOC-EPL-TEAM-FUL-TENANCY-2026_08_24
+  attributes:
+    role: home
+    start_date: '2026-08-24'
+    details:
+      bounds: observed
+      season: SOC-EPL-SEASON_2026_2027
+      first_observed_event: '401879318'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/393/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-EPL-TEAM-FUL
+    stadium: STADIUM-GB-ENG-LONDON-CRAVEN_COTTAGE
+- type: Tenancy
+  code: SOC-EPL-TEAM-HUL-TENANCY-2026_08_22
+  attributes:
+    role: home
+    start_date: '2026-08-22'
+    details:
+      bounds: observed
+      season: SOC-EPL-SEASON_2026_2027
+      first_observed_event: '401879322'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/360/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-EPL-TEAM-HUL
+    stadium: STADIUM-GB-ENG-HULL-THE_MKM_STADIUM
+- type: Tenancy
+  code: SOC-EPL-TEAM-IPS-TENANCY-2026_08_22
+  attributes:
+    role: home
+    start_date: '2026-08-22'
+    details:
+      bounds: observed
+      season: SOC-EPL-SEASON_2026_2027
+      first_observed_event: '401879299'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/393/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-EPL-TEAM-IPS
+    stadium: STADIUM-GB-ENG-IPSWICH-PORTMAN_ROAD
+- type: Tenancy
+  code: SOC-EPL-TEAM-LEE-TENANCY-2026_08_30
+  attributes:
+    role: home
+    start_date: '2026-08-30'
+    details:
+      bounds: observed
+      season: SOC-EPL-SEASON_2026_2027
+      first_observed_event: '401879315'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/363/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-EPL-TEAM-LEE
+    stadium: STADIUM-GB-ENG-LEEDS-ELLAND_ROAD
+- type: Tenancy
+  code: SOC-EPL-TEAM-LIV-TENANCY-2026_08_29
+  attributes:
+    role: home
+    start_date: '2026-08-29'
+    details:
+      bounds: observed
+      season: SOC-EPL-SEASON_2026_2027
+      first_observed_event: '401879314'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/382/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-EPL-TEAM-LIV
+    stadium: STADIUM-GB-ENG-LIVERPOOL-ANFIELD
+- type: Tenancy
+  code: SOC-EPL-TEAM-MCI-TENANCY-2026_08_23
+  attributes:
+    role: home
+    start_date: '2026-08-23'
+    details:
+      bounds: observed
+      season: SOC-EPL-SEASON_2026_2027
+      first_observed_event: '401879320'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/393/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-EPL-TEAM-MCI
+    stadium: STADIUM-GB-ENG-MANCHESTER-ETIHAD_STADIUM
+- type: Tenancy
+  code: SOC-EPL-TEAM-MUN-TENANCY-2026_08_30
+  attributes:
+    role: home
+    start_date: '2026-08-30'
+    details:
+      bounds: observed
+      season: SOC-EPL-SEASON_2026_2027
+      first_observed_event: '401879293'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/368/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-EPL-TEAM-MUN
+    stadium: STADIUM-GB-ENG-MANCHESTER-OLD_TRAFFORD
+- type: Tenancy
+  code: SOC-EPL-TEAM-NEW-TENANCY-2026_08_23
+  attributes:
+    role: home
+    start_date: '2026-08-23'
+    details:
+      bounds: observed
+      season: SOC-EPL-SEASON_2026_2027
+      first_observed_event: '401879319'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/367/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-EPL-TEAM-NEW
+    stadium: STADIUM-GB-ENG-NEWCASTLE_UPON_TYNE-ST_JAMES_PARK
+- type: Tenancy
+  code: SOC-EPL-TEAM-NFO-TENANCY-2026_08_22
+  attributes:
+    role: home
+    start_date: '2026-08-22'
+    details:
+      bounds: observed
+      season: SOC-EPL-SEASON_2026_2027
+      first_observed_event: '401879298'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/393/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-EPL-TEAM-NFO
+    stadium: STADIUM-GB-ENG-WEST_BRIDGFORD-THE_CITY_GROUND
+- type: Tenancy
+  code: SOC-EPL-TEAM-SUN-TENANCY-2026_08_30
+  attributes:
+    role: home
+    start_date: '2026-08-30'
+    details:
+      bounds: observed
+      season: SOC-EPL-SEASON_2026_2027
+      first_observed_event: '401879313'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/373/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-EPL-TEAM-SUN
+    stadium: STADIUM-GB-ENG-SUNDERLAND-STADIUM_OF_LIGHT
+- type: Tenancy
+  code: SOC-EPL-TEAM-TOT-TENANCY-2026_08_29
+  attributes:
+    role: home
+    start_date: '2026-08-29'
+    details:
+      bounds: observed
+      season: SOC-EPL-SEASON_2026_2027
+      first_observed_event: '401879312'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams/388/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-EPL-TEAM-TOT
+    stadium: STADIUM-GB-ENG-LONDON-TOTTENHAM_HOTSPUR_STADIUM
+- type: Tenancy
+  code: SOC-MLS-TEAM-ATL-TENANCY-2026_03_07
+  attributes:
+    role: home
+    start_date: '2026-03-07'
+    details:
+      bounds: observed
+      season: SOC-MLS-SEASON_2026
+      first_observed_event: '761474'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/20232/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-MLS-TEAM-ATL
+    stadium: STADIUM-US-GA-ATLANTA-MERCEDES_BENZ_STADIUM
+- type: Tenancy
+  code: SOC-MLS-TEAM-ATX-TENANCY-2026_02_21
+  attributes:
+    role: home
+    start_date: '2026-02-21'
+    details:
+      bounds: observed
+      season: SOC-MLS-SEASON_2026
+      first_observed_event: '761446'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/22529/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-MLS-TEAM-ATX
+    stadium: STADIUM-US-TX-AUSTIN-Q2_STADIUM
+- type: Tenancy
+  code: SOC-MLS-TEAM-CHI-TENANCY-2026_02_28
+  attributes:
+    role: home
+    start_date: '2026-02-28'
+    details:
+      bounds: observed
+      season: SOC-MLS-SEASON_2026
+      first_observed_event: '761454'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/4771/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-MLS-TEAM-CHI
+    stadium: STADIUM-US-IL-CHICAGO-SOLDIER_FIELD
+- type: Tenancy
+  code: SOC-MLS-TEAM-CIN-TENANCY-2026_02_21
+  attributes:
+    role: home
+    start_date: '2026-02-21'
+    details:
+      bounds: observed
+      season: SOC-MLS-SEASON_2026
+      first_observed_event: '761440'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/18986/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-MLS-TEAM-CIN
+    stadium: STADIUM-US-OH-CINCINNATI-TQL_STADIUM
+- type: Tenancy
+  code: SOC-MLS-TEAM-CLB-TENANCY-2026_03_07
+  attributes:
+    role: home
+    start_date: '2026-03-07'
+    details:
+      bounds: observed
+      season: SOC-MLS-SEASON_2026
+      first_observed_event: '761472'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/187/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-MLS-TEAM-CLB
+    stadium: STADIUM-US-OH-COLUMBUS-SCOTTSMIRACLE_GRO_FIELD
+- type: Tenancy
+  code: SOC-MLS-TEAM-CLT-TENANCY-2026_03_07
+  attributes:
+    role: home
+    start_date: '2026-03-07'
+    details:
+      bounds: observed
+      season: SOC-MLS-SEASON_2026
+      first_observed_event: '761475'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/22529/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-MLS-TEAM-CLT
+    stadium: STADIUM-US-NC-CHARLOTTE-BANK_OF_AMERICA_STADIUM
+- type: Tenancy
+  code: SOC-MLS-TEAM-COL-TENANCY-2026_02_28
+  attributes:
+    role: home
+    start_date: '2026-02-28'
+    details:
+      bounds: observed
+      season: SOC-MLS-SEASON_2026
+      first_observed_event: '761456'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/189/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-MLS-TEAM-COL
+    stadium: STADIUM-US-CO-COMMERCE_CITY-DICK_S_SPORTING_GOODS_PARK
+- type: Tenancy
+  code: SOC-MLS-TEAM-DAL-TENANCY-2026_02_21
+  attributes:
+    role: home
+    start_date: '2026-02-21'
+    details:
+      bounds: observed
+      season: SOC-MLS-SEASON_2026
+      first_observed_event: '761447'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/190/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-MLS-TEAM-DAL
+    stadium: STADIUM-US-TX-FRISCO-TOYOTA_STADIUM
+- type: Tenancy
+  code: SOC-MLS-TEAM-DC-TENANCY-2026_02_21
+  attributes:
+    role: home
+    start_date: '2026-02-21'
+    details:
+      bounds: observed
+      season: SOC-MLS-SEASON_2026
+      first_observed_event: '761441'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/9723/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-MLS-TEAM-DC
+    stadium: STADIUM-US-DC-WASHINGTON-AUDI_FIELD
+- type: Tenancy
+  code: SOC-MLS-TEAM-HOU-TENANCY-2026_02_21
+  attributes:
+    role: home
+    start_date: '2026-02-21'
+    details:
+      bounds: observed
+      season: SOC-MLS-SEASON_2026
+      first_observed_event: '761445'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/9727/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-MLS-TEAM-HOU
+    stadium: STADIUM-US-TX-HOUSTON-SHELL_ENERGY_STADIUM
+- type: Tenancy
+  code: SOC-MLS-TEAM-LA-TENANCY-2026_02_22
+  attributes:
+    role: home
+    start_date: '2026-02-22'
+    details:
+      bounds: observed
+      season: SOC-MLS-SEASON_2026
+      first_observed_event: '761452'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/191/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-MLS-TEAM-LA
+    stadium: STADIUM-US-CA-CARSON-DIGNITY_HEALTH_SPORTS_PARK
+- type: Tenancy
+  code: SOC-MLS-TEAM-LAFC-TENANCY-2026_03_07
+  attributes:
+    role: home
+    start_date: '2026-03-07'
+    details:
+      bounds: observed
+      season: SOC-MLS-SEASON_2026
+      first_observed_event: '761480'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/21300/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-MLS-TEAM-LAFC
+    stadium: STADIUM-US-CA-LOS_ANGELES-BMO_STADIUM
+- type: Tenancy
+  code: SOC-MLS-TEAM-MIA-TENANCY-2026_04_04
+  attributes:
+    role: home
+    start_date: '2026-04-04'
+    details:
+      bounds: observed
+      season: SOC-MLS-SEASON_2026
+      first_observed_event: '761522'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/22529/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-MLS-TEAM-MIA
+    stadium: STADIUM-US-FL-MIAMI-NU_STADIUM
+- type: Tenancy
+  code: SOC-MLS-TEAM-MIN-TENANCY-2026_02_28
+  attributes:
+    role: home
+    start_date: '2026-02-28'
+    details:
+      bounds: observed
+      season: SOC-MLS-SEASON_2026
+      first_observed_event: '761457'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/20906/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-MLS-TEAM-MIN
+    stadium: STADIUM-US-MN-SAINT_PAUL-ALLIANZ_FIELD
+- type: Tenancy
+  code: SOC-MLS-TEAM-MTL-TENANCY-2026_04_11
+  attributes:
+    role: home
+    start_date: '2026-04-11'
+    details:
+      bounds: observed
+      season: SOC-MLS-SEASON_2026
+      first_observed_event: '761541'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/17362/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-MLS-TEAM-MTL
+    stadium: STADIUM-CA-QC-MONTREAL-STADE_SAPUTO
+- type: Tenancy
+  code: SOC-MLS-TEAM-NE-TENANCY-2026_03_15
+  attributes:
+    role: home
+    start_date: '2026-03-15'
+    details:
+      bounds: observed
+      season: SOC-MLS-SEASON_2026
+      first_observed_event: '761497'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/7318/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-MLS-TEAM-NE
+    stadium: STADIUM-US-MA-FOXBOROUGH-GILLETTE_STADIUM
+- type: Tenancy
+  code: SOC-MLS-TEAM-NSH-TENANCY-2026_02_21
+  attributes:
+    role: home
+    start_date: '2026-02-21'
+    details:
+      bounds: observed
+      season: SOC-MLS-SEASON_2026
+      first_observed_event: '761444'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/22529/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-MLS-TEAM-NSH
+    stadium: STADIUM-US-TN-NASHVILLE-GEODIS_PARK
+- type: Tenancy
+  code: SOC-MLS-TEAM-NYC-TENANCY-2026_03_07
+  attributes:
+    role: home
+    start_date: '2026-03-07'
+    details:
+      bounds: observed
+      season: SOC-MLS-SEASON_2026
+      first_observed_event: '761470'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/18966/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-MLS-TEAM-NYC
+    stadium: STADIUM-US-NY-NEW_YORK-YANKEE_STADIUM
+- type: Tenancy
+  code: SOC-MLS-TEAM-ORL-TENANCY-2026_02_21
+  attributes:
+    role: home
+    start_date: '2026-02-21'
+    details:
+      bounds: observed
+      season: SOC-MLS-SEASON_2026
+      first_observed_event: '761442'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/21812/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-MLS-TEAM-ORL
+    stadium: STADIUM-US-FL-ORLANDO-INTER_CO_STADIUM
+- type: Tenancy
+  code: SOC-MLS-TEAM-PHI-TENANCY-2026_03_01
+  attributes:
+    role: home
+    start_date: '2026-03-01'
+    details:
+      bounds: observed
+      season: SOC-MLS-SEASON_2026
+      first_observed_event: '761466'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/18418/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-MLS-TEAM-PHI
+    stadium: STADIUM-US-PA-CHESTER-SUBARU_PARK
+- type: Tenancy
+  code: SOC-MLS-TEAM-POR-TENANCY-2026_02_21
+  attributes:
+    role: home
+    start_date: '2026-02-21'
+    details:
+      bounds: observed
+      season: SOC-MLS-SEASON_2026
+      first_observed_event: '761451'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/17606/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-MLS-TEAM-POR
+    stadium: STADIUM-US-OR-PORTLAND-PROVIDENCE_PARK
+- type: Tenancy
+  code: SOC-MLS-TEAM-RBNY-TENANCY-2026_02_28
+  attributes:
+    role: home
+    start_date: '2026-02-28'
+    details:
+      bounds: observed
+      season: SOC-MLS-SEASON_2026
+      first_observed_event: '761455'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/9720/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-MLS-TEAM-RBNY
+    stadium: STADIUM-US-NJ-HARRISON-SPORTS_ILLUSTRATED_STADIUM
+- type: Tenancy
+  code: SOC-MLS-TEAM-RSL-TENANCY-2026_02_28
+  attributes:
+    role: home
+    start_date: '2026-02-28'
+    details:
+      bounds: observed
+      season: SOC-MLS-SEASON_2026
+      first_observed_event: '761459'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/9726/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-MLS-TEAM-RSL
+    stadium: STADIUM-US-UT-SANDY-AMERICA_FIRST_FIELD
+- type: Tenancy
+  code: SOC-MLS-TEAM-SD-TENANCY-2026_02_21
+  attributes:
+    role: home
+    start_date: '2026-02-21'
+    details:
+      bounds: observed
+      season: SOC-MLS-SEASON_2026
+      first_observed_event: '761449'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/22529/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-MLS-TEAM-SD
+    stadium: STADIUM-US-CA-SAN_DIEGO-SNAPDRAGON_STADIUM
+- type: Tenancy
+  code: SOC-MLS-TEAM-SEA-TENANCY-2026_02_22
+  attributes:
+    role: home
+    start_date: '2026-02-22'
+    details:
+      bounds: observed
+      season: SOC-MLS-SEASON_2026
+      first_observed_event: '761453'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/12011/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-MLS-TEAM-SEA
+    stadium: STADIUM-US-WA-SEATTLE-LUMEN_FIELD
+- type: Tenancy
+  code: SOC-MLS-TEAM-SJ-TENANCY-2026_02_21
+  attributes:
+    role: home
+    start_date: '2026-02-21'
+    details:
+      bounds: observed
+      season: SOC-MLS-SEASON_2026
+      first_observed_event: '761450'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/6077/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-MLS-TEAM-SJ
+    stadium: STADIUM-US-CA-SAN_JOSE-PAYPAL_PARK
+- type: Tenancy
+  code: SOC-MLS-TEAM-SKC-TENANCY-2026_02_28
+  attributes:
+    role: home
+    start_date: '2026-02-28'
+    details:
+      bounds: observed
+      season: SOC-MLS-SEASON_2026
+      first_observed_event: '761461'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/193/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-MLS-TEAM-SKC
+    stadium: STADIUM-US-KS-KANSAS_CITY-SPORTING_PARK
+- type: Tenancy
+  code: SOC-MLS-TEAM-STL-TENANCY-2026_02_21
+  attributes:
+    role: home
+    start_date: '2026-02-21'
+    details:
+      bounds: observed
+      season: SOC-MLS-SEASON_2026
+      first_observed_event: '761439'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/22529/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-MLS-TEAM-STL
+    stadium: STADIUM-US-MO-ST_LOUIS-ENERGIZER_PARK
+- type: Tenancy
+  code: SOC-MLS-TEAM-TOR-TENANCY-2026_03_14
+  attributes:
+    role: home
+    start_date: '2026-03-14'
+    details:
+      bounds: observed
+      season: SOC-MLS-SEASON_2026
+      first_observed_event: '761484'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/10739/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-MLS-TEAM-TOR
+    stadium: STADIUM-CA-ON-TORONTO-BMO_FIELD
+- type: Tenancy
+  code: SOC-MLS-TEAM-VAN-TENANCY-2026_02_21
+  attributes:
+    role: home
+    start_date: '2026-02-21'
+    details:
+      bounds: observed
+      season: SOC-MLS-SEASON_2026
+      first_observed_event: '761443'
+    source:
+      url: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/teams/18267/schedule?season=2026
+      captured_on: '2026-10-27'
+      note: Current home venue. The start date is the first observation in this capture,
+        not the date the team moved in.
+  references:
+    team: SOC-MLS-TEAM-VAN
+    stadium: STADIUM-CA-BC-VANCOUVER-BC_PLACE

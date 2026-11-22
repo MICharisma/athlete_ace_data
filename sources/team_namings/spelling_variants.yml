@@ -1,0 +1,11 @@
+meaning: Display names that Campaigns spell differently for the same name, reviewed so that
+  scripts/build_team_namings.rb treats them as one naming instead of a rename. A naming
+  records the preferred spelling, and lists every spelling its Campaigns used in details.
+  The preferred spelling is the one the league's 2026 listings use.
+variants:
+- preferred: LA Clippers
+  spellings: [Los Angeles Clippers]
+  note: The 2000-01 and 2025-26 Campaigns spell out Los Angeles; the others use LA.
+- preferred: Montréal Canadiens
+  spellings: [Montreal Canadiens]
+  note: Campaigns alternate between the accented and unaccented city.

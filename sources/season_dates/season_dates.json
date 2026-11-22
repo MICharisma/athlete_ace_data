@@ -1,0 +1,4718 @@
+{
+  "as_of": "2026-11-22",
+  "meaning": "First and last regular-season game dates. MLB: the Stats API season record's regular-season start and end dates. NBA, NFL and NHL: the first and last US Eastern ESPN scoreboard days listing a completed regular-season (season type 2) game, searched from ESPN's season-type window; the last day extends past the window while completed regular-season games appear within 21 days. A season in progress on the observation date has no last date.",
+  "seasons": [
+    {
+      "league": "NBA",
+      "season": "BKT-NBA-SEASON_2000_2001",
+      "label": "2000_2001",
+      "provider": "espn",
+      "espn_year": 2001,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2001/types/2?lang=en&region=us",
+        "start": "2000-10-31T08:00Z",
+        "end": "2001-04-19T06:59Z"
+      },
+      "first_game_date": "2000-10-31",
+      "first_games": [
+        {
+          "id": "201031001",
+          "name": "CHA @ ATL",
+          "date": "2000-11-01T00:30Z"
+        },
+        {
+          "id": "201031004",
+          "name": "SAC @ CHI",
+          "date": "2000-11-01T00:30Z"
+        },
+        {
+          "id": "201031006",
+          "name": "MIL @ DAL",
+          "date": "2000-11-01T00:00Z"
+        },
+        {
+          "id": "201031009",
+          "name": "PHX @ GS",
+          "date": "2000-11-01T00:30Z"
+        },
+        {
+          "id": "201031010",
+          "name": "MIN @ HOU",
+          "date": "2000-11-01T00:30Z"
+        },
+        {
+          "id": "201031017",
+          "name": "CLE @ NJ",
+          "date": "2000-11-01T00:30Z"
+        },
+        {
+          "id": "201031018",
+          "name": "PHI @ NY",
+          "date": "2000-11-01T01:00Z"
+        },
+        {
+          "id": "201031019",
+          "name": "WSH @ ORL",
+          "date": "2000-11-01T00:30Z"
+        },
+        {
+          "id": "201031022",
+          "name": "LAL @ POR",
+          "date": "2000-11-01T00:30Z"
+        },
+        {
+          "id": "201031024",
+          "name": "IND @ SA",
+          "date": "2000-11-01T00:30Z"
+        },
+        {
+          "id": "201031026",
+          "name": "LAC @ UTAH",
+          "date": "2000-11-01T00:00Z"
+        },
+        {
+          "id": "201031028",
+          "name": "DET @ TOR",
+          "date": "2000-11-01T01:00Z"
+        },
+        {
+          "id": "201031029",
+          "name": "SEA @ VAN",
+          "date": "2000-11-01T00:30Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20001031",
+      "last_game_date": "2001-04-18",
+      "last_games": [
+        {
+          "id": "210418002",
+          "name": "CHA @ BOS",
+          "date": "2001-04-18T23:00Z"
+        },
+        {
+          "id": "210418005",
+          "name": "IND @ CLE",
+          "date": "2001-04-18T23:30Z"
+        },
+        {
+          "id": "210418006",
+          "name": "MIN @ DAL",
+          "date": "2001-04-18T23:30Z"
+        },
+        {
+          "id": "210418007",
+          "name": "SAC @ DEN",
+          "date": "2001-04-18T23:00Z"
+        },
+        {
+          "id": "210418009",
+          "name": "VAN @ GS",
+          "date": "2001-04-18T23:30Z"
+        },
+        {
+          "id": "210418018",
+          "name": "DET @ NY",
+          "date": "2001-04-18T23:30Z"
+        },
+        {
+          "id": "210418019",
+          "name": "MIA @ ORL",
+          "date": "2001-04-19T00:00Z"
+        },
+        {
+          "id": "210418020",
+          "name": "CHI @ PHI",
+          "date": "2001-04-18T23:00Z"
+        },
+        {
+          "id": "210418021",
+          "name": "UTAH @ PHX",
+          "date": "2001-04-18T23:30Z"
+        },
+        {
+          "id": "210418025",
+          "name": "SA @ SEA",
+          "date": "2001-04-18T23:00Z"
+        },
+        {
+          "id": "210418027",
+          "name": "TOR @ WSH",
+          "date": "2001-04-18T23:00Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20010418"
+    },
+    {
+      "league": "NBA",
+      "season": "BKT-NBA-SEASON_2001_2002",
+      "label": "2001_2002",
+      "provider": "espn",
+      "espn_year": 2002,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2002/types/2?lang=en&region=us",
+        "start": "2001-10-29T08:00Z",
+        "end": "2002-04-18T06:59Z"
+      },
+      "first_game_date": "2001-10-30",
+      "first_games": [
+        {
+          "id": "211030005",
+          "name": "BOS @ CLE",
+          "date": "2001-10-31T00:00Z"
+        },
+        {
+          "id": "211030006",
+          "name": "DET @ DAL",
+          "date": "2001-10-31T00:30Z"
+        },
+        {
+          "id": "211030010",
+          "name": "ATL @ HOU",
+          "date": "2001-10-31T00:30Z"
+        },
+        {
+          "id": "211030013",
+          "name": "POR @ LAL",
+          "date": "2001-10-31T00:30Z"
+        },
+        {
+          "id": "211030016",
+          "name": "PHI @ MIN",
+          "date": "2001-10-31T00:00Z"
+        },
+        {
+          "id": "211030017",
+          "name": "IND @ NJ",
+          "date": "2001-10-31T00:30Z"
+        },
+        {
+          "id": "211030018",
+          "name": "WSH @ NY",
+          "date": "2001-10-31T00:30Z"
+        },
+        {
+          "id": "211030019",
+          "name": "TOR @ ORL",
+          "date": "2001-10-31T00:30Z"
+        },
+        {
+          "id": "211030021",
+          "name": "DEN @ PHX",
+          "date": "2001-10-31T00:00Z"
+        },
+        {
+          "id": "211030023",
+          "name": "SEA @ SAC",
+          "date": "2001-10-31T00:00Z"
+        },
+        {
+          "id": "211030024",
+          "name": "LAC @ SA",
+          "date": "2001-10-31T00:30Z"
+        },
+        {
+          "id": "211030026",
+          "name": "MIL @ UTAH",
+          "date": "2001-10-31T00:00Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20011030",
+      "last_game_date": "2002-04-17",
+      "last_games": [
+        {
+          "id": "220417002",
+          "name": "ATL @ BOS",
+          "date": "2002-04-17T23:00Z"
+        },
+        {
+          "id": "220417003",
+          "name": "CHI @ CHA",
+          "date": "2002-04-17T23:00Z"
+        },
+        {
+          "id": "220417008",
+          "name": "MIL @ DET",
+          "date": "2002-04-17T23:30Z"
+        },
+        {
+          "id": "220417009",
+          "name": "LAC @ GS",
+          "date": "2002-04-17T23:30Z"
+        },
+        {
+          "id": "220417011",
+          "name": "PHI @ IND",
+          "date": "2002-04-17T23:00Z"
+        },
+        {
+          "id": "220417013",
+          "name": "SAC @ LAL",
+          "date": "2002-04-17T23:30Z"
+        },
+        {
+          "id": "220417016",
+          "name": "DEN @ MIN",
+          "date": "2002-04-17T23:00Z"
+        },
+        {
+          "id": "220417018",
+          "name": "NJ @ NY",
+          "date": "2002-04-17T23:30Z"
+        },
+        {
+          "id": "220417019",
+          "name": "MIA @ ORL",
+          "date": "2002-04-17T23:30Z"
+        },
+        {
+          "id": "220417021",
+          "name": "DAL @ PHX",
+          "date": "2002-04-17T23:00Z"
+        },
+        {
+          "id": "220417022",
+          "name": "HOU @ POR",
+          "date": "2002-04-17T23:00Z"
+        },
+        {
+          "id": "220417025",
+          "name": "MEM @ SEA",
+          "date": "2002-04-17T23:00Z"
+        },
+        {
+          "id": "220417026",
+          "name": "SA @ UTAH",
+          "date": "2002-04-17T23:00Z"
+        },
+        {
+          "id": "220417028",
+          "name": "CLE @ TOR",
+          "date": "2002-04-17T23:00Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20020417"
+    },
+    {
+      "league": "NBA",
+      "season": "BKT-NBA-SEASON_2002_2003",
+      "label": "2002_2003",
+      "provider": "espn",
+      "espn_year": 2003,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2003/types/2?lang=en&region=us",
+        "start": "2002-10-29T08:00Z",
+        "end": "2003-04-19T06:59Z"
+      },
+      "first_game_date": "2002-10-29",
+      "first_games": [
+        {
+          "id": "221029013",
+          "name": "SA @ LAL",
+          "date": "2002-10-30T00:30Z"
+        },
+        {
+          "id": "221029019",
+          "name": "PHI @ ORL",
+          "date": "2002-10-30T00:30Z"
+        },
+        {
+          "id": "221029023",
+          "name": "CLE @ SAC",
+          "date": "2002-10-30T00:00Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20021029",
+      "last_game_date": "2003-04-16",
+      "last_games": [
+        {
+          "id": "230416002",
+          "name": "DET @ BOS",
+          "date": "2003-04-16T23:00Z"
+        },
+        {
+          "id": "230416003",
+          "name": "ATL @ NO",
+          "date": "2003-04-16T23:30Z"
+        },
+        {
+          "id": "230416005",
+          "name": "TOR @ CLE",
+          "date": "2003-04-16T23:00Z"
+        },
+        {
+          "id": "230416007",
+          "name": "HOU @ DEN",
+          "date": "2003-04-16T23:00Z"
+        },
+        {
+          "id": "230416009",
+          "name": "LAL @ GS",
+          "date": "2003-04-16T23:30Z"
+        },
+        {
+          "id": "230416011",
+          "name": "NJ @ IND",
+          "date": "2003-04-16T23:00Z"
+        },
+        {
+          "id": "230416012",
+          "name": "POR @ LAC",
+          "date": "2003-04-16T23:30Z"
+        },
+        {
+          "id": "230416015",
+          "name": "ORL @ MIL",
+          "date": "2003-04-16T23:00Z"
+        },
+        {
+          "id": "230416020",
+          "name": "WSH @ PHI",
+          "date": "2003-04-16T23:00Z"
+        },
+        {
+          "id": "230416023",
+          "name": "UTAH @ SAC",
+          "date": "2003-04-16T23:00Z"
+        },
+        {
+          "id": "230416024",
+          "name": "DAL @ SA",
+          "date": "2003-04-16T23:30Z"
+        },
+        {
+          "id": "230416025",
+          "name": "PHX @ SEA",
+          "date": "2003-04-16T23:00Z"
+        },
+        {
+          "id": "230416029",
+          "name": "MIN @ MEM",
+          "date": "2003-04-16T23:00Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20030416"
+    },
+    {
+      "league": "NBA",
+      "season": "BKT-NBA-SEASON_2003_2004",
+      "label": "2003_2004",
+      "provider": "espn",
+      "espn_year": 2004,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2004/types/2?lang=en&region=us",
+        "start": "2003-10-27T08:00Z",
+        "end": "2004-04-15T06:59Z"
+      },
+      "first_game_date": "2003-10-28",
+      "first_games": [
+        {
+          "id": "231028013",
+          "name": "DAL @ LAL",
+          "date": "2003-10-29T00:30Z"
+        },
+        {
+          "id": "231028020",
+          "name": "MIA @ PHI",
+          "date": "2003-10-29T00:00Z"
+        },
+        {
+          "id": "231028024",
+          "name": "PHX @ SA",
+          "date": "2003-10-29T00:00Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20031028",
+      "last_game_date": "2004-04-14",
+      "last_games": [
+        {
+          "id": "240414002",
+          "name": "ATL @ BOS",
+          "date": "2004-04-14T23:00Z"
+        },
+        {
+          "id": "240414009",
+          "name": "SAC @ GS",
+          "date": "2004-04-14T23:30Z"
+        },
+        {
+          "id": "240414010",
+          "name": "DAL @ HOU",
+          "date": "2004-04-15T00:30Z"
+        },
+        {
+          "id": "240414011",
+          "name": "CHI @ IND",
+          "date": "2004-04-14T23:00Z"
+        },
+        {
+          "id": "240414012",
+          "name": "SEA @ LAC",
+          "date": "2004-04-14T23:30Z"
+        },
+        {
+          "id": "240414014",
+          "name": "NJ @ MIA",
+          "date": "2004-04-14T23:30Z"
+        },
+        {
+          "id": "240414015",
+          "name": "TOR @ MIL",
+          "date": "2004-04-14T23:00Z"
+        },
+        {
+          "id": "240414018",
+          "name": "CLE @ NY",
+          "date": "2004-04-14T23:30Z"
+        },
+        {
+          "id": "240414019",
+          "name": "PHI @ ORL",
+          "date": "2004-04-14T23:00Z"
+        },
+        {
+          "id": "240414022",
+          "name": "LAL @ POR",
+          "date": "2004-04-14T23:00Z"
+        },
+        {
+          "id": "240414024",
+          "name": "DEN @ SA",
+          "date": "2004-04-14T23:30Z"
+        },
+        {
+          "id": "240414026",
+          "name": "PHX @ UTAH",
+          "date": "2004-04-14T23:00Z"
+        },
+        {
+          "id": "240414027",
+          "name": "NO @ WSH",
+          "date": "2004-04-14T23:00Z"
+        },
+        {
+          "id": "240414029",
+          "name": "MIN @ MEM",
+          "date": "2004-04-14T23:00Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20040414"
+    },
+    {
+      "league": "NBA",
+      "season": "BKT-NBA-SEASON_2004_2005",
+      "label": "2004_2005",
+      "provider": "espn",
+      "espn_year": 2005,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2005/types/2?lang=en&region=us",
+        "start": "2004-11-01T08:00Z",
+        "end": "2005-04-22T06:59Z"
+      },
+      "first_game_date": "2004-11-02",
+      "first_games": [
+        {
+          "id": "241102006",
+          "name": "SAC @ DAL",
+          "date": "2004-11-03T00:30Z"
+        },
+        {
+          "id": "241102008",
+          "name": "HOU @ DET",
+          "date": "2004-11-03T01:00Z"
+        },
+        {
+          "id": "241102013",
+          "name": "DEN @ LAL",
+          "date": "2004-11-03T00:30Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20041102",
+      "last_game_date": "2005-04-20",
+      "last_games": [
+        {
+          "id": "250420002",
+          "name": "NJ @ BOS",
+          "date": "2005-04-20T23:00Z"
+        },
+        {
+          "id": "250420003",
+          "name": "LAC @ NO",
+          "date": "2005-04-20T23:00Z"
+        },
+        {
+          "id": "250420009",
+          "name": "UTAH @ GS",
+          "date": "2005-04-20T23:30Z"
+        },
+        {
+          "id": "250420010",
+          "name": "SEA @ HOU",
+          "date": "2005-04-20T23:30Z"
+        },
+        {
+          "id": "250420011",
+          "name": "CHI @ IND",
+          "date": "2005-04-20T23:00Z"
+        },
+        {
+          "id": "250420016",
+          "name": "SA @ MIN",
+          "date": "2005-04-20T23:00Z"
+        },
+        {
+          "id": "250420018",
+          "name": "WSH @ NY",
+          "date": "2005-04-20T23:30Z"
+        },
+        {
+          "id": "250420019",
+          "name": "MIA @ ORL",
+          "date": "2005-04-20T23:00Z"
+        },
+        {
+          "id": "250420020",
+          "name": "ATL @ PHI",
+          "date": "2005-04-20T23:00Z"
+        },
+        {
+          "id": "250420022",
+          "name": "LAL @ POR",
+          "date": "2005-04-20T23:00Z"
+        },
+        {
+          "id": "250420023",
+          "name": "PHX @ SAC",
+          "date": "2005-04-20T23:30Z"
+        },
+        {
+          "id": "250420028",
+          "name": "CLE @ TOR",
+          "date": "2005-04-20T23:00Z"
+        },
+        {
+          "id": "250420029",
+          "name": "DAL @ MEM",
+          "date": "2005-04-20T23:00Z"
+        },
+        {
+          "id": "250420030",
+          "name": "DET @ CHA",
+          "date": "2005-04-20T23:00Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20050420"
+    },
+    {
+      "league": "NBA",
+      "season": "BKT-NBA-SEASON_2005_2006",
+      "label": "2005_2006",
+      "provider": "espn",
+      "espn_year": 2006,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2006/types/2?lang=en&region=us",
+        "start": "2005-10-31T08:00Z",
+        "end": "2006-04-21T06:59Z"
+      },
+      "first_game_date": "2005-11-01",
+      "first_games": [
+        {
+          "id": "251101003",
+          "name": "SAC @ NO",
+          "date": "2005-11-02T00:00Z"
+        },
+        {
+          "id": "251101020",
+          "name": "MIL @ PHI",
+          "date": "2005-11-02T00:00Z"
+        },
+        {
+          "id": "251101021",
+          "name": "DAL @ PHX",
+          "date": "2005-11-02T01:30Z"
+        },
+        {
+          "id": "251101024",
+          "name": "DEN @ SA",
+          "date": "2005-11-02T00:00Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20051101",
+      "last_game_date": "2006-04-19",
+      "last_games": [
+        {
+          "id": "260419002",
+          "name": "MIA @ BOS",
+          "date": "2006-04-19T23:30Z"
+        },
+        {
+          "id": "260419004",
+          "name": "TOR @ CHI",
+          "date": "2006-04-19T23:30Z"
+        },
+        {
+          "id": "260419005",
+          "name": "ATL @ CLE",
+          "date": "2006-04-19T23:00Z"
+        },
+        {
+          "id": "260419006",
+          "name": "LAC @ DAL",
+          "date": "2006-04-19T23:00Z"
+        },
+        {
+          "id": "260419008",
+          "name": "WSH @ DET",
+          "date": "2006-04-19T23:30Z"
+        },
+        {
+          "id": "260419010",
+          "name": "SA @ HOU",
+          "date": "2006-04-19T23:00Z"
+        },
+        {
+          "id": "260419011",
+          "name": "ORL @ IND",
+          "date": "2006-04-19T23:00Z"
+        },
+        {
+          "id": "260419013",
+          "name": "NO @ LAL",
+          "date": "2006-04-19T23:30Z"
+        },
+        {
+          "id": "260419016",
+          "name": "MEM @ MIN",
+          "date": "2006-04-19T23:00Z"
+        },
+        {
+          "id": "260419017",
+          "name": "NY @ NJ",
+          "date": "2006-04-19T23:30Z"
+        },
+        {
+          "id": "260419022",
+          "name": "PHX @ POR",
+          "date": "2006-04-19T23:00Z"
+        },
+        {
+          "id": "260419025",
+          "name": "DEN @ SEA",
+          "date": "2006-04-19T23:30Z"
+        },
+        {
+          "id": "260419026",
+          "name": "GS @ UTAH",
+          "date": "2006-04-19T23:00Z"
+        },
+        {
+          "id": "260419030",
+          "name": "PHI @ CHA",
+          "date": "2006-04-19T23:30Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20060419"
+    },
+    {
+      "league": "NBA",
+      "season": "BKT-NBA-SEASON_2006_2007",
+      "label": "2006_2007",
+      "provider": "espn",
+      "espn_year": 2007,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2007/types/2?lang=en&region=us",
+        "start": "2006-10-31T08:00Z",
+        "end": "2007-04-19T06:59Z"
+      },
+      "first_game_date": "2006-10-31",
+      "first_games": [
+        {
+          "id": "261031013",
+          "name": "PHX @ LAL",
+          "date": "2006-11-01T00:30Z"
+        },
+        {
+          "id": "261031014",
+          "name": "CHI @ MIA",
+          "date": "2006-11-01T01:00Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20061031",
+      "last_game_date": "2007-04-18",
+      "last_games": [
+        {
+          "id": "270418002",
+          "name": "DET @ BOS",
+          "date": "2007-04-18T23:30Z"
+        },
+        {
+          "id": "270418005",
+          "name": "MIL @ CLE",
+          "date": "2007-04-18T23:00Z"
+        },
+        {
+          "id": "270418011",
+          "name": "WSH @ IND",
+          "date": "2007-04-19T00:00Z"
+        },
+        {
+          "id": "270418012",
+          "name": "NO @ LAC",
+          "date": "2007-04-18T23:30Z"
+        },
+        {
+          "id": "270418016",
+          "name": "MEM @ MIN",
+          "date": "2007-04-18T23:00Z"
+        },
+        {
+          "id": "270418017",
+          "name": "CHI @ NJ",
+          "date": "2007-04-18T23:30Z"
+        },
+        {
+          "id": "270418019",
+          "name": "MIA @ ORL",
+          "date": "2007-04-18T23:00Z"
+        },
+        {
+          "id": "270418022",
+          "name": "GS @ POR",
+          "date": "2007-04-18T23:00Z"
+        },
+        {
+          "id": "270418023",
+          "name": "LAL @ SAC",
+          "date": "2007-04-18T23:00Z"
+        },
+        {
+          "id": "270418024",
+          "name": "DEN @ SA",
+          "date": "2007-04-18T23:00Z"
+        },
+        {
+          "id": "270418025",
+          "name": "DAL @ SEA",
+          "date": "2007-04-18T23:00Z"
+        },
+        {
+          "id": "270418026",
+          "name": "HOU @ UTAH",
+          "date": "2007-04-18T23:00Z"
+        },
+        {
+          "id": "270418028",
+          "name": "PHI @ TOR",
+          "date": "2007-04-18T23:00Z"
+        },
+        {
+          "id": "270418030",
+          "name": "NY @ CHA",
+          "date": "2007-04-18T23:00Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20070418"
+    },
+    {
+      "league": "NBA",
+      "season": "BKT-NBA-SEASON_2007_2008",
+      "label": "2007_2008",
+      "provider": "espn",
+      "espn_year": 2008,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2008/types/2?lang=en&region=us",
+        "start": "2007-10-29T07:00Z",
+        "end": "2008-04-17T06:59Z"
+      },
+      "first_game_date": "2007-10-30",
+      "first_games": [
+        {
+          "id": "271030009",
+          "name": "UTAH @ GS",
+          "date": "2007-10-30T23:30Z"
+        },
+        {
+          "id": "271030013",
+          "name": "HOU @ LAL",
+          "date": "2007-10-30T23:30Z"
+        },
+        {
+          "id": "271030024",
+          "name": "POR @ SA",
+          "date": "2007-10-30T23:00Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20071030",
+      "last_game_date": "2008-04-16",
+      "last_games": [
+        {
+          "id": "280416002",
+          "name": "NJ @ BOS",
+          "date": "2008-04-16T23:30Z"
+        },
+        {
+          "id": "280416004",
+          "name": "TOR @ CHI",
+          "date": "2008-04-16T23:30Z"
+        },
+        {
+          "id": "280416005",
+          "name": "DET @ CLE",
+          "date": "2008-04-16T23:00Z"
+        },
+        {
+          "id": "280416006",
+          "name": "NO @ DAL",
+          "date": "2008-04-16T22:00Z"
+        },
+        {
+          "id": "280416007",
+          "name": "MEM @ DEN",
+          "date": "2008-04-16T23:00Z"
+        },
+        {
+          "id": "280416009",
+          "name": "SEA @ GS",
+          "date": "2008-04-16T23:30Z"
+        },
+        {
+          "id": "280416010",
+          "name": "LAC @ HOU",
+          "date": "2008-04-16T23:30Z"
+        },
+        {
+          "id": "280416011",
+          "name": "NY @ IND",
+          "date": "2008-04-16T23:00Z"
+        },
+        {
+          "id": "280416014",
+          "name": "ATL @ MIA",
+          "date": "2008-04-16T23:30Z"
+        },
+        {
+          "id": "280416016",
+          "name": "MIL @ MIN",
+          "date": "2008-04-16T23:00Z"
+        },
+        {
+          "id": "280416019",
+          "name": "WSH @ ORL",
+          "date": "2008-04-16T23:00Z"
+        },
+        {
+          "id": "280416021",
+          "name": "POR @ PHX",
+          "date": "2008-04-16T23:00Z"
+        },
+        {
+          "id": "280416024",
+          "name": "UTAH @ SA",
+          "date": "2008-04-17T00:30Z"
+        },
+        {
+          "id": "280416030",
+          "name": "PHI @ CHA",
+          "date": "2008-04-16T23:00Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20080416"
+    },
+    {
+      "league": "NBA",
+      "season": "BKT-NBA-SEASON_2008_2009",
+      "label": "2008_2009",
+      "provider": "espn",
+      "espn_year": 2009,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2009/types/2?lang=en&region=us",
+        "start": "2008-10-28T07:00Z",
+        "end": "2009-04-16T06:59Z"
+      },
+      "first_game_date": "2008-10-28",
+      "first_games": [
+        {
+          "id": "281028002",
+          "name": "CLE @ BOS",
+          "date": "2008-10-29T00:00Z"
+        },
+        {
+          "id": "281028004",
+          "name": "MIL @ CHI",
+          "date": "2008-10-29T00:30Z"
+        },
+        {
+          "id": "281028013",
+          "name": "POR @ LAL",
+          "date": "2008-10-29T02:30Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20081028",
+      "last_game_date": "2009-04-15",
+      "last_games": [
+        {
+          "id": "290415002",
+          "name": "WSH @ BOS",
+          "date": "2009-04-16T00:00Z"
+        },
+        {
+          "id": "290415004",
+          "name": "TOR @ CHI",
+          "date": "2009-04-16T00:00Z"
+        },
+        {
+          "id": "290415005",
+          "name": "PHI @ CLE",
+          "date": "2009-04-16T00:00Z"
+        },
+        {
+          "id": "290415006",
+          "name": "HOU @ DAL",
+          "date": "2009-04-16T00:00Z"
+        },
+        {
+          "id": "290415011",
+          "name": "MIL @ IND",
+          "date": "2009-04-16T00:00Z"
+        },
+        {
+          "id": "290415012",
+          "name": "OKC @ LAC",
+          "date": "2009-04-16T02:30Z"
+        },
+        {
+          "id": "290415014",
+          "name": "DET @ MIA",
+          "date": "2009-04-16T00:00Z"
+        },
+        {
+          "id": "290415016",
+          "name": "SAC @ MIN",
+          "date": "2009-04-16T00:00Z"
+        },
+        {
+          "id": "290415018",
+          "name": "NJ @ NY",
+          "date": "2009-04-16T00:00Z"
+        },
+        {
+          "id": "290415019",
+          "name": "CHA @ ORL",
+          "date": "2009-04-16T00:00Z"
+        },
+        {
+          "id": "290415021",
+          "name": "GS @ PHX",
+          "date": "2009-04-16T02:30Z"
+        },
+        {
+          "id": "290415022",
+          "name": "DEN @ POR",
+          "date": "2009-04-16T02:30Z"
+        },
+        {
+          "id": "290415024",
+          "name": "NO @ SA",
+          "date": "2009-04-16T00:00Z"
+        },
+        {
+          "id": "290415029",
+          "name": "ATL @ MEM",
+          "date": "2009-04-16T00:00Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20090415"
+    },
+    {
+      "league": "NBA",
+      "season": "BKT-NBA-SEASON_2009_2010",
+      "label": "2009_2010",
+      "provider": "espn",
+      "espn_year": 2010,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2010/types/2?lang=en&region=us",
+        "start": "2009-10-25T07:00Z",
+        "end": "2010-04-15T06:59Z"
+      },
+      "first_game_date": "2009-10-27",
+      "first_games": [
+        {
+          "id": "291027005",
+          "name": "BOS @ CLE",
+          "date": "2009-10-27T23:30Z"
+        },
+        {
+          "id": "291027006",
+          "name": "WSH @ DAL",
+          "date": "2009-10-28T00:30Z"
+        },
+        {
+          "id": "291027013",
+          "name": "LAC @ LAL",
+          "date": "2009-10-28T02:30Z"
+        },
+        {
+          "id": "291027022",
+          "name": "HOU @ POR",
+          "date": "2009-10-28T02:00Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20091027",
+      "last_game_date": "2010-04-14",
+      "last_games": [
+        {
+          "id": "300414001",
+          "name": "CLE @ ATL",
+          "date": "2010-04-15T00:00Z"
+        },
+        {
+          "id": "300414002",
+          "name": "MIL @ BOS",
+          "date": "2010-04-15T00:00Z"
+        },
+        {
+          "id": "300414006",
+          "name": "SA @ DAL",
+          "date": "2010-04-15T00:00Z"
+        },
+        {
+          "id": "300414010",
+          "name": "NO @ HOU",
+          "date": "2010-04-15T00:00Z"
+        },
+        {
+          "id": "300414012",
+          "name": "LAL @ LAC",
+          "date": "2010-04-15T02:30Z"
+        },
+        {
+          "id": "300414014",
+          "name": "NJ @ MIA",
+          "date": "2010-04-15T00:00Z"
+        },
+        {
+          "id": "300414016",
+          "name": "DET @ MIN",
+          "date": "2010-04-15T00:00Z"
+        },
+        {
+          "id": "300414019",
+          "name": "PHI @ ORL",
+          "date": "2010-04-15T00:00Z"
+        },
+        {
+          "id": "300414022",
+          "name": "GS @ POR",
+          "date": "2010-04-15T02:30Z"
+        },
+        {
+          "id": "300414025",
+          "name": "MEM @ OKC",
+          "date": "2010-04-15T00:00Z"
+        },
+        {
+          "id": "300414026",
+          "name": "PHX @ UTAH",
+          "date": "2010-04-15T02:30Z"
+        },
+        {
+          "id": "300414027",
+          "name": "IND @ WSH",
+          "date": "2010-04-15T00:00Z"
+        },
+        {
+          "id": "300414028",
+          "name": "NY @ TOR",
+          "date": "2010-04-15T00:00Z"
+        },
+        {
+          "id": "300414030",
+          "name": "CHI @ CHA",
+          "date": "2010-04-15T00:00Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20100414"
+    },
+    {
+      "league": "NBA",
+      "season": "BKT-NBA-SEASON_2010_2011",
+      "label": "2010_2011",
+      "provider": "espn",
+      "espn_year": 2011,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2011/types/2?lang=en&region=us",
+        "start": "2010-10-24T07:00Z",
+        "end": "2011-04-14T06:59Z"
+      },
+      "first_game_date": "2010-10-26",
+      "first_games": [
+        {
+          "id": "301026002",
+          "name": "MIA @ BOS",
+          "date": "2010-10-26T23:30Z"
+        },
+        {
+          "id": "301026013",
+          "name": "HOU @ LAL",
+          "date": "2010-10-27T02:30Z"
+        },
+        {
+          "id": "301026022",
+          "name": "PHX @ POR",
+          "date": "2010-10-27T02:00Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20101026",
+      "last_game_date": "2011-04-13",
+      "last_games": [
+        {
+          "id": "310413002",
+          "name": "NY @ BOS",
+          "date": "2011-04-14T00:00Z"
+        },
+        {
+          "id": "310413004",
+          "name": "NJ @ CHI",
+          "date": "2011-04-14T00:00Z"
+        },
+        {
+          "id": "310413005",
+          "name": "WSH @ CLE",
+          "date": "2011-04-14T00:00Z"
+        },
+        {
+          "id": "310413006",
+          "name": "NO @ DAL",
+          "date": "2011-04-14T00:00Z"
+        },
+        {
+          "id": "310413009",
+          "name": "POR @ GS",
+          "date": "2011-04-14T02:30Z"
+        },
+        {
+          "id": "310413012",
+          "name": "MEM @ LAC",
+          "date": "2011-04-14T02:30Z"
+        },
+        {
+          "id": "310413016",
+          "name": "HOU @ MIN",
+          "date": "2011-04-14T00:00Z"
+        },
+        {
+          "id": "310413019",
+          "name": "IND @ ORL",
+          "date": "2011-04-14T00:00Z"
+        },
+        {
+          "id": "310413020",
+          "name": "DET @ PHI",
+          "date": "2011-04-14T00:00Z"
+        },
+        {
+          "id": "310413021",
+          "name": "SA @ PHX",
+          "date": "2011-04-14T02:30Z"
+        },
+        {
+          "id": "310413023",
+          "name": "LAL @ SAC",
+          "date": "2011-04-14T02:30Z"
+        },
+        {
+          "id": "310413025",
+          "name": "MIL @ OKC",
+          "date": "2011-04-14T00:00Z"
+        },
+        {
+          "id": "310413026",
+          "name": "DEN @ UTAH",
+          "date": "2011-04-14T00:00Z"
+        },
+        {
+          "id": "310413028",
+          "name": "MIA @ TOR",
+          "date": "2011-04-14T00:00Z"
+        },
+        {
+          "id": "310413030",
+          "name": "ATL @ CHA",
+          "date": "2011-04-14T00:00Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20110413"
+    },
+    {
+      "league": "NBA",
+      "season": "BKT-NBA-SEASON_2011_2012",
+      "label": "2011_2012",
+      "provider": "espn",
+      "espn_year": 2012,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2012/types/2?lang=en&region=us",
+        "start": "2011-12-25T08:00Z",
+        "end": "2012-04-28T06:59Z"
+      },
+      "first_game_date": "2011-12-25",
+      "first_games": [
+        {
+          "id": "311225006",
+          "name": "MIA @ DAL",
+          "date": "2011-12-25T19:30Z"
+        },
+        {
+          "id": "311225009",
+          "name": "LAC @ GS",
+          "date": "2011-12-26T03:30Z"
+        },
+        {
+          "id": "311225013",
+          "name": "CHI @ LAL",
+          "date": "2011-12-25T22:00Z"
+        },
+        {
+          "id": "311225018",
+          "name": "BOS @ NY",
+          "date": "2011-12-25T17:00Z"
+        },
+        {
+          "id": "311225025",
+          "name": "ORL @ OKC",
+          "date": "2011-12-26T01:00Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20111225",
+      "last_game_date": "2012-04-26",
+      "last_games": [
+        {
+          "id": "320426001",
+          "name": "DAL @ ATL",
+          "date": "2012-04-27T00:00Z"
+        },
+        {
+          "id": "320426002",
+          "name": "MIL @ BOS",
+          "date": "2012-04-27T00:00Z"
+        },
+        {
+          "id": "320426004",
+          "name": "CLE @ CHI",
+          "date": "2012-04-27T00:00Z"
+        },
+        {
+          "id": "320426008",
+          "name": "PHI @ DET",
+          "date": "2012-04-27T00:00Z"
+        },
+        {
+          "id": "320426009",
+          "name": "SA @ GS",
+          "date": "2012-04-27T02:30Z"
+        },
+        {
+          "id": "320426010",
+          "name": "NO @ HOU",
+          "date": "2012-04-27T00:00Z"
+        },
+        {
+          "id": "320426016",
+          "name": "DEN @ MIN",
+          "date": "2012-04-27T00:00Z"
+        },
+        {
+          "id": "320426023",
+          "name": "LAL @ SAC",
+          "date": "2012-04-27T02:30Z"
+        },
+        {
+          "id": "320426026",
+          "name": "POR @ UTAH",
+          "date": "2012-04-27T00:00Z"
+        },
+        {
+          "id": "320426027",
+          "name": "MIA @ WSH",
+          "date": "2012-04-27T00:00Z"
+        },
+        {
+          "id": "320426028",
+          "name": "NJ @ TOR",
+          "date": "2012-04-27T00:00Z"
+        },
+        {
+          "id": "320426029",
+          "name": "ORL @ MEM",
+          "date": "2012-04-27T00:00Z"
+        },
+        {
+          "id": "320426030",
+          "name": "NY @ CHA",
+          "date": "2012-04-27T00:00Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20120426"
+    },
+    {
+      "league": "NBA",
+      "season": "BKT-NBA-SEASON_2012_2013",
+      "label": "2012_2013",
+      "provider": "espn",
+      "espn_year": 2013,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2013/types/2?lang=en&region=us",
+        "start": "2012-10-30T07:00Z",
+        "end": "2013-04-20T06:59Z"
+      },
+      "first_game_date": "2012-10-30",
+      "first_games": [
+        {
+          "id": "400277721",
+          "name": "WSH @ CLE",
+          "date": "2012-10-30T23:00Z"
+        },
+        {
+          "id": "400277722",
+          "name": "BOS @ MIA",
+          "date": "2012-10-31T00:00Z"
+        },
+        {
+          "id": "400277723",
+          "name": "DAL @ LAL",
+          "date": "2012-10-31T02:30Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20121030",
+      "last_game_date": "2013-04-17",
+      "last_games": [
+        {
+          "id": "400278936",
+          "name": "BOS @ TOR",
+          "date": "2013-04-18T00:00Z"
+        },
+        {
+          "id": "400278937",
+          "name": "DET @ BKN",
+          "date": "2013-04-18T00:00Z"
+        },
+        {
+          "id": "400278938",
+          "name": "ATL @ NY",
+          "date": "2013-04-18T00:00Z"
+        },
+        {
+          "id": "400278939",
+          "name": "CLE @ CHA",
+          "date": "2013-04-18T00:00Z"
+        },
+        {
+          "id": "400278940",
+          "name": "ORL @ MIA",
+          "date": "2013-04-18T00:00Z"
+        },
+        {
+          "id": "400278941",
+          "name": "PHI @ IND",
+          "date": "2013-04-18T00:00Z"
+        },
+        {
+          "id": "400278942",
+          "name": "WSH @ CHI",
+          "date": "2013-04-18T00:00Z"
+        },
+        {
+          "id": "400278943",
+          "name": "UTAH @ MEM",
+          "date": "2013-04-18T00:00Z"
+        },
+        {
+          "id": "400278944",
+          "name": "NO @ DAL",
+          "date": "2013-04-18T00:00Z"
+        },
+        {
+          "id": "400278945",
+          "name": "MIN @ SA",
+          "date": "2013-04-18T00:00Z"
+        },
+        {
+          "id": "400278946",
+          "name": "MIL @ OKC",
+          "date": "2013-04-18T00:00Z"
+        },
+        {
+          "id": "400278947",
+          "name": "PHX @ DEN",
+          "date": "2013-04-18T00:00Z"
+        },
+        {
+          "id": "400278948",
+          "name": "HOU @ LAL",
+          "date": "2013-04-18T02:30Z"
+        },
+        {
+          "id": "400278949",
+          "name": "LAC @ SAC",
+          "date": "2013-04-18T02:30Z"
+        },
+        {
+          "id": "400278950",
+          "name": "GS @ POR",
+          "date": "2013-04-18T02:30Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20130417"
+    },
+    {
+      "league": "NBA",
+      "season": "BKT-NBA-SEASON_2013_2014",
+      "label": "2013_2014",
+      "provider": "espn",
+      "espn_year": 2014,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2014/types/2?lang=en&region=us",
+        "start": "2013-10-29T07:00Z",
+        "end": "2014-04-19T06:59Z"
+      },
+      "first_game_date": "2013-10-29",
+      "first_games": [
+        {
+          "id": "400488874",
+          "name": "ORL @ IND",
+          "date": "2013-10-29T23:00Z"
+        },
+        {
+          "id": "400488875",
+          "name": "CHI @ MIA",
+          "date": "2013-10-30T00:00Z"
+        },
+        {
+          "id": "400488876",
+          "name": "LAC @ LAL",
+          "date": "2013-10-30T02:30Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20131029",
+      "last_game_date": "2014-04-16",
+      "last_games": [
+        {
+          "id": "400490089",
+          "name": "DAL @ MEM",
+          "date": "2014-04-17T00:00Z"
+        },
+        {
+          "id": "400490090",
+          "name": "ATL @ MIL",
+          "date": "2014-04-17T00:00Z"
+        },
+        {
+          "id": "400490091",
+          "name": "UTAH @ MIN",
+          "date": "2014-04-17T00:00Z"
+        },
+        {
+          "id": "400490092",
+          "name": "HOU @ NO",
+          "date": "2014-04-17T00:00Z"
+        },
+        {
+          "id": "400490093",
+          "name": "DET @ OKC",
+          "date": "2014-04-17T00:00Z"
+        },
+        {
+          "id": "400490094",
+          "name": "LAL @ SA",
+          "date": "2014-04-17T00:00Z"
+        },
+        {
+          "id": "400490095",
+          "name": "WSH @ BOS",
+          "date": "2014-04-17T00:00Z"
+        },
+        {
+          "id": "400490096",
+          "name": "CHI @ CHA",
+          "date": "2014-04-16T23:00Z"
+        },
+        {
+          "id": "400490097",
+          "name": "BKN @ CLE",
+          "date": "2014-04-17T00:00Z"
+        },
+        {
+          "id": "400490098",
+          "name": "PHI @ MIA",
+          "date": "2014-04-17T00:00Z"
+        },
+        {
+          "id": "400490099",
+          "name": "TOR @ NY",
+          "date": "2014-04-17T00:00Z"
+        },
+        {
+          "id": "400490100",
+          "name": "IND @ ORL",
+          "date": "2014-04-16T23:00Z"
+        },
+        {
+          "id": "400490101",
+          "name": "LAC @ POR",
+          "date": "2014-04-17T02:30Z"
+        },
+        {
+          "id": "400490102",
+          "name": "PHX @ SAC",
+          "date": "2014-04-17T02:30Z"
+        },
+        {
+          "id": "400490103",
+          "name": "GS @ DEN",
+          "date": "2014-04-17T02:30Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20140416"
+    },
+    {
+      "league": "NBA",
+      "season": "BKT-NBA-SEASON_2014_2015",
+      "label": "2014_2015",
+      "provider": "espn",
+      "espn_year": 2015,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2015/types/2?lang=en&region=us",
+        "start": "2014-10-26T07:00Z",
+        "end": "2015-04-18T06:59Z"
+      },
+      "first_game_date": "2014-10-28",
+      "first_games": [
+        {
+          "id": "400578293",
+          "name": "ORL @ NO",
+          "date": "2014-10-29T00:00Z"
+        },
+        {
+          "id": "400578294",
+          "name": "DAL @ SA",
+          "date": "2014-10-29T00:00Z"
+        },
+        {
+          "id": "400578295",
+          "name": "HOU @ LAL",
+          "date": "2014-10-29T02:30Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20141028",
+      "last_game_date": "2015-04-15",
+      "last_games": [
+        {
+          "id": "400579509",
+          "name": "ATL @ CHI",
+          "date": "2015-04-16T00:00Z"
+        },
+        {
+          "id": "400579510",
+          "name": "POR @ DAL",
+          "date": "2015-04-16T00:00Z"
+        },
+        {
+          "id": "400579511",
+          "name": "UTAH @ HOU",
+          "date": "2015-04-16T00:00Z"
+        },
+        {
+          "id": "400579512",
+          "name": "IND @ MEM",
+          "date": "2015-04-16T01:30Z"
+        },
+        {
+          "id": "400579513",
+          "name": "BOS @ MIL",
+          "date": "2015-04-16T00:00Z"
+        },
+        {
+          "id": "400579514",
+          "name": "OKC @ MIN",
+          "date": "2015-04-16T00:00Z"
+        },
+        {
+          "id": "400579515",
+          "name": "SA @ NO",
+          "date": "2015-04-16T00:00Z"
+        },
+        {
+          "id": "400579516",
+          "name": "ORL @ BKN",
+          "date": "2015-04-16T00:00Z"
+        },
+        {
+          "id": "400579517",
+          "name": "WSH @ CLE",
+          "date": "2015-04-16T00:00Z"
+        },
+        {
+          "id": "400579518",
+          "name": "DET @ NY",
+          "date": "2015-04-16T00:00Z"
+        },
+        {
+          "id": "400579519",
+          "name": "MIA @ PHI",
+          "date": "2015-04-16T00:00Z"
+        },
+        {
+          "id": "400579520",
+          "name": "CHA @ TOR",
+          "date": "2015-04-15T23:00Z"
+        },
+        {
+          "id": "400579521",
+          "name": "DEN @ GS",
+          "date": "2015-04-16T02:30Z"
+        },
+        {
+          "id": "400579522",
+          "name": "SAC @ LAL",
+          "date": "2015-04-16T02:30Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20150415"
+    },
+    {
+      "league": "NBA",
+      "season": "BKT-NBA-SEASON_2015_2016",
+      "label": "2015_2016",
+      "provider": "espn",
+      "espn_year": 2016,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2016/types/2?lang=en&region=us",
+        "start": "2015-10-27T07:00Z",
+        "end": "2016-04-14T06:59Z"
+      },
+      "first_game_date": "2015-10-27",
+      "first_games": [
+        {
+          "id": "400827888",
+          "name": "DET @ ATL",
+          "date": "2015-10-28T00:00Z"
+        },
+        {
+          "id": "400827889",
+          "name": "CLE @ CHI",
+          "date": "2015-10-28T00:00Z"
+        },
+        {
+          "id": "400827890",
+          "name": "NO @ GS",
+          "date": "2015-10-28T02:30Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20151027",
+      "last_game_date": "2016-04-13",
+      "last_games": [
+        {
+          "id": "400829104",
+          "name": "MIA @ BOS",
+          "date": "2016-04-14T00:00Z"
+        },
+        {
+          "id": "400829105",
+          "name": "TOR @ BKN",
+          "date": "2016-04-14T00:00Z"
+        },
+        {
+          "id": "400829106",
+          "name": "ORL @ CHA",
+          "date": "2016-04-14T00:00Z"
+        },
+        {
+          "id": "400829107",
+          "name": "DET @ CLE",
+          "date": "2016-04-14T00:00Z"
+        },
+        {
+          "id": "400829108",
+          "name": "ATL @ WSH",
+          "date": "2016-04-14T00:00Z"
+        },
+        {
+          "id": "400829109",
+          "name": "PHI @ CHI",
+          "date": "2016-04-14T00:00Z"
+        },
+        {
+          "id": "400829110",
+          "name": "SA @ DAL",
+          "date": "2016-04-14T00:00Z"
+        },
+        {
+          "id": "400829111",
+          "name": "SAC @ HOU",
+          "date": "2016-04-14T00:00Z"
+        },
+        {
+          "id": "400829112",
+          "name": "IND @ MIL",
+          "date": "2016-04-14T00:00Z"
+        },
+        {
+          "id": "400829113",
+          "name": "NO @ MIN",
+          "date": "2016-04-14T00:00Z"
+        },
+        {
+          "id": "400829114",
+          "name": "MEM @ GS",
+          "date": "2016-04-14T02:30Z"
+        },
+        {
+          "id": "400829115",
+          "name": "UTAH @ LAL",
+          "date": "2016-04-14T02:30Z"
+        },
+        {
+          "id": "400829116",
+          "name": "LAC @ PHX",
+          "date": "2016-04-14T02:30Z"
+        },
+        {
+          "id": "400829117",
+          "name": "DEN @ POR",
+          "date": "2016-04-14T02:30Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20160413"
+    },
+    {
+      "league": "NBA",
+      "season": "BKT-NBA-SEASON_2016_2017",
+      "label": "2016_2017",
+      "provider": "espn",
+      "espn_year": 2017,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2017/types/2?lang=en&region=us",
+        "start": "2016-10-23T07:00Z",
+        "end": "2017-04-13T06:59Z"
+      },
+      "first_game_date": "2016-10-25",
+      "first_games": [
+        {
+          "id": "400899375",
+          "name": "NY @ CLE",
+          "date": "2016-10-25T23:30Z"
+        },
+        {
+          "id": "400899376",
+          "name": "UTAH @ POR",
+          "date": "2016-10-26T02:00Z"
+        },
+        {
+          "id": "400899377",
+          "name": "SA @ GS",
+          "date": "2016-10-26T02:30Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20161025",
+      "last_game_date": "2017-04-12",
+      "last_games": [
+        {
+          "id": "400900595",
+          "name": "DET @ ORL",
+          "date": "2017-04-13T00:00Z"
+        },
+        {
+          "id": "400900596",
+          "name": "TOR @ CLE",
+          "date": "2017-04-13T00:00Z"
+        },
+        {
+          "id": "400900597",
+          "name": "MIL @ BOS",
+          "date": "2017-04-13T00:00Z"
+        },
+        {
+          "id": "400900598",
+          "name": "PHI @ NY",
+          "date": "2017-04-13T00:00Z"
+        },
+        {
+          "id": "400900599",
+          "name": "WSH @ MIA",
+          "date": "2017-04-13T00:00Z"
+        },
+        {
+          "id": "400900600",
+          "name": "BKN @ CHI",
+          "date": "2017-04-13T00:00Z"
+        },
+        {
+          "id": "400900601",
+          "name": "DAL @ MEM",
+          "date": "2017-04-13T00:00Z"
+        },
+        {
+          "id": "400900602",
+          "name": "MIN @ HOU",
+          "date": "2017-04-13T00:00Z"
+        },
+        {
+          "id": "400900603",
+          "name": "DEN @ OKC",
+          "date": "2017-04-13T00:00Z"
+        },
+        {
+          "id": "400900604",
+          "name": "ATL @ IND",
+          "date": "2017-04-13T00:00Z"
+        },
+        {
+          "id": "400900605",
+          "name": "SA @ UTAH",
+          "date": "2017-04-13T01:00Z"
+        },
+        {
+          "id": "400900606",
+          "name": "SAC @ LAC",
+          "date": "2017-04-13T02:30Z"
+        },
+        {
+          "id": "400900607",
+          "name": "LAL @ GS",
+          "date": "2017-04-13T02:30Z"
+        },
+        {
+          "id": "400900608",
+          "name": "NO @ POR",
+          "date": "2017-04-13T02:30Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20170412"
+    },
+    {
+      "league": "NBA",
+      "season": "BKT-NBA-SEASON_2017_2018",
+      "label": "2017_2018",
+      "provider": "espn",
+      "espn_year": 2018,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2018/types/2?lang=en&region=us",
+        "start": "2017-10-16T07:00Z",
+        "end": "2018-04-13T06:59Z"
+      },
+      "first_game_date": "2017-10-17",
+      "first_games": [
+        {
+          "id": "400974437",
+          "name": "BOS @ CLE",
+          "date": "2017-10-18T00:00Z"
+        },
+        {
+          "id": "400974438",
+          "name": "HOU @ GS",
+          "date": "2017-10-18T02:30Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20171017",
+      "last_game_date": "2018-04-11",
+      "last_games": [
+        {
+          "id": "400975965",
+          "name": "BKN @ BOS",
+          "date": "2018-04-12T00:00Z"
+        },
+        {
+          "id": "400975966",
+          "name": "NY @ CLE",
+          "date": "2018-04-12T00:00Z"
+        },
+        {
+          "id": "400975967",
+          "name": "TOR @ MIA",
+          "date": "2018-04-12T00:00Z"
+        },
+        {
+          "id": "400975968",
+          "name": "WSH @ ORL",
+          "date": "2018-04-12T00:00Z"
+        },
+        {
+          "id": "400975969",
+          "name": "MIL @ PHI",
+          "date": "2018-04-12T00:00Z"
+        },
+        {
+          "id": "400975970",
+          "name": "DET @ CHI",
+          "date": "2018-04-12T00:00Z"
+        },
+        {
+          "id": "400975971",
+          "name": "DEN @ MIN",
+          "date": "2018-04-12T00:00Z"
+        },
+        {
+          "id": "400975972",
+          "name": "SA @ NO",
+          "date": "2018-04-12T00:00Z"
+        },
+        {
+          "id": "400975973",
+          "name": "MEM @ OKC",
+          "date": "2018-04-12T00:00Z"
+        },
+        {
+          "id": "400975974",
+          "name": "LAL @ LAC",
+          "date": "2018-04-12T02:30Z"
+        },
+        {
+          "id": "400975975",
+          "name": "UTAH @ POR",
+          "date": "2018-04-12T02:30Z"
+        },
+        {
+          "id": "400975976",
+          "name": "HOU @ SAC",
+          "date": "2018-04-12T02:30Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20180411"
+    },
+    {
+      "league": "NBA",
+      "season": "BKT-NBA-SEASON_2018_2019",
+      "label": "2018_2019",
+      "provider": "espn",
+      "espn_year": 2019,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2019/types/2?lang=en&region=us",
+        "start": "2018-10-16T07:00Z",
+        "end": "2019-04-13T06:59Z"
+      },
+      "first_game_date": "2018-10-16",
+      "first_games": [
+        {
+          "id": "401070213",
+          "name": "PHI @ BOS",
+          "date": "2018-10-17T00:00Z"
+        },
+        {
+          "id": "401070214",
+          "name": "OKC @ GS",
+          "date": "2018-10-17T02:30Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20181016",
+      "last_game_date": "2019-04-10",
+      "last_games": [
+        {
+          "id": "401071893",
+          "name": "IND @ ATL",
+          "date": "2019-04-11T00:00Z"
+        },
+        {
+          "id": "401071894",
+          "name": "MIA @ BKN",
+          "date": "2019-04-11T00:00Z"
+        },
+        {
+          "id": "401071895",
+          "name": "ORL @ CHA",
+          "date": "2019-04-11T00:00Z"
+        },
+        {
+          "id": "401071896",
+          "name": "DET @ NY",
+          "date": "2019-04-11T00:00Z"
+        },
+        {
+          "id": "401071897",
+          "name": "CHI @ PHI",
+          "date": "2019-04-11T00:00Z"
+        },
+        {
+          "id": "401071898",
+          "name": "GS @ MEM",
+          "date": "2019-04-11T00:00Z"
+        },
+        {
+          "id": "401071899",
+          "name": "OKC @ MIL",
+          "date": "2019-04-11T00:00Z"
+        },
+        {
+          "id": "401071900",
+          "name": "DAL @ SA",
+          "date": "2019-04-11T00:00Z"
+        },
+        {
+          "id": "401071901",
+          "name": "MIN @ DEN",
+          "date": "2019-04-11T02:30Z"
+        },
+        {
+          "id": "401071902",
+          "name": "UTAH @ LAC",
+          "date": "2019-04-11T02:30Z"
+        },
+        {
+          "id": "401071903",
+          "name": "SAC @ POR",
+          "date": "2019-04-11T02:30Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20190410"
+    },
+    {
+      "league": "NBA",
+      "season": "BKT-NBA-SEASON_2019_2020",
+      "label": "2019_2020",
+      "provider": "espn",
+      "espn_year": 2020,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2020/types/2?lang=en&region=us",
+        "start": "2019-10-22T07:00Z",
+        "end": "2020-08-15T06:59Z"
+      },
+      "first_game_date": "2019-10-22",
+      "first_games": [
+        {
+          "id": "401160623",
+          "name": "NO @ TOR",
+          "date": "2019-10-23T00:00Z"
+        },
+        {
+          "id": "401160624",
+          "name": "LAL @ LAC",
+          "date": "2019-10-23T02:30Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20191022",
+      "last_game_date": "2020-08-14",
+      "last_games": [
+        {
+          "id": "401224790",
+          "name": "PHI @ HOU",
+          "date": "2020-08-15T01:00Z"
+        },
+        {
+          "id": "401224791",
+          "name": "MIA @ IND",
+          "date": "2020-08-14T20:00Z"
+        },
+        {
+          "id": "401224792",
+          "name": "OKC @ LAC",
+          "date": "2020-08-14T22:30Z"
+        },
+        {
+          "id": "401224793",
+          "name": "DEN @ TOR",
+          "date": "2020-08-14T17:30Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20200814"
+    },
+    {
+      "league": "NBA",
+      "season": "BKT-NBA-SEASON_2020_2021",
+      "label": "2020_2021",
+      "provider": "espn",
+      "espn_year": 2021,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2021/types/2?lang=en&region=us",
+        "start": "2020-12-22T08:00Z",
+        "end": "2021-05-17T06:59Z"
+      },
+      "first_game_date": "2020-12-22",
+      "first_games": [
+        {
+          "id": "401266805",
+          "name": "GS @ BKN",
+          "date": "2020-12-23T00:00Z"
+        },
+        {
+          "id": "401266806",
+          "name": "LAC @ LAL",
+          "date": "2020-12-23T03:00Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20201222",
+      "last_game_date": "2021-05-16",
+      "last_games": [
+        {
+          "id": "401307880",
+          "name": "HOU @ ATL",
+          "date": "2021-05-16T23:00Z"
+        },
+        {
+          "id": "401307881",
+          "name": "CLE @ BKN",
+          "date": "2021-05-16T23:00Z"
+        },
+        {
+          "id": "401307882",
+          "name": "MIL @ CHI",
+          "date": "2021-05-17T01:00Z"
+        },
+        {
+          "id": "401307883",
+          "name": "MIA @ DET",
+          "date": "2021-05-17T00:00Z"
+        },
+        {
+          "id": "401307884",
+          "name": "MEM @ GS",
+          "date": "2021-05-16T19:30Z"
+        },
+        {
+          "id": "401307885",
+          "name": "DAL @ MIN",
+          "date": "2021-05-17T01:00Z"
+        },
+        {
+          "id": "401307886",
+          "name": "LAL @ NO",
+          "date": "2021-05-17T01:00Z"
+        },
+        {
+          "id": "401307887",
+          "name": "BOS @ NY",
+          "date": "2021-05-16T17:00Z"
+        },
+        {
+          "id": "401307888",
+          "name": "LAC @ OKC",
+          "date": "2021-05-17T01:00Z"
+        },
+        {
+          "id": "401307889",
+          "name": "ORL @ PHI",
+          "date": "2021-05-16T23:00Z"
+        },
+        {
+          "id": "401307890",
+          "name": "DEN @ POR",
+          "date": "2021-05-17T01:00Z"
+        },
+        {
+          "id": "401307891",
+          "name": "UTAH @ SAC",
+          "date": "2021-05-17T01:00Z"
+        },
+        {
+          "id": "401307892",
+          "name": "PHX @ SA",
+          "date": "2021-05-16T18:00Z"
+        },
+        {
+          "id": "401307893",
+          "name": "IND @ TOR",
+          "date": "2021-05-16T17:00Z"
+        },
+        {
+          "id": "401307894",
+          "name": "CHA @ WSH",
+          "date": "2021-05-16T17:00Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20210516"
+    },
+    {
+      "league": "NBA",
+      "season": "BKT-NBA-SEASON_2021_2022",
+      "label": "2021_2022",
+      "provider": "espn",
+      "espn_year": 2022,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2022/types/2?lang=en&region=us",
+        "start": "2021-10-18T07:00Z",
+        "end": "2022-04-11T06:59Z"
+      },
+      "first_game_date": "2021-10-19",
+      "first_games": [
+        {
+          "id": "401358773",
+          "name": "BKN @ MIL",
+          "date": "2021-10-19T23:30Z"
+        },
+        {
+          "id": "401358774",
+          "name": "GS @ LAL",
+          "date": "2021-10-20T02:00Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20211019",
+      "last_game_date": "2022-04-10",
+      "last_games": [
+        {
+          "id": "401361035",
+          "name": "IND @ BKN",
+          "date": "2022-04-10T19:30Z"
+        },
+        {
+          "id": "401361036",
+          "name": "WSH @ CHA",
+          "date": "2022-04-10T19:30Z"
+        },
+        {
+          "id": "401361037",
+          "name": "MIL @ CLE",
+          "date": "2022-04-10T19:30Z"
+        },
+        {
+          "id": "401361038",
+          "name": "SA @ DAL",
+          "date": "2022-04-11T01:30Z"
+        },
+        {
+          "id": "401361039",
+          "name": "LAL @ DEN",
+          "date": "2022-04-11T01:30Z"
+        },
+        {
+          "id": "401361040",
+          "name": "ATL @ HOU",
+          "date": "2022-04-10T19:30Z"
+        },
+        {
+          "id": "401361041",
+          "name": "OKC @ LAC",
+          "date": "2022-04-11T01:30Z"
+        },
+        {
+          "id": "401361042",
+          "name": "BOS @ MEM",
+          "date": "2022-04-10T23:00Z"
+        },
+        {
+          "id": "401361043",
+          "name": "CHI @ MIN",
+          "date": "2022-04-11T00:30Z"
+        },
+        {
+          "id": "401361044",
+          "name": "GS @ NO",
+          "date": "2022-04-11T01:30Z"
+        },
+        {
+          "id": "401361045",
+          "name": "TOR @ NY",
+          "date": "2022-04-10T23:00Z"
+        },
+        {
+          "id": "401361046",
+          "name": "MIA @ ORL",
+          "date": "2022-04-10T23:00Z"
+        },
+        {
+          "id": "401361047",
+          "name": "DET @ PHI",
+          "date": "2022-04-10T23:00Z"
+        },
+        {
+          "id": "401361048",
+          "name": "SAC @ PHX",
+          "date": "2022-04-11T01:30Z"
+        },
+        {
+          "id": "401361049",
+          "name": "UTAH @ POR",
+          "date": "2022-04-11T01:30Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20220410"
+    },
+    {
+      "league": "NBA",
+      "season": "BKT-NBA-SEASON_2022_2023",
+      "label": "2022_2023",
+      "provider": "espn",
+      "espn_year": 2023,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2023/types/2?lang=en&region=us",
+        "start": "2022-10-17T07:00Z",
+        "end": "2023-04-12T06:59Z"
+      },
+      "first_game_date": "2022-10-18",
+      "first_games": [
+        {
+          "id": "401468016",
+          "name": "PHI @ BOS",
+          "date": "2022-10-18T23:30Z"
+        },
+        {
+          "id": "401468017",
+          "name": "LAL @ GS",
+          "date": "2022-10-19T02:00Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20221018",
+      "last_game_date": "2023-04-09",
+      "last_games": [
+        {
+          "id": "401469371",
+          "name": "ATL @ BOS",
+          "date": "2023-04-09T17:00Z"
+        },
+        {
+          "id": "401469372",
+          "name": "PHI @ BKN",
+          "date": "2023-04-09T17:00Z"
+        },
+        {
+          "id": "401469373",
+          "name": "CHA @ CLE",
+          "date": "2023-04-09T17:00Z"
+        },
+        {
+          "id": "401469374",
+          "name": "ORL @ MIA",
+          "date": "2023-04-09T17:00Z"
+        },
+        {
+          "id": "401469375",
+          "name": "IND @ NY",
+          "date": "2023-04-09T17:00Z"
+        },
+        {
+          "id": "401469376",
+          "name": "MIL @ TOR",
+          "date": "2023-04-09T17:00Z"
+        },
+        {
+          "id": "401469377",
+          "name": "HOU @ WSH",
+          "date": "2023-04-09T17:00Z"
+        },
+        {
+          "id": "401469378",
+          "name": "DET @ CHI",
+          "date": "2023-04-09T17:00Z"
+        },
+        {
+          "id": "401469379",
+          "name": "SA @ DAL",
+          "date": "2023-04-09T19:30Z"
+        },
+        {
+          "id": "401469380",
+          "name": "NO @ MIN",
+          "date": "2023-04-09T19:30Z"
+        },
+        {
+          "id": "401469381",
+          "name": "MEM @ OKC",
+          "date": "2023-04-09T19:30Z"
+        },
+        {
+          "id": "401469382",
+          "name": "SAC @ DEN",
+          "date": "2023-04-09T19:30Z"
+        },
+        {
+          "id": "401469383",
+          "name": "UTAH @ LAL",
+          "date": "2023-04-09T19:30Z"
+        },
+        {
+          "id": "401469384",
+          "name": "LAC @ PHX",
+          "date": "2023-04-09T19:30Z"
+        },
+        {
+          "id": "401469385",
+          "name": "GS @ POR",
+          "date": "2023-04-09T19:30Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20230409"
+    },
+    {
+      "league": "NBA",
+      "season": "BKT-NBA-SEASON_2023_2024",
+      "label": "2023_2024",
+      "provider": "espn",
+      "espn_year": 2024,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2024/types/2?lang=en&region=us",
+        "start": "2023-10-24T07:00Z",
+        "end": "2024-04-15T06:59Z"
+      },
+      "first_game_date": "2023-10-24",
+      "first_games": [
+        {
+          "id": "401584689",
+          "name": "LAL @ DEN",
+          "date": "2023-10-24T23:30Z"
+        },
+        {
+          "id": "401584690",
+          "name": "PHX @ GS",
+          "date": "2023-10-25T02:00Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20231024",
+      "last_game_date": "2024-04-14",
+      "last_games": [
+        {
+          "id": "401585814",
+          "name": "WSH @ BOS",
+          "date": "2024-04-14T17:00Z"
+        },
+        {
+          "id": "401585815",
+          "name": "CHA @ CLE",
+          "date": "2024-04-14T17:00Z"
+        },
+        {
+          "id": "401585816",
+          "name": "ATL @ IND",
+          "date": "2024-04-14T17:00Z"
+        },
+        {
+          "id": "401585817",
+          "name": "TOR @ MIA",
+          "date": "2024-04-14T17:00Z"
+        },
+        {
+          "id": "401585818",
+          "name": "CHI @ NY",
+          "date": "2024-04-14T17:00Z"
+        },
+        {
+          "id": "401585819",
+          "name": "MIL @ ORL",
+          "date": "2024-04-14T17:00Z"
+        },
+        {
+          "id": "401585820",
+          "name": "BKN @ PHI",
+          "date": "2024-04-14T17:00Z"
+        },
+        {
+          "id": "401585821",
+          "name": "DEN @ MEM",
+          "date": "2024-04-14T19:30Z"
+        },
+        {
+          "id": "401585822",
+          "name": "PHX @ MIN",
+          "date": "2024-04-14T19:30Z"
+        },
+        {
+          "id": "401585823",
+          "name": "LAL @ NO",
+          "date": "2024-04-14T19:30Z"
+        },
+        {
+          "id": "401585824",
+          "name": "DAL @ OKC",
+          "date": "2024-04-14T19:30Z"
+        },
+        {
+          "id": "401585825",
+          "name": "DET @ SA",
+          "date": "2024-04-14T19:30Z"
+        },
+        {
+          "id": "401585826",
+          "name": "UTAH @ GS",
+          "date": "2024-04-14T19:30Z"
+        },
+        {
+          "id": "401585827",
+          "name": "HOU @ LAC",
+          "date": "2024-04-14T19:30Z"
+        },
+        {
+          "id": "401585828",
+          "name": "POR @ SAC",
+          "date": "2024-04-14T19:30Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20240414"
+    },
+    {
+      "league": "NBA",
+      "season": "BKT-NBA-SEASON_2024_2025",
+      "label": "2024_2025",
+      "provider": "espn",
+      "espn_year": 2025,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2025/types/2?lang=en&region=us",
+        "start": "2024-10-22T07:00Z",
+        "end": "2025-04-14T06:59Z"
+      },
+      "first_game_date": "2024-10-22",
+      "first_games": [
+        {
+          "id": "401704627",
+          "name": "NY @ BOS",
+          "date": "2024-10-22T23:30Z"
+        },
+        {
+          "id": "401704628",
+          "name": "MIN @ LAL",
+          "date": "2024-10-23T02:00Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20241022",
+      "last_game_date": "2025-04-13",
+      "last_games": [
+        {
+          "id": "401705752",
+          "name": "ORL @ ATL",
+          "date": "2025-04-13T17:00Z"
+        },
+        {
+          "id": "401705753",
+          "name": "CHA @ BOS",
+          "date": "2025-04-13T17:00Z"
+        },
+        {
+          "id": "401705754",
+          "name": "NY @ BKN",
+          "date": "2025-04-13T17:00Z"
+        },
+        {
+          "id": "401705755",
+          "name": "IND @ CLE",
+          "date": "2025-04-13T17:00Z"
+        },
+        {
+          "id": "401705756",
+          "name": "WSH @ MIA",
+          "date": "2025-04-13T17:00Z"
+        },
+        {
+          "id": "401705757",
+          "name": "CHI @ PHI",
+          "date": "2025-04-13T17:00Z"
+        },
+        {
+          "id": "401705758",
+          "name": "DET @ MIL",
+          "date": "2025-04-13T17:00Z"
+        },
+        {
+          "id": "401705759",
+          "name": "DEN @ HOU",
+          "date": "2025-04-13T19:30Z"
+        },
+        {
+          "id": "401705760",
+          "name": "DAL @ MEM",
+          "date": "2025-04-13T19:30Z"
+        },
+        {
+          "id": "401705761",
+          "name": "UTAH @ MIN",
+          "date": "2025-04-13T19:30Z"
+        },
+        {
+          "id": "401705762",
+          "name": "OKC @ NO",
+          "date": "2025-04-13T19:30Z"
+        },
+        {
+          "id": "401705763",
+          "name": "TOR @ SA",
+          "date": "2025-04-13T19:30Z"
+        },
+        {
+          "id": "401705764",
+          "name": "LAC @ GS",
+          "date": "2025-04-13T19:30Z"
+        },
+        {
+          "id": "401705765",
+          "name": "LAL @ POR",
+          "date": "2025-04-13T19:30Z"
+        },
+        {
+          "id": "401705766",
+          "name": "PHX @ SAC",
+          "date": "2025-04-13T19:30Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20250413"
+    },
+    {
+      "league": "NBA",
+      "season": "BKT-NBA-SEASON_2025_2026",
+      "label": "2025_2026",
+      "provider": "espn",
+      "espn_year": 2026,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2026/types/2?lang=en&region=us",
+        "start": "2025-10-21T07:00Z",
+        "end": "2026-04-13T06:59Z"
+      },
+      "first_game_date": "2025-10-21",
+      "first_games": [
+        {
+          "id": "401809243",
+          "name": "HOU @ OKC",
+          "date": "2025-10-21T23:30Z"
+        },
+        {
+          "id": "401809244",
+          "name": "GS @ LAL",
+          "date": "2025-10-22T02:00Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20251021",
+      "last_game_date": "2026-04-12",
+      "last_games": [
+        {
+          "id": "401811041",
+          "name": "ORL @ BOS",
+          "date": "2026-04-12T22:00Z"
+        },
+        {
+          "id": "401811042",
+          "name": "WSH @ CLE",
+          "date": "2026-04-12T22:00Z"
+        },
+        {
+          "id": "401811043",
+          "name": "DET @ IND",
+          "date": "2026-04-12T22:00Z"
+        },
+        {
+          "id": "401811044",
+          "name": "ATL @ MIA",
+          "date": "2026-04-12T22:00Z"
+        },
+        {
+          "id": "401811045",
+          "name": "CHA @ NY",
+          "date": "2026-04-12T22:00Z"
+        },
+        {
+          "id": "401811046",
+          "name": "MIL @ PHI",
+          "date": "2026-04-12T22:00Z"
+        },
+        {
+          "id": "401811047",
+          "name": "BKN @ TOR",
+          "date": "2026-04-12T22:00Z"
+        },
+        {
+          "id": "401811048",
+          "name": "CHI @ DAL",
+          "date": "2026-04-13T00:30Z"
+        },
+        {
+          "id": "401811049",
+          "name": "MEM @ HOU",
+          "date": "2026-04-13T00:30Z"
+        },
+        {
+          "id": "401811050",
+          "name": "NO @ MIN",
+          "date": "2026-04-13T00:30Z"
+        },
+        {
+          "id": "401811051",
+          "name": "PHX @ OKC",
+          "date": "2026-04-13T00:30Z"
+        },
+        {
+          "id": "401811052",
+          "name": "DEN @ SA",
+          "date": "2026-04-13T00:30Z"
+        },
+        {
+          "id": "401811053",
+          "name": "UTAH @ LAL",
+          "date": "2026-04-13T00:30Z"
+        },
+        {
+          "id": "401811054",
+          "name": "GS @ LAC",
+          "date": "2026-04-13T00:30Z"
+        },
+        {
+          "id": "401811055",
+          "name": "SAC @ POR",
+          "date": "2026-04-13T00:30Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260412"
+    },
+    {
+      "league": "NBA",
+      "season": "BKT-NBA-SEASON_2026_2027",
+      "label": "2026_2027",
+      "provider": "espn",
+      "espn_year": 2027,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/seasons/2027/types/2?lang=en&region=us",
+        "start": "2026-10-20T07:00Z",
+        "end": "2027-04-12T06:59Z"
+      },
+      "first_game_date": "2026-10-20",
+      "first_games": [
+        {
+          "id": "401909088",
+          "name": "BOS @ DET",
+          "date": "2026-10-20T19:00Z"
+        },
+        {
+          "id": "401909089",
+          "name": "PHI @ NY",
+          "date": "2026-10-20T23:00Z"
+        },
+        {
+          "id": "401909090",
+          "name": "OKC @ SA",
+          "date": "2026-10-21T01:50Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261020"
+    },
+    {
+      "league": "NFL",
+      "season": "FTB-NFL-SEASON_2015",
+      "label": "2015",
+      "provider": "espn",
+      "espn_year": 2015,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2015/types/2?lang=en&region=us",
+        "start": "2015-09-09T07:00Z",
+        "end": "2016-01-06T07:59Z"
+      },
+      "first_game_date": "2015-09-10",
+      "first_games": [
+        {
+          "id": "400791485",
+          "name": "PIT @ NE",
+          "date": "2015-09-11T00:30Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20150910",
+      "last_game_date": "2016-01-03",
+      "last_games": [
+        {
+          "id": "400791603",
+          "name": "NYJ @ BUF",
+          "date": "2016-01-03T18:00Z"
+        },
+        {
+          "id": "400791607",
+          "name": "NE @ MIA",
+          "date": "2016-01-03T18:00Z"
+        },
+        {
+          "id": "400791610",
+          "name": "TB @ CAR",
+          "date": "2016-01-03T21:25Z"
+        },
+        {
+          "id": "400791614",
+          "name": "NO @ ATL",
+          "date": "2016-01-03T18:00Z"
+        },
+        {
+          "id": "400791617",
+          "name": "BAL @ CIN",
+          "date": "2016-01-03T18:00Z"
+        },
+        {
+          "id": "400791620",
+          "name": "PIT @ CLE",
+          "date": "2016-01-03T18:00Z"
+        },
+        {
+          "id": "400791644",
+          "name": "JAX @ HOU",
+          "date": "2016-01-03T18:00Z"
+        },
+        {
+          "id": "400791645",
+          "name": "TEN @ IND",
+          "date": "2016-01-03T18:00Z"
+        },
+        {
+          "id": "400791648",
+          "name": "OAK @ KC",
+          "date": "2016-01-03T21:25Z"
+        },
+        {
+          "id": "400791651",
+          "name": "WSH @ DAL",
+          "date": "2016-01-03T18:00Z"
+        },
+        {
+          "id": "400791654",
+          "name": "PHI @ NYG",
+          "date": "2016-01-03T18:00Z"
+        },
+        {
+          "id": "400791659",
+          "name": "DET @ CHI",
+          "date": "2016-01-03T18:00Z"
+        },
+        {
+          "id": "400791683",
+          "name": "MIN @ GB",
+          "date": "2016-01-04T01:30Z"
+        },
+        {
+          "id": "400791687",
+          "name": "SD @ DEN",
+          "date": "2016-01-03T21:25Z"
+        },
+        {
+          "id": "400791689",
+          "name": "SEA @ ARI",
+          "date": "2016-01-03T21:25Z"
+        },
+        {
+          "id": "400791691",
+          "name": "STL @ SF",
+          "date": "2016-01-03T21:25Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20160103"
+    },
+    {
+      "league": "NFL",
+      "season": "FTB-NFL-SEASON_2016",
+      "label": "2016",
+      "provider": "espn",
+      "espn_year": 2016,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2016/types/2?lang=en&region=us",
+        "start": "2016-09-06T07:00Z",
+        "end": "2017-01-07T07:59Z"
+      },
+      "first_game_date": "2016-09-08",
+      "first_games": [
+        {
+          "id": "400874484",
+          "name": "CAR @ DEN",
+          "date": "2016-09-09T00:30Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20160908",
+      "last_game_date": "2017-01-01",
+      "last_games": [
+        {
+          "id": "400874606",
+          "name": "NO @ ATL",
+          "date": "2017-01-01T21:25Z"
+        },
+        {
+          "id": "400874608",
+          "name": "BAL @ CIN",
+          "date": "2017-01-01T18:00Z"
+        },
+        {
+          "id": "400874631",
+          "name": "NYG @ WSH",
+          "date": "2017-01-01T21:25Z"
+        },
+        {
+          "id": "400874632",
+          "name": "HOU @ TEN",
+          "date": "2017-01-01T18:00Z"
+        },
+        {
+          "id": "400874635",
+          "name": "CAR @ TB",
+          "date": "2017-01-01T18:00Z"
+        },
+        {
+          "id": "400874637",
+          "name": "GB @ DET",
+          "date": "2017-01-02T01:30Z"
+        },
+        {
+          "id": "400874639",
+          "name": "JAX @ IND",
+          "date": "2017-01-01T18:00Z"
+        },
+        {
+          "id": "400874642",
+          "name": "NE @ MIA",
+          "date": "2017-01-01T18:00Z"
+        },
+        {
+          "id": "400874643",
+          "name": "CHI @ MIN",
+          "date": "2017-01-01T18:00Z"
+        },
+        {
+          "id": "400874645",
+          "name": "BUF @ NYJ",
+          "date": "2017-01-01T18:00Z"
+        },
+        {
+          "id": "400874647",
+          "name": "DAL @ PHI",
+          "date": "2017-01-01T18:00Z"
+        },
+        {
+          "id": "400874690",
+          "name": "CLE @ PIT",
+          "date": "2017-01-01T18:00Z"
+        },
+        {
+          "id": "400874692",
+          "name": "ARI @ LAR",
+          "date": "2017-01-01T21:25Z"
+        },
+        {
+          "id": "400874694",
+          "name": "OAK @ DEN",
+          "date": "2017-01-01T21:25Z"
+        },
+        {
+          "id": "400874696",
+          "name": "KC @ SD",
+          "date": "2017-01-01T21:25Z"
+        },
+        {
+          "id": "400874699",
+          "name": "SEA @ SF",
+          "date": "2017-01-01T21:25Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20170101"
+    },
+    {
+      "league": "NFL",
+      "season": "FTB-NFL-SEASON_2017",
+      "label": "2017",
+      "provider": "espn",
+      "espn_year": 2017,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2017/types/2?lang=en&region=us",
+        "start": "2017-09-06T07:00Z",
+        "end": "2018-01-03T07:59Z"
+      },
+      "first_game_date": "2017-09-07",
+      "first_games": [
+        {
+          "id": "400951566",
+          "name": "KC @ NE",
+          "date": "2017-09-08T00:30Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20170907",
+      "last_game_date": "2017-12-31",
+      "last_games": [
+        {
+          "id": "400951734",
+          "name": "CAR @ ATL",
+          "date": "2017-12-31T21:25Z"
+        },
+        {
+          "id": "400951739",
+          "name": "CIN @ BAL",
+          "date": "2017-12-31T21:25Z"
+        },
+        {
+          "id": "400951741",
+          "name": "GB @ DET",
+          "date": "2017-12-31T18:00Z"
+        },
+        {
+          "id": "400951745",
+          "name": "HOU @ IND",
+          "date": "2017-12-31T18:00Z"
+        },
+        {
+          "id": "400951748",
+          "name": "BUF @ MIA",
+          "date": "2017-12-31T21:25Z"
+        },
+        {
+          "id": "400951750",
+          "name": "CHI @ MIN",
+          "date": "2017-12-31T18:00Z"
+        },
+        {
+          "id": "400951756",
+          "name": "NYJ @ NE",
+          "date": "2017-12-31T18:00Z"
+        },
+        {
+          "id": "400951757",
+          "name": "WSH @ NYG",
+          "date": "2017-12-31T18:00Z"
+        },
+        {
+          "id": "400951759",
+          "name": "DAL @ PHI",
+          "date": "2017-12-31T18:00Z"
+        },
+        {
+          "id": "400951762",
+          "name": "CLE @ PIT",
+          "date": "2017-12-31T18:00Z"
+        },
+        {
+          "id": "400951764",
+          "name": "NO @ TB",
+          "date": "2017-12-31T21:25Z"
+        },
+        {
+          "id": "400951788",
+          "name": "JAX @ TEN",
+          "date": "2017-12-31T21:25Z"
+        },
+        {
+          "id": "400951789",
+          "name": "KC @ DEN",
+          "date": "2017-12-31T21:25Z"
+        },
+        {
+          "id": "400951791",
+          "name": "OAK @ LAC",
+          "date": "2017-12-31T21:25Z"
+        },
+        {
+          "id": "400951792",
+          "name": "SF @ LAR",
+          "date": "2017-12-31T21:25Z"
+        },
+        {
+          "id": "400951793",
+          "name": "ARI @ SEA",
+          "date": "2017-12-31T21:25Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20171231"
+    },
+    {
+      "league": "NFL",
+      "season": "FTB-NFL-SEASON_2018",
+      "label": "2018",
+      "provider": "espn",
+      "espn_year": 2018,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2018/types/2?lang=en&region=us",
+        "start": "2018-09-05T07:00Z",
+        "end": "2019-01-02T07:59Z"
+      },
+      "first_game_date": "2018-09-06",
+      "first_games": [
+        {
+          "id": "401030710",
+          "name": "ATL @ PHI",
+          "date": "2018-09-07T00:55Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20180906",
+      "last_game_date": "2018-12-30",
+      "last_games": [
+        {
+          "id": "401030719",
+          "name": "CLE @ BAL",
+          "date": "2018-12-30T21:25Z"
+        },
+        {
+          "id": "401030722",
+          "name": "MIA @ BUF",
+          "date": "2018-12-30T18:00Z"
+        },
+        {
+          "id": "401030727",
+          "name": "PHI @ WSH",
+          "date": "2018-12-30T21:25Z"
+        },
+        {
+          "id": "401030755",
+          "name": "IND @ TEN",
+          "date": "2018-12-31T01:20Z"
+        },
+        {
+          "id": "401030757",
+          "name": "DET @ GB",
+          "date": "2018-12-30T18:00Z"
+        },
+        {
+          "id": "401030759",
+          "name": "JAX @ HOU",
+          "date": "2018-12-30T18:00Z"
+        },
+        {
+          "id": "401030760",
+          "name": "OAK @ KC",
+          "date": "2018-12-30T21:25Z"
+        },
+        {
+          "id": "401030763",
+          "name": "CHI @ MIN",
+          "date": "2018-12-30T21:25Z"
+        },
+        {
+          "id": "401030765",
+          "name": "NYJ @ NE",
+          "date": "2018-12-30T18:00Z"
+        },
+        {
+          "id": "401030768",
+          "name": "CAR @ NO",
+          "date": "2018-12-30T18:00Z"
+        },
+        {
+          "id": "401030812",
+          "name": "DAL @ NYG",
+          "date": "2018-12-30T18:00Z"
+        },
+        {
+          "id": "401030818",
+          "name": "CIN @ PIT",
+          "date": "2018-12-30T21:25Z"
+        },
+        {
+          "id": "401030820",
+          "name": "ATL @ TB",
+          "date": "2018-12-30T18:00Z"
+        },
+        {
+          "id": "401030824",
+          "name": "LAC @ DEN",
+          "date": "2018-12-30T21:25Z"
+        },
+        {
+          "id": "401030850",
+          "name": "SF @ LAR",
+          "date": "2018-12-30T21:25Z"
+        },
+        {
+          "id": "401030856",
+          "name": "ARI @ SEA",
+          "date": "2018-12-30T21:25Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20181230"
+    },
+    {
+      "league": "NFL",
+      "season": "FTB-NFL-SEASON_2019",
+      "label": "2019",
+      "provider": "espn",
+      "espn_year": 2019,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2019/types/2?lang=en&region=us",
+        "start": "2019-09-05T07:00Z",
+        "end": "2020-01-01T07:59Z"
+      },
+      "first_game_date": "2019-09-05",
+      "first_games": [
+        {
+          "id": "401127913",
+          "name": "GB @ CHI",
+          "date": "2019-09-06T00:20Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20190905",
+      "last_game_date": "2019-12-29",
+      "last_games": [
+        {
+          "id": "401127909",
+          "name": "MIA @ NE",
+          "date": "2019-12-29T18:00Z"
+        },
+        {
+          "id": "401127950",
+          "name": "PIT @ BAL",
+          "date": "2019-12-29T21:25Z"
+        },
+        {
+          "id": "401127973",
+          "name": "NYJ @ BUF",
+          "date": "2019-12-29T18:00Z"
+        },
+        {
+          "id": "401127975",
+          "name": "NO @ CAR",
+          "date": "2019-12-29T18:00Z"
+        },
+        {
+          "id": "401127978",
+          "name": "CLE @ CIN",
+          "date": "2019-12-29T18:00Z"
+        },
+        {
+          "id": "401127980",
+          "name": "WSH @ DAL",
+          "date": "2019-12-29T21:25Z"
+        },
+        {
+          "id": "401127983",
+          "name": "GB @ DET",
+          "date": "2019-12-29T18:00Z"
+        },
+        {
+          "id": "401127984",
+          "name": "TEN @ HOU",
+          "date": "2019-12-29T21:25Z"
+        },
+        {
+          "id": "401127988",
+          "name": "IND @ JAX",
+          "date": "2019-12-29T21:25Z"
+        },
+        {
+          "id": "401127990",
+          "name": "LAC @ KC",
+          "date": "2019-12-29T18:00Z"
+        },
+        {
+          "id": "401127991",
+          "name": "CHI @ MIN",
+          "date": "2019-12-29T18:00Z"
+        },
+        {
+          "id": "401128033",
+          "name": "PHI @ NYG",
+          "date": "2019-12-29T21:25Z"
+        },
+        {
+          "id": "401128034",
+          "name": "ATL @ TB",
+          "date": "2019-12-29T18:00Z"
+        },
+        {
+          "id": "401128036",
+          "name": "OAK @ DEN",
+          "date": "2019-12-29T21:25Z"
+        },
+        {
+          "id": "401128038",
+          "name": "ARI @ LAR",
+          "date": "2019-12-29T21:25Z"
+        },
+        {
+          "id": "401128040",
+          "name": "SF @ SEA",
+          "date": "2019-12-30T01:20Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20191229"
+    },
+    {
+      "league": "NFL",
+      "season": "FTB-NFL-SEASON_2020",
+      "label": "2020",
+      "provider": "espn",
+      "espn_year": 2020,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2020/types/2?lang=en&region=us",
+        "start": "2020-09-09T07:00Z",
+        "end": "2021-01-06T07:59Z"
+      },
+      "first_game_date": "2020-09-10",
+      "first_games": [
+        {
+          "id": "401220225",
+          "name": "HOU @ KC",
+          "date": "2020-09-11T00:20Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20200910",
+      "last_game_date": "2021-01-03",
+      "last_games": [
+        {
+          "id": "401220114",
+          "name": "MIA @ BUF",
+          "date": "2021-01-03T18:00Z"
+        },
+        {
+          "id": "401220132",
+          "name": "NYJ @ NE",
+          "date": "2021-01-03T18:00Z"
+        },
+        {
+          "id": "401220154",
+          "name": "BAL @ CIN",
+          "date": "2021-01-03T18:00Z"
+        },
+        {
+          "id": "401220164",
+          "name": "PIT @ CLE",
+          "date": "2021-01-03T18:00Z"
+        },
+        {
+          "id": "401220180",
+          "name": "TEN @ HOU",
+          "date": "2021-01-03T21:25Z"
+        },
+        {
+          "id": "401220187",
+          "name": "JAX @ IND",
+          "date": "2021-01-03T21:25Z"
+        },
+        {
+          "id": "401220211",
+          "name": "LV @ DEN",
+          "date": "2021-01-03T21:25Z"
+        },
+        {
+          "id": "401220220",
+          "name": "LAC @ KC",
+          "date": "2021-01-03T21:25Z"
+        },
+        {
+          "id": "401220250",
+          "name": "DAL @ NYG",
+          "date": "2021-01-03T18:00Z"
+        },
+        {
+          "id": "401220260",
+          "name": "WSH @ PHI",
+          "date": "2021-01-04T01:20Z"
+        },
+        {
+          "id": "401220275",
+          "name": "GB @ CHI",
+          "date": "2021-01-03T21:25Z"
+        },
+        {
+          "id": "401220284",
+          "name": "MIN @ DET",
+          "date": "2021-01-03T18:00Z"
+        },
+        {
+          "id": "401220315",
+          "name": "NO @ CAR",
+          "date": "2021-01-03T21:25Z"
+        },
+        {
+          "id": "401220328",
+          "name": "ATL @ TB",
+          "date": "2021-01-03T18:00Z"
+        },
+        {
+          "id": "401220344",
+          "name": "ARI @ LAR",
+          "date": "2021-01-03T21:25Z"
+        },
+        {
+          "id": "401220354",
+          "name": "SEA @ SF",
+          "date": "2021-01-03T21:25Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20210103"
+    },
+    {
+      "league": "NFL",
+      "season": "FTB-NFL-SEASON_2021",
+      "label": "2021",
+      "provider": "espn",
+      "espn_year": 2021,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2021/types/2?lang=en&region=us",
+        "start": "2021-09-09T07:00Z",
+        "end": "2022-01-12T07:59Z"
+      },
+      "first_game_date": "2021-09-09",
+      "first_games": [
+        {
+          "id": "401326322",
+          "name": "DAL @ TB",
+          "date": "2021-09-10T00:20Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20210909",
+      "last_game_date": "2022-01-09",
+      "last_games": [
+        {
+          "id": "401326585",
+          "name": "NO @ ATL",
+          "date": "2022-01-09T21:25Z"
+        },
+        {
+          "id": "401326586",
+          "name": "PIT @ BAL",
+          "date": "2022-01-09T18:00Z"
+        },
+        {
+          "id": "401326587",
+          "name": "NYJ @ BUF",
+          "date": "2022-01-09T21:25Z"
+        },
+        {
+          "id": "401326588",
+          "name": "CIN @ CLE",
+          "date": "2022-01-09T18:00Z"
+        },
+        {
+          "id": "401326589",
+          "name": "GB @ DET",
+          "date": "2022-01-09T18:00Z"
+        },
+        {
+          "id": "401326590",
+          "name": "TEN @ HOU",
+          "date": "2022-01-09T18:00Z"
+        },
+        {
+          "id": "401326591",
+          "name": "IND @ JAX",
+          "date": "2022-01-09T18:00Z"
+        },
+        {
+          "id": "401326592",
+          "name": "NE @ MIA",
+          "date": "2022-01-09T21:25Z"
+        },
+        {
+          "id": "401326593",
+          "name": "CHI @ MIN",
+          "date": "2022-01-09T18:00Z"
+        },
+        {
+          "id": "401326594",
+          "name": "WSH @ NYG",
+          "date": "2022-01-09T18:00Z"
+        },
+        {
+          "id": "401326596",
+          "name": "CAR @ TB",
+          "date": "2022-01-09T21:25Z"
+        },
+        {
+          "id": "401326597",
+          "name": "SEA @ ARI",
+          "date": "2022-01-09T21:25Z"
+        },
+        {
+          "id": "401326599",
+          "name": "SF @ LAR",
+          "date": "2022-01-09T21:25Z"
+        },
+        {
+          "id": "401326600",
+          "name": "LAC @ LV",
+          "date": "2022-01-10T01:20Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20220109"
+    },
+    {
+      "league": "NFL",
+      "season": "FTB-NFL-SEASON_2022",
+      "label": "2022",
+      "provider": "espn",
+      "espn_year": 2022,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2022/types/2?lang=en&region=us",
+        "start": "2022-09-08T07:00Z",
+        "end": "2023-01-12T07:59Z"
+      },
+      "first_game_date": "2022-09-08",
+      "first_games": [
+        {
+          "id": "401437654",
+          "name": "BUF @ LAR",
+          "date": "2022-09-09T00:20Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20220908",
+      "last_game_date": "2023-01-08",
+      "last_games": [
+        {
+          "id": "401437948",
+          "name": "TB @ ATL",
+          "date": "2023-01-08T18:00Z"
+        },
+        {
+          "id": "401437949",
+          "name": "NE @ BUF",
+          "date": "2023-01-08T18:00Z"
+        },
+        {
+          "id": "401437950",
+          "name": "MIN @ CHI",
+          "date": "2023-01-08T18:00Z"
+        },
+        {
+          "id": "401437951",
+          "name": "BAL @ CIN",
+          "date": "2023-01-08T18:00Z"
+        },
+        {
+          "id": "401437952",
+          "name": "DET @ GB",
+          "date": "2023-01-09T01:20Z"
+        },
+        {
+          "id": "401437953",
+          "name": "HOU @ IND",
+          "date": "2023-01-08T18:00Z"
+        },
+        {
+          "id": "401437955",
+          "name": "NYJ @ MIA",
+          "date": "2023-01-08T18:00Z"
+        },
+        {
+          "id": "401437956",
+          "name": "CAR @ NO",
+          "date": "2023-01-08T18:00Z"
+        },
+        {
+          "id": "401437957",
+          "name": "NYG @ PHI",
+          "date": "2023-01-08T21:25Z"
+        },
+        {
+          "id": "401437958",
+          "name": "CLE @ PIT",
+          "date": "2023-01-08T18:00Z"
+        },
+        {
+          "id": "401437959",
+          "name": "DAL @ WSH",
+          "date": "2023-01-08T21:25Z"
+        },
+        {
+          "id": "401437960",
+          "name": "LAC @ DEN",
+          "date": "2023-01-08T21:25Z"
+        },
+        {
+          "id": "401437962",
+          "name": "ARI @ SF",
+          "date": "2023-01-08T21:25Z"
+        },
+        {
+          "id": "401437963",
+          "name": "LAR @ SEA",
+          "date": "2023-01-08T21:25Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20230108"
+    },
+    {
+      "league": "NFL",
+      "season": "FTB-NFL-SEASON_2023",
+      "label": "2023",
+      "provider": "espn",
+      "espn_year": 2023,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2023/types/2?lang=en&region=us",
+        "start": "2023-09-07T07:00Z",
+        "end": "2024-01-11T07:59Z"
+      },
+      "first_game_date": "2023-09-07",
+      "first_games": [
+        {
+          "id": "401547353",
+          "name": "DET @ KC",
+          "date": "2023-09-08T00:20Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20230907",
+      "last_game_date": "2024-01-07",
+      "last_games": [
+        {
+          "id": "401547638",
+          "name": "SEA @ ARI",
+          "date": "2024-01-07T21:25Z"
+        },
+        {
+          "id": "401547640",
+          "name": "TB @ CAR",
+          "date": "2024-01-07T18:00Z"
+        },
+        {
+          "id": "401547641",
+          "name": "CLE @ CIN",
+          "date": "2024-01-07T18:00Z"
+        },
+        {
+          "id": "401547642",
+          "name": "MIN @ DET",
+          "date": "2024-01-07T18:00Z"
+        },
+        {
+          "id": "401547643",
+          "name": "CHI @ GB",
+          "date": "2024-01-07T21:25Z"
+        },
+        {
+          "id": "401547645",
+          "name": "KC @ LAC",
+          "date": "2024-01-07T21:25Z"
+        },
+        {
+          "id": "401547646",
+          "name": "DEN @ LV",
+          "date": "2024-01-07T21:25Z"
+        },
+        {
+          "id": "401547647",
+          "name": "BUF @ MIA",
+          "date": "2024-01-08T01:20Z"
+        },
+        {
+          "id": "401547648",
+          "name": "NYJ @ NE",
+          "date": "2024-01-07T18:00Z"
+        },
+        {
+          "id": "401547649",
+          "name": "ATL @ NO",
+          "date": "2024-01-07T18:00Z"
+        },
+        {
+          "id": "401547650",
+          "name": "PHI @ NYG",
+          "date": "2024-01-07T21:25Z"
+        },
+        {
+          "id": "401547651",
+          "name": "LAR @ SF",
+          "date": "2024-01-07T21:25Z"
+        },
+        {
+          "id": "401547652",
+          "name": "JAX @ TEN",
+          "date": "2024-01-07T18:00Z"
+        },
+        {
+          "id": "401547653",
+          "name": "DAL @ WSH",
+          "date": "2024-01-07T21:25Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20240107"
+    },
+    {
+      "league": "NFL",
+      "season": "FTB-NFL-SEASON_2024",
+      "label": "2024",
+      "provider": "espn",
+      "espn_year": 2024,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2024/types/2?lang=en&region=us",
+        "start": "2024-09-05T07:00Z",
+        "end": "2025-01-08T07:59Z"
+      },
+      "first_game_date": "2024-09-05",
+      "first_games": [
+        {
+          "id": "401671789",
+          "name": "BAL @ KC",
+          "date": "2024-09-06T00:40Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20240905",
+      "last_game_date": "2025-01-05",
+      "last_games": [
+        {
+          "id": "401671826",
+          "name": "HOU @ TEN",
+          "date": "2025-01-05T18:00Z"
+        },
+        {
+          "id": "401671827",
+          "name": "CAR @ ATL",
+          "date": "2025-01-05T18:00Z"
+        },
+        {
+          "id": "401671828",
+          "name": "NO @ TB",
+          "date": "2025-01-05T18:00Z"
+        },
+        {
+          "id": "401671830",
+          "name": "SEA @ LAR",
+          "date": "2025-01-05T21:25Z"
+        },
+        {
+          "id": "401671831",
+          "name": "BUF @ NE",
+          "date": "2025-01-05T18:00Z"
+        },
+        {
+          "id": "401671833",
+          "name": "MIA @ NYJ",
+          "date": "2025-01-05T21:25Z"
+        },
+        {
+          "id": "401671837",
+          "name": "JAX @ IND",
+          "date": "2025-01-05T18:00Z"
+        },
+        {
+          "id": "401671838",
+          "name": "KC @ DEN",
+          "date": "2025-01-05T21:25Z"
+        },
+        {
+          "id": "401671839",
+          "name": "LAC @ LV",
+          "date": "2025-01-05T21:25Z"
+        },
+        {
+          "id": "401671840",
+          "name": "WSH @ DAL",
+          "date": "2025-01-05T18:00Z"
+        },
+        {
+          "id": "401671841",
+          "name": "NYG @ PHI",
+          "date": "2025-01-05T18:00Z"
+        },
+        {
+          "id": "401671843",
+          "name": "MIN @ DET",
+          "date": "2025-01-06T01:20Z"
+        },
+        {
+          "id": "401671844",
+          "name": "CHI @ GB",
+          "date": "2025-01-05T18:00Z"
+        },
+        {
+          "id": "401671845",
+          "name": "SF @ ARI",
+          "date": "2025-01-05T21:25Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20250105"
+    },
+    {
+      "league": "NFL",
+      "season": "FTB-NFL-SEASON_2025",
+      "label": "2025",
+      "provider": "espn",
+      "espn_year": 2025,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2025/types/2?lang=en&region=us",
+        "start": "2025-09-04T07:00Z",
+        "end": "2026-01-07T07:59Z"
+      },
+      "first_game_date": "2025-09-04",
+      "first_games": [
+        {
+          "id": "401772510",
+          "name": "DAL @ PHI",
+          "date": "2025-09-05T00:20Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20250904",
+      "last_game_date": "2026-01-04",
+      "last_games": [
+        {
+          "id": "401772955",
+          "name": "ARI @ LAR",
+          "date": "2026-01-04T21:25Z"
+        },
+        {
+          "id": "401772956",
+          "name": "LAC @ DEN",
+          "date": "2026-01-04T21:25Z"
+        },
+        {
+          "id": "401772957",
+          "name": "KC @ LV",
+          "date": "2026-01-04T21:25Z"
+        },
+        {
+          "id": "401772958",
+          "name": "MIA @ NE",
+          "date": "2026-01-04T21:25Z"
+        },
+        {
+          "id": "401772959",
+          "name": "WSH @ PHI",
+          "date": "2026-01-04T21:25Z"
+        },
+        {
+          "id": "401772960",
+          "name": "BAL @ PIT",
+          "date": "2026-01-05T01:20Z"
+        },
+        {
+          "id": "401772962",
+          "name": "IND @ HOU",
+          "date": "2026-01-04T18:00Z"
+        },
+        {
+          "id": "401772963",
+          "name": "DAL @ NYG",
+          "date": "2026-01-04T18:00Z"
+        },
+        {
+          "id": "401772964",
+          "name": "CLE @ CIN",
+          "date": "2026-01-04T18:00Z"
+        },
+        {
+          "id": "401772965",
+          "name": "DET @ CHI",
+          "date": "2026-01-04T21:25Z"
+        },
+        {
+          "id": "401772966",
+          "name": "NO @ ATL",
+          "date": "2026-01-04T18:00Z"
+        },
+        {
+          "id": "401772967",
+          "name": "NYJ @ BUF",
+          "date": "2026-01-04T21:25Z"
+        },
+        {
+          "id": "401772968",
+          "name": "GB @ MIN",
+          "date": "2026-01-04T18:00Z"
+        },
+        {
+          "id": "401772970",
+          "name": "TEN @ JAX",
+          "date": "2026-01-04T18:00Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20260104"
+    },
+    {
+      "league": "NFL",
+      "season": "FTB-NFL-SEASON_2026",
+      "label": "2026",
+      "provider": "espn",
+      "espn_year": 2026,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/seasons/2026/types/2?lang=en&region=us",
+        "start": "2026-09-06T07:00Z",
+        "end": "2027-01-13T07:59Z"
+      },
+      "first_game_date": "2026-09-09",
+      "first_games": [
+        {
+          "id": "401872656",
+          "name": "NE @ SEA",
+          "date": "2026-09-10T00:20Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=20260909"
+    },
+    {
+      "league": "NHL",
+      "season": "HCK-NHL-SEASON_2015_2016",
+      "label": "2015_2016",
+      "provider": "espn",
+      "espn_year": 2016,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2016/types/2?lang=en&region=us",
+        "start": "2015-10-06T07:00Z",
+        "end": "2016-04-11T06:59Z"
+      },
+      "first_game_date": "2015-10-07",
+      "first_games": [
+        {
+          "id": "400814770",
+          "name": "VAN @ CGY",
+          "date": "2015-10-08T02:00Z"
+        },
+        {
+          "id": "400814771",
+          "name": "NYR @ CHI",
+          "date": "2015-10-08T00:00Z"
+        },
+        {
+          "id": "400814772",
+          "name": "SJ @ LA",
+          "date": "2015-10-08T02:30Z"
+        },
+        {
+          "id": "400814773",
+          "name": "MTL @ TOR",
+          "date": "2015-10-07T23:00Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20151007",
+      "last_game_date": "2016-04-10",
+      "last_games": [
+        {
+          "id": "400865737",
+          "name": "ANA @ WSH",
+          "date": "2016-04-10T23:30Z"
+        },
+        {
+          "id": "400865738",
+          "name": "PHI @ NYI",
+          "date": "2016-04-10T23:00Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20160410"
+    },
+    {
+      "league": "NHL",
+      "season": "HCK-NHL-SEASON_2016_2017",
+      "label": "2016_2017",
+      "provider": "espn",
+      "espn_year": 2017,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2017/types/2?lang=en&region=us",
+        "start": "2016-10-11T07:00Z",
+        "end": "2017-04-12T06:59Z"
+      },
+      "first_game_date": "2016-10-12",
+      "first_games": [
+        {
+          "id": "400884397",
+          "name": "TOR @ OTT",
+          "date": "2016-10-12T23:00Z"
+        },
+        {
+          "id": "400884398",
+          "name": "STL @ CHI",
+          "date": "2016-10-13T00:00Z"
+        },
+        {
+          "id": "400884399",
+          "name": "CGY @ EDM",
+          "date": "2016-10-13T02:00Z"
+        },
+        {
+          "id": "400884400",
+          "name": "LA @ SJ",
+          "date": "2016-10-13T02:30Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20161012",
+      "last_game_date": "2017-04-09",
+      "last_games": [
+        {
+          "id": "400885617",
+          "name": "NJ @ DET",
+          "date": "2017-04-09T21:00Z"
+        },
+        {
+          "id": "400885618",
+          "name": "BUF @ TB",
+          "date": "2017-04-09T21:00Z"
+        },
+        {
+          "id": "400885619",
+          "name": "OTT @ NYI",
+          "date": "2017-04-09T21:00Z"
+        },
+        {
+          "id": "400885620",
+          "name": "CBJ @ TOR",
+          "date": "2017-04-09T22:00Z"
+        },
+        {
+          "id": "400885621",
+          "name": "COL @ STL",
+          "date": "2017-04-09T22:00Z"
+        },
+        {
+          "id": "400885622",
+          "name": "PIT @ NYR",
+          "date": "2017-04-09T23:00Z"
+        },
+        {
+          "id": "400885623",
+          "name": "CAR @ PHI",
+          "date": "2017-04-09T23:00Z"
+        },
+        {
+          "id": "400885624",
+          "name": "FLA @ WSH",
+          "date": "2017-04-09T23:00Z"
+        },
+        {
+          "id": "400885625",
+          "name": "LA @ ANA",
+          "date": "2017-04-10T00:30Z"
+        },
+        {
+          "id": "400885626",
+          "name": "VAN @ EDM",
+          "date": "2017-04-10T01:00Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20170409"
+    },
+    {
+      "league": "NHL",
+      "season": "HCK-NHL-SEASON_2017_2018",
+      "label": "2017_2018",
+      "provider": "espn",
+      "espn_year": 2018,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2018/types/2?lang=en&region=us",
+        "start": "2017-10-04T07:00Z",
+        "end": "2018-04-11T06:59Z"
+      },
+      "first_game_date": "2017-10-04",
+      "first_games": [
+        {
+          "id": "400959564",
+          "name": "TOR @ WPG",
+          "date": "2017-10-04T23:00Z"
+        },
+        {
+          "id": "400959565",
+          "name": "STL @ PIT",
+          "date": "2017-10-05T00:00Z"
+        },
+        {
+          "id": "400961606",
+          "name": "CGY @ EDM",
+          "date": "2017-10-05T02:00Z"
+        },
+        {
+          "id": "400961607",
+          "name": "PHI @ SJ",
+          "date": "2017-10-05T02:30Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20171004",
+      "last_game_date": "2018-04-08",
+      "last_games": [
+        {
+          "id": "401011866",
+          "name": "FLA @ BOS",
+          "date": "2018-04-08T23:30Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20180408"
+    },
+    {
+      "league": "NHL",
+      "season": "HCK-NHL-SEASON_2018_2019",
+      "label": "2018_2019",
+      "provider": "espn",
+      "espn_year": 2019,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2019/types/2?lang=en&region=us",
+        "start": "2018-10-03T07:00Z",
+        "end": "2019-04-09T06:59Z"
+      },
+      "first_game_date": "2018-10-03",
+      "first_games": [
+        {
+          "id": "401044320",
+          "name": "MTL @ TOR",
+          "date": "2018-10-03T23:00Z"
+        },
+        {
+          "id": "401044321",
+          "name": "BOS @ WSH",
+          "date": "2018-10-03T23:30Z"
+        },
+        {
+          "id": "401044322",
+          "name": "CGY @ VAN",
+          "date": "2018-10-04T02:00Z"
+        },
+        {
+          "id": "401044323",
+          "name": "ANA @ SJ",
+          "date": "2018-10-04T02:30Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20181003",
+      "last_game_date": "2019-04-06",
+      "last_games": [
+        {
+          "id": "401045577",
+          "name": "TB @ BOS",
+          "date": "2019-04-06T17:00Z"
+        },
+        {
+          "id": "401045578",
+          "name": "VAN @ STL",
+          "date": "2019-04-06T20:00Z"
+        },
+        {
+          "id": "401045579",
+          "name": "TOR @ MTL",
+          "date": "2019-04-06T23:00Z"
+        },
+        {
+          "id": "401045580",
+          "name": "CBJ @ OTT",
+          "date": "2019-04-06T23:00Z"
+        },
+        {
+          "id": "401045581",
+          "name": "BUF @ DET",
+          "date": "2019-04-06T23:00Z"
+        },
+        {
+          "id": "401045582",
+          "name": "NJ @ FLA",
+          "date": "2019-04-06T23:00Z"
+        },
+        {
+          "id": "401045583",
+          "name": "CAR @ PHI",
+          "date": "2019-04-06T23:00Z"
+        },
+        {
+          "id": "401045584",
+          "name": "NYR @ PIT",
+          "date": "2019-04-06T23:00Z"
+        },
+        {
+          "id": "401045585",
+          "name": "NYI @ WSH",
+          "date": "2019-04-06T23:00Z"
+        },
+        {
+          "id": "401045586",
+          "name": "CHI @ NSH",
+          "date": "2019-04-07T00:00Z"
+        },
+        {
+          "id": "401045587",
+          "name": "MIN @ DAL",
+          "date": "2019-04-07T00:00Z"
+        },
+        {
+          "id": "401045588",
+          "name": "EDM @ CGY",
+          "date": "2019-04-07T02:00Z"
+        },
+        {
+          "id": "401045589",
+          "name": "WPG @ ARI",
+          "date": "2019-04-07T02:00Z"
+        },
+        {
+          "id": "401045590",
+          "name": "VGK @ LA",
+          "date": "2019-04-07T02:30Z"
+        },
+        {
+          "id": "401045591",
+          "name": "COL @ SJ",
+          "date": "2019-04-07T02:30Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20190406"
+    },
+    {
+      "league": "NHL",
+      "season": "HCK-NHL-SEASON_2019_2020",
+      "label": "2019_2020",
+      "provider": "espn",
+      "espn_year": 2020,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2020/types/2?lang=en&region=us",
+        "start": "2019-10-02T07:00Z",
+        "end": "2020-08-01T06:59Z"
+      },
+      "first_game_date": "2019-10-02",
+      "first_games": [
+        {
+          "id": "401144492",
+          "name": "VAN @ EDM",
+          "date": "2019-10-03T02:00Z"
+        },
+        {
+          "id": "401144505",
+          "name": "WSH @ STL",
+          "date": "2019-10-03T00:00Z"
+        },
+        {
+          "id": "401144507",
+          "name": "OTT @ TOR",
+          "date": "2019-10-02T23:00Z"
+        },
+        {
+          "id": "401144509",
+          "name": "SJ @ VGK",
+          "date": "2019-10-03T02:30Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20191002",
+      "last_game_date": "2020-03-11",
+      "last_games": [
+        {
+          "id": "401145917",
+          "name": "STL @ ANA",
+          "date": "2020-03-12T02:00Z"
+        },
+        {
+          "id": "401146120",
+          "name": "SJ @ CHI",
+          "date": "2020-03-12T00:00Z"
+        },
+        {
+          "id": "401146121",
+          "name": "WPG @ EDM",
+          "date": "2020-03-12T01:00Z"
+        },
+        {
+          "id": "401146122",
+          "name": "NYR @ COL",
+          "date": "2020-03-12T02:00Z"
+        },
+        {
+          "id": "401146123",
+          "name": "OTT @ LA",
+          "date": "2020-03-12T02:30Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20200311"
+    },
+    {
+      "league": "NHL",
+      "season": "HCK-NHL-SEASON_2020_2021",
+      "label": "2020_2021",
+      "provider": "espn",
+      "espn_year": 2021,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2021/types/2?lang=en&region=us",
+        "start": "2021-01-05T08:00Z",
+        "end": "2021-05-14T06:59Z"
+      },
+      "first_game_date": "2021-01-13",
+      "first_games": [
+        {
+          "id": "401272093",
+          "name": "PIT @ PHI",
+          "date": "2021-01-13T22:30Z"
+        },
+        {
+          "id": "401272094",
+          "name": "CHI @ TB",
+          "date": "2021-01-14T01:00Z"
+        },
+        {
+          "id": "401272095",
+          "name": "MTL @ TOR",
+          "date": "2021-01-14T00:00Z"
+        },
+        {
+          "id": "401272096",
+          "name": "VAN @ EDM",
+          "date": "2021-01-14T03:00Z"
+        },
+        {
+          "id": "401272097",
+          "name": "STL @ COL",
+          "date": "2021-01-14T03:30Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20210113",
+      "last_game_date": "2021-05-19",
+      "last_games": [
+        {
+          "id": "401320058",
+          "name": "VAN @ CGY",
+          "date": "2021-05-19T19:30Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20210519"
+    },
+    {
+      "league": "NHL",
+      "season": "HCK-NHL-SEASON_2021_2022",
+      "label": "2021_2022",
+      "provider": "espn",
+      "espn_year": 2022,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2022/types/2?lang=en&region=us",
+        "start": "2021-10-02T07:00Z",
+        "end": "2022-05-02T06:59Z"
+      },
+      "first_game_date": "2021-10-12",
+      "first_games": [
+        {
+          "id": "401349134",
+          "name": "PIT @ TB",
+          "date": "2021-10-12T23:30Z"
+        },
+        {
+          "id": "401349135",
+          "name": "SEA @ VGK",
+          "date": "2021-10-13T02:15Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20211012",
+      "last_game_date": "2022-05-01",
+      "last_games": [
+        {
+          "id": "401430120",
+          "name": "SEA @ WPG",
+          "date": "2022-05-01T18:00Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20220501"
+    },
+    {
+      "league": "NHL",
+      "season": "HCK-NHL-SEASON_2022_2023",
+      "label": "2022_2023",
+      "provider": "espn",
+      "espn_year": 2023,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2023/types/2?lang=en&region=us",
+        "start": "2022-10-07T07:00Z",
+        "end": "2023-04-15T06:59Z"
+      },
+      "first_game_date": "2022-10-07",
+      "first_games": [
+        {
+          "id": "401458590",
+          "name": "SJ @ NSH",
+          "date": "2022-10-07T18:00Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20221007",
+      "last_game_date": "2023-04-14",
+      "last_games": [
+        {
+          "id": "401507549",
+          "name": "COL @ NSH",
+          "date": "2023-04-15T00:00Z"
+        },
+        {
+          "id": "401519678",
+          "name": "BUF @ CBJ",
+          "date": "2023-04-14T23:30Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20230414"
+    },
+    {
+      "league": "NHL",
+      "season": "HCK-NHL-SEASON_2023_2024",
+      "label": "2023_2024",
+      "provider": "espn",
+      "espn_year": 2024,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2024/types/2?lang=en&region=us",
+        "start": "2023-10-09T07:00Z",
+        "end": "2024-04-19T06:59Z"
+      },
+      "first_game_date": "2023-10-10",
+      "first_games": [
+        {
+          "id": "401559236",
+          "name": "NSH @ TB",
+          "date": "2023-10-10T21:30Z"
+        },
+        {
+          "id": "401559237",
+          "name": "CHI @ PIT",
+          "date": "2023-10-11T00:00Z"
+        },
+        {
+          "id": "401559238",
+          "name": "SEA @ VGK",
+          "date": "2023-10-11T03:14Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20231010",
+      "last_game_date": "2024-04-18",
+      "last_games": [
+        {
+          "id": "401560534",
+          "name": "SEA @ MIN",
+          "date": "2024-04-18T23:00Z"
+        },
+        {
+          "id": "401560535",
+          "name": "VAN @ WPG",
+          "date": "2024-04-19T00:00Z"
+        },
+        {
+          "id": "401560536",
+          "name": "SJ @ CGY",
+          "date": "2024-04-19T01:00Z"
+        },
+        {
+          "id": "401560537",
+          "name": "EDM @ COL",
+          "date": "2024-04-19T01:30Z"
+        },
+        {
+          "id": "401560538",
+          "name": "ANA @ VGK",
+          "date": "2024-04-19T02:00Z"
+        },
+        {
+          "id": "401560539",
+          "name": "CHI @ LA",
+          "date": "2024-04-19T02:30Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20240418"
+    },
+    {
+      "league": "NHL",
+      "season": "HCK-NHL-SEASON_2024_2025",
+      "label": "2024_2025",
+      "provider": "espn",
+      "espn_year": 2025,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2025/types/2?lang=en&region=us",
+        "start": "2024-10-04T07:00Z",
+        "end": "2025-04-18T06:59Z"
+      },
+      "first_game_date": "2024-10-04",
+      "first_games": [
+        {
+          "id": "401687600",
+          "name": "NJ @ BUF",
+          "date": "2024-10-04T17:00Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20241004",
+      "last_game_date": "2025-04-17",
+      "last_games": [
+        {
+          "id": "401688906",
+          "name": "PHI @ BUF",
+          "date": "2025-04-17T23:00Z"
+        },
+        {
+          "id": "401688907",
+          "name": "DET @ TOR",
+          "date": "2025-04-17T23:00Z"
+        },
+        {
+          "id": "401688908",
+          "name": "CAR @ OTT",
+          "date": "2025-04-17T23:00Z"
+        },
+        {
+          "id": "401688909",
+          "name": "TB @ NYR",
+          "date": "2025-04-17T23:00Z"
+        },
+        {
+          "id": "401688910",
+          "name": "WSH @ PIT",
+          "date": "2025-04-17T23:00Z"
+        },
+        {
+          "id": "401688911",
+          "name": "NYI @ CBJ",
+          "date": "2025-04-17T23:00Z"
+        },
+        {
+          "id": "401751835",
+          "name": "CGY @ LA",
+          "date": "2025-04-18T01:30Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20250417"
+    },
+    {
+      "league": "NHL",
+      "season": "HCK-NHL-SEASON_2025_2026",
+      "label": "2025_2026",
+      "provider": "espn",
+      "espn_year": 2026,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2026/types/2?lang=en&region=us",
+        "start": "2025-10-07T07:00Z",
+        "end": "2026-04-18T06:59Z"
+      },
+      "first_game_date": "2025-10-07",
+      "first_games": [
+        {
+          "id": "401801798",
+          "name": "CHI @ FLA",
+          "date": "2025-10-07T21:00Z"
+        },
+        {
+          "id": "401801799",
+          "name": "PIT @ NYR",
+          "date": "2025-10-08T00:00Z"
+        },
+        {
+          "id": "401801800",
+          "name": "COL @ LA",
+          "date": "2025-10-08T02:30Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20251007",
+      "last_game_date": "2026-04-16",
+      "last_games": [
+        {
+          "id": "401803658",
+          "name": "ANA @ NSH",
+          "date": "2026-04-17T00:00Z"
+        },
+        {
+          "id": "401803659",
+          "name": "SJ @ WPG",
+          "date": "2026-04-17T00:00Z"
+        },
+        {
+          "id": "401803660",
+          "name": "STL @ UTA",
+          "date": "2026-04-16T23:30Z"
+        },
+        {
+          "id": "401803661",
+          "name": "LA @ CGY",
+          "date": "2026-04-17T01:00Z"
+        },
+        {
+          "id": "401803662",
+          "name": "VAN @ EDM",
+          "date": "2026-04-17T01:00Z"
+        },
+        {
+          "id": "401803663",
+          "name": "SEA @ COL",
+          "date": "2026-04-17T02:00Z"
+        }
+      ],
+      "last_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20260416"
+    },
+    {
+      "league": "NHL",
+      "season": "HCK-NHL-SEASON_2026_2027",
+      "label": "2026_2027",
+      "provider": "espn",
+      "espn_year": 2027,
+      "window": {
+        "url": "https://sports.core.api.espn.com/v2/sports/hockey/leagues/nhl/seasons/2027/types/2?lang=en&region=us",
+        "start": "2026-09-28T07:00Z",
+        "end": "2027-04-11T06:59Z"
+      },
+      "first_game_date": "2026-09-29",
+      "first_games": [
+        {
+          "id": "401891773",
+          "name": "FLA @ CAR",
+          "date": "2026-09-29T21:00Z"
+        },
+        {
+          "id": "401891774",
+          "name": "NYR @ BOS",
+          "date": "2026-09-30T00:00Z"
+        },
+        {
+          "id": "401891775",
+          "name": "CHI @ VGK",
+          "date": "2026-09-30T02:45Z"
+        },
+        {
+          "id": "401891804",
+          "name": "VAN @ EDM",
+          "date": "2026-09-30T02:00Z"
+        },
+        {
+          "id": "401891827",
+          "name": "MTL @ TOR",
+          "date": "2026-09-29T23:00Z"
+        }
+      ],
+      "first_url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20260929"
+    },
+    {
+      "league": "MLB",
+      "season": "BSB-MLB-SEASON_2016",
+      "label": "2016",
+      "provider": "mlb",
+      "url": "https://statsapi.mlb.com/api/v1/seasons/2016?sportId=1",
+      "first_game_date": "2016-04-03",
+      "last_game_date": "2016-10-02"
+    },
+    {
+      "league": "MLB",
+      "season": "BSB-MLB-SEASON_2017",
+      "label": "2017",
+      "provider": "mlb",
+      "url": "https://statsapi.mlb.com/api/v1/seasons/2017?sportId=1",
+      "first_game_date": "2017-04-02",
+      "last_game_date": "2017-10-01"
+    },
+    {
+      "league": "MLB",
+      "season": "BSB-MLB-SEASON_2018",
+      "label": "2018",
+      "provider": "mlb",
+      "url": "https://statsapi.mlb.com/api/v1/seasons/2018?sportId=1",
+      "first_game_date": "2018-03-29",
+      "last_game_date": "2018-10-01"
+    },
+    {
+      "league": "MLB",
+      "season": "BSB-MLB-SEASON_2019",
+      "label": "2019",
+      "provider": "mlb",
+      "url": "https://statsapi.mlb.com/api/v1/seasons/2019?sportId=1",
+      "first_game_date": "2019-03-20",
+      "last_game_date": "2019-09-29"
+    },
+    {
+      "league": "MLB",
+      "season": "BSB-MLB-SEASON_2020",
+      "label": "2020",
+      "provider": "mlb",
+      "url": "https://statsapi.mlb.com/api/v1/seasons/2020?sportId=1",
+      "first_game_date": "2020-07-23",
+      "last_game_date": "2020-09-27"
+    },
+    {
+      "league": "MLB",
+      "season": "BSB-MLB-SEASON_2021",
+      "label": "2021",
+      "provider": "mlb",
+      "url": "https://statsapi.mlb.com/api/v1/seasons/2021?sportId=1",
+      "first_game_date": "2021-04-01",
+      "last_game_date": "2021-10-03"
+    },
+    {
+      "league": "MLB",
+      "season": "BSB-MLB-SEASON_2022",
+      "label": "2022",
+      "provider": "mlb",
+      "url": "https://statsapi.mlb.com/api/v1/seasons/2022?sportId=1",
+      "first_game_date": "2022-04-07",
+      "last_game_date": "2022-10-05"
+    },
+    {
+      "league": "MLB",
+      "season": "BSB-MLB-SEASON_2023",
+      "label": "2023",
+      "provider": "mlb",
+      "url": "https://statsapi.mlb.com/api/v1/seasons/2023?sportId=1",
+      "first_game_date": "2023-03-30",
+      "last_game_date": "2023-10-02"
+    },
+    {
+      "league": "MLB",
+      "season": "BSB-MLB-SEASON_2024",
+      "label": "2024",
+      "provider": "mlb",
+      "url": "https://statsapi.mlb.com/api/v1/seasons/2024?sportId=1",
+      "first_game_date": "2024-03-20",
+      "last_game_date": "2024-09-30"
+    },
+    {
+      "league": "MLB",
+      "season": "BSB-MLB-SEASON_2025",
+      "label": "2025",
+      "provider": "mlb",
+      "url": "https://statsapi.mlb.com/api/v1/seasons/2025?sportId=1",
+      "first_game_date": "2025-03-18",
+      "last_game_date": "2025-09-28"
+    },
+    {
+      "league": "MLB",
+      "season": "BSB-MLB-SEASON_2026",
+      "label": "2026",
+      "provider": "mlb",
+      "url": "https://statsapi.mlb.com/api/v1/seasons/2026?sportId=1",
+      "first_game_date": "2026-03-25",
+      "last_game_date": "2026-09-27"
+    }
+  ]
+}
