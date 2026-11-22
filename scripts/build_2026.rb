@@ -175,9 +175,12 @@ class Sports2026Builder
       abbreviation = ABBREVIATIONS.fetch(league, {}).fetch(team.fetch("abbreviation"), team.fetch("abbreviation"))
       campaign = "#{season}-TEAM-#{code.split('-TEAM-').last}"
       source = source_for(capture, team)
-      add("Campaign", campaign, { "display_name" => team.fetch("name"), "abbreviation" => abbreviation,
+      # Basketball Reference lists teams by abbreviation only. Those campaigns
+      # take their display names from the championship history alignments.
+      display_name = team.fetch("name") unless team.fetch("name") == team.fetch("abbreviation")
+      add("Campaign", campaign, { "display_name" => display_name, "abbreviation" => abbreviation,
         "details" => { "roster_coverage" => "complete_source_listing", "source_player_count" => team.fetch("players").size,
-          "roster_meaning" => capture.fetch("roster_meaning") } }, { "team" => code, "season" => season }, source: source)
+          "roster_meaning" => capture.fetch("roster_meaning") } }.compact, { "team" => code, "season" => season }, source: source)
       roster = "#{campaign}-ROSTER-#{capture.fetch('as_of').tr('-', '_')}"
       roster_attributes = { "kind" => capture.fetch("provider") == "basketball_reference" ? "season_appearance_union" : league == "MLB" ? "full_season_inventory" : "published_roster_snapshot",
         "coverage" => "complete", "details" => { "meaning" => capture.fetch("roster_meaning") } }
