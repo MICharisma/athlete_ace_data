@@ -8,6 +8,8 @@ Use `scope` once per file or nested group for shared context. Use semantic codes
 
 Agents and curators gathering data from the web should follow the [curation skills](skills/README.md), starting with `seed-curation`. [COVERAGE.md](COVERAGE.md) defines full coverage and lists the batches to collect next.
 
+For player photos and illustrations, see [Uploading Shots from an agent](SHOT_UPLOADS.md).
+
 ## Check a pull request locally
 
 ```sh
